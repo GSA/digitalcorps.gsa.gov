@@ -1,0 +1,9 @@
+.usa-section {
+  @include u-padding-y(3);
+  &:last-child {
+    @include u-padding-bottom(5);
+  }
+  b, strong {
+    font-weight: bold;
+  }
+}

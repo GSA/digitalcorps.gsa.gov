@@ -1,30 +1,71 @@
-<footer class="usa-footer site-footer" role="contentinfo">
-  <div class="footer-section-bottom bg-base-lighter">
+{% include_cached footer-tagline.html %}
+<footer class="usa-footer usa-footer--big">
+  <div class="usa-footer__primary-section">
     <div class="grid-container">
-      <div class="grid-row padding-3">
-        <div class="tablet:grid-col">
-          <div class="logo-links">
-            <a class="footer-logo media_link" href="https://18f.gsa.gov">
-              {% asset logo-img.png width="50" alt="Agency logo" %}
-            </a>
+      <div class="padding-top-4 padding-bottom-2 mobile-lg:padding-bottom-0">
+        <a href="{{ site.baseurl }}/">
+          {% asset pif-logo-nav.png alt="Presidential Innovation Fellows Logo" width="189" %}
+        </a>
+      </div>
+      <div class="grid-row grid-gap">
+        <div class="tablet:grid-col-8">
+          <nav aria-label="Footer navigation" class="usa-footer__nav">
+            <div class="grid-row">
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  <h4 class="usa-footer__primary-link">Presidential Innovation Fellows</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/fellows">Fellows</a></li>
+                    <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/projects">Projects</a></li>
+                    <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/agencies">Agencies</a></li>
+                    <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/faq">FAQ</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  <h4 class="usa-footer__primary-link">Get in touch</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                    <!-- <li class="usa-footer__secondary-link"><a href="/contact-us">Contact Us</a></li> -->
+                    <li class="usa-footer__secondary-link"><a href="mailto:pif-team@gsa.gov">pif-team@gsa.gov</a> </li>
+                    <li>
+                      <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/PIFgov">
+                        <span>Twitter</span>
+                      </a>
+                      <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/white-house-presidential-innovation-fellows/">
+                        <span>LinkedIn</span>
+                      </a>
+                    </li>
+                    <li>
+
+                    </li>
+
+                  </ul>
+                </section>
+              </div>
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
+                  <h4 class="usa-footer__primary-link">Policies and standards</h4>
+                  <ul class="usa-list usa-list--unstyled">
+                    <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/linking-policy">Linking policy</a></li>
+                    <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/privacy-and-security-notice">Privacy and security</a> </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="tablet:grid-col-4">
+          <div class="usa-sign-up">
+            <form class="usa-form" id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_1" accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==" />
+              <label id="pif-email-sign-up" for="email" class="usa-sign-up__heading">Sign up for PIF updates</label>
+              <input class="usa-input" type="text" name="email" id="email" placeholder="Enter your email address" aria-labelledby="pif-email-sign-up"/>
+              <input class="usa-button usa-button--secondary" type="submit" name="commit" value="Submit" />
+            </form>
           </div>
-        </div>
-        <div class="tablet:grid-col"></div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
-        </div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
         </div>
       </div>
     </div>
   </div>
+  {% include anchor.html %}
 </footer>

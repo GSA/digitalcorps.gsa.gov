@@ -1,52 +1,48 @@
-/*
-  Customize US Web Design System SASS
-  See all at designsystem.digital.gov/documentation/settings
-*/
+@import "uswds-settings";
 
-// Example - Override the background image in the hero component using SASS:
-// $theme-hero-image: asset_path("whatever-the-default-is.png");
-
+// Import the US Web Design System SASS.
 @import "uswds";
 
-// Example - Override the background image in the hero component using CSS:
-//.usa-hero {
-//  background-image: asset_url("your-image.png")
-//  background-position: 50%;
-//  background-size: cover;
-//}
+// Custom Mixins
+@import "mixins";
 
-/*
-  Add your SASS/CSS here
-*/
+// Custom Utilities
+@import "utilities";
 
-// default mode hide banner
-.usa-banner__content {
-  display: hidden;
-}
+// USWDS Overrides
+@import "uswds-overrides/button";
+@import "uswds-overrides/nav";
+@import "uswds-overrides/intro";
+@import "uswds-overrides/hero";
+@import "uswds-overrides/list";
+@import "uswds-overrides/graphic-list";
+@import "uswds-overrides/social-link";
+@import "uswds-overrides/footer";
+@import "uswds-overrides/section";
+@import "uswds-overrides/logo";
+@import "uswds-overrides/menu";
+@import "uswds-overrides/banner";
+@import "uswds-overrides/form";
 
-@media screen and (min-width: 640px) {
-  .tablet\:width-1\/3 {
-    width: 33%;
-  }
-  .tablet\:float-left {
-    float: left;
-  }
-}
+// Search.gov override
+@import "searchgov/form";
 
-@media screen and (min-width: 640px) {
-  .paginate-link {
-    display: initial;
-  }
-  .paginate-button {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .paginate-link {
-    display: none;
-  }
-  .paginate-button {
-    display: block;
-  }
-}
+// Custom Styles
+@import "custom/anchor";
+@import "custom/pagination";
+@import "custom/breadcrumb";
+@import "custom/project";
+@import "custom/image";
+@import "custom/partner";
+@import "custom/project-fellows";
+@import "custom/project-item";
+@import "custom/list-fellows";
+@import "custom/site-card";
+@import "custom/work-box";
+@import "custom/typography";
+@import "custom/quote";
+@import "custom/footer-tagline";
+@import "custom/skipnav";
+@import "custom/story";
+@import "custom/project-team";
+@import "custom/filters";
