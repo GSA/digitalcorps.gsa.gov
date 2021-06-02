@@ -1,6 +1,6 @@
 # United States Digital Corp
 
-The [U.S. Digital Corp](https://corps.digital.gov/) is developed using the [U.S. Web Design System v2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for [Federalist](https://federalist.18f.gov/) websites.
+The [U.S. Digital Corp](https://corps.digital.gov/) website is developed using the [U.S. Web Design System v2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for [Federalist](https://federalist.18f.gov/) websites.
 
 This code uses the [Jekyll](https://jekyllrb.com) site engine and built with Ruby.
 
