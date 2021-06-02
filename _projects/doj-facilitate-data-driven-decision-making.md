@@ -10,7 +10,7 @@ partner_description: "The U.S. Department of Justice's mission is to enforce the
 project_link: https://www.justice.gov
 status: "upcoming"
 ---
-The Office of the Deputy Attorney General is seeking three Presidential Innovation Fellows to work on a set of cross-cutting challenges across the Department of Justice. These projects will be championed by the highest levels of DOJ leadership, and will include:
+The Office of the Deputy Attorney General is seeking three U.S. Digital Corps Fellows to work on a set of cross-cutting challenges across the Department of Justice. These projects will be championed by the highest levels of DOJ leadership, and will include:
 
 <ol>
 <li>Ensuring the primacy of data in decision-making, through Department-wide data and technology modernization, process reengineering, and trend analysis.</li>

@@ -15,7 +15,7 @@ In order to succeed in their mandate, the DISC needs to bring together a diverse
 
 As part of this team, the DISC requires expertise in potentially two particular areas of industry best practice to complement existing skills and competencies: (1) software platform architecture and development, including cloud-native and cloud-to-edge strategies; and (2) software application architecture and development, including DevOps, security, and CI/CD practices.
 
-In order to identify and incorporate in this rare and valuable expertise, the DISC would like to partner with the Presidential Innovation Fellows (PIF) program to access the best possible talent from industry for addressing these challenges.
+In order to identify and incorporate in this rare and valuable expertise, the DISC would like to partner with the U.S. Digital Corps Fellows (USDC) program to access the best possible talent from industry for addressing these challenges.
 
 The DISC is looking for a software application architect and engineer who has hands-on expertise developing enterprise software for specialist use cases in a range of compute environments ranging from cloud-native to on-premise. This person should be comfortable working as part of a senior level team including platform architects, product and program managers, and domain SMEs, to help shape and define software application strategies in the face of existing systems and uncertain information. This person should be experienced in DevOps, security, CI/CD, and both monolithic and microservice-based architectures.
 
@@ -23,4 +23,4 @@ The candidate should have experience working with and establishing strategy arou
 
 The fellow will report directly to the Deputy Assistant Secretary of the Navy for Research Development Test and Evaluation (DASN RDT&E), though on a day-to-day basis will assist the DISC Program Manager (PM), Deputy Program Manager (DPM), and overall team in shaping and executing the overall digital strategy.
 
-This role is critical to the future technological development of our Navy, and the nation’s safety. The DISC is very eager to work together with the PIF program in order to address these critical needs.
+This role is critical to the future technological development of our Navy, and the nation’s safety. The DISC is very eager to work together with the USDC Fellow program in order to address these critical needs.

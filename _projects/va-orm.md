@@ -10,7 +10,7 @@ partner_description: "The Office of Resolution Management (ORM) at Department of
 project_link: https://www.va.gov/orm/
 status: "current"
 ---
-The mission of the Office of Resolution Management (ORM) at Department of Veterans Affairs is to prevent and resolve conflict, disputes and harassment; and, foster a civil, diverse, inclusive work environment that enables our customers to serve our nation’s veterans. As part of this effort, the Department of VA/ORM is seeking Presidential Innovation Fellows to work on the following challenges:
+The mission of the Office of Resolution Management (ORM) at Department of Veterans Affairs is to prevent and resolve conflict, disputes and harassment; and, foster a civil, diverse, inclusive work environment that enables our customers to serve our nation’s veterans. As part of this effort, the Department of VA/ORM is seeking U.S. Digital Corps Fellows to work on the following challenges:
 <ul>
 <li>Transition: Office of Resolution Management manages many challenges around the collection, management, and oversight of cases of discrimination for today's VA employees. How can we ensure from a Human-Centered Design and Customer Experience leadership perspective that the Department of VA/ORM is providing the right services and products to assist VA employees in understanding their rights, outreach efforts, and end-to-end management of those cases: what it looks like to the Department of VA/ORM employees and the journey of the VA employee?</li>
 <li>APIs: As the second largest discrimination management program office in the Federal Government, VA has massive and valuable data. How can the Department of VA/ORM use data science to understand and predict based on insights they collect?</li>

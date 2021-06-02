@@ -11,7 +11,7 @@ project_link: https://www.cms.gov
 status: ["upcoming","current"]
 ---
 
-The Presidential Innovation Fellow (PIF) will work in the Data & Analytics Strategy Group (DASG) within the Office of Enterprise Data & Analytics and report to the DASG Director, Yadira Sanchez. DASG designs, develops and promotes the use of innovative mechanisms to securely share data internally within CMS and externally to partners. DASG has been primarily focused on data sharing though the use of HL7 FHIR formatted Application Programming Interfaces (APIs). The PIF will focus on long-term strategic planning to continue the growth and use of FHIR in the API development and standardization.
+The U.S. Digital Corps Fellow (USDC) will work in the Data & Analytics Strategy Group (DASG) within the Office of Enterprise Data & Analytics and report to the DASG Director, Yadira Sanchez. DASG designs, develops and promotes the use of innovative mechanisms to securely share data internally within CMS and externally to partners. DASG has been primarily focused on data sharing though the use of HL7 FHIR formatted Application Programming Interfaces (APIs). The USDC Fellow will focus on long-term strategic planning to continue the growth and use of FHIR in the API development and standardization.
 
 Guiding this work are two major initiatives that are driving interoperability at CMS:
 
@@ -30,7 +30,7 @@ The MyHealthEData initiative and the Interoperability and Patient Access final r
 <li>Data at the Point of Care is a pilot that will test sharing Medicare Fee-For-Service data with healthcare providers that can be used at the point of care to inform them of things they don't already know, to confirm things that are suspected, to fill gaps in care, and to improve patient safety.</li>
 </ul>
 
-With a focus on long-term strategic planning as described above, the PIF will:
+With a focus on long-term strategic planning as described above, the USDC Fellow will:
 
 <strong>Engage with the FHIR developer community both in government and private industry</strong>
 <ul>
@@ -46,4 +46,4 @@ With a focus on long-term strategic planning as described above, the PIF will:
   <li>Evaluate current policy and work with the team to develop a roadmap and action plan for CMS to implement</li>
 </ul>
 
-The PIF may also participate in hands-on development of FHIR-based APIs.
+The USDC Fellow may also participate in hands-on development of FHIR-based APIs.

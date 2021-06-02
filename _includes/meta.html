@@ -1,6 +1,3 @@
-{% comment %}
-You shouldn't have to edit this page very often. But if you want to modify some of the meta-data for the site, this is the place to do it.
-{% endcomment %}
 <!--
                       __,__r========qL,
                    ,m**`~'            XW;
@@ -40,20 +37,23 @@ You shouldn't have to edit this page very often. But if you want to modify some 
                                                  ~`#WdD~  Y!
                                                  `'_|#f+-
   Like code? Want to use your skills for public good?
-  Apply to be a Presidential Innovation Fellow: https://apply.pif.gov
+  Apply to be a U.S. Digital Corps Fellow: https://corps.digital.gov/apply
 -->
 <head>
-  <!-- Basic Page Needs
-    ================================================== -->
+  <!-- Basic Page Needs ======================================= -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- Mobile Specific Metas
-    ================================================== -->
+
+  {% unless site.branch == "main" %}
+  <meta name="robots" content="noindex, nofollow">
+  {% endunless %}
+
+  <!-- Mobile Specific Metas ================================== -->
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Title and meta description
-    ================================================== -->
+
+  <!-- Title and meta description ============================= -->
   <title>{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}</title>
   <meta property="og:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">{% if include.description_apply %}
   <meta name="description" content="{{ include.description_apply }}">{% else %}
@@ -64,21 +64,20 @@ You shouldn't have to edit this page very often. But if you want to modify some 
   <meta property="og:description" content="{{site.description}}">{% endif %}{% if include.description_apply %}
   <meta property="og:image" content="{% asset pif-application-2021.png @path %}">{% else %}
   <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">{% endif %}
+  <meta property="og:type" content="article">{% if page.url == "/projects/case-studies" %}
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
   <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />{% if include.description_apply %}
   <meta name="twitter:description" content="{{ include.description_apply }}" />{% else %}
   <meta name="twitter:description" content="{{site.description}}" />{% endif %}{% if include.description_apply %}
-  <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-application-2021.png @path %}" />{% else %}
-  <meta name="twitter:image" content="https://presidentialinnovationfellows.gov{% asset pif-nasa-square.jpg @path %}" />{% endif %}
+  <meta name="twitter:image" content="https://corps.digital.gov{% asset pif-application-2021.png @path %}" />{% else %}
+  <meta name="twitter:image" content="https://corps.digital.gov{% asset pif-nasa-square.jpg @path %}" />{% endif %}
 
-  <meta property="og:type" content="article">{% if page.url == "/projects/case-studies" %}
   <link rel="canonical" href="{{site.url}}/projects/">{% else %}
   <link rel="canonical" href="{{site.url}}{{page.url}}">{% endif %}
 
-  <!-- Favicons
-    ================================================== -->
+  <!-- Favicons =============================================== -->
   <!-- 128x128 -->
   <link rel="shortcut icon" type="image/ico" href="{% asset favicon.ico @path %}">
   <link rel="icon" type="image/png" href="{% asset favicon.png @path %}">
@@ -94,8 +93,7 @@ You shouldn't have to edit this page very often. But if you want to modify some 
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% asset favicon-114.png @path %}">
   <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% asset favicon-144.png @path %}">
-  <!-- CSS
-    ================================================== -->
+
+  <!-- CSS ==================================================== -->
   {% asset index.scss %}
-  <meta name="google-site-verification" content="e6W37fYyyy6k_qp6E4A64dMwG8PozXZibjVG3J_bR94" />
 </head>

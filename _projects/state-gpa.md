@@ -10,7 +10,7 @@ partner_description: "The mission of the Bureau of Global Public Affairs (GPA) i
 project_link: https://www.state.gov
 ---
 
-The PIF Technical Advisor will work with the three teams within the Office of Analytics (The Media Monitoring Unit, The Data Science Unit and the Platforms Unit) to develop and monitor their technical aspects.
+The USDC Fellow Technical Advisor will work with the three teams within the Office of Analytics (The Media Monitoring Unit, The Data Science Unit and the Platforms Unit) to develop and monitor their technical aspects.
 <ul>
 <li>The Media Monitoring Unit produces regular and special-issue media reports and trend analyses, formulates strategic and tactical communications advice based on overall policy goals and observations of media market dynamics, assesses past campaign performance, and provides competitive assessments of other actors.</li>
 <li>The Data Science Unit extracts knowledge and insights from data in various forms, both structured and unstructured, and standardizes and enters all collected media content into an information technology (IT) database for analysis by Global Public Affairs (GPA) bureau experts. It uses statistical, algorithmic, mining, and visualization techniques to integrate and prepare large datasets, create specialized database and computing environments, and communicate its results.</li>

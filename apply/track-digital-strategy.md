@@ -1,25 +1,25 @@
 ---
 layout: page
-title: Presidential Innovation Fellow - Digital Strategy
+title: U.S. Digital Corps Fellow - Digital Strategy
 sidenav: false
 banner: false
 permalink: /apply/track-digital-strategy/
 state: 'open'
-track_name: 'Presidential Innovation Fellow: Digital Strategy'
-role_name: Presidential Innovation Fellow
+track_name: 'U.S. Digital Corps Fellow: Digital Strategy'
+role_name: U.S. Digital Corps Fellow
 opens: 'March 5, 2021, 12pm Eastern Time'
 closes: 'May 14, 2021, 11:59pm Pacific Time'
 location: 'Washington, DC'
 gs_level: 15
 salary_min: '144,128'
 salary_max: '144,128'
-org: 'Presidential Innovation Fellows'
+org: 'U.S. Digital Corps Fellows'
 contact_email: 'jointts@gsa.gov'
 job_announcement_number: '21FASC201SBOTR'
 pd_job_title: 'Industry Specialist'
 num_vacancies: '25'
 series: '0301'
-apply_url: https://apply.pif.gov/
+apply_url: https://corps.digital.gov/apply/
 ohrm_contact_email: 'stephanie.bernstein@gsa.gov'
 ohrm_contact_name: 'Stephanie Bernstein'
 bargaining_unit: 'Non Bargaining Unit'
@@ -87,11 +87,11 @@ Excepted Service: Initial appointment 12 months and 1 day and may be extended as
 
 ### {{ page.role_name }} - GS-{{ page.gs_level }}
 
-Presidential Innovation Fellows (PIF) is a renowned fellowship program that pairs mid-to-senior-level entrepreneurs, executives, and technologists of all kinds with civil servants and change-makers working within the federal government to tackle some of our nation’s biggest challenges. Fellows are embedded within agencies as entrepreneurs-in-residence for 12-24 month engagements working on mission-critical problems, shaping smarter policy and/or advancing equitable  technology for public good.
+U.S. Digital Corps Fellows (USDC) is a renowned fellowship program that pairs mid-to-senior-level entrepreneurs, executives, and technologists of all kinds with civil servants and change-makers working within the federal government to tackle some of our nation’s biggest challenges. Fellows are embedded within agencies as entrepreneurs-in-residence for 12-24 month engagements working on mission-critical problems, shaping smarter policy and/or advancing equitable  technology for public good.
 
-Since the program was launched in 2012 by former U.S. CTO Todd Park, [193 Fellows](https://presidentialinnovationfellows.gov/fellows/) have worked with over [45 agencies](https://presidentialinnovationfellows.gov/agencies/). Our Fellows join us from big tech, startups, academia, and more. Our Fellows come from diverse backgrounds and have a wide range of skills, but they share compassion, excellence, and dedication.  Past fellows’ projects have focused on improving care and access to benefits for our veterans, re-imagining cancer clinical trials to increase awareness and access for patients, advancing digital health platforms and diagnostics to combat COVID-19, ensuring AI tools are not biased against job seekers with disabilities, and creating a central digital location to share and improve outcomes for children within the foster care system.
+Since the program was launched in 2012 by former U.S. CTO Todd Park, [193 Fellows](https://corps.digital.gov/fellows/) have worked with over [45 agencies](https://corps.digital.gov/agencies/). Our Fellows join us from big tech, startups, academia, and more. Our Fellows come from diverse backgrounds and have a wide range of skills, but they share compassion, excellence, and dedication.  Past fellows’ projects have focused on improving care and access to benefits for our veterans, re-imagining cancer clinical trials to increase awareness and access for patients, advancing digital health platforms and diagnostics to combat COVID-19, ensuring AI tools are not biased against job seekers with disabilities, and creating a central digital location to share and improve outcomes for children within the foster care system.
 
-Applicants can apply online at [apply.pif.gov](https://presidentialinnovationfellows.gov/apply/) and Fellows will start this winter.
+Applicants can apply online at [corps.digital.gov/apply](https://corps.digital.gov/apply/) and Fellows will start this winter.
 
 The characteristics that we look for in Fellows, include: 
 
@@ -151,13 +151,13 @@ deliver with integrity, ensuring compliance at all levels
   
 ## Job Summary
   
-The Presidential Innovation Fellows (PIF) program brings the principles, values, and practices of the innovation economy into government through the most effective agents of change we know: our people. PIF pairs talented, diverse individuals from the innovation community with forward-thinking civil servants to tackle many of our nation’s biggest challenges, and to achieve profound and lasting social impact. Serving as trusted advisors and experts alongside government leaders, these Fellows use approaches across data science, human-centered design, and lean startup methodology to achieve results for the American people in months, not years.
+The U.S. Digital Corps Fellows (USDC) program brings the principles, values, and practices of the innovation economy into government through the most effective agents of change we know: our people. USDC Fellow pairs talented, diverse individuals from the innovation community with forward-thinking civil servants to tackle many of our nation’s biggest challenges, and to achieve profound and lasting social impact. Serving as trusted advisors and experts alongside government leaders, these Fellows use approaches across data science, human-centered design, and lean startup methodology to achieve results for the American people in months, not years.
 
 The position requires Fellows perform work of an exceptional degree of difficulty across a wide range of topics at the convergence of technology, policy, and delivery. The Fellow will leverage their experience deploying high-­quality, human-centered platforms and services to lead major initiatives, consult on systems and policy proposals, and provide technical, policy, and programmatic guidance to government agencies. The individual will be expected to deliver innovative solutions that draw upon best practices. These solutions should have the potential to dramatically improve the delivery of government services, and provide value to the public at whom those services are directed.
 
 The incumbent will use their demonstrated experience building and scaling initiatives to grow the effectiveness of the program.
 
-This position is located within the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Service (TTS), Office of the Presidential Innovation Fellows (PIF).
+This position is located within the General Services Administration (GSA), Federal Acquisition Service (FAS), Technology Transformation Service (TTS), Office of the U.S. Digital Corps Fellows (USDC).
 
 GSA has been repeatedly named as one of the ['Best Places to Work'](http://bestplacestowork.org/BPTW/rankings/overall/mid)
 in the federal government.
@@ -185,7 +185,7 @@ You will have access to many [benefits](http://www.gsa.gov/portal/category/26702
 
 ## Duties
 
-Typical duties for the Presidential Innovation Fellow include, but are not limited to:
+Typical duties for the U.S. Digital Corps Fellow include, but are not limited to:
 
 Analyzing and scoping the technical and policy requirements needed to implement complex digital solutions; conceiving/recommending projects/studies to advance state-of-the-art work in the specialty area; applying forward ­thinking design and development principles to product development and program management, such as lean startup, human-centered design, equity-centered design, and agile development; assessing the state of digital services provided by the Federal Government, and working to align strategies and practice; conferring with key government/private officials and top experts in the field; representing the agency at technical symposia and/or conferences; developing authoritative papers/reports; developing and leading adoption of government­wide standards for digital services, leading to their adoption across citizen- and business-­facing government services; demonstrating thought leadership and contributing best practices in a variety of technologies and principles; contributing to a talent strategy that includes recruiting innovators and entrepreneurs to participate in solving complex and esoteric challenges.
 

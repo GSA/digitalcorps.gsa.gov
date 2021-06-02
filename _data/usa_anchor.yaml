@@ -2,10 +2,10 @@
 # See usa_anchor.html for the template
 
 anchor_data:
-    site_name: Presidential Innovation Fellows
-    site_email: pif-team@gsa.gov
-    site_url: https://presidentialinnovationfellows.gov
-    site_about: https://presidentialinnovationfellows.gov/about/
+    site_name: U.S. Digital Corp
+    site_email: usdc@gsa.gov
+    site_url: https://corps.digital.gov
+    site_about: https://corps.digital.gov/about/
     agency: U.S. General Services Administration
     agency_acronym: GSA
     agency_logo: /img/gsa-logo-w100.png

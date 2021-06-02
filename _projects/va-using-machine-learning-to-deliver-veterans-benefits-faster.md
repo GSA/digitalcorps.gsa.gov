@@ -19,7 +19,7 @@ fellows:
 ---
 
 <h2 class="text-primary text-no-italic" id="the-solution">The <em>solution</em></h2>
-The PIF—a data science expert with a decade of industry experience at Fortune 100 companies—worked with the VA Office of the Chief Technology Officer (CTO) to build a machine learning application programming interface (API), referred to as Content Classification Predictive Service (CCPS). CCPS analyzes what veterans write on a claim. It automatically predicts the most likely classification for it to automatically start the claim process.
+The USDC Fellow—a data science expert with a decade of industry experience at Fortune 100 companies—worked with the VA Office of the Chief Technology Officer (CTO) to build a machine learning application programming interface (API), referred to as Content Classification Predictive Service (CCPS). CCPS analyzes what veterans write on a claim. It automatically predicts the most likely classification for it to automatically start the claim process.
 
 CCPS is the first machine learning API the VA implemented. The tool reads what a veteran writes as their current disability on a disability compensation form. It then uses AI to match that entry to a classification. For example, if a veteran indicates “ringing in my ears,” CCPS classifies it as “hearing loss.” The veteran can then get an appointment with an audiologist.
 
@@ -33,13 +33,13 @@ CCPS is the first machine learning API the VA implemented. The tool reads what a
 This API has processed over 400K claims automatically without needing human intervention, a <strong>24x increase that has saved $1.5M in direct labor cost</strong>. The VA CTO team is now scaling this technology in new products and services.
 
 
-Also, the VA’s new CTO Office Benefits team is working to develop technology tools and services that will deliver benefits faster. The team, led by PIF alum Zachary Goldfine, helps teams implement optical character recognition to
+Also, the VA’s new CTO Office Benefits team is working to develop technology tools and services that will deliver benefits faster. The team, led by USDC Fellow alum Zachary Goldfine, helps teams implement optical character recognition to
 automatically process handwriting on PDFs,
 automate parts of a benefits application process, and
 build out an orchestration layer of services that delivers benefits faster.
 
 In October 2020, VA Office of the CTO brought on <a href="https://www.gsa.gov/blog/2020/10/19/passion-and-purpose-meet-the-2021-presidential-innovation-fellows">even more PIFs</a> as data science experts to continue scaling this work.
 
-<blockquote>“[Presidential Innovation Fellow] Nel Colón and his VA partners used a modern data science technique to get benefits to Veterans more quickly. They solved the right problem with the right technology and served as an example of why it's so impactful for people with modern technology skillsets to work in government.”
+<blockquote>“[U.S. Digital Corps Fellow] Nel Colón and his VA partners used a modern data science technique to get benefits to Veterans more quickly. They solved the right problem with the right technology and served as an example of why it's so impactful for people with modern technology skillsets to work in government.”
 <footer><cite>— Zachary Goldfine, Deputy Chief Technology Officer, U.S. Department of Veterans Affairs Office Benefits Team</cite></footer>
 </blockquote>

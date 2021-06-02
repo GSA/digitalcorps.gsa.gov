@@ -14,7 +14,7 @@ status: "upcoming"
 ---
 While there is a broad array of data that exists in different FEMA systems, and the COVID-19 response revealed that partners are willing to share data, FEMA faces challenges in syncing data across different programs and systems and proactively identifying and building the most efficient ways for collecting and utilizing data from various sources internal and external to the Agency. Despite being best positioned to act on the significant amount of data FEMA has access to, Regions lack the capability to properly process it. Recent experiences with COVID-19 highlight the need to develop a strategic approach for data management and analysis in advance of disasters, especially at the Regional level.
 
-In response, FEMA’s National Preparedness Division is establishing a new branch focused on data management and analytics, which will serve as a shared, cross-divisional, enterprise-wide service hub and center of excellence that supports all Regional programs. The Presidential Innovation Fellow will work closely with Regional leadership to establish the new branch and will help the Region adopt best practices for data management and analytics.
+In response, FEMA’s National Preparedness Division is establishing a new branch focused on data management and analytics, which will serve as a shared, cross-divisional, enterprise-wide service hub and center of excellence that supports all Regional programs. The U.S. Digital Corps Fellow will work closely with Regional leadership to establish the new branch and will help the Region adopt best practices for data management and analytics.
 
 The Fellow will help establish a centralized and well-organized strategic approach for data management and analytics, and will help lead the development of a qualified, dedicated team to support those efforts. Enhanced data management and analytic capabilities will allow the Region to realize significant efficiencies, using risk-informed planning to more effectively direct investments toward projects that build resilience and capacity among the Region’s partners. This will also help the Region take a more data-driven approach to measure success across different levels of the organization, as well as reduce complexity by better linking internal strategic and operating plans, budgets, staffing, and readiness and performance metrics.
 
@@ -34,4 +34,4 @@ The fellow for this project will need to be an outstanding technical product lea
 
 **---**
 
-Presidential Innovation Fellows working with FEMA Region 9 will be based in Oakland, CA.
+U.S. Digital Corps Fellows working with FEMA Region 9 will be based in Oakland, CA.

@@ -10,7 +10,7 @@ partner_description: "The U.S. Centers for Disease Control and Prevention (CDC),
 project_link: https://www.cdc.gov
 status: ["upcoming"]
 ---
-Presidential Innovation Fellows working with the CDC will advise, consult, and advance innovation on the current state of digital health technologies, policies, and capabilities at the CDC, including the use of AI, data and analytics in a cloud environment. Potential focus areas include:
+U.S. Digital Corps Fellows working with the CDC will advise, consult, and advance innovation on the current state of digital health technologies, policies, and capabilities at the CDC, including the use of AI, data and analytics in a cloud environment. Potential focus areas include:
 <ul>
 <li><strong>Datahub:</strong> CDC is looking to strengthen and lead their engineering and big data analytics capabilities to monitor and improve public health, including the development of CDC’s Datahub, an agency-wide data lake.</li>
 <li><strong>Cloud Incubator:</strong> CDC is looking to improve the development of interoperable systems. This includes technical innovation to monitor and improve public health by establishing a cloud incubator as a fail-safe environment to conduct research and development and feasibility studies.</li>
@@ -22,4 +22,4 @@ Presidential Innovation Fellows working with the CDC will advise, consult, and a
 </ul>
 **---**
 
-Presidential Innovation Fellows working with the CDC will be based in Atlanta, GA.
+U.S. Digital Corps Fellows working with the CDC will be based in Atlanta, GA.

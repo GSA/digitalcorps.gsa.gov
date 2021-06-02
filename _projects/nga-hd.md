@@ -23,7 +23,7 @@ NGA’s 2025 Strategy has four goals:
   <li>In order to achieve these goals in a timely manner, NGA’s first imperative is to attract, develop, support and retain a diverse, highly skilled, agile and data-driven workforce.</li>
 </ul>
 
-NGA desires a Presidential Innovation Fellow to work with Agency senior leaders to perform an Agency culture analysis and develop the framework of a comprehensive culture plan founded on innovative data solutions. This Culture plan will align the Agency with its 2025 Strategy Goals, Workforce Imperatives and enable us to achieve our “moonshot” as described in the <a href="https://www.nga.mil">NGA Director’s Intent</a>.
+NGA desires a U.S. Digital Corps Fellow to work with Agency senior leaders to perform an Agency culture analysis and develop the framework of a comprehensive culture plan founded on innovative data solutions. This Culture plan will align the Agency with its 2025 Strategy Goals, Workforce Imperatives and enable us to achieve our “moonshot” as described in the <a href="https://www.nga.mil">NGA Director’s Intent</a>.
 
 Developing an executable NGA culture plan will greatly aid in operationalizing culture change management across the NGA enterprise.  Additionally, this culture plan will align and harmonize multiple business initiatives, and drive transformational change based on NGA’s Core Values of Excellence (Accountability, Respect, Teamwork and Honesty).
 

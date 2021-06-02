@@ -21,7 +21,7 @@ fellows:
     url: "/fellows/michael-brown/"
 ---
 
-In 2017, Presidential Innovation Fellow Michael Brown [co-authored](https://admin.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_(1).pdf "Read: Defense Innovation Unit Experimental (DIUx)
+In 2017, U.S. Digital Corps Fellow Michael Brown [co-authored](https://admin.govexec.com/media/diux_chinatechnologytransferstudy_jan_2018_(1).pdf "Read: Defense Innovation Unit Experimental (DIUx)
 China’s Technology Transfer Strategy") a report exploring China’s participation in U.S. venture deals to assess: how large the overall investment was, whether it was growing and what technologies were the focus of investment. In the process he found Chinese participation in venture-backed startups at a record level of 10-16 of all venture deals (2015-2017) and that investment had grown rapidly in the past seven years.
 
 The report also found that the technologies where China is investing are the same ones where U.S. firms are investing and that will be foundational to future innovation: artificial intelligence, autonomous vehicles, augmented/virtual reality, robotics and blockchain technology. Moreover, these are some of the same technologies of interest to the U.S. Department of Defense to build on the technological superiority of the U.S. military today. The speed at which dual-use technologies are developed in the commercial sector has significant impact on the nature of warfare and the critical need to master them ahead of competitors.

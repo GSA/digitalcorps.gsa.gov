@@ -1,2 +1,2 @@
 // Add your custom javascript here
-console.log("Hello from the Presidential Innovation Fellows!");
+console.log("Hello from the U.S. Digital Corps!");

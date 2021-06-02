@@ -10,7 +10,7 @@ partner_description: "The mission of the Federal Emergency Management Agency (FE
 project_link: https://www.fema.gov
 status: "current"
 ---
-The Presidential Innovation Fellow will join the Federal Emergency Management Agency's Individual Assistance (IA) team responsible for working with survivors of disasters as they move towards recovery. This Division of more than 3,000 staff manages the customer relationship with disaster survivors.
+The U.S. Digital Corps Fellow will join the Federal Emergency Management Agency's Individual Assistance (IA) team responsible for working with survivors of disasters as they move towards recovery. This Division of more than 3,000 staff manages the customer relationship with disaster survivors.
 
 During the 2017 Hurricane Season, which included Hurricanes Harvey, Irma, and Maria, the Individual Assistance Division was responsible for:
 <ul>
@@ -22,7 +22,7 @@ During the 2017 Hurricane Season, which included Hurricanes Harvey, Irma, and Ma
 <li>Distribution of more than $4 billion to eligible disaster survivors to aid in their recovery.</li>
 </ul>
 
-The PIF will review the existing data, team and program structure to evaluate the overall customer experience capability of IA. Based on this review, the PIF will develop a comprehensive plan to improve on FEMA’s current mechanisms to enable survivor feedback to better and more immediately drive program effectiveness and evolution. This will enable a learning culture at FEMA, empowering FEMA staff with the information they need to best support the needs of disaster survivors, increasing the efficiency of the agency and improving outcomes for citizens.
+The USDC Fellow will review the existing data, team and program structure to evaluate the overall customer experience capability of IA. Based on this review, the USDC Fellow will develop a comprehensive plan to improve on FEMA’s current mechanisms to enable survivor feedback to better and more immediately drive program effectiveness and evolution. This will enable a learning culture at FEMA, empowering FEMA staff with the information they need to best support the needs of disaster survivors, increasing the efficiency of the agency and improving outcomes for citizens.
 
 Examples of success:
 <ul>
