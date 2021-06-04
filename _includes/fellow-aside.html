@@ -1,7 +1,7 @@
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
 
   {% if page.image %}
-  {% asset "{{ page.image }}" class="circle-card" alt="{{ page.image_alt_text }}" %}
+  {% asset "{{ page.image }}" class="img-circle" alt="{{ page.image_alt_text }}" %}
   {% endif %}
 
   <p>Class of <a href="/fellows/{{ include.fellow_year }}">{{ include.fellow_year }}</a></p>

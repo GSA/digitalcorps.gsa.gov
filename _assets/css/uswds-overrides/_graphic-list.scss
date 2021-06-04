@@ -2,19 +2,19 @@
   @include text-links;
 
   p {
-    @include u-font-size('sans', 8);
-    @include u-line-height('sans', 3);
-    @include u-text('primary-darker');
+    @include u-font-size("sans", 8);
+    @include u-line-height("sans", 3);
+    @include u-text("primary-dark");
   }
 
   .usa-graphic-list__heading {
-    @include u-font-size('sans', 12);
-    @include u-text('light');
-    @include u-text('primary-darker');
+    @include u-font-size("sans", 12);
+    @include u-text("light");
+    @include u-text("primary");
   }
 
   &.reverse .usa-graphic-list__heading {
-    @include u-text('primary-vivid');
+    @include u-text("primary-vivid");
   }
 
   .usa-media-block {
@@ -60,7 +60,7 @@
 
   .graphic-number {
     padding-right: 1rem;
-    line-height: .7;
+    line-height: 0.7;
     display: none;
     @include at-media("tablet") {
       display: block;
@@ -68,7 +68,7 @@
   }
 
   &.reverse .graphic-number.display {
-    @include u-text('primary-vivid');
+    @include u-text("primary-vivid");
   }
 
   .graphic-icon__container {
@@ -76,7 +76,7 @@
   }
 
   .graphic-icon {
-    @include u-bg('primary');
+    @include u-bg("primary");
     width: 101px;
     height: 101px;
     border-radius: 50%;
@@ -86,14 +86,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    @include at-media('desktop') {
+    @include at-media("desktop") {
       width: 130px;
       height: 130px;
     }
   }
 
   &.reverse .graphic-icon {
-    @include u-bg('primary-vivid');
+    @include u-bg("primary-vivid");
     top: initial;
     left: initial;
     bottom: 0;

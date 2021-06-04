@@ -10,42 +10,40 @@ layout: default
   </div>
 </div>
 
-<section class="padding-top-4 padding-bottom-1 bg--lightest">
+<section class="use-section highlight">
   <div class="grid-container">
-    <div class="grid-row usa-prose">
-      <p class="body-intro">
-        We're building human-centered solutions that scale, and
-        <br class="display-none tablet:display-inline" />
-        fundamentally changing federal culture while we're at it.
-        <br class="display-none tablet:display-inline" />
-        Learn about some of our fellows below.
+    <div class="grid-row">
+      <p>
+        Bacon ipsum dolor amet cupim swine sausage, filet mignon short ribs picanha tongue boudin pork chop bacon.
+        Shankle frankfurter short ribs, shank sirloin landjaeger pancetta swine ball tip cow pork loin doner hamburger
+        drumstick tail. Cupim bresaola chuck leberkas short loin t-bone. Brisket porchetta pastrami cow, salami spare
+        ribs pork belly ball tip buffalo t-bone swine. T-bone short loin kielbasa, tri-tip leberkas ball tip ground
+        round shoulder pancetta.
       </p>
     </div>
-    <div class="grid-row margin-top-4">
+    <div class="grid-row">
       {% include_cached fellow-filters.html %}
     </div>
   </div>
 </section>
 
-<section class="grid-container usa-layout-docs usa-section">
-  <div class="grid-row grid-gap">
-    <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose list-fellows">
-      <main id="main-content">
-        <!-- initial list that the search results replace -->
-        <span id='fellow-search-default'>
-          {{ content }}
-        </span>
-        <!-- search results container -->
-        <span id='fellow-search-results'>
-        </span>
-      </main>
+<section class="usa-section usa-layout-docs">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose list-fellows">
+        <main id="main-content">
+          <!-- initial list that the search results replace -->
+          <span id='fellow-search-default'>
+            {{ content }}
+          </span>
+          <!-- search results container -->
+          <span id='fellow-search-results'>
+          </span>
+        </main>
+      </div>
     </div>
   </div>
 </section>
-
-{% include_cached quote.html image="quotes/jacqueline_kazil.jpg" quote="It is about having the opportunity to have an
-impact on every American." name="Jacqueline Kazil, 2013 USDC Fellow, detailed to the Federal Emergency Management Agency
-(FEMA)" %}
 
 <!-- vendor search script -->
 {% asset simple_jekyll_search.js %}
@@ -75,7 +73,7 @@ impact on every American." name="Jacqueline Kazil, 2013 USDC Fellow, detailed to
     - Any fellow content needed for template should be added to json above.
     - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
   ***/
-  searchResultTemplate: '<a href="{url}" class="list-item grid-row grid-gap"><div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose list-item-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div class="desktop:grid-col-9 usa-prose"><h2>{title}</h2><p class="content">{content}</p></div></a>'
+  searchResultTemplate: '<a href="{url}" class="list-item grid-row grid-gap"><div class="desktop:grid-col-3 tablet:grid-col-4 usa-prose list-item-img"><img src="{image_path}" class="img-circle" alt="{title}"/></div><div class="desktop:grid-col-9 usa-prose"><h2>{title}</h2><p class="content">{content}</p></div></a>'
   });
   var inFellowSearch = false;
   var defaultList = document.getElementById("fellow-search-default");

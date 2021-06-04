@@ -22,7 +22,7 @@
       {% for fellow in fellows_list %}
 
         {% if forloop.first %}
-          <span class="text-primary-darker font-sans-2xl padding-x-3 display-inline-block">
+          <span class="text-primary-dark font-sans-2xl padding-x-3 display-inline-block">
             &#43;
           </span>
           <div class="project-team__members">
@@ -42,11 +42,11 @@
 
       {% if include.topics %}
         <div class="project-team__topics">
-          <p class="text-primary-darker text-bold text-uppercase margin-0">
+          <p class="text-primary-dark text-bold text-uppercase margin-0">
             TOPICS
           </p>
           {% for topic in include.topics %}
-            <p class="text-primary-darker margin-0">
+            <p class="text-primary-dark margin-0">
               {{ topic }}
             </p>
           {% endfor %}

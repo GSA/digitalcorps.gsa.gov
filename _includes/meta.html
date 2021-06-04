@@ -29,15 +29,13 @@
         ~    m*~'   '#`\8#W4KW#qX@VW##W#8##8#rNWK###G-
             `'       #`8*=#YWWK/b+WW#W#*#MWm8*KKd#M#**m,
                      #Z'  VW#f'~M+NM#####K#8@WLMZKX#W#+M;
-                              ~` *YM#######@*)P/+DK####m#
+    Like code?                ~` *YM#######@*)P/+DK####m#
                                    `'*##fXVPX|Vr~##Z#W@N@
-                                      `WL_d**DfWX#8#WK##*b
-                                                `W###@#N#/b
+    Want to use your skills           `WL_d**DfWX#8#WK##*b
+    for public good?                            `W###@#N#/b
                                                  .#mj#X~YM#
-                                                 ~`#WdD~  Y!
-                                                 `'_|#f+-
-  Like code? Want to use your skills for public good?
-  Apply to the U.S. Digital Corps: https://corps.digital.gov/apply
+    Apply to the U.S. Digital Corps:             ~`#WdD~  Y!
+    https://corps.digital.gov/apply              `'_|#f+-
 -->
 <head>
   <!-- Basic Page Needs ======================================= -->
@@ -56,28 +54,38 @@
 
   <!-- Title and meta description ============================= -->
   <title>{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}</title>
-  <meta property="og:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">{% if include.description_apply %}
-  <meta name="description" content="{{ include.description_apply }}">{% else %}
-  <meta name="description" content="{{site.description}}">{% endif %}
-
+  <meta property="og:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">
+  
   {% if include.description_apply %}
-  <meta property="og:description" content="{{ include.description_apply }}">{% else %}
-  <meta property="og:description" content="{{site.description}}">{% endif %}{% if include.description_apply %}
-  <meta property="og:image" content="{% asset pif-application-2021.png @path %}">{% else %}
-  <meta property="og:image" content="{% asset pif-nasa-square.jpg @path %}">{% endif %}
-  <meta property="og:type" content="article">{% if page.url == "/projects/case-studies" %}
+  <meta name="description" content="{{ include.description_apply }}">
+  <meta property="og:description" content="{{ include.description_apply }}">
+  <meta property="og:image" content="{% asset usdc-application.png @path %}">
+  {% else %}
+  <meta name="description" content="{{site.description}}">
+  <meta property="og:description" content="{{site.description}}">
+  <meta property="og:image" content="{% asset usdc-social-default.jpg @path %}">
+  {% endif %}
 
+  <meta property="og:type" content="article">
+    
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />{% if include.description_apply %}
-  <meta name="twitter:description" content="{{ include.description_apply }}" />{% else %}
-  <meta name="twitter:description" content="{{site.description}}" />{% endif %}{% if include.description_apply %}
-  <meta name="twitter:image" content="https://corps.digital.gov{% asset pif-application-2021.png @path %}" />{% else %}
-  <meta name="twitter:image" content="https://corps.digital.gov{% asset pif-nasa-square.jpg @path %}" />{% endif %}
+  <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />
+  
+  {% if include.description_apply %}
+  <meta name="twitter:description" content="{{ include.description_apply }}" />
+  {% else %}
+  <meta name="twitter:description" content="{{site.description}}" />
+  {% endif %}
+  
+  {% if include.description_apply %}
+  <meta name="twitter:image" content="https://corps.digital.gov{% asset usdc-application.png @path %}" />
+  {% else %}
+  <meta name="twitter:image" content="https://corps.digital.gov{% asset usdc-social-default.jpg @path %}" />
+  {% endif %}
 
-  <link rel="canonical" href="{{site.url}}/projects/">{% else %}
-  <link rel="canonical" href="{{site.url}}{{page.url}}">{% endif %}
-
+  <link rel="canonical" href="{{site.url}}{{page.url}}">
+  
   <!-- Favicons =============================================== -->
   <!-- 128x128 -->
   <link rel="shortcut icon" type="image/ico" href="{% asset favicon.ico @path %}">

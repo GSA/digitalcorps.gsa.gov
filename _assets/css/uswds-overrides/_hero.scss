@@ -1,3 +1,5 @@
+// note: some font specs for HERO are inherited from typography.scss
+
 .usa-hero {
   background-image: none;
   background-position: right;
@@ -6,7 +8,10 @@
   // padding: 0;
   // overflow: hidden;
   // @include overlay-base(600px);
+
   @include at-media("tablet") {
+    // see customizations at bottom of page for 
+    // unique images, this is the default (home)
     background-image: url(asset_path("hero-splash.jpeg"));
     // background-size: 100%;
   }
@@ -29,11 +34,11 @@
 
 .usa-hero__callout {
   background-color: transparent;
+  color: color('primary-dark');
   max-width: 40rem;
+  padding-top: 4rem;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 4rem;
-  color: color('primary-darker');
 
   h2 {
     @include u-font('sans', 'xl');
@@ -45,8 +50,7 @@
 
 .usa-hero__heading {
   @include u-font-family('sans');
-  @include u-text('semibold');
-  @include u-text('primary-darker');
+  @include u-text('primary-dark');
   line-height: 0.9;
   font-size: 2.813rem; // 45 px
   @include at-media("mobile-lg") {
@@ -65,7 +69,26 @@
   @include at-media("tablet") {
     height: 350px;
   }
+
+    // SLANTED IMAGE
+    // TODO: may need to do a slant overlay, instead of trying to slant the image?
+    &.image-slanted {
+      -ms-transform: skewX(-20deg);
+      -webkit-transform: skewX(-20deg);
+      transform: skewX(-20deg);
+    }
+  
+    .image-unslanted-content {
+      -ms-transform: skewX(20deg);
+      -webkit-transform: skewX(20deg);
+      transform: skewX(20deg);  
+      display: inline-block;
+    }
+  
 }
+
+
+// BACKGROUND IMAGES
 
 .usa-hero.usa-hero--short {
   @include hero-short;
@@ -92,6 +115,7 @@
 .apply .usa-hero {
   @include hero-short;
   background-image: url(asset_path("banner-capitol-bw.jpg"));
+  background-position: center;
 }
 .usa-hero.project {
   @include hero-short;

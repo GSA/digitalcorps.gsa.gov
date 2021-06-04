@@ -3,7 +3,7 @@
 // Using the USWDS Design Tokens
 
 .component-anchor{
-  @include u-bg('primary-darker');
+  @include u-bg('primary-dark');
   @include u-text('white');
   &:hover, &:active {
     @include u-text('white');

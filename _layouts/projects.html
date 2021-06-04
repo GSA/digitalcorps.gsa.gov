@@ -10,15 +10,18 @@ layout: wide
   </div>
 </div>
 
-<section class="page-header bg--lightest padding-y-6">
+<section class="usa-section highlight">
   <div class="grid-container">
-    <div class="grid-row usa-prose">
+    <div class="grid-row">
+
       <h1>Our <em>Work</em></h1>
+
       {% if page.description %}
-      <p class="body-intro">
+      <p>
         {{ page.description }}
       </p>
       {% endif %}
+
     </div>
   </div>
 </section>
@@ -32,13 +35,6 @@ layout: wide
     </div>
   </div>
 </section>
-
-{% include_cached quote.html image="quotes/henry_wei.jpg" quote="I'm a parent, and wanted to help build a better
-government for my daughters and future generations. The USDC Fellow program opened my eyes to a diverse group of
-like-minded people ready, willing, and able to help in the cause — both during the Fellowship and well beyond in the
-USDC Fellow alumni community." name="Henry Wei
-, 2012-2013 USDC Fellow, detailed to the U.S. Department of Veterans Affairs and U.S. Department of Health and Human
-Services" %}
 
 <script type="text/javascript">
   // Based on W3 How to Filter Elements:

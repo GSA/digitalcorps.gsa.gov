@@ -4,10 +4,3 @@ body {
     /*  always show vertical scrollbar to prevent page jerk */
     overflow-y: scroll;
 }
-
-.usa-prose {
-
-  p, ul li, ol li {
-    max-width: unset;
-  }
-}

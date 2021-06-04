@@ -34,7 +34,7 @@ $project-item-border-radius: 5px;
 
 .project-item__agency {
   @include u-font('sans', 'sm');
-  @include u-text('primary-darker');
+  @include u-text('primary-dark');
   font-style: italic;
 }
 
@@ -79,7 +79,7 @@ $project-item-border-radius: 5px;
 .project-item__title {
   @include u-font('sans', 'lg');
   @include u-text('normal');
-  @include u-text('primary-darker');
+  @include u-text('primary-dark');
   line-height: 1.45;
   margin: 0;
 }
@@ -95,7 +95,7 @@ $project-item-border-radius: 5px;
   }
 
   .project-item__type {
-    @include u-bg('primary-darker');
+    @include u-bg('primary-dark');
   }
 }
 

@@ -1,70 +1,69 @@
 @mixin header-em {
   em {
-    @include u-text('light');
-    @include u-text('primary-vivid');
+    @include u-text("primary-vivid");
     font-style: italic;
+  }
+
+  &.accent::before {
+    @include u-text("bold");
+    color: color("primary-vivid");
+    content: "// ";
   }
 }
 
-h1, .as-h1 {
-  @include u-font('sans', '2xl');
-  @include u-text('medium');
-  @include u-text('primary');
-  text-transform: uppercase;
-  letter-spacing: letter-spacing(-1);
-}
-
-h2, .as-h2 {
-  @include u-font('sans', 'xl');
-  @include u-text('normal');
-  @include u-text('primary-darker');
+h1,
+.as-h1 {
+  @include u-font("sans", "2xl");
+  @include u-text("bold");
+  @include u-text("primary");
   @include header-em;
+  text-transform: uppercase;
+  // letter-spacing: letter-spacing(-1);
 }
 
-h3, .as-h3,
-h4, .as-h4 {
-  @include u-font('sans', 'sm');
-  @include u-text('bold');
-  @include u-text('primary-vivid');
-  line-height: 1.625;
+h2,
+.as-h2 {
+  @include u-font("sans", "xl");
+  @include u-text("semibold");
+  @include u-text("primary");
+  @include header-em;
+  text-transform: uppercase;
 }
 
-ul, li {
-  @include u-text('light');
+h3,
+.as-h3,
+h4,
+.as-h4 {
+  @include u-font("sans", "sm");
+  @include u-text("normal");
+  @include u-text("primary-vivid");
+}
+
+ul,
+li {
+  @include u-text("light");
   strong {
-    @include u-text('bold');
+    @include u-text("bold");
   }
 }
 
 .usa-prose {
+  @include header-em;
   max-width: unset;
 
-  h3 {
-    @include u-text('primary-darker');
+  p,
+  ul li,
+  ol li {
+    max-width: unset;
   }
 }
 
-.usa-prose a:not(.usa-button),
-.usa-prose a:not(.usa-button):active,
-.usa-prose a:not(.usa-button):visited {
-  @include u-text('primary');
-}
+// CUSTOM SECTIONS
 
-.body-intro {
-  @include u-font('sans', 9); // 22 px
-  @include u-text('light');
-  @include u-text('primary-darker');
-  font-style: normal;
-  line-height: 1.62;
-  @include at-media("mobile-lg") {
-    @include u-font('sans', 9);
-  }
+.highlight {
+  @include u-font("sans", "lg");
 
-  &--italic {
-    font-style: italic;
-  }
-
-  &--tight {
-    line-height: 1.2;
+  h1 {
+    margin-bottom: 0;
   }
 }

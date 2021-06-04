@@ -10,8 +10,8 @@
   }
 
   input[type="text"] {
-    @include u-border('primary-darker');
-    @include u-text('primary-darker');
+    @include u-border('primary-dark');
+    @include u-text('primary-dark');
     height: 35px;
     border-radius: 20px;
     padding: 0 15px;
@@ -34,9 +34,9 @@
 
   select {
     border: none;
-    border-bottom: 1px solid #1a4480; // primary-darker
+    border-bottom: 1px solid #1a4480; // primary-dark
     @include u-font('sans', 'sm');
-    @include u-text('primary-darker');
+    @include u-text('primary-dark');
     margin-top: 1rem;
     @include at-media('tablet') {
       margin-top: 0;

@@ -28,22 +28,22 @@
 @import "searchgov/form";
 
 // Custom Styles
-@import "custom/anchor";
 @import "custom/general";
-@import "custom/pagination";
+
+@import "custom/anchor";
 @import "custom/breadcrumb";
-@import "custom/project";
+@import "custom/filters";
+@import "custom/footer-tagline";
 @import "custom/image";
+@import "custom/list-fellows";
+@import "custom/pagination";
 @import "custom/partner";
+@import "custom/project";
 @import "custom/project-fellows";
 @import "custom/project-item";
-@import "custom/list-fellows";
-@import "custom/site-card";
-@import "custom/work-box";
-@import "custom/typography";
-@import "custom/quote";
-@import "custom/footer-tagline";
-@import "custom/skipnav";
-@import "custom/story";
 @import "custom/project-team";
-@import "custom/filters";
+@import "custom/quote";
+@import "custom/site-card";
+@import "custom/skipnav";
+@import "custom/typography";
+@import "custom/work-box";

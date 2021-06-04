@@ -28,43 +28,23 @@ $theme-color-base-darkest: "gray-90";
 $theme-color-base-ink: "gray-90";
 
 // Primary colors
-$theme-color-primary-family: "blue";
+$theme-color-primary-family: "blue-vivid";
 $theme-color-primary-lightest: false;
-$theme-color-primary-lighter: "blue-10";
-$theme-color-primary-light: "blue-30";
-$theme-color-primary: "blue-60v";
-$theme-color-primary-vivid: "blue-warm-60v";
-$theme-color-primary-dark: "blue-warm-70v";
-$theme-color-primary-darker: "blue-warm-80v";
+$theme-color-primary-lighter: "indigo-cool-10";
+$theme-color-primary-light: "indigo-cool-10";
+$theme-color-primary: "indigo-cool-80v";
+$theme-color-primary-vivid: "blue-40v";
+$theme-color-primary-dark: "gray-warm-90";
+$theme-color-primary-darker: "gray-warm-90";
 $theme-color-primary-darkest: false;
 
 // Secondary colors
-$theme-color-secondary-family: "red";
+$theme-color-secondary-family: "red-vivid";
 $theme-color-secondary-lightest: false;
-$theme-color-secondary-lighter: "red-cool-10";
-$theme-color-secondary-light: "red-30";
-$theme-color-secondary: "red-50";
+$theme-color-secondary-lighter: "red-10v";
+$theme-color-secondary-light: "red-10v";
+$theme-color-secondary: "red-50v";
 $theme-color-secondary-vivid: "red-cool-50v";
 $theme-color-secondary-dark: "red-60v";
-$theme-color-secondary-darker: "red-70v";
+$theme-color-secondary-darker: "red-60v";
 $theme-color-secondary-darkest: false;
-
-// Accent warm colors
-$theme-color-accent-warm-family: "orange";
-$theme-color-accent-warm-lightest: false;
-$theme-color-accent-warm-lighter: "orange-10";
-$theme-color-accent-warm-light: "orange-20v";
-$theme-color-accent-warm: "orange-30v";
-$theme-color-accent-warm-dark: "orange-50v";
-$theme-color-accent-warm-darker: "orange-60";
-$theme-color-accent-warm-darkest: false;
-
-// Accent cool colors
-$theme-color-accent-cool-family: "blue-cool";
-$theme-color-accent-cool-lightest: false;
-$theme-color-accent-cool-lighter: "blue-cool-5v";
-$theme-color-accent-cool-light: "blue-cool-20v";
-$theme-color-accent-cool: "cyan-30v";
-$theme-color-accent-cool-dark: "blue-cool-40v";
-$theme-color-accent-cool-darker: "blue-cool-60v";
-$theme-color-accent-cool-darkest: false;

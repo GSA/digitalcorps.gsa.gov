@@ -3,7 +3,9 @@
   &:last-child {
     @include u-padding-bottom(5);
   }
-  b, strong {
+
+  b,
+  strong {
     font-weight: bold;
   }
 }

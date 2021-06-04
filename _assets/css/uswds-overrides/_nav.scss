@@ -31,7 +31,7 @@
   @include at-media('desktop') {
     @include u-font('sans', 'sm');
     @include u-text('normal');
-    @include u-text('primary-darker');
+    @include u-text('primary-dark');
   }
 }
 
@@ -78,6 +78,6 @@
 
 .usa-header--dark .usa-button.usa-button--secondary {
   @include at-media('desktop') {
-    @include u-bg('primary-darker');
+    @include u-bg('primary-dark');
   }
 }

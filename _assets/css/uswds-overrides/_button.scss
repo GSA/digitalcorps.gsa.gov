@@ -1,6 +1,6 @@
 @mixin button--small {
-  @include u-font('sans', 5);
-  @include u-text('bold');
+  @include u-font("sans", 5);
+  @include u-text("bold");
   height: 32px;
   line-height: 32px;
   // border-radius: 16px;
@@ -12,9 +12,9 @@
 }
 
 .usa-button {
-  @include u-bg('primary');
-  @include u-font('sans', 8);
-  @include u-text('bold');
+  @include u-bg("primary");
+  @include u-font("sans", 8);
+  @include u-text("bold");
   width: initial;
   height: 48px;
   line-height: 48px;
@@ -25,7 +25,7 @@
   flex-shrink: 0;
 
   &:hover {
-    @include u-bg('primary-vivid');
+    @include u-bg("primary-vivid");
   }
 
   /* sizes */
@@ -35,8 +35,8 @@
 
   /* colors */
   &.usa-button--inverse {
-    @include u-bg('white');
-    @include u-text('primary');
+    @include u-bg("white");
+    @include u-text("primary");
   }
 
   &.usa-button--inverse:hover {
@@ -44,7 +44,7 @@
   }
 
   &.usa-button--secondary {
-    @include u-font('sans', 5);
+    @include u-font("sans", 5);
     @include u-bg($theme-color-secondary);
   }
 
@@ -53,9 +53,9 @@
   }
 
   &.usa-button--outline {
-    @include u-bg('transparent');
-    @include u-text('primary');
-    @include u-text('normal');
+    @include u-bg("transparent");
+    @include u-text("primary");
+    @include u-text("normal");
     @include outline-box-shadow;
   }
 
@@ -65,8 +65,8 @@
   }
 
   &.usa-button--outline-light {
-    @include u-text('primary-vivid');
-    box-shadow: inset 0 0 0 1px #2672de; // primary-vivid
+    @include u-text("primary-vivid");
+    box-shadow: inset 0 0 0 1px color("primary-vivid"); // primary-vivid
   }
 
   &.usa-button--w-icon {
@@ -75,12 +75,13 @@
     }
   }
 
-  &.usa-button--active, &.usa-button--active:hover {
-    @include u-bg('primary-vivid');
+  &.usa-button--active,
+  &.usa-button--active:hover {
+    @include u-bg("primary-vivid");
     color: white;
   }
   &.usa-button--active:hover {
-    @include u-bg('blue-warm-40v');
+    @include u-bg("blue-warm-40v");
   }
 
   // SLANTED BUTTON
@@ -88,12 +89,13 @@
     -ms-transform: skewX(-20deg);
     -webkit-transform: skewX(-20deg);
     transform: skewX(-20deg);
+    margin-left: 9px;
   }
 
-  .button-slanted-content {
+  .button-unslanted-content {
     -ms-transform: skewX(20deg);
     -webkit-transform: skewX(20deg);
-    transform: skewX(20deg);  
+    transform: skewX(20deg);
     display: inline-block;
   }
 }
