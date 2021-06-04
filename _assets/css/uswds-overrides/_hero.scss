@@ -1,12 +1,14 @@
 .usa-hero {
-  background-image: url(asset_path("highlight-fellows-nasa-bw--cropped.jpg"));
-  background-position: 50% 25%;
-  background-size: cover;
-  padding: 0;
-  overflow: hidden;
-  @include overlay-base(550px);
+  background-image: none;
+  background-position: right;
+  // background-position: 50% 25%;
+  // background-size: cover;
+  // padding: 0;
+  // overflow: hidden;
+  // @include overlay-base(600px);
   @include at-media("tablet") {
-    background-size: 100%;
+    background-image: url(asset_path("hero-splash.jpeg"));
+    // background-size: 100%;
   }
 }
 
@@ -31,20 +33,29 @@
   padding-left: 0;
   padding-right: 0;
   padding-top: 4rem;
-  h1,p {
-    color: white;
-  }
+  color: color('primary-darker');
+
   h2 {
-    @include u-font('serif', '2xl'); // 40px
-    @include u-text('light');
-    color: #d4e5ff;
-    margin-top: 1rem;
+    @include u-font('sans', 'xl');
+    @include u-text('normal');
+    margin-top: 0.5rem;
+    line-height: 1;
+  }
+}
+
+.usa-hero__heading {
+  @include u-font-family('sans');
+  @include u-text('semibold');
+  @include u-text('primary-darker');
+  line-height: 0.9;
+  font-size: 2.813rem; // 45 px
+  @include at-media("mobile-lg") {
+    font-size: 3.75rem; // 60 pixels
   }
 }
 
 .usa-hero__textlink {
   @include text-links;
-  color: white;
   font-style: italic;
 }
 
@@ -62,7 +73,7 @@
 
 .home .usa-hero {
   @include hero-short;
-  background-image: url(asset_path("hero-pif.jpg"));
+  background-image: url(asset_path("hero-usdc.jpg"));
 }
 .about .usa-hero {
   @include hero-short;

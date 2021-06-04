@@ -12,18 +12,21 @@ This template is for a single page that does not have a date associated with it.
   <div class="usa-layout-docs usa-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        {% include fellow-aside.html fellow_project=page.project fellow_agency=page.agency fellow_year=page.fellow_year fellow_hometown=page.hometown %}
+        {% include fellow-aside.html 
+          fellow_project=page.project 
+          fellow_agency=page.agency
+          fellow_year=page.fellow_year 
+          fellow_hometown=page.hometown
+        %}
         <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-         <h2>Biography</h2>
-         {% if page.image %}
-          {% asset "{{ page.image }}" class="circle-card float-right margin-left-3" alt="{{ page.image_alt_text }}" %}
-         {% endif %}
-         <p class="usa-intro">
-           {{ page.bio_short }}
-         </p>
+          <h2>Biography</h2>
+          <p class="usa-intro">
+            {{ page.bio_short }}
+          </p>
           {{ content }}
         </div>
       </div>
     </div>
   </div>
 </main>
+

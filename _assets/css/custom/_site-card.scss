@@ -28,7 +28,7 @@
     padding-top: 0;
   }
   .card-flag {
-    @include u-font('serif','lg');
+    @include u-font('sans','lg');
     @include u-text('primary-vivid');
     @include u-text('bold');
     font-style: normal;

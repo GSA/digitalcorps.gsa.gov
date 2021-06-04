@@ -23,6 +23,7 @@
 .usa-nav__primary > .usa-nav__primary-item {
   @include at-media('desktop') {
     flex-shrink: 0;
+    text-transform: uppercase;
   }
 }
 

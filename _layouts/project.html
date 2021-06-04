@@ -2,13 +2,10 @@
 layout: default-main
 ---
 <div class="usa-hero project">
-  <div class="usa-hero__overlay"></div>
-  <div class="usa-hero__overlay-content">
-    <div class="grid-container display-flex flex-column flex-justify-center height-full">
-      <h1 class="usa-hero__heading display display--inverted">
-        Projects
-      </h1>
-    </div>
+  <div class="grid-container display-flex flex-column flex-justify-center height-full">
+    <h1 class="usa-hero__heading">
+      Projects
+    </h1>
   </div>
 </div>
 
@@ -19,7 +16,8 @@ layout: default-main
         {{ page.agency }}
       </p>
       <div class="display-flex flex-wrap">
-        <a href="/projects" class="usa-button usa-button--small usa-button--outline  usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
+        <a href="/projects"
+          class="usa-button usa-button--small usa-button--outline  usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
           {% asset 'icons/arrow--back.png' width=20 aria-hidden="true" %} Back to all
         </a>
         <a href="{{ page.project_link }}" class="usa-button usa-button--small">
@@ -62,7 +60,7 @@ layout: default-main
           The <em>challenge</em>
         </h2>
         <p class="body-intro">
-          {{ page.project_challenge  }}
+          {{ page.project_challenge }}
         </p>
         {% endif %}
 
@@ -77,8 +75,8 @@ layout: default-main
   var headers = document.querySelectorAll(".usa-prose h2, .usa-prose h3");
 
   if (sidenav) {
-    headers.forEach(function(header, index) {
-      var headerText = header.innerHTML.replace( /(<([^>]+)>)/ig, '');
+    headers.forEach(function (header, index) {
+      var headerText = header.innerHTML.replace(/(<([^>]+)>)/ig, '');
       var headerId = headerText.trim().toLowerCase().replace(/ /gi, "-");
       if (!header.id || !header.id.length) {
         header.setAttribute("id", headerId);

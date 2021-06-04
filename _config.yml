@@ -1,7 +1,7 @@
 # Site settings
-title: U.S. Digital Corp
+title: U.S. Digital Corps
 # email: usdc@gsa.gov
-description: "The United States Digital Corp"
+description: "The United States Digital Corps"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://corps.digital.gov" # the base hostname & protocol for your site, e.g. http://example.com
 

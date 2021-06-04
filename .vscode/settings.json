@@ -10,5 +10,7 @@
         "**/package-lock.json": true,
         "**/.jekyll-cache": true
     },
+    "css.validate": true,
+    "scss.validate": true,
     "sass.format.enabled": true
 }

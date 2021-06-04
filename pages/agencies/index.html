@@ -3,17 +3,14 @@ layout: wide
 title: Agencies
 permalink: /agencies/
 redirect_from:
-  - /proposal/
+- /proposal/
 ---
 
 <div class="usa-hero">
-  <div class="usa-hero__overlay"></div>
-  <div class="usa-hero__overlay-content">
-    <div class="grid-container display-flex flex-column flex-justify-center height-full">
-      <h1 class="usa-hero__heading display display--inverted">
-        Agencies
-      </h1>
-    </div>
+  <div class="grid-container display-flex flex-column flex-justify-center height-full">
+    <h1 class="usa-hero__heading">
+      Agencies
+    </h1>
   </div>
 </div>
 
@@ -21,7 +18,10 @@ redirect_from:
   <div class="grid-row">
     <div class="tablet:grid-col-8">
       <h1>Work with us</h1>
-      <p class="body-intro">Calling all federal innovators: Do you want to build cutting-edge solutions that serve your mission and the public? Together, we can. We’d love to hear from you. If you’d like to learn more about our history, our fellows' work with partners, and our results, read our <a href="https://corps.digital.gov/impact">Impact Report</a>.</p>
+      <p class="body-intro">Calling all federal innovators: Do you want to build cutting-edge solutions that serve your
+        mission and the public? Together, we can. We’d love to hear from you. If you’d like to learn more about our
+        history, our fellows' work with partners, and our results, read our <a
+          href="https://corps.digital.gov/impact">Impact Report</a>.</p>
       <p><a class="usa-button usa-button--big" href="https://corps.digital.gov/proposal">Submit a project</a></p>
     </div>
   </div>
@@ -35,7 +35,12 @@ redirect_from:
     </div>
     <div class="desktop:grid-col-8">
       <h2>How it works:</h2>
-      <p>We are dedicated to your success and public service. Acting like a government-to-government incubator, U.S. Digital Corps Fellows and our agency partners explore problems, uncover insights, and create exciting new solutions to modernize government. Our approach includes workshopping, design sprints, live user-testing, and rapid prototyping to deliver the hightest quality results in the shortest possible time frame. If you are a federal employee or agency and would like to work with us, we’d like to hear from you. <a href="https://corps.digital.gov/proposal">Submit your project here.</a></p>
+      <p>We are dedicated to your success and public service. Acting like a government-to-government incubator, U.S.
+        Digital Corps Fellows and our agency partners explore problems, uncover insights, and create exciting new
+        solutions to modernize government. Our approach includes workshopping, design sprints, live user-testing, and
+        rapid prototyping to deliver the hightest quality results in the shortest possible time frame. If you are a
+        federal employee or agency and would like to work with us, we’d like to hear from you. <a
+          href="https://corps.digital.gov/proposal">Submit your project here.</a></p>
     </div>
   </div>
 </section>
@@ -47,7 +52,7 @@ redirect_from:
     {% for agency in site.data.agencies %}
     <li class="work-box desktop:grid-col-6 tablet:grid-col-4 flex-auto padding-x-2">
       <div class="work-box-ico grid-col-12 width-full">
-        {% asset "{{ agency.name }}.png" alt=""  %}
+        {% asset "{{ agency.name }}.png" alt="" %}
       </div>
       <p class="work-box-head grid-col-12 text-center padding-x-1 margin-top-1">{{ agency.fullname }}</p>
     </li>
@@ -55,4 +60,9 @@ redirect_from:
   </ul>
 </section>
 
-{% include_cached quote.html image="quotes/sarayu_srinivasan.jpg" quote="USDC Fellow has been a remarkable opportunity to undertake public service on discrete, impactful federal projects. The experience was rewarding because I not only used my professional experience as an operator, investor, and entrepreneur to address large-scale government challenges; I also learned a tremendous amount about how our government operates. I contributed, but I also learned a great deal." name="Sarayu Srinivasan, 2019-2020 USDC Fellow, detailed to the National Institute of Standards and Technology (NIST) and Office of Management and Budget (OMB)" %}
+{% include_cached quote.html image="quotes/sarayu_srinivasan.jpg" quote="USDC Fellow has been a remarkable opportunity
+to undertake public service on discrete, impactful federal projects. The experience was rewarding because I not only
+used my professional experience as an operator, investor, and entrepreneur to address large-scale government challenges;
+I also learned a tremendous amount about how our government operates. I contributed, but I also learned a great deal."
+name="Sarayu Srinivasan, 2019-2020 USDC Fellow, detailed to the National Institute of Standards and Technology (NIST)
+and Office of Management and Budget (OMB)" %}

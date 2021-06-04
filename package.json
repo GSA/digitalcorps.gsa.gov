@@ -1,7 +1,7 @@
 {
   "name": "united-states-digital-corp",
   "version": "1.0.0",
-  "description": "United States Digital Corp",
+  "description": "United States Digital Corps",
   "scripts": {
     "build": "bundle exec jekyll build",
     "clean": "bundle exec jekyll clean",

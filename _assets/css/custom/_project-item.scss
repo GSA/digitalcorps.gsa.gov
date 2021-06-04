@@ -33,7 +33,7 @@ $project-item-border-radius: 5px;
 }
 
 .project-item__agency {
-  @include u-font('serif', 'sm');
+  @include u-font('sans', 'sm');
   @include u-text('primary-darker');
   font-style: italic;
 }

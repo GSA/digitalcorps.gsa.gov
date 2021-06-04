@@ -182,7 +182,7 @@
     }
     .usa-button-sm{
       @include u-bg('primary');
-      @include u-text('secondary-darkest');
+      @include u-text('secondary-darker');
 
 
       @include u-margin(0);
