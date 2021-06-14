@@ -2,17 +2,21 @@
 This will be displayed on the homepage. Ideally, you want to highlight key goals of the website
 {% endcomment %}
 
-<section class="usa-hero">
+<section class="usa-hero home">
   <div class="grid-container">
     <div class="usa-hero__callout">
       <h1 class="usa-hero__heading">
         Build a brighter future
       </h1>
       <h2>
-        Launch your career by tackling the biggest challenges facing our nation
+        Launch your career by tackling
+        <br class="display-none tablet:display-inline"/>
+        the biggest challenges
+        <br class="display-none tablet:display-inline"/>
+        facing our nation
       </h2>
-      <a class="usa-button usa-button--secondary button-slanted" href="{{ site.baseurl }}/apply">
-        <span class="button-unslanted-content">Learn more</span>
+      <a class="usa-button usa-button--secondary button-skewed" href="{{ site.baseurl }}/apply">
+        <span class="button-unskewed-content">Learn more</span>
       </a>
       <!-- <p class="usa-hero__text">Applications open until 30 June</p> -->
     </div>

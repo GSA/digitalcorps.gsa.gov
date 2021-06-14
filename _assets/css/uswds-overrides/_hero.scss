@@ -1,19 +1,37 @@
 // note: some font specs for HERO are inherited from typography.scss
 
+@mixin hero-short {
+  height: 150px;
+  @include at-media("tablet") {
+    height: 350px;
+  }
+}
+
+@mixin hero-medium {
+  height: 250px;
+  @include at-media("tablet") {
+    height: 500px;
+  }
+}
+
 .usa-hero {
   background-image: none;
   background-position: right;
   // background-position: 50% 25%;
-  // background-size: cover;
+  background-size: cover;
   // padding: 0;
-  // overflow: hidden;
-  // @include overlay-base(600px);
+  overflow: hidden;
+  @include overlay-base(600px);
 
   @include at-media("tablet") {
-    // see customizations at bottom of page for 
+    // see customizations at bottom of page for
     // unique images, this is the default (home)
-    background-image: url(asset_path("hero-splash.jpeg"));
+    // background-image: url(asset_path("hero-splash.jpeg"));
     // background-size: 100%;
+  }
+
+  &--short {
+    @include hero-short;
   }
 }
 
@@ -34,27 +52,28 @@
 
 .usa-hero__callout {
   background-color: transparent;
-  color: color('primary-dark');
+  color: color("primary-dark");
   max-width: 40rem;
-  padding-top: 4rem;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 4rem 0 4rem 0;
+  position: relative;
 
   h2 {
-    @include u-font('sans', 'xl');
-    @include u-text('normal');
+    @include u-font("sans", "xl");
+    @include u-text("normal");
+    color: color("primary-dark");
+    text-transform: none;
     margin-top: 0.5rem;
     line-height: 1;
   }
 }
 
 .usa-hero__heading {
-  @include u-font-family('sans');
-  @include u-text('primary-dark');
+  @include u-font-family("sans");
+  @include u-text("primary-dark");
   line-height: 0.9;
-  font-size: 2.813rem; // 45 px
+  font-size: 2.813rem;
   @include at-media("mobile-lg") {
-    font-size: 3.75rem; // 60 pixels
+    font-size: 3.75rem;
   }
 }
 
@@ -63,41 +82,46 @@
   font-style: italic;
 }
 
-@mixin hero-short {
-  background-size: cover;
+// MIXINS FOR BACKGROUND IMAGES
+
+// SKEWED IMAGE
+@mixin hero-skewed {
+  @include hero-medium;
+
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: relative;
+
+  &::before {
+    @include u-bg("white");
+    content: "";
+    position: absolute;
+
+    top: 0;
+    right: 50%;
+
+    height: 100%;
+    width: 150%;
+
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+  }
+}
+
+@mixin hero-skewed-short {
   height: 150px;
   @include at-media("tablet") {
     height: 350px;
   }
-
-    // SLANTED IMAGE
-    // TODO: may need to do a slant overlay, instead of trying to slant the image?
-    &.image-slanted {
-      -ms-transform: skewX(-20deg);
-      -webkit-transform: skewX(-20deg);
-      transform: skewX(-20deg);
-    }
-  
-    .image-unslanted-content {
-      -ms-transform: skewX(20deg);
-      -webkit-transform: skewX(20deg);
-      transform: skewX(20deg);  
-      display: inline-block;
-    }
-  
 }
-
 
 // BACKGROUND IMAGES
-
-.usa-hero.usa-hero--short {
-  @include hero-short;
+.usa-hero.home {
+  background-image: url(asset_path("hero-splash.jpg"));
+  @include hero-skewed;
 }
 
-.home .usa-hero {
-  @include hero-short;
-  background-image: url(asset_path("hero-usdc.jpg"));
-}
 .about .usa-hero {
   @include hero-short;
   background-image: url(asset_path("banner-design-users-bw.jpg"));

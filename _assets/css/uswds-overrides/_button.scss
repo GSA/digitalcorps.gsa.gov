@@ -84,15 +84,15 @@
     @include u-bg("blue-warm-40v");
   }
 
-  // SLANTED BUTTON
-  &.button-slanted {
+  // SKEWED BUTTON
+  &.button-skewed {
     -ms-transform: skewX(-20deg);
     -webkit-transform: skewX(-20deg);
     transform: skewX(-20deg);
     margin-left: 9px;
   }
 
-  .button-unslanted-content {
+  .button-unskewed-content {
     -ms-transform: skewX(20deg);
     -webkit-transform: skewX(20deg);
     transform: skewX(20deg);
