@@ -1,13 +1,13 @@
 // MIXING FOR HERO VARIANTS
 @mixin hero-short {
-  height: 150px;
+  height: 250px;
   @include at-media("tablet") {
     height: 350px;
   }
 }
 
 @mixin hero-medium {
-  height: 250px;
+  height: 400px;
   @include at-media("tablet") {
     height: 500px;
   }
@@ -15,13 +15,14 @@
 
 // OVERRIDES
 .usa-hero {
-  
+
+  padding: 0;
   height: 300px;
   @include at-media("tablet") {
     height: 600px;
   }
-  
-  // Sizes/variants
+
+  // Variants
   &--short {
     @include hero-short;
   }
@@ -30,17 +31,17 @@
     @include hero-medium;
   }
 
-  // Background images
-  background-image: none;
-  background-position: right;
-  // background-position: 50% 25%;
-  background-size: cover;
-  // padding: 0;
+  // Background image defaults
+  // see customizations at bottom for unique page images
   overflow: hidden;
+  background-size: cover;
+  background-image: none;
 
-  // see customizations at bottom of page for unique images
+  // exclude background in mobile view
+  @include at-media-max("tablet") {
+    background-image: none;
+  }
 }
-
 
 // MIXINS FOR BACKGROUND IMAGES
 
@@ -78,8 +79,14 @@
 
 // BACKGROUND IMAGES
 .usa-hero.home {
-  background-image: url(asset_path("banner-home.jpg"));
   @include hero-skewed;
+
+  background-image: url(asset_path("banner-home.jpg"));
+  background-position: right;
+
+  @include at-media-max("tablet") {
+    background-image: none;
+  }
 }
 
 .about .usa-hero {
@@ -97,7 +104,6 @@
   // background-image: url(asset_path("banner-about.jpg"));
   // background-position: center;
 }
-
 
 // HERO TYPOGRAPHY
 // note: some font specs for HERO are inherited from typography.scss
