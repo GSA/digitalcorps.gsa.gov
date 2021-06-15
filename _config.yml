@@ -13,7 +13,7 @@ url: "https://corps.digital.gov" # the base hostname & protocol for your site, e
 
 # Configuration for DAP, add your agency ID here:
 dap_agency: GSA
-# dap_subagency: USDC
+dap_subagency: USDC
 
 # Site Navigation
 primary_navigation:
@@ -21,12 +21,8 @@ primary_navigation:
     url: /
   - name: Who We Are
     url: /about/
-  - name: Fellows
-    url: /fellows/
-  - name: Projects
-    url: /projects/
-  - name: Agencies
-    url: /agencies/
+  - name: The Opportunity
+    url: /opportunity/
 
 secondary_navigation:
   - name: Secondary link
@@ -51,25 +47,15 @@ searchgov:
 ##########################################################################################
 
 collections:
-  fellows:
-    output: true
-    permalink: /:collection/:name/
-  projects:
-    output: true
-    permalink: /:collection/:name/
   pages:
     output: true
     permalink: /:path/
 
 defaults:
   - scope:
-      type: "fellows"
+      type: "posts"
     values:
-      layout: "fellow"
-  - scope:
-      type: "projects"
-    values:
-      layout: "project"
+      layout: "posts"
 
 permalink: pretty
 
@@ -87,7 +73,7 @@ plugins:
 # The values here represent the defaults if nothing is set
 pagination:
   # Site-wide kill switch, disabled here it doesn't run at all
-  enabled: true
+  enabled: false
 
   # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
   debug: false
@@ -162,12 +148,7 @@ assets:
   sources:
     - _assets/favicons
     - _assets/images
-    - _assets/images/agencies
     - _assets/images/banners
-    - _assets/images/fellows/2020
-    - _assets/images/fellows/2021
-    - _assets/images/press
-    - _assets/images/projects
     - _assets/images/icons
     - _assets/images/logo
     - node_modules/uswds/dist/img
