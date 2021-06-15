@@ -3,39 +3,17 @@
 // Import the US Web Design System SASS.
 @import "uswds";
 
-// Custom Mixins
-@import "mixins";
-
-// Custom Utilities
-@import "utilities";
-
 // USWDS Overrides
 @import "uswds-overrides/button";
 @import "uswds-overrides/nav";
-@import "uswds-overrides/intro";
 @import "uswds-overrides/hero";
-@import "uswds-overrides/list";
-@import "uswds-overrides/graphic-list";
-@import "uswds-overrides/social-link";
 @import "uswds-overrides/footer";
-@import "uswds-overrides/section";
 @import "uswds-overrides/logo";
-@import "uswds-overrides/menu";
-@import "uswds-overrides/banner";
-@import "uswds-overrides/form";
 
-// Search.gov override
+// Search.gov Override
 @import "searchgov/form";
 
 // Custom Styles
-@import "custom/general";
-
 @import "custom/anchor";
-@import "custom/filters";
-@import "custom/footer-tagline";
-@import "custom/image";
-@import "custom/pagination";
-@import "custom/quote";
-@import "custom/site-card";
-@import "custom/skipnav";
+@import "custom/layout";
 @import "custom/typography";

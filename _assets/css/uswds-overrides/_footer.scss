@@ -1,8 +1,16 @@
 .usa-footer {
+
+  // PRIMARY SECTION
   .usa-footer__primary-section {
-    @include u-bg("white");
+    @include u-bg("base-lighter");
+
+    h4 {
+      margin-top: 0;
+      @include u-text("primary-vivid");
+    }
   }
 
+  // SECONDARY SECTION
   .usa-footer__secondary-section {
     @include u-bg("primary-dark");
 
@@ -19,11 +27,6 @@
       color: color("white");
     }
 
-    h4 {
-      margin-top: 0;
-      @include u-text("primary-vivid");
-    }
-
     .usa-button {
       @include u-font("body", "lg");
       box-shadow: inset 0 0 0 2px #dcdee0;
@@ -32,13 +35,6 @@
       &:active {
         @include u-text("white");
         box-shadow: $button-stroke color("white");
-      }
-    }
-
-    .grid-container {
-      @include at-media("desktop") {
-        text-align: center;
-        @include u-padding-x(8);
       }
     }
   }
@@ -51,7 +47,21 @@
     }
   }
 
+  // SOCIAL MEDIA ICONS
+
+  .usa-social-link {
+    @include u-margin-top(3);
+    @include u-margin-right(1);
+    background-color: color("base-lighter");
+  }
+
+  .usa-social-link--linkedin {
+    background-image: url(asset_path("linkedin.svg")), linear-gradient(transparent, transparent);
+    background-repeat: no-repeat;
+  }
+
   // SIGN-UP
+
   .usa-sign-up {
     .usa-form .usa-button {
       margin-top: 0.5rem;

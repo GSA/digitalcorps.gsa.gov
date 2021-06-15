@@ -1,5 +1,4 @@
-// note: some font specs for HERO are inherited from typography.scss
-
+// MIXING FOR HERO VARIANTS
 @mixin hero-short {
   height: 150px;
   @include at-media("tablet") {
@@ -14,73 +13,34 @@
   }
 }
 
+// OVERRIDES
 .usa-hero {
+  
+  height: 300px;
+  @include at-media("tablet") {
+    height: 600px;
+  }
+  
+  // Sizes/variants
+  &--short {
+    @include hero-short;
+  }
+
+  &--medium {
+    @include hero-medium;
+  }
+
+  // Background images
   background-image: none;
   background-position: right;
   // background-position: 50% 25%;
   background-size: cover;
   // padding: 0;
   overflow: hidden;
-  @include overlay-base(600px);
 
-  @include at-media("tablet") {
-    // see customizations at bottom of page for
-    // unique images, this is the default (home)
-    // background-image: url(asset_path("hero-splash.jpeg"));
-    // background-size: 100%;
-  }
-
-  &--short {
-    @include hero-short;
-  }
+  // see customizations at bottom of page for unique images
 }
 
-// These are custom classes for the overlay
-.usa-hero__overlay {
-  @include image-overlay;
-}
-.usa-hero__overlay--bicolor-left {
-  @include image-overlay-bicolor-left;
-}
-.usa-hero__overlay--bicolor-right {
-  @include image-overlay-bicolor-right;
-}
-.usa-hero__overlay-content {
-  @include content-overlay;
-}
-// end custom classes for the overlay
-
-.usa-hero__callout {
-  background-color: transparent;
-  color: color("primary-dark");
-  max-width: 40rem;
-  padding: 4rem 0 4rem 0;
-  position: relative;
-
-  h2 {
-    @include u-font("sans", "xl");
-    @include u-text("normal");
-    color: color("primary-dark");
-    text-transform: none;
-    margin-top: 0.5rem;
-    line-height: 1;
-  }
-}
-
-.usa-hero__heading {
-  @include u-font-family("sans");
-  @include u-text("primary-dark");
-  line-height: 0.9;
-  font-size: 2.813rem;
-  @include at-media("mobile-lg") {
-    font-size: 3.75rem;
-  }
-}
-
-.usa-hero__textlink {
-  @include text-links;
-  font-style: italic;
-}
 
 // MIXINS FOR BACKGROUND IMAGES
 
@@ -118,35 +78,53 @@
 
 // BACKGROUND IMAGES
 .usa-hero.home {
-  background-image: url(asset_path("hero-splash.jpg"));
+  background-image: url(asset_path("banner-home.jpg"));
   @include hero-skewed;
 }
 
 .about .usa-hero {
   @include hero-short;
-  background-image: url(asset_path("banner-design-users-bw.jpg"));
-  background-position: center right 15%;
+  // background-image: url(asset_path("banner-about.jpg"));
+  // background-position: center right 15%;
 }
-.fellows .usa-hero {
+.opportunity .usa-hero {
   @include hero-short;
-  background-image: url(asset_path("banner-homecoming-eeob-bw.jpg"));
-}
-.agencies .usa-hero {
-  @include hero-short;
-  background-image: url(asset_path("banner-orientation-acq-bw.jpg"));
-  background-position: center right 15%;
+  // background-image: url(asset_path("banner-opportunity.jpg"));
+  // background-position: center;
 }
 .apply .usa-hero {
   @include hero-short;
-  background-image: url(asset_path("banner-capitol-bw.jpg"));
-  background-position: center;
+  // background-image: url(asset_path("banner-about.jpg"));
+  // background-position: center;
 }
-.usa-hero.project {
-  @include hero-short;
-  background-image: url(asset_path("banner-orientation-eeob-bw.jpg"));
-  background-position: top left 15%;
+
+
+// HERO TYPOGRAPHY
+// note: some font specs for HERO are inherited from typography.scss
+
+.usa-hero__callout {
+  background-color: transparent;
+  color: color("primary-dark");
+  max-width: 40rem;
+  padding: 4rem 0 4rem 0;
+  position: relative;
+
+  h2 {
+    @include u-font("sans", "xl");
+    @include u-text("normal");
+    color: color("primary-dark");
+    text-transform: none;
+    margin-top: 0.5rem;
+    line-height: 1;
+  }
 }
-.usa-hero.faq {
-  @include hero-short;
-  background-position: 0px 45%;
+
+.usa-hero__heading {
+  @include u-font-family("sans");
+  @include u-text("primary-dark");
+  line-height: 0.9;
+  font-size: 2.813rem;
+  @include at-media("mobile-lg") {
+    font-size: 3.75rem;
+  }
 }
