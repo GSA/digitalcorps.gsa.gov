@@ -1,11 +1,15 @@
 // GENERAL STYLE OVERRIDES
 
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-    // always show vertical scrollbar 
+    // always show vertical scrollbar
     // to prevent page jerk
     overflow-y: scroll;
+}
+
+.grid-container {
+    max-width: 100%;
 }

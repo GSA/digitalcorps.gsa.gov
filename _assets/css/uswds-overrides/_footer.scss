@@ -1,5 +1,9 @@
 .usa-footer {
 
+  .grid-container {
+    max-width: 100%;
+  }
+
   // PRIMARY SECTION
   .usa-footer__primary-section {
     @include u-bg("base-lighter");

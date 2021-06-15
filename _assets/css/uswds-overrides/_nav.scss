@@ -1,6 +1,6 @@
 .usa-header + main,
 .usa-header + .usa-section {
-    border-top: none;
+  border-top: none;
 }
 
 .usa-navbar {
@@ -8,6 +8,9 @@
 }
 
 .usa-header--basic .usa-nav-container {
+
+  max-width: 100%;
+
   @include at-media("desktop") {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -62,4 +65,3 @@
 .usa-nav .usa-search {
   margin-left: 0;
 }
-

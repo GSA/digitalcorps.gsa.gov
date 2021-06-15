@@ -1,20 +1,25 @@
 // General
 $theme-show-notifications: false;
 
-// Sizes
+// Layout
 $theme-banner-max-width: "none";
+
+$theme-grid-container-max-width: 'widescreen';
+$theme-site-margins-breakpoint: "desktop";
+$theme-site-margins-width: 4;
+$theme-site-margins-mobile-width: 2;
 
 // Fonts
 $theme-font-sans-custom-stack: Roboto, Source Sans Pro Web, Helvetica Neue, Helvetica, Arial, sans-serif;
 $theme-font-weight-medium: 500;
 $theme-font-weight-semibold: 600;
 
-$theme-font-type-cond:   false;
-$theme-font-type-icon:   false;
-$theme-font-type-lang:   false;
-$theme-font-type-mono:   'roboto-mono';
-$theme-font-type-sans:   'source-sans-pro';
-$theme-font-type-serif:  $theme-font-type-sans;
+$theme-font-type-cond: false;
+$theme-font-type-icon: false;
+$theme-font-type-lang: false;
+$theme-font-type-mono: "roboto-mono";
+$theme-font-type-sans: "source-sans-pro";
+$theme-font-type-serif: $theme-font-type-sans;
 
 // Base colors
 $theme-color-base-family: "gray-cool";
