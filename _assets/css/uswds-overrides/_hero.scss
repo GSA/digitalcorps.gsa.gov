@@ -15,7 +15,6 @@
 
 // OVERRIDES
 .usa-hero {
-
   padding: 0;
   height: 300px;
   @include at-media("tablet") {
@@ -79,30 +78,34 @@
 
 // BACKGROUND IMAGES
 .usa-hero.home {
-  @include hero-skewed;
 
+  // desktop and tablet
+  @include hero-skewed;
   background-image: url(asset_path("banner-home.jpg"));
   background-position: right;
 
+  // mobile alternative
+  // TODO: add different image that works on mobile?
   @include at-media-max("tablet") {
+    @include hero-medium;
     background-image: none;
   }
 }
 
 .about .usa-hero {
   @include hero-short;
-  // background-image: url(asset_path("banner-about.jpg"));
-  // background-position: center right 15%;
+  background-image: url(https://via.placeholder.com/1280x600);
+  background-position: center;
 }
 .opportunity .usa-hero {
   @include hero-short;
-  // background-image: url(asset_path("banner-opportunity.jpg"));
-  // background-position: center;
+  background-image: url(https://via.placeholder.com/1280x600);
+  background-position: center;
 }
 .apply .usa-hero {
   @include hero-short;
-  // background-image: url(asset_path("banner-about.jpg"));
-  // background-position: center;
+  background-image: url(https://via.placeholder.com/1280x600);
+  background-position: center;
 }
 
 // HERO TYPOGRAPHY
