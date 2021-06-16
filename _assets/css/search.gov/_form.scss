@@ -1,9 +1,11 @@
-$transition: width .25s;
+// SEARCH.GOV OVERRIDES for FORM
+
+$transition: width 0.25s;
 
 #search_form {
   .site-search {
     margin-top: 1rem;
-    @include at-media('desktop') {
+    @include at-media("desktop") {
       margin-top: 0;
       display: flex;
       -webkit-transition: $transition;
@@ -24,7 +26,7 @@ $transition: width .25s;
   .site-search-show {
     border: none;
     background-color: white;
-    @include at-media('desktop') {
+    @include at-media("desktop") {
       background-image: url(asset_path("icons/search.svg"));
       background-repeat: no-repeat;
       background-position: center center;
@@ -42,10 +44,10 @@ $transition: width .25s;
     outline: none;
   }
 
-  input[type=search] {
+  input[type="search"] {
     border: 1px solid grey;
     padding-right: 32px;
-    @include at-media('desktop') {
+    @include at-media("desktop") {
       border: none;
       padding-right: 20px;
       box-sizing: border-box;
@@ -53,12 +55,12 @@ $transition: width .25s;
     }
   }
 
-  input[type=search]:focus {
+  input[type="search"]:focus {
     outline: none;
   }
 
-  .site-search.expanded input[type=search] {
-    @include at-media('desktop') {
+  .site-search.expanded input[type="search"] {
+    @include at-media("desktop") {
       border-bottom: 1px solid #1a4480;
     }
   }
@@ -71,7 +73,7 @@ $transition: width .25s;
   border-radius: 0;
   background-color: transparent;
   margin-left: -32px;
-  @include at-media('desktop') {
+  @include at-media("desktop") {
     margin-left: -24px;
   }
 }

@@ -1,8 +1,10 @@
+// USWDS OVERRIDS for LOGO
+
 .usa-logo {
   a {
     color: #fff;
   }
-  @include at-media('desktop') {
+  @include at-media("desktop") {
     line-height: 0;
     margin: 0;
   }

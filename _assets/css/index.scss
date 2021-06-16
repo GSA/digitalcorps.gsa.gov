@@ -1,19 +1,19 @@
-@import "uswds-settings";
-
-// Import the US Web Design System SASS.
+// US Web Design System
+@import "uswds/settings";
 @import "uswds";
 
-// USWDS Overrides
-@import "uswds-overrides/button";
-@import "uswds-overrides/nav";
-@import "uswds-overrides/hero";
-@import "uswds-overrides/footer";
-@import "uswds-overrides/logo";
+@import "uswds/button";
+@import "uswds/nav";
+@import "uswds/hero";
+@import "uswds/footer";
+@import "uswds/logo";
 
-// Search.gov Override
-@import "searchgov/form";
+// Search.gov
+@import "search.gov/form";
 
-// Custom Styles
-@import "custom/anchor";
-@import "custom/layout";
-@import "custom/typography";
+// General Overrides and Styles
+@import "general/layout";
+@import "general/typography";
+
+// Component Styles
+@import "component/anchor";

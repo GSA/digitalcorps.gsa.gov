@@ -1,4 +1,6 @@
-// MIXING FOR HERO VARIANTS
+// USWDS OVERRIDES for HERO
+
+// MIXINs FOR HERO VARIANTS
 @mixin hero-short {
   height: 250px;
   @include at-media("tablet") {
@@ -46,8 +48,6 @@
 
 // SKEWED IMAGE
 @mixin hero-skewed {
-  @include hero-medium;
-
   background-size: auto 100%;
   background-repeat: no-repeat;
   position: relative;
@@ -69,17 +69,10 @@
   }
 }
 
-@mixin hero-skewed-short {
-  height: 150px;
-  @include at-media("tablet") {
-    height: 350px;
-  }
-}
-
 // BACKGROUND IMAGES
 .usa-hero.home {
-
   // desktop and tablet
+  @include hero-medium;
   @include hero-skewed;
   background-image: url(asset_path("banner-home.jpg"));
   background-position: right;
@@ -94,17 +87,17 @@
 
 .about .usa-hero {
   @include hero-short;
-  background-image: url(https://via.placeholder.com/1280x600);
+  background-image: url(https://via.placeholder.com/1920x600);
   background-position: center;
 }
 .opportunity .usa-hero {
   @include hero-short;
-  background-image: url(https://via.placeholder.com/1280x600);
+  background-image: url(https://via.placeholder.com/1920x600);
   background-position: center;
 }
 .apply .usa-hero {
   @include hero-short;
-  background-image: url(https://via.placeholder.com/1280x600);
+  background-image: url(https://via.placeholder.com/1920x600);
   background-position: center;
 }
 
