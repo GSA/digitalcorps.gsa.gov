@@ -13,6 +13,13 @@
     @include u-bg("primary-vivid");
   }
 
+  // VARIANTS
+  &--secondary {
+    &:hover {
+      @include u-bg("secondary-dark");
+    }
+  }
+
   // SIZES
   &--small {
     height: 32px;
@@ -33,4 +40,8 @@
     transform: skewX(20deg);
     display: inline-block;
   }
+}
+
+.usa-menu-btn {
+  background-color: transparent;
 }

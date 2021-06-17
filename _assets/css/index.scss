@@ -1,4 +1,4 @@
-// US Web Design System
+// US Web Design System (base)
 @import "uswds/settings";
 @import "uswds";
 
@@ -11,9 +11,9 @@
 // Search.gov
 @import "search.gov/form";
 
-// General Overrides and Styles
-@import "general/layout";
-@import "general/typography";
+// Base Overrides and Styles
+@import "base/layout";
+@import "base/typography";
 
 // Component Styles
 @import "component/anchor";
