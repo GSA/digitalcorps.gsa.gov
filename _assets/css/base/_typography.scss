@@ -6,12 +6,6 @@
     @include u-text("primary-vivid");
     font-style: italic;
   }
-
-  &.accent::before {
-    @include u-text("bold");
-    color: color("primary-vivid");
-    content: "// ";
-  }
 }
 
 h1,
@@ -63,12 +57,21 @@ li {
   }
 }
 
-// CUSTOM SECTIONS
+// CUSTOM TYPOGRAPHY
 
 .highlight {
-  @include u-font("sans", "lg");
+  p {
+    @include u-font("sans", "xl");
+  }
 
   h1 {
-    margin-bottom: 0;
+    @include u-font("sans", "3xl");
+    @include u-text("bold");
+    @include u-margin-bottom(0);
+
+    &::before {
+      color: color("primary-vivid");
+      content: "// ";
+    }
   }
 }

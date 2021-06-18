@@ -42,6 +42,17 @@
   }
 }
 
+// MENU HANDLER
 .usa-menu-btn {
   background-color: transparent;
+
+  &:hover {
+    background-color: color("primary-vivid");
+  }
+}
+
+.usa-nav__close {
+  &:hover {
+    background-color: color("primary-vivid");
+  }
 }
