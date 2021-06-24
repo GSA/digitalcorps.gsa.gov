@@ -3,7 +3,7 @@ title: U.S. Digital Corps
 email: digitalcorps@gsa.gov
 description: "The United States Digital Corps"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://corps.digital.gov" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Twitter handle. Only the handle, not the URL.
 # twitter: usdc

@@ -4,8 +4,8 @@
 anchor_data:
     site_name: U.S. Digital Corps
     site_email: digitalcorps@gsa.gov
-    site_url: https://corps.digital.gov
-    site_about: https://corps.digital.gov/about/
+    site_url: https://digitalcorps.gsa.gov
+    site_about: https://digitalcorps.gsa.gov/about/
     agency: U.S. General Services Administration
     agency_acronym: GSA
     agency_logo: /img/gsa-logo-w100.png

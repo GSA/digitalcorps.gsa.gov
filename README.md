@@ -1,6 +1,6 @@
 # United States Digital Corps
 
-The [U.S. Digital Corps](https://corps.digital.gov/) website is developed using the [U.S. Web Design System v2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for [Federalist](https://federalist.18f.gov/) websites.
+The [U.S. Digital Corps](https://digitalcorps.gsa.gov/) website is developed using the [U.S. Web Design System v2.0](https://v2.designsystem.digital.gov) and is focused on providing developers a starter kit and reference implementation for [Federalist](https://federalist.18f.gov/) websites.
 
 This code uses the [Jekyll](https://jekyllrb.com) site engine and built with Ruby.
 
@@ -22,8 +22,8 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 Clone the repository.
 
 ```bash
-git clone https://github.com/GSA/corps.digital.gov.git
-cd corps.digital.gov
+git clone https://github.com/GSA/digitalcorps.gsa.gov.git
+cd digitalcorps.gsa.gov
 ```
 
 Install the Node.js dependencies.

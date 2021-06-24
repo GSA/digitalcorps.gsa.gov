@@ -12,10 +12,10 @@
   "author": "Federalist",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GSA/corps.digital.gov"
+    "url": "https://github.com/GSA/digitalcorps.gsa.gov"
   },
   "bugs": {
-    "url": "https://github.com/GSA/corps.digital.gov/issues"
+    "url": "https://github.com/GSA/digitalcorps.gsa.gov/issues"
   },
   "license": "CC0-1.0",
   "dependencies": {
