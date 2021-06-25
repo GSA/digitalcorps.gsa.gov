@@ -1,13 +1,13 @@
 ---
-layout: default-main
+layout: default
 ---
 
 {% comment %}
 This template is for a single page that does not have a date associated with it. For example, an about page.
 {% endcomment %}
 
-{% if page.banner == true %}
-  {% include_cached banner.html %}
+{% if page.intro == true %}
+  {% include_cached intro.html %}
 {% endif %}
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">

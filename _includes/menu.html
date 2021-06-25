@@ -3,20 +3,29 @@ To modify the menu system, you are welcome to edit this HTML directly or you can
 where we provide an easy way to manage your navigation system
 {% endcomment %}
 
-<header class="usa-header site-header usa-header--basic {% if include.nav == 'dark' %} usa-header--dark {% endif %}" role="banner">
+<header class="usa-header site-header usa-header--basic" role="banner">
   <div class="usa-nav-container">
-  <div class="usa-navbar site-navbar">
-    {% include logo.html %}
-    <button class="usa-menu-btn">Menu</button>
-  </div>
-  <nav role="navigation" aria-label="Primary navigation" class="usa-nav usa-nav site-nav">
+    <div class="usa-navbar site-navbar">
+      <!-- logo -->
+      <div class="usa-logo" id="extended-logo">
+        <em class="usa-logo__text">
+          <a href="{{site.baseurl}}/" title="Home" aria-label="Home" class="site-navbar__logo-link">
+            <img src="https://via.placeholder.com/760x240/DDD/1b2b85/?text=Logo Placeholder"
+              alt="U.S. Digital Corps Logo" width="250" />
+          </a>
+        </em>
+      </div>
 
-      <button class="usa-nav__close">{% asset close.svg alt="close" %}</button>
+      <button class="usa-menu-btn">{% asset usa-icons/menu.svg alt="menu" %}</button>
+    </div>
+    <nav class="usa-nav usa-nav site-nav" role="navigation" aria-label="Primary navigation">
+
+      <button class="usa-nav__close">{% asset usa-icons/close.svg alt="close" %}</button>
       <ul class="usa-nav__primary usa-accordion">
         {% for nav_item in include.primary_navigation %}
         {% unless nav_item.children %}
         {% assign basedir = include.url | remove_first: '/' | split: '/' | first | lstrip %}
-        {% assign linkdir = nav_item.url |  replace: "/", ""  | lstrip %}
+        {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}{% if linkdir == 'apply' %} usa-button{% endif %}"
             href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
@@ -38,10 +47,11 @@ where we provide an easy way to manage your navigation system
         {% endunless %}
         {% endfor %}
       </ul>
-      <a href="{{ site.baseurl }}/apply" class="usa-button usa-button--secondary">
+      <a href="{{ site.baseurl }}/apply" class="usa-button usa-button--primary usa-button--small"
+        style="margin-left:16px;">
         Join us
       </a>
-      {% include searchgov/form.html searchgov=site.searchgov %}
-  </nav>
+      <!-- {% include searchgov/form.html searchgov=site.searchgov %} -->
+    </nav>
   </div>
 </header>

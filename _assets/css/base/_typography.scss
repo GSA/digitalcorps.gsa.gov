@@ -1,0 +1,57 @@
+// GENERAL TYPOGRAPHY
+// further specification done in component styles
+
+@mixin header-em {
+  em {
+    @include u-text("primary-vivid");
+    font-style: italic;
+  }
+}
+
+h1,
+.as-h1 {
+  @include u-font("sans", "2xl");
+  @include u-text("bold");
+  @include u-text("primary");
+  @include header-em;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+h2,
+.as-h2 {
+  @include u-font("sans", "xl");
+  @include u-text("semibold");
+  @include u-text("primary");
+  @include header-em;
+  line-height: 1;
+}
+
+h3,
+.as-h3,
+h4,
+.as-h4 {
+  @include u-font("sans", "md");
+  @include u-text("normal");
+  @include u-text("primary-vivid");
+  line-height: 1;
+}
+
+ul,
+li {
+  @include u-text("light");
+  strong {
+    @include u-text("bold");
+  }
+}
+
+.usa-prose {
+  @include header-em;
+  max-width: unset;
+
+  p,
+  ul li,
+  ol li {
+    max-width: unset;
+  }
+}

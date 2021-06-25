@@ -1,48 +1,29 @@
-@import "uswds-settings";
-
-// Import the US Web Design System SASS.
+// US Web Design System (base)
+@import "uswds/settings";
 @import "uswds";
 
-// Custom Mixins
-@import "mixins";
+@import "uswds/button";
+@import "uswds/navbar";
+@import "uswds/hero";
+@import "uswds/banner";
+@import "uswds/footer";
+@import "uswds/logo";
 
-// Custom Utilities
-@import "utilities";
+// Search.gov
+@import "search.gov/form";
 
-// USWDS Overrides
-@import "uswds-overrides/button";
-@import "uswds-overrides/nav";
-@import "uswds-overrides/intro";
-@import "uswds-overrides/hero";
-@import "uswds-overrides/list";
-@import "uswds-overrides/graphic-list";
-@import "uswds-overrides/social-link";
-@import "uswds-overrides/footer";
-@import "uswds-overrides/section";
-@import "uswds-overrides/logo";
-@import "uswds-overrides/menu";
-@import "uswds-overrides/banner";
-@import "uswds-overrides/form";
+// Base Overrides and Styles
+@import "base/layout";
+@import "base/overlays";
+@import "base/typography";
 
-// Search.gov override
-@import "searchgov/form";
+// Component Styles
+@import "component/anchor";
+@import "component/benefits";
+@import "component/highlight";
 
-// Custom Styles
-@import "custom/anchor";
-@import "custom/pagination";
-@import "custom/breadcrumb";
-@import "custom/project";
-@import "custom/image";
-@import "custom/partner";
-@import "custom/project-fellows";
-@import "custom/project-item";
-@import "custom/list-fellows";
-@import "custom/site-card";
-@import "custom/work-box";
-@import "custom/typography";
-@import "custom/quote";
-@import "custom/footer-tagline";
-@import "custom/skipnav";
-@import "custom/story";
-@import "custom/project-team";
-@import "custom/filters";
+// Page Styles
+@import "pages/about";
+@import "pages/apply";
+@import "pages/home";
+@import "pages/opportunity";

@@ -1,71 +1,71 @@
-{% include_cached footer-tagline.html %}
 <footer class="usa-footer usa-footer--big">
   <div class="usa-footer__primary-section">
     <div class="grid-container">
-      <div class="padding-top-4 padding-bottom-2 mobile-lg:padding-bottom-0">
+      <div class="grid-row padding-top-4 padding-bottom-2 mobile-lg:padding-bottom-0">
         <a href="{{ site.baseurl }}/">
-          {% asset pif-logo-nav.png alt="U.S. Digital Corps Logo" width="189" %}
+          <img src="https://via.placeholder.com/760x240/FEFEFE/1b2b85/?text=Logo Placeholder"
+            alt="U.S. Digital Corps Logo" width="250" />
         </a>
       </div>
-      <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-8">
-          <nav aria-label="Footer navigation" class="usa-footer__nav">
+      <div class="grid-row">
+        <div class="tablet:grid-col-6">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
             <div class="grid-row">
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
-                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
-                  <h4 class="usa-footer__primary-link">U.S. Digital Corps</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/fellows">Fellows</a></li>
-                    <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/projects">Projects</a></li>
-                    <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/agencies">Agencies</a></li>
-                    <li class="usa-footer__secondary-link"><a href="{{ site.baseurl }}/faq">FAQ</a></li>
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-6">
                 <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
                   <h4 class="usa-footer__primary-link">Get in touch</h4>
                   <ul class="usa-list usa-list--unstyled">
-                    <!-- <li class="usa-footer__secondary-link"><a href="/contact-us">Contact Us</a></li> -->
-                    <li class="usa-footer__secondary-link"><a href="mailto:usdc@gsa.gov">usdc@gsa.gov</a> </li>
-                    <li>
-                      <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/PIFgov">
+                    <li class="usa-footer__secondary-link"><a href="mailto:{{site.email}}">{{site.email}}</a> </li>
+                    <li class="margin-top-3 padding-right-1 mobile:padding-left-2 desktop:padding-left-0">
+                      <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/{{site.twitter}}">
                         <span>Twitter</span>
                       </a>
-                      <a class="usa-social-link usa-social-link--linkedin" href="https://www.linkedin.com/company/white-house-presidential-innovation-fellows/">
+                      <a class="usa-social-link usa-social-link--linkedin"
+                        href="https://www.linkedin.com/company/united-states-digital-corps/">
                         <span>LinkedIn</span>
                       </a>
+                      <a class="usa-social-link usa-social-link--facebook"
+                        href="https://www.facebook.com/unitedstatesdigitalcorps/">
+                        <span>Facebook</span>
+                      </a>
+                      <a class="usa-social-link usa-social-link--instagram"
+                        href="https://www.instagram.com/unitedstatesdigitalcorps/">
+                        <span>Instagram</span>
+                      </a>
                     </li>
-                    <li>
-
-                    </li>
-
                   </ul>
                 </section>
               </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-6">
                 <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
                   <h4 class="usa-footer__primary-link">Policies and standards</h4>
                   <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/linking-policy">Linking policy</a></li>
-                    <li class="usa-footer__secondary-link"><a href="https://www.gsa.gov/website-information/privacy-and-security-notice">Privacy and security</a> </li>
+                    <li class="usa-footer__secondary-link"><a
+                        href="https://www.gsa.gov/website-information/linking-policy">Linking policy</a></li>
+                    <li class="usa-footer__secondary-link"><a
+                        href="https://www.gsa.gov/website-information/privacy-and-security-notice">Privacy and
+                        security</a> </li>
                   </ul>
                 </section>
               </div>
             </div>
           </nav>
         </div>
-        <div class="tablet:grid-col-4">
+        <div class="tablet:grid-col-4 tablet:grid-offset-2">
           <div class="usa-sign-up">
-            <form class="usa-form" id="GD-snippet-form" action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_1" accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="BVsScV3cJRnFoVEu3356C3aW2YOaOpp/VH1/TrYPxME4KWzNT/7ABzgRFh1wpp3UA6+C6PZX4tirvSU4VE5KcQ==" />
+            <form class="usa-form" id="go-delivery-form"
+              action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_TBD"
+              accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden"
+                value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NEED TOKEN" />
               <label id="usdc-email-sign-up" for="email" class="usa-sign-up__heading">Sign up for USDC updates</label>
-              <input class="usa-input" type="text" name="email" id="email" placeholder="Enter your email address" aria-labelledby="pif-email-sign-up"/>
-              <input class="usa-button usa-button--secondary" type="submit" name="commit" value="Submit" />
+              <input class="usa-input" type="text" name="email" id="email" placeholder="Enter your email address"
+                aria-labelledby="usdc-email-sign-up" />
+              <input class="usa-button usa-button--small" type="submit" name="commit" value="Submit" />
             </form>
           </div>
         </div>
       </div>
     </div>
   </div>
-  {% include anchor.html %}
+  {% include_cached anchor.html %}
 </footer>

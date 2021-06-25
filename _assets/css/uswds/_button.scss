@@ -1,0 +1,58 @@
+// USWDS OVERRIDES for BUTTON
+
+.usa-button {
+  width: initial;
+  height: 48px;
+  line-height: 48px;
+  padding-top: 0;
+
+  text-transform: uppercase;
+  letter-spacing: letter-spacing(1);
+
+  &:hover {
+    @include u-bg("primary-vivid");
+  }
+
+  // VARIANTS
+  &--secondary {
+    &:hover {
+      @include u-bg("secondary-dark");
+    }
+  }
+
+  // SIZES
+  &--small {
+    height: 32px;
+    line-height: 32px;
+  }
+
+  // SKEWED BUTTON
+  &.button-skewed {
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    margin-left: 9px;
+  }
+
+  .button-unskewed-content {
+    -ms-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    display: inline-block;
+  }
+}
+
+// MENU HANDLER
+.usa-menu-btn {
+  background-color: transparent;
+
+  &:hover {
+    background-color: color("primary-vivid");
+  }
+}
+
+.usa-nav__close {
+  &:hover {
+    background-color: color("primary-vivid");
+  }
+}

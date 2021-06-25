@@ -1,48 +1,27 @@
-{% comment %}
-The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
-_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
-{% endcomment %}
+---
+layout: base
+---
 
-{% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
+<div class="usa-layout-docs usa-section">
 
-<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
-  <nav>
-    {% if include.fellows_landing %}
-    <h2 class="as-h3">Fellows by year</h2>
-    <ul class="usa-sidenav">
-      <li class="usa-sidenav__item">
-        <a href="{{ site.baseurl }}/fellows/" class="{% if navurl == '/fellows/' %}usa-current{% endif %}">All Fellows</a>
-        <ul class="usa-sidenav__sublist">
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2021/" class="{% if navurl == '/fellows/2021/' %}usa-current{% endif %}">2021 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2020/" class="{% if navurl == '/fellows/2020/' %}usa-current{% endif %}">2020 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2019/" class="{% if navurl == '/fellows/2019/' %}usa-current{% endif %}">2019 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2017/" class="{% if navurl == '/fellows/2017/' %}usa-current{% endif %}">2017 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2016/" class="{% if navurl == '/fellows/2016/' %}usa-current{% endif %}">2016 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2015/" class="{% if navurl == '/fellows/2015/' %}usa-current{% endif %}">2015 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2014/" class="{% if navurl == '/fellows/2014/' %}usa-current{% endif %}">2014 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2013/" class="{% if navurl == '/fellows/2013/' %}usa-current{% endif %}">2013 Fellows</a>
-          </li>
-          <li class="usa-sidenav__item">
-            <a href="{{ site.baseurl }}/fellows/2012/" class="{% if navurl == '/fellows/2012/' %}usa-current{% endif %}">2012 Fellows</a>
-          </li>
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+
+      <aside class="sidenav desktop:grid-col-3">
+        {% assign sidenav = site.data.nav[page.category] %}
+        {% if sidenav %}
+        <ul class="site-sidenav usa-sidenav">
+          {% include nav/list.html links=sidenav %}
         </ul>
-      </li>
-    </ul>
-    {% endif %}
-  </nav>
-</aside>
+        {% endif %}
+      </aside>
+
+      <main id="main-content" class="usa-layout-docs__main desktop:grid-col-fill usa-prose">
+        <h1 id="{{ page.title | slugify }}">{{ page.title }}</h1>
+        {{ content }}
+      </main>
+
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,40 @@
+.benefits {
+    @include grid-gap(6);
+    @include u-padding-top(6);
+
+    // mobile
+    @include at-media-max("tablet") {
+        @include u-padding-top(2);
+    }
+
+    // individual responsive units
+    .benefit {
+        @include grid-col(4);
+
+        img {
+            @include u-circle("card-lg");
+        }
+        text-align: center;
+
+        p {
+            @include u-font("sans", "lg");
+        }
+
+        h2 {
+            @include u-padding-bottom(2);
+            @include u-border-bottom("05");
+            @include u-border-bottom("primary-vivid");
+            min-height: 90px;
+
+            // mobile
+            @include at-media-max("tablet") {
+                min-height: unset;
+            }
+        }
+
+        // mobile
+        @include at-media-max("tablet") {
+            @include grid-col(12);
+        }
+    }
+}

@@ -1,0 +1,55 @@
+// USWDS OVERRIDES for HERO
+
+// MIXINs FOR HERO VARIANTS
+
+@mixin hero-size($desktop: 600px, $mobile: 300px) {
+  height: $mobile;
+  @include at-media("tablet") {
+    height: $desktop;
+  }
+}
+
+// OVERRIDES
+.usa-hero {
+  // @include hero-size(600px, 450px);
+  // padding: 0;
+  line-height: 0.9;
+
+  // Variants
+  &--medium {
+    @include hero-size(500px, 400px);
+  }
+
+  &--short {
+    @include hero-size(400px, 300px);
+  }
+
+  &--tiny {
+    @include hero-size(300px, 200px);
+  }
+
+  // Background image defaults
+  // image should be added in unique style
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+
+  // typography
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-top: 0.5rem;
+  }
+
+  .usa-hero__heading {
+    @include u-font("sans", 17);
+    @include u-text("primary-darker");
+    line-height: 0.9;
+
+    @include at-media-max("tablet") {
+      @include u-font("sans", "3xl");
+    }
+  }
+}

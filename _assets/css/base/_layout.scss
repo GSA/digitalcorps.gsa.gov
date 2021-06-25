@@ -1,0 +1,11 @@
+// GENERAL LAYOUT OVERRIDES
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    // always show vertical scrollbar
+    // to prevent page jerk
+    overflow-y: scroll;
+}

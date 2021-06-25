@@ -11,6 +11,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 3.9"
+gem 'liquid-c'
 
 # See https://github.com/sass/sassc-rails/issues/114#issuecomment-441024718
 # gem "sassc-rails"
@@ -30,8 +31,8 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
   gem 'jekyll-autoprefixer'
-  gem 'jekyll-include-cache'
   gem "jekyll-assets", "~> 3.0", group: :jekyll_plugins
+  gem 'jekyll-include-cache'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

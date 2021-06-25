@@ -1,0 +1,82 @@
+// HOME customization
+
+.home {
+  .usa-hero {
+
+    // background image
+    background-image: url(asset_path("banners/banner-home.jpg"));
+    background-position: right;
+
+    // callout container
+    .usa-hero__callout {
+      background-color: rgba(255, 255, 255, 0.5);
+      max-width: 40rem;
+    }
+
+    .usa-hero__heading {
+      text-transform: unset;
+    }
+  }
+}
+
+// sections
+.usa-hero.tech-talent {
+  @include hero-size(500px, 400px);
+  @include u-padding-bottom(3);
+  background-image: url(https://via.placeholder.com/800x800/1b2b85);
+  background-position: center;
+
+  h1 {
+    color: color("white");
+  }
+
+  @include at-media-max("tablet") {
+    @include u-margin-bottom(2);
+  }
+}
+
+@mixin hero-mini($image-url) {
+  @include hero-size(242px, 200px);
+  @include skewed-overlay("right", 50%, "primary", $image-url);
+  background-position: left;
+  @include u-padding(0);
+
+  // mobile
+  @include at-media-max("tablet") {
+    @include skewed-overlay("right", 20%, "primary", $image-url);
+  }
+}
+
+.hero-mini-content {
+  @include grid-col(6);
+  @include grid-offset(6);
+  @include u-padding-left(4);
+  @include u-padding-right(1);
+  position: relative;
+
+  h1,
+  h2 {
+    color: color("white");
+    @include u-font("sans", 11);
+    margin: 0;
+  }
+
+  h2 {
+    @include u-font("sans", "md");
+  }
+
+  // mobile
+  @include at-media-max("tablet") {
+    @include grid-col(9);
+    @include grid-offset(3);
+    @include u-padding-x(2);
+  }
+}
+
+.usa-hero.mission {
+  @include hero-mini("https://via.placeholder.com/800x400");
+  @include u-margin-bottom(2);
+}
+.usa-hero.impact {
+  @include hero-mini("https://via.placeholder.com/800x400");
+}

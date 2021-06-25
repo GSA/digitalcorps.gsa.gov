@@ -1,0 +1,6 @@
+// banner
+.about .usa-hero {
+    @include hero-size(400px, 250px);
+    background-image: url(https://via.placeholder.com/1920x600);
+    background-position: center;
+}
