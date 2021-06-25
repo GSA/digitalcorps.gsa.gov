@@ -51,9 +51,8 @@
   // SOCIAL MEDIA ICONS
 
   .usa-social-link {
-    @include u-margin-top(3);
-    @include u-margin-right(1);
-    background-color: color("base-lighter");
+    @include u-margin(0);
+    line-height: 1;
   }
 
   .usa-social-link--linkedin {
