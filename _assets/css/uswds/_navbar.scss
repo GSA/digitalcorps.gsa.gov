@@ -46,6 +46,13 @@
   }
 }
 
+// logo, fix for tablet margin
+.usa-logo {
+  @include at-media("tablet"){
+    @include u-margin-x(4);
+  }
+}
+
 // search bar
 .usa-nav .usa-search {
   margin-left: 0;
