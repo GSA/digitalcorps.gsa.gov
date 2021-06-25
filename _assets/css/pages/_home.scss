@@ -1,112 +1,82 @@
-// BACKGROUND IMAGE OVERRIDES
+// HOME customization
 
-.usa-hero.home {
-    // @include hero-size(500px, 450px);
-  
-    // desktop and tablet
-    // @include skewed-overlay("left", 60%, "white", "banner-home.jpg");
+.home {
+  .usa-hero {
+
+    // background image
     background-image: url(asset_path("banners/banner-home.jpg"));
     background-position: right;
-  
-    // mobile alternative
-    // TODO: add different image that works on mobile?
-    @include at-media-max("tablet") {
-      // background-image: none;
+
+    // callout container
+    .usa-hero__callout {
+      background-color: rgba(255, 255, 255, 0.5);
+      max-width: 40rem;
+    }
+
+    .usa-hero__heading {
+      text-transform: unset;
     }
   }
-  
-  // sections
-  .usa-hero.tech-talent {
-    @include hero-size(500px, 400px);
-    background-image: url(https://via.placeholder.com/800x800/1b2b85);
-    background-position: center;
-  
-    h1 {
-      color: color("white");
-    }
-  
-    @include at-media-max("tablet") {
-      @include u-margin-bottom(2);
-    }
+}
+
+// sections
+.usa-hero.tech-talent {
+  @include hero-size(500px, 400px);
+  @include u-padding-bottom(3);
+  background-image: url(https://via.placeholder.com/800x800/1b2b85);
+  background-position: center;
+
+  h1 {
+    color: color("white");
   }
-  
-  @mixin hero-mini($image-url) {
-    @include hero-size(242px, 200px);
-    @include skewed-overlay("right", 50%, "primary", $image-url);
-    background-position: left;
-  
-    // mobile
-    @include at-media-max("tablet") {
-      @include skewed-overlay("right", 20%, "primary", $image-url);
-    }
-  }
-  
-  .hero-mini-content {
-    @include grid-col(6);
-    @include grid-offset(6);
-    @include u-padding-left(4);
-    @include u-padding-right(1);
-    position: relative;
-  
-    h1,
-    h2 {
-      color: color("white");
-      @include u-font("sans", 11);
-      margin: 0;
-    }
-  
-    h2 {
-      @include u-font("sans", "md");
-    }
-  
-    // mobile
-    @include at-media-max("tablet") {
-      @include grid-col(9);
-      @include grid-offset(3);
-      @include u-padding-x(2);
-    }
-  }
-  
-  .usa-hero.mission {
-    @include hero-mini("https://via.placeholder.com/800x400");
+
+  @include at-media-max("tablet") {
     @include u-margin-bottom(2);
   }
-  .usa-hero.impact {
-    @include hero-mini("https://via.placeholder.com/800x400");
+}
+
+@mixin hero-mini($image-url) {
+  @include hero-size(242px, 200px);
+  @include skewed-overlay("right", 50%, "primary", $image-url);
+  background-position: left;
+  @include u-padding(0);
+
+  // mobile
+  @include at-media-max("tablet") {
+    @include skewed-overlay("right", 20%, "primary", $image-url);
   }
-  
-  // HERO TYPOGRAPHY
-  // note: some font specs for HERO are inherited from typography.scss
-  
-  .usa-hero__callout {
-    @include u-text("primary-dark");
-    background-color: rgba(255, 255, 255, 0.5);
-  
-    max-width: 40rem;
-    // padding: 4rem 0 4rem 0;
-    // position: relative;
-  
-    h1 {
-      @include u-font("sans", 17);
-      @include u-text("primary-dark");
-      margin-bottom: 0;
-    }
-  
-    h2 {
-      @include u-font("sans", "xl");
-      @include u-text("primary-dark");
-      @include u-text("normal");
-      text-transform: none;
-      margin-top: 0.5rem;
-      line-height: 1;
-    }
+}
+
+.hero-mini-content {
+  @include grid-col(6);
+  @include grid-offset(6);
+  @include u-padding-left(4);
+  @include u-padding-right(1);
+  position: relative;
+
+  h1,
+  h2 {
+    color: color("white");
+    @include u-font("sans", 11);
+    margin: 0;
   }
-  
-  .usa-hero__heading {
-    @include u-font("sans", 17);
-    @include u-text("primary-dark");
-  
-    @include at-media-max("tablet") {
-      @include u-font("sans", "3xl");
-    }
+
+  h2 {
+    @include u-font("sans", "md");
   }
+
+  // mobile
+  @include at-media-max("tablet") {
+    @include grid-col(9);
+    @include grid-offset(3);
+    @include u-padding-x(2);
+  }
+}
+
+.usa-hero.mission {
+  @include hero-mini("https://via.placeholder.com/800x400");
+  @include u-margin-bottom(2);
+}
+.usa-hero.impact {
+  @include hero-mini("https://via.placeholder.com/800x400");
+}

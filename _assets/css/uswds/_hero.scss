@@ -29,8 +29,27 @@
   }
 
   // Background image defaults
-  // see customizations at bottom for unique page images
+  // image should be added in unique style
   background-image: none;
   background-size: cover;
   background-position: center;
+
+  // typography
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-top: 0.5rem;
+  }
+
+  .usa-hero__heading {
+    @include u-font("sans", 17);
+    @include u-text("primary-darker");
+    line-height: 0.9;
+
+    @include at-media-max("tablet") {
+      @include u-font("sans", "3xl");
+    }
+  }
 }

@@ -9,11 +9,9 @@
   border-bottom: none;
 }
 
-// menu item layout, centered verically
+// menu item layout, centered vertically
 .usa-header--basic .usa-nav-container {
   @include at-media("desktop") {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     align-items: center;
   }
 }
