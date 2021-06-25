@@ -73,7 +73,7 @@
       @include u-padding-right(1);
       @include u-padding-top("105");
       @include u-padding-bottom(2);
-      @include u-bg("primary");
+      @include u-bg("base-darker");
       @include u-font("sans", "2xs");
       @include u-text("base-lightest");
       ul {

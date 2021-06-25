@@ -25,8 +25,8 @@
       </div>
 
       <div class="org-expanded" id="org-details" hidden>
-        <div class="grid-row grid-gap-2">
-          <div class="grid-col-12 tablet:grid-col-6">
+        <div class="grid-row grid-gap-3">
+          <div class="grid-col-12 tablet:grid-col-7">
             <div class="org-copy">
               {% if anchor.org_primary_bio %}
                 <p>{{ anchor.org_primary_bio }} <a class="more" href="{{ anchor.org_primary_url }}" title="Learn more about {{ anchor.org_primary }}">Read more</a></p>
@@ -37,7 +37,7 @@
             </div>
           </div>
 
-          <div class="grid-col-12 tablet:grid-col-5 tablet:grid-offset-1">
+          <div class="grid-col-12 tablet:grid-col-5">
             <div class="org-links">
               <p><i class="fas fa-envelope"></i> For questions about this website, email <a href="mailto:{{ anchor.site_email }}">{{ anchor.site_email }}</a>.</p>
 
