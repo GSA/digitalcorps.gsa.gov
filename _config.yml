@@ -69,6 +69,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-include-cache
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
