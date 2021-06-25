@@ -13,8 +13,15 @@
 
 // Base Overrides and Styles
 @import "base/layout";
+@import "base/overlays";
 @import "base/typography";
 
 // Component Styles
-@import "component/anchor";
 @import "component/benefits";
+
+// Page Styles
+@import "pages/about";
+@import "pages/anchor";
+@import "pages/apply";
+@import "pages/home";
+@import "pages/opportunity";

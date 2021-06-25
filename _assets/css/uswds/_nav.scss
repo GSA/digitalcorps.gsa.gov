@@ -1,17 +1,16 @@
 // USWDS OVERRIDES for HEADER/NAV
 
+// removes top and bottom section borders
 .usa-header + main,
 .usa-header + .usa-section {
   border-top: none;
 }
-
 .usa-navbar {
   border-bottom: none;
 }
 
+// menu item layout, centered verically
 .usa-header--basic .usa-nav-container {
-  max-width: 100%;
-
   @include at-media("desktop") {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -19,50 +18,35 @@
   }
 }
 
-.usa-header--basic .usa-nav {
-  @include at-media("desktop") {
-    width: auto; // This helps logo to shrink when search bar is expanded
-    flex-grow: 1;
-  }
-}
-
-.usa-header--basic .usa-navbar {
-  @include at-media("desktop") {
-    max-width: 189px;
-    flex: 2 2 15%; // This allows the logo to shrink when search bar is expanded
-  }
-}
-
+// menu font, desktop
 .usa-nav__primary > .usa-nav__primary-item {
   @include at-media("desktop") {
-    flex-shrink: 0;
+    @include u-font("sans", "md");
+    @include u-text("bold");
     text-transform: uppercase;
   }
 }
 
-.usa-nav__primary > .usa-nav__primary-item > a {
-  @include at-media("desktop") {
-    @include u-font("sans", "sm");
-    @include u-text("normal");
-    @include u-text("primary-dark");
-  }
-}
-
-.usa-header--basic .usa-nav__primary-item > .usa-current {
-  @include at-media("desktop") {
+// menu font, mobile
+.usa-header--basic .usa-nav__primary-item > .usa-current,
+.usa-header--basic .usa-nav__link {
     @include u-text("bold");
-  }
 }
 
+// indicator
 .usa-header--basic .usa-nav__primary-item > .usa-current::after,
 .usa-header--basic .usa-nav__link:hover::after {
+
+  @include u-bg("secondary-dark");
+
+  // desktop view, resize
   @include at-media("desktop") {
-    @include u-bg("secondary-darker");
     height: 2px;
-    bottom: 6px;
+    bottom: 8px;
   }
 }
 
+// search bar
 .usa-nav .usa-search {
   margin-left: 0;
 }
