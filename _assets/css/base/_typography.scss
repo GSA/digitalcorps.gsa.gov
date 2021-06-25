@@ -70,7 +70,7 @@ li {
     @include u-margin-bottom(0);
 
     &::before {
-      color: color("primary-vivid");
+      color: color("primary-light");
       content: "// ";
     }
   }

@@ -1,7 +1,7 @@
 // ANCHOR COMPONENT
 
 .component-anchor {
-  @include u-bg("primary-dark");
+  @include u-bg("base-darkest");
   @include u-text("white");
   &:hover,
   &:active {
