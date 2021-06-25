@@ -17,11 +17,12 @@
 @import "base/typography";
 
 // Component Styles
+@import "component/anchor";
 @import "component/benefits";
+@import "component/highlight";
 
 // Page Styles
 @import "pages/about";
-@import "pages/anchor";
 @import "pages/apply";
 @import "pages/home";
 @import "pages/opportunity";

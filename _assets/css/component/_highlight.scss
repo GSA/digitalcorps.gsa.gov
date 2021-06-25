@@ -1,0 +1,16 @@
+.highlight {
+    p {
+        @include u-font("sans", "xl");
+    }
+
+    h1 {
+        @include u-font("sans", "3xl");
+        @include u-text("bold");
+        @include u-margin-bottom(0);
+
+        &::before {
+            color: color("primary-light");
+            content: "// ";
+        }
+    }
+}
