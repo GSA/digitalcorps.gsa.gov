@@ -2,7 +2,6 @@
 
 .home {
   .usa-hero {
-
     // background image
     background-image: url(asset_path("banners/banner-home.jpg"));
     background-position: right;
@@ -10,11 +9,15 @@
     // callout container
     .usa-hero__callout {
       background-color: rgba(255, 255, 255, 0.5);
-      max-width: 40rem;
+      max-width: 35rem;
     }
 
     .usa-hero__heading {
       text-transform: unset;
+    }
+
+    .usa-hero__text {
+      @include u-text("bold");
     }
   }
 }

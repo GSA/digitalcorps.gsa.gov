@@ -11,8 +11,8 @@
 
 // OVERRIDES
 .usa-hero {
-  // @include hero-size(600px, 450px);
-  // padding: 0;
+
+  @include u-text("primary-darker");
   line-height: 0.9;
 
   // Variants
@@ -37,19 +37,25 @@
   // typography
   h1 {
     margin-bottom: 0;
+    color: inherit;
   }
 
   h2 {
     margin-top: 0.5rem;
+    color: inherit;
   }
 
   .usa-hero__heading {
     @include u-font("sans", 17);
-    @include u-text("primary-darker");
     line-height: 0.9;
+    color: inherit;
 
     @include at-media-max("tablet") {
       @include u-font("sans", "3xl");
     }
+  }
+
+  .usa-hero__text {
+    color: inherit;
   }
 }

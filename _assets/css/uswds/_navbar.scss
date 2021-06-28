@@ -16,7 +16,7 @@
 
 // remove bottom padding for desktop menu
 .usa-header--basic .usa-nav {
-  @include at-media("desktop"){
+  @include at-media("desktop") {
     padding: 0 0 0 0.5rem;
   }
 }
@@ -35,18 +35,25 @@
     @include u-text("bold");
     text-transform: uppercase;
   }
+
+  & > a {
+    @include u-text("black");
+
+    &:hover {
+      @include u-text("base-dark");
+    }
+  }
 }
 
 // menu font, mobile
 .usa-header--basic .usa-nav__primary-item > .usa-current,
 .usa-header--basic .usa-nav__link {
-    @include u-text("bold");
+  @include u-text("bold");
 }
 
 // indicator
 .usa-header--basic .usa-nav__primary-item > .usa-current::after,
 .usa-header--basic .usa-nav__link:hover::after {
-
   @include u-bg("secondary-dark");
 
   // desktop view, resize
