@@ -11,7 +11,6 @@
 
 // OVERRIDES
 .usa-hero {
-
   @include u-text("primary-darker");
   line-height: 0.9;
 
@@ -36,17 +35,19 @@
 
   // typography
   h1 {
-    margin-bottom: 0;
+    @include u-font("sans", 16);
+    @include u-text("semibold");
     color: inherit;
   }
 
   h2 {
-    margin-top: 0.5rem;
-    color: inherit;
+    @include u-font("sans", "xl");
+    @include u-text("light");
+    @include u-margin-top(2);
+    color: color("ink");
   }
 
   .usa-hero__heading {
-    @include u-font("sans", 17);
     line-height: 0.9;
     color: inherit;
 

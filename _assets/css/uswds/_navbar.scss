@@ -32,13 +32,16 @@
 .usa-nav__primary > .usa-nav__primary-item {
   @include at-media("desktop") {
     @include u-font("sans", "md");
-    @include u-text("bold");
     text-transform: uppercase;
   }
 
   & > a {
     @include u-text("black");
+    @include u-text("normal");
 
+    &:active {
+      @include u-text("base");
+    }
     &:hover {
       @include u-text("base-dark");
     }
