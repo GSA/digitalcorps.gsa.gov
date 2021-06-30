@@ -1,4 +1,36 @@
-// SKEWED IMAGE
+
+@mixin column-overlay($side, $coverage, $cover-color, $image-url) {
+  @if (str-slice($image-url, 1, 4) == "http") {
+    background-image: url($image-url);
+  } @else {
+    background-image: url(asset_path($image-url));
+  }
+
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    @include u-bg($cover-color);
+    content: "";
+    position: absolute;
+
+    top: 0;
+    height: 100%;
+    width: $coverage;
+
+    @if $side == "right" {
+      right: 0;
+    } @else {
+      left: 0;
+    }
+  }
+}
+
+
+
+// SKEWED
 @mixin skewed-overlay($side, $coverage, $cover-color, $image-url) {
   @if (str-slice($image-url, 1, 4) == "http") {
     background-image: url($image-url);

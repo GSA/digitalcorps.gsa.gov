@@ -5,8 +5,12 @@ description: "The United States Digital Corps"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Twitter handle. Only the handle, not the URL.
-# twitter: usdc
+# Social media handles (not URL)
+social:
+#  twitter: usdc
+#  facebook: usdc
+#  linkedin: united-states-digital-corps
+#  instagram:
 
 # Configuration for Google Analytics, add your UA code here:
 ga:
@@ -15,7 +19,7 @@ ga:
 # Digital Analytics Program (DAP)
 dap:
   agency: GSA
-  subagency: USDC
+  subagency: Digital-Corps
 
 # Site Navigation
 primary_navigation:

@@ -9,8 +9,8 @@
         @include u-margin-bottom(0);
 
         &::before {
-            color: color("primary-light");
-            content: "// ";
+            color: color("primary-vivid");
+            content: "//";
         }
     }
 }

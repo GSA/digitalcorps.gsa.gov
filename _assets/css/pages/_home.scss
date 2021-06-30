@@ -22,40 +22,24 @@
   }
 }
 
-// sections
-.usa-hero.tech-talent {
-  @include hero-size(500px, 400px);
-  @include u-padding-bottom(3);
-  background-image: url(https://via.placeholder.com/800x800/1b2b85);
-  background-position: center;
-
-  h1 {
-    color: color("white");
-  }
-
-  @include at-media-max("tablet") {
-    @include u-margin-bottom(2);
-  }
-}
-
+// section styles
 @mixin hero-mini($image-url) {
   @include hero-size(242px, 200px);
-  @include skewed-overlay("right", 50%, "primary", $image-url);
+  @include column-overlay("right", 225px, "primary", $image-url);
   background-position: left;
   @include u-padding(0);
 
   // mobile
   @include at-media-max("tablet") {
-    @include skewed-overlay("right", 20%, "primary", $image-url);
+    @include column-overlay("right", 80%, "primary", $image-url);
   }
 }
 
 .hero-mini-content {
-  @include grid-col(6);
-  @include grid-offset(6);
-  @include u-padding-left(4);
-  @include u-padding-right(1);
-  position: relative;
+  @include u-padding-x(2);
+  position: absolute;
+  right: 0;
+  width: 225px;
 
   h1,
   h2 {
@@ -73,6 +57,28 @@
     @include grid-col(9);
     @include grid-offset(3);
     @include u-padding-x(2);
+  }
+}
+
+// section customization
+.usa-hero.tech-talent {
+  @include hero-size(500px, 400px);
+  @include u-padding-bottom(3);
+  background-image: url(https://via.placeholder.com/800x800/1b2b85);
+  background-position: center;
+
+  h1 {
+    @include u-font("sans","2xl");
+    color: color("white");
+  }
+
+  // mobile
+  @include at-media-max("tablet") {
+    @include u-margin-bottom(2);
+
+    h1 {
+      @include u-font("sans","xl");
+    }
   }
 }
 

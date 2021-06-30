@@ -3,7 +3,7 @@
     <div class="grid-container">
       <div class="grid-row padding-top-4 padding-bottom-2 mobile-lg:padding-bottom-0">
         <a href="{{ site.baseurl }}/">
-          <img src="https://via.placeholder.com/760x240/FEFEFE/1b2b85/?text=Logo Placeholder"
+          <img src="https://via.placeholder.com/350x75/FEFEFE/?text=Logo Placeholder"
             alt="U.S. Digital Corps Logo" width="250" />
         </a>
       </div>
@@ -17,19 +17,19 @@
                   <ul class="usa-list usa-list--unstyled">
                     <li class="usa-footer__secondary-link"><a href="mailto:{{site.email}}">{{site.email}}</a> </li>
                     <li class="margin-top-3 padding-right-1 mobile:padding-left-2 desktop:padding-left-0">
-                      <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/{{site.twitter}}">
-                        <span>Twitter</span>
-                      </a>
                       <a class="usa-social-link usa-social-link--linkedin"
-                        href="https://www.linkedin.com/company/united-states-digital-corps/">
+                        href="https://www.linkedin.com/company/{{site.social.linkedin}}">
                         <span>LinkedIn</span>
                       </a>
                       <a class="usa-social-link usa-social-link--facebook"
-                        href="https://www.facebook.com/unitedstatesdigitalcorps/">
+                        href="https://www.facebook.com/{{site.social.facebook}}">
                         <span>Facebook</span>
                       </a>
+                      <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/{{site.social.twitter}}">
+                        <span>Twitter</span>
+                      </a>
                       <a class="usa-social-link usa-social-link--instagram"
-                        href="https://www.instagram.com/unitedstatesdigitalcorps/">
+                        href="https://www.instagram.com/{{site.social.instagram}}">
                         <span>Instagram</span>
                       </a>
                     </li>
@@ -57,7 +57,7 @@
               action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_TBD"
               accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden"
                 value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NEED TOKEN" />
-              <label id="usdc-email-sign-up" for="email" class="usa-sign-up__heading">Sign up for USDC updates</label>
+              <label id="usdc-email-sign-up" for="email" class="usa-sign-up__heading">Sign up for updates</label>
               <input class="usa-input" type="text" name="email" id="email" placeholder="Enter your email address"
                 aria-labelledby="usdc-email-sign-up" />
               <input class="usa-button usa-button--small" type="submit" name="commit" value="Submit" />
