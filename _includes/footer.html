@@ -3,8 +3,8 @@
     <div class="grid-container">
       <div class="grid-row padding-top-4 padding-bottom-2 mobile-lg:padding-bottom-0">
         <a href="{{ site.baseurl }}/">
-          <img src="https://via.placeholder.com/350x75/FEFEFE/?text=Logo Placeholder"
-            alt="U.S. Digital Corps Logo" width="250" />
+          <img src="https://via.placeholder.com/350x75/FEFEFE/?text=Logo Placeholder" alt="U.S. Digital Corps Logo"
+            width="250" />
         </a>
       </div>
       <div class="grid-row">
@@ -25,7 +25,8 @@
                         href="https://www.facebook.com/{{site.social.facebook}}">
                         <span>Facebook</span>
                       </a>
-                      <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/{{site.social.twitter}}">
+                      <a class="usa-social-link usa-social-link--twitter"
+                        href="https://twitter.com/{{site.social.twitter}}">
                         <span>Twitter</span>
                       </a>
                       <a class="usa-social-link usa-social-link--instagram"
@@ -40,11 +41,14 @@
                 <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
                   <h4 class="usa-footer__primary-link">Policies and standards</h4>
                   <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link"><a
-                        href="https://www.gsa.gov/website-information/linking-policy">Linking policy</a></li>
-                    <li class="usa-footer__secondary-link"><a
-                        href="https://www.gsa.gov/website-information/privacy-and-security-notice">Privacy and
-                        security</a> </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="https://www.gsa.gov/website-information/linking-policy">
+                        Linking policy</a>
+                    </li>
+                    <li class="usa-footer__secondary-link">
+                      <a href="https://www.gsa.gov/website-information/privacy-and-security-notice">
+                        Privacy and security</a>
+                    </li>
                   </ul>
                 </section>
               </div>
@@ -53,10 +57,10 @@
         </div>
         <div class="tablet:grid-col-4 tablet:grid-offset-2">
           <div class="usa-sign-up">
-            <form class="usa-form" id="go-delivery-form"
-              action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_TBD"
-              accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden"
-                value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NEED TOKEN" />
+            <form class="usa-form" id="go-delivery-form" accept-charset="UTF-8" method="post" target="_blank"
+              action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify">
+              <input name="utf8" type="hidden" value="&#x2713;" />
+              <input type="hidden" name="topic_id" id="topic_id" value="{{site.govdelivery.topic}}" />
               <label id="usdc-email-sign-up" for="email" class="usa-sign-up__heading">Sign up for updates</label>
               <input class="usa-input" type="text" name="email" id="email" placeholder="Enter your email address"
                 aria-labelledby="usdc-email-sign-up" />
