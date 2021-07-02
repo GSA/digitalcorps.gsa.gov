@@ -9,3 +9,11 @@ body {
     // to prevent page jerk
     overflow-y: scroll;
 }
+
+.usa-section,
+.usa-banner,
+.usa-header,
+.usa-hero,
+.usa-footer {
+    min-width: 300px;
+}

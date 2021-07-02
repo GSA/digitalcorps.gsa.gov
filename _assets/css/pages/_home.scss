@@ -4,20 +4,26 @@
   .usa-hero {
     // background image
     background-image: url(asset_path("banners/banner-home.jpg"));
-    background-position: right;
+    background-position: right 25%;
+    // max-width: 1500px;
+    // margin: 0 auto;
 
     // callout container
     .usa-hero__callout {
-      background-color: rgba(255, 255, 255, 0.5);
-      max-width: 35rem;
-    }
+      @include grid-col(7);
+      @include u-padding-x(0);
 
-    .usa-hero__heading {
-      text-transform: unset;
-    }
+      // below desktop
+      @include at-media-max("desktop") {
+        @include u-padding-x(3);
+        background-color: rgba(255, 255, 255, 0.6);
+      }
 
-    .usa-hero__text {
-      @include u-text("bold");
+      // below tablet
+      @include at-media-max("tablet") {
+        @include grid-col(12);
+        @include u-padding-x(2);
+      }
     }
   }
 }
@@ -52,6 +58,28 @@
     @include u-font("sans", "md");
   }
 
+  .usa-link {
+    @include u-font("sans", "md");
+    $dark-link-color: "base-light";
+
+    text-decoration: none;
+    color: color($dark-link-color);
+
+    &:active,
+    &:visited {
+      text-decoration: none;
+      color: color($dark-link-color);
+    }
+    &:hover {
+      text-decoration: underline;
+      color: color("base");
+    }
+
+    &::before {
+      content: "> ";
+    }
+  }
+
   // mobile
   @include at-media-max("tablet") {
     @include grid-col(9);
@@ -68,7 +96,7 @@
   background-position: center;
 
   h1 {
-    @include u-font("sans","2xl");
+    @include u-font("sans", "2xl");
     color: color("white");
   }
 
@@ -77,7 +105,7 @@
     @include u-margin-bottom(2);
 
     h1 {
-      @include u-font("sans","xl");
+      @include u-font("sans", "xl");
     }
   }
 }

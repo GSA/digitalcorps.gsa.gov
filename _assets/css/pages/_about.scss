@@ -1,6 +1,24 @@
 // banner
-.about .usa-hero {
-    @include hero-size(400px, 250px);
-    background-image: url(https://via.placeholder.com/1920x600);
-    background-position: center;
+.about {
+    .usa-hero {
+        // background image
+        background-image: url(https://via.placeholder.com/1920x600);
+        background-position: center;
+
+        // callout container
+        .usa-hero__callout {
+            @include grid-col(6);
+            @include grid-offset(6);
+            @include u-padding-x(0);
+            @include u-padding-top(8);
+
+            // mobile
+            @include at-media-max("tablet") {
+                @include grid-col(12);
+                @include grid-offset(none);
+                @include u-padding-x(2);
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
 }
