@@ -11,4 +11,8 @@
         @include u-text("semibold");
         @include u-margin-top(0);
     }
+
+    p.lg {
+        @include u-font("sans", "lg");
+    }
 }
