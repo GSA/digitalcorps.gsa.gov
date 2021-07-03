@@ -3,15 +3,12 @@
 .highlight {
     @include u-margin-y(0);
     @include u-padding-y(0);
+    @include u-text("center");
+    @include u-font("sans", "xl");
 
     h1 {
         @include u-font("sans", "3xl");
         @include u-text("semibold");
         @include u-margin-top(0);
-        @include u-text("center");
-    }
-
-    p {
-        @include u-font("sans", "lg");
     }
 }

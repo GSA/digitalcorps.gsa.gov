@@ -19,13 +19,15 @@ body {
     min-width: 320px;
 }
 
-
-// MIXINs
-
-@mixin box-height($desktop: 600px, $mobile: 300px) {
-    height: $mobile;
-    @include at-media("tablet") {
-      height: $desktop;
+// hidden
+.for-desktop {
+    @include at-media-max("tablet") {
+        display: none;
     }
-  }
-  
+}
+
+.for-tablet {
+    @include at-media("tablet") {
+        display: none;
+    }
+}

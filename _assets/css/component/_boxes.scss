@@ -1,4 +1,76 @@
-// section styles
+// mixins
+@mixin box-height($desktop: 600px, $mobile: 300px) {
+    height: $desktop;
+    @include at-media-max("tablet") {
+        height: unset;
+        min-height: $mobile;
+    }
+}
+
+// full box styles
+.box {
+    @include box-height(480px, 400px);
+    @include grid-col(6);
+    @include grid-gap(0);
+    @include u-padding(7);
+    background-position: center;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+
+    // < desktop
+    @include at-media-max("desktop") {
+        @include u-padding(4);
+    }
+    // < tablet
+    @include at-media-max("tablet") {
+        @include grid-col(12);
+        @include u-padding(2);
+    }
+
+    // common box styles
+    &--blue,
+    &--baselighter {
+        @include at-media-max("tablet") {
+            min-height: auto;
+        }
+    }
+
+    // custom colors
+    &--blue {
+        background-color: color("primary-vivid");
+        .box-content {
+            @include u-text("white");
+        }
+    }
+
+    &--baselighter {
+        background-color: color("base-lighter");
+        .box-content {
+            @include u-text("primary-dark");
+        }
+    }
+}
+
+.box-content {
+    position: relative;
+
+    h1 {
+        @include u-padding-top(5);
+        @include u-font("sans", "2xl");
+        @include u-text("medium");
+        color: inherit;
+
+        @include at-media-max("tablet") {
+            @include u-padding-top(0);
+        }
+    }
+
+    p {
+        @include u-font("sans", "lg");
+    }
+}
+
+// mini styles
 @mixin box-mini($image-url) {
     @include box-height(224px, 200px);
     @include column-overlay("right", 40%, "primary", $image-url, "none");

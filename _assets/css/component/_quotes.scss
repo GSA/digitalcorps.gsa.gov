@@ -11,6 +11,7 @@
         @include u-padding(4);
     }
 
+    // quote text
     h1 {
         @include u-font("sans", "xl");
         @include u-text("italic");
@@ -22,7 +23,11 @@
         }
     }
 
+    // byline
     p {
         @include u-font("sans", "lg");
+        @include at-media-max("desktop"){
+            @include u-margin-bottom(0);
+        }
     }
 }

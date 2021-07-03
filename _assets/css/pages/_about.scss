@@ -23,3 +23,28 @@
         }
     }
 }
+
+.whoweare-image {
+    background-image: url(asset_path(
+        "stock/stock-photo-handsome-asian-guy-standing-in-front-of-a-light-blue-wall-1580363914.jpeg"
+    ));
+    background-position: 70% top;
+}
+
+.whatwedo-image {
+    background-image: url(asset_path("stock/gettyimages-1060587946-2048x2048.jpeg"));
+    background-position: 55% top;
+
+    @include at-media-max("tablet") {
+        background-position: 70% top;
+    }
+}
+
+.whatwedo-content {
+    h1 {
+        @include at-media("tablet") {
+            @include u-margin-top(0);
+            @include u-padding-top(0);
+        }
+    }
+}
