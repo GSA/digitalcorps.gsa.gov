@@ -34,14 +34,13 @@
   }
 }
 
-
 // section customization
 .tech-talent {
   @include box-height(464px, 400px);
   @include u-padding(4);
   @include u-padding-right(8);
 
-  $image-url:"stock/stock-photo-portrait-of-young-man-sitting-at-his-desk-pointing-at-laptop-in-hands-of-a-female-colleague-male-367286792.jpg";
+  $image-url: "stock/stock-photo-portrait-of-young-man-sitting-at-his-desk-pointing-at-laptop-in-hands-of-a-female-colleague-male-367286792.jpg";
   @include column-overlay("center", 100%, "primary", $image-url, 0.75);
   background-position: center;
   background-size: auto 100%;
@@ -65,12 +64,15 @@
 }
 
 .impact {
-  @include box-mini("stock/stock-photo-wind-generators-turbines-in-the-sea-on-sunset-177011168.jpeg");
+  @include box-mini(
+    "stock/stock-photo-wind-generators-turbines-in-the-sea-on-sunset-177011168.jpeg");
   @include u-margin-bottom(2);
   padding-top: 60px;
 }
 
 .mission {
-  @include box-mini("stock/stock-photo-young-businesswoman-in-casual-clothes-at-modern-startup-meeting-room-1126202309.jpeg");
+  @include box-mini(
+    "stock/stock-photo-young-businesswoman-in-casual-clothes-at-modern-startup-meeting-room-1126202309.jpeg"
+  );
   padding-top: 60px;
 }

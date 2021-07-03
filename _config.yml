@@ -162,6 +162,7 @@ assets:
     - _assets/images/banners
     - _assets/images/icons
     - _assets/images/logo
+    - _assets/images/social
     - _assets/images/stock
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
