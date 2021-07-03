@@ -1,5 +1,5 @@
 
-@mixin column-overlay($side, $coverage, $cover-color, $image-url) {
+@mixin column-overlay($side, $coverage, $cover-color, $image-url, $opacity) {
   @if (str-slice($image-url, 1, 4) == "http") {
     background-image: url($image-url);
   } @else {
@@ -15,6 +15,7 @@
     @include u-bg($cover-color);
     content: "";
     position: absolute;
+    opacity: $opacity;
 
     top: 0;
     height: 100%;

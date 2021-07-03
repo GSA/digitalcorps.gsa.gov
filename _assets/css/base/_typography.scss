@@ -14,7 +14,8 @@ h1,
   @include u-text("bold");
   @include u-text("primary");
   @include header-em;
-  line-height: 0.9;
+  line-height: 1.0;
+  cursor: default;
 }
 
 h2,
@@ -24,6 +25,7 @@ h2,
   @include u-text("primary");
   @include header-em;
   line-height: 1;
+  cursor: default;
 }
 
 h3,
@@ -34,6 +36,7 @@ h4,
   @include u-text("normal");
   @include u-text("primary-vivid");
   line-height: 1;
+  cursor: default;
 }
 
 ul,

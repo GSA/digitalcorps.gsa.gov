@@ -1,18 +1,11 @@
 // USWDS OVERRIDES for HERO
+// used as topper for main pages
 
-// MIXINs FOR HERO VARIANTS
-
-@mixin hero-size($desktop: 600px, $mobile: 300px) {
-  height: $mobile;
-  @include at-media("tablet") {
-    height: $desktop;
-  }
-}
-
-// OVERRIDES
 .usa-hero {
-  @include u-text("primary-darker");
-  line-height: 0.9;
+  @include u-text("primary");
+  min-height: 600px;
+    // max-width: 1500px;
+    // margin: 0 auto;
 
   // Background image defaults
   // image should be added in unique style
@@ -20,17 +13,23 @@
   background-size: cover;
   background-position: center;
 
+  // below desktop
+  @include at-media-max("desktop") {
+    min-height: unset;
+  }
+  
   // typography
   h1 {
     @include u-font("sans", 16);
     @include u-text("semibold");
+    line-height: 0.9;
     color: inherit;
   }
 
   h2 {
     @include u-font("sans", "xl");
-    @include u-text("light");
-    @include u-margin-top(2);
+    @include u-text("medium");
+    @include u-margin-top(4);
     color: color("ink");
   }
 
@@ -43,7 +42,6 @@
 
   .usa-hero__callout {
     max-width: unset;
-    min-height: 400px;
     background-color: transparent;
   }
 

@@ -15,5 +15,17 @@ body {
 .usa-header,
 .usa-hero,
 .usa-footer {
-    min-width: 300px;
+    // global minimum width
+    min-width: 320px;
 }
+
+
+// MIXINs
+
+@mixin box-height($desktop: 600px, $mobile: 300px) {
+    height: $mobile;
+    @include at-media("tablet") {
+      height: $desktop;
+    }
+  }
+  

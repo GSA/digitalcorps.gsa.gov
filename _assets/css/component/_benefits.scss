@@ -1,6 +1,6 @@
 .benefits {
     @include grid-gap(6);
-    @include u-padding-top(6);
+    // @include u-padding-top(6);
 
     // mobile
     @include at-media-max("tablet") {

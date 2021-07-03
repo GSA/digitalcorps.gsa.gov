@@ -5,18 +5,24 @@
     // background image
     background-image: url(asset_path("banners/banner-home.jpg"));
     background-position: right 25%;
-    // max-width: 1500px;
-    // margin: 0 auto;
 
     // callout container
     .usa-hero__callout {
       @include grid-col(7);
       @include u-padding-x(0);
 
+      h2 {
+        padding-right: 4em;
+      }
+
       // below desktop
       @include at-media-max("desktop") {
         @include u-padding-x(3);
         background-color: rgba(255, 255, 255, 0.6);
+
+        h2 {
+          padding-right: unset;
+        }
       }
 
       // below tablet
@@ -28,92 +34,43 @@
   }
 }
 
-// section styles
-@mixin hero-mini($image-url) {
-  @include hero-size(242px, 200px);
-  @include column-overlay("right", 225px, "primary", $image-url);
-  background-position: left;
-  @include u-padding(0);
-
-  // mobile
-  @include at-media-max("tablet") {
-    @include column-overlay("right", 80%, "primary", $image-url);
-  }
-}
-
-.hero-mini-content {
-  @include u-padding-x(2);
-  position: absolute;
-  right: 0;
-  width: 225px;
-
-  h1,
-  h2 {
-    color: color("white");
-    @include u-font("sans", 11);
-    margin: 0;
-  }
-
-  h2 {
-    @include u-font("sans", "md");
-  }
-
-  .usa-link {
-    @include u-font("sans", "md");
-    $dark-link-color: "base-light";
-
-    text-decoration: none;
-    color: color($dark-link-color);
-
-    &:active,
-    &:visited {
-      text-decoration: none;
-      color: color($dark-link-color);
-    }
-    &:hover {
-      text-decoration: underline;
-      color: color("base");
-    }
-
-    &::before {
-      content: "> ";
-    }
-  }
-
-  // mobile
-  @include at-media-max("tablet") {
-    @include grid-col(9);
-    @include grid-offset(3);
-    @include u-padding-x(2);
-  }
-}
 
 // section customization
-.usa-hero.tech-talent {
-  @include hero-size(500px, 400px);
-  @include u-padding-bottom(3);
-  background-image: url(https://via.placeholder.com/800x800/1b2b85);
+.tech-talent {
+  @include box-height(464px, 400px);
+  @include u-padding(4);
+  @include u-padding-right(8);
+
+  $image-url:"stock/stock-photo-portrait-of-young-man-sitting-at-his-desk-pointing-at-laptop-in-hands-of-a-female-colleague-male-367286792.jpg";
+  @include column-overlay("center", 100%, "primary", $image-url, 0.75);
   background-position: center;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 
   h1 {
-    @include u-font("sans", "2xl");
+    @include u-font("sans", "xl");
+    @include u-text("medium");
+    @include u-margin(0);
     color: color("white");
+    text-transform: uppercase;
+    line-height: 1.1;
+    position: relative;
   }
 
   // mobile
   @include at-media-max("tablet") {
+    @include u-padding(2);
     @include u-margin-bottom(2);
-
-    h1 {
-      @include u-font("sans", "xl");
-    }
   }
 }
 
-.usa-hero.mission {
-  @include hero-mini("https://via.placeholder.com/800x400");
+.impact {
+  @include box-mini("stock/stock-photo-wind-generators-turbines-in-the-sea-on-sunset-177011168.jpeg");
   @include u-margin-bottom(2);
+  padding-top: 60px;
 }
-.usa-hero.impact {
-  @include hero-mini("https://via.placeholder.com/800x400");
+
+.mission {
+  @include box-mini("stock/stock-photo-young-businesswoman-in-casual-clothes-at-modern-startup-meeting-room-1126202309.jpeg");
+  padding-top: 60px;
 }

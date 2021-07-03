@@ -5,7 +5,8 @@
       <div class="usa-hero__callout">
         <h1 class="usa-hero__heading">Build a brighter future</h1>
         <h2>Launch your career by helping to create a more effective, equitable government. </h2>
-        <a class="usa-button usa-button--primaryvivid margin-top-3" href="{{ site.baseurl }}/opportunity">
+        <a class="usa-button usa-button--primaryvivid margin-top-2 tablet:margin-top-8"
+          href="{{ site.baseurl }}/opportunity">
           <span>Learn more</span>
         </a>
         <!-- <p class="usa-hero__text">Applications open until 30 June</p> -->
@@ -15,42 +16,51 @@
 </section>
 
 <!-- HIGHLIGHTS -->
-<section class="usa-section margin-top-6">
-  <div class="grid-container">
+<section class="usa-section">
+
+  <div class="grid-container highlight">
+    <h1>
+      Impactful work at Scale
+    </h1>
+    <p>
+      The U.S. Digital Corps is a new, two-year fellowship for early-career and junior technologists to launch
+      impactful careers in public service and create a more effective, equitable government.
+    </p>
+  </div>
+
+  <div class="grid-container margin-top-8">
     <div class="grid-row grid-gap">
 
       <!-- tech talent -->
       <div class="tablet:grid-col">
-        <div class="usa-hero tech-talent display-flex flex-align-end">
-          <div class="padding-x-4">
-            <h1>
-              Apply your tech talent in service to the nation
-            </h1>
-          </div>
+        <div class="tech-talent display-flex flex-align-end">
+          <h1>
+            Apply your tech talent in service to the nation
+          </h1>
         </div>
       </div>
 
       <div class="tablet:grid-col">
 
-        <!-- mission and values -->
+        <!-- impact -->
         <div class="grid-row">
-          <div class="grid-col usa-hero mission display-flex flex-align-end">
-            <div class="hero-mini-content">
-              <h1 class="padding-bottom-1">Mission and Values</h1>
+          <div class="grid-col impact">
+            <div class="box-mini-content">
+              <h1 class="padding-bottom-1">Meaningful Innovation</h1>
               <div class="margin-bottom-3">
-                <a class="usa-link" href="{{ site.baseurl }}/about">Why we do the work</a>
+                <a class="usa-link" href="{{ site.baseurl }}/opportunity">Impactful work at scale</a>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- impact -->
+        <!-- mission and values -->
         <div class="grid-row">
-          <div class="grid-col usa-hero impact display-flex flex-align-end">
-            <div class="hero-mini-content">
-              <h1 class="padding-bottom-1">Meaningful Innovation</h1>
+          <div class="grid-col mission">
+            <div class="box-mini-content">
+              <h1 class="padding-bottom-1">Mission and Values</h1>
               <div class="margin-bottom-3">
-                <a class="usa-link" href="{{ site.baseurl }}/opportunity">Impactful work at scale</a>
+                <a class="usa-link" href="{{ site.baseurl }}/about">Why we do the work</a>
               </div>
             </div>
           </div>
@@ -62,39 +72,51 @@
 </section>
 
 <!-- BENEFITS -->
-<section class="usa-section highlight padding-top-0">
+<section class="usa-section padding-top-0">
 
-  <div class="grid-container">
-    <div class="grid-row accent">
-      <div class="grid-col tablet:margin-bottom-0 ">
-        <h1>
-          Impactful work at scale
-        </h1>
-        <p>
-          The U.S. Digital Corps is a new, two-year fellowship for early-career and junior technologists to launch
-          impactful careers in public service and create a more effective, equitable government.
-        </p>
-      </div>
-    </div>
+  <div class="grid-container highlight">
+    <h1>
+      Program Benefits
+    </h1>
+    <p>
+      The US Digital Corps is an early-career fellowship designed for the country’s top young technology talent to serve
+      in the Federal Government. Our values are core to our mission:
+    </p>
   </div>
 
-  <div class="grid-container">
+  <div class="grid-container margin-top-8">
     <div class="grid-row benefits">
       <div class="benefit">
         <img src="https://via.placeholder.com/400x400" alt="space shuttle taking off">
-        <h2 class="twoline"> High-Impact <br class="display-none tablet:display-inline" /> Work </h2>
+        <h2 class="twoline"> High-impact <br class="display-none tablet:display-inline" /> work </h2>
         <p>Work with federal employees to improve how government serves all Americans in a digital age.</p>
       </div>
       <div class="benefit">
         <img src="https://via.placeholder.com/400x400" alt="smiling young woman writing on wall">
-        <h2 class="twoline">Learning and <br class="display-none tablet:display-inline" /> Development</h2>
+        <h2 class="twoline">Learning and <br class="display-none tablet:display-inline" /> development</h2>
         <p>Grow as a technologist while honing your bureaucracy hacking skills through dedicated programming.</p>
       </div>
       <div class="benefit">
-        <img src="https://via.placeholder.com/400x400" alt="happy group of young adults">
-        <h2 class="twoline">Mentorship and <br class="display-none tablet:display-inline" /> Community</h2>
+        {% asset "stock/stock-photo-mature-businessman-and-young-woman-having-a-business-meeting-in-the-office-they-are-discussing-365256755.jpeg" alt="happy group of young adults" %}
+        <h2 class="twoline">Mentorship and <br class="display-none tablet:display-inline" /> community</h2>
         <p>Join a diverse community of mission-driven technologists dedicated to the public interest.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUBSCRIBE -->
+<section class="usa-section bg-base-lighter padding-y-6 padding-x-4">
+  <div class="grid-container highlight">
+    <p class="text-primary padding-y-0">
+      More information about the Digital Corps fellowship and application will be available later this summer. Join our
+      mailing list to stay in the loop.
+    </p>
+    <div class="text-center">
+      <a class="usa-button usa-button--primary"
+        href="https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_108">
+        Sign up
+      </a>
     </div>
   </div>
 </section>
