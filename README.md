@@ -1,8 +1,6 @@
 # United States Digital Corps
 
-The [U.S. Digital Corps](https://digitalcorps.gsa.gov/) website is developed using the [U.S. Web Design System v2.0](https://v2.designsystem.digital.gov) and is hosted as a [Cloud.gov Pages](https://federalist.18f.gov/) websites.  This code uses the [Jekyll](https://jekyllrb.com) site engine and built with Ruby.
-
-This project assumes that you are comfortable editing source code. If you prefer to launch a website without editing any source code, checkout [uswds-jekyll](https://github.com/18F/uswds-jekyll), which allows you to change the layout and content with configuration files.
+The [U.S. Digital Corps](https://digitalcorps.gsa.gov/) website is developed using the [U.S. Web Design System v2](https://v2.designsystem.digital.gov) and is hosted as a [Cloud.gov Pages](https://federalist.18f.gov/) website.  This code uses a [Jekyll](https://jekyllrb.com) site engine and built with Ruby.
 
 This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759). The standards require that a website or digital service:
 
@@ -15,7 +13,7 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 - provides users with the option for a more customized digital experience that allows users to complete digital transactions in an efficient and accurate manner, and
 - is fully functional and usable on common mobile devices.
 
-## Installation
+## Setup for developers
 
 Clone the repository.
 
@@ -56,7 +54,7 @@ Note that when built by Cloud.gov Pages (aka Federalist), `npm run federalist` i
 
 - [Jekyll](https://jekyllrb.com/docs/) - The primary site engine that builds your code and content.
 - [Front Matter](https://jekyllrb.com/docs/frontmatter) - The top of each page/post includes keywords within `--` tags. This is meta data that helps Jekyll build the site, but you can also use it to pass custom variables.
-- [U.S. Web Design System v 2.0](https://v2.designsystem.digital.gov)
+- [U.S. Web Design System v2](https://v2.designsystem.digital.gov)
 
 ## Contributing
 
