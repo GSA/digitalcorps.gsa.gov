@@ -40,11 +40,7 @@
     }
 }
 
-.whatwedo-content {
-    h1 {
-        @include at-media("tablet") {
-            @include u-margin-top(0);
-            @include u-padding-top(0);
-        }
-    }
+.diversity-image {
+    background-image: url(asset_path("stock/pexels-life-matters-4614144.jpeg"));
+    background-position: 30% top;
 }
