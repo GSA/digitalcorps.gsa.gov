@@ -1,6 +1,25 @@
-// banner
-.opportunity .usa-hero {
-    @include box-height(400px, 250px);
-    background-image: url(https://via.placeholder.com/1920x600);
-    background-position: center;
+// OPPORTUNITY customization
+
+.opportunity {
+    .usa-hero {
+        // background image
+        background-image: url(asset_path("banners/banner-opportunity.jpg"));
+        background-position: 90% top;
+
+        // callout container
+        .usa-hero__callout {
+            @include grid-col(5);
+            @include grid-offset(7);
+            @include u-padding-x(0);
+            @include u-padding-top(8);
+
+            // mobile
+            @include at-media-max("tablet") {
+                @include grid-col(12);
+                @include grid-offset(none);
+                @include u-padding-x(2);
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
 }

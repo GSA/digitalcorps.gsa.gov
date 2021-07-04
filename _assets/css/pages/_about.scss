@@ -8,8 +8,8 @@
 
         // callout container
         .usa-hero__callout {
-            @include grid-col(6);
-            @include grid-offset(6);
+            @include grid-col(5);
+            @include grid-offset(7);
             @include u-padding-x(0);
             @include u-padding-top(8);
 
