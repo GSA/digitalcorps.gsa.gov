@@ -38,14 +38,13 @@
 
     @include at-media-max("tablet") {
         background-size: cover;
-        background-position: 70% top;
+        background-position: 50% top;
     }
 }
 
 .opportunity-support-image {
-    background-image: url(
-        "https://via.placeholder.com/650x650"
-    );
+    background-image: url(asset_path("stock/stock-photo-smiling-audience-applauding-at-a-business-seminar-737530333.jpeg"));
     background-size: cover;
-    background-position: 50% top;
+    background-position: 35% top;
 }
+
