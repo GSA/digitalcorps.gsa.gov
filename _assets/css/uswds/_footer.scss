@@ -70,6 +70,7 @@
     @include u-padding-bottom(0);
 
     .usa-form {
+      max-width: unset;
       .usa-input {
         @include u-bg("base-light");
         margin-top: 0;
