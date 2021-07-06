@@ -23,3 +23,29 @@
         }
     }
 }
+
+.opportunity-deliver-image {
+    background-image: url(
+        "https://via.placeholder.com/650x650"
+    );
+    background-size: cover;
+    background-position: 50% top;
+}
+
+.opportunity-grow-image {
+    background-image: url(asset_path("stock/gettyimages-979528354-2048x2048.jpeg"));
+    background-position: 55% top;
+
+    @include at-media-max("tablet") {
+        background-size: cover;
+        background-position: 70% top;
+    }
+}
+
+.opportunity-support-image {
+    background-image: url(
+        "https://via.placeholder.com/650x650"
+    );
+    background-size: cover;
+    background-position: 50% top;
+}

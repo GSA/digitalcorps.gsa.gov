@@ -40,8 +40,8 @@ permalink: /about/
   <div class="grid-container">
 
     <div class="grid-row">
-      <div class="box whoweare-image"></div>
-      <div class="box box--primaryvivid">
+      <div class="box about-whoweare-image"></div>
+      <div class="box box--primary-vivid">
         <div class="box-content tablet:margin-top-6 tablet:padding-top-5">
           <h1>Who We Are</h1>
           <p>
@@ -53,8 +53,8 @@ permalink: /about/
     </div>
 
     <div class="grid-row">
-      <div class="for-tablet box whatwedo-image"></div>
-      <div class="box box--baselighter">
+      <div class="for-tablet box about-whatwedo-image"></div>
+      <div class="box box--base-lighter">
         <div class="box-content">
           <h1>What We Do</h1>
           <p>We recognize that technology is a means, not an end. We combine modern technology expertise with subject
@@ -66,7 +66,7 @@ permalink: /about/
           </p>
         </div>
       </div>
-      <div class="for-desktop box whatwedo-image"></div>
+      <div class="for-desktop box about-whatwedo-image"></div>
     </div>
 
   </div>
@@ -116,8 +116,8 @@ permalink: /about/
   <div class="grid-container">
 
     <div class="grid-row">
-      <div class="for-tablet box diversity-image"></div>
-      <div class="box box--primarydark">
+      <div class="for-tablet box about-diversity-image"></div>
+      <div class="box box--primary-dark">
         <div class="box-content box-content--smaller 
         display-flex flex-column flex-justify-center height-full">
           <h1>Diversity, Equity, Inclusion, & Accessibility</h1>
@@ -125,12 +125,12 @@ permalink: /about/
             greatest assets.</p>
           <p>We are committed to building a program that represents the people our products will serve, and ensuring
             that everyone has the opportunity to serve, regardless of background.</p>
-          <p>From recruitment and outreach to fellows’ impact at their agencies, diversity, equity, inclusion, and
+          <p>From recruitment and outreach to Fellows’ impact at their agencies, diversity, equity, inclusion, and
             accessibility are at the center of our approach.
           </p>
         </div>
       </div>
-      <div class="for-desktop box diversity-image"></div>
+      <div class="for-desktop box about-diversity-image"></div>
     </div>
 
   </div>
@@ -183,7 +183,10 @@ permalink: /about/
   <div class="grid-container margin-top-6">
     <div class="grid-row grid-gap-6 display-flex flex-row flex-justify-center">
       <div class="grid-col-auto">
-        <img src="https://via.placeholder.com/175x200/EEE/" alt="flag flying to the left with the wind" />
+        {%
+        asset "stock/rocket-nasa.jpeg"
+        alt="flag flying to the left with the wind" height=200
+        %}
       </div>
       <div class="grid-col-auto">
         {%

@@ -28,30 +28,30 @@
     }
 
     // common box styles
-    &--primarydark,
-    &--primaryvivid,
-    &--baselighter {
+    &--primary-dark,
+    &--primary-vivid,
+    &--base-lighter {
         @include at-media-max("tablet") {
             min-height: auto;
         }
     }
 
     // custom colors
-    &--primarydark {
+    &--primary-dark {
         background-color: color("primary-dark");
         .box-content {
             @include u-text("white");
         }
     }
 
-    &--primaryvivid {
+    &--primary-vivid {
         background-color: color("primary-vivid");
         .box-content {
             @include u-text("white");
         }
     }
 
-    &--baselighter {
+    &--base-lighter {
         background-color: color("base-lighter");
         .box-content {
             @include u-text("primary-dark");
@@ -74,7 +74,8 @@
         }
     }
 
-    p {
+    p,
+    ul {
         @include u-font("sans", "lg");
     }
 
@@ -83,7 +84,8 @@
             @include u-font("sans", "xl");
         }
 
-        p {
+        p,
+        ul {
             @include u-font("sans", "md");
             @include u-margin-top(0);
         }
