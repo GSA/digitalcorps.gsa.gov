@@ -15,4 +15,19 @@
     p.lg {
         @include u-font("sans", "lg");
     }
+
+    // for internal content divs with color
+    &--base-lighter {
+        @include u-bg("base-lighter");
+        @include u-padding(7);
+
+        // < desktop
+        @include at-media-max("desktop") {
+            @include u-padding(5);
+        }
+        // < tablet
+        @include at-media-max("tablet") {
+            @include u-padding(2);
+        }
+    }
 }
