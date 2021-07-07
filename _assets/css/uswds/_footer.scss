@@ -14,6 +14,10 @@
     @include at-media-max("tablet") {
       @include u-padding-top(4);
     }
+
+    li {
+      line-height: 1.15;
+    }
   }
 
   // column links
@@ -72,7 +76,8 @@
     .usa-form {
       max-width: unset;
       .usa-input {
-        @include u-bg("base-light");
+        @include u-bg("accent-warm");
+        @include u-border(0);
         margin-top: 0;
       }
       .usa-button {

@@ -24,7 +24,7 @@ h2,
   @include u-text("semibold");
   @include u-text("primary");
   @include header-em;
-  line-height: 1;
+  line-height: 1.0;
   cursor: default;
 }
 

@@ -21,21 +21,22 @@
   // typography
   h1 {
     @include u-font("sans", 16);
-    @include u-text("semibold");
+    @include u-text("bold");
     line-height: 0.9;
     color: inherit;
   }
 
   h2 {
     @include u-font("sans", "xl");
-    @include u-text("medium");
+    @include u-text("light");
     @include u-margin-top(4);
     color: color("ink");
+    line-height: 1.05;
   }
 
   h3 {
     @include u-font("sans", 11);
-    @include u-text("medium");
+    @include u-text("normal");
     @include u-margin-top(2);
     color: color("ink");
   }

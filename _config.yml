@@ -75,6 +75,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-redirect-from
+  - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache

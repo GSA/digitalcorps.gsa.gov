@@ -31,7 +31,7 @@
 // menu font, desktop
 .usa-nav__primary > .usa-nav__primary-item {
   @include at-media("desktop") {
-    @include u-font("sans", "md");
+    @include u-font("sans", "xs");
     text-transform: uppercase;
   }
 
@@ -57,11 +57,11 @@
 // indicator
 .usa-header--basic .usa-nav__primary-item > .usa-current::after,
 .usa-header--basic .usa-nav__link:hover::after {
-  @include u-bg("secondary-dark");
+  @include u-bg("primary-vivid");
 
   // desktop view, resize
   @include at-media("desktop") {
-    height: 2px;
+    height: 1px;
     bottom: 8px;
   }
 }
