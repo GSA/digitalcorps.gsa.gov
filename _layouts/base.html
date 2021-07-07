@@ -11,7 +11,7 @@ The home page uses wide.html layout, since it extends full width of page
 
 {% assign pageid = page.url | remove: '/index.html' | split: '/' %}
 
-<body {% if pageid %}class="{{ pageid }}"{% endif %}>
+<body>
   {% include_cached banner.html %}
   {% include menu.html
      nav=page.nav url=page.url

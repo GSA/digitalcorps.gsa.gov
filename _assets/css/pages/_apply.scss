@@ -1,6 +1,8 @@
 // banner
-.apply .usa-hero {
-    @include box-height(400px, 250px);
-    background-image: url(https://via.placeholder.com/1920x600);
-    background-position: center;
+.apply {
+    .usa-hero {
+        @include box-height(400px, 250px);
+        background-image: url(https://via.placeholder.com/1920x600);
+        background-position: center;
+    }
 }
