@@ -19,15 +19,19 @@ body {
     min-width: 320px;
 }
 
+.no-gutter {
+    @include u-padding-x(0);
+}
+
 // hidden
 .for-desktop {
-    @include at-media-max("tablet") {
+    @include at-media-max("desktop") {
         display: none;
     }
 }
 
-.for-tablet {
-    @include at-media("tablet") {
+.for-mobile {
+    @include at-media("desktop") {
         display: none;
     }
 }

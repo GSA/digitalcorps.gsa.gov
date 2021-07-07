@@ -10,6 +10,7 @@
     // individual responsive units
     .benefit {
         @include grid-col(4);
+        @include u-padding-top(6);
 
         @include at-media-max("desktop"){
             @include grid-col(6);

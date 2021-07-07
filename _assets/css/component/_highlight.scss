@@ -8,11 +8,16 @@
 
     h1 {
         @include u-font("sans", "3xl");
-        @include u-text("semibold");
+        @include u-text("bold");
         @include u-margin-top(0);
     }
 
-    p.lg {
+    p {
+        @include u-font("sans", "xl");
+        @include u-text("light");
+    }
+
+    .lg {
         @include u-font("sans", "lg");
     }
 
