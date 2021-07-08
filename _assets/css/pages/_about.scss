@@ -3,7 +3,8 @@
 .about {
     .usa-hero {
         // background image
-        background-image: url(asset_path("stock/shutterstock_695720095.jpg"));
+        //background-image: url(asset_path("stock/shutterstock_695720095.jpg"));
+        background-image: url("https://via.placeholder.com/1920x600");
         background-position: right auto;
 
         // mobile
@@ -48,8 +49,9 @@
 }
 
 .about-diversity-image {
-    background-image: url(asset_path(
-        "stock/pexels-life-matters-4614144.jpeg"
-    ));
+    // background-image: url(asset_path(
+    //     "stock/pexels-life-matters-4614144.jpeg"
+    // ));
+    background-image: url("https://via.placeholder.com/1000x1000");
     background-position: 30% top;
 }

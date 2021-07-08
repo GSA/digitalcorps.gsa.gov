@@ -70,7 +70,7 @@
     h1 {
         @include u-margin-y(0);
         @include u-font("sans", "3xl");
-        @include u-text("medium");
+        @include u-text("semibold");
         line-height: 1.1;
         color: inherit;
 

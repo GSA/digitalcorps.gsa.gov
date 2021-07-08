@@ -71,6 +71,7 @@
 .partner {
     @include grid-col(3);
     @include u-text("center");
+    @include u-padding-top(2);
     
     // < desktop
     @include at-media-max("tablet"){
