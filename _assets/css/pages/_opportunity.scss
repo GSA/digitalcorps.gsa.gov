@@ -64,3 +64,24 @@
     background-size: cover;
     background-position: 35% top;
 }
+
+
+// partner logos
+.partner {
+    @include grid-col(3);
+    @include u-text("center");
+    
+    // < desktop
+    @include at-media-max("tablet"){
+        @include grid-col(6);
+    }
+
+    // < tablet
+    @include at-media-max("mobile"){
+        @include grid-col(12);
+    }
+
+    img {
+        max-height: 120px;
+    }
+}
