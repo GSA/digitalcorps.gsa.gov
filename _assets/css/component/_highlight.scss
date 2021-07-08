@@ -15,6 +15,11 @@
     p {
         @include u-font("sans", "xl");
         @include u-text("light");
+
+        // tablet
+        @include at-media-max("tablet") {
+            @include u-font("sans", "lg");
+        }
     }
 
     .lg {

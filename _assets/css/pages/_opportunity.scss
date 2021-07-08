@@ -4,7 +4,12 @@
     .usa-hero {
         // background image
         background-image: url(asset_path("banners/banner-opportunity.jpg"));
-        background-position: 90% top;
+        background-position: 10% top;
+
+        // mobile
+        @include at-media-max("mobile-lg") {
+            background-position: 40% top;
+        }
 
         // callout container
         .usa-hero__callout {
@@ -13,8 +18,20 @@
             @include u-padding-x(0);
             @include u-padding-top(8);
 
-            // mobile
-            @include at-media-max("tablet") {
+            // widescreen
+            @include at-media-max("widescreen") {
+                @include grid-col(4);
+                @include grid-offset(8);
+            }
+
+            // desktop
+            @include at-media-max("desktop") {
+                @include grid-col(5);
+                @include grid-offset(7);
+            }
+
+            // tablet
+            @include at-media-max("tablet-lg") {
                 @include grid-col(12);
                 @include grid-offset(none);
                 @include u-padding-x(2);
@@ -25,9 +42,7 @@
 }
 
 .opportunity-deliver-image {
-    background-image: url(
-        "https://via.placeholder.com/650x650"
-    );
+    background-image: url("https://via.placeholder.com/650x650");
     background-size: cover;
     background-position: 50% top;
 }
@@ -43,8 +58,9 @@
 }
 
 .opportunity-support-image {
-    background-image: url(asset_path("stock/stock-photo-smiling-audience-applauding-at-a-business-seminar-737530333.jpeg"));
+    background-image: url(asset_path(
+        "stock/stock-photo-smiling-audience-applauding-at-a-business-seminar-737530333.jpeg"
+    ));
     background-size: cover;
     background-position: 35% top;
 }
-
