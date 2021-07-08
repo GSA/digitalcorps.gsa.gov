@@ -76,8 +76,8 @@
     .usa-form {
       max-width: unset;
       .usa-input {
-        @include u-bg("accent-warm");
         @include u-border(0);
+        opacity: opacity(20);
         margin-top: 0;
       }
       .usa-button {

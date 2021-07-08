@@ -45,7 +45,7 @@
   background-size: auto 100%;
   background-repeat: no-repeat;
 
-  height: 652px;
+  height: 600px;
 
   // < desktop
   @include at-media-max("desktop") {
@@ -73,6 +73,8 @@
   }
 }
 
+// mini boxes
+// see boxes.scss for styling and sizes
 .home-impact {
   @include box-mini("stock/stock-photo-wind-generators-turbines-in-the-sea-on-sunset-177011168.jpeg");
   @include u-margin-bottom(2);
