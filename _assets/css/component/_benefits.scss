@@ -18,6 +18,7 @@
 
         img {
             @include u-circle("card-lg");
+            object-fit: cover;
         }
         text-align: center;
 

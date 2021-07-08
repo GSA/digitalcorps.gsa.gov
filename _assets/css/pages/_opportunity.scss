@@ -4,7 +4,7 @@
     .usa-hero {
         // background image
         background-image: url(asset_path("stock/shutterstock_403286512.jpg"));
-        background-position: 10% top;
+        background-position: 20% top;
 
         // mobile
         @include at-media-max("mobile-lg") {
@@ -22,6 +22,7 @@
             @include at-media-max("widescreen") {
                 @include grid-col(4);
                 @include grid-offset(8);
+                @include u-padding-right(4);
             }
 
             // desktop
@@ -48,7 +49,7 @@
 }
 
 .opportunity-grow-image {
-    background-image: url(asset_path("stock/gettyimages-979528354-2048x2048.jpeg"));
+    background-image: url(asset_path("stock/gettyimages-979528354-2048x2048.jpg"));
     background-position: 55% top;
 
     @include at-media-max("tablet") {
@@ -59,7 +60,7 @@
 
 .opportunity-support-image {
     background-image: url(asset_path(
-        "stock/shutterstock_737530333.jpeg"
+        "stock/shutterstock_737530333.jpg"
     ));
     background-size: cover;
     background-position: 35% top;

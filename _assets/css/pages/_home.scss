@@ -76,14 +76,14 @@
 // mini boxes
 // see boxes.scss for styling and sizes
 .home-impact {
-  @include box-mini("stock/shutterstock_177011168.jpeg");
+  @include box-mini("stock/shutterstock_177011168.jpg");
   @include u-margin-bottom(2);
   padding-top: 60px;
 }
 
 .home-mission {
   @include box-mini(
-    "stock/shutterstock_1126202309.jpeg"
+    "stock/shutterstock_1126202309.jpg"
   );
   padding-top: 60px;
 }
