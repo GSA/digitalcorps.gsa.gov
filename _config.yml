@@ -150,9 +150,10 @@ exclude:
   - package-lock.json
   - README.md
   - src
-  - CONTRIBUTING.md
   - LICENSE.md
   - .jekyll-cache
+  - .github
+  - .vscode
   - docker-compose.yml
   - Dockerfile
 

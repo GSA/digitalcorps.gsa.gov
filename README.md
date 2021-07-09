@@ -1,6 +1,6 @@
 # United States Digital Corps
 
-The [U.S. Digital Corps](https://digitalcorps.gsa.gov/) website is developed using the [U.S. Web Design System v2](https://v2.designsystem.digital.gov) and is hosted as a [Cloud.gov Pages](https://federalist.18f.gov/) website.  This code uses a [Jekyll](https://jekyllrb.com) site engine and built with Ruby.
+The [U.S. Digital Corps](https://digitalcorps.gsa.gov) website is developed using the [U.S. Web Design System v2](https://v2.designsystem.digital.gov) and is hosted as a [Cloud.gov Pages](https://federalist.18f.gov/) website.  This code uses a [Jekyll](https://jekyllrb.com) site engine and built with Ruby.
 
 This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759). The standards require that a website or digital service:
 
@@ -58,11 +58,11 @@ Note that when built by Cloud.gov Pages (aka Federalist), `npm run federalist` i
 
 ## Contributing
 
-See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
+See [CONTRIBUTING](.github/CONTRIBUTING.md) for additional information.
 
 ## Public domain
 
-This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](CONTRIBUTING.md):
+This project is in the worldwide [public domain](LICENSE.md). As stated in [CONTRIBUTING](.github/CONTRIBUTING.md):
 
 > This project is in the public domain within the United States, and copyright
 > and related rights in the work worldwide are waived through the [CC0 1.0
