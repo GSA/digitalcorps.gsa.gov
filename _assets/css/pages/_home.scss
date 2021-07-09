@@ -58,16 +58,31 @@
   }
 
   h1 {
-    @include u-font("sans", "xl");
+    @include u-font("sans", "3xl");
     @include u-text("medium");
     @include u-margin(0);
     color: color("white");
     text-transform: uppercase;
     line-height: 1.1;
     position: relative;
+
+    // < desktop
+    @include at-media-max("desktop") {
+      @include u-font("sans", "xl");
+    }
+
+    // < tablet
+    @include at-media-max("tablet") {
+      @include u-font("sans", "2xl");
+    }
+
+    // < mobile
+    @include at-media-max("mobile-lg") {
+      @include u-font("sans", "xl");
+    }
   }
 
-  // mobile
+  // < tablet
   @include at-media-max("tablet") {
     @include u-padding(2);
     @include u-margin-bottom(2);

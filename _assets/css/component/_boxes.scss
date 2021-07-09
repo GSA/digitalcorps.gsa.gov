@@ -22,7 +22,6 @@
     &--primary-dark,
     &--primary-vivid,
     &--base-lighter {
-
         // < desktop
         @include at-media-max("desktop") {
             @include u-padding(5);
@@ -165,41 +164,6 @@
     right: 0;
     width: 40%;
 
-    h1,
-    h2 {
-        color: color("white");
-        @include u-font("sans", "lg");
-        @include u-text("medium");
-        text-transform: uppercase;
-        margin: 0;
-    }
-
-    h2 {
-        @include u-font("sans", "md");
-    }
-
-    .usa-link {
-        @include u-font("sans", "md");
-        $dark-link-color: "base-light";
-        text-transform: uppercase;
-        text-decoration: none;
-        color: color("white");
-
-        &:active,
-        &:visited {
-            text-decoration: none;
-            color: color("white");
-        }
-        &:hover {
-            text-decoration: underline;
-            color: color("base-lighter");
-        }
-
-        // &::before {
-        //     content: "> ";
-        // }
-    }
-
     // desktop
     @include at-media-max("desktop") {
         @include grid-col(9);
@@ -216,5 +180,61 @@
         @include u-padding-x(2);
         @include u-margin-y(1);
         width: 60%;
+    }
+
+    // typography
+    h1,
+    h2 {
+        color: color("white");
+        @include u-text("medium");
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    h1 {
+        @include u-font("sans", "xl");
+
+        // < desktop
+        @include at-media-max("desktop-lg") {
+            @include u-font("sans", "lg");
+        }
+
+        // < tablet
+        @include at-media-max("tablet") {
+            @include u-font("sans", "xl");
+        }
+
+        // < mobile
+        @include at-media-max("mobile-lg") {
+            @include u-font("sans", "lg");
+        }
+    }
+
+    .usa-link {
+        @include u-font("sans", "lg");
+        $dark-link-color: "base-light";
+        text-transform: uppercase;
+        text-decoration: none;
+        color: color("white");
+
+        &:active,
+        &:visited {
+            text-decoration: none;
+            color: color("white");
+        }
+        &:hover {
+            text-decoration: underline;
+            color: color("base-lighter");
+        }
+
+                // < widescreen
+                @include at-media-max("desktop-lg") {
+                    @include u-font("sans", "md");
+                }
+        
+        // < desktop
+        @include at-media-max("desktop") {
+            @include u-font("sans", "md");
+        }
     }
 }
