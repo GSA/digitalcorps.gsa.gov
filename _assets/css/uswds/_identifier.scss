@@ -19,3 +19,12 @@
     column-count: 6;
   }
 }
+
+.usa-identifier__section--usagov {
+  @include u-text("base-light");
+
+  a.usa-link {
+    @include u-text("base-light");
+    @include u-text("medium");
+  }
+}

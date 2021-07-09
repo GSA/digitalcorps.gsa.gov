@@ -74,7 +74,7 @@
     @include u-padding-bottom(0);
 
     .usa-form {
-      max-width: unset;
+      max-width: 350px;
       .usa-input {
         @include u-border(0);
         @include u-text("primary-lighter");
