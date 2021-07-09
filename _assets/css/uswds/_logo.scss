@@ -4,6 +4,7 @@
 .usa-logo {
   display: inline;
   margin: 0;
+  font-size: 1rem;
 
   // less than desktop
   @include at-media-max("desktop") {
@@ -17,7 +18,7 @@
 
   a > img {
     height: auto;
-    width: 350px;
+    width: 450px;
     padding: 15px 0 10px 0;
 
     // less than desktop

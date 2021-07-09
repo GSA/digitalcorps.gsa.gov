@@ -11,24 +11,25 @@
       @include grid-col(7);
       @include u-padding-x(0);
 
-      h2 {
-        padding-right: 4em;
-      }
-
-      // below desktop
+      // < desktop
       @include at-media-max("desktop") {
-        @include u-padding-x(3);
+        @include grid-col(6);
+        @include u-padding-x(2);
         background-color: rgba(255, 255, 255, 0.6);
-
-        h2 {
-          padding-right: unset;
-        }
       }
 
-      // below tablet
+      // < tablet
       @include at-media-max("tablet") {
         @include grid-col(12);
-        @include u-padding-x(2);
+      }
+
+      h2 {
+        padding-right: 4em;
+
+        // < desktop
+        @include at-media-max("desktop") {
+          padding-right: unset;
+        }
       }
     }
   }
@@ -82,8 +83,6 @@
 }
 
 .home-mission {
-  @include box-mini(
-    "stock/shutterstock_1126202309.jpg"
-  );
+  @include box-mini("stock/shutterstock_1126202309.jpg");
   padding-top: 60px;
 }
