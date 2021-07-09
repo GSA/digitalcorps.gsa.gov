@@ -77,8 +77,14 @@
       max-width: unset;
       .usa-input {
         @include u-border(0);
-        opacity: opacity(20);
+        @include u-text("primary-lighter");
+        background: rgba(255, 255, 255, 0.1);
         margin-top: 0;
+
+        &::placeholder {
+          @include u-text("primary-lighter");
+          opacity: 0.5;
+        }
       }
       .usa-button {
         @include u-bg("primary-vivid");
