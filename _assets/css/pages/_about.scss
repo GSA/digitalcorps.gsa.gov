@@ -3,21 +3,19 @@
 .about {
     .usa-hero {
         // background image
-        background-image: url(asset_path("stock/washington-monument.png"));
+        background-image: url(asset_path("stock/shutterstock_512812102.jpg"));
         background-position: right 100%;
 
         // callout container
         .usa-hero__callout {
-            @include grid-col(5);
-            @include grid-offset(7);
+            @include grid-col(6);
+            @include grid-offset(6);
             @include u-padding-x(0);
             @include u-padding-top(8);
             @include u-text("white");
 
             // < desktop-lg
             @include at-media-max("desktop-lg") {
-                @include grid-col(6);
-                @include grid-offset(6);
                 min-height: 500px;
             }
 
@@ -25,7 +23,6 @@
             @include at-media-max("desktop") {
                 @include grid-col(7);
                 @include grid-offset(5);
-                min-height: 500px;
             }
 
             // < tablet-lg
@@ -39,7 +36,6 @@
                 @include grid-col(12);
                 @include grid-offset(none);
                 @include u-padding-x(2);
-                min-height: 500px;
             }
 
             // typography
@@ -66,7 +62,7 @@
 }
 
 .about-diversity-image {
-    background-image: url(asset_path("stock/presenting-microphone.png"));
+    background-image: url(asset_path("stock/shutterstock_1614290140.jpg"));
     background-position: 50% top;
 
     @include at-media-max("tablet") {
