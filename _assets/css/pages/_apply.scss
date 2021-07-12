@@ -1,7 +1,28 @@
 // banner
 .apply {
     .usa-hero {
-        background-image: url(https://via.placeholder.com/1920x600);
+        background-image: url(asset_path("stock/dc-metro.png"));
         background-position: center;
+
+        // callout container
+        .usa-hero__callout {
+            @include grid-col(7);
+            @include u-padding-x(0);
+            @include u-text("white");
+
+            h1,h2{
+                color: inherit;
+            }
+            // < desktop
+            @include at-media-max("desktop") {
+                @include grid-col(6);
+                @include u-padding-x(2);
+            }
+
+            // < tablet
+            @include at-media-max("tablet") {
+                @include grid-col(12);
+            }
+        }
     }
 }
