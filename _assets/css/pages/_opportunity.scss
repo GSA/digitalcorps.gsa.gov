@@ -43,13 +43,13 @@
 }
 
 .opportunity-deliver-image {
-    background-image: url("https://via.placeholder.com/650x650");
+    background-image: url(asset_path("stock/satellite-hurricane.png"));
     background-size: cover;
     background-position: 50% top;
 }
 
 .opportunity-grow-image {
-    background-image: url(asset_path("stock/gettyimages-979528354-2048x2048.jpg"));
+    background-image: url(asset_path("stock/woman-supercomputer.png"));
     background-position: 55% top;
 
     @include at-media-max("tablet") {
@@ -59,11 +59,24 @@
 }
 
 .opportunity-support-image {
-    background-image: url(asset_path(
-        "stock/shutterstock_737530333.jpg"
-    ));
+    background-image: url(asset_path("stock/audience-clapping.png"));
     background-size: cover;
     background-position: 35% top;
+}
+
+
+// accenting underline
+.accent-underline {
+    &:after {
+      @include u-bg("primary-vivid");
+      content: "";
+      left: 20%;
+      width: 60%;
+      height: 3px;
+      position: relative;
+      display: block;
+      bottom: -15px;
+    }
 }
 
 

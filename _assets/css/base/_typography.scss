@@ -14,7 +14,7 @@ h1,
   @include u-text("bold");
   @include u-text("primary");
   @include header-em;
-  line-height: 1.0;
+  line-height: 1;
   cursor: default;
 }
 
@@ -24,7 +24,7 @@ h2,
   @include u-text("semibold");
   @include u-text("primary");
   @include header-em;
-  line-height: 1.0;
+  line-height: 1;
   cursor: default;
 }
 
@@ -58,8 +58,8 @@ li {
   }
 }
 
-
 // highlighter background style
-.tbd, .highlighter {
+.tbd,
+.highlighter {
   background-color: rgba(222, 244, 64, 90%);
 }
