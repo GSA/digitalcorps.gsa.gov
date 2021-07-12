@@ -75,7 +75,11 @@
       height: 3px;
       position: relative;
       display: block;
-      bottom: -15px;
+      bottom: -16px;
+
+      @include at-media-max("tablet"){
+          bottom: -11px;
+      }
     }
 }
 
