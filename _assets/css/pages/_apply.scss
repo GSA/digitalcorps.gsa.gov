@@ -10,9 +10,6 @@
             @include u-padding-x(0);
             @include u-text("white");
 
-            h1,h2{
-                color: inherit;
-            }
             // < desktop
             @include at-media-max("desktop") {
                 @include grid-col(6);
@@ -22,6 +19,12 @@
             // < tablet
             @include at-media-max("tablet") {
                 @include grid-col(12);
+            }
+
+            // typography
+            h1,
+            h2 {
+                color: inherit;
             }
         }
     }

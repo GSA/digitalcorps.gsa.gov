@@ -3,14 +3,8 @@
 .about {
     .usa-hero {
         // background image
-        //background-image: url(asset_path("stock/shutterstock_695720095.jpg"));
-        background-image: url("https://via.placeholder.com/1920x600");
-        background-position: right auto;
-
-        // mobile
-        @include at-media-max("mobile-lg"){
-            background-position: 30% auto;
-        }
+        background-image: url(asset_path("stock/washington-monument.png"));
+        background-position: right 100%;
 
         // callout container
         .usa-hero__callout {
@@ -18,29 +12,52 @@
             @include grid-offset(7);
             @include u-padding-x(0);
             @include u-padding-top(8);
+            @include u-text("white");
 
-            // mobile
+            // < desktop-lg
+            @include at-media-max("desktop-lg") {
+                @include grid-col(6);
+                @include grid-offset(6);
+                min-height: 500px;
+            }
+
+            // < desktop
+            @include at-media-max("desktop") {
+                @include grid-col(7);
+                @include grid-offset(5);
+                min-height: 500px;
+            }
+
+            // < tablet-lg
             @include at-media-max("tablet-lg") {
+                @include grid-col(9);
+                @include grid-offset(3);
+            }
+
+            // < tablet
+            @include at-media-max("tablet") {
                 @include grid-col(12);
                 @include grid-offset(none);
                 @include u-padding-x(2);
-                background-color: rgba(255, 255, 255, 0.5);
+                min-height: 500px;
+            }
+
+            // typography
+            h1,
+            h2 {
+                color: inherit;
             }
         }
     }
 }
 
 .about-whoweare-image {
-    background-image: url(asset_path(
-        "stock/shutterstock_1580363914.jpg"
-    ));
+    background-image: url(asset_path("stock/shutterstock_1580363914.jpg"));
     background-position: 70% top;
 }
 
 .about-whatwedo-image {
-    background-image: url(asset_path(
-        "stock/gettyimages-1060587946-2048x2048.jpeg"
-    ));
+    background-image: url(asset_path("stock/gettyimages-1060587946-2048x2048.jpeg"));
     background-position: 55% top;
 
     @include at-media-max("tablet") {
@@ -49,9 +66,10 @@
 }
 
 .about-diversity-image {
-    // background-image: url(asset_path(
-    //     "stock/pexels-life-matters-4614144.jpeg"
-    // ));
-    background-image: url("https://via.placeholder.com/1000x1000");
-    background-position: 30% top;
+    background-image: url(asset_path("stock/presenting-microphone.png"));
+    background-position: 50% top;
+
+    @include at-media-max("tablet") {
+        background-position: 70% top;
+    }
 }
