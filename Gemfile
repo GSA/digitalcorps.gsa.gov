@@ -28,6 +28,7 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"
   gem 'jekyll-redirect-from'
   gem 'jekyll-paginate-v2', "3.0.0"
+  gem "jekyll-last-modified-at" # used in sitemap
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
   gem 'jekyll-autoprefixer'

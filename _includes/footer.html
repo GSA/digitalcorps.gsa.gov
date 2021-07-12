@@ -1,71 +1,109 @@
+<!-- FOOTER on every page -->
 <footer class="usa-footer usa-footer--big">
   <div class="usa-footer__primary-section">
     <div class="grid-container">
-      <div class="grid-row padding-top-4 padding-bottom-2 mobile-lg:padding-bottom-0">
+      <div class="grid-row padding-bottom-2 mobile-lg:padding-bottom-0">
         <a href="{{ site.baseurl }}/">
-          <img src="https://via.placeholder.com/760x240/FEFEFE/1b2b85/?text=Logo Placeholder"
-            alt="U.S. Digital Corps Logo" width="250" />
+          {% asset "digitalcorps_logo_white.svg" alt="U.S. Digital Corps Logo" width=350 %}
         </a>
       </div>
-      <div class="grid-row">
-        <div class="tablet:grid-col-6">
-          <nav class="usa-footer__nav" aria-label="Footer navigation">
-            <div class="grid-row">
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-6">
-                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
-                  <h4 class="usa-footer__primary-link">Get in touch</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link"><a href="mailto:{{site.email}}">{{site.email}}</a> </li>
-                    <li class="margin-top-3 padding-right-1 mobile:padding-left-2 desktop:padding-left-0">
-                      <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/{{site.twitter}}">
-                        <span>Twitter</span>
-                      </a>
-                      <a class="usa-social-link usa-social-link--linkedin"
-                        href="https://www.linkedin.com/company/united-states-digital-corps/">
-                        <span>LinkedIn</span>
-                      </a>
-                      <a class="usa-social-link usa-social-link--facebook"
-                        href="https://www.facebook.com/unitedstatesdigitalcorps/">
-                        <span>Facebook</span>
-                      </a>
-                      <a class="usa-social-link usa-social-link--instagram"
-                        href="https://www.instagram.com/unitedstatesdigitalcorps/">
-                        <span>Instagram</span>
-                      </a>
-                    </li>
-                  </ul>
-                </section>
-              </div>
-              <div class="mobile-lg:grid-col-6 desktop:grid-col-6">
-                <section class="usa-footer__primary-content usa-footer__primary-content--collapsible">
-                  <h4 class="usa-footer__primary-link">Policies and standards</h4>
-                  <ul class="usa-list usa-list--unstyled">
-                    <li class="usa-footer__secondary-link"><a
-                        href="https://www.gsa.gov/website-information/linking-policy">Linking policy</a></li>
-                    <li class="usa-footer__secondary-link"><a
-                        href="https://www.gsa.gov/website-information/privacy-and-security-notice">Privacy and
-                        security</a> </li>
-                  </ul>
-                </section>
-              </div>
-            </div>
-          </nav>
+      <div class="grid-row display-flex flex-row flex-align-end height-full">
+        <div class="grid-col-12 tablet:grid-col-8">
+          <section class="usa-footer__primary-content">
+
+            <!-- footer body info -->
+            <ul class="usa-list usa-list--unstyled">
+              <li>
+                The U.S. Digital Corps is part of GSA's
+                <span class="usa-footer__secondary-link">
+                  <a href="https://www.gsa.gov/tts">Technology Transformation Services</a>
+                </span>
+              </li>
+              <li class="padding-top-2 tablet:padding-top-4">
+                <strong>Agencies</strong>:
+                <br />Interested in partnering with the Digital Corps and hosting Fellows?
+                <br class="display-none desktop:display-inline" />
+                Contact us at <span class="usa-footer__secondary-link">
+                  <a href="mailto:{{site.email}}">{{site.email}}</a></span>.
+              </li>
+              <li class="padding-top-2">
+                <strong>Press inquiries</strong>:
+                <br class="display-none desktop:display-inline" />
+                Contact us at <span class="usa-footer__secondary-link"><a
+                    href="mailto:{{site.email}}">{{site.email}}</a></span>.
+              </li>
+
+              <!-- important links -->
+              <nav class="usa-footer__secondary-link padding-top-2 tablet:padding-top-4" aria-label="Important links">
+                <a href="https://www.gsa.gov/about">
+                  About GSA</a> /
+                <a href="https://www.gsa.gov/website-information/website-policies#linking">
+                  Linking policy</a> /
+                <a href="https://www.gsa.gov/website-information/website-policies#privacy">
+                  Privacy</a> /
+                <a href="https://www.gsa.gov/website-information/accessibility-aids">
+                  Accessibility</a> /
+                <a href="https://www.gsa.gov/reference/freedom-of-information-act-foia"
+                  class="usa-identifier__required-link usa-link">
+                  FOIA</a> /
+                <a href="https://www.gsa.gov/about-us/organization/office-of-civil-rights/notification-and-federal-employee-antidiscrimination-and-retaliation-act-of-2002"
+                  class="usa-identifier__required-link usa-link">
+                  No FEAR Act</a> /
+                <a href="https://www.gsaig.gov" class="usa-identifier__required-link usa-link">
+                  Inspector General</a> /
+                <a href="https://www.gsa.gov/reference/reports/budget-performance"
+                  class="usa-identifier__required-link usa-link">
+                  Performance</a>
+              </nav>
+            </ul>
+          </section>
         </div>
-        <div class="tablet:grid-col-4 tablet:grid-offset-2">
+        <div class="grid-col-12 grid-offset-0 tablet:grid-col-3 tablet:grid-offset-1">
+          <ul class="usa-list usa-list--unstyled">
+
+            <!-- contact info -->
+            <li class="usa-footer__secondary-link">
+              <strong>Contact us</strong>:
+              <br /><a href="mailto:{{site.email}}">{{site.email}}</a>
+            </li>
+
+            <!-- social-media -->
+            <h1 class="text-white font-sans-2xl text-medium margin-y-2">Follow us</h1>
+
+            <li class="margin-y-2 padding-right-1 mobile:padding-left-2 desktop:padding-left-0">
+              <a class="usa-social-link usa-social-link--linkedin"
+                href="https://www.linkedin.com/{{site.social.linkedin}}">
+                <span>LinkedIn</span>
+              </a>
+              <a class="usa-social-link usa-social-link--twitter" href="https://twitter.com/{{site.social.twitter}}">
+                <span>Twitter</span>
+              </a>
+              <!-- <a class="usa-social-link usa-social-link--facebook"
+                href="https://www.facebook.com/{{site.social.facebook}}">
+                <span>Facebook</span>
+              </a> -->
+              <!-- <a class="usa-social-link usa-social-link--instagram"
+                href="https://www.instagram.com/{{site.social.instagram}}">
+                <span>Instagram</span>
+              </a> -->
+            </li>
+          </ul>
+
+          <!-- sign-up -->
           <div class="usa-sign-up">
-            <form class="usa-form" id="go-delivery-form"
-              action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify?qsp=USGSATTS_TBD"
-              accept-charset="UTF-8" method="post" target="_blank"><input name="utf8" type="hidden"
-                value="&#x2713;" /><input type="hidden" name="authenticity_token" value="NEED TOKEN" />
-              <label id="usdc-email-sign-up" for="email" class="usa-sign-up__heading">Sign up for USDC updates</label>
-              <input class="usa-input" type="text" name="email" id="email" placeholder="Enter your email address"
+            <form class="usa-form" id="go-delivery-form" accept-charset="UTF-8" method="post" target="_blank"
+              action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify">
+              <input name="utf8" type="hidden" value="&#x2713;" />
+              <input type="hidden" name="topic_id" id="topic_id" value="{{site.govdelivery.topic}}" />
+              <label id="usdc-email-sign-up" for="email" class="usa-sign-up__heading">Subscribe</label>
+              <input class="usa-input" type="text" name="email" id="email" placeholder="email address"
                 aria-labelledby="usdc-email-sign-up" />
               <input class="usa-button usa-button--small" type="submit" name="commit" value="Submit" />
             </form>
           </div>
+
         </div>
       </div>
     </div>
   </div>
-  {% include_cached anchor.html %}
 </footer>

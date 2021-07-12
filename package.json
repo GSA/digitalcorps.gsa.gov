@@ -9,7 +9,7 @@
     "start": "bundle exec jekyll serve --livereload",
     "test": "bundle exec htmlproofer _site; npx a11y '_site/**/*.html'"
   },
-  "author": "Federalist",
+  "author": "U.S. Digital Corps",
   "repository": {
     "type": "git",
     "url": "https://github.com/GSA/digitalcorps.gsa.gov"
@@ -19,7 +19,7 @@
   },
   "license": "CC0-1.0",
   "dependencies": {
-    "uswds": "~2.11.2"
+    "uswds": "~2.12.0"
   },
   "devDependencies": {
     "a11y": "^0.5.1",

@@ -1,4 +1,5 @@
 {% comment %}
+MENU and NAVIGATION
 To modify the menu system, you are welcome to edit this HTML directly or you can look inside _config.yml
 where we provide an easy way to manage your navigation system
 {% endcomment %}
@@ -10,8 +11,7 @@ where we provide an easy way to manage your navigation system
       <div class="usa-logo" id="extended-logo">
         <em class="usa-logo__text">
           <a href="{{site.baseurl}}/" title="Home" aria-label="Home" class="site-navbar__logo-link">
-            <img src="https://via.placeholder.com/760x240/DDD/1b2b85/?text=Logo Placeholder"
-              alt="U.S. Digital Corps Logo" width="250" />
+            {% asset "digitalcorps_logo.svg" alt="U.S. Digital Corps Logo" %}
           </a>
         </em>
       </div>

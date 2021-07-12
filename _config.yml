@@ -5,17 +5,25 @@ description: "The United States Digital Corps"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Twitter handle. Only the handle, not the URL.
-# twitter: usdc
+# Social media handles (not URL)
+social:
+#  linkedin: company/united-states-digital-corps
+#  twitter: usdc
+#  facebook: usdc
+#  instagram: usdc
+
+# GovDelivery info
+govdelivery:
+  topic: USGSATTS_108
 
 # Configuration for Google Analytics, add your UA code here:
-# ga:
-#  ua: G-TBD
+ga:
+  ua: G-4JXED4R31Z
 
 # Digital Analytics Program (DAP)
 dap:
   agency: GSA
-  subagency: USDC
+  subagency: Digital-Corps
 
 # Site Navigation
 primary_navigation:
@@ -67,6 +75,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-redirect-from
+  - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
@@ -141,9 +150,10 @@ exclude:
   - package-lock.json
   - README.md
   - src
-  - CONTRIBUTING.md
   - LICENSE.md
   - .jekyll-cache
+  - .github
+  - .vscode
   - docker-compose.yml
   - Dockerfile
 
@@ -154,6 +164,8 @@ assets:
     - _assets/images/banners
     - _assets/images/icons
     - _assets/images/logo
+    - _assets/images/social
+    - _assets/images/stock
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss

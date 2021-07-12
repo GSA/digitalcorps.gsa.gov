@@ -1,32 +1,9 @@
 // USWDS OVERRIDES for HERO
+// used as topper for main pages
 
-// MIXINs FOR HERO VARIANTS
-
-@mixin hero-size($desktop: 600px, $mobile: 300px) {
-  height: $mobile;
-  @include at-media("tablet") {
-    height: $desktop;
-  }
-}
-
-// OVERRIDES
 .usa-hero {
-  // @include hero-size(600px, 450px);
-  // padding: 0;
-  line-height: 0.9;
-
-  // Variants
-  &--medium {
-    @include hero-size(500px, 400px);
-  }
-
-  &--short {
-    @include hero-size(400px, 300px);
-  }
-
-  &--tiny {
-    @include hero-size(300px, 200px);
-  }
+  @include u-text("primary");
+  min-height: 600px;
 
   // Background image defaults
   // image should be added in unique style
@@ -34,22 +11,54 @@
   background-size: cover;
   background-position: center;
 
+  // below desktop
+  @include at-media-max("desktop") {
+    min-height: unset;
+  }
+  
   // typography
   h1 {
-    margin-bottom: 0;
+    @include u-font("sans", 16);
+    @include u-text("bold");
+    line-height: 0.9;
+    color: inherit;
   }
 
   h2 {
-    margin-top: 0.5rem;
+    @include u-font("sans", "xl");
+    @include u-text("light");
+    @include u-margin-top(4);
+    color: color("ink");
+    line-height: 1.05;
+  }
+
+  h3 {
+    @include u-font("sans", 11);
+    @include u-text("normal");
+    @include u-margin-top(2);
+    color: color("ink");
+  }
+
+  .usa-hero__callout {
+    max-width: unset;
+    background-color: transparent;
   }
 
   .usa-hero__heading {
-    @include u-font("sans", 17);
-    @include u-text("primary-darker");
+    text-transform: unset;
     line-height: 0.9;
+    color: inherit;
 
     @include at-media-max("tablet") {
       @include u-font("sans", "3xl");
     }
+
+    .usa-hero__text {
+      @include u-text("bold");
+    }
+  }
+
+  .usa-hero__text {
+    color: inherit;
   }
 }

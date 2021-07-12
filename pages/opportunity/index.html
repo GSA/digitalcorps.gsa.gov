@@ -4,26 +4,161 @@ title: The Opportunity
 permalink: /opportunity/
 ---
 
-<div class="usa-hero">
-  <div class="grid-container display-flex flex-column flex-justify-center height-full">
-    <h1 class="usa-hero__heading">
-      The Opportunity
-    </h1>
-  </div>
-</div>
-
-<section class="usa-section highlight">
-  <div class="grid-container">
-    <div class="grid-row">
-      <h1 class="accent">The <em>opportunity</em></h1>
-      <p>
-        The United States Digital Corps is a new two-year opportunity to launch your career at the intersection of
-        technology and public service. More information about the program and the application for the Digital Corps will
-        be available in (MONTH).
-      </p>
-      <p>
-        Join our mailing list to stay in the loop. TBD
-      </p>
+<!-- BANNER -->
+<section class="opportunity">
+  <div class="usa-hero">
+    <div class="grid-container">
+      <div class="usa-hero__callout">
+        <h1 class="usa-hero__heading">
+          The Opportunity
+        </h1>
+        <h2>
+          Begin your career at the intersection of technology and public service.
+        </h2>
+      </div>
     </div>
   </div>
+</section>
+
+
+<!-- INTRO -->
+<section class="usa-section padding-bottom-0">
+
+  <div class="grid-container highlight">
+    <h2 class="accent-underline margin-bottom-0">
+      The United States Digital Corps is a new two&#8209;year opportunity to
+      launch your career at the intersection of technology and public service.
+    </h2>
+  </div>
+</section>
+
+<!-- SIGN-UP -->
+{% include_cached sign-up.html customstyles="padding-top-0" %}
+
+<!-- OPPORTUNITY (boxes) -->
+<section class="usa-section padding-top-4">
+  <div class="grid-container no-gutter">
+
+    <div class="grid-row">
+      <div class="for-mobile box opportunity-deliver-image"></div>
+      <div class="box box--primary-vivid">
+        <div class="box-content">
+          <h1>Deliver<br />high-impact work</h1>
+          <p>Fellows will be matched with federal agencies and will use their technology skills to work on pressing
+            priorities to better serve the public. Priorities include:</p>
+          <ul>
+            <li>Economic recovery</li>
+            <li>Racial equity</li>
+            <li>COVID-19 response</li>
+            <li>Health care</li>
+            <li>Climate</li>
+          </ul>
+        </div>
+      </div>
+      <div class="for-desktop box opportunity-deliver-image"></div>
+    </div>
+
+    <div class="grid-row">
+      <div class="box opportunity-grow-image"></div>
+      <div class="box box--base-lighter">
+        <div class="box-content">
+          <h1>Grow personally and professionally</h1>
+          <p>
+            The Digital Corps will invest in Fellows’ career growth with a dedicated learning and development curriculum
+            and individual performance plans, helping you mature as a technologist and sharpen the bureaucracy hacking
+            skills that will make you more effective in creating impact in government and other large organizations.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-row">
+      <div class="for-mobile box opportunity-support-image"></div>
+      <div class="box box--primary-vivid">
+        <div class="box-content">
+          <h1>Join a supportive, diverse community</h1>
+          <p>
+            Digital Corps Fellows will join a welcoming community of supportive mentors and passionate peers within the
+            Digital Corps and from organizations like Presidential Innovation Fellows, U.S. Digital Service, and 18F.
+          </p>
+        </div>
+      </div>
+      <div class="for-desktop box opportunity-support-image"></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SEEKING -->
+<section class="usa-section padding-top-4">
+
+  <div class="grid-container highlight">
+    <h1 class="margin-bottom-4 text-ink">
+      Who we’re looking for
+    </h1>
+
+    <div class="grid-row grid-gap-lg">
+      <div class="grid-col-12 desktop:grid-col-6">
+        <p class="lg text-left margin-y-0 desktop:margin-y-3">
+          The Digital Corps is an early&#8209;career technology opportunity for those from undergraduate degree
+          programs, apprenticeships, bootcamps, reskilling, and other training programs. No work experience is required,
+          though we expect candidates to have the requisite technical skills and training.
+        </p>
+      </div>
+      <div class="grid-col-12 desktop:grid-col-6">
+        <p class="lg text-left">
+          While we build a big tent around what it means to be a technologist—including software engineering, product
+          management, design, data science and analysis, and cybersecurity—we recognize that technology is a means,
+          not an end. As such, we’re looking for candidates who aren’t afraid to roll up their sleeves and contribute
+          in any way, technical or otherwise, to create a government that better serves all Americans.
+        </p>
+        <p class="lg text-left">
+          Government technology and civic tech is a team sport, and we expect Digital Corps fellows to be empathetic,
+          collaborative, and mission-oriented.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- PARTNERS -->
+<div class="usa-section bg-base-light text-center text-white text-normal font-sans-lg padding-y-1">
+  PARTNER ORGANIZATIONS
+</div>
+<section class="usa-section bg-base-lighter padding-top-3 padding-bottom-4">
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="partner">
+        <a href="https://gsa.gov">
+          {%
+          asset "logo/GSA.svg" alt="General Services Administration logo"
+          href="https://gsa.gov"
+          %}
+        </a>
+      </div>
+      <div class="partner">
+        <a href="https://pif.gov">
+          {%
+          asset "logo/PIF.png" alt="Presidential Innovation Fellows logo"
+          %}
+        </a>
+      </div>
+      <div class="partner">
+        <a href="https://usds.gov">
+          {%
+          asset "logo/USDS.png" alt="U.S. Digital Service logo"
+          %}
+        </a>
+      </div>
+      <div class="partner">
+        <a href="https://18f.gsa.gov">
+          {%
+          asset "logo/18F.png" alt="18F logo"
+          %}
+        </a>
+      </div>
+    </div>
+  </div>
+
 </section>
