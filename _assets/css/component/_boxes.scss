@@ -139,6 +139,7 @@
 // mini styles
 @mixin box-mini($image-url) {
     @include column-overlay("right", 40%, "primary", $image-url, "none");
+    background-color: color("primary");
     background-position: left;
     @include u-padding(0);
 
