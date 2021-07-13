@@ -7,10 +7,10 @@ url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site
 
 # Social media handles (not URL)
 social:
-#  linkedin: company/united-states-digital-corps
-#  twitter: united-states-digital-corps
-#  facebook: united-states-digital-corps
-#  instagram: united-states-digital-corps
+  linkedin: company/us-digital-corps
+  twitter: USDigitalCorps
+#  facebook: us-digital-corps
+#  instagram: us-digital-corps
 
 # GovDelivery info
 govdelivery:
