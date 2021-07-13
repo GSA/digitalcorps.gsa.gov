@@ -70,3 +70,11 @@
         background-position: 70% top;
     }
 }
+
+// logo toggle flipper
+.flip-hover {
+    &:hover {
+        transform: scaleX(-1);
+    }
+    cursor: default;
+}

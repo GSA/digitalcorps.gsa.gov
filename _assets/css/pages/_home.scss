@@ -60,7 +60,7 @@
 
   h1 {
     @include u-font("sans", "3xl");
-    @include u-text("medium");
+    @include u-text("semibold");
     @include u-margin(0);
     color: color("white");
     text-transform: uppercase;
