@@ -3,18 +3,11 @@
   <div class="usa-hero">
     <div class="grid-container">
       <div class="usa-hero__callout">
-        <h1 class="usa-hero__heading">
-          Build a brighter future.
-        </h1>
-        <h2>
-          Launch your career by helping to
-          <br class="display-none tablet:display-inline" />
-          create a more effective,
-          <br class="display-none tablet:display-inline" />
-          equitable government.
-        </h2>
-        <a class="usa-button usa-button--secondary button-skewed" href="{{ site.baseurl }}/opportunity">
-          <span class="button-unskewed-content">Learn more</span>
+        <h1 class="usa-hero__heading">Build a brighter future</h1>
+        <h2>Use your technology skills to help create a more effective, equitable government.</h2>
+        <a class="usa-button usa-button--primaryvivid margin-top-2 tablet:margin-top-8"
+          href="{{ site.baseurl }}/opportunity">
+          <span>Learn more</span>
         </a>
         <!-- <p class="usa-hero__text">Applications open until 30 June</p> -->
       </div>
@@ -23,43 +16,42 @@
 </section>
 
 <!-- HIGHLIGHTS -->
-<section class="usa-section margin-top-6">
+<section class="usa-section">
+
   <div class="grid-container">
     <div class="grid-row grid-gap">
 
       <!-- tech talent -->
       <div class="tablet:grid-col">
-        <div class="usa-hero tech-talent display-flex flex-align-end">
-          <div class="padding-x-4">
-            <h1>
-              Apply your tech talent in service to the nation
-            </h1>
-          </div>
+        <div class="tech-talent display-flex flex-align-end">
+          <h1>
+            Apply your tech talent in service to the nation
+          </h1>
         </div>
       </div>
 
       <div class="tablet:grid-col">
 
-        <!-- mission and values -->
+        <!-- impact -->
         <div class="grid-row">
-          <div class="grid-col usa-hero mission display-flex flex-align-end">
-            <div class="hero-mini-content">
-              <h1 class="padding-bottom-1">Mission and Values</h1>
-              <h2 class="padding-bottom-2">Why we do the work</h2>
-              <a href="{{ site.baseurl }}/about"
-                class="usa-button usa-button--secondary usa-button--small margin-bottom-3">
-                Who we are
-              </a>
+          <div class="grid-col home-impact">
+            <div class="box-mini-content">
+              <h1 class="padding-bottom-1">Meaningful Innovation</h1>
+              <div class="margin-bottom-3">
+                <a class="usa-link" href="{{ site.baseurl }}/opportunity">What we do</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- impact -->
+        <!-- mission and values -->
         <div class="grid-row">
-          <div class="grid-col usa-hero impact display-flex flex-align-end">
-            <div class="hero-mini-content">
-              <h1 class="padding-bottom-1">Meaningful Innovation</h1>
-              <h2 class="padding-bottom-3">Impactful work at scale</h2>
+          <div class="grid-col home-mission">
+            <div class="box-mini-content">
+              <h1 class="padding-bottom-1">Mission and Values</h1>
+              <div class="margin-bottom-3">
+                <a class="usa-link" href="{{ site.baseurl }}/about">Why we do the work</a>
+              </div>
             </div>
           </div>
         </div>
@@ -70,40 +62,45 @@
 </section>
 
 <!-- BENEFITS -->
-<section class="usa-section highlight padding-top-0">
+<section class="usa-section padding-top-0">
 
-  <div class="grid-container">
-    <div class="grid-row accent">
-      <div class="grid-col tablet:margin-bottom-0 ">
-        <h1>
-          Impactful work at scale
-        </h1>
-        <p>
-          The U.S. Digital Corps is a new, two-year fellowship for early-career and junior technologists to launch
-          impactful careers in public service and create a more effective, equitable government.
-        </p>
-      </div>
-    </div>
+  <div class="grid-container highlight">
+    <h1>
+      Impactful work at Scale
+    </h1>
+    <p>
+      The U.S. Digital Corps is a new, two&#8209;year fellowship for early&#8209;career and junior 
+      technologists to launch impactful careers in public service and help accelerate technology 
+      modernization in service to the American public.
+    </p>
   </div>
 
-  <div class="grid-container">
+  <div class="grid-container margin-top-2">
     <div class="grid-row benefits">
       <div class="benefit">
-        <img src="https://via.placeholder.com/400x400" alt="space shuttle taking off">
-        <h2>High-Impact Work</h2>
-        <p>Bacon ipsum spicy jalepeno dolor amet leberkas chislic ham beef cow.</p>
+        {% asset
+        "shutterstock_669170740.jpg"
+        alt="young man in business suit explaining in conference room" %}
+        <h2 class="twoline"> High-impact <br class="display-none tablet:display-inline" /> work </h2>
+        <p>Work with federal employees to improve how government serves all Americans in a digital age.</p>
       </div>
       <div class="benefit">
-        <img src="https://via.placeholder.com/400x400" alt="smiling young woman writing on wall">
-        <h2>Learning and Development</h2>
-        <p>Pork chop spare ribs landjaeger t-bone leberkas pancetta, turkey ball tip ribeye drumstick swine.</p>
+        {% asset
+        "pexels-christina-morillo-1181398.jpg"
+        alt="young man in business suit explaining in conference room" %}
+        <h2 class="twoline">Learning and <br class="display-none tablet:display-inline" /> development</h2>
+        <p>Grow as a technologist while honing your bureaucracy hacking skills through dedicated programming.</p>
       </div>
       <div class="benefit">
-        <img src="https://via.placeholder.com/400x400" alt="happy group of young adults">
-        <h2>Mentorship and Community</h2>
-        <p>Boudin ball tip shoulder pork chop, jowl turkey tri-tip pig biltong pork belly beef chuck ham shank
-          tenderloin porchetta. </p>
+        {% asset
+        "shutterstock_365256755.jpeg"
+        alt="mature businessman and a young woman having a friendly conversation" %}
+        <h2 class="twoline">Mentorship and <br class="display-none tablet:display-inline" /> community</h2>
+        <p>Join a diverse community of mission-driven technologists dedicated to the public interest.</p>
       </div>
     </div>
   </div>
 </section>
+
+<!-- SIGN-UP -->
+{% include_cached sign-up.html customstyles="bg-base-lighter padding-y-8" %}

@@ -10,12 +10,12 @@
 
 h1,
 .as-h1 {
-  @include u-font("sans", "2xl");
+  @include u-font("sans", 16);
   @include u-text("bold");
   @include u-text("primary");
   @include header-em;
-  text-transform: uppercase;
-  line-height: 0.9;
+  line-height: 1;
+  cursor: default;
 }
 
 h2,
@@ -25,6 +25,7 @@ h2,
   @include u-text("primary");
   @include header-em;
   line-height: 1;
+  cursor: default;
 }
 
 h3,
@@ -35,6 +36,7 @@ h4,
   @include u-text("normal");
   @include u-text("primary-vivid");
   line-height: 1;
+  cursor: default;
 }
 
 ul,
@@ -54,4 +56,10 @@ li {
   ol li {
     max-width: unset;
   }
+}
+
+// highlighter background style
+.tbd,
+.highlighter {
+  background-color: rgba(222, 244, 64, 90%);
 }

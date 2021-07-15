@@ -3,10 +3,11 @@
 @import "uswds";
 
 @import "uswds/button";
-@import "uswds/navbar";
+@import "uswds/menu";
 @import "uswds/hero";
 @import "uswds/banner";
 @import "uswds/footer";
+@import "uswds/identifier";
 @import "uswds/logo";
 
 // Search.gov
@@ -18,9 +19,10 @@
 @import "base/typography";
 
 // Component Styles
-@import "component/anchor";
+@import "component/boxes";
 @import "component/benefits";
 @import "component/highlight";
+@import "component/quotes";
 
 // Page Styles
 @import "pages/about";

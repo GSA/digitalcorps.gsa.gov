@@ -1,6 +1,71 @@
-// banner
-.about .usa-hero {
-    @include hero-size(400px, 250px);
-    background-image: url(https://via.placeholder.com/1920x600);
-    background-position: center;
+// ABOUT customization
+
+.about {
+    .usa-hero {
+        // background image
+        background-image: url(asset_path("stock/shutterstock_512812102.jpg"));
+        background-position: right 100%;
+
+        // callout container
+        .usa-hero__callout {
+            @include grid-col(6);
+            @include grid-offset(6);
+            @include u-padding-x(0);
+            @include u-padding-top(8);
+            @include u-text("white");
+
+            // < desktop-lg
+            @include at-media-max("desktop-lg") {
+                min-height: 500px;
+            }
+
+            // < desktop
+            @include at-media-max("desktop") {
+                @include grid-col(7);
+                @include grid-offset(5);
+            }
+
+            // < tablet-lg
+            @include at-media-max("tablet-lg") {
+                @include grid-col(9);
+                @include grid-offset(3);
+            }
+
+            // < tablet
+            @include at-media-max("tablet") {
+                @include grid-col(12);
+                @include grid-offset(none);
+                @include u-padding-x(2);
+            }
+
+            // typography
+            h1,
+            h2 {
+                color: inherit;
+            }
+        }
+    }
+}
+
+.about-whoweare-image {
+    background-image: url(asset_path("stock/shutterstock_1580363914.jpg"));
+    background-position: 70% top;
+}
+
+.about-whatwedo-image {
+    background-image: url(asset_path("stock/immigrant-with-child.png"));
+    background-position: 55% top;
+
+    @include at-media-max("tablet") {
+        background-position: 70% top;
+    }
+}
+
+.about-diversity-image {
+    background-image: url(asset_path("stock/shutterstock_1614290140.jpg"));
+    background-position: 50% top;
+
+    @include at-media-max("tablet") {
+        background-position: 70% top;
+    }
 }

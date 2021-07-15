@@ -1,0 +1,33 @@
+// QUOTES
+
+.quote {
+    
+    @include grid-col(8);
+    @include grid-offset(2);
+
+    @include at-media-max("desktop"){
+        @include grid-col(12);
+        @include grid-offset(none);
+        @include u-padding(4);
+    }
+
+    // quote text
+    h1 {
+        @include u-font("sans", "xl");
+        @include u-text("italic");
+        @include u-text("ink");
+        @include u-text("semibold");
+
+        @include at-media-max("desktop"){
+            @include u-margin-top(0);
+        }
+    }
+
+    // byline
+    p {
+        @include u-font("sans", "lg");
+        @include at-media-max("desktop"){
+            @include u-margin-bottom(0);
+        }
+    }
+}

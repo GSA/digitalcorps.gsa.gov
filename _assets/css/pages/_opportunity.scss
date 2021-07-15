@@ -1,6 +1,106 @@
-// banner
-.opportunity .usa-hero {
-    @include hero-size(400px, 250px);
-    background-image: url(https://via.placeholder.com/1920x600);
-    background-position: center;
+// OPPORTUNITY customization
+
+.opportunity {
+    .usa-hero {
+        // background image
+        background-image: url(asset_path("stock/shutterstock_403286512.jpg"));
+        background-position: 20% top;
+
+        // mobile
+        @include at-media-max("mobile-lg") {
+            background-position: 40% top;
+        }
+
+        // callout container
+        .usa-hero__callout {
+            @include grid-col(5);
+            @include grid-offset(7);
+            @include u-padding-x(0);
+            @include u-padding-top(8);
+
+            // widescreen
+            @include at-media-max("widescreen") {
+                @include grid-col(4);
+                @include grid-offset(8);
+                @include u-padding-right(4);
+            }
+
+            // desktop
+            @include at-media-max("desktop") {
+                @include grid-col(5);
+                @include grid-offset(7);
+            }
+
+            // tablet
+            @include at-media-max("tablet-lg") {
+                @include grid-col(12);
+                @include grid-offset(none);
+                @include u-padding-x(2);
+                background-color: rgba(255, 255, 255, 0.5);
+            }
+        }
+    }
+}
+
+.opportunity-deliver-image {
+    background-image: url(asset_path("stock/shutterstock_1189106440.jpg"));
+    background-size: cover;
+    background-position: 50% top;
+}
+
+.opportunity-grow-image {
+    background-image: url(asset_path("stock/woman-supercomputer.png"));
+    background-position: 55% top;
+
+    @include at-media-max("tablet") {
+        background-size: cover;
+        background-position: 50% top;
+    }
+}
+
+.opportunity-support-image {
+    background-image: url(asset_path("stock/shutterstock_737530333.jpg"));
+    background-size: cover;
+    background-position: 35% top;
+}
+
+
+// accenting underline
+.accent-underline {
+    &:after {
+      @include u-bg("primary-vivid");
+      content: "";
+      left: 20%;
+      width: 60%;
+      height: 3px;
+      position: relative;
+      display: block;
+      bottom: -16px;
+
+      @include at-media-max("tablet"){
+          bottom: -11px;
+      }
+    }
+}
+
+
+// partner logos
+.partner {
+    @include grid-col(3);
+    @include u-text("center");
+    @include u-padding-top(2);
+    
+    // < desktop
+    @include at-media-max("tablet"){
+        @include grid-col(6);
+    }
+
+    // < tablet
+    @include at-media-max("mobile"){
+        @include grid-col(12);
+    }
+
+    img {
+        max-height: 120px;
+    }
 }

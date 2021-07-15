@@ -5,22 +5,71 @@ $theme-show-notifications: false;
 
 // Layout
 $theme-banner-max-width: "none";
-$theme-grid-container-max-width: "desktop";
+
 $theme-site-margins-breakpoint: "tablet";
 $theme-site-margins-width: 4;
 $theme-site-margins-mobile-width: 2;
 
-// Fonts
-$theme-font-sans-custom-stack: Roboto, Source Sans Pro Web, Helvetica Neue, Helvetica, Arial, sans-serif;
-$theme-font-weight-medium: 500;
-$theme-font-weight-semibold: 600;
+$custom-max-width: "widescreen";
+$theme-banner-max-width: $custom-max-width;
+$theme-header-max-width: $custom-max-width;
+$theme-grid-container-max-width: $custom-max-width;
+$theme-footer-max-width: $custom-max-width;
+$theme-identifier-max-width: $custom-max-width;
+$theme-site-alert-max-width: $custom-max-width;
 
+// Fonts
+$theme-typeface-tokens: (
+  roboto: (
+    display-name: "Roboto",
+    cap-height: 364px,
+  ),
+);
 $theme-font-type-cond: false;
 $theme-font-type-icon: false;
 $theme-font-type-lang: false;
 $theme-font-type-mono: "roboto-mono";
-$theme-font-type-sans: "source-sans-pro";
+$theme-font-type-sans: "roboto";
 $theme-font-type-serif: $theme-font-type-sans;
+
+// ref: https://fonts.google.com/specimen/Roboto
+$theme-font-sans-custom-src: (
+  dir: 'custom/roboto',
+  roman: (
+    100: 'roboto-v27-latin-100',
+    200: false,
+    300: 'roboto-v27-latin-300',
+    400: 'roboto-v27-latin-regular',
+    500: 'roboto-v27-latin-500',
+    600: false,
+    700: 'roboto-v27-latin-700',
+    800: false,
+    900: 'roboto-v27-latin-900',
+  ),
+  italic: (
+    100: 'roboto-v27-latin-100italic',
+    200: false,
+    300: 'roboto-v27-latin-300italic',
+    400: 'roboto-v27-latin-italic',
+    500: 'roboto-v27-latin-500italic',
+    600: false,
+    700: 'roboto-v27-latin-700italic',
+    800: false,
+    900: 'roboto-v27-latin-900italic',
+  ),
+);
+
+$theme-font-serif-custom-src: $theme-font-sans-custom-src;
+
+$theme-font-sans-custom-stack: true;
+$theme-font-sans-custom-stack: Public Sans, Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+$theme-font-weight-thin: 100;
+$theme-font-weight-light: 300;
+$theme-font-weight-normal: 400;
+$theme-font-weight-medium: 500;
+$theme-font-weight-semibold: 700;
+$theme-font-weight-bold: 900;
+
 
 /*
 ----------------------------------------
