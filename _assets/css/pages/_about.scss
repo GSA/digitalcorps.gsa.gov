@@ -72,9 +72,10 @@
 }
 
 // logo toggle flipper
-.flip-hover {
-    &:hover {
-        transform: scaleX(-1);
-    }
-    cursor: default;
-}
+// TODO: would prefer clickable version
+// .flip-hover {
+//     &:hover {
+//         transform: scaleX(-1);
+//     }
+//     cursor: default;
+// }
