@@ -2,7 +2,7 @@
 title: U.S. Digital Corps
 email: digitalcorps@gsa.gov
 description: "The United States Digital Corps"
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Social media handles (not URL)
@@ -63,6 +63,7 @@ collections:
 
 defaults:
   - scope:
+      path: ""
       type: "posts"
     values:
       layout: "posts"
