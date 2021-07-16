@@ -25,9 +25,6 @@ jobs:
             - vendor/bundle
       - run: npm run build
       - run: npm run test-links
-      - run: npm install
-      - run: npm run start-detached
-      - run: npm run pa11y-ci:sitemap
 
 workflows:
   version: 2
