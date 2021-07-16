@@ -23,9 +23,21 @@ jobs:
           key: v2-bundle-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
-      - run: npm run build
-      - run: npm run test
 
+      - name: Build site      
+        run: npm run build
+
+      - name: Run links test
+        run: npm run test-links
+
+      - name: Install pa11y-ci dependencies
+        run: npm install
+
+      - name: Start up jekyll server
+        run: npm run start-detached
+
+      - name: Run accessibility tests
+        run: npm run pa11y-ci:sitemap
 
 workflows:
   version: 2

@@ -32,7 +32,7 @@ title: Search
     }).finally(function(e){
     
       if(document.getElementById('search-results').childNodes.length == 0){
-        render_result(`<h4 class="title">No results found</h4>`, false)
+        render_result(`<li><h2 class="title">No results found</h2></li>`, false)
       }
           
     })
