@@ -25,9 +25,13 @@
     @include u-margin-x(0);
     a {
       @include u-text("white");
-      &:hover,
+      
       &:active {
         @include u-text("white");
+      }
+
+      &:hover{
+        @include u-text("primary-light");
       }
     }
   }

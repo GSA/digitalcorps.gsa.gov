@@ -69,7 +69,7 @@
     h1 {
         @include u-margin-y(0);
         @include u-font("sans", "3xl");
-        @include u-text("semibold");
+        @include u-text("bold");
         line-height: 1.1;
         color: inherit;
 
@@ -139,6 +139,7 @@
 // mini styles
 @mixin box-mini($image-url) {
     @include column-overlay("right", 40%, "primary", $image-url, "none");
+    background-color: color("primary");
     background-position: left;
     @include u-padding(0);
 
@@ -186,7 +187,7 @@
     h1,
     h2 {
         color: color("white");
-        @include u-text("medium");
+        @include u-text("semibold");
         text-transform: uppercase;
         margin: 0;
     }
@@ -224,7 +225,7 @@
         }
         &:hover {
             text-decoration: underline;
-            color: color("base-lighter");
+            color: color("primary-light");
         }
 
                 // < widescreen

@@ -5,6 +5,7 @@
         // background image
         background-image: url(asset_path("stock/shutterstock_512812102.jpg"));
         background-position: right 100%;
+        background-color: color("primary");
 
         // callout container
         .usa-hero__callout {
@@ -69,3 +70,12 @@
         background-position: 70% top;
     }
 }
+
+// logo toggle flipper
+// TODO: would prefer clickable version
+// .flip-hover {
+//     &:hover {
+//         transform: scaleX(-1);
+//     }
+//     cursor: default;
+// }

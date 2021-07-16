@@ -63,3 +63,10 @@ li {
 .highlighter {
   background-color: rgba(222, 244, 64, 90%);
 }
+
+// standard links
+.usa-link {
+  &:hover{
+    @include u-text("primary-vivid");
+  }
+}

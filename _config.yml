@@ -7,10 +7,10 @@ url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site
 
 # Social media handles (not URL)
 social:
-#  linkedin: company/united-states-digital-corps
-#  twitter: usdc
-#  facebook: usdc
-#  instagram: usdc
+  linkedin: company/us-digital-corps
+  twitter: USDigitalCorps
+#  facebook: us-digital-corps
+#  instagram: us-digital-corps
 
 # GovDelivery info
 govdelivery:
@@ -73,8 +73,6 @@ markdown: kramdown
 
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-redirect-from
   - jekyll-last-modified-at
   - jekyll-sitemap
   - jekyll-seo-tag

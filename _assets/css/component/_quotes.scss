@@ -16,7 +16,7 @@
         @include u-font("sans", "xl");
         @include u-text("italic");
         @include u-text("ink");
-        @include u-text("semibold");
+        @include u-text("bold");
 
         @include at-media-max("desktop"){
             @include u-margin-top(0);
