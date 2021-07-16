@@ -41,6 +41,7 @@
             @include u-font("sans", "xl");
             @include u-text("semibold");
             @include u-text("primary");
+            @include u-margin-y(3);
           
             height: 1.2em;
 
