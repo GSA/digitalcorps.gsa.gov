@@ -37,7 +37,11 @@
             }
         }
 
-        h2 {
+        h3 {
+            @include u-font("sans", "xl");
+            @include u-text("semibold");
+            @include u-text("primary");
+          
             height: 1.2em;
 
             // mobile

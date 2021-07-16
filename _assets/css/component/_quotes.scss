@@ -12,7 +12,7 @@
     }
 
     // quote text
-    h1 {
+    h2 {
         @include u-font("sans", "xl");
         @include u-text("italic");
         @include u-text("ink");
