@@ -58,7 +58,7 @@
     height: 400px;
   }
 
-  h1 {
+  h2 {
     @include u-font("sans", "3xl");
     @include u-text("semibold");
     @include u-margin(0);

@@ -66,7 +66,7 @@
     height: 100%;
     position: relative;
 
-    h1 {
+    h2 {
         @include u-margin-y(0);
         @include u-font("sans", "3xl");
         @include u-text("bold");
@@ -103,9 +103,8 @@
     }
 
     &--smaller {
-        // desktop only
 
-        h1 {
+        h2 {
             @include u-font("sans", "2xl");
 
             // < desktop
@@ -184,17 +183,13 @@
     }
 
     // typography
-    h1,
     h2 {
-        color: color("white");
+        @include u-font("sans", "xl");
         @include u-text("semibold");
+        color: color("white");
         text-transform: uppercase;
         margin: 0;
-    }
-
-    h1 {
-        @include u-font("sans", "xl");
-
+    
         // < desktop
         @include at-media-max("desktop-lg") {
             @include u-font("sans", "lg");

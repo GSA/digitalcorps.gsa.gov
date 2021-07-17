@@ -6,10 +6,16 @@
     @include u-text("center");
     @include u-font("sans", "xl");
 
-    h1 {
+    h2 {
         @include u-font("sans", "3xl");
         @include u-text("bold");
         @include u-margin-top(0);
+    }
+
+    h3 {
+        @include u-font("sans", "xl");
+        @include u-text("semibold");
+        @include u-text("primary");
     }
 
     p {

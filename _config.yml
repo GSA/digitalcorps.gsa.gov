@@ -63,6 +63,7 @@ collections:
 
 defaults:
   - scope:
+      path: ""
       type: "posts"
     values:
       layout: "posts"

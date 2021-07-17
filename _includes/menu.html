@@ -4,14 +4,14 @@ To modify the menu system, you are welcome to edit this HTML directly or you can
 where we provide an easy way to manage your navigation system
 {% endcomment %}
 
-<header class="usa-header site-header usa-header--basic" role="banner">
+<header class="usa-header site-header usa-header--basic">
   <div class="usa-nav-container">
     <div class="usa-navbar site-navbar">
       <!-- logo -->
       <div class="usa-logo" id="extended-logo">
         <em class="usa-logo__text">
-          <a href="{{site.baseurl}}/" title="Home" aria-label="Home" class="site-navbar__logo-link">
-            {% asset "digitalcorps_logo.svg" alt="U.S. Digital Corps Logo" %}
+          <a href="{{site.baseurl}}/" class="site-navbar__logo-link">
+            {% asset "digitalcorps_logo.svg" alt="U.S. Digital Corps" %}
           </a>
         </em>
       </div>
@@ -28,7 +28,7 @@ where we provide an easy way to manage your navigation system
         {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}{% if linkdir == 'apply' %} usa-button{% endif %}"
-            href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+            href="{{ nav_item.url | prepend: site.baseurl}}" {% if basedir == linkdir %}aria-current="page"{% endif %}><span>{{ nav_item.name | escape }}</span></a>
         </li>
         {% else %}
         {% assign nav_id = 'primary-nav-' | append: forloop.index %}
