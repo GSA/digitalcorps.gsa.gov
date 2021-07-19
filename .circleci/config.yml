@@ -9,22 +9,39 @@ jobs:
           keys:
             - v2-npm-{{ checksum "package-lock.json" }}
             - v2-npm-
-      - run: npm install
+      - run: 
+          name: Install packages
+          command: npm install
       - save_cache:
+          name: Save NPM cache
           key: v2-npm-{{ checksum "package-lock.json" }}
           paths:
             - node_modules
       - restore_cache:
+          name: Save Gem cache
           keys:
             - v2-bundle-{{ checksum "Gemfile.lock" }}
             - v2-bundle-
-      - run: bundle install --path vendor/bundle
+      - run: 
+          name: Install vendor bundle
+          command: bundle install --path vendor/bundle
       - save_cache:
+          name: Save vendor bundle cache
           key: v2-bundle-{{ checksum "Gemfile.lock" }}
           paths:
             - vendor/bundle
-      - run: npm run build
-      - run: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site;
+      - run: 
+          name: Build
+          command: npm run build
+      - run: 
+          name: Test HTML URLs
+          command: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site
+      - run: 
+          name: Serve host site
+          command: bundle exec jekyll serve --detach
+      - run: 
+          name: Test Accessibility
+          command: npm run test-a11y
 
 workflows:
   version: 2
