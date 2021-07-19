@@ -24,7 +24,7 @@ jobs:
           paths:
             - vendor/bundle
       - run: npm run build
-      - run: bundle exec htmlproofer --url-swap "https\://digitalcorps.gsa.gov:" _site;
+      - run: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site;
 
 workflows:
   version: 2
