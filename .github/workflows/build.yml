@@ -1,4 +1,4 @@
-name: pa11y
+name: build
 
 on: [pull_request]
 
@@ -20,8 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Build
+        run: bundle exec jekyll build
+
+      - name: Test for broken URLs
+        run: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site;
+
       - name: Start up jekyll server
         run: bundle exec jekyll serve --detach
 
-      - name: Run accessibility tests
+      - name: Test accessibility
         run: "npm run test-a11y"
