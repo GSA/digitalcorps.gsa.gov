@@ -79,9 +79,9 @@
   {% endif %}
   
   {% if include.description_apply %}
-  <meta name="twitter:image" content="https://digitalcorps.gsa.gov{% asset digitalcorps-apply.png @path %}" />
+  <meta name="twitter:image" content="{{site.baseurl}}{% asset digitalcorps-apply.png @path %}" />
   {% else %}
-  <meta name="twitter:image" content="https://digitalcorps.gsa.gov{% asset digitalcorps-social.png @path %}" />
+  <meta name="twitter:image" content="{{site.baseurl}}{% asset digitalcorps-social.png @path %}" />
   {% endif %}
 
   <link rel="canonical" href="{{site.url}}{{page.url}}">

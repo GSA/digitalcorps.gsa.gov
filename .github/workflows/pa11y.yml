@@ -21,7 +21,7 @@ jobs:
         run: npm install
 
       - name: Start up jekyll server
-        run: npm run start-detached
+        run: bundle exec jekyll serve --detach
 
       - name: Run accessibility tests
-        run: npm run pa11y-ci:sitemap
+        run: npm run test-a11y

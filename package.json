@@ -7,11 +7,8 @@
     "clean": "bundle exec jekyll clean",
     "reset": "npx rimraf .git",
     "start": "bundle exec jekyll serve --livereload",
-    "test-links": "bundle exec htmlproofer --url-swap 'digitalcorps.gsa.gov:localhost\:4000' _site;",
-
-    "start-detached": "bundle exec jekyll serve --detach",
-    "pa11y-ci:home": "pa11y-ci http://localhost:4000",
-    "pa11y-ci:sitemap": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-exclude \"/*.pdf\""
+    "test-links": "bundle exec htmlproofer _site;",
+    "test-a11y": "pa11y-ci --sitemap http://localhost:4000/sitemap.xml --sitemap-find https://digitalcorps.gsa.gov --sitemap-replace http://localhost:4000 --sitemap-exclude \"/*.pdf\""
   },
   "author": "U.S. Digital Corps",
   "repository": {
