@@ -24,6 +24,7 @@
 // menu item layout, centered vertically
 .usa-header--basic .usa-nav-container {
   @include at-media("desktop") {
+    height: 75px;
     align-items: center;
   }
 }
