@@ -36,12 +36,6 @@ jobs:
       - run: 
           name: Test HTML URLs
           command: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site
-      - run: 
-          name: Serve host site
-          command: bundle exec jekyll serve --detach
-      - run: 
-          name: Test Accessibility
-          command: npm run test-a11y
 
 workflows:
   version: 2

@@ -1,10 +1,10 @@
-name: build
+name: a11y
 
 on: [pull_request]
 
 jobs:
   build:
-    name: tests
+    name: test
     runs-on: ubuntu-latest
 
     steps:
@@ -19,12 +19,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Build
-        run: bundle exec jekyll build
-
-      - name: Test for broken URLs
-        run: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site;
 
       - name: Start up jekyll server
         run: bundle exec jekyll serve --detach
