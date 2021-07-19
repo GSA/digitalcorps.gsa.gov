@@ -24,7 +24,7 @@ jobs:
           paths:
             - vendor/bundle
       - run: npm run build
-      # - run: npm run test-links
+      - run: npm run test-links
 
 workflows:
   version: 2
