@@ -1,24 +1,5 @@
 // USWDS IDENTIFIER OVERRIDES
 
-
-.usa-identifier__required-links-list {
-  @include add-list-reset;
-  @include u-margin-y(0);
-
-  @include at-media("tablet") {
-    @include u-text("center");
-    column-count: 3;
-  }
-
-  @include at-media("desktop") {
-    column-count: 6;
-  }
-}
-
-.usa-identifier__section--usagov {
-  @include u-text("base-light");
-
-  a.usa-link {
-    @include u-text("base-light");
-  }
+.usa-identifier__identity-disclaimer {
+  @include u-text("base-lighter");
 }
