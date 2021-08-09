@@ -103,7 +103,6 @@
     }
 
     &--smaller {
-
         h2 {
             @include u-font("sans", "2xl");
 
@@ -163,6 +162,7 @@
     position: absolute;
     right: 0;
     width: 40%;
+    color: white;
 
     // desktop
     @include at-media-max("desktop") {
@@ -186,10 +186,10 @@
     h2 {
         @include u-font("sans", "xl");
         @include u-text("semibold");
-        color: color("white");
         text-transform: uppercase;
+        color: inherit;
         margin: 0;
-    
+
         // < desktop
         @include at-media-max("desktop-lg") {
             @include u-font("sans", "lg");
@@ -208,26 +208,15 @@
 
     .usa-link {
         @include u-font("sans", "lg");
-        $dark-link-color: "base-light";
+        @include white-url();
         text-transform: uppercase;
         text-decoration: none;
-        color: color("white");
 
-        &:active,
-        &:visited {
-            text-decoration: none;
-            color: color("white");
-        }
-        &:hover {
-            text-decoration: underline;
-            color: color("primary-light");
+        // < widescreen
+        @include at-media-max("desktop-lg") {
+            @include u-font("sans", "md");
         }
 
-                // < widescreen
-                @include at-media-max("desktop-lg") {
-                    @include u-font("sans", "md");
-                }
-        
         // < desktop
         @include at-media-max("desktop") {
             @include u-font("sans", "md");

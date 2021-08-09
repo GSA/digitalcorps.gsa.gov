@@ -81,6 +81,10 @@
     @include at-media-max("mobile-lg") {
       @include u-font("sans", "xl");
     }
+
+    .usa-link {
+      @include white-url();
+    }
   }
 
   // < tablet

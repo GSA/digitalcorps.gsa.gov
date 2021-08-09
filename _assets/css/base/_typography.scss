@@ -8,6 +8,21 @@
   }
 }
 
+@mixin white-url() {
+  color: color("white");
+  text-decoration: none;
+  
+  &:active,
+  &:visited {
+      text-decoration: none;
+      color: color("white");
+  }
+  &:hover {
+      text-decoration: underline;
+      color: color("primary-light");
+  }
+}
+
 h1,
 .as-h1 {
   @include u-font("sans", 16);
