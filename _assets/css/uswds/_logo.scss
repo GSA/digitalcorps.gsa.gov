@@ -18,19 +18,25 @@
   img {
     display: inline-block;
     vertical-align: middle;
-    height: auto;
-    width: 340px;
+
+    height: 60px;
+    width: auto;
+
+    // original
+    // height: auto;
+    // width: 340px;
     max-width: unset;
     shape-rendering: geometricPrecision;
 
     // < desktop-lg
     @include at-media-max("desktop-lg") {
-      width: 305px;
+      // width: 305px;
     }
 
     // < desktop
     @include at-media-max("desktop") {
-      width: 250px;
+      height: 40px;
+      // width: 250px;
     }
   }
 }
