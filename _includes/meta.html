@@ -51,32 +51,18 @@
   <title>{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}</title>
   <meta property="og:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}">
   
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{site.social.twitter}}" />
+  
   {% if include.description_apply %}
   <meta name="description" content="{{ include.description_apply }}">
   <meta property="og:description" content="{{ include.description_apply }}">
-  <meta property="og:image" content="{% asset digitalcorps-apply.png @path %}">
+  <meta property="og:image" content="{{site.url}}{% asset digitalcorps-apply.png @path %}">
   {% else %}
   <meta name="description" content="{{site.description}}">
   <meta property="og:description" content="{{site.description}}">
-  <meta property="og:image" content="{% asset digitalcorps-social.png @path %}">
-  {% endif %}
-
-  <meta property="og:type" content="article">
-    
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{% if include.title %}{% if include.title == "Home" %}{{ site.title }}{% else %}{{ include.title }} | {{ site.title }}{% endif %}{% else %}{{ site.title }}{% endif %}" />
-  
-  {% if include.description_apply %}
-  <meta name="twitter:description" content="{{ include.description_apply }}" />
-  {% else %}
-  <meta name="twitter:description" content="{{site.description}}" />
-  {% endif %}
-  
-  {% if include.description_apply %}
-  <meta name="twitter:image" content="{{site.baseurl}}{% asset digitalcorps-apply.png @path %}" />
-  {% else %}
-  <meta name="twitter:image" content="{{site.baseurl}}{% asset digitalcorps-social.png @path %}" />
+  <meta property="og:image" content="{{site.url}}{% asset digitalcorps-social.png @path %}">
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
