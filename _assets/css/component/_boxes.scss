@@ -136,7 +136,7 @@
 
 // mini styles
 @mixin box-mini($image-url) {
-    @include column-overlay("right", 40%, "primary", $image-url, "none");
+    @include column-overlay("right", 50%, "primary", $image-url, "none");
     background-color: color("primary");
     background-position: left;
     @include u-padding(0);
@@ -145,7 +145,7 @@
 
     // desktop
     @include at-media-max("desktop") {
-        @include column-overlay("right", 50%, "primary", $image-url, "none");
+        @include column-overlay("right", 60%, "primary", $image-url, "none");
         height: 224px;
     }
 
@@ -157,24 +157,15 @@
 }
 
 .box-mini-content {
-    @include u-padding-x(2);
+    @include u-padding-x(3);
     @include u-margin-y(4);
     position: absolute;
     right: 0;
-    width: 40%;
+    width: 50%;
     color: white;
 
     // desktop
     @include at-media-max("desktop") {
-        @include grid-col(9);
-        @include grid-offset(3);
-        @include u-padding-x(2);
-        @include u-margin-y(1);
-        width: 50%;
-    }
-
-    // mobile
-    @include at-media-max("tablet") {
         @include grid-col(9);
         @include grid-offset(3);
         @include u-padding-x(2);
