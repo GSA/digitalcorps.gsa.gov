@@ -18,7 +18,7 @@
   
   // typography
   h1 {
-    @include u-font("sans", 16);
+    @include u-font("sans", 17);
     @include u-text("bold");
     line-height: 0.9;
     color: inherit;
