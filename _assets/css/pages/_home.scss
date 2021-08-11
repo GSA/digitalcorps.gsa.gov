@@ -3,13 +3,16 @@
 .home {
   .usa-hero {
     // background image
-    background-image: url(asset_path("stock/working-together-blue.png"));
+    background-image: url(asset_path("stock/working-together.png"));
+    background-color: color("primary");
 
     // callout container
     .usa-hero__callout {
-      @include grid-col(7);
-      @include u-padding-x(0);
+      @include grid-col(5);
+      // @include u-padding-x(0);
       @include u-text("white");
+      @include u-bg("primary");
+      opacity: 75%;
 
       // < desktop
       @include at-media-max("desktop") {
@@ -22,15 +25,16 @@
         @include u-padding-x(2);
       }
 
+      // subtext
       h2 {
-        padding-right: 10em;
+        // padding-right: 8em;
         color: inherit;
 
         // < desktop-lg
         @include at-media-max("desktop-lg") {
-          padding-right: 4em;
+          // padding-right: 4em;
         }
-        
+
         // < desktop
         @include at-media-max("desktop") {
           padding-right: unset;
