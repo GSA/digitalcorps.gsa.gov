@@ -2,8 +2,8 @@
 
 .quote {
     
-    @include grid-col(8);
-    @include grid-offset(2);
+    @include grid-col(10);
+    @include grid-offset(1);
 
     @include at-media-max("desktop"){
         @include grid-col(12);
