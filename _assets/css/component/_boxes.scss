@@ -136,7 +136,7 @@
 
 // mini styles
 @mixin box-mini($image-url) {
-    @include column-overlay("right", 50%, "primary", $image-url, "none");
+    @include column-overlay-vertical("right", 50%, "primary", $image-url, "none");
     background-color: color("primary");
     background-position: left;
     @include u-padding(0);
@@ -145,13 +145,13 @@
 
     // desktop
     @include at-media-max("desktop") {
-        @include column-overlay("right", 60%, "primary", $image-url, "none");
+        @include column-overlay-vertical("right", 60%, "primary", $image-url, "none");
         height: 224px;
     }
 
     // tablet
     @include at-media-max("tablet") {
-        @include column-overlay("right", 60%, "primary", $image-url, "none");
+        @include column-overlay-vertical("right", 60%, "primary", $image-url, "none");
         height: 200px;
     }
 }

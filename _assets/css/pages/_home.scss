@@ -1,44 +1,55 @@
 // HOME customization
 
+// banner
 .home {
   .usa-hero {
-    // background image
-    background-image: url(asset_path("stock/working-together.png"));
-    background-color: color("primary");
+    @include u-margin-bottom(4);
+    @include u-text("white");
+    background-image: url(asset_path("stock/group-meeting.png"));
+    background-color: color("base-darkest");
+    position: relative;
+    overflow: hidden;
+    min-height: 600px;
+
+    // < tablet
+    @include at-media-max("mobile-lg") {
+      min-height: unset;
+      @include u-padding-y(0);
+    }
 
     // callout container
     .usa-hero__callout {
-      @include grid-col(5);
-      // @include u-padding-x(0);
-      @include u-text("white");
-      @include u-bg("primary");
-      opacity: 75%;
-
-      // < desktop
-      @include at-media-max("desktop") {
-        @include grid-col(9);
-      }
+      color: inherit;
+      background-color: rgba(28, 29, 31, 0.55); // base-darkest #1c1d1f
+      width: 100%;
+      position: absolute;
+      bottom: 0;
 
       // < tablet
-      @include at-media-max("tablet") {
-        @include grid-col(12);
+      @include at-media-max("mobile-lg") {
+        position: relative;
         @include u-padding-x(2);
+      }
+
+      .grid-container {
+        @include u-padding-x(0);
+      }
+
+      .usa-button {
+        float: left;
+        @include u-margin-top(3);
+
+        // < tablet
+        @include at-media("tablet") {
+          float: right;
+        }
       }
 
       // subtext
       h2 {
-        // padding-right: 8em;
+        @include u-margin-top(3);
+        @include u-margin-bottom(0);
         color: inherit;
-
-        // < desktop-lg
-        @include at-media-max("desktop-lg") {
-          // padding-right: 4em;
-        }
-
-        // < desktop
-        @include at-media-max("desktop") {
-          padding-right: unset;
-        }
       }
     }
   }
@@ -50,7 +61,7 @@
   @include u-padding-right(8);
 
   $image-url: "stock/shutterstock_367286792.jpg";
-  @include column-overlay("center", 100%, "primary", $image-url, 0.75);
+  @include column-overlay-vertical("center", 100%, "primary", $image-url, 0.75);
   background-color: color("primary");
   background-position: center;
   background-size: auto 100%;
