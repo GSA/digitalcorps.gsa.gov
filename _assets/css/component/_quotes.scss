@@ -12,11 +12,9 @@
     }
 
     // quote text
-    h2 {
-        @include u-font("sans", "xl");
-        @include u-text("italic");
+    .verbiage {
+        @include u-font("sans", "lg");
         @include u-text("ink");
-        @include u-text("bold");
 
         @include at-media-max("desktop"){
             @include u-margin-top(0);
@@ -24,10 +22,24 @@
     }
 
     // byline
-    p {
-        @include u-font("sans", "lg");
+    .author {
+        @include u-padding-top(4);
+        @include u-font("sans", "md");
+        font-weight: bold;
+
+        margin-left: 60%;
+
         @include at-media-max("desktop"){
-            @include u-margin-bottom(0);
+            margin-left: 50%;
+        }
+
+        @include at-media-max("tablet"){
+            margin-left: 25%;
+        }
+
+        .title{
+            @include u-font("sans", "sm");
+            font-weight: normal;
         }
     }
 }
