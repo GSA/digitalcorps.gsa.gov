@@ -18,25 +18,20 @@
   img {
     display: inline-block;
     vertical-align: middle;
+    image-rendering: crisp-edges;
 
     height: 60px;
     width: auto;
-
-    // original
-    // height: auto;
-    // width: 340px;
     max-width: unset;
-    shape-rendering: geometricPrecision;
 
     // < desktop-lg
     @include at-media-max("desktop-lg") {
-      // width: 305px;
+      // need TBD
     }
 
     // < desktop
     @include at-media-max("desktop") {
       height: 40px;
-      // width: 250px;
     }
   }
 }
