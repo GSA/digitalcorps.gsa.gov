@@ -19,7 +19,7 @@
     }
 
     p {
-        @include u-font("sans", "xl");
+        @include u-font("sans", 11);
         @include u-text("light");
 
         // tablet

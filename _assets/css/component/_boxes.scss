@@ -175,7 +175,7 @@
 
     // typography
     h2 {
-        @include u-font("sans", "xl");
+        @include u-font("sans", "lg");
         @include u-text("semibold");
         text-transform: uppercase;
         color: inherit;
@@ -189,7 +189,7 @@
 
         // < tablet
         @include at-media-max("tablet") {
-            @include u-font("sans", "xl");
+            @include u-font("sans", "lg");
         }
 
         // < mobile
@@ -199,7 +199,7 @@
     }
 
     .usa-link {
-        @include u-font("sans", "lg");
+        @include u-font("sans", "md");
         @include white-url();
         text-transform: uppercase;
         text-decoration: none;
