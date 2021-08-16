@@ -26,13 +26,13 @@
         @include at-media-max("desktop") {
             @include u-padding(5);
             height: initial;
-            min-height: 500px;
+            min-height: 400px;
         }
         // < tablet
         @include at-media-max("tablet") {
             @include u-padding-x(2);
             height: initial;
-            min-height: 400px;
+            min-height: 300px;
         }
     }
 
@@ -104,16 +104,16 @@
 
     &--smaller {
         h2 {
-            @include u-font("sans", "2xl");
+            @include u-font("sans", "xl");
 
             // < desktop
             @include at-media-max("desktop") {
-                @include u-font("sans", "3xl");
+                @include u-font("sans", "xl");
             }
 
             // < tablet
             @include at-media-max("tablet") {
-                @include u-font("sans", "2xl");
+                @include u-font("sans", "xl");
             }
         }
 
@@ -123,7 +123,7 @@
 
             // < desktop
             @include at-media-max("desktop") {
-                @include u-font("sans", "xl");
+                @include u-font("sans", "lg");
             }
 
             // < tablet

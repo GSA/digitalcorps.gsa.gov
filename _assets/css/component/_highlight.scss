@@ -7,7 +7,7 @@
     @include u-font("sans", "xl");
 
     h2 {
-        @include u-font("sans", "3xl");
+        @include u-font("sans", "2xl");
         @include u-text("bold");
         @include u-margin-top(0);
     }
