@@ -68,70 +68,17 @@
 
     h2 {
         @include u-margin-y(0);
-        @include u-font("sans", "3xl");
+        @include u-font("sans", "xl");
         @include u-text("bold");
         line-height: 1.1;
         color: inherit;
-
-        // < desktop
-        @include at-media-max("desktop") {
-            // @include u-padding-top(3);
-            @include u-font("sans", "3xl");
-        }
-
-        // < tablet
-        @include at-media-max("tablet") {
-            // @include u-padding-top(3);
-            @include u-font("sans", "2xl");
-        }
     }
 
     p,
     ul {
         @include u-margin-bottom(0);
-        @include u-font("sans", "xl");
+        @include u-font("sans", "lg");
         line-height:1.4;
-
-        // < desktop
-        @include at-media-max("desktop") {
-            @include u-font("sans", "xl");
-        }
-
-        // < tablet
-        @include at-media-max("tablet") {
-            @include u-font("sans", "lg");
-        }
-    }
-
-    &--smaller {
-        h2 {
-            @include u-font("sans", "xl");
-
-            // < desktop
-            @include at-media-max("desktop") {
-                @include u-font("sans", "xl");
-            }
-
-            // < tablet
-            @include at-media-max("tablet") {
-                @include u-font("sans", "xl");
-            }
-        }
-
-        p,
-        ul {
-            @include u-font("sans", "lg");
-
-            // < desktop
-            @include at-media-max("desktop") {
-                @include u-font("sans", "lg");
-            }
-
-            // < tablet
-            @include at-media-max("tablet") {
-                @include u-font("sans", "lg");
-            }
-        }
     }
 }
 
@@ -182,21 +129,6 @@
         color: inherit;
         cursor: inherit;
         margin: 0;
-
-        // < desktop
-        @include at-media-max("desktop-lg") {
-            @include u-font("sans", "lg");
-        }
-
-        // < tablet
-        @include at-media-max("tablet") {
-            @include u-font("sans", "lg");
-        }
-
-        // < mobile
-        @include at-media-max("mobile-lg") {
-            @include u-font("sans", "lg");
-        }
     }
 
     .usa-link {
@@ -204,15 +136,5 @@
         @include white-url();
         text-transform: uppercase;
         text-decoration: none;
-
-        // < widescreen
-        @include at-media-max("desktop-lg") {
-            @include u-font("sans", "md");
-        }
-
-        // < desktop
-        @include at-media-max("desktop") {
-            @include u-font("sans", "md");
-        }
     }
 }
