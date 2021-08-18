@@ -1,7 +1,7 @@
 # Site settings
 title: U.S. Digital Corps
 email: digitalcorps@gsa.gov
-description: "The United States Digital Corps"
+description: "The United States Digital Corps.  Empowering early-career technologists to build a more effective, equitable government."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -9,8 +9,8 @@ url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site
 social:
   linkedin: company/us-digital-corps
   twitter: USDigitalCorps
-#  facebook: us-digital-corps
-#  instagram: us-digital-corps
+#  facebook: TBD
+#  instagram: TBD
 
 # GovDelivery info
 govdelivery:

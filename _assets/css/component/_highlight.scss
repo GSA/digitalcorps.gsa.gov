@@ -30,6 +30,7 @@
 
     .lg {
         @include u-font("sans", "lg");
+        line-height: 1.5;
     }
 
     // for internal content divs with color
