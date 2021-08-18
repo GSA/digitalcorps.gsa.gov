@@ -21,6 +21,7 @@
     p {
         @include u-font("sans", 11);
         @include u-text("light");
+        line-height:1.4;
 
         // tablet
         @include at-media-max("tablet") {

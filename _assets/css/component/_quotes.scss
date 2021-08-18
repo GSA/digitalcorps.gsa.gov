@@ -15,6 +15,7 @@
     .verbiage {
         @include u-font("sans", "lg");
         @include u-text("ink");
+        line-height: 1.4;
 
         @include at-media-max("desktop"){
             @include u-margin-top(0);

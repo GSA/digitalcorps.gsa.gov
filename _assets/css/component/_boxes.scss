@@ -90,6 +90,7 @@
     ul {
         @include u-margin-bottom(0);
         @include u-font("sans", "xl");
+        line-height:1.4;
 
         // < desktop
         @include at-media-max("desktop") {

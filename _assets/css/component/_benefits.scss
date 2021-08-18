@@ -24,6 +24,7 @@
 
         p {
             @include u-font("sans", "lg");
+            line-height: 1.4;
 
             &:before {
                 @include u-bg("primary-vivid");
