@@ -11,6 +11,9 @@ This is used for just about every page. It provides the border around the conten
   {{ content }}
   {% include_cached footer.html %}
   {% include_cached identifier.html %}
-  {% include_cached scripts.html %}
+
+  <!-- body/component scripts -->
+  {% asset uswds.min.js %}
+  {% asset app.js %}
 </body>
 </html>
