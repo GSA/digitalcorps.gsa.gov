@@ -1,0 +1,6 @@
+{
+    "__comment__": "this is a workaround for timout issue, see https://github.com/pa11y/pa11y/issues/401",
+    "chromeLaunchConfig": {
+        "ignoreHTTPSErrors": false
+    }
+}
