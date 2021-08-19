@@ -22,8 +22,8 @@
         text-align: center;
 
         p {
-            @include u-font("sans", 8);
-            line-height: 1.4em;
+            @include u-font("sans", "md");
+            line-height: 1.5em;
 
             &:before {
                 @include u-bg("primary-vivid");

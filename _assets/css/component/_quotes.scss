@@ -13,9 +13,9 @@
 
     // quote text
     .verbiage {
-        @include u-font("sans", 8);
+        @include u-font("sans", "md");
         @include u-text("ink");
-        line-height: 1.6em;
+        line-height: 1.7em;
 
         @include at-media-max("desktop"){
             @include u-margin-top(0);
@@ -25,7 +25,7 @@
     // byline
     .author {
         @include u-padding-top(4);
-        @include u-font("sans", "md");
+        @include u-font("sans", "sm");
         font-weight: bold;
 
         margin-left: 60%;
@@ -39,7 +39,7 @@
         }
 
         .title{
-            @include u-font("sans", "sm");
+            @include u-font("sans", "xs");
             font-weight: normal;
         }
     }

@@ -18,12 +18,12 @@
     }
 
     p {
-        @include u-font("sans", 8);
-        line-height:1.6em;
+        @include u-font("sans", "md");
+        line-height:1.7em;
     }
 
     .lead{
-        @include u-font("sans", "lg");
+        @include u-font("sans", 8);
     }
 
     // for internal content divs with color
