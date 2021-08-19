@@ -29,7 +29,7 @@ h1,
   @include u-text("bold");
   @include u-text("primary");
   @include header-em;
-  line-height: 1;
+  line-height: 1em;
   cursor: default;
 }
 
@@ -39,7 +39,7 @@ h2,
   @include u-text("semibold");
   @include u-text("primary");
   @include header-em;
-  line-height: 1;
+  line-height: 1em;
   cursor: default;
 }
 
@@ -50,7 +50,7 @@ h4,
   @include u-font("sans", "md");
   @include u-text("normal");
   @include u-text("primary-vivid");
-  line-height: 1;
+  line-height: 1em;
   cursor: default;
 }
 

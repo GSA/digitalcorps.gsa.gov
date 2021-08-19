@@ -70,7 +70,7 @@
         @include u-margin-y(0);
         @include u-font("sans", "xl");
         @include u-text("bold");
-        line-height: 1.1;
+        line-height: 1.1em;
         color: inherit;
     }
 
