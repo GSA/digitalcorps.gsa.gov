@@ -4,7 +4,6 @@
     @include u-margin-y(0);
     @include u-padding-y(0);
     @include u-text("center");
-    @include u-font("sans", "xl");
 
     h2 {
         @include u-font("sans", "2xl");
@@ -19,19 +18,12 @@
     }
 
     p {
-        @include u-font("sans", 11);
-        @include u-text("light");
-        line-height:1.4;
-
-        // tablet
-        @include at-media-max("tablet") {
-            @include u-font("sans", "lg");
-        }
+        @include u-font("sans", 8);
+        line-height:1.6em;
     }
 
-    .lg {
+    .lead{
         @include u-font("sans", "lg");
-        line-height: 1.5;
     }
 
     // for internal content divs with color

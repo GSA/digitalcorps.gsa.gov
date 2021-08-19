@@ -65,7 +65,7 @@
 }
 
 
-// accenting underline
+// accent underline
 .accent-underline {
     &:after {
       @include u-bg("primary-vivid");
@@ -75,7 +75,7 @@
       height: 3px;
       position: relative;
       display: block;
-      bottom: -16px;
+      bottom: -14px;
 
       @include at-media-max("tablet"){
           bottom: -11px;

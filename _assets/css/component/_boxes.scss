@@ -77,8 +77,8 @@
     p,
     ul {
         @include u-margin-bottom(0);
-        @include u-font("sans", "lg");
-        line-height:1.4;
+        @include u-font("sans", 8);
+        line-height:1.6em;
     }
 }
 

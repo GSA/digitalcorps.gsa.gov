@@ -13,9 +13,9 @@
 
     // quote text
     .verbiage {
-        @include u-font("sans", "lg");
+        @include u-font("sans", 8);
         @include u-text("ink");
-        line-height: 1.4;
+        line-height: 1.6em;
 
         @include at-media-max("desktop"){
             @include u-margin-top(0);
