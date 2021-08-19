@@ -20,9 +20,9 @@ where we provide an easy way to manage your navigation system
 
       <button class="usa-nav__close">{% asset usa-icons/close.svg alt="close" %}</button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for nav_item in include.primary_navigation %}
+        {% for nav_item in site.primary_navigation %}
         {% unless nav_item.children %}
-        {% assign basedir = include.url | remove_first: '/' | split: '/' | first | lstrip %}
+        {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
         {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}{% if linkdir == 'apply' %} usa-button{% endif %}"
