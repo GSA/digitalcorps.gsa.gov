@@ -6,14 +6,15 @@ This is used for just about every page. It provides the border around the conten
 <html lang="en">
 {% include meta.html %}
 <body>
+  <!-- body/component scripts -->
+  {% asset uswds.min.js %}
+  {% asset app.js %}
+
+  <!-- content -->
   {% include_cached banner.html %}
   {% include menu.html %}
   {{ content }}
   {% include_cached footer.html %}
   {% include_cached identifier.html %}
-
-  <!-- body/component scripts -->
-  {% asset uswds.min.js %}
-  {% asset app.js %}
 </body>
 </html>
