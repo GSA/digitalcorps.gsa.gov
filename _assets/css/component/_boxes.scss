@@ -41,6 +41,10 @@
         background-color: color("primary-dark");
         .box-content {
             @include u-text("white");
+
+            a {
+                @include white-url();
+            }
         }
     }
 
@@ -48,6 +52,10 @@
         background-color: color("primary-vivid");
         .box-content {
             @include u-text("white");
+
+            a {
+                @include white-url();
+            }
         }
     }
 
@@ -78,7 +86,7 @@
     ul {
         @include u-margin-bottom(0);
         @include u-font("sans", 8);
-        line-height:1.6em;
+        line-height: 1.6em;
     }
 }
 
@@ -133,7 +141,7 @@
 
     .usa-link {
         @include u-font("sans", "md");
-        @include white-url();
+        @include white-url-undecorated();
         text-transform: uppercase;
         text-decoration: none;
     }

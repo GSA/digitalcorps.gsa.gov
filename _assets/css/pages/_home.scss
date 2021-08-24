@@ -59,7 +59,6 @@
 // section customization
 .tech-talent {
   @include u-padding(4);
-  @include u-padding-right(8);
 
   $image-url: "stock/shutterstock_367286792.jpg";
   @include column-overlay-vertical("center", 100%, "primary", $image-url, 0.75);
@@ -72,46 +71,23 @@
 
   // < desktop
   @include at-media-max("desktop") {
-    height: 464px;
-  }
-  // < tablet
-  @include at-media-max("tablet") {
-    height: 400px;
-  }
-
-  h2 {
-    @include u-font("sans", "2xl");
-    @include u-text("semibold");
-    @include u-margin(0);
-    color: color("white");
-    text-transform: uppercase;
-    line-height: 1.1em;
-    position: relative;
-
-    // < desktop
-    @include at-media-max("desktop") {
-      @include u-font("sans", "xl");
-    }
-
-    // < tablet
-    @include at-media-max("tablet") {
-      @include u-font("sans", "2xl");
-    }
-
-    // < mobile
-    @include at-media-max("mobile-lg") {
-      @include u-font("sans", "xl");
-    }
-
-    .usa-link {
-      @include white-url();
-    }
-  }
-
-  // < tablet
-  @include at-media-max("tablet") {
     @include u-padding(2);
+    @include u-padding-bottom(4);
+    height: 464px;
+
+    .box-content p {
+      line-height: 1.2em;
+    }
+  }
+
+  // < tablet
+  @include at-media-max("tablet") {
     @include u-margin-bottom(2);
+    height: unset;
+
+    .box-content p {
+      line-height: 1.5em;
+    }
   }
 }
 

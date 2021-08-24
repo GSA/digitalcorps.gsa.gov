@@ -8,18 +8,28 @@
   }
 }
 
-@mixin white-url() {
-  color: color("white");
+@mixin white-url(){
+    @include u-text("white");
+    
+    &:active {
+      @include u-text("white");
+    }
+
+    &:hover{
+      @include u-text("primary-light");
+    }
+}
+
+@mixin white-url-undecorated() {
+  @include white-url();
   text-decoration: none;
   
   &:active,
   &:visited {
       text-decoration: none;
-      color: color("white");
   }
   &:hover {
       text-decoration: underline;
-      color: color("primary-light");
   }
 }
 
