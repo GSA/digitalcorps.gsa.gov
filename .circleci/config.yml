@@ -33,9 +33,9 @@ jobs:
       - run: 
           name: Build
           command: npm run build
-      - run: 
-          name: Test HTML URLs
-          command: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site
+      # - run: 
+      #     name: Test HTML URLs
+      #     command: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site
 
 workflows:
   version: 2
