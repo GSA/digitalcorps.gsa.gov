@@ -157,7 +157,7 @@ PLATFORMS
   x86-mswin32
 
 DEPENDENCIES
-  html-proofer (~> 3.18)
+  html-proofer (~> 3.19)
   jekyll (~> 3.9)
   jekyll-assets (~> 3.0)
   jekyll-autoprefixer

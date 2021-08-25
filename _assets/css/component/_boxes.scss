@@ -139,6 +139,12 @@
         margin: 0;
     }
 
+    p {
+        @include u-font("sans", "md");
+        @include u-margin-y(1);
+        text-transform: initial;
+    }
+
     .usa-link {
         @include u-font("sans", "md");
         @include white-url-undecorated();

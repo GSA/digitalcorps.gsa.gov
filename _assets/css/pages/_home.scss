@@ -69,6 +69,10 @@
 
   height: 600px;
 
+  a {
+    @include white-url();
+  }
+
   // < desktop
   @include at-media-max("desktop") {
     @include u-padding(2);
