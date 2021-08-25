@@ -141,7 +141,7 @@
 
     p {
         @include u-font("sans", "md");
-        @include u-margin-y(1);
+        @include u-margin-top(0);
         text-transform: initial;
     }
 
