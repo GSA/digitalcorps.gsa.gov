@@ -1,6 +1,10 @@
 name: Build and test
 
-on: [push, pull_request]
+trigger:
+  - main
+
+pr:
+  - main
 
 jobs:
   build:
