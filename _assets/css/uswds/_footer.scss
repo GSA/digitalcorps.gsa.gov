@@ -16,7 +16,7 @@
     }
 
     li {
-      line-height: 1.15;
+      line-height: 1.2em;
     }
   }
 
@@ -25,9 +25,13 @@
     @include u-margin-x(0);
     a {
       @include u-text("white");
-      &:hover,
+      
       &:active {
         @include u-text("white");
+      }
+
+      &:hover{
+        @include u-text("primary-light");
       }
     }
   }
@@ -36,7 +40,7 @@
 
   .usa-social-link {
     @include u-margin(0);
-    line-height: 1;
+    line-height: 1em;
     background-size: auto 1.5rem;
     background-color: transparent;
     filter: brightness(0) invert(1); // white foreground

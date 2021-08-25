@@ -24,14 +24,26 @@ permalink: /about/
 <!-- QUOTE -->
 <section class="usa-section">
   <div class="grid-container">
-    <div class="quote tbd">
-      <h1>
-        Short, inspirational quote from someone important related to Digital Corps,
-        civil tech, or service generally ... or an interesting fact
-      </h1>
-      <p>
-        Super interesting person
-      </p>
+    <div class="quote">
+      <div class="text-center padding-bottom-4">
+        {%
+        asset "icons/quote.png"
+        alt="quote symbol" height=50
+        %}
+      </div>
+      <div class="verbiage">
+        The federal government has so many important and exciting problems to solve — in science, in technology,
+        in digital innovation — that affect the daily lives of millions of people across America. I’m thrilled to see
+        the creation of the U.S. Digital Corps as a way to give early-career people from all backgrounds <strong>the
+          opportunity to serve the country, make a difference, and be a part of something bigger than
+          themselves.</strong>
+      </div>
+      <div class="author">
+        Dr. Eric Lander
+        <div class="title">
+          President’s Science Advisor and Director of the White House Office of Science and Technology Policy
+        </div>
+      </div>
     </div>
 </section>
 
@@ -43,7 +55,7 @@ permalink: /about/
       <div class="box about-whoweare-image"></div>
       <div class="box box--primary-vivid">
         <div class="box-content">
-          <h1>Who We Are</h1>
+          <h2>Who We Are</h2>
           <p>
             We strive to be a collective of diverse, innovative technologists who are ready to listen, learn, and serve.
             We believe in the power of technology to improve lives.
@@ -56,7 +68,7 @@ permalink: /about/
       <div class="for-mobile box about-whatwedo-image"></div>
       <div class="box box--base-lighter">
         <div class="box-content">
-          <h1>What We Do</h1>
+          <h2>What We Do</h2>
           <p>We recognize that technology is a means, not an end. We combine modern technology expertise with subject
             matter expertise of agency partners to create better government services for all.</p>
           <p>
@@ -72,15 +84,15 @@ permalink: /about/
 </section>
 
 <!-- VALUES -->
-<section class="usa-section padding-top-4">
+<section class="usa-section padding-top-2">
 
   <div class="grid-container highlight">
-    <h1>
+    <h2>
       Our Values
-    </h1>
-    <p>
-      The US Digital Corps is an early&#8209;career fellowship designed for the country’s top young
-      technology talent to serve in the Federal Government. Our values are core to our mission:
+    </h2>
+    <p class="lead margin-bottom-0">
+      The U.S. Digital Corps is an early&#8209;career fellowship designed for the country’s top technology talent to
+      serve in the federal government. Our values are core to our mission:
     </p>
   </div>
 
@@ -90,22 +102,22 @@ permalink: /about/
         {% asset
         "shutterstock_1690164052.jpg"
         alt="confident young businesswoman speaking about her success into microphone at an event" %}
-        <h2>Integrity</h2>
+        <h3>Integrity</h3>
         <p>We are present, transparent, and honest to enable accessible and trustworthy innovation.</p>
       </div>
       <div class="benefit">
         {% asset
         "shutterstock_759379996.jpg"
-        alt="attractive young man in wheelchair with laptop" %}
-        <h2>Inclusion</h2>
+        alt="smiling young man in wheelchair with laptop" %}
+        <h3>Inclusion</h3>
         <p>We put people first and celebrate what brings us together and makes each of us unique to meet
           the public’s needs.</p>
       </div>
       <div class="benefit">
         {% asset
-          "shutterstock_2000924243.jpg"
-          alt="attractive young woman wearing a white hijab" %}
-          <h2>Impact</h2>
+        "shutterstock_2000924243.jpg"
+        alt="happy young woman wearing a white hijab" %}
+        <h3>Impact</h3>
         <p>We grow together and create lasting change for the good of the public and public servants.</p>
       </div>
     </div>
@@ -119,14 +131,20 @@ permalink: /about/
     <div class="grid-row">
       <div class="for-mobile box about-diversity-image"></div>
       <div class="box box--primary-dark">
-        <div class="box-content box-content--smaller">
-          <h1>Diversity, Equity, Inclusion, & Accessibility</h1>
-          <p>The U.S. Digital Corps believes strongly that the diversity of the American people is among our nation’s
-            greatest assets.</p>
-          <p>We are committed to building a program that represents the people our products will serve, and ensuring
-            that everyone has the opportunity to serve, regardless of background.</p>
-          <p>From recruitment and outreach to Fellows’ impact at their agencies, diversity, equity, inclusion, and
-            accessibility are at the center of our approach.
+        <div class="box-content">
+          <h2>Diversity, Equity, Inclusion, & Accessibility</h2>
+          <p>
+            We believe that the diversity of American people is among our nation’s greatest assets and we are committed
+            to reflecting the diversity of the people we serve.
+          </p>
+          <p>
+            Diversity, equity, inclusion, and accessibility are at the center of our approach at every stage of the
+            program, from recruitment to Fellows’ impact at their agencies.
+          </p>
+          <p>
+            U.S. Digital Corps is proud to be an equal opportunity employer. Read our full EEO Statement
+            <a class="usa-link usa-link--alt usa-link--external" target="_blank" rel="noopener"
+              href="https://www.gsa.gov/reference/civil-rights-programs/equal-employment-opportunity">here</a>.
           </p>
         </div>
       </div>
@@ -140,47 +158,53 @@ permalink: /about/
 <section class="usa-section padding-y-0">
 
   <div class="grid-container highlight no-gutter">
-    <div class="highlight--base-lighter">
-      <h1 class="text-ink padding-top-4">
+    <div class="highlight--basic">
+      <h2 class="text-ink padding-top-4">
         U.S. Digital Corps History
-      </h1>
-      <p class="lg text-left">
-        The U.S. Digital Corps was launched by <span class="tbd">(OFFICE) in (MONTH)</span> 2021.
-        It is a cross&#8209;government fellowship opportunity operated by the General Service Administration’s
-        <a class="usa-link"
+      </h2>
+      <p class="text-left">
+        The U.S. Digital Corps was launched in August 2021 by the Biden administration, in a collaboration between the
+        General Services Administration (GSA), the White House Office of Management and Budget, the Office of Personnel
+        Management, the Cybersecurity and Infrastructure Security Agency, and the White House Office of Science and
+        Technology Policy. It is a cross&#8209;government fellowship opportunity operated by the GSA’s <a class="usa-link"
           href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services">
-          Technology Transformation Services</a>.
+          Technology Transformation Services</a> (TTS).
       </p>
-      <p class="lg text-left margin-bottom-0 padding-bottom-2">
-        The idea for a Digital Corps was sparked by technologists across government who saw a gap in the
-        federal government’s journey towards digital success - a lack of early&#8209;career technology talent.
-        Technology Transformation Services (TTS) saw the need for entry-level technologists to not only bring
-        immediate innovation but also to serve as a continuing resource for government digital transformation.
-        These technologists would help complement the civic technology efforts already underway by organizations
-        like TTS while bringing in fresh perspectives. What started as an idea and grassroots effort evolved
-        into the U.S. Digital Corps.
+      <p class="text-left margin-bottom-0 padding-bottom-2">
+        The idea for a Digital Corps was sparked by technologists across government who identified a gap in the federal
+        government’s journey towards digital success — a lack of early&#8209;career technology talent.
+        TTS recognized the need for entry&#8209;level technologists to not only bring immediate innovation but also to
+        serve
+        as a continuing resource for government digital transformation. These technologists would help complement the
+        civic technology efforts already underway by organizations like TTS while bringing in fresh perspectives.
+        What started as an idea and grassroots effort evolved into the U.S. Digital Corps.
       </p>
     </div>
   </div>
 </section>
 
 <!-- LOGO -->
+<!-- 
 <section class="usa-section padding-top-8 margin-bottom-6">
 
   <div class="grid-container highlight padding-x-4 tablet:padding-x-8">
-    <h1>
+    <h2>
       Our Logo
-    </h1>
+    </h2>
     <div>
       {%
       asset "logo/digitalcorps-toggle.svg"
       alt="U.S. Digital Corps Logo" height=85
       %}
     </div>
-    <p class="lg">
-      The toggle logo design evokes the Digital Corps’ focus on technology and is set in the &#8220;on&#8221; position to form a
-      shooting star symbolizing inspiration and progress. The reversed flag orientation indicates unstoppable forward
-      momentum and was inspired by American symbols including service members’ uniforms and the Space Shuttle.
+    <p>
+      The toggle logo design evokes the Digital Corps’ focus on technology and is set in the &#8220;on&#8221;
+      position to form a shooting star symbolizing inspiration and progress.
+      Referencing a flag in motion indicates forward momentum and was inspired by the
+      <a class="usa-link"
+        href="https://airandspace.si.edu/stories/editorial/heres-why-us-flag-sometimes-appears-backwards"
+        target="_blank" rel="noopener">reversed flag insignia</a> on American symbols including service members’
+      uniforms and the Space Shuttle.
     </p>
   </div>
 
@@ -195,15 +219,16 @@ permalink: /about/
       <div class="grid-col-auto padding-top-2">
         {%
         asset "stock/shutterstock_1170998911.jpg"
-        alt="flag patch on right shoulder of soldier, a mirror image" height=200
+        alt="reversed flag patch on right shoulder of soldier" height=200
         %}
       </div>
       <div class="grid-col-auto padding-top-2">
         {%
-          asset "stock/shutterstock_943432.jpg"
-          alt="reverse image of flag on right side of space shuttle"  height=200
-          %}
+        asset "stock/shutterstock_943432.png"
+        alt="reverse image of flag on right side of space shuttle" height=200
+        %}
       </div>
     </div>
   </div>
 </section>
+-->

@@ -1,35 +1,56 @@
 // HOME customization
 
+// banner
 .home {
   .usa-hero {
-    // background image
-    background-image: url(asset_path("stock/shutterstock_1069150514.jpg"));
-    background-position: right 25%;
+    @include u-margin-bottom(4);
+    @include u-text("white");
+    background-image: url(asset_path("stock/group-meeting.png"));
+    background-position: 60% 20%;
+    background-color: color("base-darkest");
+    position: relative;
+    overflow: hidden;
+    min-height: 600px;
+
+    // < tablet
+    @include at-media-max("mobile-lg") {
+      min-height: unset;
+      @include u-padding-y(0);
+    }
 
     // callout container
     .usa-hero__callout {
-      @include grid-col(7);
-      @include u-padding-x(0);
-
-      // < desktop
-      @include at-media-max("desktop") {
-        @include grid-col(6);
-        @include u-padding-x(2);
-        background-color: rgba(255, 255, 255, 0.6);
-      }
+      color: inherit;
+      background-color: rgba(28, 29, 31, 0.55); // base-darkest #1c1d1f
+      width: 100%;
+      position: absolute;
+      bottom: 0;
 
       // < tablet
-      @include at-media-max("tablet") {
-        @include grid-col(12);
+      @include at-media-max("mobile-lg") {
+        position: relative;
+        @include u-padding-x(2);
       }
 
-      h2 {
-        padding-right: 4em;
+      .grid-container {
+        @include u-padding-x(0);
+      }
 
-        // < desktop
-        @include at-media-max("desktop") {
-          padding-right: unset;
+      .usa-button {
+        float: left;
+        @include u-margin-top(3);
+
+        // < tablet
+        @include at-media("tablet") {
+          float: right;
         }
+      }
+
+      // subtext
+      h2 {
+        @include u-margin-top(3);
+        @include u-margin-bottom(0);
+        color: inherit;
       }
     }
   }
@@ -38,66 +59,51 @@
 // section customization
 .tech-talent {
   @include u-padding(4);
-  @include u-padding-right(8);
 
   $image-url: "stock/shutterstock_367286792.jpg";
-  @include column-overlay("center", 100%, "primary", $image-url, 0.75);
+  @include column-overlay-vertical("center", 100%, "primary", $image-url, 0.75);
+  background-color: color("primary");
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
 
   height: 600px;
 
+  a {
+    @include white-url();
+  }
+
   // < desktop
   @include at-media-max("desktop") {
-    height: 464px;
-  }
-  // < tablet
-  @include at-media-max("tablet") {
-    height: 400px;
-  }
-
-  h1 {
-    @include u-font("sans", "3xl");
-    @include u-text("medium");
-    @include u-margin(0);
-    color: color("white");
-    text-transform: uppercase;
-    line-height: 1.1;
-    position: relative;
-
-    // < desktop
-    @include at-media-max("desktop") {
-      @include u-font("sans", "xl");
-    }
-
-    // < tablet
-    @include at-media-max("tablet") {
-      @include u-font("sans", "2xl");
-    }
-
-    // < mobile
-    @include at-media-max("mobile-lg") {
-      @include u-font("sans", "xl");
-    }
-  }
-
-  // < tablet
-  @include at-media-max("tablet") {
     @include u-padding(2);
+    @include u-padding-bottom(4);
+    height: 464px;
+
+    .box-content p {
+      line-height: 1.2em;
+    }
+  }
+
+  // < tablet
+  @include at-media-max("tablet") {
     @include u-margin-bottom(2);
+    height: unset;
+
+    .box-content p {
+      line-height: 1.5em;
+    }
   }
 }
 
 // mini boxes
 // see boxes.scss for styling and sizes
-.home-impact {
-  @include box-mini("stock/shutterstock_177011168.jpg");
+.home-opportunity {
+  @include box-mini("stock/wind-turbines.png");
   @include u-margin-bottom(2);
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
-.home-mission {
+.home-about {
   @include box-mini("stock/shutterstock_1126202309.jpg");
-  padding-top: 60px;
+  padding-top: 70px;
 }

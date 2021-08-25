@@ -20,7 +20,7 @@
   h1 {
     @include u-font("sans", 16);
     @include u-text("bold");
-    line-height: 0.9;
+    line-height: 0.9em;
     color: inherit;
   }
 
@@ -29,7 +29,7 @@
     @include u-text("light");
     @include u-margin-top(4);
     color: color("ink");
-    line-height: 1.05;
+    line-height: 1.05em;
   }
 
   h3 {
@@ -46,7 +46,7 @@
 
   .usa-hero__heading {
     text-transform: unset;
-    line-height: 0.9;
+    line-height: 0.9em;
     color: inherit;
 
     @include at-media-max("tablet") {

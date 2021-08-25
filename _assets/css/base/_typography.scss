@@ -8,13 +8,38 @@
   }
 }
 
+@mixin white-url(){
+    @include u-text("white");
+    
+    &:active {
+      @include u-text("white");
+    }
+
+    &:hover{
+      @include u-text("primary-light");
+    }
+}
+
+@mixin white-url-undecorated() {
+  @include white-url();
+  text-decoration: none;
+  
+  &:active,
+  &:visited {
+      text-decoration: none;
+  }
+  &:hover {
+      text-decoration: underline;
+  }
+}
+
 h1,
 .as-h1 {
-  @include u-font("sans", 16);
+  @include u-font("sans", "3xl");
   @include u-text("bold");
   @include u-text("primary");
   @include header-em;
-  line-height: 1;
+  line-height: 1em;
   cursor: default;
 }
 
@@ -24,7 +49,7 @@ h2,
   @include u-text("semibold");
   @include u-text("primary");
   @include header-em;
-  line-height: 1;
+  line-height: 1em;
   cursor: default;
 }
 
@@ -35,7 +60,7 @@ h4,
   @include u-font("sans", "md");
   @include u-text("normal");
   @include u-text("primary-vivid");
-  line-height: 1;
+  line-height: 1em;
   cursor: default;
 }
 
@@ -62,4 +87,11 @@ li {
 .tbd,
 .highlighter {
   background-color: rgba(222, 244, 64, 90%);
+}
+
+// standard links
+.usa-link {
+  &:hover{
+    @include u-text("primary-vivid");
+  }
 }

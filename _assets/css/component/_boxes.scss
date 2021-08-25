@@ -26,13 +26,13 @@
         @include at-media-max("desktop") {
             @include u-padding(5);
             height: initial;
-            min-height: 500px;
+            min-height: 400px;
         }
         // < tablet
         @include at-media-max("tablet") {
             @include u-padding-x(2);
             height: initial;
-            min-height: 400px;
+            min-height: 300px;
         }
     }
 
@@ -41,6 +41,10 @@
         background-color: color("primary-dark");
         .box-content {
             @include u-text("white");
+
+            a {
+                @include white-url();
+            }
         }
     }
 
@@ -48,6 +52,10 @@
         background-color: color("primary-vivid");
         .box-content {
             @include u-text("white");
+
+            a {
+                @include white-url();
+            }
         }
     }
 
@@ -66,79 +74,26 @@
     height: 100%;
     position: relative;
 
-    h1 {
+    h2 {
         @include u-margin-y(0);
-        @include u-font("sans", "3xl");
-        @include u-text("semibold");
-        line-height: 1.1;
+        @include u-font("sans", "xl");
+        @include u-text("bold");
+        line-height: 1.1em;
         color: inherit;
-
-        // < desktop
-        @include at-media-max("desktop") {
-            // @include u-padding-top(3);
-            @include u-font("sans", "3xl");
-        }
-
-        // < tablet
-        @include at-media-max("tablet") {
-            // @include u-padding-top(3);
-            @include u-font("sans", "2xl");
-        }
     }
 
     p,
     ul {
         @include u-margin-bottom(0);
-        @include u-font("sans", "xl");
-
-        // < desktop
-        @include at-media-max("desktop") {
-            @include u-font("sans", "xl");
-        }
-
-        // < tablet
-        @include at-media-max("tablet") {
-            @include u-font("sans", "lg");
-        }
-    }
-
-    &--smaller {
-        // desktop only
-
-        h1 {
-            @include u-font("sans", "2xl");
-
-            // < desktop
-            @include at-media-max("desktop") {
-                @include u-font("sans", "3xl");
-            }
-
-            // < tablet
-            @include at-media-max("tablet") {
-                @include u-font("sans", "2xl");
-            }
-        }
-
-        p,
-        ul {
-            @include u-font("sans", "lg");
-
-            // < desktop
-            @include at-media-max("desktop") {
-                @include u-font("sans", "xl");
-            }
-
-            // < tablet
-            @include at-media-max("tablet") {
-                @include u-font("sans", "lg");
-            }
-        }
+        @include u-font("sans", 8);
+        line-height: 1.6em;
     }
 }
 
 // mini styles
 @mixin box-mini($image-url) {
-    @include column-overlay("right", 40%, "primary", $image-url, "none");
+    @include column-overlay-vertical("right", 50%, "primary", $image-url, "none");
+    background-color: color("primary");
     background-position: left;
     @include u-padding(0);
 
@@ -146,35 +101,27 @@
 
     // desktop
     @include at-media-max("desktop") {
-        @include column-overlay("right", 50%, "primary", $image-url, "none");
+        @include column-overlay-vertical("right", 60%, "primary", $image-url, "none");
         height: 224px;
     }
 
     // tablet
     @include at-media-max("tablet") {
-        @include column-overlay("right", 60%, "primary", $image-url, "none");
+        @include column-overlay-vertical("right", 60%, "primary", $image-url, "none");
         height: 200px;
     }
 }
 
 .box-mini-content {
-    @include u-padding-x(2);
+    @include u-padding-x(3);
     @include u-margin-y(4);
     position: absolute;
     right: 0;
-    width: 40%;
+    width: 50%;
+    color: white;
 
     // desktop
     @include at-media-max("desktop") {
-        @include grid-col(9);
-        @include grid-offset(3);
-        @include u-padding-x(2);
-        @include u-margin-y(1);
-        width: 50%;
-    }
-
-    // mobile
-    @include at-media-max("tablet") {
         @include grid-col(9);
         @include grid-offset(3);
         @include u-padding-x(2);
@@ -183,58 +130,25 @@
     }
 
     // typography
-    h1,
     h2 {
-        color: color("white");
-        @include u-text("medium");
+        @include u-font("sans", "lg");
+        @include u-text("semibold");
         text-transform: uppercase;
+        color: inherit;
+        cursor: inherit;
         margin: 0;
     }
 
-    h1 {
-        @include u-font("sans", "xl");
-
-        // < desktop
-        @include at-media-max("desktop-lg") {
-            @include u-font("sans", "lg");
-        }
-
-        // < tablet
-        @include at-media-max("tablet") {
-            @include u-font("sans", "xl");
-        }
-
-        // < mobile
-        @include at-media-max("mobile-lg") {
-            @include u-font("sans", "lg");
-        }
+    p {
+        @include u-font("sans", "md");
+        @include u-margin-top(0);
+        text-transform: initial;
     }
 
     .usa-link {
-        @include u-font("sans", "lg");
-        $dark-link-color: "base-light";
+        @include u-font("sans", "md");
+        @include white-url-undecorated();
         text-transform: uppercase;
         text-decoration: none;
-        color: color("white");
-
-        &:active,
-        &:visited {
-            text-decoration: none;
-            color: color("white");
-        }
-        &:hover {
-            text-decoration: underline;
-            color: color("base-lighter");
-        }
-
-                // < widescreen
-                @include at-media-max("desktop-lg") {
-                    @include u-font("sans", "md");
-                }
-        
-        // < desktop
-        @include at-media-max("desktop") {
-            @include u-font("sans", "md");
-        }
     }
 }

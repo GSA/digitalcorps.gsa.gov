@@ -43,7 +43,7 @@
 }
 
 .opportunity-deliver-image {
-    background-image: url(asset_path("stock/shutterstock_1189106440.jpg"));
+    background-image: url(asset_path("stock/TONL-4917.jpg"));
     background-size: cover;
     background-position: 50% top;
 }
@@ -59,13 +59,13 @@
 }
 
 .opportunity-support-image {
-    background-image: url(asset_path("stock/shutterstock_737530333.jpg"));
+    background-image: url(asset_path("stock/TONL-01016.jpg"));
     background-size: cover;
-    background-position: 35% top;
+    background-position: 50% 40%;
 }
 
 
-// accenting underline
+// accent underline
 .accent-underline {
     &:after {
       @include u-bg("primary-vivid");
@@ -75,7 +75,7 @@
       height: 3px;
       position: relative;
       display: block;
-      bottom: -16px;
+      bottom: -14px;
 
       @include at-media-max("tablet"){
           bottom: -11px;

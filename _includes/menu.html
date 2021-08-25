@@ -4,16 +4,14 @@ To modify the menu system, you are welcome to edit this HTML directly or you can
 where we provide an easy way to manage your navigation system
 {% endcomment %}
 
-<header class="usa-header site-header usa-header--basic" role="banner">
+<header class="usa-header site-header usa-header--basic">
   <div class="usa-nav-container">
     <div class="usa-navbar site-navbar">
       <!-- logo -->
       <div class="usa-logo" id="extended-logo">
-        <em class="usa-logo__text">
-          <a href="{{site.baseurl}}/" title="Home" aria-label="Home" class="site-navbar__logo-link">
-            {% asset "digitalcorps_logo.svg" alt="U.S. Digital Corps Logo" %}
-          </a>
-        </em>
+        <a href="{{site.baseurl}}/" >
+          {% asset "digitalcorps_logo-alt.svg" alt="U.S. Digital Corps" %}
+        </a>
       </div>
 
       <button class="usa-menu-btn">{% asset usa-icons/menu.svg alt="menu" %}</button>
@@ -22,13 +20,13 @@ where we provide an easy way to manage your navigation system
 
       <button class="usa-nav__close">{% asset usa-icons/close.svg alt="close" %}</button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for nav_item in include.primary_navigation %}
+        {% for nav_item in site.primary_navigation %}
         {% unless nav_item.children %}
-        {% assign basedir = include.url | remove_first: '/' | split: '/' | first | lstrip %}
+        {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
         {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
         <li class="usa-nav__primary-item">
           <a class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}{% if linkdir == 'apply' %} usa-button{% endif %}"
-            href="{{ nav_item.url | prepend: site.baseurl}}"><span>{{ nav_item.name | escape }}</span></a>
+            href="{{ nav_item.url | prepend: site.baseurl}}" {% if basedir == linkdir %}aria-current="page"{% endif %}><span>{{ nav_item.name | escape }}</span></a>
         </li>
         {% else %}
         {% assign nav_id = 'primary-nav-' | append: forloop.index %}
@@ -48,10 +46,12 @@ where we provide an easy way to manage your navigation system
         {% endfor %}
       </ul>
       <a href="{{ site.baseurl }}/apply" class="usa-button usa-button--primary usa-button--small"
-        style="margin-left:16px;">
-        Join us
+        style="margin-left:16px;margin-right:0;">
+        Join&nbsp;us
       </a>
-      <!-- {% include searchgov/form.html searchgov=site.searchgov %} -->
+      {% comment %}
+      {% include searchgov/form.html searchgov=site.searchgov %}
+      {% endcomment %}
     </nav>
   </div>
 </header>

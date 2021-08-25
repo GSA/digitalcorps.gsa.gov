@@ -1,29 +1,37 @@
-// USWDS OVERRIDS for LOGO
+// USWDS OVERRIDES for LOGO
 // note: mobile menu breaks at desktop threshold
 
 .usa-logo {
-  display: inline;
   margin: 0;
   font-size: 1rem;
 
-  // less than desktop
+  // < desktop
   @include at-media-max("desktop") {
     @include u-margin-x(4);
   }
 
-  // less than tablet
+  // < tablet
   @include at-media-max("tablet") {
     @include u-margin-x(2);
   }
 
-  a > img {
-    height: auto;
-    width: 450px;
-    padding: 15px 0 10px 0;
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    image-rendering: crisp-edges;
 
-    // less than desktop
+    height: 60px;
+    width: auto;
+    max-width: unset;
+
+    // < desktop-lg
+    @include at-media-max("desktop-lg") {
+      // need TBD
+    }
+
+    // < desktop
     @include at-media-max("desktop") {
-      max-width: 250px;
+      height: 40px;
     }
   }
 }

@@ -2,8 +2,8 @@
 
 .quote {
     
-    @include grid-col(8);
-    @include grid-offset(2);
+    @include grid-col(10);
+    @include grid-offset(1);
 
     @include at-media-max("desktop"){
         @include grid-col(12);
@@ -12,11 +12,10 @@
     }
 
     // quote text
-    h1 {
-        @include u-font("sans", "xl");
-        @include u-text("italic");
+    .verbiage {
+        @include u-font("sans", 8);
         @include u-text("ink");
-        @include u-text("semibold");
+        line-height: 1.6em;
 
         @include at-media-max("desktop"){
             @include u-margin-top(0);
@@ -24,10 +23,24 @@
     }
 
     // byline
-    p {
-        @include u-font("sans", "lg");
+    .author {
+        @include u-padding-top(4);
+        @include u-font("sans", "md");
+        font-weight: bold;
+
+        margin-left: 60%;
+
         @include at-media-max("desktop"){
-            @include u-margin-bottom(0);
+            margin-left: 50%;
+        }
+
+        @include at-media-max("tablet"){
+            margin-left: 25%;
+        }
+
+        .title{
+            @include u-font("sans", "sm");
+            font-weight: normal;
         }
     }
 }

@@ -32,7 +32,7 @@ title: Search
     }).finally(function(e){
     
       if(document.getElementById('search-results').childNodes.length == 0){
-        render_result(`<h4 class="title">No results found</h4>`, false)
+        render_result(`<li>No results found</li>`, false)
       }
           
     })
@@ -50,7 +50,8 @@ title: Search
   <h1>Search Results</h1>
   <ol id="search-results"></ol>
 
-  {% if site.searchgov.affiliate == "federalist-uswds-example" %}
+  <!-- 
+    {% if site.searchgov.affiliate == "federalist-uswds-example" %}
     <div class="usa-alert usa-alert--info">
       <div class="usa-alert__body">
         This is an example. You will need to configure your site with search.gov to see the correct search results. To do this:
@@ -63,7 +64,8 @@ title: Search
         </ol>
       </div>
     </div>
-  {% endif %}  
+  {% endif %}
+  -->
 {% else %}
   <script>
     window.location = "/";

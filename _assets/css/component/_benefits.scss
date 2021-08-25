@@ -1,6 +1,5 @@
 .benefits {
     @include grid-gap(6);
-    // @include u-padding-top(6);
 
     // mobile
     @include at-media-max("tablet") {
@@ -23,7 +22,8 @@
         text-align: center;
 
         p {
-            @include u-font("sans", "lg");
+            @include u-font("sans", 8);
+            line-height: 1.4em;
 
             &:before {
                 @include u-bg("primary-vivid");
@@ -37,7 +37,12 @@
             }
         }
 
-        h2 {
+        h3 {
+            @include u-font("sans", 11);
+            @include u-text("semibold");
+            @include u-text("primary");
+            @include u-margin-y(3);
+          
             height: 1.2em;
 
             // mobile
