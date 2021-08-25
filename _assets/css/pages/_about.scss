@@ -63,10 +63,6 @@
 }
 
 .about-diversity-image {
-    background-image: url(asset_path("stock/shutterstock_1614290140.jpg"));
-    background-position: 50% top;
-
-    @include at-media-max("tablet") {
-        background-position: 70% top;
-    }
+    background-image: url(asset_path("stock/TONL-03822.jpg"));
+    background-position: 50% 50%;
 }
