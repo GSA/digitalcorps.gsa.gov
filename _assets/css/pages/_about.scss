@@ -54,12 +54,8 @@
 }
 
 .about-whatwedo-image {
-    background-image: url(asset_path("stock/immigrant-with-child.png"));
-    background-position: 55% top;
-
-    @include at-media-max("tablet") {
-        background-position: 70% top;
-    }
+    background-image: url(asset_path("stock/iStock-1272687005.jpg"));
+    background-position: 40% top;
 }
 
 .about-diversity-image {
