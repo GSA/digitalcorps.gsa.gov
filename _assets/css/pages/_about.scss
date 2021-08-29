@@ -49,17 +49,13 @@
 }
 
 .about-whoweare-image {
-    background-image: url(asset_path("stock/shutterstock_1580363914.jpg"));
-    background-position: 70% top;
+    background-image: url(asset_path("stock/TONL-4917.jpg"));
+    background-position: 50% top;
 }
 
 .about-whatwedo-image {
-    background-image: url(asset_path("stock/immigrant-with-child.png"));
-    background-position: 55% top;
-
-    @include at-media-max("tablet") {
-        background-position: 70% top;
-    }
+    background-image: url(asset_path("stock/iStock-1272687005.jpg"));
+    background-position: 40% top;
 }
 
 .about-diversity-image {
