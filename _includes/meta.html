@@ -37,10 +37,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  {% unless site.branch == "replaceWITHmainAFTERlaunch" %}
+  {% if site.branch!="main" or page.noindex==true %}
   <!-- Exclude from Search Indexing -->
   <meta name="robots" content="noindex, nofollow">
-  {% endunless %}
+  {% endif %}
 
   <!-- Mobile Specific Metas ================================== -->
   <meta name="HandheldFriendly" content="True">
@@ -57,7 +57,7 @@
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   
   <meta property="og:type" content="article">
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@{{site.social.twitter}}" />
   
   <!-- alternate page image -->
