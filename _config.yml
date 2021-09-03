@@ -155,6 +155,9 @@ exclude:
   - docker-compose.yml
   - Dockerfile
 
+  # exclude until search is implemented
+  - pages/search
+
 assets:
   sources:
     - _assets/favicons
