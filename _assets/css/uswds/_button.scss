@@ -28,6 +28,18 @@
     }
   }
 
+  &--baselighter {
+    @include u-bg("base-lighter");
+    &:hover {
+      @include u-bg("base");
+    }
+
+    &:visited,
+    &:link {
+      @include u-text("primary-dark");
+    }
+  }
+
   // SIZES
   &--small {
     height: 32px;
