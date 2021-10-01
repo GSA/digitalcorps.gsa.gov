@@ -31,7 +31,11 @@
   &--baselighter {
     @include u-bg("base-lighter");
     &:hover {
-      @include u-bg("base");
+      @include u-bg("primary-vivid");
+      &:visited,
+      &:link {
+        @include u-text("white");
+      }
     }
 
     &:visited,
