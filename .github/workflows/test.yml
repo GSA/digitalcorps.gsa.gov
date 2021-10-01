@@ -1,4 +1,4 @@
-name: build
+name: test
 on:
   push:
     branches: [main]
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: site
+    name: a11y and URLs
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
