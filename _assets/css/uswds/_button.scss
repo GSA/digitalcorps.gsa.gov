@@ -28,6 +28,22 @@
     }
   }
 
+  &--baselighter {
+    @include u-bg("base-lighter");
+    &:hover {
+      @include u-bg("primary-vivid");
+      &:visited,
+      &:link {
+        @include u-text("white");
+      }
+    }
+
+    &:visited,
+    &:link {
+      @include u-text("primary-dark");
+    }
+  }
+
   // SIZES
   &--small {
     height: 32px;
