@@ -47,12 +47,15 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Site Scripts ========================================= -->
+  {% include scripts-head.html %}
+
   <!-- Title and meta description ============================= -->
   <title>
     {% if page.title=="Home" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}
   </title>
 
-  <meta property="og:title" content="{% if page.title=="Home" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
+  <meta property="og:title" content="{% if page.title=='Home' %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   
@@ -88,7 +91,4 @@
 
   <!-- CSS ==================================================== -->
   {% asset index.scss %}
-
-  <!-- Site Scripts ========================================= -->
-  {% include scripts-head.html %}
 </head>
