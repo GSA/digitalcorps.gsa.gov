@@ -47,9 +47,6 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Site Scripts ========================================= -->
-  {% include scripts-head.html %}
-
   <!-- Title and meta description ============================= -->
   <title>
     {% if page.title=="Home" %}{{ site.title }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}
@@ -91,4 +88,7 @@
 
   <!-- CSS ==================================================== -->
   {% asset index.scss %}
+
+  <!-- Site Scripts ========================================= -->
+  {% include scripts-head.html %}
 </head>
