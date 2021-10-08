@@ -24,21 +24,6 @@ dap:
   agency: GSA
   subagency: Digital-Corps
 
-# Site Navigation
-primary_navigation:
-  - name: Home
-    url: /
-  - name: Who We Are
-    url: /about/
-  - name: The Opportunity
-    url: /opportunity/
-
-secondary_navigation:
-  - name: Secondary link
-    url: "#main-content"
-  - name: Another secondary link
-    url: "#main-content"
-
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup

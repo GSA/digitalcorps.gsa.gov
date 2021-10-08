@@ -1,0 +1,21 @@
+# main navigation
+primary:
+  - name: Home
+    url: /
+  - name: Who We Are
+    url: /about/
+  - name: The Opportunity
+    url: /opportunity/
+
+# application process
+application-process:
+  - text: Understand the opportunity
+    href: /process/#opportunity
+  - text: Prepare to apply
+    href: /process/#preparing
+  - text: Craft a competitive application
+    href: /process/#application
+  - text: Participate in the selection process
+    href: /process/#timeline
+
+

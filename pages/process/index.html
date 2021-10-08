@@ -1,0 +1,123 @@
+---
+layout: wide
+title: Apply
+permalink: /process/
+description: "Learn about our application process"
+social: apply
+---
+
+<!-- BANNER -->
+<section class="process-banner">
+    <div class="usa-hero">
+        <div class="grid-container">
+            <div class="usa-hero__callout">
+                <h1 class="usa-hero__heading padding-bottom-2">Application process</h1>
+                <p>Bacon ipsum dolor amet bresaola shankle pork belly flank, porchetta short loin fatback leberkas ham hock beef beef ribs tail. Shankle swine brisket, cupim jowl turducken pancetta tri-tip capicola chislic short ribs landjaeger.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<div class="usa-layout-docs usa-section">
+    <div class="grid-container">
+        <h2 class="margin-top-0 padding-x-1">To submit an application for the Digital Corps, you’ll need to:</h2>
+        <div class="grid-row grid-gap-sm">
+
+            <!-- TODO: this doesn't work -->
+            <aside class="sidenav display-none desktop:grid-col-2 desktop:display-inline">
+                <ul class="usa-sidenav">
+                    {% include nav/list.html links=site.data.nav.application-process %}
+                </ul>
+            </aside>
+
+            <div class="desktop:grid-col-fill">
+                <ol class="usa-process-list padding-top-0">
+                    <li class="usa-process-list__item" id="opportunity">
+                        <h4 class="usa-process-list__heading">Understand the opportunity</h4>
+                        <p>Bacon ipsum dolor amet bresaola shankle pork belly flank, porchetta short loin fatback leberkas ham hock beef beef ribs tail. Shankle swine brisket, cupim jowl turducken pancetta tri-tip capicola chislic short ribs landjaeger. Tri-tip landjaeger shankle, short loin alcatra jerky prosciutto.</p>
+                    </li>
+                    <li class="usa-process-list__item" id="preparing">
+                        <h4 class="usa-process-list__heading">Prepare to apply</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra
+                            gravida, orci
+                            magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim.</p>
+                        <form class="usa-form">
+                            <fieldset class="usa-fieldset">
+                                <legend class="usa-legend">Eligibility requirements:</legend>
+                                <div class="usa-checkbox">
+                                    <input class="usa-checkbox__input" id="check-historical-truth" type="checkbox"
+                                        name="historical-figures" value="sojourner-truth" checked />
+                                    <label class="usa-checkbox__label" for="check-historical-truth">Sojourner
+                                        Truth</label>
+                                </div>
+                                <div class="usa-checkbox">
+                                    <input class="usa-checkbox__input" id="check-historical-douglass" type="checkbox"
+                                        name="historical-figures" value="frederick-douglass" />
+                                    <label class="usa-checkbox__label" for="check-historical-douglass">Lorem ipsum dolor
+                                        sit amet, consectetuer adipiscing elit. Morbi commodo, ipsum sed pharetra
+                                        gravida, orci
+                                        magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet
+                                        enim.</label>
+                                </div>
+                                <div class="usa-checkbox">
+                                    <input class="usa-checkbox__input" id="check-historical-washington" type="checkbox"
+                                        name="historical-figures" value="booker-t-washington" />
+                                    <label class="usa-checkbox__label" for="check-historical-washington">Booker T.
+                                        Washington</label>
+                                </div>
+                                <div class="usa-checkbox">
+                                    <input class="usa-checkbox__input" id="check-historical-carver" type="checkbox"
+                                        name="historical-figures" value="george-washington-carver" disabled />
+                                    <label class="usa-checkbox__label" for="check-historical-carver">George Washington
+                                        Carver</label>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </li>
+                    <li class="usa-process-list__item" id="application">
+                        <h4 class="usa-process-list__heading">Craft a competitive application</h4>
+                        <p>
+                            Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat
+                            condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla
+                            libero. Vivamus pharetra posuere sapien.
+                        </p>
+                    </li>
+                    <li class="usa-process-list__item" id="timeline">
+                        <h4 class="usa-process-list__heading">Participate in the selection process</h4>
+                        <p>
+                            Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat
+                            condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla
+                            libero. Vivamus pharetra posuere sapien.
+                        </p>
+                    </li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+<!-- SIGN-UP -->
+<section class="usa-section bg-base-lighter">
+    <div class="grid-container highlight">
+        <div class="grid-col-10 grid-offset-1 tablet:grid-col-12,grid-offset-0">
+            <p class="lead text-primary padding-y-0">
+                Thank you for making it this far!
+                <br class="display-none desktop:display-inline" />
+                We look forward to receiving and reviewing your application.
+            </p>
+            <div class="text-center">
+                <a class="usa-button usa-button--primary" href="{{site.baseurl}}/apply/">
+                    Apply
+                    <span class="display-none tablet:display-inline">
+                        to the U.S. Digital Corps
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>

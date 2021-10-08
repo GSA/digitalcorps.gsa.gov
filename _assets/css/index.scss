@@ -7,8 +7,11 @@
 @import "uswds/hero";
 @import "uswds/banner";
 @import "uswds/footer";
+@import "uswds/form";
 @import "uswds/identifier";
 @import "uswds/logo";
+@import "uswds/process-list";
+@import "uswds/sidenav";
 
 // Search.gov
 @import "search.gov/form";
@@ -28,5 +31,6 @@
 // Page Styles
 @import "pages/about";
 @import "pages/apply";
+@import "pages/process";
 @import "pages/home";
 @import "pages/opportunity";
