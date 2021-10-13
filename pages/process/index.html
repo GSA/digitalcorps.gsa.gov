@@ -35,17 +35,21 @@ social: apply
 <!-- PROCESS -->
 <div class="usa-layout-docs usa-section">
     <div class="grid-container">
-        <h2 class="margin-top-0 padding-x-1">To submit an application for the Digital Corps, you’ll need to:</h2>
         <div class="grid-row grid-gap-sm">
 
             <!-- TODO: this doesn't work -->
-            <aside class="sidenav display-none desktop:grid-col-2 desktop:display-inline">
+            <nav class="sidenav display-none desktop:grid-col-2 desktop:display-inline">
                 <ul class="usa-sidenav">
                     {% include nav/list.html links=site.data.nav.application-process %}
                 </ul>
-            </aside>
+            </nav>
 
             <div class="desktop:grid-col-fill">
+
+                <h2 class="margin-top-0">
+                    To submit an application for the Digital Corps, you’ll need to:
+                </h2>
+
                 <ol class="usa-process-list padding-top-0">
                     <li class="usa-process-list__item" id="opportunity">
                         <h4 class="usa-process-list__heading">Understand the opportunity</h4>
