@@ -1,0 +1,40 @@
+.tracks {
+    @include grid-gap(1);
+    // @include u-margin-x(auto);
+
+    // mobile
+    @include at-media-max("tablet") {
+        // @include u-margin-top(2);
+    }
+
+    // individual tracks
+    .track {
+        @include grid-col(auto);
+        @include u-margin-top(2);
+
+        @include at-media-max("desktop") {
+            @include grid-col(4);
+        }
+
+        // mobile
+        @include at-media-max("tablet") {
+            @include grid-col(6);
+        }
+
+        .usa-button {
+            @include u-bg("base-darker");
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            line-height: 1em;
+
+            &:hover {
+                @include u-bg("base-dark");
+
+                border-style: solid;
+                border-width: 10px;
+                border-color: color("primary-vivid");
+            }
+        }
+    }
+}

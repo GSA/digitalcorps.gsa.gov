@@ -9,13 +9,13 @@ primary:
 
 # application process
 application-process:
-  - text: Understand the opportunity
-    href: /process/#opportunity
+  - text: Understand your eligibility
+    href: /process/#eligibility
   - text: Prepare to apply
     href: /process/#preparing
   - text: Craft a competitive application
     href: /process/#application
-  - text: Participate in the selection process
+  - text: Participate in the selection process and timeline
     href: /process/#timeline
   - text: Frequently asked questions
     href: /faq/
