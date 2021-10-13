@@ -1,32 +1,59 @@
 // banner
 .process-banner {
-
     .usa-hero {
+        @include u-text("white");
+        @include u-padding-x(4);
+        @include u-padding-y(0);
+
         // background-image: url(asset_path("stock/dc-metro.png"));
         background-position: center;
-        background-color: color("primary");
+        background-color: color("base-dark");
+
+        // tablet
+        @include at-media-max("tablet") {
+            @include u-padding-x(0);
+            height: auto;
+            min-height: unset;
+        }
+
+        display: flex;
+        flex-direction: column;
 
         // callout container
         .usa-hero__callout {
-            @include grid-col(7);
-            @include u-padding-x(0);
-            @include u-text("white");
+            color: inherit;
+            background-color: rgba(28, 29, 31, 0.55); // base-darkest #1c1d1f
+            max-width: 65%;
 
-            // < desktop
-            @include at-media-max("desktop") {
-                @include grid-col(6);
-                @include u-padding-x(2);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+
+            // tablet
+            @include at-media-max("tablet") {
+                @include u-padding-x(4);
+                max-width: unset;
             }
 
-            // < tablet
-            @include at-media-max("tablet") {
-                @include grid-col(12);
+            // mobile
+            @include at-media-max("mobile-lg") {
+                @include u-padding-x(2);
+
+                .usa-button {
+                    width: 100%;
+                }
+            }
+
+            .content {
+                @include u-padding-y(6);
+                display: block;
+                margin: auto;
             }
 
             // typography
-            h1,
-            h2 {
-                color: inherit;
+            .lg {
+                @include u-font("sans", "lg");
+                @include u-text("bold");
             }
         }
     }

@@ -1,0 +1,61 @@
+// banner
+.faq-banner {
+    .usa-hero {
+        @include u-text("white");
+
+        // background-image: url(asset_path("stock/dc-metro.png"));
+        background-position: center;
+        background-color: color("primary-vivid");
+        min-height: unset;
+
+        // callout container
+        .usa-hero__callout {
+            @include grid-col(12);
+            @include u-padding-x(4);
+
+            // < tablet
+            @include at-media-max("tablet") {
+                @include u-padding-x(2);
+            }
+
+            // typography
+            h1 {
+                @include u-font("sans", "2xl");
+                @include u-padding-y(0);
+            }
+        }
+    }
+}
+
+.faq {
+    @include u-padding-y(8);
+    @include u-padding-x(8);
+
+    // tablet
+    @include at-media-max("tablet") {
+        @include u-padding-x(0);
+    }
+    // @include u-text("white");
+    // background-color: color("primary-vivid");
+
+    // h2 {
+    //     @include u-margin-top(0);
+    //     color: inherit;
+    // }
+
+    // .usa-accordion {
+    //     color: inherit;
+    //     background-color: inherit;
+
+    //     .usa-accordion__button {
+    //         color: inherit;
+    //         background-color: inherit;
+    //     }
+    //     .usa-accordion__heading {
+    //         background-color: inherit;
+    //     }
+    //     .usa-accordion__content {
+    //         background-color: inherit;
+    //     }
+    // }
+}
