@@ -80,16 +80,3 @@
     }
 }
 
-.usa-process-list {
-    .usa-process-list__item {
-        h3 {
-            @include u-margin-bottom(2);
-        }
-
-        ul {
-            li {
-                max-width: unset;
-            }
-        }
-    }
-}
