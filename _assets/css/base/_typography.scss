@@ -8,28 +8,28 @@
   }
 }
 
-@mixin white-url(){
-    @include u-text("white");
-    
-    &:active {
-      @include u-text("white");
-    }
+@mixin white-url() {
+  @include u-text("white");
 
-    &:hover{
-      @include u-text("primary-light");
-    }
+  &:active {
+    @include u-text("white");
+  }
+
+  &:hover {
+    @include u-text("primary-light");
+  }
 }
 
 @mixin white-url-undecorated() {
   @include white-url();
   text-decoration: none;
-  
+
   &:active,
   &:visited {
-      text-decoration: none;
+    text-decoration: none;
   }
   &:hover {
-      text-decoration: underline;
+    text-decoration: underline;
   }
 }
 
@@ -92,7 +92,7 @@ li {
 
 // standard links
 .usa-link {
-  &:hover{
+  &:hover {
     @include u-text("primary-vivid");
   }
 }
