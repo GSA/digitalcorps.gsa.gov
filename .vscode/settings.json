@@ -12,5 +12,13 @@
     },
     "css.validate": true,
     "scss.validate": true,
-    "sass.format.enabled": true
+    "sass.format.enabled": true,
+    "cSpell.words": [
+        "callout",
+        "digitalcorps",
+        "linkdir",
+        "searchgov",
+        "sidenav",
+        "subnav"
+    ]
 }

@@ -133,6 +133,8 @@
                     .usa-step-indicator__segment-label {
                         @include u-padding(0);
                         @include u-padding-top(2);
+                        color: color("primary-vivid");
+                        font-weight: bold;
                         text-align: center;
                         margin-top: 75px;
                     }

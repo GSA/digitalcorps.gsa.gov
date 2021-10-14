@@ -64,39 +64,37 @@
     background-position: 50% 40%;
 }
 
-
 // accent underline
 .accent-underline {
     &:after {
-      @include u-bg("primary-vivid");
-      content: "";
-      left: 20%;
-      width: 60%;
-      height: 3px;
-      position: relative;
-      display: block;
-      bottom: -14px;
+        @include u-bg("primary-vivid");
+        content: "";
+        left: 20%;
+        width: 60%;
+        height: 3px;
+        position: relative;
+        display: block;
+        bottom: -14px;
 
-      @include at-media-max("tablet"){
-          bottom: -11px;
-      }
+        @include at-media-max("tablet") {
+            bottom: -11px;
+        }
     }
 }
-
 
 // partner logos
 .partner {
     @include grid-col(3);
     @include u-text("center");
     @include u-padding-top(2);
-    
+
     // < desktop
-    @include at-media-max("tablet"){
+    @include at-media-max("tablet") {
         @include grid-col(6);
     }
 
     // < tablet
-    @include at-media-max("mobile"){
+    @include at-media-max("mobile") {
         @include grid-col(12);
     }
 
@@ -105,12 +103,26 @@
     }
 }
 
-.opportunity-tracks{
-    @include u-padding-x(8);
-    @include u-padding-y(2);
+.opportunity-tracks {
+    @include u-bg("base-lightest");
 
-    // tablet
-    @include at-media-max("tablet") {
-        @include u-padding-x(0);
+    .usa-accordion {
+        @include u-padding-x(8);
+        @include u-padding-y(2);
+
+        // tablet
+        @include at-media-max("tablet") {
+            @include u-padding-x(0);
+        }
+
+        .usa-accordion__heading {
+            .usa-accordion__button {
+                @include u-bg("base-lighter");
+            }
+        }
+
+        .usa-accordion__content{
+            background-color: inherit;
+        }
     }
 }

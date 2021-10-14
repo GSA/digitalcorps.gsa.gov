@@ -76,6 +76,10 @@
             //     @include u-font("sans", "lg");
             //     @include u-text("bold");
             // }
+
+            a {
+                @include white-url();
+            }
         }
     }
 }
