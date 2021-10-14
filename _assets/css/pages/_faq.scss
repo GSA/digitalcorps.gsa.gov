@@ -3,11 +3,11 @@
     .usa-hero {
         @include u-text("white");
 
-        // background-image: url(asset_path("stock/dc-metro.png"));
+        background-image: url(asset_path("stock/faq-banner.png"));
         background-position: center;
         background-color: color("primary");
         position: relative;
-        min-height: 225px;
+        min-height: 250px;
 
         // callout container
         .usa-hero__callout {
@@ -38,33 +38,5 @@
     // tablet
     @include at-media-max("tablet") {
         @include u-padding-x(0);
-    }
-    // @include u-text("white");
-
-    // h2 {
-    //     @include u-margin-top(0);
-    //     color: inherit;
-    // }
-
-    .usa-accordion {
-        color: inherit;
-        background-color: inherit;
-
-        .usa-accordion__heading {
-            @include u-margin-y(0);
-            color: inherit;
-            background-color: inherit;
-            border-top-style: solid;
-            border-top-width: 1.5px;
-
-            .usa-accordion__button {
-                @include u-text("primary");
-                @include u-padding-y(2);
-                background-color: inherit;
-            }
-            }
-        .usa-accordion__content {
-            background-color: inherit;
-        }
     }
 }
