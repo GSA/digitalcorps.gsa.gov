@@ -1,6 +1,5 @@
 .tracks {
-    @include grid-gap(1);
-    // @include u-margin-x(auto);
+    @include grid-gap(sm);
 
     // mobile
     @include at-media-max("tablet") {
@@ -21,20 +20,74 @@
             @include grid-col(6);
         }
 
-        .usa-button {
-            @include u-bg("base-darker");
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            line-height: 1em;
-
+        // image button
+        a {
             &:hover {
-                @include u-bg("base-dark");
+                outline-style: solid;
+                outline-color: color("primary-vivid");
+                outline-width: 8px;
 
-                border-style: solid;
-                border-width: 10px;
-                border-color: color("primary-vivid");
+                .track-label {
+                    color: color("accent-warm");
+                }
             }
         }
+
+        .usa-button {
+            @include u-bg("base-darker");
+            @include u-font("sans", "xs");
+            @include u-padding(0);
+            // font-weight: normal;
+
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+
+            // overlay
+            .track-overlay {
+                display: flex;
+                flex-direction: column;
+
+                background-color: rgba(0, 0, 0, 0.5);
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+
+                // label
+                .track-label {
+                    display: block;
+                    margin-top: auto;
+                    margin-bottom: auto;
+
+                    text-align: center;
+                    line-height: 1em;
+                    width: 100%;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        // unique images
+        .track-engineering {
+            background-image: url(asset_path("stock/software-engineering.jpeg"));
+            background-size: cover;
+        }
+        .track-data-science {
+            background-image: url(asset_path("stock/data-science.jpeg"));
+            background-size: cover;
+        }
+        .track-product-management {
+            background-image: url(asset_path("stock/product-management.jpeg"));
+            background-size: cover;
+        }
+        .track-design {
+            background-image: url(asset_path("stock/design.jpeg"));
+            background-size: cover;
+        }
+        .track-cybersecurity {
+            background-image: url(asset_path("stock/cybersecurity.jpeg"));
+            background-size: cover;
+        }
+
     }
 }
