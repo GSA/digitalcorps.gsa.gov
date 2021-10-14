@@ -4,7 +4,7 @@
   {% assign _slug = link[_key] | replace: '.', '' | slugify %}
   {% assign _href = _href_key[0] | replace: '%', _slug %}
 {% else %}
-  {% assign _href = link[_href_key] %}
+  {% assign _href = link[_href_key] | prepend: site.baseurl %}
 {% endif %}
 {% assign _text_key = include.text_key | default: 'text' %}
 <a href="{{ _href }}"{% if _href == page.permalink or _href == page.url %} class="usa-current"{% endif %}>{{ link[_text_key] | smartify }}</a>
