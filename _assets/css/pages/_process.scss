@@ -5,17 +5,33 @@
         @include u-padding-x(4);
         @include u-padding-y(0);
 
-        // background-image: url(asset_path("stock/dc-metro.png"));
-        background-position: center;
         background-color: color("base-dark");
+        background-image: url(asset_path("stock/how_to_apply.jpeg"));
+        background-position: 30% 50%; // h/v
+        background-size: 125%;
+
+        // desktop
+        @include at-media-max("desktop"){
+            background-position: 40% 50%;
+            background-size: cover;
+        }
 
         // tablet
         @include at-media-max("tablet") {
             @include u-padding-x(0);
+            background-position: 45% 50%;
             height: auto;
             min-height: unset;
         }
 
+        // mobile
+        @include at-media-max("mobile-lg") {
+            @include u-padding-x(0);
+            background-position: 60% 50%;
+            height: auto;
+            min-height: unset;
+        }
+        
         display: flex;
         flex-direction: column;
 
@@ -23,7 +39,7 @@
         .usa-hero__callout {
             color: inherit;
             background-color: rgba(28, 29, 31, 0.55); // base-darkest #1c1d1f
-            max-width: 65%;
+            max-width: 60%;
 
             flex: 1;
             display: flex;
@@ -64,12 +80,16 @@
     }
 }
 
-
-
-.usa-process-list{
-    .usa-process-list__item{
-        h3{
+.usa-process-list {
+    .usa-process-list__item {
+        h3 {
             @include u-margin-bottom(2);
+        }
+
+        ul {
+            li {
+                max-width: unset;
+            }
         }
     }
 }
