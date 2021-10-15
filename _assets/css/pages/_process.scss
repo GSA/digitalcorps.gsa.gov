@@ -73,7 +73,7 @@
             }
 
             p {
-                @include u-font("sans", "lg");
+                @include body-font-larger();
             }
 
             a {

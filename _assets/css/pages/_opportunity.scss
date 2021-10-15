@@ -5,6 +5,14 @@
         // background image
         background-image: url(asset_path("stock/shutterstock_403286512.jpg"));
         background-position: 20% top;
+        @include u-padding(0);
+
+        // tablet
+        @include at-media-max("tablet-lg") {
+            .grid-container {
+                @include u-padding-x(0);
+            }
+        }
 
         // mobile
         @include at-media-max("mobile-lg") {
@@ -16,13 +24,13 @@
             @include grid-col(5);
             @include grid-offset(7);
             @include u-padding-x(0);
-            @include u-padding-top(8);
+            @include u-padding-top(15);
 
             // widescreen
             @include at-media-max("widescreen") {
                 @include grid-col(4);
                 @include grid-offset(8);
-                @include u-padding-right(4);
+                @include u-padding-x(0);
             }
 
             // desktop
@@ -31,12 +39,17 @@
                 @include grid-offset(7);
             }
 
-            // tablet
+            // tablet-lg
             @include at-media-max("tablet-lg") {
                 @include grid-col(12);
                 @include grid-offset(none);
-                @include u-padding-x(2);
+                @include u-padding-x(4);
                 background-color: rgba(255, 255, 255, 0.5);
+            }
+
+            // tablet
+            @include at-media-max("tablet") {
+                @include u-padding-x(2);
             }
         }
     }
@@ -74,11 +87,7 @@
         height: 3px;
         position: relative;
         display: block;
-        bottom: -14px;
-
-        @include at-media-max("tablet") {
-            bottom: -11px;
-        }
+        bottom: -26px;
     }
 }
 
@@ -121,7 +130,7 @@
             }
         }
 
-        .usa-accordion__content{
+        .usa-accordion__content {
             background-color: inherit;
         }
     }

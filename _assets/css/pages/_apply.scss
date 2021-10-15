@@ -52,7 +52,7 @@
 
             // typography
             h1 {
-                @include u-font("sans", "2xl");
+                // @include u-font("sans", "2xl");
                 @include u-margin-bottom(3);
             }
 
