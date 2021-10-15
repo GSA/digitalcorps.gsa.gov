@@ -8,20 +8,18 @@ primary:
     url: /opportunity/
   - name: Application Process
     url: /process/
-  - name: FAQs
+  - name: FAQ
     url: /faq/
 
 # application process
 application-process:
-  - text: Understand your eligibility
+  - text: 1. Understand your eligibility
     href: /process/#eligibility
-  - text: Prepare to apply
+  - text: 2. Prepare to apply
     href: /process/#preparing
-  - text: Craft a competitive application
+  - text: 3. Craft a competitive application
     href: /process/#application
-  - text: Participate in the selection process and timeline
+  - text: 4. Participate in the selection process and timeline
     href: /process/#timeline
   - text: Frequently asked questions
     href: /faq/
-
-
