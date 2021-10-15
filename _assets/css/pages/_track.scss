@@ -83,18 +83,32 @@
 
     // < tablet
     @include at-media-max("tablet") {
-        @include u-padding-x(2);
+        @include u-margin-top(0);
+        @include u-padding-top(0);
+        @include u-padding-x(0);
     }
 
     .grid-container {
-        @include u-padding-x(0);
+        @include u-margin(0);
+        @include u-padding(0);
+
+        // .grid-row{
+        //     @include u-margin-y(0);
+        //     @include u-padding-y(0);
+        // }
     }
 
     .track-description-section {
         @include u-bg("base-lightest");
         @include u-margin-bottom(2);
         @include u-padding-y(3);
-        @include u-padding-x(2);
+        @include u-padding-x(3);
+
+        // < tablet
+        @include at-media-max("tablet") {
+            @include u-margin-top(0);
+            @include u-padding-x(2);
+        }
 
         // typography
         h2,
