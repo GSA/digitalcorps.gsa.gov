@@ -23,3 +23,24 @@ application-process:
     href: /process/#timeline
   - text: Frequently asked questions
     href: /faq/
+
+# job description
+job-description:
+  - text: Overview
+    href: ./#overview
+  - text: Locations
+    href: ./#locations
+  - text: This job is open to
+    href: ./#open-to
+  - text: Duties
+    href: ./#duties
+  - text: Requirements
+    href: ./#requirements
+  - text: Required documents
+    href: ./#documents
+  - text: Benefits
+    href: ./#benefits
+  - text: How to apply
+    href: ./#how-to-apply
+  - text: Fair and transparent
+    href: ./#fairness

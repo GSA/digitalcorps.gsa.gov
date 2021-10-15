@@ -1,13 +1,20 @@
 // banner
 .track-banner {
     .usa-hero {
+        @include u-padding-y(0);
         @include u-text("white");
-
-        background-image: url(asset_path("stock/faq-banner.png"));
-        background-position: center;
-        background-color: color("primary");
+        background-color: color("base-darker");
         position: relative;
-        min-height: 250px;
+        min-height: 300px;
+
+        .overlay-black {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.5);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
 
         // callout container
         .usa-hero__callout {
@@ -24,13 +31,49 @@
             // typography
             h1 {
                 @include u-font("sans", "2xl");
-                @include u-margin-y(2);
+                @include u-margin-y(0.5);
+                color: inherit;
+            }
+            .job-title {
+                @include u-font("sans", "lg");
+                @include u-margin-y(0);
+                @include u-padding-left("05");
+                color: inherit;
+            }
+            .job-org {
+                @include u-font("sans", "md");
+                @include u-margin-y(0);
+                @include u-padding-left("05");
+                color: inherit;
+            }
+
+            // button
+            .usa-button {
+                @include u-margin-top(2);
             }
         }
+    }
 
-        .usa-hero__heading{
-            @include u-padding-bottom(2);
-        }
+    // custom images
+    .software-engineering {
+        background-image: url(asset_path("stock/software-engineering-banner.jpeg"));
+        background-position: center;
+    }
+    .data-science {
+        background-image: url(asset_path("stock/data-science-banner.jpeg"));
+        background-position: center;
+    }
+    .product-management {
+        background-image: url(asset_path("stock/product-management-banner.jpeg"));
+        background-position: center;
+    }
+    .design {
+        background-image: url(asset_path("stock/design-banner.jpeg"));
+        background-position: center;
+    }
+    .cybersecurity {
+        background-image: url(asset_path("stock/cybersecurity-banner.jpeg"));
+        background-position: center;
     }
 }
 
@@ -43,24 +86,57 @@
         @include u-padding-x(2);
     }
 
-    // typography
-    h2 {
-        @include u-margin-top(4);
+    .grid-container {
+        @include u-padding-x(0);
+    }
+
+    .track-description-section {
+        @include u-bg("base-lightest");
         @include u-margin-bottom(2);
-    }
+        @include u-padding-y(3);
+        @include u-padding-x(2);
 
-    h3 {
-        @include u-margin-top(3);
-        @include u-margin-bottom(1);
-    }
+        // typography
+        h2,
+        .as-h2 {
+            @include u-margin-top(0);
+            @include u-margin-bottom(2);
+        }
 
-    h4 {
-        @include u-margin-top(3);
-        @include u-margin-bottom(0.5);
-    }
+        h3,
+        .as-h3 h4,
+        .as-h4 {
+            @include u-font("sans", "md");
+            @include u-margin-top(3);
+            @include u-margin-bottom(0);
+            text-transform: uppercase;
+        }
 
-    p {
-        @include body-font-larger();
-        @include u-font("sans", "md");
+        h4,
+        .as-h4 {
+            @include u-font("sans", "sm");
+            @include u-text("ink");
+            text-transform: none;
+        }
+
+        p {
+            @include body-font-standard();
+        }
+
+        ol,
+        ul {
+            li {
+                max-width: unset;
+            }
+        }
+
+        // summary box
+        .usa-summary-box {
+            .usa-summary-box__body {
+                .usa-summary-box__heading {
+                    @include u-font("sans", "md");
+                }
+            }
+        }
     }
 }
