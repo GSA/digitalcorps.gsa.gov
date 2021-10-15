@@ -28,7 +28,7 @@
         text-align: center;
 
         p {
-            @include u-font("sans", 8);
+            @include body-font-larger();
             line-height: 1.4em;
 
             &:before {

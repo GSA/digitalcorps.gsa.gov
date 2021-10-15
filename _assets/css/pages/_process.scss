@@ -11,7 +11,7 @@
         background-size: 125%;
 
         // desktop
-        @include at-media-max("desktop"){
+        @include at-media-max("desktop") {
             background-position: 40% 50%;
             background-size: cover;
         }
@@ -31,7 +31,7 @@
             height: auto;
             min-height: unset;
         }
-        
+
         display: flex;
         flex-direction: column;
 
@@ -72,10 +72,9 @@
                 @include u-margin-bottom(3);
             }
 
-            // .lg {
-            //     @include u-font("sans", "lg");
-            //     @include u-text("bold");
-            // }
+            p {
+                @include u-font("sans", "lg");
+            }
 
             a {
                 @include white-url();
@@ -84,9 +83,8 @@
     }
 }
 
-
 // unique tweaks to process list
-.apply-process{
+.apply-process {
     .usa-process-list {
         // keep
     }

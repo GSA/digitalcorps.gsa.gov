@@ -19,8 +19,7 @@
     }
 
     p {
-        @include u-font("sans", 8);
-        line-height:1.6em;
+        @include body-font-larger();
     }
 
     .lead{

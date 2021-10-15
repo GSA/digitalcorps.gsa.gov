@@ -84,9 +84,8 @@
 
     p,
     ul {
+        @include body-font-larger();
         @include u-margin-bottom(0);
-        @include u-font("sans", 8);
-        line-height: 1.6em;
     }
 }
 
