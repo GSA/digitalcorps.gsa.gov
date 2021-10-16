@@ -1,5 +1,8 @@
 .tracks {
-    @include grid-gap(sm);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     // mobile
     @include at-media-max("tablet") {
@@ -8,20 +11,12 @@
 
     // individual tracks
     .track {
-        @include grid-col(auto);
         @include u-margin-top(2);
-
-        @include at-media-max("desktop") {
-            @include grid-col(4);
-        }
-
-        // mobile
-        @include at-media-max("tablet") {
-            @include grid-col(6);
-        }
+        @include u-margin-x(1);
 
         // image button
         a {
+            @include u-margin-x(0);
             &:hover {
                 outline-style: solid;
                 outline-color: color("primary-vivid");
