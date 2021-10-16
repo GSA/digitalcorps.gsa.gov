@@ -1,18 +1,18 @@
 .tracks {
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
-    // mobile
-    @include at-media-max("tablet") {
-        // @include u-margin-top(2);
-    }
-
     // individual tracks
     .track {
         @include u-margin-top(2);
-        @include u-margin-x(1);
+        @include u-margin-x(2);
+
+        // <tablet
+        @include at-media-max("tablet") {
+            @include u-margin-top(1);
+            @include u-margin-x(1);
+        }
 
         // image button
         a {

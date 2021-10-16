@@ -121,6 +121,7 @@
         .as-h3 h4,
         .as-h4 {
             @include u-font("sans", "md");
+            @include u-text("primary");
             @include u-margin-top(3);
             @include u-margin-bottom(0);
             text-transform: uppercase;
