@@ -125,6 +125,9 @@
         }
 
         .usa-accordion__heading {
+
+            @include u-font("sans","md");
+
             .usa-accordion__button {
                 @include u-bg("base-lighter");
             }
