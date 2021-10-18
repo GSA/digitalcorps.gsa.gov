@@ -17,7 +17,7 @@
         }
 
         // tablet
-        @include at-media-max("tablet") {
+        @include at-media-max("tablet-lg") {
             @include u-padding-x(0);
             background-position: 45% 50%;
             height: auto;
@@ -28,8 +28,6 @@
         @include at-media-max("mobile-lg") {
             @include u-padding-x(0);
             background-position: 60% 50%;
-            height: auto;
-            min-height: unset;
         }
 
         display: flex;
@@ -46,7 +44,7 @@
             flex-direction: column;
 
             // tablet
-            @include at-media-max("tablet") {
+            @include at-media-max("tablet-lg") {
                 @include u-padding-x(4);
                 max-width: unset;
             }
