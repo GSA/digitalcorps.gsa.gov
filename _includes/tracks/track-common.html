@@ -20,7 +20,11 @@
             <!-- side nav -->
             <nav class="sidenav display-none desktop:grid-col-2 desktop:display-inline margin-top-5">
                 <ul class="usa-sidenav">
-                    {% include nav/list.html links=site.data.nav.job-description %}
+                    {% for link in site.data.nav.job-description -%}
+                    <li class="usa-sidenav__item">
+                        <a href="#{{ link.anchor }}">{{ link.text }}</a>
+                    </li>
+                    {% endfor %}
                 </ul>
             </nav>
 

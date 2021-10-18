@@ -27,20 +27,20 @@ application-process:
 # job description
 job-description:
   - text: Overview
-    href: ./#overview
+    anchor: overview
   - text: Locations
-    href: ./#locations
+    anchor: locations
   - text: This job is open to
-    href: ./#open-to
+    anchor: open-to
   - text: Duties
-    href: ./#duties
+    anchor: duties
   - text: Requirements
-    href: ./#requirements
+    anchor: requirements
   - text: Required documents
-    href: ./#documents
+    anchor: documents
   - text: Benefits
-    href: ./#benefits
+    anchor: benefits
   - text: How to apply
-    href: ./#how-to-apply
+    anchor: how-to-apply
   - text: Fair and transparent
-    href: ./#fairness
+    anchor: fairness
