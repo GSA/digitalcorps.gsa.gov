@@ -89,65 +89,97 @@
     }
 }
 
-// mini styles
-@mixin box-mini($image-url) {
-    @include column-overlay-vertical("right", 50%, "primary", $image-url, "none");
-    background-color: color("primary");
-    background-position: left;
-    @include u-padding(0);
+.box-pane-button {
+    @include u-margin-y(0);
+    @include u-text("white");
+
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
 
     height: 292px;
 
     // desktop
     @include at-media-max("desktop") {
-        @include column-overlay-vertical("right", 60%, "primary", $image-url, "none");
         height: 224px;
     }
 
     // tablet
     @include at-media-max("tablet") {
-        @include column-overlay-vertical("right", 60%, "primary", $image-url, "none");
         height: 200px;
     }
-}
 
-.box-mini-content {
-    @include u-padding-x(3);
-    @include u-margin-y(4);
-    position: absolute;
-    right: 0;
-    width: 50%;
-    color: white;
-
-    // desktop
-    @include at-media-max("desktop") {
-        @include grid-col(9);
-        @include grid-offset(3);
-        @include u-padding-x(2);
-        @include u-margin-y(1);
-        width: 60%;
-    }
-
-    // typography
-    h2 {
-        @include u-font("sans", "lg");
-        @include u-text("semibold");
-        text-transform: uppercase;
-        color: inherit;
-        cursor: inherit;
-        margin: 0;
-    }
-
-    p {
-        @include u-font("sans", "md");
-        @include u-margin-top(0);
-        text-transform: initial;
-    }
-
-    .usa-link {
+    a {
+        @include u-margin(0);
+        @include u-padding(0);
         @include u-font("sans", "md");
         @include white-url-undecorated();
         text-transform: uppercase;
-        text-decoration: none;
+        // text-decoration: none;
+
+        background-color: transparent;
+
+        &:hover {
+            background-color: color("base-darker");
+            opacity: 30%;
+        }
+    }
+
+    .usa-button {
+        @include grid-container;
+        @include u-margin(0);
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        border-radius: 0;
+
+        line-height: 1em;
+        top: 0;
+        overflow: hidden;
+
+        .box-pane {
+            @include u-bg("primary");
+            @include u-padding-x(2);
+            @include u-padding-top(10);
+            height: 100%;
+            text-align: left;
+
+            @include grid-col(5);
+            @include grid-offset(7);
+
+            // desktop
+            @include at-media-max("desktop") {
+                @include grid-col(5);
+                @include grid-offset(7);
+            }
+
+            // tablet
+            @include at-media-max("tablet") {
+                @include grid-col(5);
+                @include grid-offset(7);
+            }
+
+            // typography
+            h2 {
+                @include u-font("sans", "lg");
+                @include u-text("semibold");
+                text-transform: uppercase;
+                color: inherit;
+                cursor: inherit;
+                margin: 0;
+                position: relative;
+            }
+
+            p {
+                @include u-font("sans", "md");
+                @include u-margin-top(0);
+                text-transform: initial;
+            }
+        }
     }
 }
