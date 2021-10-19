@@ -153,7 +153,7 @@
         .box-pane {
             @include u-bg("primary");
             @include u-padding-x(2);
-            @include u-padding-top(10);
+            @include u-padding-top(15);
             height: 100%;
             text-align: left;
 
@@ -162,14 +162,7 @@
 
             // desktop
             @include at-media-max("desktop") {
-                @include u-padding-top(8);
-                @include grid-col(7);
-                @include grid-offset(5);
-            }
-
-            // tablet
-            @include at-media-max("tablet") {
-                @include u-padding-top(5);
+                @include u-padding-top(10);
                 @include grid-col(7);
                 @include grid-offset(5);
             }
@@ -186,8 +179,8 @@
             }
 
             p {
-                @include body-font-larger();
-                @include u-margin-top(2);
+                @include body-font-medium();
+                @include u-margin-top(1);
                 font-weight: normal;
                 line-height: 1.2em;
                 text-transform: initial;
