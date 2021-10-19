@@ -89,6 +89,9 @@
     }
 }
 
+
+// MINI BOXES
+// used on home page
 .box-pane-button {
     @include u-margin-y(0);
     @include u-text("white");
@@ -110,19 +113,24 @@
         height: 200px;
     }
 
+    &:hover {
+        @include u-bg("transparent");
+        outline-style: solid;
+        outline-color: color("primary-vivid");
+        outline-width: 8px;
+    }
+
     a {
         @include u-margin(0);
         @include u-padding(0);
         @include u-font("sans", "md");
         @include white-url-undecorated();
+        @include u-bg("transparent");
         text-transform: uppercase;
-        // text-decoration: none;
-
-        background-color: transparent;
 
         &:hover {
-            background-color: color("base-darker");
-            opacity: 30%;
+            @include u-bg("transparent");
+            text-decoration: none;
         }
     }
 
@@ -154,14 +162,16 @@
 
             // desktop
             @include at-media-max("desktop") {
-                @include grid-col(5);
-                @include grid-offset(7);
+                @include u-padding-top(8);
+                @include grid-col(7);
+                @include grid-offset(5);
             }
 
             // tablet
             @include at-media-max("tablet") {
-                @include grid-col(5);
-                @include grid-offset(7);
+                @include u-padding-top(5);
+                @include grid-col(7);
+                @include grid-offset(5);
             }
 
             // typography
@@ -176,8 +186,10 @@
             }
 
             p {
-                @include u-font("sans", "md");
-                @include u-margin-top(0);
+                @include body-font-larger();
+                @include u-margin-top(2);
+                font-weight: normal;
+                line-height: 1.2em;
                 text-transform: initial;
             }
         }
