@@ -125,13 +125,12 @@
         }
 
         .usa-accordion__heading {
-
-            @include u-font("sans","md");
+            @include u-font("sans", "md");
 
             .usa-accordion__button {
                 @include u-bg("base-lighter");
 
-                &:hover{
+                &:hover {
                     @include u-bg("base-light");
                 }
             }
@@ -139,6 +138,10 @@
 
         .usa-accordion__content {
             background-color: inherit;
+        }
+
+        p {
+            @include u-font("sans", "sm");
         }
     }
 }
