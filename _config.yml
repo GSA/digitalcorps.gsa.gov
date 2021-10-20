@@ -5,7 +5,7 @@ description: "The United States Digital Corps.  Empowering early-career technolo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
-email-hr: vivian.carrasco@gsa.gov
+email_hr: vivian.carrasco@gsa.gov
 
 # Social media handles (not URL)
 social:
