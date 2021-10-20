@@ -5,6 +5,8 @@ description: "The United States Digital Corps.  Empowering early-career technolo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
+email_hr: vivian.carrasco@gsa.gov
+
 # Social media handles (not URL)
 social:
   linkedin: company/us-digital-corps
@@ -82,18 +84,18 @@ pagination:
   # The permalink structure for the paginated pages (this can be any level deep)
   permalink: "/page/:num/" # Pages are index.html inside this folder (default)
   #permalink: '/page/:num.html' # Pages are simple html files
-  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extension-less permalink style.
 
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
   title: ":title - page :num"
 
-  # Limit how many pagenated pages to create (default: 0, means all)
+  # Limit how many paginated pages to create (default: 0, means all)
   limit: 0
 
   # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
   # sort_field: "date"
 
-  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  # Optional, sorts the posts in reverse order (omit to default descending or sort_reverse: true)
   # sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)

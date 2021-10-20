@@ -22,10 +22,11 @@ git clone https://github.com/GSA/digitalcorps.gsa.gov.git
 cd digitalcorps.gsa.gov
 ```
 
-Install the Node.js dependencies.
+Install the Node.js and Ruby Gem dependencies.
 
 ```bash
 npm install
+bundle install
 ```
 
 Build the site.
@@ -48,13 +49,11 @@ After you make changes, be sure to run the tests.
 npm test
 ```
 
-Note that when built by Cloud.gov Pages (aka Federalist), `npm run federalist` is used instead of the `build` script.
-
 ## Technologies you should familiarize yourself with
 
 - [Jekyll](https://jekyllrb.com/docs/) - The primary site engine that builds your code and content.
 - [Front Matter](https://jekyllrb.com/docs/frontmatter) - The top of each page/post includes keywords within `--` tags. This is meta data that helps Jekyll build the site, but you can also use it to pass custom variables.
-- [U.S. Web Design System v2](https://v2.designsystem.digital.gov)
+- [U.S. Web Design System v2](https://v2.designsystem.digital.gov) - The guidance, components, controls, and styles used for the site.
 
 ## Contributing
 
