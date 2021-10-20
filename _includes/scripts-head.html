@@ -1,4 +1,4 @@
-{% if site.gtm %}
+{% if site.gtm and site.branch=="main" %}
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -9,7 +9,7 @@
 <!-- End Google Tag Manager -->
 {% endif %}
 
-{% if site.dap.agency %}
+{% if site.dap.agency and site.branch=="main" %}
 <!-- We participate in the US government's digital analytics program (DAP).
      See the data at analytics.usa.gov. -->
 <script async id="_fed_an_ua_tag"
