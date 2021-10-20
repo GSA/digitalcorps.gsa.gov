@@ -116,8 +116,34 @@
 .home-opportunity {
   @include u-margin-bottom(2);
   background-image: url(asset_path("stock/wind-turbines.png"));
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: left;
+
+  // desktop
+  @include at-media-max("desktop") {
+    background-position: -40px 0;
+  }
+
+  // mobile
+  @include at-media-max("mobile-lg") {
+    background-position: -55px 0;
+  }
 }
 
 .home-about {
   background-image: url(asset_path("stock/shutterstock_1126202309.jpg"));
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: left;
+
+  // desktop
+  @include at-media-max("desktop") {
+    background-position: -20px 0;
+  }
+
+  // mobile
+  @include at-media-max("mobile-lg") {
+    background-position: -30px 0;
+  }
 }
