@@ -130,6 +130,10 @@
 
             .usa-accordion__button {
                 @include u-bg("base-lighter");
+
+                &:hover{
+                    @include u-bg("base-light");
+                }
             }
         }
 
