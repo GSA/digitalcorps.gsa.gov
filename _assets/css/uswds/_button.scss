@@ -28,6 +28,22 @@
     }
   }
 
+  &--accentwarm {
+    @include u-bg("accent-warm");
+    &:hover {
+      @include u-bg("accent-warm-dark");
+      &:visited,
+      &:link {
+        @include u-text("ink");
+      }
+    }
+
+    &:visited,
+    &:link {
+      @include u-text("primary");
+    }
+  }
+
   &--baselighter {
     @include u-bg("base-lighter");
     &:hover {

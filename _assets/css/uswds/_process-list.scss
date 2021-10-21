@@ -1,0 +1,15 @@
+.usa-process-list {
+    .usa-process-list__item {
+        max-width: unset;
+
+        h3 {
+            @include u-margin-bottom(2);
+        }
+
+        ul {
+            li {
+                max-width: unset;
+            }
+        }
+    }
+}

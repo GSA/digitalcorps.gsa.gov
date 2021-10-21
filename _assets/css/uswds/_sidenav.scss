@@ -1,0 +1,13 @@
+.sidenav {
+    .usa-sidenav {
+        a {
+            padding-left: 0.5rem;
+            padding-right: 0.5rem;
+        }
+    }
+
+    .usa-sticky-sidenav {
+        position: sticky;
+        top: 16px;
+    }
+}

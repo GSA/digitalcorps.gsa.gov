@@ -1,0 +1,46 @@
+# main navigation
+primary:
+  - name: Home
+    url: /
+  - name: Who We Are
+    url: /about/
+  - name: The Opportunity
+    url: /opportunity/
+  - name: Application Process
+    url: /process/
+  - name: FAQ
+    url: /faq/
+
+# application process
+application-process:
+  - text: 1. Understand your eligibility
+    href: /process/#eligibility
+  - text: 2. Prepare to apply
+    href: /process/#preparing
+  - text: 3. Craft a competitive application
+    href: /process/#application
+  - text: 4. Participate in the selection process and timeline
+    href: /process/#timeline
+  - text: Frequently asked questions
+    href: /faq/
+
+# job description
+job-description:
+  - text: Overview
+    anchor: overview
+  - text: Locations
+    anchor: locations
+  - text: This job is open to
+    anchor: open-to
+  - text: Duties
+    anchor: duties
+  - text: Requirements
+    anchor: requirements
+  - text: Required documents
+    anchor: documents
+  - text: Benefits
+    anchor: benefits
+  - text: How to apply
+    anchor: how-to-apply
+  - text: Fair and transparent
+    anchor: fairness

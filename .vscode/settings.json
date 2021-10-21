@@ -12,5 +12,19 @@
     },
     "css.validate": true,
     "scss.validate": true,
-    "sass.format.enabled": true
+    "sass.format.enabled": true,
+    "cSpell.words": [
+        "autoprefixer",
+        "bootcamp",
+        "callout",
+        "digitalcorps",
+        "favicons",
+        "linkdir",
+        "searchgov",
+        "semibold",
+        "shutterstock",
+        "sidenav",
+        "sublabel",
+        "subnav"
+    ]
 }

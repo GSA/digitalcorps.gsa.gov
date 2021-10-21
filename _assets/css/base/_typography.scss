@@ -1,44 +1,54 @@
 // GENERAL TYPOGRAPHY
 // further specification done in component styles
 
-@mixin header-em {
-  em {
-    @include u-text("primary-vivid");
-    font-style: italic;
-  }
+// paragraph (body line spacing)
+@mixin body-font-larger {
+  @include u-font("sans", 8);
+  @include u-line-height('body', 5)
 }
 
-@mixin white-url(){
-    @include u-text("white");
-    
-    &:active {
-      @include u-text("white");
-    }
+@mixin body-font-medium {
+  @include u-font("sans", "md");
+  @include u-line-height('body', 5)
+}
 
-    &:hover{
-      @include u-text("primary-light");
-    }
+@mixin body-font-standard {
+  @include u-font("sans", "sm");
+  @include u-line-height('body', 4)
+}
+
+
+// dark background urls
+@mixin white-url() {
+  @include u-text("white");
+
+  &:active {
+    @include u-text("white");
+  }
+
+  &:hover {
+    @include u-text("primary-light");
+  }
 }
 
 @mixin white-url-undecorated() {
   @include white-url();
   text-decoration: none;
-  
+
   &:active,
   &:visited {
-      text-decoration: none;
+    text-decoration: none;
   }
   &:hover {
-      text-decoration: underline;
+    text-decoration: underline;
   }
 }
 
 h1,
 .as-h1 {
-  @include u-font("sans", "3xl");
+  @include u-font("sans", "2xl");
   @include u-text("bold");
   @include u-text("primary");
-  @include header-em;
   line-height: 1em;
   cursor: default;
 }
@@ -48,18 +58,24 @@ h2,
   @include u-font("sans", "xl");
   @include u-text("semibold");
   @include u-text("primary");
-  @include header-em;
   line-height: 1em;
   cursor: default;
 }
 
 h3,
-.as-h3,
+.as-h3{
+  @include u-font("sans", "lg");
+  @include u-text("semibold");
+  @include u-text("primary-vivid");
+  line-height: 1em;
+  cursor: default;
+}
+
 h4,
 .as-h4 {
-  @include u-font("sans", "md");
-  @include u-text("normal");
-  @include u-text("primary-vivid");
+  @include u-font("sans", 8);
+  @include u-text("semibold");
+  @include u-text("primary");
   line-height: 1em;
   cursor: default;
 }
@@ -73,7 +89,6 @@ li {
 }
 
 .usa-prose {
-  @include header-em;
   max-width: unset;
 
   p,
@@ -86,12 +101,13 @@ li {
 // highlighter background style
 .tbd,
 .highlighter {
+  color: color("ink");
   background-color: rgba(222, 244, 64, 90%);
 }
 
 // standard links
 .usa-link {
-  &:hover{
+  &:hover {
     @include u-text("primary-vivid");
   }
 }

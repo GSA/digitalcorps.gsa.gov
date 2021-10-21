@@ -1,10 +1,18 @@
 // OPPORTUNITY customization
 
-.opportunity {
+.opportunity-banner {
     .usa-hero {
         // background image
         background-image: url(asset_path("stock/shutterstock_403286512.jpg"));
         background-position: 20% top;
+        @include u-padding(0);
+
+        // tablet
+        @include at-media-max("tablet-lg") {
+            .grid-container {
+                @include u-padding-x(0);
+            }
+        }
 
         // mobile
         @include at-media-max("mobile-lg") {
@@ -16,13 +24,13 @@
             @include grid-col(5);
             @include grid-offset(7);
             @include u-padding-x(0);
-            @include u-padding-top(8);
+            @include u-padding-top(15);
 
             // widescreen
             @include at-media-max("widescreen") {
                 @include grid-col(4);
                 @include grid-offset(8);
-                @include u-padding-right(4);
+                @include u-padding-x(0);
             }
 
             // desktop
@@ -31,12 +39,17 @@
                 @include grid-offset(7);
             }
 
-            // tablet
+            // tablet-lg
             @include at-media-max("tablet-lg") {
                 @include grid-col(12);
                 @include grid-offset(none);
-                @include u-padding-x(2);
+                @include u-padding-x(4);
                 background-color: rgba(255, 255, 255, 0.5);
+            }
+
+            // tablet
+            @include at-media-max("tablet") {
+                @include u-padding-x(2);
             }
         }
     }
@@ -64,43 +77,71 @@
     background-position: 50% 40%;
 }
 
-
 // accent underline
 .accent-underline {
     &:after {
-      @include u-bg("primary-vivid");
-      content: "";
-      left: 20%;
-      width: 60%;
-      height: 3px;
-      position: relative;
-      display: block;
-      bottom: -14px;
-
-      @include at-media-max("tablet"){
-          bottom: -11px;
-      }
+        @include u-bg("primary-vivid");
+        content: "";
+        left: 20%;
+        width: 60%;
+        height: 3px;
+        position: relative;
+        display: block;
+        bottom: -26px;
     }
 }
-
 
 // partner logos
 .partner {
     @include grid-col(3);
     @include u-text("center");
     @include u-padding-top(2);
-    
+
     // < desktop
-    @include at-media-max("tablet"){
+    @include at-media-max("tablet") {
         @include grid-col(6);
     }
 
     // < tablet
-    @include at-media-max("mobile"){
+    @include at-media-max("mobile") {
         @include grid-col(12);
     }
 
     img {
         max-height: 120px;
+    }
+}
+
+.opportunity-tracks {
+    @include u-bg("base-lightest");
+
+    .usa-accordion {
+        @include u-padding-x(8);
+        @include u-padding-y(2);
+
+        // tablet
+        @include at-media-max("tablet") {
+            @include u-padding-x(0);
+        }
+
+        .usa-accordion__heading {
+            @include u-font("sans", "md");
+
+            .usa-accordion__button {
+                @include u-bg("base-lighter");
+
+                &:hover {
+                    @include u-bg("base-light");
+                }
+            }
+        }
+
+        .usa-accordion__content {
+            background-color: inherit;
+        }
+
+        p {
+            @include u-font("sans", "sm");
+        }
     }
 }

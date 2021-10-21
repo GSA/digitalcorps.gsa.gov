@@ -3,7 +3,7 @@
   <div class="usa-footer__primary-section">
     <div class="grid-container">
       <div class="grid-row padding-bottom-2 mobile-lg:padding-bottom-0">
-        <a href="{{ site.baseurl }}/">
+        <a href="{{site.baseurl}}/">
           {% asset "digitalcorps_logo_white.svg" alt="U.S. Digital Corps Logo" width=350 %}
         </a>
       </div>
@@ -16,14 +16,18 @@
               aria-label="Site navigation links">
               <ul class="usa-list usa-list--unstyled slash-list">
 
-                <li><a href="{{ site.baseurl }}/">
+                <li><a href="{{site.baseurl}}/">
                     Home</a></li>
-                <li><a href="{{ site.baseurl }}/about/">
+                <li><a href="{{site.baseurl}}/about/">
                     Who We Are</a></li>
-                <li><a href="{{ site.baseurl }}/opportunity/">
+                <li><a href="{{site.baseurl}}/opportunity/">
                     Opportunity</a></li>
-                <li><a href="{{ site.baseurl }}/apply/">
-                    Join Us</a></li>
+                <li><a href="{{site.baseurl}}/process/">
+                    Application Process</a></li>
+                <li><a href="{{site.baseurl}}/faq/">
+                    FAQ</a></li>
+                <li><a href="{{site.baseurl}}/apply/">
+                    Apply</a></li>
               </ul>
             </nav>
 
@@ -106,7 +110,7 @@
           <!-- sign-up -->
           <div class="usa-sign-up">
             <form class="usa-form" id="gov-delivery-form" accept-charset="UTF-8" method="post" target="_blank"
-              action="https://public.govdelivery.com/accounts/USGSATTS/subscriber/qualify">
+              action="https://public.govdelivery.com/accounts/USGSATTS/subscribers/qualify">
               <input name="utf8" type="hidden" value="&#x2713;" />
               <input type="hidden" name="topic_id" id="topic_id" value="{{site.govdelivery.topic}}" />
               <label id="usdc-email-sign-up" for="email" class="usa-sign-up__heading">Subscribe</label>

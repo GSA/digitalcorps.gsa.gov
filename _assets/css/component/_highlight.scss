@@ -3,26 +3,27 @@
 .highlight {
     @include u-margin-y(0);
     @include u-padding-y(0);
-    @include u-text("center");
 
     h2 {
+        @include u-text("center");
         @include u-font("sans", "2xl");
         @include u-text("bold");
         @include u-margin-top(0);
     }
 
     h3 {
+        @include u-text("center");
         @include u-font("sans", "xl");
         @include u-text("semibold");
         @include u-text("primary");
     }
 
     p {
-        @include u-font("sans", 8);
-        line-height:1.6em;
+        @include body-font-larger();
     }
 
     .lead{
+        @include u-text("center");
         @include u-font("sans", "lg");
     }
 

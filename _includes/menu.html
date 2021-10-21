@@ -20,7 +20,7 @@ where we provide an easy way to manage your navigation system
 
       <button class="usa-nav__close">{% asset usa-icons/close.svg alt="close" %}</button>
       <ul class="usa-nav__primary usa-accordion">
-        {% for nav_item in site.primary_navigation %}
+        {% for nav_item in site.data.nav.primary %}
         {% unless nav_item.children %}
         {% assign basedir = page.url | remove_first: '/' | split: '/' | first | lstrip %}
         {% assign linkdir = nav_item.url | replace: "/", "" | lstrip %}
@@ -45,9 +45,9 @@ where we provide an easy way to manage your navigation system
         {% endunless %}
         {% endfor %}
       </ul>
-      <a href="{{ site.baseurl }}/apply/" class="usa-button usa-button--primary usa-button--small"
-        style="margin-left:16px;margin-right:0;">
-        Join&nbsp;us
+      <a href="{{site.baseurl}}/apply/" class="usa-button usa-button--primary usa-button--small"
+        style="margin-left:8px;margin-right:0;">
+        Apply
       </a>
       {% comment %}
       {% include searchgov/form.html searchgov=site.searchgov %}

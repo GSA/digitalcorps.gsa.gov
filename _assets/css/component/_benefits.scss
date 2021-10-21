@@ -11,10 +11,16 @@
         @include grid-col(4);
         @include u-padding-top(6);
 
+        // < desktop
         @include at-media-max("desktop"){
             @include grid-col(6);
         }
 
+        // < tablet
+        @include at-media-max("tablet") {
+            @include grid-col(12);
+        }
+        
         img {
             @include u-circle("card-lg");
             object-fit: cover;
@@ -22,7 +28,7 @@
         text-align: center;
 
         p {
-            @include u-font("sans", 8);
+            @include body-font-larger();
             line-height: 1.4em;
 
             &:before {
@@ -59,11 +65,6 @@
                     height: unset;
                 }
             }
-        }
-
-        // mobile
-        @include at-media-max("tablet") {
-            @include grid-col(12);
         }
     }
 }
