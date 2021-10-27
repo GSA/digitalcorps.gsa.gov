@@ -6,6 +6,12 @@
         background-image: url(asset_path("stock/shutterstock_512812102.webp"));
         background-position: right 100%;
         background-color: color("primary");
+        min-height: 600px;
+
+        // adjust for screen sizes
+        @include at-media-max("mobile") {
+            min-height: unset;
+        }
 
         // callout container
         .usa-hero__callout {
@@ -14,11 +20,6 @@
             @include u-padding-x(0);
             @include u-padding-top(8);
             @include u-text("white");
-
-            // < desktop-lg
-            @include at-media-max("desktop-lg") {
-                min-height: 500px;
-            }
 
             // < desktop
             @include at-media-max("desktop") {

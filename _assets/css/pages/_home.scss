@@ -28,8 +28,10 @@
 
       // < tablet
       @include at-media-max("mobile-lg") {
-        position: relative;
         @include u-padding-x(2);
+        @include u-padding-top(15);
+        position: relative;
+        min-height: 500px;
       }
 
       .grid-container {

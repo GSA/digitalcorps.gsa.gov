@@ -2,34 +2,29 @@
 .faq-banner {
     .usa-hero {
         @include u-text("white");
-
         background-image: url(asset_path("stock/faq-banner.png"));
         background-position: center;
         background-color: color("primary");
+
         position: relative;
         min-height: 250px;
 
         // callout container
         .usa-hero__callout {
-            @include u-padding-x(4);
+            @include u-padding-x(0);
             position: absolute;
             bottom: 0;
-            left: 0;
 
             // < tablet
             @include at-media-max("tablet") {
-                @include u-padding-x(2);
+                @include u-padding-x(0);
             }
 
             // typography
             h1 {
-                // @include u-font("sans", "2xl");
+                @include u-padding-bottom(2);
                 @include u-margin-y(2);
             }
-        }
-
-        .usa-hero__heading{
-            @include u-padding-bottom(2);
         }
     }
 }

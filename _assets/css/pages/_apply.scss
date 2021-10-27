@@ -2,26 +2,33 @@
 .apply-banner {
     .usa-hero {
         @include u-text("white");
-        @include u-padding-x(2);
+        @include u-padding-x(4);
         @include u-padding-y(0);
 
         background-image: url(asset_path("stock/dc-metro.webp"));
         background-position: center;
         background-color: color("primary-dark");
-        min-height: 450px;
-
-        // tablet
-        @include at-media-max("tablet") {
-            @include u-padding-x(0);
-            height: auto;
-            min-height: unset;
-        }
+        min-height: 500px;
 
         display: flex;
         flex-direction: column;
 
+        // adjust for screen size
+        @include at-media-max("widescreen") {
+            .grid-container {
+                @include u-padding-x(0);
+            }
+        }
+
+        @include at-media-max("tablet") {
+            @include u-padding-x(2);
+            height: auto;
+            min-height: unset;
+        }
+
         // callout container
         .usa-hero__callout {
+            @include u-padding-x(0);
             color: inherit;
             max-width: 60%;
 
@@ -29,16 +36,17 @@
             display: flex;
             flex-direction: column;
 
-            // tablet
+            // adjust for screen size
+            @include at-media-max("tablet-lg") {
+                max-width: 75%;
+            }
+
             @include at-media-max("tablet") {
-                @include u-padding-x(4);
+                @include u-padding-x(0);
                 max-width: unset;
             }
 
-            // mobile
             @include at-media-max("mobile-lg") {
-                @include u-padding-x(2);
-
                 .usa-button {
                     width: 100%;
                 }
