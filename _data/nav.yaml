@@ -11,19 +11,6 @@ primary:
   - name: FAQ
     url: /faq/
 
-# application process
-application-process:
-  - text: 1. Understand your eligibility
-    href: /process/#eligibility
-  - text: 2. Prepare to apply
-    href: /process/#preparing
-  - text: 3. Craft a competitive application
-    href: /process/#application
-  - text: 4. Participate in the selection process and timeline
-    href: /process/#timeline
-  - text: Frequently asked questions
-    href: /faq/
-
 # job description
 job-description:
   - text: Overview

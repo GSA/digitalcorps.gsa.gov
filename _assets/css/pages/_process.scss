@@ -35,7 +35,6 @@
             background-position: 60% 50%;
         }
 
-
         // callout container
         .usa-hero__callout {
             color: inherit;
@@ -89,5 +88,44 @@
 .apply-process {
     .usa-process-list {
         // keep
+    }
+
+    .usa-sidenav {
+        counter-reset: usa-numbered-list;
+
+        .usa-sidenav__item {
+            border-top: none;
+        }
+
+        .usa-sidenav__item::before {
+            display: flex;
+            flex-direction: row;
+
+            position: absolute;
+            left: -1.5rem;
+            height: 1.5rem;
+            width: 1.5rem;
+
+            margin-top: 0.45rem;
+            align-items: center;
+            justify-content: center;
+
+            font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: color("base-dark");
+
+            border: 0.15rem solid color("base-dark");
+            border-radius: 50%;
+            background-color: white;
+
+            content: counter(usa-numbered-list, decimal);
+            counter-increment: usa-numbered-list;
+        }
+
+        // custom bullets
+        .bullet-question::before {
+            content: "?";
+        }
     }
 }
