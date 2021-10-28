@@ -31,11 +31,22 @@
 
 .faq {
     @include u-padding-y(8);
-    @include u-padding-x(8);
 
-    // tablet
-    @include at-media-max("tablet") {
-        @include u-padding-x(0);
+    .grid-container {
+        @include u-padding-x(15);
+
+        // adjustments for screen size
+        @include at-media-max("desktop") {
+            @include u-padding-x(8);
+        }
+
+        @include at-media-max("tablet-lg") {
+            @include u-padding-x(4);
+        }
+
+        @include at-media-max("tablet") {
+            @include u-padding-x(2);
+        }
     }
 
     p {

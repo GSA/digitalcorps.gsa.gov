@@ -150,5 +150,9 @@
         p {
             @include u-font("sans", "sm");
         }
+
+        ul {
+            @include u-margin-top(1);
+        }
     }
 }
