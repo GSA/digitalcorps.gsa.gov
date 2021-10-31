@@ -2,7 +2,7 @@
 
 The [U.S. Digital Corps](https://digitalcorps.gsa.gov) website is developed using the [U.S. Web Design System v2](https://v2.designsystem.digital.gov) and is hosted as a [Cloud.gov Pages](https://federalist.18f.gov/) website.  This code uses a [Jekyll](https://jekyllrb.com) site engine and built with Ruby.
 
-This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759). The standards require that a website or digital service:
+This project strives to be compliant with requirements set by the [21st Century IDEA Act](https://www.congress.gov/bill/115th-congress/house-bill/5759). The standards require that a website or digital service:
 
 - is accessible to individuals with disabilities,
 - has a consistent appearance,
@@ -46,7 +46,8 @@ Open your web browser to [localhost:4000](http://localhost:4000/) to view the si
 After you make changes, be sure to run the tests.
 
 ```bash
-npm test
+npm run test-a11y
+npm run test-links
 ```
 
 ## Technologies you should familiarize yourself with
