@@ -7,7 +7,7 @@
 
         background-color: color("base-dark");
         background-image: url(asset_path("stock/how-to-apply.webp"));
-        background-position: 20% 50%; // h/v
+        background-position: 0% 50%; // h/v
         background-size: 125%;
         display: flex;
 
@@ -18,8 +18,8 @@
             }
         }
 
-        @include at-media-max("desktop") {
-            background-position: 0% 50%;
+        @include at-media-max("desktop-lg") {
+            background-position: 30% 50%;
             background-size: cover;
         }
 
@@ -62,7 +62,7 @@
             }
 
             .content {
-                @include u-padding-y(6);
+                @include u-padding-y(4);
                 display: block;
                 margin: auto;
             }
