@@ -2,7 +2,7 @@
 .faq-banner {
     .usa-hero {
         @include u-text("white");
-        background-image: url(asset_path("stock/faq-banner.png"));
+        background-image: url(asset_path("stock/faq-banner.webp"));
         background-position: center;
         background-color: color("primary");
 
