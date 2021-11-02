@@ -98,6 +98,14 @@
         // }
     }
 
+    .sidenav {
+        .usa-sidenav {
+            a {
+                @include u-padding-y(1.5);
+            }
+        }
+    }
+
     .track-description-section {
         @include u-bg("base-lightest");
         @include u-margin-bottom(2);
