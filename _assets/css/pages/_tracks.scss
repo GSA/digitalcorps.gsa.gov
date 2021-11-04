@@ -18,15 +18,9 @@
 
         // callout container
         .usa-hero__callout {
-            @include u-padding-x(4);
+            @include u-padding-x(0);
             position: absolute;
             bottom: 0;
-            left: 0;
-
-            // < tablet
-            @include at-media-max("tablet") {
-                @include u-padding-x(2);
-            }
 
             // typography
             h1 {
@@ -79,87 +73,8 @@
 
 // body
 .track-description {
-    @include u-padding-x(4);
 
-    // < tablet
-    @include at-media-max("tablet") {
-        @include u-margin-top(0);
-        @include u-padding-top(0);
-        @include u-padding-x(0);
-    }
-
-    .grid-container {
-        @include u-margin(0);
-        @include u-padding(0);
-
-        // .grid-row{
-        //     @include u-margin-y(0);
-        //     @include u-padding-y(0);
-        // }
-    }
-
-    .sidenav {
-        .usa-sidenav {
-            a {
-                @include u-padding-y(1.5);
-            }
-        }
-    }
-
-    .track-description-section {
-        @include u-bg("base-lightest");
-        @include u-margin-bottom(2);
-        @include u-padding-y(3);
-        @include u-padding-x(3);
-
-        // < tablet
-        @include at-media-max("tablet") {
-            @include u-margin-top(0);
-            @include u-padding-x(2);
-        }
-
-        // typography
-        h2,
-        .as-h2 {
-            @include u-margin-top(0);
-            @include u-margin-bottom(2);
-        }
-
-        h3,
-        .as-h3 h4,
-        .as-h4 {
-            @include u-font("sans", "md");
-            @include u-text("primary");
-            @include u-margin-top(3);
-            @include u-margin-bottom(0);
-            text-transform: uppercase;
-        }
-
-        h4,
-        .as-h4 {
-            @include u-font("sans", "sm");
-            @include u-text("ink");
-            text-transform: none;
-        }
-
-        p {
-            @include body-font-standard();
-        }
-
-        ol,
-        ul {
-            li {
-                max-width: unset;
-            }
-        }
-
-        // summary box
-        .usa-summary-box {
-            .usa-summary-box__body {
-                .usa-summary-box__heading {
-                    @include u-font("sans", "md");
-                }
-            }
-        }
+    p, .as-p {
+        @include body-font-larger();
     }
 }
