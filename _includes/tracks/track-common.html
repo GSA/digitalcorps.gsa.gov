@@ -33,6 +33,13 @@
 
         <h2 class="margin-top-0">Track eligibility</h2>
 
+        <div class="as-p">
+            Candidates must either have one cumulative year of specialized experience (this can include
+            paid and unpaid internships, volunteer experiences, student organizations, and jobs) <strong>or</strong>
+            an advanced degree (e.g. masters, PhD) in a
+            {% include_cached modal-technology-field.html words="technology field" %}.
+        </div>
+
         {% include {{page.track_file}} %}
 
         {% if page.apply_url %}
@@ -46,10 +53,6 @@
             <a class="usa-button usa-button--primary usa-link--alt usa-link--external" href="{{page.apply_url}}">
                 Official Job Announcement on USAJobs
             </a>
-        </p>
-        {% else %}
-        <p class="text-bold">
-            Applications are CLOSED for this track
         </p>
         {% endif %}
     </div>
