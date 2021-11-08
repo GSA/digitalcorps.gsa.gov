@@ -12,3 +12,4 @@ Fixes #<!--(add issue number)-->
 - [ ] I have performed a self-review of my own code and have no open issues
 - [ ] I have commented my code, particularly in hard-to-understand areas
 - [ ] My changes generate no new warnings or syntax errors
+- [ ] I have verified Draft on actual mobile devices, especially Safari-based
