@@ -82,6 +82,13 @@
     @include u-padding-top(8);
     @include u-padding-bottom(4);
 
+    h2 {
+        // tablet
+        @include at-media-max("tablet") {
+            @include u-margin-bottom(1);
+        }
+    }
+
     .usa-step-indicator {
         @include u-margin(0);
         @include u-padding(0);
@@ -134,13 +141,10 @@
                             display: block;
                             position: absolute;
                             margin: 0;
-                            top: calc(50% - 75px / 2);
+                            top: 30px;  // calc does not work in Safari
                             left: 0;
                             z-index: 100;
 
-                            // height: 50px;
-                            // width: 50px;
-                            // background-size: 50px;
                             background-color: white;
                             box-shadow: inset 0 0 0 0.15rem color("primary");
                             border-radius: 50%;
@@ -156,10 +160,7 @@
                         margin-top: 0;
 
                         @include at-media-max("tablet") {
-                            height: 100%;
-                            width: 0.1rem;
-                            top: 0;
-                            left: calc(75px / 2 - 0.1rem / 2);
+                            display: none;
                         }
                     }
 
@@ -168,14 +169,6 @@
                             width: auto;
                             left: 50%;
                             right: 0;
-
-                            @include at-media-max("tablet") {
-                                height: 50%;
-                                width: 0.1rem;
-                                top: unset;
-                                left: calc(75px / 2 - 0.1rem / 2);
-                                bottom: 0;
-                            }
                         }
                     }
 
@@ -184,13 +177,6 @@
                             left: 0;
                             right: 50%;
                             width: auto;
-
-                            @include at-media-max("tablet") {
-                                height: 50%;
-                                width: 0.1rem;
-                                top: 0;
-                                left: calc(75px / 2 - 0.1rem / 2);
-                            }
                         }
                     }
 
