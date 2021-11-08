@@ -9,7 +9,7 @@
                     {% if page.apply_url %}
                     <a class="usa-button usa-button--primaryvivid usa-link--alt usa-link--external"
                         href="{{page.apply_url}}" target="_blank" rel="noopener">
-                        Apply on USAJobs
+                        Apply on USAJOBS
                     </a>
                     {% endif %}
                 </div>
@@ -31,10 +31,12 @@
         </div>
         {% endunless %}
 
-        <h2 class="margin-top-0">Track eligibility</h2>
+        <h2 class="margin-top-0">Before applying:</h2>
 
         <div class="as-p">
-            Candidates must either have one cumulative year of specialized experience (this can include
+            We strongly encourage reviewing our <a class="usa-link" href="{{site.baseurl}}/process/">Application Process</a> page for complete eligibility criteria and application tips. 
+            
+            To qualify at the GS-9 level, candidates must either have one cumulative year of specialized experience (this can include
             paid and unpaid internships, volunteer experiences, student organizations, and jobs) <strong>or</strong>
             an advanced degree (e.g. masters, PhD) in a
             {% include_cached modal-technology-field.html words="technology field" %}.
@@ -44,15 +46,15 @@
 
         {% if page.apply_url %}
         <p>
-            To learn more about this track opportunity, including locations, eligibility, duties,
-            requirements, needed documentation, benefits, and information on fair treatment of candidates,
+            To learn more about this track opportunity, including location, eligibility, duties,
+            requirements, necessary documentation, benefits, and information on fair treatment of candidates,
             please visit our job announcement on USAJOBS.
         </p>
 
         <p class="text-center margin-top-3 margin-bottom-0">
             <a class="usa-button usa-button--primary usa-link--alt usa-link--external" href="{{page.apply_url}}"
                 target="_blank" rel="noopener">
-                Job Announcement on USAJobs
+                Job Announcement on USAJOBS
             </a>
         </p>
         {% endif %}
