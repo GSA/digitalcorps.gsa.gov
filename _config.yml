@@ -136,6 +136,7 @@ exclude:
   - package.json
   - package-lock.json
   - README.md
+  - vendor
   - pages/track-*
 
   # exclude until search is implemented
