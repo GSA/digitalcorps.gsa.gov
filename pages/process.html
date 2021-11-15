@@ -14,16 +14,27 @@ social: apply
                 <div class="content">
                     <h1 class="usa-hero__heading">Application Process</h1>
                     <p>
-                        Thank you for your interest in becoming a U.S. Digital Corps Fellow! Applying to federal government jobs can be quite different than in other industries. To help you with the process, we outlined each step along the way on this page and answered your frequently asked questions.
+                        Thank you for your interest in becoming a U.S. Digital Corps Fellow! 
+                        Applying to federal government jobs can be quite different than in other industries. 
+                        To help you with the process, we outlined each step along the way on this page and 
+                        answered your frequently asked questions.
                     </p>
+                    {% if site.apply_now %}
+                    <p><strong>
+                        Applications for all <a class="usa-links" href="{{site.baseurl}}/opportunity/#tracks">five tracks</a> 
+                        are now open and will close at 11:59pm ET on November 15th or at 11:59pm ET on the day 
+                        that 300 applications in that track are received, whichever comes first.
+                    </strong></p>
                     <p>
-                    <strong>
-                        Applications for all <a class="usa-links" href="{{site.baseurl}}/opportunity/#tracks">five tracks</a> are now open and will close at 11:59pm ET on November 15th or at 11:59pm ET on the day that 300 applications in that track are received, whichever comes first.
-                    </strong>
+                        Candidates are strongly encouraged to apply early, as applications may close
+                        before the deadline. Late applications <strong>will not</strong> be accepted.
                     </p>
-                    <p>
-                        Candidates are strongly encouraged to apply early, as applications may close before the deadline. Late applications <strong>will not</strong> be accepted.
+                    
+                    {% else %}
+                    <p><strong>Applications are currently closed.</strong><br/>
+                    Applications for all five tracks will will reopen in the Fall of 2022.
                     </p>
+                    {% endif %}
                 </div>
             </div>
         </div>
