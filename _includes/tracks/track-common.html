@@ -21,7 +21,32 @@
 <section class="usa-section track-description padding-bottom-4">
     <div class="grid-container">
 
-        {% unless page.apply_url %}
+        {% if page.apply_url %}
+        <h2 class="margin-top-0">Before applying:</h2>
+
+        <div class="as-p">
+            We strongly encourage reviewing our <a class="usa-link" href="{{site.baseurl}}/process/">Application
+                Process</a> page for complete eligibility criteria and application tips.
+
+            To qualify at the GS-9 level, candidates must either have one cumulative year of specialized experience
+            (this can include paid and unpaid internships, volunteer experiences, student organizations, and jobs)
+            <strong>or</strong> an advanced degree (e.g. masters, PhD) in a
+            {% include_cached modal-technology-field.html words="technology field" %}.
+        </div>
+
+        {% include {{page.track_file}} %}
+
+        <p>To learn more about this track opportunity, including location, eligibility, duties,
+            requirements, necessary documentation, benefits, and information on fair treatment of candidates,
+            please review our job announcement on USAJOBS.</p>
+
+        <p class="text-center margin-top-3 margin-bottom-0">
+            <a class="usa-button usa-button--primary usa-link--alt usa-link--external" href="{{page.apply_url}}"
+                target="_blank" rel="noopener">Job Announcement on USAJOBS</a>
+        </p>
+
+        {% else %}
+        <!-- track closed -->
         <div class="usa-alert usa-alert--error usa-alert--no-icon margin-bottom-4">
             <div class="usa-alert__body">
                 <div class="usa-alert__text">
@@ -29,34 +54,11 @@
                 </div>
             </div>
         </div>
-        {% endunless %}
 
-        <h2 class="margin-top-0">Before applying:</h2>
-
-        <div class="as-p">
-            We strongly encourage reviewing our <a class="usa-link" href="{{site.baseurl}}/process/">Application Process</a> page for complete eligibility criteria and application tips. 
-            
-            To qualify at the GS-9 level, candidates must either have one cumulative year of specialized experience (this can include
-            paid and unpaid internships, volunteer experiences, student organizations, and jobs) <strong>or</strong>
-            an advanced degree (e.g. masters, PhD) in a
-            {% include_cached modal-technology-field.html words="technology field" %}.
-        </div>
-
-        {% include {{page.track_file}} %}
-
-        {% if page.apply_url %}
-        <p>
-            To learn more about this track opportunity, including location, eligibility, duties,
-            requirements, necessary documentation, benefits, and information on fair treatment of candidates,
-            please review our job announcement on USAJOBS.
-        </p>
-
-        <p class="text-center margin-top-3 margin-bottom-0">
-            <a class="usa-button usa-button--primary usa-link--alt usa-link--external" href="{{page.apply_url}}"
-                target="_blank" rel="noopener">
-                Job Announcement on USAJOBS
-            </a>
-        </p>
+        <p>Thank you for your interest in the {{page.title}}. This track is closed to new applicants because we have
+            received our maximum limit of 300 candidates for the current year. If you are qualified for the remaining
+            open tracks, we encourage you to apply to those instead, or subscribe to our newsletter to stay informed
+            about future application opportunities.</p>
         {% endif %}
     </div>
 </section>
