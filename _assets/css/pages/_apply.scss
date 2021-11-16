@@ -10,8 +10,8 @@
         background-color: color("primary-dark");
         min-height: 500px;
 
-        display: flex;
-        flex-direction: column;
+        // display: flex;
+        // flex-direction: column;
 
         // adjust for screen size
         @include at-media-max("widescreen") {
