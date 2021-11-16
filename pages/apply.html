@@ -13,15 +13,30 @@ social: apply
       <div class="usa-hero__callout">
         <div class="content">
           <h1 class="usa-hero__heading">Apply</h1>
+          {% if site.apply_now %}
           <p><strong>Applications are now open!</strong> Links to apply for each track are included below.</p>
           <p>Applications for all five tracks will close at 11:59pm ET on November 15th or at 11:59pm ET on the day that 300 applications in that track are received, whichever comes first.</p>
           <p class="margin-bottom-0">Candidates are strongly encouraged to submit early, as applications may close before the deadline. Before applying, we encourage you to visit our <a class="usa-link" href="../process/">Application Process</a> page for eligibility criteria and application tips. Our <a class="usa-link" href="../faq/">FAQs</a> are also a great resource.</p>
+          {% else %}
+          <p>
+            <strong>Applications are currently closed.</strong><br/>
+            Applications for all five tracks will will reopen in the Fall of 2022.
+          </p>
+          <p class="margin-bottom-0">
+            See our <a class="usa-link" href="../process/">Application Process</a> 
+            page for eligibility criteria and application tips. 
+            Our <a class="usa-link" href="../faq/">FAQs</a> are also a great resource.
+            Subscribe to our newsletter below to stay informed about the Digital Corps 
+            and future application opportunities.
+          </p>
+          {% endif %}
         </div>
       </div>
     </div>
   </div>
 </section>
 
+{% if site.apply_now %}
 <!-- USA JOBS PROCESS -->
 <section class="usa-section usajobs-process bg-base-lightest">
   <div class="highlight">
@@ -105,6 +120,7 @@ social: apply
     </div>
   </div>
 </section>
+{% endif %}
 
 <!-- SIGN-UP -->
 <section class="usa-section bg-base-lighter">

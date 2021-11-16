@@ -1,11 +1,15 @@
 # Site settings
 title: U.S. Digital Corps
 email: digitalcorps@gsa.gov
+email_hr: vivian.carrasco@gsa.gov
 description: "The United States Digital Corps.  Empowering early-career technologists to build a more effective, equitable government."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
-email_hr: vivian.carrasco@gsa.gov
+# global application features on/off
+# remove individual track page.apply_url to disable individual tracks
+# add "- pages/track-*" to exclude section below when set to false to prevent track page indexing
+apply_now: false  
 
 # Social media handles (not URL)
 social:
@@ -123,24 +127,17 @@ pagination:
   #indexpage: "index.html"
 
 exclude:
+  - docker-compose.yml
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle
-  - vendor/cache
-  - vendor/gems
-  - vendor/ruby
+  - LICENSE.md
   - node_modules
   - package.json
   - package-lock.json
   - README.md
-  - src
-  - LICENSE.md
-  - .jekyll-cache
-  - .github
-  - .vscode
-  - docker-compose.yml
-  - Dockerfile
+  - vendor
+  - pages/track-*
 
   # exclude until search is implemented
   - pages/search
