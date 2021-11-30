@@ -29,8 +29,10 @@
   }
 }
 
-// menu font, desktop
+// menu font
 .usa-nav__primary > .usa-nav__primary-item {
+
+  // desktop view, font size/decoration
   @include at-media("desktop") {
     @include u-font("sans", "xs");
     text-transform: uppercase;
@@ -39,7 +41,11 @@
   & > a {
     @include u-text("black");
     @include u-text("normal");
-    @include u-padding-x(1);
+
+    // desktop view, spacing between
+    @include at-media("desktop") {
+      @include u-padding-x(1);
+    }
 
     &:active {
       @include u-text("base");
