@@ -21,7 +21,7 @@
   },
   "license": "CC0-1.0",
   "dependencies": {
-    "uswds": "~2.12.1"
+    "uswds": "~2.12.2"
   },
   "devDependencies": {
     "pa11y-ci": "^2.4.2",
