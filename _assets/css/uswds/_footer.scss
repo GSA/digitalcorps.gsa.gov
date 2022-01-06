@@ -52,6 +52,14 @@
   .usa-social-link--linkedin {
     background-image: url(asset_path("linkedin.svg")), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
+
+    &:hover {
+      -webkit-transform: scale(1.1,1.1);
+      -moz-transform: scale(1,1);
+      -ms-transform: scale(1,1);
+      -o-transform: scale(1,1);
+      transform: scale(1.1,1.1);
+    }
   }
 
   .usa-social-link--facebook {
@@ -64,6 +72,14 @@
     background-image: url(asset_path("social-icons/twitter16.svg")), linear-gradient(transparent, transparent);
     background-repeat: no-repeat;
     background-size: auto 1.75rem;
+
+    &:hover {
+      -webkit-transform: scale(1.1,1.1);
+      -moz-transform: scale(1,1);
+      -ms-transform: scale(1,1);
+      -o-transform: scale(1,1);
+      transform: scale(1.1,1.1);
+    }
   }
 
   .usa-social-link--instagram {
@@ -93,6 +109,11 @@
       .usa-button {
         @include u-bg("primary-vivid");
         margin-top: 0.5rem;
+
+        &:hover {
+          @include u-text("primary-dark");
+          @include u-bg("white");
+        }
       }
     }
   }

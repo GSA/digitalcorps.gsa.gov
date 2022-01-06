@@ -95,6 +95,11 @@
 
         .usa-sidenav__item {
             border-top: none;
+            a {
+                &:hover{
+                  @include u-text("primary-light");
+                }
+              }
         }
 
         .usa-sidenav__item::before {
