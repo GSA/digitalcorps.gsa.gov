@@ -2,4 +2,10 @@
 
 .usa-identifier__identity-disclaimer {
   @include u-text("base-lighter");
+
+  a {
+    &:hover{
+      @include u-text("primary-light");
+    }
+  }
 }
