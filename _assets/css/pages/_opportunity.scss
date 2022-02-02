@@ -63,13 +63,13 @@
 }
 
 .opportunity-deliver-image {
-    background-image: url(asset_path("stock/shutterstock_1580363914.jpg"));
+    background-image: url(asset_path("stock/shutterstock_1580363914.webp"));
     background-size: cover;
     background-position: 60% top;
 }
 
 .opportunity-grow-image {
-    background-image: url(asset_path("stock/woman-supercomputer.png"));
+    background-image: url(asset_path("stock/woman-supercomputer.webp"));
     background-position: 55% top;
 
     @include at-media-max("tablet") {
@@ -79,7 +79,7 @@
 }
 
 .opportunity-support-image {
-    background-image: url(asset_path("stock/TONL-01016.jpg"));
+    background-image: url(asset_path("stock/TONL-01016.webp"));
     background-size: cover;
     background-position: 50% 40%;
 }
