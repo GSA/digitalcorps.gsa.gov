@@ -46,6 +46,11 @@
             display: flex;
             flex-direction: column;
 
+            @include at-media-max("desktop-lg") {
+                min-height: 600px;
+                max-width: 50%;
+            }
+
             // tablet
             @include at-media-max("tablet-lg") {
                 @include u-padding-x(4);
