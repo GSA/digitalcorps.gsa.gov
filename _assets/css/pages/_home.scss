@@ -16,6 +16,7 @@
     @include at-media-max("mobile-lg") {
       min-height: unset;
       @include u-padding-y(0);
+      background-position: 70% 50%;
     }
 
     // callout container
