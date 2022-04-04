@@ -3,4 +3,135 @@ layout: default
 title: Projects
 permalink: /projects/
 ---
-<h1>Test</h1>
+<!-- BANNER -->
+<section class="projects-banner">
+    <div class="usa-hero">
+      <div class="grid-container">
+        <div class="usa-hero__callout">
+          <div class="content">
+            <h1 class="usa-hero__heading">
+              Agencies and Projects
+            </h1>
+            <h2>
+                <strong> Digital Corps Fellows work at agencies across the government on projects that make a difference for the American public. </strong>
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What Agencies Do -->
+  <section class="usa-section padding-top-2 project-section-two">
+    <div class="grid-container no-gutter">
+        <div class="grid-row">
+          <div class="box projects-whatagenciesdo-image"></div>
+          <div class="box box--primary-vivid">
+            <div class="box-content">
+              <p>
+                Host agencies have strong technical teams and public-facing and/or high-impact projects to ensure Fellows have the guidance and support they need to be successful as they improve the government experience. Fellows collaborate with host agency employees to advance governmentwide priorities outlined in the President’s Management Agenda as well as executive orders on customer experience and cybersecurity.
+              </p>
+            </div>
+          </div>
+          <div>
+              <p class="projects-details">
+                More details about the first cohort of U.S. Digital Corps Fellows will be announced in June 2022. If you are a federal employee interested in learning
+                about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at usdigitalcorps@gsa.gov.
+              </p>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section>
+    <div class="grid-container">
+       {% include project-filters.html %}
+      <div class="project-items grid-row grid-gap">
+        {% include agency-list.html %}
+      </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+  // Based on W3 How to Filter Elements:
+  // https://www.w3schools.com/howto/howto_js_filter_elements.asp
+  var agencyOption = document.getElementById("project-agencies-select");
+  var agency = document.getElementsByClassName("project-item__outer");
+
+  var impactOption = document.getElementById("project-impact-select");
+  var impact = document.getElementsByClassName("impact-list");
+
+
+
+//Filter by Agency Name
+  agencyOption.addEventListener("change", function(e){
+      var optionDataFilter = agencyOption.options[agencyOption.selectedIndex].getAttribute("data-filter");
+
+      for(var i = 0; i < agency.length; i++) {        
+         if(agency[i].getAttribute("data-filter") == optionDataFilter){
+         // addClass(agency[i], "show");
+          removeClass(agency[i], "hide");
+        }else if(!(agency[i].getAttribute("data-filter") == optionDataFilter)){
+          //removeClass(agency[i], "show");
+          addClass(agency[i], "hide");
+        };
+      }
+      if(optionDataFilter == "all"){
+          var elements = document.getElementsByClassName("project-item__outer");
+          console.log(optionDataFilter);
+          console.log(agency.length);
+          for(var i = 0; i < agency.length; i++) {
+            removeClass(agency[i], "hide");
+          }
+        }
+  });
+
+  //Filter By Impact Area
+  impactOption.addEventListener("change", function(e){
+      var listDataFilter = impactOption.options[impactOption.selectedIndex].getAttribute("data-impact");
+    
+      for(var i = 0; i < agency.length; i++) {
+         if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
+          addClass(agency[i], "show");
+          removeClass(agency[i], "hide");
+        }else if(impact[i].children[1].getAttribute("data-skill")== listDataFilter){
+          addClass(agency[i], "show");
+          removeClass(agency[i], "hide");
+        }else if(impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter){
+          addClass(agency[i], "show");
+          removeClass(agency[i], "hide");
+        }else {
+          removeClass(agency[i], "show");
+          addClass(agency[i], "hide");
+        };
+      }
+      if(listDataFilter == "all"){
+          var elements = document.getElementsByClassName("project-item__outer");
+          for(var i = 0; i < agency.length; i++) {
+            removeClass(agency[i], "hide");
+          }
+        }
+  });
+
+  function addClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+  function removeClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+</script> 
