@@ -204,7 +204,8 @@
 .project-item__title {
   @include u-font('sans', 'sm');
   @include u-text('normal');
-  line-height: 1.45;
+  //line-height: 1.45;
+  font-size: 14px;
   margin: 0;
 }
 
