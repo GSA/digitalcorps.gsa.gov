@@ -1,7 +1,7 @@
 <div class="filters">
   <div class="filters_left display-flex">
-    <div class="filter_col">
-      <select class="usa-select" name="project-agencies" id="project-agencies-select">
+    <div class="filter_col" id="agencies">
+      <select aria-labelledby="agencies" class="usa-select" name="project-agencies" id="project-agencies-select">
         <option data-filter="all">Filter by agency</option>
         <option data-filter="acf"> Administration for Children and Families </option> 
         <option data-filter="cmms"> Centers for Medicare and Medicaid Services </option>
@@ -18,8 +18,8 @@
         <option data-filter="whostp"> White House Office of Science and Technology Policy </option> 
       </select>
     </div>
-    <div class="filter_col">
-      <select class="usa-select" name="project-impact" id="project-impact-select">
+    <div class="filter_col" id="impacts">
+      <select aria-labelledby="impacts" class="usa-select" name="project-impact" id="project-impact-select">
         <option data-impact="all">Filter by impact</option>
         <option data-impact="impact1">Impact Area 1</option>
         <option data-impact="impact2">Impact Area 2</option>
