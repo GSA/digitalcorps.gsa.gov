@@ -3,11 +3,7 @@
     display: flex;
     width: 100%;
     align-items: flex-end;
-    justify-content: space-between;
-    flex-direction: column-reverse;
-    @include at-media('tablet') {
-      flex-direction: row;
-    }
+    flex-wrap: wrap;
   
     input[type="text"] {
       @include u-border('primary-darker');
@@ -66,6 +62,8 @@
   
     .filters__left {
       width: 100%;
+      display: flex;
+      flex-wrap: wrap;
     }
   
     .filter__col {
