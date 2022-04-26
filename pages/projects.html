@@ -89,15 +89,14 @@ permalink: /projects/
   //Filter By Impact Area
   impactOption.addEventListener("change", function(e){
       var listDataFilter = impactOption.options[impactOption.selectedIndex].getAttribute("data-impact");
-    
+      //var element = document.querySelectorAll('[data-skill]');
+      //console.log(element[3].getAttribute("data-skill"));
+        
       for(var i = 0; i < agency.length; i++) {
          if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
           addClass(agency[i], "show");
           removeClass(agency[i], "hide");
-        }else if(impact[i].children[1].getAttribute("data-skill")== listDataFilter){
-          addClass(agency[i], "show");
-          removeClass(agency[i], "hide");
-        }else if(impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter){
+        }else if((impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter)){
           addClass(agency[i], "show");
           removeClass(agency[i], "hide");
         }else {

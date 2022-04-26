@@ -106,14 +106,25 @@
           @include u-padding(1);
           @include u-bg('red-cool-10v');
           border-radius: 5px;
-          &.skill1 {
-            @include u-bg('primary-vivid');
+          &.equity {
+            background-color: #58B4FF;
           }
-          &.skill2 {
-            @include u-bg('primary');
+          &.health {
+            background-color: #FACE00;
+            color: #000000; 
           }
-          &.skill3 {
-            @include u-bg('red-cool-50v');
+          &.cybersecurity {
+            background-color: #000000;
+          }
+          &.public-exp {
+            background-color: #9D1831;
+          }
+          &.immigration {
+            background-color: #1B2B85;
+          }
+          &.capacity {
+            background-color: #C7C7C7;
+            color: #000000;
           }
         
         }
