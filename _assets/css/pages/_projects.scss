@@ -107,7 +107,8 @@
           @include u-bg('red-cool-10v');
           border-radius: 5px;
           &.equity {
-            @include u-bg('primary-light') ;
+            background-color: #58B4FF;
+            color: #000000;
           }
           &.health {
             background-color: #FACE00;
