@@ -4,46 +4,60 @@ title: Projects
 permalink: /projects/
 ---
 <!-- BANNER -->
-<section class="projects-banner">
+  <section class="projects-banner">
     <div class="usa-hero">
       <div class="grid-container">
         <div class="usa-hero__callout">
           <div class="content">
-            <h1 class="usa-hero__heading">
-              Agencies and Projects
-            </h1>
-            <h2>
+            <div>
+              <h1 class="usa-hero__heading">
+                Agencies and Projects
+              </h1>
+              <h2>
                 <strong> Digital Corps Fellows work at agencies across the government on projects that make a difference for the American public. </strong>
-            </h2>
+              </h2>
+            </div>
           </div>
+        </div>
+        <div class="iframe-container">
+          <iframe 
+            width="716"
+            height="403" 
+            src="https://www.youtube-nocookie.com/embed/4jrl0zY69mU?controls=0" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
         </div>
       </div>
     </div>
   </section>
 
   <!-- What Agencies Do -->
-  <section class="usa-section padding-top-2 project-section-two">
+  <!-- <section class="usa-section padding-top-8 project-section-two">
     <div class="grid-container no-gutter">
         <div class="grid-row">
-          <div class="box projects-whatagenciesdo-image"></div>
-          <div class="box box--primary-vivid">
-            <div class="box-content">
+          <div >
+            <div class="host-paragraph">
               <p>
                 Host agencies have strong technical teams and public-facing and/or high-impact projects to ensure Fellows have the guidance and support they need to be successful as they improve the government experience. Fellows collaborate with host agency employees to advance governmentwide priorities outlined in the President’s Management Agenda as well as executive orders on customer experience and cybersecurity.
               </p>
             </div>
           </div>
-          <div>
-              <p class="projects-details">
-                More details about the first cohort of U.S. Digital Corps Fellows will be announced in June 2022. If you are a federal employee interested in learning
-                about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
-              </p>
-          </div>
         </div>
+        <div>
+          <p class="projects-details">
+            More details about the first cohort of U.S. Digital Corps Fellows will be announced in June 2022. If you are a federal employee interested in learning
+            about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
+          </p>
+      </div>
     </div>
   </section>
-  <section>
+  <section>  -->
     <div class="grid-container">
+      <h2> First Cohort Agencies</h2>
+      <p>To hear from leaders at these agencies and learn more about the projects check out the announcement video.</p>
        {% include project-filters.html %}
       <div class="project-items grid-row grid-gap">
         {% include agency-list.html %}
