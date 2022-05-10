@@ -218,8 +218,11 @@
   margin-right: 2rem;
   max-width: 450px;
   width: 100%;
-  //justify-content: center;
   //display: none;
+}
+
+.empty-card{
+  visibility: hidden;
 }
 
 .project-item__outer.hide {
