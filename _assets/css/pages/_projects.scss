@@ -155,7 +155,15 @@
 //     flex-direction: row;
 //     justify-content: left;
 //   }
-  
+  .project-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-items > div {
+    flex: 50%;
+  }
   
   .usa-button--accent-cool{
     @include u-bg('primary-vivid');
@@ -207,7 +215,10 @@
 
 .project-item__outer {
   margin-bottom: 2rem;
+  margin-right: 2rem;
   max-width: 450px;
+  width: 100%;
+  //justify-content: center;
   //display: none;
 }
 
@@ -225,7 +236,7 @@
 .project-item {
   border-radius: $project-item-border-radius;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18);
-  flex: 0 0 50%;
+  flex: 50%;
   @include at-media('tablet') {
     height: 100%;
   }
