@@ -50,6 +50,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # these will not be included in build
 exclude:
