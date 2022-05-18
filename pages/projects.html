@@ -53,18 +53,20 @@ permalink: /projects/
           </p>
       </div>
     </div>
-  </section>
-  <section>  -->
+  </section>-->
+  <section>  
     <div class="grid-container">
+      <div class="inaugural-styling">
       <h2> Inaugural Host Agencies</h2>
       <p>Fellows will work alongside career civil servants to advance priorities in critical impact areas, including health, equity, immigration, cybersecurity, and public experience. </p>
       <p>
         More details about the first cohort of U.S. Digital Corps Fellows will be announced in June 2022. If you are a federal employee interested in learning
             about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
       </p>
+    </div>
       <br>
       {% include project-filters.html %}
-      <div class="project-items">
+      <div >
         {% include agency-list.html %}
       </div>
     </div>
@@ -75,7 +77,7 @@ permalink: /projects/
   // Based on W3 How to Filter Elements:
   // https://www.w3schools.com/howto/howto_js_filter_elements.asp
   var agencyOption = document.getElementById("project-agencies-select");
-  var agency = document.getElementsByClassName("project-item__outer");
+  var agency = document.getElementsByClassName("cards_item");
 
   var impactOption = document.getElementById("project-impact-select");
   var impact = document.getElementsByClassName("impact-list");
@@ -85,48 +87,54 @@ permalink: /projects/
 //Filter by Agency Name
   agencyOption.addEventListener("change", function(e){
       var optionDataFilter = agencyOption.options[agencyOption.selectedIndex].getAttribute("data-filter");
-
-      for(var i = 0; i < agency.length; i++) {        
-         if(agency[i].getAttribute("data-filter") == optionDataFilter){
-         // addClass(agency[i], "show");
-          removeClass(agency[i], "hide");
-        }else if(!(agency[i].getAttribute("data-filter") == optionDataFilter)){
-          //removeClass(agency[i], "show");
-          addClass(agency[i], "hide");
-        };
-      }
+    
+      console.log(optionDataFilter);
+      console.log(agency[13].getAttribute("data-filter"));
       if(optionDataFilter == "all"){
-          var elements = document.getElementsByClassName("project-item__outer");
+          var elements = document.getElementsByClassName("cards_item");
           console.log(optionDataFilter);
           console.log(agency.length);
           for(var i = 0; i < agency.length; i++) {
             removeClass(agency[i], "hide");
           }
+        }else{
+          for(var i = 0; i < agency.length; i++) {  
+            console.log(agency[0].getAttribute("data-filter"));      
+            if(agency[i].getAttribute("data-filter") == optionDataFilter){
+            addClass(agency[i], "show");
+            console.log(optionDataFilter + " "+ agency[i].getAttribute("data-filter"));
+              removeClass(agency[i], "hide");
+            }else if(!(agency[i].getAttribute("data-filter") == optionDataFilter)){
+              removeClass(agency[i], "show");
+              addClass(agency[i], "hide");
+            };
+          }
         }
+      
   });
 
   //Filter By Impact Area
   impactOption.addEventListener("change", function(e){
       var listDataFilter = impactOption.options[impactOption.selectedIndex].getAttribute("data-impact");
       //var element = document.querySelectorAll('[data-skill]');
-      //console.log(element[3].getAttribute("data-skill"));
-        
-      for(var i = 0; i < agency.length; i++) {
-         if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
-          addClass(agency[i], "show");
-          removeClass(agency[i], "hide");
-        }else if((impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter)){
-          addClass(agency[i], "show");
-          removeClass(agency[i], "hide");
-        }else {
-          removeClass(agency[i], "show");
-          addClass(agency[i], "hide");
-        };
-      }
-      if(listDataFilter == "all"){
-          var elements = document.getElementsByClassName("project-item__outer");
+      //console.log(impact[i].firstElementChild.getAttribute("data-skill"));
+       if(listDataFilter == "all"){
+          var elements = document.getElementsByClassName("cards_item");
           for(var i = 0; i < agency.length; i++) {
             removeClass(agency[i], "hide");
+          }
+        }else{
+          for(var i = 0; i < agency.length; i++) {
+            if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
+              addClass(agency[i], "show");
+              removeClass(agency[i], "hide");
+            }else if((impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter)){
+            addClass(agency[i], "show");
+            removeClass(agency[i], "hide");
+            }else {
+              removeClass(agency[i], "show");
+              addClass(agency[i], "hide");
+            };
           }
         }
   });

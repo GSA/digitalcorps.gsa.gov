@@ -98,7 +98,7 @@
   height: 0; 
   width: 60%;
   margin: auto;
-  @include u-margin-top(10);
+  //@include u-margin-top(10);
   //overflow: hidden; 
   //position: relative;
   //width: 50%;
@@ -128,15 +128,7 @@
  // z-index: 2;
 
 }
-.projects-whatagenciesdo-image {
-    background-image: url(asset_path("stock/USDC_Projects_HostAgency_Placeholder.webp"));
-    background-position: 50% top;
-}
-.whatagenciesdo{
-  border-radius: 20px;
-  overflow: hidden;
-  z-index: 1;
-}
+
 .host-paragraph{
   @include u-bg('gray-5');
   text-align: center;
@@ -144,17 +136,13 @@
   //position: relative;
   top: 20%;
 }
+.inaugural-styling{
+  text-align: center;
+}
 .projects-details{
   @include u-bg('gray-5');
 }
-//This section may not be needed and will be deleted before Live deployment
-// .list-agencies {
-//     //min-height: 100vh;
-//     display: flex;
-//     flex-wrap: wrap;
-//     flex-direction: row;
-//     justify-content: left;
-//   }
+
   .project-items{
     display: flex;
     flex-wrap: wrap;
@@ -179,6 +167,7 @@
       border-radius: 10px;
       li {
         @include u-margin-bottom(2.0);
+        @include u-margin-right(1.0);
         span {
           @include u-font('sans', 1);
           @include u-padding(1);
@@ -216,14 +205,13 @@
 .project-item__outer {
   margin-bottom: 2rem;
   margin-right: 2rem;
-  max-width: 450px;
-  width: 100%;
+  max-width: 600px;
+  max-height: 350px;
+  //width: 100%;
   //display: none;
 }
 
-.empty-card{
-  visibility: hidden;
-}
+
 
 .project-item__outer.hide {
   display: none;
@@ -245,34 +233,14 @@
   }
 }
 
-.project-item__header {
-  justify-content: space-between;
-  align-items:flex-end;
-  //padding: 1rem;
-  box-sizing: border-box;
-}
-
 .project-item__agency {
   @include u-font('sans', 'lg');
   color: black;
   font-style: normal;
 }
 
-.project-item__type {
-  @include u-bg('primary-vivid');
-  @include u-text('white');
-  @include u-font('sans', '3xs');
-  line-height: 13px;
-  height: 24px;
-  border-radius: 12px;
-  padding-top: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  flex-shrink: 0;
-}
-
 .project-item__content {
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   display: flex;
   //align-items: center;
   flex-direction: column;
@@ -289,9 +257,9 @@
 }
 
 .project-item__logo {
-  height: auto;
-  width: 60%;
-  margin-bottom: 1rem;
+  height: 100px;
+  width: 100px;
+  //margin-bottom: 1rem;
   @include at-media('tablet') {
     margin-right: 1.4rem;
   }
@@ -303,6 +271,10 @@
   //line-height: 1.45;
   font-size: 14px;
   margin: 0;
+}
+
+.project-item-details{
+  font-size: small;
 }
 
 .project-item--case-study {
@@ -320,16 +292,117 @@
   }
 }
 
-.impact-list{
-  font-weight: bold;
-}
 
+//Skill & Impact Area Description Section
 .project-skill-impact{
   color: #0076D6;
   font-weight: bold;
 }
-
-//Impact Area Description Section
 .impact-descriptions{
   @include u-bg('gray-5');
+}
+.impact-list{
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
+
+//Agency Cards
+
+ .main{
+   //max-width: 1200px;
+   margin-bottom: 50px;
+ }
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  //display: flex;
+  padding: 1rem;
+  flex:  1 0 50%;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  max-width: 600px;
+  max-height: 350px;
+  @include at-media('tablet') {
+    max-height: none;
+  }
+  @include at-media-max("mobile-lg") {
+    max-height: none;
+  }
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+    max-height: none;
+  }
+}
+
+@media (max-width: 639px) {
+  .cards_item {
+    width: 33.3333%;
+    max-height: none;
+    //flex: none;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: $project-item-border-radius;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  //height: 380px;
+  @include at-media('tablet') {
+    flex-direction: row;
+  }
+}
+
+.card_content {
+  padding: 1rem;
+  @include at-media('tablet') {
+    flex-direction: row;
+  }
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  //font-size: 0.875rem;
+  line-height: 1.5;
+  //margin-bottom: 1.25rem;    
+  //font-weight: 400;
+  @include u-font('sans', 'sm');
+  @include u-text('normal');
+  //line-height: 1.45;
+  font-size: 14px;
+  margin: 0;
+}
+.learn-more  a{
+  //display: flex;
+  margin-right: 10px;
+}
+
+.empty-card{
+  visibility: hidden;
 }
