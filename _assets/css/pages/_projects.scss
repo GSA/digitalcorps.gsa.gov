@@ -349,7 +349,6 @@
     max-height: none;
   }
 }
-
 @media (max-width: 639px) {
   .cards_item {
     width: 33.3333%;
@@ -398,6 +397,14 @@
   font-size: 14px;
   margin: 0;
 }
+.skill-styling{
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 16x;
+  //@include u-font('sans', 'sm');
+}
+
 .learn-more  a{
   //display: flex;
   margin-right: 10px;
