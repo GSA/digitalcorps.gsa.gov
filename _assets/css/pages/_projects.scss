@@ -73,6 +73,15 @@
             }
         }
     }
+    @media (min-width: 1024px) {
+      .usa-hero {
+        height: 100px;
+      }
+      .usa-hero__heading{
+        margin-top: 35px;
+      }
+    }
+    
 }
 
 
