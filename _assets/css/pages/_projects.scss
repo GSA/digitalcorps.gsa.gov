@@ -307,6 +307,12 @@
   color: #0076D6;
   font-weight: bold;
 }
+
+.project-item-links{
+  height: 20px;
+  width: 20px;
+}
+
 .impact-descriptions{
   @include u-bg('gray-5');
 }
