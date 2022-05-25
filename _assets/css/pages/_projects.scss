@@ -147,6 +147,18 @@
 }
 .inaugural-styling{
   text-align: center;
+  @include u-margin-right(10);
+  @include u-margin-left(7);
+  @include at-media-max("mobile-lg") {
+    @include u-margin-right(2);
+    @include u-margin-left(2);
+  }
+}
+@media(min-width: 1024px) and (max-width: 1327px){
+  .inaugural-styling{
+    margin-right: 14rem;
+    margin-left: 11.5rem;
+  }
 }
 .projects-details{
   @include u-bg('gray-5');
