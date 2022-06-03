@@ -107,16 +107,6 @@
   height: 0; 
   width: 60%;
   margin: auto;
-  //@include u-margin-top(10);
-  //overflow: hidden; 
-  //position: relative;
-  //width: 50%;
- // height: 100%;
-  //padding-bottom: 40%;
-  //height: 0;
-  //border-radius: 20px;
- // overflow: hidden;
-  //z-index: 1;
   @include at-media-max("mobile-lg") {
     width: 90%;
     padding-top: 22px;
