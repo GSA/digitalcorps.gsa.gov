@@ -1,0 +1,71 @@
+---
+layout: default
+title: Fellows
+permalink: /fellows/
+---
+
+<!-- BANNER -->
+<section class="fellows-banner">
+    <div class="usa-hero">
+      <div class="usa-hero__callout">
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="grid-col">
+              <h1 class="usa-hero__heading">Our Fellows</h1>
+            </div>
+          </div>
+          <div class="grid-row display-flex flex-row flex-align-end height-full">
+            <div class="grid-col-12">
+              <h2>Lorem ipsum dolor sit amet, eam eu errem partiendo. Alterum delenit pertinacia sed ea, erat dicam interesset mei no. Usu cibo commodo graecis an. Et accusam rationibus omittantur sea. Est duis oblique detracto et, eos an quem agam.</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fellows -->
+  <section>
+    {% include fellow-filters.html %}
+
+  </section>
+
+  <!-- Quote -->
+  <section class="usa-section fellow-quote">
+    <div class="grid-container">
+      <div class="quote">
+        <div class="text-center padding-bottom-4">
+          {%
+          asset "icons/quote2.png"
+          alt="quote symbol" height=50
+          %}
+        </div>
+        <div class="verbiage">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </div>
+        <div class="author">
+          John Doe
+          <div class="title">
+            GSA Employee
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="usa-section {{ include.customstyles }}">
+    <div class="grid-container tablet:padding-x-2">
+      <div class="grid-col">
+        <p class="lead text-primary padding-y-0">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="text-center">
+          <a class="usa-button usa-button--primary"
+            href="">
+            CTA About Joining
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>

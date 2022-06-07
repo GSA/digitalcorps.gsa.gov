@@ -1,0 +1,74 @@
+// FELLOW customization
+
+// banner
+.fellows-banner {
+    .usa-hero {
+      @include u-margin-bottom(4);
+      @include u-text("primary-dark");
+      background-image: url(asset_path("stock/Fellows_Background.png"));
+      //background-position: 60% 20%;
+      //background-color: color("base-darkest");
+      position: relative;
+      overflow: hidden;
+      min-height: 600px;
+  
+      // < tablet
+      @include at-media-max("mobile-lg") {
+        min-height: unset;
+        @include u-padding-y(0);
+        background-position: 70% 50%;
+      }
+  
+      // callout container
+      .usa-hero__callout {
+        color: inherit;
+       // background-color: rgba(28, 29, 31, 0.55); // base-darkest #1c1d1f
+        width: 100%;
+        //position: relative;
+        text-align: center;
+        bottom: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  
+        // < tablet
+        @include at-media-max("mobile-lg") {
+          @include u-padding-x(2);
+          @include u-padding-top(15);
+          position: relative;
+          min-height: 500px;
+        }
+  
+        .grid-container {
+          @include u-padding-x(0);
+        }
+  
+        .usa-button {
+          float: left;
+          @include u-margin-top(3);
+  
+          // < tablet
+          @include at-media("tablet") {
+            float: right;
+          }
+        }
+  
+        // subtext
+        h2 {
+          @include u-margin-top(3);
+          @include u-margin-bottom(0);
+          color: inherit;
+        }
+      }
+    }
+  }
+
+  .fellow-quote{
+    @include u-bg("primary");
+    color: white;
+
+    .verbiage{
+        color: white;
+    }
+  }

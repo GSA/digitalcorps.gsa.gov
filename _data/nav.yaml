@@ -8,6 +8,8 @@ primary:
     url: /opportunity/
   - name: Projects
     url: /projects/
+  - name: Fellows
+    url: /fellows/
   - name: Application Process
     url: /process/
   - name: FAQ
