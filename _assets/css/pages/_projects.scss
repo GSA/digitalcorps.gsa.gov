@@ -1,0 +1,431 @@
+// PROJECTS customization
+
+.projects-banner {
+    .usa-hero {
+      background-image: url(asset_path("stock/USDC_Agency_Banner.png"));
+       //@include u-bg("primary-dark");
+       color: #ffffff;
+        background-position: center center;
+        position: relative;
+        min-height: 600px;
+        margin-bottom: 15%;
+        max-width: 100%;
+
+        // screen size adjustments
+        @include at-media-max("desktop-lg") {
+           // background-position: 30% top;
+           margin-bottom: 15%;
+        }
+
+        @include at-media-max("desktop") {
+          // background-image: none;
+          // background-color: #1a2c85;
+            .grid-container {
+                @include u-padding-x(0);
+            }
+        }
+
+         @include at-media-max("mobile-lg") {
+            @include u-padding-y(0);
+            //background-position: 40% top;
+            background-image: none;
+            background-color: #1a2c85;
+            min-height: unset;
+            margin-bottom: 27%;
+         }
+
+        // callout container
+        .usa-hero__callout {
+            //@include grid-col(6);
+           // @include grid-offset(1);
+           //@include u-margin-top(15);
+            text-align: center;
+
+            // screen size adjustments
+            @include at-media-max("desktop") {
+                @include grid-col(auto);
+                @include grid-offset(none);
+                @include u-margin-top(0);
+                //background-color: rgba(255, 255, 255, 0.6);
+                position: relative;
+                bottom: 0;
+            }
+
+            @include at-media-max("mobile-lg") {
+                position: relative;
+                min-height: 430px;
+
+                .content {
+                    @include u-padding-x(2);
+                    @include u-padding-bottom(3);
+                    @include u-margin-bottom(2);
+                    position: relative;
+                    left: 0;
+                    bottom: 0;
+                }
+            }
+
+            // subtext
+            h2 {
+                color: #ffffff;
+                @include u-margin-top(3);
+                @include u-margin-bottom(0);
+            }
+        }
+    }
+    @media (min-width: 1024px) {
+      .usa-hero {
+        height: 100px;
+      }
+      .usa-hero__heading{
+        margin-top: 35px;
+      }
+    }
+    
+}
+
+
+//Second Section
+.project-section-two{
+  max-width: 90%;
+  position: relative;
+  min-height: 250px;
+  //left: 50%;
+  margin: auto;
+  //max-height: 300px;
+}
+
+
+
+//Youtube Video Responsiveness
+.iframe-container{
+  display: flex; //for example 2
+  justify-content: center;  //example2
+  position: relative; 
+  padding-bottom: 28.25%; 
+  padding-top: 30px; 
+  height: 0; 
+  width: 60%;
+  margin: auto;
+  @include at-media-max("mobile-lg") {
+    width: 90%;
+    padding-top: 22px;
+    padding-bottom: 43.36%;
+    margin: auto;
+  }
+}
+
+.iframe-container iframe{
+  //@include u-margin-top(neg-15);
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100%;
+  margin: 18% 0 10% 0;
+  //object-fit: fill;
+ // z-index: 2;
+
+}
+
+.host-paragraph{
+  @include u-bg('gray-5');
+  text-align: center;
+  line-height: 1.5;
+  //position: relative;
+  top: 20%;
+}
+.inaugural-styling{
+  text-align: center;
+  @include u-margin-right(10);
+  @include u-margin-left(7);
+  @include at-media-max("mobile-lg") {
+    @include u-margin-right(2);
+    @include u-margin-left(2);
+  }
+}
+@media(min-width: 1024px) and (max-width: 1327px){
+  .inaugural-styling{
+    margin-right: 14rem;
+    margin-left: 11.5rem;
+  }
+}
+.projects-details{
+  @include u-bg('gray-5');
+}
+
+  .project-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .project-items > div {
+    flex: 50%;
+  }
+  
+  .usa-button--accent-cool{
+    @include u-bg('primary-vivid');
+    color: white;
+  }
+  .agency-card--specialty {
+    //font-family: $theme-font-type-serif;
+    color: #ffffff;
+    @include u-margin-bottom(0.5);
+    ul {
+      @include u-padding(0);
+      list-style: none;
+      border-radius: 10px;
+      li {
+        @include u-margin-bottom(2.0);
+        @include u-margin-right(1.0);
+        span {
+          @include u-font('sans', 1);
+          @include u-padding(1);
+          @include u-bg('red-cool-10v');
+          border-radius: 5px;
+          &.equity {
+            background-color: #58B4FF;
+            color: #000000;
+          }
+          &.health {
+            background-color: #FACE00;
+            color: #000000; 
+          }
+          &.cybersecurity {
+            background-color: #000000;
+          }
+          &.public-exp {
+            background-color: #9D1831;
+          }
+          &.immigration {
+            background-color: #1B2B85;
+          }
+          &.capacity {
+            background-color: #C7C7C7;
+            color: #000000;
+          }
+        
+        }
+      }
+    }
+  }
+
+  $project-item-border-radius: 5px;
+
+.project-item__outer {
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  max-width: 600px;
+  max-height: 350px;
+  //width: 100%;
+  //display: none;
+}
+
+
+
+.project-item__outer.hide {
+  display: none;
+}
+
+.hide{
+  display: none;
+}
+
+.show{
+  display: block;
+}
+.project-item {
+  border-radius: $project-item-border-radius;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18);
+  flex: 50%;
+  @include at-media('tablet') {
+    height: 100%;
+  }
+}
+
+.project-item__agency {
+  @include u-font('sans', 'lg');
+  color: black;
+  font-style: normal;
+}
+
+.project-item__content {
+  padding: 1rem 1rem;
+  display: flex;
+  //align-items: center;
+  flex-direction: column;
+  @include at-media('tablet') {
+    flex-direction: row;
+  }
+}
+
+.project-item__image {
+  height: 165px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+}
+
+.project-item__logo {
+  height: 100px;
+  width: 100px;
+  //margin-bottom: 1rem;
+  @include at-media('tablet') {
+    margin-right: 1.4rem;
+  }
+}
+
+.project-item__title {
+  @include u-font('sans', 'sm');
+  @include u-text('normal');
+  //line-height: 1.45;
+  font-size: 14px;
+  margin: 0;
+}
+
+.project-item-details{
+  font-size: small;
+}
+
+.project-item--case-study {
+//   .project-item__header {
+//     @include light-bg;
+//   }
+
+  .project-item__content {
+    display: block;
+    padding: 1rem;
+  }
+
+  .project-item__type {
+    @include u-bg('primary-darker');
+  }
+}
+
+
+//Skill & Impact Area Description Section
+.project-skill-impact{
+  color: #0076D6;
+  font-weight: bold;
+}
+
+.project-item-links{
+  height: 20px;
+}
+
+.impact-descriptions{
+  @include u-bg('gray-5');
+}
+.impact-list{
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 10px;
+}
+
+//Agency Cards
+
+ .main{
+   //max-width: 1200px;
+   margin-bottom: 50px;
+ }
+
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  //display: flex;
+  padding: 1rem;
+  flex:  1 0 50%;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  max-width: 600px;
+  max-height: 350px;
+  @include at-media('tablet') {
+    max-height: none;
+  }
+  @include at-media-max("mobile-lg") {
+    max-height: none;
+  }
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+    max-height: none;
+  }
+}
+@media (max-width: 639px) {
+  .cards_item {
+    width: 33.3333%;
+    max-height: none;
+    //flex: none;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: $project-item-border-radius;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  //height: 380px;
+  @include at-media('tablet') {
+    flex-direction: row;
+  }
+}
+
+.card_content {
+  padding: 2.5rem;
+  @include at-media('tablet') {
+    flex-direction: row;
+  }
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  //font-size: 0.875rem;
+  line-height: 1.5;
+  //margin-bottom: 1.25rem;    
+  //font-weight: 400;
+  @include u-font('sans', 'sm');
+  @include u-text('normal');
+  //line-height: 1.45;
+  font-size: 14px;
+  margin: 0;
+}
+.skill-styling{
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 16x;
+  //@include u-font('sans', 'sm');
+}
+
+.learn-more  a{
+  //display: flex;
+  margin-right: 10px;
+}
+
+.empty-card{
+  visibility: hidden;
+}
