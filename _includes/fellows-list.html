@@ -1,0 +1,34 @@
+{% assign aria_id = fellow.title | url_encode | truncate: 15, "" %}
+{% for fellow in site.fellows %}
+<div class="fellow-card">
+  <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
+    <div class="usa-prose fellow-img">
+      {% if fellow.image %}
+      {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.image_alt_text }}" %}
+      {% endif %}
+    </div>
+    <div>
+      <h2 class="body-intro--bold" id="{{ aria_id }}">{{ fellow.title }}</h2>
+      <p class="content">
+        {{ fellow.bio_short }}
+      </p>
+    </div>
+  </a>
+  <p>
+    <span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span>
+  </p>
+  <div class="fellow-card--specialty">
+    {% assign fellow_skills = site.data.fellow-specialties | where_exp:'skill', "fellow.tags contains skill.url_name" %}
+    {% for skill in fellow_skills%}
+    {% if forloop.first %}
+    <ul>
+      {% endif %}
+      <li><span class="{{ skill.url_name }}">{{ skill.display_name }}</span></li>
+      {% if forloop.last %}
+    </ul>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
+
+{% endfor %}

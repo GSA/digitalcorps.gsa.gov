@@ -64,6 +64,84 @@
     }
   }
 
+  //Fellows Section
+  .list-fellows {
+    //min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .fellow-card {
+    @include u-padding(2);
+    @include u-margin(2);
+    min-width: 180px;
+    max-width: 200px;
+    
+    // <tablet
+    @include at-media-max("tablet") {
+      @include u-margin-top(1);
+      @include u-margin-x(1);
+      max-width: 100%;
+  }
+    a {
+      border: none;
+      text-decoration: none;
+      @include u-color('base-darker');
+      &:hover {
+        h2 {
+          text-decoration: underline;
+        }
+      }
+      .body-intro--bold {
+        color: color('primary');
+        @include u-font('serif', 9); // 22 px -- h2 sizing overrides the typography.scss size declaration
+        margin: 0; // using padding instead of default margin creates a cleaner focus outline
+        @include u-padding-top(2.5);
+        @include u-padding-bottom(1.5);
+      }
+      .content {
+        margin-top: 0;
+        padding-top: 0;
+      }
+    }
+    .fellow-img {
+      @include at-media(desktop) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        @include u-border-bottom('1px', 'primary');
+        @include u-padding-bottom(2);
+      }
+      .circle-card {
+        height: auto;
+      }
+    }
+  }
+
+  .fellow-card--fellow-year {
+    color: color('primary');
+    font-weight: 700;
+  
+    span {
+      color: color('blue-warm-50v');
+    }
+  
+    &:after {
+      height: 0.8rem;
+      width: 1px;
+      border-right: 1px solid gray;
+      content: "";
+      margin: 0 0.5rem;
+      display: inline-block;
+    }
+    &:last-child:after {
+      border-right: none;
+    }
+  }
+
+  //Fellow Quote Section
   .fellow-quote{
     @include u-bg("primary");
     color: white;
