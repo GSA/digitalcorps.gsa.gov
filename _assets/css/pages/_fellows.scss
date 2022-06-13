@@ -63,21 +63,31 @@
       }
     }
   }
+//Filters
+.fellow-filters{
+  display: flex;
+  flex-wrap: wrap;
+  @include u-margin-right(2);
 
-  //Fellows Section
+}
+
+//Fellows Section
   .list-fellows {
     //min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: left;
+    margin-left: 10%;
   }
 
   .fellow-card {
     @include u-padding(2);
-    @include u-margin(2);
-    min-width: 180px;
-    max-width: 200px;
+    @include u-margin(3);
+    min-width: 220px;
+    max-width: 300px;
+    min-height: 300px;
+    flex: 0 0 33.333333%;
     
     // <tablet
     @include at-media-max("tablet") {

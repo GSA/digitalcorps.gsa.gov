@@ -1,5 +1,5 @@
 {% assign aria_id = fellow.title | url_encode | truncate: 15, "" %}
-{% for fellow in site.fellows %}
+{% for fellow in paginator.posts %}
 <div class="fellow-card">
   <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
     <div class="usa-prose fellow-img">
@@ -15,7 +15,7 @@
     </div>
   </a>
   <p>
-    <span class="fellow-card--fellow-year">{{ fellow.fellow_year }}</span>
+    <span class="fellow-card--fellow-year">{{ fellow.fellow_year }} Fellow</span>
   </p>
   <div class="fellow-card--specialty">
     {% assign fellow_skills = site.data.fellow-specialties | where_exp:'skill', "fellow.tags contains skill.url_name" %}
@@ -32,3 +32,5 @@
 </div>
 
 {% endfor %}
+
+

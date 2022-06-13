@@ -2,6 +2,11 @@
 layout: default
 title: Fellows
 permalink: /fellows/
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: '2022'
 ---
 
 <!-- BANNER -->
@@ -25,11 +30,12 @@ permalink: /fellows/
   </section>
 
   <!-- Fellows -->
-  <section>
+  <section class="grid-container usa-layout-docs usa-section">
     {% include fellow-filters.html %}
     <div class="list-fellows">
-      {% include fellows-list.html %}
+      {% include fellows-list.html fellows=paginator.posts %}
     </div>
+    {% include pagination.html %}
   </section>
 
   <!-- Quote -->
