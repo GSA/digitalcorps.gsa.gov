@@ -5,7 +5,7 @@
     .usa-hero {
       @include u-margin-bottom(4);
       @include u-text("primary-dark");
-      background-image: url(asset_path("stock/Fellows_Background.png"));
+      background-image: url(asset_path("stock/Fellows_Banner.png"));
       //background-position: 60% 20%;
       //background-color: color("base-darkest");
       position: relative;
