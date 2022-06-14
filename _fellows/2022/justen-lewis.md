@@ -4,10 +4,14 @@ title: Justen Lewis
 image: Justen Lewis.png
 fellow_year: 2022
 project: ["na"]
-agency: ["na"]
-hometown: Gotham
-region: east
+agency: ["OPM"]
+hometown: Troy, Michigan
+university: University of Notre Dame
+region: west
 bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-tags: ['east', '2022']
-skills: []
+fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+tags: ['west', '2022','Product_Management']
+track: ['Product Management']
 ---
+ 
+I wanted to leverage my skillset in engineering, technology, and policy through public service to make a difference at scale. 

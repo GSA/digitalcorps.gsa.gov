@@ -52,6 +52,13 @@ collections:
     output: true
     permalink: /:path/
 
+
+defaults:
+  - scope:
+      type: "fellows"
+    values:
+      layout: "fellow"
+
 # formatting
 permalink: pretty
 

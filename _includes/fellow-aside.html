@@ -1,0 +1,27 @@
+<aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
+  
+  {% if page.image %}
+    {% asset "{{ page.image }}" class="circle-card float-left margin-right-3" alt="{{ page.image_alt_text }}" %}
+  {% endif %}
+  
+  <p>Fellow Year: <div>{{ include.fellow_year }}</div></p>
+  <p>Track: <div>{{ include.fellow_track }}</div></p>
+  
+
+  
+  {% if fellow_agency > 0 %}
+    <h2>{% if fellow_agency > 1 %}Agencies{% else %}Agency{% endif %}</h2>
+    <ul class="usa-sidenav">
+      {{fellow_agency}}
+      {% for agency in site.data.agencies %}
+      {% if include.fellow_agency contains agency.name %}
+      <li class="">
+          <span>{{ agency.fullname }}</span>
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <p>University: <div>{{ include.fellow_university }}</div></p>
+    <p>Hometown: <div>{{ include.fellow_hometown }}</div></p>
+</aside>
