@@ -1,7 +1,7 @@
 ---
 id: olivia-haring
 title: Olivia Haring
-image:  Olivia Haring.jpeg
+image:  Olivia Haring.png
 fellow_year: 2022
 project: ["na"]
 agency: ["EPA"]
