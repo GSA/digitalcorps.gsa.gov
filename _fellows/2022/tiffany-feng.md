@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Los Angeles, CA
 university: University of California, Los Angeles
 region: south
-bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+bio_short: Data scientist ready to do purpose-driven work. 
 fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
 tags: ['south', '2022','Data_Science_And_Analytics']
 track: ['Data Science And Analytics']

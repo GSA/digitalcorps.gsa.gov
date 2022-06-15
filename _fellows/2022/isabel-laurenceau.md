@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Miami. FL
 university: University of Florida
 region: southeast
-bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+bio_short: Software engineer with experience on affective computing and tech policy.
 fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
 tags: ['southeast', '2022','Software_Engineering']
 track: ['Software Engineering']

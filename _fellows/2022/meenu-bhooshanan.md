@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: N/A
 university: Washington University in St. Louis
 region: northeast
-bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+bio_short: Software engineer ready to help redefine national security and make government more equitable. 
 fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
 tags: ['northeast', '2022','Software_Engineering']
 track: ['Software Engineering']

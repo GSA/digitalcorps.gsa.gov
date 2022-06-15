@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Rockland County,NY
 university: SUNY Stony Brook University
 region: northeast
-bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+bio_short: Product manager ready to help people get access to critical information.
 fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
 tags: ['northeast', '2022','Product_Management']
 track: ['Product Management']

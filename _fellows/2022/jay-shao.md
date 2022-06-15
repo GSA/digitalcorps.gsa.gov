@@ -8,7 +8,7 @@ agency: ["CMS"]
 hometown: Philadelphia, PA
 university: California University of Pennsylvania
 region: northeast
-bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+bio_short: Cybersecurity specialist with a background in community building and support.
 fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
 tags: ['northeast', '2022','Cybersecurity']
 track: ['Cybersecurity']

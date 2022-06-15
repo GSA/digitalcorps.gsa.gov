@@ -8,7 +8,7 @@ agency: ["USCB"]
 hometown: Gaithersburg, Maryland
 university: University of California, Berkeley
 region: west
-bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+bio_short: Designer ready to enhance resources for citizens across the country. 
 fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
 tags: ['west', '2022','Design']
 track: ['Design']

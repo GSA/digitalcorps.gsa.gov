@@ -8,7 +8,7 @@ agency: ["DOS"]
 hometown: Dallas, TX
 university: Stanford University
 region: south
-bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+bio_short: Cybersecurity specialist passionate about making our nation a bit more secure for everyone. 
 fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
 tags: ['south', '2022','Cybersecurity']
 track: ['Cybersecurity']
