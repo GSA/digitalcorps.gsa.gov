@@ -2,6 +2,8 @@
   
   {% if page.image %}
     {% asset "{{ page.image }}" class="circle-card float-left margin-right-3" alt="{{ page.image_alt_text }}" %}
+    {% else %}
+    {% asset "Placeholder.png" class="circle-card float-left margin-right-3" alt="{{ page.image_alt_text }}" %}
   {% endif %}
   
   <p>Fellow Year: <div>{{ include.fellow_year }}</div></p>
@@ -22,6 +24,6 @@
       {% endfor %}
     </ul>
     {% endif %}
-    <p>University: <div>{{ include.fellow_university }}</div></p>
+    <p>Education: <div>{{ include.fellow_education }}</div></p>
     <p>Hometown: <div>{{ include.fellow_hometown }}</div></p>
 </aside>
