@@ -5,7 +5,7 @@ image: Lacy Kelly Ramos.png
 fellow_year: 2022
 project: ["na"]
 agency: ["USCB"]
-hometown: Gaithersburg, MD
+hometown:
 university: University of California, Berkeley
 region: west
 bio_short: Designer ready to enhance resources for citizens across the country. 
@@ -15,6 +15,6 @@ tags: ['west', '2022','Design']
 track: ['Design']
 ---
 
-Lacy is a first-generation college graduate with a B.F.A. in Graphic Design from Indiana University and a certificate in User Experience (UX) Design from the University of California, Berkeley. Lacy’s drive and commitment to make things better stem from her low-income childhood. This experience inspired her creativity, resourcefulness, and work ethic, and these characteristics guided her work in improving products and services in various sectors, including medicine, startups, non-profit, policy, and education. As a designer and life-long learner, she enjoys researching, testing, and designing digital products to best meet the needs of the end user. 
+Lacy is a first-generation college graduate with a B.F.A. in Graphic Design from Indiana University and a certificate in User Experience (UX) Design from the University of California, Berkeley. Lacy’s drive and commitment to make things better stem from her low-income childhood. This experience informed her creativity, resourcefulness, empathy and work ethic, and these characteristics continue to guide her work to improve products and services. Lacy has worked in various sectors both public and private including medical, policy, non-profit and education. As a human-centered designer and life-long learner she enjoys researching, testing, and designing digital products to best meet the needs of the end user. 
 
-Lacy lives in Maryland with her husband Francisco and their dog Coltrane. She enjoys exploring new places, frequenting the many nearby museums, and reading non-fiction.
+Lacy lives in Maryland with her husband Francisco and their dog Coltrane. She enjoys exploring new places, making friends, frequenting the many nearby museums, and reading non-fiction.
