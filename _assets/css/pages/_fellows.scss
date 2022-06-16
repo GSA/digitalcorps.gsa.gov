@@ -178,16 +178,19 @@
   .fellow-content{
     @include u-padding-bottom(4);
   }
+
   aside {
     .circle-card{
       margin-bottom: 3rem;
       //@include u-margin-right(15);
     }
   }
+
   .fellow-side-info{
     display: block;
     margin-top: 13rem;
   }
+  
   .fellow-subtitle{
     @include u-color("primary");
     //font-size: small;
@@ -198,6 +201,10 @@
   .fellow-list-agency{
     list-style-type: none;
     padding-left: 0;
+
+    li{
+      font-weight: normal;
+    }
   }
 
   .quote-subtitle{
