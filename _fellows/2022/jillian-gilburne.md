@@ -1,6 +1,6 @@
 ---
 id: jillian-gilburne
-title: Jillian-Gilburne
+title: Jillian Gilburne
 image: Jillian Gilburne.png
 fellow_year: 2022
 project: ["na"]
