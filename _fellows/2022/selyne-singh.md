@@ -9,9 +9,10 @@ hometown: Wesley Chapel, FL
 university: University of Florida
 region: south
 bio_short: Product manager ready to improve federal systems and technology.
-fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+why: "I was inspired to become a U.S. Digital Corps Fellow after I had the opportunity to perform a one-month developmental assignment with the Navy’s Chief Data Officer through the New Leader Program. That experience allowed me to see the benefits of using data for decision making, the value of data sharing, and how both are extremely underutilized. Being a part of the Digital Corps will enable me to be a part of the future workforce that changes the way we currently do work in the federal government."
+fun_fact: Some of Seylene's favorite questions to ask friends and family come from UC Berkeley's "36 Questions for Increasing Closeness."
 tags: ['south', '2022','Product_Management']
 track: ['Product Management']
 ---
 
-Currently, I am a Management & Program Analyst for Commander, Navy Region Southeast, where I provide program analytic solutions. I was inspired to become a Digital Corps Fellow because I had the opportunity to perform a one month developmental assignment with the Navy’s Chief Data Officer through the New Leader Program. That experience allowed me to see the benefits of using data for decision making, the value of data sharing, and how both of those are extremely underutilized. Being a part of the digital corps will enable me to be a part of the future workforce that changes the way we currently do work in the federal government. I'm excited to be  part of a cohort that will improve federal systems and technology.
+Selyne has always been curious about technology. She started her career building experience in organizational development, recruiting, and program analysis. Her desire to pivot her career to technology was sparked after participating in a development assignment with the Office of the Chief Information Officer within the Department of the Navy. Selyne’s educational background includes a M.S. in Management, B.A. in Linguistics, and a B.A. in international Studies from the University of Florida. In her free time, Selyne likes to sew, grow vegetables and fruit, and play video games. 

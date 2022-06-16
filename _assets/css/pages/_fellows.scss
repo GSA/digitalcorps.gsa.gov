@@ -16,7 +16,9 @@
       @include at-media-max("mobile-lg") {
         min-height: unset;
         @include u-padding-y(0);
-        background-position: 70% 50%;
+        padding-top: 50%;
+       // background-position: 70% 50%;
+        max-height: 600px;
       }
   
       // callout container
@@ -38,6 +40,12 @@
           @include u-padding-top(15);
           position: relative;
           min-height: 500px;
+          transform: translate(-50%, -40%);
+        }
+
+        //<small mobile device
+        @media screen and (max-width: 320px) {
+          transform: translate(-50%, -35%);
         }
   
         .grid-container {
@@ -67,8 +75,11 @@
 .fellow-filters{
   display: flex;
   flex-wrap: wrap;
-  @include u-margin-right(2);
+  //@include u-margin-right(2);
+}
 
+.filter_col{
+  @include u-margin-right(5);
 }
 
 //Fellows Section
@@ -159,4 +170,33 @@
     .verbiage{
         color: white;
     }
+  }
+
+  //Fellow Individual Bio Pages
+  aside {
+    .circle-card{
+      margin-bottom: 3rem;
+      //@include u-margin-right(15);
+    }
+  }
+  .fellow-side-info{
+    display: block;
+    margin-top: 13rem;
+  }
+  .fellow-subtitle{
+    @include u-color("primary");
+    //font-size: small;
+    font-weight: bold;
+    @include u-font('serif', 4);
+  }
+
+  .fellow-list-agency{
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .quote-subtitle{
+    font-weight: bold;
+    text-transform: uppercase;
+    @include u-font('serif', 4);
   }

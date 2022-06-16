@@ -9,9 +9,12 @@ hometown: San Francisco, CA
 university: Tufts University
 region: west
 bio_short: Data scientist passionate about technology with a social impact.
-fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+why: I have always been interested in technology for social good. The Digital Corps perfectly matches what I wanted to do with my degree and skillset, and it seemed like an incredible opportunity to make meaningful change because working in government provides a chance to have a broad impact and support policy-making through technology.
+fun_fact: Ashwini is a twin!
 tags: ['west', '2022','Data_Science_And_Analytics']
 track: ['Data Science And Analytics']
 ---
 
-I have always been interested in technology for social good. This fellowship perfectly matched what I wanted to do with my degree and skillset. It seemed like an incredible opportunity to make meaningful change. Working in government provides a chance to have a broad impact and support policy-making through technology.
+Ashwini previously worked as a Senior Data Integration Specialist at a EdTech software company focused on supporting students who are English learners. She graduated from Tufts University with a B.S. in Computer Science and a B.A. in International Relations with a concentration in International Security. Ashwini is passionate about technology with a social impact and she is also interested in the intersection of ethics, policy, and technology. 
+
+Originally from the San Francisco Bay Area, Ashwini enjoys hiking, trying new foods, and watching football in her free time.

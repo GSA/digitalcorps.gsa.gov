@@ -12,11 +12,6 @@
   url: http://www.cms.gov
   description: The Centers for Medicare & Medicaid Services (CMS) is the agency within the U.S. Department of Health and Human Services (HHS) that administers the nation’s major healthcare programs. The CMS oversees programs including Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and the state and federal health insurance marketplaces.
 
-- name: CFPB
-  fullname: Consumer Financial Protection Bureau
-  url: 
-  description:
-
 - name: CISA
   fullname: Cybersecurity & Infrastructure Security Agency
   url: 

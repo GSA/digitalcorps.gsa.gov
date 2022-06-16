@@ -9,9 +9,10 @@ hometown: Los Angeles, CA
 university: University of California, Los Angeles
 region: south
 bio_short: Data scientist ready to do purpose-driven work. 
-fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+why: "When I learned about the U.S. Digital Corps, it not only seemed like a fit for my experiences, but also a great opportunity to do purpose-driven work."
+fun_fact: 
 tags: ['south', '2022','Data_Science_And_Analytics']
 track: ['Data Science And Analytics']
 ---
 
-When I learned about USDC, it not only seemed like a fit for my experiences, but also a great opportunity to do purpose-driven work.
+Tiffany graduated from the University of California, Los Angeles with a Bachelor of Science in Statistics.

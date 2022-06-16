@@ -9,9 +9,10 @@ hometown: Queens, NY
 university: The George Washington University
 region: northeast
 bio_short: Data scientist ready to work on impactful projects that will have a real effect on the wellbeing of the American public. 
-fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+why: "I am excited about the opportunity to continue learning data science within the federal government and to work on impactful projects that will have a real effect on the well-being of the American public."
+fun_fact: As someone whose family is Garifuna from Honduras, one of Marcelino's goals in life is to build a model of the Garifuna language to help preserve their culture and heritage.
 tags: ['northeast', '2022','Data_Science_And_Analytics']
 track: ['Data Science And Analytics']
 ---
 
-The opportunities to continue learning Data Science within the federal government and work on impactful projects that will have a real effect on the wellbeing of the American public.
+Marcelino graduated with a Bachelor's of Science in Statistics from George Washington University. He enjoys discovering new facts with data as well as building powerful tools with it. Besides analyzing data and coding, Marcelino likes to try new foods, walk through nature reserves, learn about new cultures and histories, and cook.

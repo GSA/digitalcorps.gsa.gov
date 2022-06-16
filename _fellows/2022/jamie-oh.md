@@ -8,10 +8,11 @@ agency: ["DOS"]
 hometown: Honolulu, HI
 university: Johns Hopkins University
 region: west
-bio_short: Product manager ready to positively affect federal digital transformation and public needs. 
-fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+bio_short: Product manager ready to positively affect federal digital transformation and public needs.
+why: "I joined USDC to contribute to impactful projects that will positively affect federal digital transformation and public needs!" 
+fun_fact: Jamie is a lifelong learner and will pick up anything in detail that seems interesting!
 tags: ['west', '2022','Product_Management']
 track: ['Product Management']
 ---
 
-I joined USDC to contribute to impactful projects that will positively affect federal digital transformation and public needs! 
+Jamie is a graduate of Johns Hopkins University, where he studied International Studies and Political Science. Prior to the U.S. Digital Corps, he was a consulting analyst at a defense and technology firm. He also worked previously as a strategy intern at 18F. He is a proud California native and enjoys running trails.

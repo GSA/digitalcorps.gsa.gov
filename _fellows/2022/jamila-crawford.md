@@ -9,9 +9,10 @@ hometown: Atlanta, Georgia
 university: St. Mary's University of Minnesota
 region: south
 bio_short: Cybersecurity specialist with a background in law enforcement.
-fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+why: "In my efforts to transition from law enforcement to information technology, I was searching for an opportunity that would allow me to use the skills and knowledge I learned in school. My experience in applying for roles in the federal government have shown how challenging it is to get an opportunity without having many years of experience. The Digital Corps is giving me and so many others at early stages of our careers the chance to use our education and skills in positions that will make an impact in federal government technology."
+fun_fact: 
 tags: ['south', '2022','Cybersecurity']
 track: ['Cybersecurity']
 ---
 
-I was inspired to join USDC because of its mission to provide opportunities within the federal government that fosters professional development for early-career technologists. In my efforts to transition from law enforcement to information technology, I was searching for an opportunity that would allow me to take the skills and knowledge I acquired in my graduate studies and professional experiences and use them in a role that will be committed to my professional growth and knowledge as an early-career technologist. My experience in applying for roles in the federal government have shown how challenging it is to get an opportunity without having extensive years of experience. The USDC is giving me and so many others a chance to use our education and technical and soft skills in a position that will make an impact in federal government technology at early stages of our career.
+Jamila holds a Master’s in Cybersecurity and is a former law enforcement officer with a passion for cybersecurity and public service. In her spare time, she enjoys photography, traveling, and spending time with family and friends. Jamila’s professional goal is to play a significant role in our nation's cybersecurity efforts to remain resilient and proactive in reducing risks to our cyber and physical infrastructure. 

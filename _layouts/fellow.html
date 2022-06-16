@@ -6,7 +6,6 @@ layout: default
 This template is for a single page that does not have a date associated with it. For example, an about page.
 {% endcomment %}
 
-{% include banner.html title=page.title description=page.description %}
 
 <main id="main-content">
   <div class="usa-layout-docs usa-section">
@@ -15,13 +14,28 @@ This template is for a single page that does not have a date associated with it.
         {% include fellow-aside.html fellow_project=page.project fellow_agency=page.agency fellow_year=page.fellow_year fellow_hometown=page.hometown fellow_track=page.track fellow_education=page.university %}
         <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
          <h2>Biography</h2>
-         <p class="usa-intro">
+         <!-- <p class="usa-intro">
            {{ page.bio_short }}
-         </p>
-          Why Statement: {{ content }}
+         </p> -->
+           {{ content }}
+          <div class="usa-section fellow-quote">
+            <div class="grid-container">
+              <div class="quote">
+                <p class="quote-subtitle">What Inspired You To Join The U.S. Digital Corps?</p>
+                <div class="text-center padding-bottom-4">
+                </div>
+                <div class="verbiage">
+                    "{{page.why}}"
+                </div>
+              </div>
+            </div>
+          </div>
           <div>
-            <p>Fun Fact:</p>
+            {% if page.fun_fact %}
+            <p class="fellow-subtitle">Fun Fact:</p>
             <p>{{page.fun_fact}}</p>
+            {% endif %}
+            {{fellow_agency}}
           </div>
         </div>
       </div>

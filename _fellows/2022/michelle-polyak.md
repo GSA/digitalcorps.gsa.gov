@@ -9,9 +9,12 @@ hometown: Baltimore, Maryland
 university: Johns Hopkins University
 region: east
 bio_short: Designer passionate about connecting communities with resources to grow and thrive. 
-fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+why: "A throughline in my career has been working in organizations that are mission-oriented. While in graduate school, I learned more about careers within the federal government and I became excited about the prospect of modernizing products and services that serve the American public."
+fun_fact: Michelle loves to dance! She grew up dancing in many forms—ballet, jazz, tap and hip-hop— starting from the age of three. Music and dance continue to bring her joy!
 tags: ['east', '2022','Design']
 track: ['Design']
 ---
 
-A throughline in my career has been working in organizations that are mission-oriented. While in graduate school, I learned more about careers within the federal government. I became excited about the prospect of modernizing products and services that serve the American public. Finally, I value intentionality and community; the cohort fellow model was carefully designed to connect diverse individuals united by a common purpose.
+Michelle earned a M.A. in Design Leadership from the Maryland Institute College of Arts and a M.B.A. from Johns Hopkins Carey Business School. She is an Oberlin College graduate with a B.A. in Art History. She is passionate about connecting communities with resources to grow and thrive. Michelle utilizes design thinking methodologies to learn from and advocate for clients when developing experiences, products and services. She believes that all people should have the opportunity to make informed and effective healthcare decisions. 
+
+Michelle is an effective leader who empowers team members to succeed through collaboration, compassion and mentorship. Previously, she worked in arts and media, where she consulted with national foundations and built internal infrastructure for small businesses. She also worked at the intersection of business and design to solve complex problems through research rooted in co-creation and listening. Recent projects include increasing telehealth usage for senior adults, improving recycling containers for city residents, and leading the Baltimore chapter of Design for America, a network of innovators using design thinking skills for local social impact. 

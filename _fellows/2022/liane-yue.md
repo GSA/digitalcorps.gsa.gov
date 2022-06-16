@@ -9,9 +9,12 @@ hometown: Indianapolis, IN
 university: Massachusetts Institute of Technology
 region: west
 bio_short: Designer passionate about expanding human-centered design to include people at the margins. 
-fun_fact: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut quis nostrud laboris. nisi ut aliquip ex ea commodo consequat.
+why: "I was inspired to work in government after a volunteer experience I had working with a family of at-risk women. The U.S. Digital Corps also appealed to me as a way to access high-impact opportunities in the public sector within a supportive community and culture."
+fun_fact: Liane has a pretty bad photic sneeze reflex, which means she is "allergic" to chocolate, wine, and the sun.
 tags: ['west', '2022','Design']
 track: ['Design']
 ---
 
-I was inspired to work in government due to a volunteer experience I had working with a family of at-risk women. The Digital Corps also appealed to me as a way to access high-impact opportunities in public work within a supportive community and culture.
+Liane is a daydreamer who believes in leadership through service, creating opportunities for ourselves and for others, and taking creative chances. She recently left an early career in management consulting to practice civic design because of a gut feeling that when traditional definitions of “human-centered” are expanded to include people at the margins, we all advance. This belief has propelled her from the study of Integrated Design Management at MIT to the City of Boston’s Mayor’s Office of New Urban Mechanics. 
+
+Liane is also a Hoosier, crochet aficionado, and karaoke popstar with a weakness for everything pink and heart-shaped.
