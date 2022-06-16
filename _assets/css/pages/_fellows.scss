@@ -4,8 +4,8 @@
 .fellows-banner {
     .usa-hero {
       @include u-margin-bottom(4);
-      @include u-text("primary-dark");
-      background-image: url(asset_path("stock/Fellows_Banner.png"));
+      @include u-text("white");
+      background-image: url(asset_path("stock/Fellows_Hero_Banner.png"));
       //background-position: 60% 20%;
       //background-color: color("base-darkest");
       position: relative;
@@ -88,7 +88,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: left;
+    //justify-content: left;
     margin-left: 10%;
   }
 
@@ -132,7 +132,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        @include u-border-bottom('1px', 'primary');
+        // @include u-border-bottom('1px', 'primary');
         @include u-padding-bottom(2);
       }
       .circle-card {
@@ -165,6 +165,8 @@
   //Fellow Quote Section
   .fellow-quote{
     @include u-bg("primary");
+    @include u-padding-top(3);
+    @include u-padding-bottom(4);
     color: white;
 
     .verbiage{
@@ -173,6 +175,9 @@
   }
 
   //Fellow Individual Bio Pages
+  .fellow-content{
+    @include u-padding-bottom(4);
+  }
   aside {
     .circle-card{
       margin-bottom: 3rem;
@@ -199,4 +204,8 @@
     font-weight: bold;
     text-transform: uppercase;
     @include u-font('serif', 4);
+  }
+
+  .fellow-funFact{
+    @include u-padding-top(4);
   }
