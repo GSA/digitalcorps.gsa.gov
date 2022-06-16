@@ -5,7 +5,7 @@ image: Kate Vavra-Musser.png
 fellow_year: 2022
 project: ["na"]
 agency: ["CFPB"]
-hometown: Washington, D.C.
+hometown: Stevensville, MI
 university: University of Southern California
 region: east
 bio_short: Data scientist with a background in public health. 
