@@ -5,7 +5,7 @@ image:
 fellow_year: 2022
 project: ["na"]
 agency: ["VA"]
-hometown: Worcester, Massachusetts
+hometown: 
 university: Bentley University
 region: northeast
 bio_short: Designer passionate about inclusivity and accessibility. 
