@@ -8,7 +8,7 @@ agency: ["OPM"]
 hometown: Washington, DC
 university: Georgetown University
 region: east
-bio_short: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+bio_short: Data scientist passionate about racial equity.
 why: I chose to join the USDC as I wanted to leverage the technical knowledge I gained in my master's degree, and apply them to the public sector problems of today.
 fun_fact: She has travelled to and hiked in over 10 national parks, and plans to visit all 63 parks in her lifetime.
 tags: ['east', '2022','Data_Science_And_Analytics']
