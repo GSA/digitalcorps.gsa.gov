@@ -1,7 +1,7 @@
 ---
-id: pierce-lowary
-title: Pierce Lowary
-image: Pierce Lowary.png
+id: sahithi-adari
+title: Sahithi Adari
+image: 
 fellow_year: 2022
 project: ["na"]
 agency: ["OPM"]
