@@ -5,7 +5,7 @@ image: Samira Sadat.png
 fellow_year: 2022
 project: ["na"]
 agency: ["GSA"]
-hometown: Denver, CO
+hometown:
 university: North Dakota State University
 region: west
 bio_short: Software Engineer with a passion for all things social justice. 
