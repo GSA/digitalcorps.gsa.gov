@@ -5,8 +5,8 @@ image: Michelle Polyak.png
 fellow_year: 2022
 project: ["na"]
 agency: ["CMS"]
-hometown: Baltimore, Maryland
-university: Johns Hopkins University
+hometown: Croton-on-Hudson, NY
+university: Johns Hopkins University and Maryland Institute College of Art
 region: east
 bio_short: Designer passionate about connecting communities with resources to grow and thrive. 
 why: "A throughline in my career has been working in organizations that are mission-oriented. While in graduate school, I learned more about careers within the federal government and I became excited about the prospect of modernizing products and services that serve the American public."
