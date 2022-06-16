@@ -4,9 +4,9 @@
   <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
     <div class="usa-prose fellow-img">
       {% if fellow.image %}
-      {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.image_alt_text }}" %}
+      {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.title }}" %}
       {% else %}
-      {% asset "Placeholder.png" class="circle-card float-left margin-right-3" alt="{{ page.image_alt_text }}" %}
+      {% asset "Placeholder.png" class="circle-card float-left margin-right-3" alt="{{ fellow.title  }}" %}
       {% endif %}
     </div>
     <div>
