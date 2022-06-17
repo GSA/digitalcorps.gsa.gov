@@ -16,9 +16,9 @@
       @include at-media-max("mobile-lg") {
         min-height: unset;
         @include u-padding-y(0);
-        padding-top: 50%;
+        padding-top: 60%;
        // background-position: 70% 50%;
-        max-height: 600px;
+        max-height: 690px;
       }
   
       // callout container
@@ -67,6 +67,13 @@
           @include u-margin-top(3);
           @include u-margin-bottom(0);
           color: inherit;
+          padding-right: 13rem;
+          padding-left: 13rem;
+
+          @media screen and (max-width: 990px) {
+            padding-right: 0;
+            padding-left: 0;
+          }
         }
       }
     }
@@ -190,7 +197,7 @@
     display: block;
     margin-top: 13rem;
   }
-  
+
   .fellow-subtitle{
     @include u-color("primary");
     //font-size: small;
