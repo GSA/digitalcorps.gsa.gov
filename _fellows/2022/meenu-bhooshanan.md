@@ -5,7 +5,7 @@ image: Meenu Bhooshanan.png
 fellow_year: 2022
 project: ["na"]
 agency: ["GSA"]
-hometown: N/A
+hometown: Madison, Alabama
 university: Washington University in St. Louis
 region: northeast
 bio_short: Software engineer ready to help redefine national security and make government more equitable. 
