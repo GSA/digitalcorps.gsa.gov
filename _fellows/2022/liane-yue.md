@@ -5,7 +5,7 @@ image: Liane Yue.png
 fellow_year: 2022
 project: ["na"]
 agency: ["HHS"]
-hometown: Indianapolis, IN
+hometown: Carmel, IN
 university: Massachusetts Institute of Technology
 region: west
 bio_short: Designer passionate about expanding human-centered design to include people at the margins. 
