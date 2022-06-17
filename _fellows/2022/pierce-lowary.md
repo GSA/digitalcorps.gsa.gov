@@ -5,7 +5,7 @@ image: Pierce Lowary.png
 fellow_year: 2022
 project: ["na"]
 agency: ["DOS"]
-hometown: Dallas, TX
+hometown: Dallas, Texas
 university: Stanford University
 region: south
 bio_short: Cybersecurity specialist passionate about making our nation a bit more secure for everyone. 
@@ -15,4 +15,6 @@ tags: ['south', '2022','Cybersecurity']
 track: ['Cybersecurity']
 ---
 
-Pierce is a public interest technologist passionate about solving the cyber, technological, and security challenges facing our nation and its people. As the son of an American dad and Iranian mom, he is ever mindful of the freedoms he and his family enjoy in the United States and is driven to defend them. Pierce graduated from Stanford University with a B.S. in computer science. Outside of work, he enjoys reading, hiking, diving into theology, and learning about Persian poetry and culture.
+Pierce is a public interest technologist passionate about solving the cyber, technological, and security challenges facing our nation and its people. As the son of an American dad and Iranian mom, he is ever mindful of the freedoms he and his family enjoy in the United States and is propelled to protect them.
+
+Pierce graduated from Stanford University with a B.S. in computer science and previously supported the election security mission at CISA. Outside of work, he enjoys reading, hiking, flight simulation, diving into theology, and learning about Persian culture.
