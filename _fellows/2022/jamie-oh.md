@@ -5,7 +5,7 @@ image: Jamie Oh.png
 fellow_year: 2022
 project: ["na"]
 agency: ["DOS"]
-hometown: Honolulu, HI
+hometown: Irvine, CA
 university: Johns Hopkins University
 region: west
 bio_short: Product manager ready to positively affect federal digital transformation and public needs.
