@@ -5,7 +5,7 @@ image: Trey Gordner.png
 fellow_year: 2022
 project: ["na"]
 agency: ["HHS"]
-hometown: Honolulu, Hawaii
+hometown: Columbia, SC
 university: Virginia Polytechnic Institute and State University
 region: west
 bio_short: Product manager with a passion for artificial intelligence and urban planning.
