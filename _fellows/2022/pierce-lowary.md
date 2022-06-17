@@ -5,7 +5,7 @@ image: Pierce Lowary.png
 fellow_year: 2022
 project: ["na"]
 agency: ["DOS"]
-hometown: Dallas, Texas
+hometown: Dallas, TX
 university: Stanford University
 region: south
 bio_short: Cybersecurity specialist passionate about making our nation a bit more secure for everyone. 
