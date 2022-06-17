@@ -5,7 +5,7 @@ image:  Olivia Haring.png
 fellow_year: 2022
 project: ["na"]
 agency: ["EPA"]
-hometown: Cincinnati, Ohio
+hometown: Cincinnati, OH
 university: University of Cincinnati
 region: west
 bio_short: Cybersecurity specialist ready to help develop solutions that better serve all Americans. 
