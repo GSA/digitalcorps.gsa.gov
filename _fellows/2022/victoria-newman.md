@@ -5,7 +5,7 @@ image: Victoria Newman.png
 fellow_year: 2022
 project: ["na"]
 agency: ["CISA"]
-hometown: Birmingham, AL
+hometown: Tuscaloosa, AL
 university: Florida Institute of Technology
 region: south
 bio_short: Cybersecurity specialist ready to use her skills to contribute to our nation. 
