@@ -5,7 +5,7 @@ image: Tiffany Feng.png
 fellow_year: 2022
 project: ["na"]
 agency: ["GSA"]
-hometown: Los Angeles, CA
+hometown: San Gabriel Valley, CA
 university: University of California, Los Angeles
 region: south
 bio_short: Data scientist ready to do purpose-driven work. 
