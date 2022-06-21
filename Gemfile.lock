@@ -122,7 +122,7 @@ GEM
     public_suffix (4.0.7)
     racc (1.6.0)
     racc (1.6.0-java)
-    rack (2.2.3)
+    rack (2.2.3.1)
     rainbow (3.1.1)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
