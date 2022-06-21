@@ -4,7 +4,7 @@ title: Karley Thurston
 image: Karley Thurston.png
 fellow_year: 2022
 project: ["na"]
-agency: ["SBA"]
+agency: #["SBA"]
 hometown: Auburn, WA
 university: University of Michigan
 region: west
