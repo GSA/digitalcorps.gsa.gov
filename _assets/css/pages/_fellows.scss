@@ -135,7 +135,7 @@
       }
     }
     .fellow-img {
-      @include at-media(desktop) {
+      @include at-media("desktop") {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -178,6 +178,14 @@
 
     .verbiage{
         color: white;
+    }
+  }
+
+  //Pagination
+  .paginate-link{
+    @include at-media-max("mobile-lg") {
+    display: block;
+    margin-top: 1.5rem;
     }
   }
 
