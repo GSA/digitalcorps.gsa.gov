@@ -5,7 +5,7 @@ image: Karley Thurston.png
 fellow_year: 2022
 project: ["na"]
 agency: #["SBA"]
-hometown: Ann Arbor, MI
+hometown: Auburn, WA
 university: University of Michigan
 region: west
 bio_short: Product manager with a background in public policy. 
