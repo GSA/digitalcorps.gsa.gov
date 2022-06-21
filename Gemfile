@@ -17,6 +17,7 @@ group :jekyll_plugins do
   gem "jekyll-assets", "~> 3.0"
   gem "jekyll-include-cache"
   gem 'jekyll-redirect-from'
+  gem 'jekyll-paginate-v2', "3.0.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
