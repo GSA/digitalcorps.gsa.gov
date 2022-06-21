@@ -15,6 +15,6 @@ tags: ['west', '2022','Design']
 track: ['Design']
 ---
 
-Liane is a daydreamer who believes in leadership through service, creating opportunities for ourselves and for others, and taking creative chances. She recently left an early career in management consulting to practice civic design because of a gut feeling that when traditional definitions of “human-centered” are expanded to include people at the margins, we all advance. This belief has propelled her from the study of Integrated Design Management at MIT to the City of Boston’s Mayor’s Office of New Urban Mechanics. 
+Liane is a daydreamer who believes in leadership through service, creating opportunities for ourselves and for others, and taking creative chances. She recently left an early career in management consulting to practice civic design because of a gut feeling that when traditional definitions of “human-centered” are expanded to include people at the margins, we all advance. This belief has propelled her from the study of Integrated Design Management at MIT to the City of Boston’s Mayor’s Office of New Urban Mechanics to her latest adventure: Federal Government.
 
 Liane is also a Hoosier, crochet aficionado, and karaoke popstar with a weakness for everything pink and heart-shaped.
