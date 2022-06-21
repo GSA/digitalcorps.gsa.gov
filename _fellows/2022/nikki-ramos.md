@@ -5,7 +5,7 @@ image: Nikki Ramos.png
 fellow_year: 2022
 project: ["na"]
 agency: ["USCIS"]
-hometown: San Francisco, CA
+hometown: Pittsburg, CA
 university: University of California, Los Angeles
 region: west
 bio_short: Designer ready to build intuitive, efficient, and enjoyable products with impact. 
