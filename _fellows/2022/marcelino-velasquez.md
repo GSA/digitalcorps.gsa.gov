@@ -1,4 +1,4 @@
----
+<!-- ---
 id: marcelino-velasquez
 title: Marcelino Velasquez
 image: Marcelino Velasquez.png
@@ -15,4 +15,4 @@ tags: ['northeast', '2022','Data_Science_And_Analytics']
 track: ['Data Science And Analytics']
 ---
 
-Marcelino graduated with a Bachelor's of Science in Statistics from George Washington University. He enjoys discovering new facts with data as well as building powerful tools with it. Besides analyzing data and coding, Marcelino likes to try new foods, walk through nature reserves, learn about new cultures and histories, and cook.
+Marcelino graduated with a Bachelor's of Science in Statistics from George Washington University. He enjoys discovering new facts with data as well as building powerful tools with it. Besides analyzing data and coding, Marcelino likes to try new foods, walk through nature reserves, learn about new cultures and histories, and cook. -->

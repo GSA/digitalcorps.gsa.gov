@@ -4,7 +4,7 @@ title: John Remensperger
 image: John Remensperger.png
 fellow_year: 2022
 project: ["na"]
-agency: ["SBA"]
+agency: #["SBA"]
 hometown: Washington, DC
 university: University of Pennsylvania
 region: east
