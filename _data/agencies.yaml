@@ -22,10 +22,10 @@
   url: 
   description:
 
-- name: EPA
-  fullname: Environmental Protection Agency
-  url: 
-  description:
+# - name: EPA
+#   fullname: Environmental Protection Agency
+#   url: 
+#   description:
 
 - name: GSA
   fullname: General Services Administration
@@ -46,10 +46,10 @@
   url: http://www.whitehouse.gov/administration/eop/ostp
   description:
 
-- name: SBA
-  fullname: Small Business Administration
-  url: http://www.sba.gov
-  description:
+# - name: SBA
+#   fullname: Small Business Administration
+#   url: http://www.sba.gov
+#   description:
 
 - name: DOS
   fullname: Department of State

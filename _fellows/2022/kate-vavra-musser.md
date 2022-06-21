@@ -1,4 +1,4 @@
----
+<!-- ---
 id: kate-vavra-musser
 title: Kate Vavra-Musser
 image: Kate Vavra-Musser.png
@@ -15,4 +15,4 @@ tags: ['east', '2022','Data_Science_And_Analytics']
 track: ['Data Science And Analytics']
 ---
 
-Kate received her B.S. in biology, M.S. in global environmental health, and a PhD in population, health, and place. She is most energized when she is able use her experience and passion for research and data science to tackle issues related to social equity, environmental sustainability, and public health. Because of her passion for work that creates change for social good, Kate is extremely excited for the opportunity to serve the United States people. In her free time, Kate enjoys traveling, reading, painting and drawing, baking and cooking, ice hockey, and is always looking to learn new things and explore the world.
+Kate received her B.S. in biology, M.S. in global environmental health, and a PhD in population, health, and place. She is most energized when she is able use her experience and passion for research and data science to tackle issues related to social equity, environmental sustainability, and public health. Because of her passion for work that creates change for social good, Kate is extremely excited for the opportunity to serve the United States people. In her free time, Kate enjoys traveling, reading, painting and drawing, baking and cooking, ice hockey, and is always looking to learn new things and explore the world. -->
