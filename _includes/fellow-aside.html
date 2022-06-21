@@ -25,6 +25,8 @@
     {% endif %}
 
     <p class="fellow-subtitle">Education: <div>{{ include.fellow_education }}</div></p>
-    <p class="fellow-subtitle">Hometown: <div>{{ include.fellow_hometown }}</div></p>
+    {% if include.fellow_hometown %}
+      <p class="fellow-subtitle">Hometown: <div>{{ include.fellow_hometown }}</div></p>
+    {% endif %}
   </div>
 </aside>
