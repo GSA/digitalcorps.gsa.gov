@@ -12,7 +12,7 @@ bio_short: Developer with a passion for how artificial intelligence is shaping o
 why: "I joined the Digital Corps for an opportunity to give back to the country that has given so much to me."
 fun_fact: Anastasia rescued a Chihuahua 12 years ago from a subway station.
 tags: ['east', '2022','Software_Engineering']
-track: ['Software engineering']
+track: ['Software Engineering']
 ---
 
 Anastasia earned a B.A. in Computer Science from Columbia University, where she took part in the Emerging Scholars program, Columbia Build Lab, and Design @ Columbia. She is a developer with a passion for how artificial intelligence is shaping our world. 
