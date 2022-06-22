@@ -8,7 +8,7 @@ agency: ["ACF"]
 hometown: Chicago, IL
 university: University of Chicago
 region: west
-bio_short: Product manager with a background in sociology and applied mathematics. 
+bio_short: Product manager with a background in sociology and applied mathematics 
 why: "I was inspired to join USDC to leverage the skills I’ve built thus far, meet inspiring peers, learn at a rapid pace, and work on meaningful projects that are of service to people across the country."
 fun_fact: Kira has designed and made multiple board games and once wrote and hosted a virtual trivia game for over 800 people!
 tags: ['west', '2022','Product_Management']

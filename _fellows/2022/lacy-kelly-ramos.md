@@ -8,7 +8,7 @@ agency: ["USCB"]
 hometown:
 university: University of California, Berkeley
 region: west
-bio_short: Designer ready to enhance resources for citizens across the country. 
+bio_short: Designer ready to enhance resources for citizens across the country 
 why: "As a designer and technologist working with digital products, I’ve often felt a step (or two) removed from the impact of my work. After spending time in various roles for nonprofits and state agencies, I became more inspired by what my skill set can offer to public needs and the outcome of those efforts. It was exciting to learn about the Digital Corps and the exceptional work that many federal agencies are undertaking to enhance resources for citizens across the country and I'm excited to get started."
 fun_fact: If there is a show about travel, Lacy has probably seen it. Learning about, exploring, and photographing new places is her favorite pastime.
 tags: ['west', '2022','Design']

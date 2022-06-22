@@ -8,7 +8,7 @@ agency: ["VA"]
 hometown: Hong Kong
 university: University of San Francisco
 region: east
-bio_short: Product manager ready to help build technology that matters.
+bio_short: Product manager ready to help build technology that matters 
 why: I want to create impact, connect with the civic tech community, and hopefully become an advocate to influence others. 
 fun_fact: Christy enjoys solo traveling.
 tags: ['east', '2022','Product_Management']

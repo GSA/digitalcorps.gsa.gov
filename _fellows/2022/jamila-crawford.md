@@ -8,7 +8,7 @@ agency: ["CISA"]
 hometown: Atlanta, GA
 university: St. Mary's University of Minnesota
 region: south
-bio_short: Cybersecurity specialist with a background in law enforcement.
+bio_short: Cybersecurity specialist with a background in law enforcement
 why: "In my efforts to transition from law enforcement to information technology, I was searching for an opportunity that would allow me to use the skills and knowledge I learned in school. My experience in applying for roles in the federal government have shown how challenging it is to get an opportunity without having many years of experience. The Digital Corps is giving me and so many others at early stages of our careers the chance to use our education and skills in positions that will make an impact in federal government technology."
 fun_fact: Jamila enjoys writing musical poetry.
 tags: ['south', '2022','Cybersecurity']
