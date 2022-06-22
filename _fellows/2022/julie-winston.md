@@ -8,7 +8,7 @@ agency: ["DOS"]
 hometown: New York, NY
 university: The University of Texas at Austin
 region: east
-bio_short: Product manager with a passion for good data ethics and governance. 
+bio_short: Product manager with a passion for good data ethics and governance 
 why: "The Digital Corps presented the perfect opportunity for me to put my education into practice, be a champion of good data ethics and governance, and make a meaningful contribution advocating for the public and my community. I hope my efforts will serve people well and help to build more trust in government."
 fun_fact: Julie is a huge film and television fan! For years she hosted a Rob Reiner Film Festival, complete with screenings of the entire Rob Reiner directorial oeuvre, movie-related food, and an Oscars-like “Meathead Awards” ceremony. Mr. Reiner was invited, and while he did not attend, he graciously sent a personal note expressing his surprise and delight to be honored in this way, (and that he thought they were a little nuts to be doing this.)
 

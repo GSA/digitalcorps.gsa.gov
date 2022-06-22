@@ -8,7 +8,7 @@ agency: ["CMS"]
 hometown: Croton-on-Hudson, NY
 university: Johns Hopkins University and Maryland Institute College of Art
 region: east
-bio_short: Designer passionate about connecting communities with resources to grow and thrive. 
+bio_short: Designer passionate about connecting communities with resources to grow and thrive 
 why: "A throughline in my career has been working in organizations that are mission-oriented. While in graduate school, I learned more about careers within the federal government and I became excited about the prospect of modernizing products and services that serve the American public."
 fun_fact: Michelle loves to dance! She grew up dancing in many forms—ballet, jazz, tap and hip-hop— starting from the age of three. Music and dance continue to bring her joy!
 tags: ['east', '2022','Design']

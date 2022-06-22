@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Miami, FL
 university: University of Florida
 region: southeast
-bio_short: Software engineer with experience on affective computing and tech policy.
+bio_short: Software engineer with experience in affective computing and tech policy
 why: "The Digital Corps gives me an opportunity to use my technical skills to reach a wide range of people. I appreciate the fact that the program is designed to allow Fellows to grow in their careers and to provide a community where everyone values public service and meaningful work"
 fun_fact: Isabel originally considered studying engineering because she loves rollercoasters and wanted to build them.
 tags: ['southeast', '2022','Software_Engineering']

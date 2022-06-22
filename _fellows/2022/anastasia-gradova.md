@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Columbus, OH
 university: Columbia University
 region: east
-bio_short: Developer with a passion for how Artificial Intelligence is shaping our world.
+bio_short: Developer with a passion for how artificial intelligence is shaping our world
 why: "I joined the Digital Corps for an opportunity to give back to the country that has given so much to me."
 fun_fact: Anastasia rescued a Chihuahua 12 years ago from a subway station.
 tags: ['east', '2022','Software_Engineering']

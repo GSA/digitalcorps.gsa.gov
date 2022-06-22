@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Seattle, WA
 university: Seattle Central College
 region: west
-bio_short: Software engineer ready to enact positive change in the world. 
+bio_short: Software engineer ready to enact positive change in the world 
 why: "I am excited for the chance to do meaningful work with a measurable positive impact on people's lives."
 fun_fact: Lewis publishes an art and literature magazine called Beholder.
 tags: ['west', '2022','Software_Engineering']

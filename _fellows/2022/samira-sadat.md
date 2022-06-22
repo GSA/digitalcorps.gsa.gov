@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown:
 university: North Dakota State University
 region: west
-bio_short: Software Engineer with a passion for all things social justice. 
+bio_short: Software engineer with a passion for all things social justice
 why: "Previously, I felt a disconnect between the tech work I did and my desire to work on issues I am passionate about. I am joining the U.S. Digital Corps because I want to serve the American people with my tech skills. USDC's values of integrity, inclusion, and impact align well with my own."
 fun_fact: Samira is passionate about animal rights and has been vegan for four years.
 tags: ['west', '2022','Software_Engineering']

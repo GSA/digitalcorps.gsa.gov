@@ -8,7 +8,7 @@ agency: ["GSA"]
 hometown: Queens, NY
 university: The George Washington University
 region: northeast
-bio_short: Data scientist ready to work on impactful projects that will have a real effect on the wellbeing of the American public. 
+bio_short: Data scientist ready to work on impactful projects that will have a real effect on the wellbeing of the American public 
 why: "I am excited about the opportunity to continue learning data science within the federal government and to work on impactful projects that will have a real effect on the well-being of the American public."
 fun_fact: As someone whose family is Garifuna from Honduras, one of Marcelino's goals in life is to build a model of the Garifuna language to help preserve their culture and heritage.
 tags: ['northeast', '2022','Data_Science_And_Analytics']

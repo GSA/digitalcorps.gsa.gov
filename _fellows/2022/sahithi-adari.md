@@ -8,11 +8,11 @@ agency: ["OPM"]
 hometown: Washington, DC
 university: Georgetown University
 region: east
-bio_short: Data scientist passionate about racial equity.
+bio_short: Data scientist passionate about racial equity
 why: I chose to join the USDC as I wanted to leverage the technical knowledge I gained in my master's degree, and apply them to the public sector problems of today.
 fun_fact: She has travelled to and hiked in over 10 national parks, and plans to visit all 63 parks in her lifetime.
 tags: ['east', '2022','Data_Science_And_Analytics']
-track: ['Data Science And Analytics']
+track: ['Data Science and Analytics']
 ---
 
 Sahithi graduated from Georgetown University with a master's degree in Data Science and Public Policy with a specific focus on racial equity, technology policy, and the intersection of the two. Her particular area of research surrounded quantifying digital redlining in the United States via various machine learning algorithms.
