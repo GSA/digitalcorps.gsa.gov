@@ -1,7 +1,7 @@
 ---
 id: nina-anusavice
 title: Nina Anusavice
-image: 
+image: Nina Anusavice.png
 fellow_year: 2022
 project: ["na"]
 agency: ["VA"]
