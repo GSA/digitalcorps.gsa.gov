@@ -1,0 +1,38 @@
+{% assign aria_id = fellow.title | url_encode | truncate: 15, "" %}
+{% for fellow in paginator.posts %}
+<div class="fellow-card">
+  <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
+    <div class="usa-prose fellow-img">
+      {% if fellow.image %}
+      {% asset "{{ fellow.image }}" class="circle-card" alt="{{ fellow.title }}" %}
+      {% else %}
+      {% asset "Placeholder.png" class="circle-card float-left margin-right-3" alt="{{ fellow.title  }}" %}
+      {% endif %}
+    </div>
+    <div>
+      <h2 class="body-intro--bold" id="{{ aria_id }}">{{ fellow.title }}</h2>
+      <p class="content">
+        {{ fellow.bio_short }}
+      </p>
+    </div>
+  </a>
+  <p>
+    <span class="fellow-card--fellow-year">{{ fellow.fellow_year }} Fellow</span>
+  </p>
+  <!-- <div class="fellow-card--specialty">
+    {% assign fellow_tracks = site.data.fellow-tracks| where_exp:'track', "fellow.tags contains track.url_name" %}
+    {% for track in fellow_tracks%}
+    {% if forloop.first %}
+    <ul>
+      {% endif %}
+      <li><span class="{{ track.url_name }}">{{ track.display_name }}</span></li>
+      {% if forloop.last %}
+    </ul>
+    {% endif %}
+    {% endfor %}
+  </div> -->
+</div>
+
+{% endfor %}
+
+
