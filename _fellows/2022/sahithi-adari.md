@@ -5,7 +5,7 @@ image: Sahithi Adari.png
 fellow_year: 2022
 project: ["na"]
 agency: ["OPM"]
-hometown: Washington, DC
+hometown: Cary, NC
 university: Georgetown University
 region: east
 bio_short: Data scientist passionate about racial equity
