@@ -116,6 +116,12 @@
         outline-color: color("primary-vivid");
         outline-width: 8px;
     }
+    &:focus-visible {
+        @include u-bg("transparent");
+        outline-style: solid;
+        outline-color: color("primary-vivid");
+        outline-width: 8px;
+    }
 
     a {
         @include u-margin(0);
@@ -126,6 +132,10 @@
         text-transform: uppercase;
 
         &:hover {
+            @include u-bg("transparent");
+            text-decoration: none;
+        }
+        &:focus-visible {
             @include u-bg("transparent");
             text-decoration: none;
         }
