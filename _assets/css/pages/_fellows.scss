@@ -122,6 +122,11 @@
           text-decoration: underline;
         }
       }
+      &:focus {
+        h2 {
+          text-decoration: underline;
+        }
+      }
       .body-intro--bold {
         color: color('primary');
         @include u-font('serif', 9); // 22 px -- h2 sizing overrides the typography.scss size declaration
