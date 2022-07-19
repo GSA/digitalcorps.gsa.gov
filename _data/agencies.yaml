@@ -22,10 +22,10 @@
   url: 
   description:
 
-# - name: EPA
-#   fullname: Environmental Protection Agency
-#   url: 
-#   description:
+- name: EPA
+  fullname: Environmental Protection Agency
+  url: 
+  description:
 
 - name: GSA
   fullname: General Services Administration
