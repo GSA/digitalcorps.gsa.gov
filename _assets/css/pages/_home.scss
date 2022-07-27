@@ -198,7 +198,7 @@
     }
     .body-intro--bold {
       color: black;
-      @include u-font('serif', 9); // 22 px -- h2 sizing overrides the typography.scss size declaration
+      @include u-font('serif', 9); 
       margin: 0; // using padding instead of default margin creates a cleaner focus outline
       @include u-padding-top(2.5);
       @include u-padding-bottom(1.5);
