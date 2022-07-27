@@ -150,3 +150,134 @@
     background-position: -30px 0;
   }
 }
+
+
+//Press Article Section
+.press-scroller{
+  display: grid;
+  gap: var(--size-3);
+  grid-auto-flow: column;
+  grid-auto-columns: 33%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  @include u-padding(2) ;
+}
+
+.snap-inline{
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 1rem;
+}
+.snap-inline > * {
+  scroll-snap-align: start;
+}
+.press-card {
+  @include u-padding(2);
+  @include u-margin(3);
+  @include u-bg("base-lighter");
+  min-width: 430px;
+  max-width: 431px;
+  min-height: 300px;
+  white-space: normal;
+  box-shadow: var(--shadow-2);
+  
+  // <tablet
+  @include at-media-max("tablet") {
+    @include u-margin-top(1);
+    @include u-margin-x(1);
+    max-width: 100%;
+}
+  a {
+    border: none;
+    text-decoration: none;
+    @include u-color('base-darker');
+    &:hover {
+      h2 {
+        text-decoration: underline;
+      }
+    }
+    .body-intro--bold {
+      color: black;
+      @include u-font('serif', 9); // 22 px -- h2 sizing overrides the typography.scss size declaration
+      margin: 0; // using padding instead of default margin creates a cleaner focus outline
+      @include u-padding-top(2.5);
+      @include u-padding-bottom(1.5);
+    }
+    .content {
+      margin-top: 0;
+      padding-top: 0;
+      @include u-font('serif', 2);
+    }
+  }
+  .press-img {
+    @include at-media("desktop") {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // @include u-border-bottom('1px', 'primary');
+      @include u-padding-bottom(2);
+    }
+    
+  }
+}
+
+.Media {
+  border-top-style: solid;
+  border-top-color: #0076D6;
+  border-width: thick;
+
+  .article-type{
+    color: #0076D6;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include u-font('serif', 4);
+    @include u-margin-bottom(1);
+
+  }
+}
+.Blog {
+  border-top-style: solid;
+  border-top-color: #212463;
+  border-width: thick;
+
+  .article-type{
+    color: #212463;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include u-font('serif', 4);
+    @include u-margin-bottom(1);
+
+  }
+}
+.News {
+  border-top-style: solid;
+  border-top-color: #E41D3D;
+  border-width: thick;
+  
+
+  .article-type{
+    color: #E41D3D;
+    font-weight: bold;
+    text-transform: uppercase;
+    @include u-font('serif', 4);
+    @include u-margin-bottom(1);
+
+  }
+}
+
+.press-card--press-year {
+  display: inline-block;
+  width: 100%;
+  border-top-style: solid;
+  border-top-color: black;
+  border-width: thin;
+  color: black;
+  @include u-font('serif', 2);
+  @include u-margin-top(1);
+
+  span {
+    color: color('blue-warm-50v');
+  }
+
+}
+
