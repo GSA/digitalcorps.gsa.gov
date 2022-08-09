@@ -160,6 +160,7 @@
   grid-auto-columns: 33%;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
+  overflow: hidden;
 
   @include u-padding(2) ;
 }
@@ -280,4 +281,76 @@
   }
 
 }
+
+
+//Carousel CSS
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.carousel-container {
+  width: 1280px;
+  margin: 50px auto;
+  min-height: 200px;
+  position: relative;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .carousel-container {
+    width: 85%;
+  }
+}
+.carousel-container .carousel-inner {
+  overflow: hidden;
+}
+.carousel-container .track {
+  display: inline-flex;
+  transition: transform 0.5s;
+}
+.carousel-container .card-container {
+  //width: 259px;
+  flex-shrink: 0;
+ // height: 250px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  scroll-snap-align: start;
+}
+
+.nav button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.nav .prev {
+  left: -30px;
+  display: none;
+}
+.nav .prev.show {
+  display: block;
+}
+.nav .next {
+  right: -30px;
+}
+.nav .next.hide {
+  display: none;
+}
+
+.press-card > * {
+  flex: 1;
+}
+.press-card .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
 
