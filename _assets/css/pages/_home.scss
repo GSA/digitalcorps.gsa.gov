@@ -155,7 +155,6 @@
 //Press Article Section
 .press-scroller{
   display: grid;
-  gap: var(--size-3);
   grid-auto-flow: column;
   grid-auto-columns: 33%;
   overflow-x: auto;
@@ -325,7 +324,7 @@
 }
 .carousel-container .card-container {
   //width: 259px;
-  flex-shrink: 0;
+  //flex-shrink: 0;
  // height: 250px;
   padding-right: 15px;
   box-sizing: border-box;
