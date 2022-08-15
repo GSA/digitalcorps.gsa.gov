@@ -4,12 +4,12 @@
     <div class="carousel-inner">
       <div class="track">
         
-          {% assign sorted = site.articles | sort: 'date' | reverse %}
+          {% assign sorted = site.articles | sort: 'pageOrderID' | reverse %}
           {% assign aria_id = press.title | url_encode | truncate: 15, "" %}
           {% for article in sorted %}
           <div class="card-container">
           <div class="press-card {{article.type}}">
-            <a href="{{ site.baseurl }}{{ article.url }}" aria-labelledby="{{ aria_id }}">
+            <a href="{{ article.external_url }}" target="_blank" aria-labelledby="{{ aria_id }}">
               <div class="article-type">{{article.type}}</div>
               <div class="usa-prose press-img">
                 {% if article.image %}
@@ -25,9 +25,9 @@
                 </p>
               </div>
             </a>
-            <p>
+            <!-- <p>
               <span class="press-card--press-year">{{ article.posted }} </span>
-            </p>
+            </p> -->
           </div>
         
       </div>
@@ -38,16 +38,12 @@
       </div>
     </div>
     <div class="nav">
-      <button class="prev">
-        <i class="material-icons">
-        keyboard_arrow_left
-        </i>
-      </button>
-      <button class="next">
-        <i class="material-icons">
-        keyboard_arrow_right
-        </i>
-      </button>
+      <div class="prev">
+        
+      </div>
+      <div class="next">
+        
+      </div>
     </div>
   </div>
 </section>

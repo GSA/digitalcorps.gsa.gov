@@ -1,10 +1,10 @@
 ---
-id: 1
+pageOrderID: 1
 title: Article 1
 image: Press_Placeholder.png
 posted: 'Jan 23, 2022'
 date: Jan 23, 2022
-url: "https://google.com"
+external_url: "https://google.com"
 type: Media
 pin: true
 ---

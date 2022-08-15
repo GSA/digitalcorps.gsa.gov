@@ -1,10 +1,10 @@
 ---
-id: 3
+pageOrderID: 3
 title: Article 3
 image: Press_Placeholder.png
 posted: 'Mar 6, 2022'
 date: Mar 6, 2022
-url: "https://google.com"
+external_url: "https://google.com"
 type: News
 ---
 

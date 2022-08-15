@@ -160,6 +160,7 @@ assets:
     - _assets/images/logo
     - _assets/images/social
     - _assets/images/stock
+    - _assets/images/articles
     - _assets/images/agencies
     - _assets/images/fellows/2022
     - node_modules/uswds/dist/img
