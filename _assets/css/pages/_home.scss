@@ -218,6 +218,10 @@
       // @include u-border-bottom('1px', 'primary');
       @include u-padding-bottom(2);
     }
+    .img-size{
+      width: 400px;
+      height: 230px;
+    }
     
   }
 }
