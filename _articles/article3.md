@@ -1,10 +1,10 @@
 ---
-pageOrderID: 3
-title: Article 3
-image: Press_Placeholder.png
-posted: 'Mar 6, 2022'
-date: Mar 6, 2022
-external_url: "https://google.com"
+pageOrderID: 98
+title: GSA Announces First Cohort of 40 U.S. Digital Corps Fellows
+image: Default_Press_Image.png
+posted: 'April 7, 2020'
+date: April 7, 2020
+external_url: "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-announces-first-cohort-of-40-us-digital-corps-fellows-06212022"
 type: News
 ---
 
