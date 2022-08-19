@@ -9,4 +9,4 @@ type: Blog
 pin: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+We’re excited to announce that later this month, GSA and Federal agencies will welcome more than 40 Fellows as part of the inaugural cohort of the U.S. Digital Corps. The Fellows will be spread across 13 Federal agencies and help advance key Administration priorities—from helping make Federal services easier for the American people to access, to enhancing our Nation’s cybersecurity, to implementing the Federal IT operating plan, and much more.

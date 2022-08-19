@@ -8,4 +8,4 @@ external_url: "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-announces
 type: News
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Today, the Biden-Harris Administration welcomed 40 U.S. Digital Corps fellows who will serve at 13 agencies across the federal government. Over the next two years, they will help shape a more equitable, effective, and secure digital government for the public.
