@@ -180,7 +180,6 @@
   min-height: 300px;
   height: 100%;
   white-space: normal;
-  box-shadow: var(--shadow-2);
   
   // <tablet
   @include at-media-max("tablet") {
@@ -202,15 +201,17 @@
     }
     .body-intro--bold {
       color: black;
-      @include u-font('serif', 9); 
+      @include u-font('sans', 9); 
       margin: 0; // using padding instead of default margin creates a cleaner focus outline
       @include u-padding-top(2.5);
       @include u-padding-bottom(1.5);
+      line-height: 30px;
     }
-    .content {
+    p {
       margin-top: 0;
       padding-top: 0;
-      @include u-font('serif', 2);
+      line-height: 21px;
+      @include u-font('sans', 5);
     }
   }
   .press-img {
@@ -237,7 +238,7 @@
     color: #791124;
     font-weight: bold;
     text-transform: uppercase;
-    @include u-font('serif', 4);
+    @include u-font('sans', 4);
     @include u-margin-bottom(1);
 
   }
@@ -251,7 +252,7 @@
     color: #0076D6;
     font-weight: bold;
     text-transform: uppercase;
-    @include u-font('serif', 4);
+    @include u-font('sans', 4);
     @include u-margin-bottom(1);
 
   }
@@ -265,23 +266,24 @@
     color: #212463;
     font-weight: bold;
     text-transform: uppercase;
-    @include u-font('serif', 4);
+    @include u-font('sans', 4);
     @include u-margin-bottom(1);
 
   }
 }
 .News {
   border-top-style: solid;
-  border-top-color: #E41D3D;
+  //border-top-color: #E41D3D;
+  @include u-border-color('secondary-dark');
   border-width: thick;
   
 
   .article-type{
-    @include u-color('red-cool-50v');
+    @include u-color('secondary-dark');
    // color: #E41D3D;
     font-weight: bold;
     text-transform: uppercase;
-    @include u-font('serif', 4);
+    @include u-font('sans', 4);
     @include u-margin-bottom(1);
 
   }
