@@ -277,7 +277,8 @@
   
 
   .article-type{
-    color: #E41D3D;
+    @include u-color('red-cool-50v');
+   // color: #E41D3D;
     font-weight: bold;
     text-transform: uppercase;
     @include u-font('serif', 4);

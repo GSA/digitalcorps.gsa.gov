@@ -1,4 +1,5 @@
 ---
+layout: default
 pageOrderID: 99
 title: US Digital Corps fellows tackle major projects across government
 image: article2.jpg
@@ -8,6 +9,5 @@ external_url: "https://govmatters.tv/tech-federal-government-digital-technology-
 type: Press
 ---
 
-<title>{{ page.title }} </title>
 
 The General Services Administration (GSA) has announced its first group of 40 U.S. Digital Corps fellows. Serving across 13 federal agencies, the group will tackle priority projects in areas like data science and analytics and cybersecurity.
