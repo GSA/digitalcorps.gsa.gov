@@ -10,4 +10,6 @@ type: Blog
 pin: true
 ---
 
-We’re excited to announce that later this month, GSA and Federal agencies will welcome more than 40 Fellows as part of the inaugural cohort of the U.S. Digital Corps. The Fellows will be spread across 13 Federal agencies and help advance key Administration priorities—from helping make Federal services easier for the American people to access, to enhancing our Nation’s cybersecurity, to implementing the Federal IT operating plan, and much more.
+"U.S. Digital Corps Fellows will play a key role in delivering for the American people — and they also represent the people they'll serve.
+
+I am honored to support the U.S. Digital Corps in my role as Federal Chief Information Officer. Creating new ways to bring technology talent into the Federal Government is crucial to our efforts to protect, serve, and inspire the American people in today’s digital age."

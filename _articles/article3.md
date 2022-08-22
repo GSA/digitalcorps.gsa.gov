@@ -10,4 +10,6 @@ type: News
 ---
 
 
-Today, the Biden-Harris Administration welcomed 40 U.S. Digital Corps fellows who will serve at 13 agencies across the federal government. Over the next two years, they will help shape a more equitable, effective, and secure digital government for the public.
+"The Biden-Harris Administration welcomed 40 U.S. Digital Corps fellows who will serve at 13 agencies across the federal government. Over the next two years, they will help shape a more equitable, effective, and secure digital government for the public.
+
+The U.S. Digital Corps launched last year to recruit early-career technologists to work on priority projects in five skill tracks: software engineering, data science and analytics, product management, design, and cybersecurity."
