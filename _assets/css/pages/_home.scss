@@ -160,7 +160,7 @@
   overflow-x: auto;
   overscroll-behavior-inline: contain;
   overflow: hidden;
-
+  
   @include u-padding(2) ;
 }
 
@@ -188,7 +188,7 @@
     max-width: 100%;
 }
 @include at-media-max("mobile-lg") {
-    min-width: 340px;
+    width: 340px;
 }
   a {
     border: none;
