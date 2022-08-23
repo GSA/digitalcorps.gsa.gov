@@ -341,7 +341,7 @@
   scroll-snap-align: start;
 }
 
-.nav div {
+.press-nav div {
   width: 60px;
   height: 100%;
   position: absolute;
@@ -349,11 +349,11 @@
   transform: translateY(-50%);
   cursor: pointer;
 }
-.nav .prev {
+.press-nav .prev {
   left: -30px;
   display: none;
 }
-.nav .prev.show {
+.press-nav .prev.show {
   display: block;
   background-image: url(asset_path("articles/Left_Inactive.png"));
   background-repeat: no-repeat;
@@ -361,7 +361,7 @@
     background-image: url(asset_path("articles/Left_Hover.png"));
   }
 }
-.nav .next {
+.press-nav .next {
   right: -30px;
   background-repeat: no-repeat;
   background-image: url(asset_path("articles/Right_Inactive.png"));
@@ -369,7 +369,7 @@
     background-image: url(asset_path("articles/Right_Hover.png"));
   }
 }
-.nav .next.hide {
+.press-nav .next.hide {
   display: none;
 }
 

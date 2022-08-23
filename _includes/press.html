@@ -35,8 +35,8 @@
         
       </div>
     </div>
-    {% if sorted.size > 3 %}
-    <div class="nav">
+    
+    <div class="press-nav">
       <div class="prev">
         
       </div>
@@ -44,11 +44,19 @@
         
       </div>
     </div>
-    {% endif %}
   </div>
 </section>
 
 <script>
+const nav = document.querySelector('.press-nav');
+let index = 0;
+let viewportWidth = window.innerWidth;
+let articles = '{{sorted.size}}'
+   if(viewportWidth > 1024 && (articles < 4)){
+    nav.classList.add('hide');
+  }else{
+  nav.classList.add('show');
+  }
   const prev  = document.querySelector('.prev');
 const next = document.querySelector('.next');
 
@@ -60,7 +68,7 @@ window.addEventListener('resize', () => {
   carouselWidth = document.querySelector('.carousel-container').offsetWidth;
 })
 
-let index = 0;
+
 
 next.addEventListener('click', () => {
   index++;
