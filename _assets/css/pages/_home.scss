@@ -152,6 +152,80 @@
 }
 
 
+
+//Carousel CSS
+.carousel-container {
+  width: 1360px;
+  margin: 50px auto;
+  min-height: 200px;
+  position: relative;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 1rem;
+}
+@media screen and (max-width: 768px) {
+  .carousel-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .carousel-container {
+    width: 85%;
+  }
+}
+.carousel-container .carousel-inner {
+  overflow: hidden;
+}
+.carousel-container .track {
+  display: inline-flex;
+  transition: transform 1.0s;
+}
+.carousel-container .card-container {
+  padding-right: 3.5px;
+  box-sizing: border-box;
+  scroll-snap-align: start;
+}
+
+.press-nav div {
+  width: 60px;
+  height: 100%;
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.press-nav .prev {
+  left: -30px;
+  display: none;
+}
+.press-nav .prev.show {
+  display: block;
+  background-image: url(asset_path("articles/Left_Inactive.png"));
+  background-repeat: no-repeat;
+  &:hover {
+    background-image: url(asset_path("articles/Left_Hover.png"));
+  }
+}
+.press-nav .next {
+  right: -30px;
+  background-repeat: no-repeat;
+  background-image: url(asset_path("articles/Right_Inactive.png"));
+  &:hover {
+    background-image: url(asset_path("articles/Right_Hover.png"));
+  }
+}
+.press-nav .next.hide {
+  display: none;
+}
+
+.press-card > * {
+  flex: 1;
+}
+.press-card .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //font-size: 30px;
+}
+
 //Press Article Section
 .press-scroller{
   display: grid;
@@ -176,7 +250,6 @@
   @include u-margin(3);
   @include u-bg("base-lighter");
   width: 400px;
-  //max-width: 431px;
   min-height: 300px;
   height: 100%;
   white-space: normal;
@@ -219,7 +292,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      // @include u-border-bottom('1px', 'primary');
       @include u-padding-bottom(2);
     }
     .img-size{
@@ -273,14 +345,12 @@
 }
 .News {
   border-top-style: solid;
-  //border-top-color: #E41D3D;
   @include u-border-color('secondary-dark');
   border-width: thick;
   
 
   .article-type{
     @include u-color('secondary-dark');
-   // color: #E41D3D;
     font-weight: bold;
     text-transform: uppercase;
     @include u-font('sans', 4);
@@ -303,84 +373,6 @@
     color: color('blue-warm-50v');
   }
 
-}
-
-
-//Carousel CSS
-.carousel-container {
-  width: 1360px;
-  margin: 50px auto;
-  min-height: 200px;
-  position: relative;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 1rem;
-}
-@media screen and (max-width: 768px) {
-  .carousel-container {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .carousel-container {
-    width: 85%;
-  }
-}
-.carousel-container .carousel-inner {
-  overflow: hidden;
-}
-.carousel-container .track {
-  display: inline-flex;
-  transition: transform 1.0s;
-}
-.carousel-container .card-container {
-  //width: 259px;
-  //flex-shrink: 0;
- // height: 250px;
-  padding-right: 3.5px;
-  box-sizing: border-box;
-  scroll-snap-align: start;
-}
-
-.press-nav div {
-  width: 60px;
-  height: 100%;
-  position: absolute;
-  //top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
-}
-.press-nav .prev {
-  left: -30px;
-  display: none;
-}
-.press-nav .prev.show {
-  display: block;
-  background-image: url(asset_path("articles/Left_Inactive.png"));
-  background-repeat: no-repeat;
-  &:hover {
-    background-image: url(asset_path("articles/Left_Hover.png"));
-  }
-}
-.press-nav .next {
-  right: -30px;
-  background-repeat: no-repeat;
-  background-image: url(asset_path("articles/Right_Inactive.png"));
-  &:hover {
-    background-image: url(asset_path("articles/Right_Hover.png"));
-  }
-}
-.press-nav .next.hide {
-  display: none;
-}
-
-.press-card > * {
-  flex: 1;
-}
-.press-card .img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
 }
 
 
