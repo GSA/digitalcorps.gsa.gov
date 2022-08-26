@@ -369,4 +369,16 @@
 
 }
 
+// Smaller devices swipe through press section 
+@media screen and (max-width: 375px) {
+  .press-card{
+    width: 300px;
+  }
 
+}
+@media screen and (max-width: 320px) {
+  .press-card{
+    width: 252px;
+  }
+
+}
