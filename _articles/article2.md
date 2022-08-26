@@ -8,4 +8,4 @@ type: Press
 ---
 
 
-"GSA had always recruited mid- to senior-career technologists, but as we looked around and started to think about the ecosystem that we were in, we realized that there weren't enough early-career technologists in government. We started to think about how we could change that and bring the next generation of leaders to government, and the U.S. Digital Corps started from there."
+"GSA had always recruited mid- to senior-career technologists, but as we looked around and started to think about the ecosystem that we were in, we realized that there weren't enough early-career technologists in government. We started to think about how we could change that and bring the next generation of leaders to government, and the U.S. Digital Corps started from there." (Government Matters)
