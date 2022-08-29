@@ -198,18 +198,18 @@
 }
 .press-nav .prev.show {
   display: block;
-  background-image: url(asset_path("articles/Left_Inactive.png"));
+  background-image: url(asset_path("icons/Left_Inactive.png"));
   background-repeat: no-repeat;
   &:hover {
-    background-image: url(asset_path("articles/Left_Hover.png"));
+    background-image: url(asset_path("icons/Left_Hover.png"));
   }
 }
 .press-nav .next {
   right: -30px;
   background-repeat: no-repeat;
-  background-image: url(asset_path("articles/Right_Inactive.png"));
+  background-image: url(asset_path("icons/Right_Inactive.png"));
   &:hover {
-    background-image: url(asset_path("articles/Right_Hover.png"));
+    background-image: url(asset_path("icons/Right_Hover.png"));
   }
 }
 .press-nav .next.hide {
