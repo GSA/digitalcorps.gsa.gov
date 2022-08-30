@@ -295,6 +295,12 @@
     
   }
 }
+.article-type{
+    font-weight: bold;
+    text-transform: uppercase;
+    @include u-font('sans', 4);
+    @include u-margin-bottom(1);
+}
 .Press {
   border-top-style: solid;
   border-top-color: #791124;
@@ -302,11 +308,6 @@
 
   .article-type{
     color: #791124;
-    font-weight: bold;
-    text-transform: uppercase;
-    @include u-font('sans', 4);
-    @include u-margin-bottom(1);
-
   }
 }
 .Media {
@@ -316,11 +317,6 @@
 
   .article-type{
     color: #0068bd;
-    font-weight: bold;
-    text-transform: uppercase;
-    @include u-font('sans', 4);
-    @include u-margin-bottom(1);
-
   }
 }
 .Blog {
@@ -330,11 +326,6 @@
 
   .article-type{
     color: #212463;
-    font-weight: bold;
-    text-transform: uppercase;
-    @include u-font('sans', 4);
-    @include u-margin-bottom(1);
-
   }
 }
 .News {
@@ -345,11 +336,6 @@
 
   .article-type{
     @include u-color('secondary-dark');
-    font-weight: bold;
-    text-transform: uppercase;
-    @include u-font('sans', 4);
-    @include u-margin-bottom(1);
-
   }
 }
 
