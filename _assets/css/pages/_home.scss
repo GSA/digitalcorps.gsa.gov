@@ -368,7 +368,7 @@
   }
 }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 750px)and (max-width: 768px) {
     .press-card{
       width: 454px;
     }
