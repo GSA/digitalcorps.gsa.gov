@@ -159,6 +159,7 @@ assets:
     - _assets/images/stock
     - _assets/images/agencies
     - _assets/images/fellows/2022
+    - _assets/images/home
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
