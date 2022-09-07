@@ -5,7 +5,7 @@
   .usa-hero {
     @include u-margin-bottom(4);
     @include u-text("white");
-    background-image: url(asset_path("home/USDC_home_image.webp"));
+    background-image: url(asset_path("home/Home_Page_Banner.png"));
     background-position: 60% 56%;
     background-color: color("base-darkest");
     position: relative;
