@@ -1,6 +1,9 @@
 // SEARCH.GOV OVERRIDES for FORM
 
 $transition: width 0.25s;
+#search-display{
+  padding: 23px 45px;
+}
 
 #search_form {
   .site-search {
