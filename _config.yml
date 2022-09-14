@@ -147,7 +147,12 @@ exclude:
   - README.md
   - vendor
   - pages/track-*  # toggled off
-
+  
+  - articles/article1
+  - articles/article2
+  - articles/article3
+  - articles/article4
+  - articles/article5
   # exclude until search is implemented
   - pages/search
 
