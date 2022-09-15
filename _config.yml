@@ -52,7 +52,7 @@ collections:
     output: true
     permalink: /:path/
   articles:
-    output: true
+    output: false
     permalink: /:collection/:name/
 
 
@@ -147,7 +147,7 @@ exclude:
   - README.md
   - vendor
   - pages/track-*  # toggled off
-
+  
   # exclude until search is implemented
   - pages/search
 
