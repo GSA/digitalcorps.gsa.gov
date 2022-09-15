@@ -51,6 +51,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  articles:
+    output: false
+    permalink: /:collection/:name/
 
 
 defaults:
@@ -58,7 +61,7 @@ defaults:
       type: "fellows"
     values:
       layout: "fellow"
-
+  
 # formatting
 permalink: pretty
 
@@ -144,7 +147,7 @@ exclude:
   - README.md
   - vendor
   - pages/track-*  # toggled off
-
+  
   # exclude until search is implemented
   - pages/search
 
@@ -157,6 +160,7 @@ assets:
     - _assets/images/logo
     - _assets/images/social
     - _assets/images/stock
+    - _assets/images/articles
     - _assets/images/agencies
     - _assets/images/fellows/2022
     - node_modules/uswds/dist/img
