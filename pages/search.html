@@ -12,7 +12,11 @@ sitemap: false
 
   var urlParams = new URLSearchParams(window.location.search);    
   var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
-  params = { affiliate: "{{site.searchgov.affiliate}}", access_key: "{{site.searchgov.access_key}}", query: urlParams.get('query') }
+  params = { 
+    affiliate: "{{site.searchgov.affiliate}}", 
+    access_key: "{{site.searchgov.access_key}}", 
+    query: urlParams.get('query') 
+  }
   
   
   Object.keys(params).forEach(key => searchEndpoint.searchParams.append(key, params[key]))
@@ -20,10 +24,17 @@ sitemap: false
   fetch(searchEndpoint).then(function(response) {
       return response.json()
     }).then(function(posts) {
+
+      //render search box with prior search term
+      document.getElementById('extended-search-field-small').value = params.query;
+      
+      //render results
       for (item in posts.web.results){
         render_result(`
           <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
-            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title']}</a></b>
+            <b class="title"><a href="${posts.web.results[item]['url']}">${posts.web.results[item]['title'].replace(/\uE000/g, '')
+                  .replace(/\uE001/g, '')
+                  .replace(' | {{site.title}}', '')}</a></b>
             <div> ${posts.web.results[item]['snippet'].replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')} </div>
           </li>
           `, true)
