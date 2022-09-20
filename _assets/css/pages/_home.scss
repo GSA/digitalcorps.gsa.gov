@@ -81,7 +81,7 @@
   @include u-padding(4);
   @include column-overlay-vertical("center", 100%, "primary", 0.75);
   background-color: color("primary");
-  background-image: url(asset_path("home/TheUSgovernment.jpg"));
+  background-image: url(asset_path("home/TheUSgovernment.png"));
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
