@@ -3,7 +3,7 @@ layout: default
 pageOrderID: 97
 title: Ambassador Susan E. Rice Remarks at the 2021 Grace Hopper Celebration
 image: Susan-Rice-video.png
-external_url: "https://www.wired.com/story/government-wants-bolster-tech-starting-workers/"
+external_url: "https://www.youtube.com/watch?v=FaAlcxhUJSo"
 type: Media
 ---
 
