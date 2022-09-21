@@ -163,6 +163,10 @@ assets:
     - _assets/images/articles
     - _assets/images/agencies
     - _assets/images/fellows/2022
+    - _assets/images/home
+    - _assets/images/about
+    - _assets/images/opportunity
+    - _assets/images/apply
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
