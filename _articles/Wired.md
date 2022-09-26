@@ -1,6 +1,6 @@
 ---
 layout: default
-pageOrderID: 96
+pageOrderID: 94
 title: The Government Wants to Bolster Its Tech—Starting With Workers
 image: Business-GSA-QA.webp
 external_url: "https://www.wired.com/story/government-wants-bolster-tech-starting-workers/"

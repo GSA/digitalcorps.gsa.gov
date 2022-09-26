@@ -1,6 +1,6 @@
 ---
 layout: base
-pageOrderID: 100
+pageOrderID: 99
 title: Preparing to Welcome the 2022 U.S. Digital Corps
 image: wh_social-share.webp
 external_url: "https://www.whitehouse.gov/omb/briefing-room/2022/06/10/preparing-to-welcome-the-2022-u-s-digital-corps/"
