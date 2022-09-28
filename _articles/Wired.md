@@ -8,4 +8,4 @@ type: Press
 ---
 
 
-"We need lots of different technologists: people with experience, but also folks who want to make government their career. We just announced a program called Digital Corps for early career folks who want to be able to use their technology skills in government. We didn't have a good on-ramp for that before" (Wired)
+"We need lots of different technologists: people with experience, but also folks who want to make government their career. We just announced a program called Digital Corps for early career folks who want to be able to use their technology skills in government. We didn't have a good on-ramp for that before" (WIRED)
