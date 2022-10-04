@@ -5,6 +5,25 @@ $transition: width 0.25s;
   padding: 23px 45px;
 }
 
+#search-results {
+  list-style-type: none;;
+}
+
+.search-result-url {
+  @include u-font-size("body", "2xs");
+  color: color("base");
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  a,
+  a:active,
+  a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
 #search_form {
   .site-search {
     margin-top: 1rem;
