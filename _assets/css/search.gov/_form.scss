@@ -1,101 +1,70 @@
-// SEARCH.GOV OVERRIDES for FORM
-
-$transition: width 0.25s;
-#search-display{
-  padding: 23px 45px;
+// SEARCH (desktop)
+#search-results-style {
+    margin: 5%;
+    //padding: auto;
 }
 
-#search-results {
-  list-style-type: none;;
+.usa-header [role="search"] {
+  width: 95%;
 }
 
-.search-result-url {
-  @include u-font-size("body", "2xs");
-  color: color("base");
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.usa-search .usa-button {
+  border-width: 0;
+  background-color: color("primary");
 
-  a,
-  a:active,
-  a:visited {
-    color: inherit;
-    text-decoration: none;
+  &:hover {
+    background-color: color("primary-vivid");
   }
 }
 
-#search_form {
-  .site-search {
-    margin-top: 1rem;
-    @include at-media("desktop") {
-      margin-top: 0;
-      display: flex;
-      -webkit-transition: $transition;
-      -moz-transition: $transition;
-      transition: $transition;
-      width: 40px;
-      opacity: 0;
-      visibility: hidden;
-    }
-  }
-
-  .site-search.expanded {
-    width: 100%;
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .site-search-show {
-    border: none;
-    background-color: white;
-    @include at-media("desktop") {
-      background-image: url(asset_path("icons/search.svg"));
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: 1rem;
-      width: 20px;
-      height: 20px;
-      cursor: pointer;
-      position: absolute;
-      top: 6px;
-      right: 6px;
-    }
-  }
-
-  .site-search-show:focus {
-    outline: none;
-  }
-
-  input[type="search"] {
-    border: 1px solid grey;
-    padding-right: 32px;
-    @include at-media("desktop") {
-      border: none;
-      padding-right: 20px;
-      box-sizing: border-box;
-      max-width: 165px;
-    }
-  }
-
-  input[type="search"]:focus {
-    outline: none;
-  }
-
-  .site-search.expanded input[type="search"] {
-    @include at-media("desktop") {
-      border-bottom: 1px solid #1a4480;
-    }
-  }
-}
-
-.usa-search--small [type="submit"],
-.usa-search--small .usa-search__submit {
-  background-image: url(asset_path("icons/search.svg"));
-  width: 20px;
+.usa-search .usa-input {
+  -webkit-appearance: none; // fixes iOS override
+  //border-width: 0;
   border-radius: 0;
-  background-color: transparent;
-  margin-left: -32px;
-  @include at-media("desktop") {
-    margin-left: -24px;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.search-body {
+  .usa-search .usa-input {
+    border-color: color("base");
+    border-right-width: 0;
+    border-width: 1px;
+  }
+}
+
+ol.search-results {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    margin-bottom: 1.4em;
+  }
+
+  .search-result-url {
+    @include u-font-size("body", "2xs");
+    color: color("base");
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    a,
+    a:active,
+    a:visited {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  .search-result-title {
+    @include u-font-size("body", "md");
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .search-result-snippet {
+    @include u-font-size("body", "sm");
   }
 }
