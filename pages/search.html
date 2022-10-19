@@ -75,15 +75,19 @@ sitemap: false
 </script>
 
 {% if site.searchgov %}
-<div id="search-results-style">
-  <div id="search-box" class="search-body margin-bottom-3">
-    {% include searchgov/form.html uid="results" %}
+<div class="usa-layout-docs usa-section">
+  <div class="grid-container">
+    <div id="search-results-style" class="usa-section">
+      <div id="search-box" class="search-body margin-bottom-3">
+        {% include searchgov/form.html uid="results" %}
+      </div>
+      <h1 style="margin-top:0 !important;">Search Results</h1>
+      <ol id="search-results" class="search-results"></ol>
+    </div>
+    {% else %}
+    <script>
+      window.location = "/";
+    </script>
+    {% endif %}
   </div>
-  <h1 style="margin-top:0 !important;">Search Results</h1>
-  <ol id="search-results" class="search-results"></ol>
 </div>
-{% else %}
-<script>
-  window.location = "/";
-</script>
-{% endif %}
