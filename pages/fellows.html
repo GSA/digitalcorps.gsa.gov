@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: fellow-landing
 title: Fellows
 permalink: /fellows/
 noindex: true
@@ -11,72 +11,5 @@ pagination:
   tag: '2022'
 ---
 
-<!-- BANNER -->
-<section class="fellows-banner">
-    <div class="usa-hero">
-      <div class="usa-hero__callout">
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="grid-col">
-              <h1 class="usa-hero__heading">Our Fellows</h1>
-            </div>
-          </div>
-          <div class="grid-row display-flex flex-row flex-align-end height-full">
-            <div class="grid-col-12">
-              <h2>U.S. Digital Corps Fellows are motivated, passionate early-career technologists who represent the diversity of our country and who play a key role in delivering secure, effective, and equitable government services to the public.</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Fellows -->
-  <section class="grid-container usa-layout-docs usa-section">
-    <div class="list-fellows">
-      {% include fellows-list.html fellows=paginator.posts %}
-    </div>
-    {% include pagination.html %}
-  </section>
-
-  <!-- Quote -->
-  <section class="usa-section fellow-quote">
-    <div class="grid-container">
-      <div class="quote">
-        <div class="text-center padding-bottom-4">
-          {%
-          asset "icons/quote2.png"
-          alt="quote symbol" height=50
-          %}
-        </div>
-        <div class="verbiage">
-          The Digital Corps gives me an opportunity to use my technical skills to reach a wide range of people. I appreciate the fact that the program is designed to allow Fellows to grow in their careers and to provide a community where everyone values public service and meaningful work.
-        </div>
-        <div class="author">
-          Isabel Laurenceau
-          <div class="title">
-            U.S. Digital Corps Fellow
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- JOINING -->
-  <section class="usa-section {{ include.customstyles }}">
-    <div class="grid-container highlight tablet:padding-x-2">
-      <div class="grid-col">
-        <p class="lead text-primary padding-y-0">
-          Applications for the next cohort of U.S. Digital Corps Fellows will open later this year.  
-          <br class="display-none tablet:display-inline" />
-          Sign up for our mailing list and follow us on social media to stay in the loop.
-        </p>
-        <div class="text-center">
-          <a class="usa-button usa-button--primary"
-            href="{{site.baseurl}}/apply/">
-            Sign up for updates
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
+{% include_cached fellows-list.html fellows=paginator.posts %}
