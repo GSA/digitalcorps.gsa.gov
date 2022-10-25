@@ -4,7 +4,7 @@ title: Olivia Haring
 image:  Olivia Haring.png
 fellow_year: 2022
 project: ["na"]
-agency: #["EPA"]
+agency: ["EPA"]
 hometown: Cincinnati, OH
 university: University of Cincinnati
 region: west

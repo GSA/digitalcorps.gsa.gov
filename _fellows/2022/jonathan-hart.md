@@ -1,4 +1,4 @@
-<!-- ---
+---
 id: jonathan-hart
 title: Jonathan Hart
 image: Jonathan Hart.png
@@ -17,5 +17,5 @@ track: ['Data Science and Analytics']
 
 Jonathan has taken a non-traditional path in becoming a data scientist. Originally trained as a biochemist, he studied data science to understand the deluge of data coming from next-generation sequencing and proteomics experiments. As a staff scientist at a research facility, he supported researchers’ genomics experiments to yield insights into oncology research. In addition, he has developed hardware and software infrastructure and data pipelines to efficiently mine the mountain of publicly-available cancer datasets to discover new regulatory genes. His research has been published in leading journals and presented at major conferences. In addition to research, Jonathan enjoys teaching and has had the opportunity to mentor several aspiring scientists through Scripps’ high school internship program.
 
-Jonathan earned a B.S. from Cal Poly, San Luis Obispo, and a Ph.D. from Caltech, both in Chemistry. He was the recipient of a National Cancer Institute Research Specialist Award grant and is a member of the American Association for Cancer Research. A lifelong learner, he has recently graduated with an A.A. in Chinese from Mesa College and continues to learn Chinese. -->
+Jonathan earned a B.S. from Cal Poly, San Luis Obispo, and a Ph.D. from Caltech, both in Chemistry. He was the recipient of a National Cancer Institute Research Specialist Award grant and is a member of the American Association for Cancer Research. A lifelong learner, he has recently graduated with an A.A. in Chinese from Mesa College and continues to learn Chinese.
 

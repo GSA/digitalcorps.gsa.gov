@@ -2,8 +2,6 @@
 layout: fellow-landing
 title: Fellows
 permalink: /fellows/
-noindex: true
-sitemap: false
 pagination:
   enabled: true
   collection: fellows
@@ -12,4 +10,6 @@ pagination:
 ---
 
 
+
 {% include_cached fellows-list.html fellows=paginator.posts %}
+
