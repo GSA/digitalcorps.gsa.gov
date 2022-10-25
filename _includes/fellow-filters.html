@@ -3,9 +3,10 @@
       <div class='filter__col'>
         <select class="usa-select" name="fellows-select-agency" id="fellows-select-agency">
           <option value="" selected disabled hidden>Filter By Agency </option>
+          <option value="">All Agencies</option>
           {% assign agencies = site.data.agencies %}
           {% for agency in agencies %}
-            <option value="{{ year }}">
+            <option value="{{ agency.name }}">
               {{ agency.fullname }}
             </option>
           {% endfor %}

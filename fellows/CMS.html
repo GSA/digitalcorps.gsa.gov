@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Centers for Medicare & Medicaid Services Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'CMS'
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

@@ -26,7 +26,7 @@ const parseURL = () => {
     item = splitPath[i]
     if (validAgencies.includes(item) ) {
       agencySelect.value = item;
-      json = json.filter(fellow => fellow.fellow_agency === item);
+      json = json.filter(fellow => fellow.agency === item);
       break;
     }
 
