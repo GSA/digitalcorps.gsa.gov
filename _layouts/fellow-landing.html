@@ -35,8 +35,11 @@ layout: default
 
   <!-- Fellows -->
   <section class="grid-container usa-layout-docs usa-section">
-    <div class="list-fellows">
+    <div id='fellow-search-default' class="list-fellows">
       {{content}}
+    </div>
+    <!-- search results container -->
+    <div id='fellow-search-results' class="list-fellows">
     </div>
     {% include pagination.html %}
   </section>
@@ -113,7 +116,7 @@ layout: default
     - Template syntax: https://github.com/christian-fei/Simple-Jekyll-Search/wiki#searchresulttemplate-string-optional
   ***/
   // var searchResultTemplate = '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="fellow-card--specialty">{specialty}</p><p class="content">{content}</p></a><p><span class="fellow-card--fellow-year">{fellow_year}</span>{linkedin}{twitter}</p></div></div>';
-  var searchResultTemplate = '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="content">{content}</p></a><p><span class="fellow-card--fellow-agency">{agency}</span>{linkedin}{twitter}</p><div class="fellow-card--track">{track}</div></div></div>';
+  var searchResultTemplate = '<div class="fellow-card desktop:grid-col-3 tablet:grid-col-6"><a href="{url}"><div class="usa-prose fellow-img"><img src="{image_path}" class="circle-card" alt="{title}"/></div><div><h2 class="body-intro--bold">{title}</h2><p class="content">{content}</p></a><div class="fellow-card--fellow-year">{fellow_year} Fellow</div></div></div>';
   const siteBaseurl = "{{ site.baseurl }}";
 </script>
 
