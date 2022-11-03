@@ -3,7 +3,11 @@
     display: flex;
     width: 100%;
     align-items: flex-end;
-    flex-wrap: wrap;
+    justify-content: space-between;
+  flex-direction: column-reverse;
+  @include at-media('tablet') {
+    flex-direction: row;
+  }
   
     input[type="text"] {
       @include u-border('primary-darker');
@@ -64,17 +68,21 @@
       width: 100%;
       display: flex;
       flex-wrap: wrap;
+      @include at-media('tablet') {
+       flex-wrap: nowrap;
+      }
     }
   
     .filter__col {
       width: 100%;
       padding-right: 2rem;
+      
       @include at-media('tablet') {
         margin-right: 1rem;
-        width: 50%;
+        flex-wrap: nowrap;
       }
       @include at-media('desktop') {
-        width: 200px;
+        width: 250px;
       }
     }
   
