@@ -37,7 +37,7 @@
   
   <script type="text/javascript">
   
-    const validAgencies = [{% for agency in site.data.agencies %} "{{ agency.fullname }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
+    const validAgencies = [{% for agency in site.data.agencies %} "{{ agency.name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
     const validTracks = [{% for track in site.data.fellow-tracks %} "{{ track.url_name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
   
     // Agency Select
