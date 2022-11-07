@@ -4,7 +4,7 @@
         <select class="usa-select" aria-label="agency-select" name="fellows-select-agency" id="fellows-select-agency">
           <option value="" selected disabled hidden>Filter by agency </option>
           <option value="">All Agencies</option>
-          {% assign agencies = site.data.agencies %}
+          {% assign agencies = site.data.agencies | sort:"fullname" %}
           {% for agency in agencies %}
             <option value="{{ agency.name }}">
               {{ agency.fullname }}
