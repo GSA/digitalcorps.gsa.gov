@@ -2,7 +2,7 @@
     <div class="filters__left display-flex">
       <div class='filter__col'>
         <select class="usa-select" aria-label="agency-select" name="fellows-select-agency" id="fellows-select-agency">
-          <option value="" selected disabled hidden>Filter By Agency </option>
+          <option value="" selected disabled hidden>Filter by agency </option>
           <option value="">All Agencies</option>
           {% assign agencies = site.data.agencies %}
           {% for agency in agencies %}
@@ -15,7 +15,7 @@
       <div class="filters__left display-flex">
         <div class='filter__col'>
           <select class="usa-select" aria-label="track-select" name="fellows-select-track" id="fellows-select-track">
-            <option value="" selected disabled hidden>Filter By Track </option>
+            <option value="" selected disabled hidden>Filter by track </option>
             <option value="">All Tracks</option>
             {% assign tracks = site.data.fellow-tracks | sort:"display_name" %}
             {% for track in tracks %}
