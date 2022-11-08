@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Department of Veterans Affairs Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'VA'
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

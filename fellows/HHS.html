@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Health and Human Services Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'HHS'
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
