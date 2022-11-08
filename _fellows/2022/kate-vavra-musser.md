@@ -11,7 +11,7 @@ region: east
 bio_short: Data scientist with a background in public health 
 why: "I am interested in exploring a career in government and excited by the prospect of high-impact work. My previous experience at the U.S. Census Bureau helped me to realize how much data and data science potential there is in government and I am excited to continue down that path with the Digital Corps."
 fun_fact: Kate loves exploring and experiencing the world and has traveled to over 30 countries. Her goal for the past 10 to 15 years has been to visit more countries than her age, but she is currently a bit behind due to COVID travel resctrictions.
-tags: ['east', '2022','Data_Science_And_Analytics']
+tags: ['east', '2022','Data_Science_And_Analytics', 'CFPB']
 track: ['Data Science and Analytics']
 ---
 
