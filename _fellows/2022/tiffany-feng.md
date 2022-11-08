@@ -11,7 +11,7 @@ region: south
 bio_short: Data scientist ready to do purpose-driven work 
 why: "The U.S. Digital Corps is a great opportunity to do high impact purpose-driven work. My previous experiences utilizing data for social good helped show me how powerful data is in making an impact. I am glad to have the opportunity to contribute positively to my community through technology."
 fun_fact: 
-tags: ['south', '2022','Data_Science_And_Analytics']
+tags: ['south', '2022','Data_Science_And_Analytics', 'GSA']
 track: ['Data Science and Analytics']
 ---
 
