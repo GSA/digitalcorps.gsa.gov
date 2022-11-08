@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Environmental Protection Agency Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'EPA'
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
