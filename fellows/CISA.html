@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Cybersecurity & Infrastructure Security Agency Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'CISA'
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

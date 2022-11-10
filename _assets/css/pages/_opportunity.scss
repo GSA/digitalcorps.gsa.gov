@@ -2,11 +2,11 @@
 
 .opportunity-banner {
     .usa-hero {
-        background-image: url(asset_path("stock/shutterstock_403286512.webp"));
-        background-position: 20% top;
+        background-image: url(asset_path("opportunity/USDC_Opportunity_Banner.png"));
+        background-position: 20%;
         position: relative;
         min-height: 600px;
-
+        
         // screen size adjustments
         @include at-media-max("desktop-lg") {
             background-position: 30% top;
@@ -29,7 +29,7 @@
             @include grid-col(5);
             @include grid-offset(7);
             @include u-margin-top(15);
-
+            background-color: rgba(255, 255, 255, 0.6);
             // screen size adjustments
             @include at-media-max("desktop") {
                 @include grid-col(auto);
@@ -63,13 +63,13 @@
 }
 
 .opportunity-deliver-image {
-    background-image: url(asset_path("stock/shutterstock_1580363914.webp"));
+    background-image: url(asset_path("opportunity/Deliver.png"));
     background-size: cover;
     background-position: 60% top;
 }
 
 .opportunity-grow-image {
-    background-image: url(asset_path("stock/woman-supercomputer.webp"));
+    background-image: url(asset_path("opportunity/Grow_Professionally.png"));
     background-position: 55% top;
 
     @include at-media-max("tablet") {
@@ -79,7 +79,7 @@
 }
 
 .opportunity-support-image {
-    background-image: url(asset_path("stock/TONL-01016.webp"));
+    background-image: url(asset_path("opportunity/Support.png"));
     background-size: cover;
     background-position: 50% 40%;
 }

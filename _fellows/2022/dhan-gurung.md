@@ -4,14 +4,14 @@ title: Dhan Gurung
 image: Dhan Gurung.png
 fellow_year: 2022
 project: ["na"]
-agency: #["EPA"]
+agency: ["EPA"]
 hometown: North Bergen, New Jersey
 university: Fordham University
 region: northeast
 bio_short: Cybersecurity specialist passionate about technology and information security
 why: "As a veteran, I am glad to have this wonderful opportunity to continue to serve my country." 
 fun_fact: "Dhan can speak four languages: English, Hindi, Nepali, and Manangi (Native language)!"
-tags: ['northeast', '2022','Cybersecurity']
+tags: ['northeast', '2022','Cybersecurity', 'EPA']
 track: ['Cybersecurity']
 ---
 

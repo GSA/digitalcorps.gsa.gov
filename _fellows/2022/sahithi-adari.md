@@ -5,13 +5,13 @@ image: Sahithi Adari.png
 fellow_year: 2022
 project: ["na"]
 agency: ["OPM"]
-hometown: Washington, DC
+hometown: Cary, NC
 university: Georgetown University
 region: east
 bio_short: Data scientist passionate about racial equity
 why: I chose to join the USDC as I wanted to leverage the technical knowledge I gained in my master's degree, and apply them to the public sector problems of today.
 fun_fact: She has travelled to and hiked in over 10 national parks, and plans to visit all 63 parks in her lifetime.
-tags: ['east', '2022','Data_Science_And_Analytics']
+tags: ['east', '2022','Data_Science_And_Analytics', 'OPM']
 track: ['Data Science and Analytics']
 ---
 
