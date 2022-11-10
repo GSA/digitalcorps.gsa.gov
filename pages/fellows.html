@@ -1,0 +1,15 @@
+---
+layout: fellow-landing
+title: Fellows
+permalink: /fellows/
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: '2022'
+---
+
+
+
+{% include_cached fellows-list.html fellows=paginator.posts %}
+

@@ -1,0 +1,76 @@
+# We can add any kind of data in this _data folder and this file.
+# In this example, we create a simple array of options and then in the _pages/collections.md file we
+# Reference this data file in 'datafile' in the Front Matter and _layouts/list.html renders it
+# This is simple, hopefully provides you with a good enough example to make changes as needed
+
+- name: ACF
+  fullname: Administration for Children and Families
+  url: 
+
+- name: CMS
+  fullname: Centers for Medicare & Medicaid Services
+  url: http://www.cms.gov
+  description: The Centers for Medicare & Medicaid Services (CMS) is the agency within the U.S. Department of Health and Human Services (HHS) that administers the nation’s major healthcare programs. The CMS oversees programs including Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and the state and federal health insurance marketplaces.
+
+- name: CISA
+  fullname: Cybersecurity & Infrastructure Security Agency
+  url: 
+  description:
+
+- name: CFPB
+  fullname: Consumer Financial Protection Bureau
+  url: 
+  description:
+
+- name: EPA
+  fullname: Environmental Protection Agency
+  url: 
+  description:
+
+- name: GSA
+  fullname: General Services Administration
+  url: https://gsa.gov
+  description: The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks.
+
+- name: HHS
+  fullname: Department of Health and Human Services
+  url: http://www.hhs.gov
+
+- name: OPM
+  fullname: Office of Personnel Management
+  url: 
+  description:
+
+# - name: OSTP
+#   fullname: White House Office of Science and Technology, Policy
+#   url: http://www.whitehouse.gov/administration/eop/ostp
+#   description:
+
+# - name: SBA
+#   fullname: Small Business Administration
+#   url: http://www.sba.gov
+#   description:
+
+- name: DOS
+  fullname: Department of State
+  url: http://www.state.gov
+  description:
+
+- name: USCB
+  fullname: U.S. Census Bureau
+  url: http://www.census.gov
+  description:
+
+- name: USCIS
+  fullname: U.S. Citizenship and Immigration Services
+  url: 
+  description:
+
+- name: VA
+  fullname: Department of Veterans Affairs
+  url: http://www.va.gov
+  description:
+
+
+
+  
