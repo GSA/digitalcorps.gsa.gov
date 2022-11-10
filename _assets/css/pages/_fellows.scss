@@ -1,0 +1,234 @@
+// FELLOW customization
+
+// banner
+.fellows-banner {
+    .usa-hero {
+      @include u-margin-bottom(4);
+      @include u-text("white");
+      background-image: url(asset_path("stock/USDC_Fellows_Banner.png"));
+      //background-position: 60% 20%;
+      //background-color: color("base-darkest");
+      position: relative;
+      overflow: hidden;
+      min-height: 600px;
+  
+      // < tablet
+      @include at-media-max("mobile-lg") {
+        min-height: unset;
+        @include u-padding-y(0);
+        padding-top: 60%;
+       // background-position: 70% 50%;
+        max-height: 690px;
+      }
+  
+      // callout container
+      .usa-hero__callout {
+        color: inherit;
+       // background-color: rgba(28, 29, 31, 0.55); // base-darkest #1c1d1f
+        width: 100%;
+        //position: relative;
+        text-align: center;
+        bottom: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  
+        // < tablet
+        @include at-media-max("mobile-lg") {
+          @include u-padding-x(2);
+          @include u-padding-top(15);
+          position: relative;
+          min-height: 500px;
+          transform: translate(-50%, -40%);
+        }
+
+        //<small mobile device
+        @media screen and (max-width: 320px) {
+          transform: translate(-50%, -35%);
+        }
+  
+        .grid-container {
+          @include u-padding-x(0);
+        }
+  
+        .usa-button {
+          float: left;
+          @include u-margin-top(3);
+  
+          // < tablet
+          @include at-media("tablet") {
+            float: right;
+          }
+        }
+  
+        // subtext
+        h2 {
+          @include u-margin-top(3);
+          @include u-margin-bottom(0);
+          color: inherit;
+          padding-right: 13rem;
+          padding-left: 13rem;
+
+          @media screen and (max-width: 990px) {
+            padding-right: 0;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+//Filters
+.fellow-filters{
+ @include at-media ('desktop'){
+  margin: 0 10%;
+ }
+  //@include u-margin-right(2);
+}
+
+.filter_col{
+  @include u-margin-right(5);
+}
+
+//Fellows Section
+  .list-fellows {
+    //min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    //justify-content: left;
+    margin-left: 10%;
+  }
+
+  .fellow-card {
+    @include u-padding(2);
+    @include u-margin(3);
+    min-width: 220px;
+    max-width: 300px;
+    min-height: 300px;
+    flex: 0 0 33.333333%;
+    
+    // <tablet
+    @include at-media-max("tablet") {
+      @include u-margin-top(1);
+      @include u-margin-x(1);
+      max-width: 100%;
+  }
+    a {
+      border: none;
+      text-decoration: none;
+      @include u-color('base-darker');
+      &:hover {
+        h2 {
+          text-decoration: underline;
+        }
+      }
+      .body-intro--bold {
+        color: color('primary');
+        @include u-font('serif', 9); // 22 px -- h2 sizing overrides the typography.scss size declaration
+        margin: 0; // using padding instead of default margin creates a cleaner focus outline
+        @include u-padding-top(2.5);
+        @include u-padding-bottom(1.5);
+      }
+      .content {
+        margin-top: 0;
+        padding-top: 0;
+      }
+    }
+    .fellow-img {
+      @include at-media("desktop") {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // @include u-border-bottom('1px', 'primary');
+        @include u-padding-bottom(2);
+      }
+      .circle-card {
+        height: auto;
+      }
+    }
+  }
+
+  .fellow-card--fellow-year {
+    color: color('primary');
+    font-weight: 700;
+  
+    span {
+      color: color('blue-warm-50v');
+    }
+  
+    &:after {
+      height: 0.8rem;
+      width: 1px;
+      border-right: 1px solid gray;
+      content: "";
+      margin: 0 0.5rem;
+      display: inline-block;
+    }
+    &:last-child:after {
+      border-right: none;
+    }
+  }
+
+  //Fellow Quote Section
+  .fellow-quote{
+    @include u-bg("primary");
+    @include u-padding-top(3);
+    @include u-padding-bottom(4);
+    color: white;
+
+    .verbiage{
+        color: white;
+    }
+  }
+
+  //Pagination
+  .paginate-link{
+    @include at-media-max("mobile-lg") {
+    display: block;
+    margin-top: 1.5rem;
+    }
+  }
+
+  //Fellow Individual Bio Pages
+  .fellow-content{
+    @include u-padding-bottom(4);
+  }
+
+  aside {
+    .circle-card{
+      margin-bottom: 3rem;
+      //@include u-margin-right(15);
+    }
+  }
+
+  .fellow-side-info{
+    display: block;
+    margin-top: 13rem;
+  }
+
+  .fellow-subtitle{
+    @include u-color("primary");
+    //font-size: small;
+    font-weight: bold;
+    @include u-font('serif', 4);
+  }
+
+  .fellow-list-agency{
+    list-style-type: none;
+    padding-left: 0;
+
+    li{
+      font-weight: normal;
+    }
+  }
+
+  .quote-subtitle{
+    font-weight: bold;
+    text-transform: uppercase;
+    @include u-font('serif', 4);
+  }
+
+  .fellow-funFact{
+    @include u-padding-top(4);
+  }

@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: White House Office of Science and Technology Policy Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'OSTP'
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

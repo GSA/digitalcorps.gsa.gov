@@ -1,0 +1,158 @@
+---
+layout: default
+title: Projects
+permalink: /projects/
+<!-- noindex: true
+sitemap: false -->
+---
+<!-- BANNER -->
+  <section class="projects-banner">
+    <div class="usa-hero">
+      <div class="grid-container">
+        <div class="usa-hero__callout">
+          <div class="content">
+            <div>
+              <h1 class="usa-hero__heading">
+                Agencies and Projects
+              </h1>
+              <h2>
+                <strong> Digital Corps Fellows work at agencies across the government on projects that make a difference for the American public. </strong>
+              </h2>
+            </div>
+          </div>
+          <div class="iframe-container">
+            <iframe 
+              width="560" 
+              height="315" 
+              src="https://www.youtube.com/embed/4bu96Khty20" 
+              title="YouTube video player" 
+              frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- What Agencies Do -->
+  <!-- <section class="usa-section padding-top-8 project-section-two">
+    <div class="grid-container no-gutter">
+        <div class="grid-row">
+          <div >
+            <div class="host-paragraph">
+              <p>
+                Host agencies have strong technical teams and public-facing and/or high-impact projects to ensure Fellows have the guidance and support they need to be successful as they improve the government experience. Fellows collaborate with host agency employees to advance governmentwide priorities outlined in the President’s Management Agenda as well as executive orders on customer experience and cybersecurity.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="projects-details">
+            More details about the first cohort of U.S. Digital Corps Fellows will be announced in June 2022. If you are a federal employee interested in learning
+            about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
+          </p>
+      </div>
+    </div>
+  </section>-->
+  <section>  
+    <div class="grid-container">
+      <div class="inaugural-styling">
+      <h2> Inaugural Host Agencies</h2>
+      <p>Fellows will work alongside career civil servants to advance priorities in critical impact areas, including health, equity, immigration, cybersecurity, and public experience.
+         If you are a federal employee interested in learning about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
+      </p>
+      <br>
+      {% include project-filters.html %}
+    </div>
+      <div >
+        {% include agency-list.html %}
+      </div>
+    </div>
+</section>
+
+
+<script type="text/javascript">
+  // Based on W3 How to Filter Elements:
+  // https://www.w3schools.com/howto/howto_js_filter_elements.asp
+  var agencyOption = document.getElementById("project-agencies-select");
+  var agency = document.getElementsByClassName("cards_item");
+
+  var impactOption = document.getElementById("project-impact-select");
+  var impact = document.getElementsByClassName("impact-list");
+
+
+
+//Filter by Agency Name
+  agencyOption.addEventListener("change", function(e){
+      var optionDataFilter = agencyOption.options[agencyOption.selectedIndex].getAttribute("data-filter");
+      if(optionDataFilter == "all"){
+          var elements = document.getElementsByClassName("cards_item");
+          
+          for(var i = 0; i < agency.length; i++) {
+            removeClass(agency[i], "hide");
+          }
+        }else{
+          for(var i = 0; i < agency.length; i++) {  
+            if(agency[i].getAttribute("data-filter") == optionDataFilter){
+            addClass(agency[i], "show");
+              removeClass(agency[i], "hide");
+            }else if(!(agency[i].getAttribute("data-filter") == optionDataFilter)){
+              removeClass(agency[i], "show");
+              addClass(agency[i], "hide");
+            };
+          }
+        }
+      
+  });
+
+  //Filter By Impact Area
+  impactOption.addEventListener("change", function(e){
+      var listDataFilter = impactOption.options[impactOption.selectedIndex].getAttribute("data-impact");
+      //var element = document.querySelectorAll('[data-skill]');
+      //console.log(impact[i].firstElementChild.getAttribute("data-skill"));
+       if(listDataFilter == "all"){
+          var elements = document.getElementsByClassName("cards_item");
+          for(var i = 0; i < agency.length; i++) {
+            removeClass(agency[i], "hide");
+          }
+        }else{
+          for(var i = 0; i < agency.length; i++) {
+            if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
+              addClass(agency[i], "show");
+              removeClass(agency[i], "hide");
+            }else if((impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter)){
+            addClass(agency[i], "show");
+            removeClass(agency[i], "hide");
+            }else {
+              removeClass(agency[i], "show");
+              addClass(agency[i], "hide");
+            };
+          }
+        }
+  });
+
+  function addClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {
+        element.className += " " + arr2[i];
+      }
+    }
+  }
+  function removeClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+</script> 

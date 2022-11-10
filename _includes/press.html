@@ -1,0 +1,92 @@
+
+<section class="usa-section">
+  <div class="carousel-container snap-inline">
+    <div class="carousel-inner">
+      <div class="track">
+        
+          {% assign sorted = site.articles | sort: 'pageOrderID' | reverse %}
+          {% assign aria_id = press.title | url_encode | truncate: 15, "" %}
+          {% for article in sorted %}
+          <div class="card-container">
+          <div class="press-card {{article.type}}">
+            <a href="{{ article.external_url }}" target="_blank" rel="noopener noreferrer" aria-labelledby="{{ aria_id }}">
+              <div class="article-type">{{article.type}}</div>
+              <div class="usa-prose press-img">
+                {% if article.image %}
+                {% asset "{{ article.image }}" class="img-size" alt="{{ article.title }}" %}
+                {% else %}
+                {% asset "Placeholder.png" class="margin-right-3" alt="{{ article.title  }}" %}
+                {% endif %}
+              </div>
+              <div>
+                <h2 class="body-intro--bold" id="{{ aria_id }}">{{ article.title }}</h2>
+                  {{ article.content }}
+              </div>
+            </a>
+            <!-- <p>
+              <span class="press-card--press-year">{{ article.posted }} </span>
+            </p> -->
+          </div>
+        
+      </div>
+          {% endfor %}
+          
+        
+        
+      </div>
+    </div>
+    
+    <div class="press-nav">
+      <div class="prev">
+        
+      </div>
+      <div class="next">
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+const nav = document.querySelector('.press-nav');
+let index = 0;
+let viewportWidth = window.innerWidth;
+let articles = '{{sorted.size}}'
+   if(viewportWidth > 1024 && (articles < 4)){
+    nav.classList.add('hide');
+  }else{
+  nav.classList.add('show');
+  }
+  const prev  = document.querySelector('.prev');
+const next = document.querySelector('.next');
+
+const track = document.querySelector('.track');
+
+let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+
+window.addEventListener('resize', () => {
+  carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+})
+
+
+
+next.addEventListener('click', () => {
+  index++;
+  prev.classList.add('show');
+  track.style.transform = `translateX(-${index * carouselWidth}px)`;
+  
+  if (track.offsetWidth - (index * carouselWidth) < carouselWidth) {
+    next.classList.add('hide');
+  }
+})
+
+prev.addEventListener('click', () => {
+  index--;
+  next.classList.remove('hide');
+  if (index === 0) {
+    prev.classList.remove('show');
+  }
+  track.style.transform = `translateX(-${index * carouselWidth}px)`;
+})
+
+</script>

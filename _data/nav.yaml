@@ -6,6 +6,10 @@ primary:
     url: /about/
   - name: The Opportunity
     url: /opportunity/
+  - name: Fellows
+    url: /fellows/
+  - name: Projects
+    url: /projects/
   - name: Application Process
     url: /process/
   - name: FAQ
