@@ -149,7 +149,7 @@ exclude:
   #- pages/track-*  # toggled off
   
   # exclude until search is implemented
-  - pages/search
+ # - pages/search
 
 assets:
   sources:
