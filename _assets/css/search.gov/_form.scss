@@ -5,7 +5,7 @@
 }
 
 .usa-header [role="search"] {
-  width: 95%;
+    width: 95%;
 }
 
 .usa-search .usa-button {
@@ -21,8 +21,8 @@
   -webkit-appearance: none; // fixes iOS override
   //border-width: 0;
   border-radius: 0;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
 }
 
 .search-body {
