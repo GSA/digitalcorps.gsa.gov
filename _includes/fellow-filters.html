@@ -1,40 +1,73 @@
-<div class="filters fellow-filters">
-    <div class="filters__left ">
-        <div class="filter_col" id="tracks">
-            <select aria-labelledby="tracks" class="usa-select" name="track" id="fellow-track-select">
-                <option data-track="all" disabled selected>Filter by Track</option>
-                <option data-track="all">All Tracks</option>
-                <option data-track="cybersecurity">Cybersecurity</option>
-                <option data-track="data">Data science & analytics</option>
-                <option data-track="design">Design</option>
-                <option data-track="product">Product management</option>
-                <option data-track="software">Software engineering</option>
-            </select>
+<div class="filters">
+    <div class="filters__left display-flex">
+      <div class='filter__col'>
+        <select class="usa-select" aria-label="agency-select" name="fellows-select-agency" id="fellows-select-agency">
+          <option value="" selected disabled hidden>Filter by agency </option>
+          <option value="">All Agencies</option>
+          {% assign agencies = site.data.agencies | sort:"fullname" %}
+          {% for agency in agencies %}
+            <option value="{{ agency.name }}">
+              {{ agency.fullname }}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+      <div class="filters__left display-flex">
+        <div class='filter__col'>
+          <select class="usa-select" aria-label="track-select" name="fellows-select-track" id="fellows-select-track">
+            <option value="" selected disabled hidden>Filter by track </option>
+            <option value="">All Tracks</option>
+            {% assign tracks = site.data.fellow-tracks | sort:"display_name" %}
+            {% for track in tracks %}
+              <option value="{{ track.url_name }}">
+                {{ track.display_name }}
+              </option>
+            {% endfor %}
+          </select>
         </div>
-        <div class="filter_col" id="agencies">
-            <select aria-labelledby="agencies" class="usa-select" name="fellow-agencies" id="fellow-agencies-select">
-                <option data-filter="all" disabled selected>Filter By Agency</option>
-                <option data-filter="all">All Agencies</option>
-                <option data-filter="acf"> Administration for Children and Families </option> 
-                <option data-filter="cmms"> Centers for Medicare and Medicaid Services </option>
-                <option data-filter="cfpb"> Consumer Financial Protection Bureau </option>
-                <option data-filter="ci"> Cybersecurity & Infrastructure Security Agency</option>
-                <option data-filter="dhhs"> Department of Health and Human Services </option> 
-                <option data-filter="dos"> Department of State </option> 
-                <option data-filter="va"> Department of Veterans Affairs </option>
-                <option data-filter="epa"> Environmental Protection Agency </option>
-                <option data-filter="gsa"> General Services Administration</option> 
-                <option data-filter="opm"> Office of Personnel Management </option> 
-                <option data-filter="sba"> Small Business Administration </option>
-                <option data-filter="cb"> U.S. Census Bureau </option>
-                <option data-filter="cis"> U.S. Citizenship and Immigration Services </option>
-            </select>
-        </div>
-        <div class='filter__search'>
-            <label for="fellows-search-input"></label>
-            <input type="text" id="fellows-search-input" placeholder="Search fellows" class="usa-input">
-        </div>
+      </div>
     </div>
-    
+  
+    <div class='filter__search'>
+      <label for="fellows-search-input"> 
+        <input type="text" id="fellows-search-input" placeholder="Search fellows" class="usa-input">
+      </label>
+    </div>
   </div>
+  
+  <script type="text/javascript">
+  
+    const validAgencies = [{% for agency in site.data.agencies %} "{{ agency.name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
+    const validTracks = [{% for track in site.data.fellow-tracks %} "{{ track.url_name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
+  
+    // Agency Select
+    var agencySelect = document.getElementById("fellows-select-agency");
+    agencySelect.addEventListener('change', (event) => {
+      window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-agency";
+    });
+  
+    // Track Select
+    var trackSelect = document.getElementById("fellows-select-track");
+    trackSelect.addEventListener('change', (event) => {
+      window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-track";
+    });
+  
+    // get match from pathname
+    var splitPath = window.location.pathname.split('/')
+    for (i in splitPath) {
+      item = splitPath[i]
+      if (validAgencies.includes(item) ) {
+        agencySelect.value = item;
+        break;
+      }
+  
+      if (validTracks.includes(item)) {
+        trackSelect.value = item;
+        break;
+      }
+    }
+    
+  
+    
+  </script>
   

@@ -11,7 +11,7 @@ region: east
 bio_short: Developer with a passion for how artificial intelligence is shaping our world
 why: "I joined the Digital Corps for an opportunity to give back to the country that has given so much to me."
 fun_fact: Anastasia rescued a Chihuahua 12 years ago from a subway station.
-tags: ['east', '2022','Software_Engineering']
+tags: ['east', '2022','Software_Engineering', 'GSA']
 track: ['Software Engineering']
 ---
 

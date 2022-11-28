@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Consumer Financial Protection Bureau Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'CFPB'
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
