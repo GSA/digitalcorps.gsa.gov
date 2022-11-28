@@ -1,0 +1,80 @@
+
+<script>
+    //<![CDATA[
+  
+    var urlParams = new URLSearchParams(window.location.search);
+    var searchEndpoint = new URL("{{site.searchgov.endpoint}}/api/v2/search/i14y");
+    params = {
+      affiliate: "{{site.searchgov.affiliate}}",
+      access_key: "{{site.searchgov.access_key}}",
+      query: urlParams.get('query')
+    }
+  
+  
+    Object.keys(params)
+    .forEach(key => searchEndpoint.searchParams.append(key, params[key]))
+  
+    fetch(searchEndpoint)
+    .then(function (response) {
+      return response.json()
+    })
+    .then(function (posts) {
+  
+      // render search box with prior search term
+      document.getElementById('extended-search-field-small').value = params.query;
+  
+      // render results
+      for (item in posts.web.results) {
+        render_result(`
+            <li class="padding-bottom-5 margin-top-4 usa-prose border-bottom-05 border-base-lightest">
+              <div class="search-result-url">
+                <a href="${posts.web.results[item]['url']}">
+                ${posts.web.results[item]['url']}
+                </a>
+              </div>
+              <b class="title">
+                <a href="${posts.web.results[item]['url']}">
+                  ${posts.web.results[item]['title']
+                    .replace(/\uE000/g, '')
+                    .replace(/\uE001/g, '')
+                    .replace(' | {{site.title}}', '')
+                    }
+                </a>
+              </b>
+              <div class="search-result-snippet">
+                ${posts.web.results[item]['snippet']
+                .replace(/\uE000/g, '<span class="bg-yellow">').replace(/\uE001/g, '</span>')}
+              </div>
+            </li>
+            `, true)
+      }
+    }).catch(function (ex) {
+      console.log('parsing failed', ex);
+    }).finally(function (e) {
+  
+      // no results scenario
+      if (document.getElementById('search-results').childNodes.length == 0) {
+        render_result(`<li>No results found</li>`, false)
+      }
+    })
+  
+    function render_result(content, append = true) {
+      const previous = document.getElementById('search-results').innerHTML;
+      document.getElementById('search-results').innerHTML = (append == true) ? previous + content : content;
+    }
+  
+  //]]>
+  </script>
+  
+  {% if site.searchgov %}
+  <div id="search-box" class="search-body margin-bottom-3">
+    {% include searchgov/form.html %}
+  </div>
+  <h1 style="margin-top:0 !important;">Search Results</h1>
+  <ol id="search-results" class="search-results"></ol>
+  {% else %}
+  <script>
+    window.location = "/";
+  </script>
+  {% endif %}
+  

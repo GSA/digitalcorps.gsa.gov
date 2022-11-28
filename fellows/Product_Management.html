@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Product Management Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 'Product_Management'
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
