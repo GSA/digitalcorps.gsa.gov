@@ -9,7 +9,7 @@ gem "kramdown-parser-gfm", "~> 1.1.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.15"
+  gem "jekyll-feed", "~> 0.17"
   gem "jekyll-last-modified-at" # used in sitemap
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
