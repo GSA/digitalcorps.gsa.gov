@@ -11,7 +11,7 @@ region: east
 bio_short: Product manager with a background in technology, politics, civic engagement, and political identity
 why: "I look forward to the opportunity to contribute to the development of systems that improve citizens' lives and bolster their relationship with government agencies."
 fun_fact: John used to work as a sound engineer for concerts.
-tags: ['east', '2022','Product_Management']
+tags: ['east', '2022','Product_Management', 'GSA']
 track: ['Product Management']
 ---
 

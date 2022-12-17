@@ -80,8 +80,9 @@
   }
 //Filters
 .fellow-filters{
-  display: flex;
-  flex-wrap: wrap;
+ @include at-media ('desktop'){
+  margin: 0 10%;
+ }
   //@include u-margin-right(2);
 }
 
