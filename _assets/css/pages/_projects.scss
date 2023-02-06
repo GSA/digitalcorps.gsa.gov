@@ -178,30 +178,30 @@
       border-radius: 10px;
       li {
         @include u-margin-bottom(2.0);
-        @include u-margin-right(1.0);
+        @include u-margin-right(0.5);
         span {
           @include u-font('sans', 1);
           @include u-padding(1);
           @include u-bg('red-cool-10v');
           border-radius: 5px;
-          &.equity {
+          &.Equity {
             background-color: #58B4FF;
             color: #000000;
           }
-          &.health {
+          &.Health {
             background-color: #FACE00;
             color: #000000; 
           }
-          &.cybersecurity {
+          &.Cybersecurity {
             background-color: #000000;
           }
-          &.public-exp {
+          &.Public_experience {
             background-color: #9D1831;
           }
-          &.immigration {
+          &.Immigration {
             background-color: #1B2B85;
           }
-          &.capacity {
+          &.Capacity_Building {
             background-color: #C7C7C7;
             color: #000000;
           }
@@ -388,6 +388,7 @@
 
 .card_content {
   padding: 2.5rem;
+  height: 430px;
   @include at-media('tablet') {
     flex-direction: row;
   }
@@ -414,11 +415,15 @@
   margin: 0;
 }
 .skill-styling{
-  display: flex;
-  flex-wrap: wrap;
+  //display: flex;
+  //flex-wrap: wrap;
   font-weight: bold;
   font-size: 16x;
   //@include u-font('sans', 'sm');
+}
+
+.learn-more {
+  margin-bottom: 0.25rem;
 }
 
 .learn-more  a{

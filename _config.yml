@@ -48,6 +48,9 @@ collections:
   fellows:
     output: true
     permalink: /:collection/:name/
+  projects:
+    output: true
+    permalink: /:collection/:name/
   pages:
     output: true
     permalink: /:path/
@@ -61,6 +64,10 @@ defaults:
       type: "fellows"
     values:
       layout: "fellow"
+  - scope:
+      type: "projects"
+    values:
+      layout: "project"
   
 # formatting
 permalink: pretty
