@@ -10,23 +10,29 @@
 }
 
 // remove 33% width, fixed height for logo area
-.usa-header--basic .usa-navbar {
+.usa-header--extended .usa-navbar {
   width: unset;
 }
 
 // remove bottom padding for desktop menu
-.usa-header--basic .usa-nav {
+.usa-header--extended .usa-nav {
+  border-top: none;
   @include at-media("desktop") {
     padding: 0 0 0 0.5rem;
   }
 }
 
 // menu item layout, centered vertically
-.usa-header--basic .usa-nav-container {
+.usa-header--extended .usa-nav-container {
   @include at-media("desktop") {
     height: 75px;
     align-items: center;
   }
+}
+
+//primary menu spacing
+.usa-nav__primary {
+  justify-content: space-between;
 }
 
 // menu font
@@ -57,14 +63,14 @@
 }
 
 // menu font, mobile
-.usa-header--basic .usa-nav__primary-item > .usa-current,
-.usa-header--basic .usa-nav__link {
+.usa-header--extended .usa-nav__primary-item > .usa-current,
+.usa-header--extended .usa-nav__link {
   @include u-text("bold");
 }
 
 // indicator
-.usa-header--basic .usa-nav__primary-item > .usa-current::after,
-.usa-header--basic .usa-nav__link:hover::after {
+.usa-header--extended .usa-nav__primary-item > .usa-current::after,
+.usa-header--extended .usa-nav__link:hover::after {
   @include u-bg("primary-vivid");
 
   // desktop view, resize
@@ -73,6 +79,12 @@
     bottom: 7px;
     left: 0.5rem;
     right: 0.5rem;
+  }
+}
+// desktop view for search and apply button
+.usa-nav__secondary {
+  @include at-media("desktop") {
+    flex-direction: row;
   }
 }
 
