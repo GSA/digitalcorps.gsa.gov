@@ -133,7 +133,7 @@
     text-transform: uppercase;
   }
 
-  & > a, button {
+  & > a {
     @include u-text("black");
     @include u-text("normal");
 
@@ -149,6 +149,32 @@
       @include u-text("base-dark");
     }
   }
+
+  & > button {
+    @include u-text("black");
+    @include u-text("normal");
+    text-transform: uppercase;
+    @include u-font("sans", "xs");
+
+    // desktop view, spacing between
+    @include at-media("desktop") {
+      @include u-padding-x(1);
+    }
+
+    &:active {
+      @include u-text("white");
+    }
+    &:hover {
+      @include u-text("base-dark");
+    }
+  }
+
+  & > button[aria-expanded="true"] {
+    &:hover {
+      @include u-text("white");
+    }
+  }
+
 }
 
 // menu font, mobile
