@@ -161,15 +161,10 @@
       @include u-padding-x(1);
     }
 
-    &:active {
-      @include u-text("white");
-    }
-    &:hover {
-      @include u-text("base-dark");
-    }
   }
 
   & > button[aria-expanded="true"] {
+    @include u-text("white");
     &:active {
       @include u-text("white");
     }
