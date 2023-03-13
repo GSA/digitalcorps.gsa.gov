@@ -170,8 +170,11 @@
   }
 
   & > button[aria-expanded="true"] {
-    &:hover {
+    &:active {
       @include u-text("white");
+    }
+    &:hover {
+      @include u-text("base-lighter");
     }
   }
 
