@@ -151,29 +151,33 @@
   }
 
   & > button {
-    @include u-text("black");
     @include u-text("normal");
-    text-transform: uppercase;
     @include u-font("sans", "xs");
 
     // desktop view, spacing between
     @include at-media("desktop") {
       @include u-padding-x(1);
+      @include u-text("black");
+      text-transform: uppercase;
+      background-position: right 0.5rem top 53%;
     }
-
   }
 
   & > button[aria-expanded="true"] {
-    @include u-text("white");
-    &:active {
+    @include at-media("desktop") {
       @include u-text("white");
-    }
-    &:hover {
-      @include u-text("base-lighter");
+      &:active {
+        @include u-text("white");
+      }
+      &:hover {
+        @include u-text("base-lighter");
+      }
     }
   }
 
 }
+
+
 
 // menu font, mobile
 .usa-header--basic .usa-nav__primary-item > .usa-current,
