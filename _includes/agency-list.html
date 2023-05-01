@@ -48,11 +48,11 @@
                                 <p class="project-skill-impact">Learn More: </p>
                                 <div class="learn-more">
                                     <span>
-                                        <a href={{project.project_url}} target="_blank">{% asset "Website.png" alt="{{project.agency}} website" class="project-item-links" %}</a>
+                                        <a href={{project.project_url}} target="_blank" rel="noopener">{% asset "Website.png" alt="{{project.agency}} website" class="project-item-links" %}</a>
                                     </span>
                                    {% if project.youtube_url %}
                                     <span> 
-                                        <a href="{{project.youtube_url}}" target="_blank">{% asset "Youtube.png" alt="{{project.agency}} video" class="project-item-links" %}</a>
+                                        <a href="{{project.youtube_url}}" target="_blank" rel="noopener">{% asset "Youtube.png" alt="{{project.agency}} video" class="project-item-links" %}</a>
                                     </span>
                                     {% endif %}
                                 </div>
