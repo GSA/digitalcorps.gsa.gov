@@ -3,7 +3,7 @@ id: jamila-crawford
 title: Jamila Crawford
 image: Jamila Crawford.png
 fellow_year: 2022
-project: ["na"]
+project: ["cisa"]
 agency: ["CISA"]
 hometown: Atlanta, GA
 university: St. Mary's University of Minnesota

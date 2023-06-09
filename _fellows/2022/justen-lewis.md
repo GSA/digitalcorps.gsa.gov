@@ -3,7 +3,7 @@ id: justen-lewis
 title: Justen Lewis
 image: Justen Lewis.png
 fellow_year: 2022
-project: ["na"]
+project: ["opm"]
 agency: ["OPM"]
 hometown: Troy, MI
 university: University of Notre Dame

@@ -1,0 +1,45 @@
+{% comment %}
+  Project team details
+  Arguments:
+    - agency_logo[string]: name of image asset for agency logo
+    - topics[array of strings]: list of topic names
+    - fellows[array]: list of fellows related to project, containing:
+      - name[string]: fellow name
+      - year[string]: fellow year
+      - image[string]: name of image asset for fellow headshot
+{% endcomment %}
+
+<section class='padding-y-2 bg--lightest-alt'>
+  <div class="grid-container">
+    <div class="project-team">
+      {% if include.agency_logo %}
+        {% asset "{{ include.agency_logo }}" class="width-10" alt="{{ include.agency }}" %} 
+      {% endif %}
+
+      {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture %}
+      {% assign fellows_list = site.fellows | where_exp: "fellow", "fellow.project contains project_id" %}
+
+      {% for fellow in fellows_list %}
+
+        {% if forloop.first %}
+          <span class="text-primary-darker font-sans-2xl padding-x-3 display-inline-block">
+            <!-- &#43; -->
+          </span>
+          <div class="project-team__members">
+        {% endif %}
+
+        <div class="project-team__member{% if forloop.first %} first{% endif %}">
+          <a href="{{ site.baseurl }}{{ fellow.url }}" title="{{ fellow.title }}">
+          {% asset "{{ fellow.image }}" class="width-10 height-10 img-circle" alt="{{ fellow.title }}" %}
+          </a>
+        </div>
+
+        {% if forloop.last %}
+          </div>
+        {% endif %}
+
+      {% endfor %}
+
+
+    </div>
+</section>

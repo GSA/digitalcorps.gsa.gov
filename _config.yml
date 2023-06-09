@@ -173,6 +173,7 @@ assets:
     - _assets/images/home
     - _assets/images/about
     - _assets/images/opportunity
+    - _assets/images/projects
     - _assets/images/apply
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js

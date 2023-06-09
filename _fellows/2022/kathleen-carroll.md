@@ -3,7 +3,7 @@ id: kathleen-carroll
 title: Kathleen Carroll
 image: Kathleen Carroll.png
 fellow_year: 2022
-project: ["na"]
+project: ["hhs"]
 agency: ["HHS"]
 hometown: Boston, MA
 university: Emerson College

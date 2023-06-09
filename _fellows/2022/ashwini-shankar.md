@@ -3,7 +3,7 @@ id: ashwini-shankar
 title: Ashwini Shankar
 image: Ashwini Shankar.png
 fellow_year: 2022
-project: ["na"]
+project: ["dos-managing-a-crisis-with-data-and-empathy"]
 agency: ["DOS"]
 hometown: Atherton, CA
 university: Tufts University

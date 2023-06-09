@@ -3,7 +3,7 @@ id: jenny-wang
 title: Jenny Wang
 image: Jenny Wang.png
 fellow_year: 2022
-project: ["na"]
+project: ["va"]
 agency: ["VA"]
 hometown: Seattle, WA
 university: New York University

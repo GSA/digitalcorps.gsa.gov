@@ -3,7 +3,7 @@ id: isabel-laurenceau
 title: Isabel Laurenceau
 image: Isabel Laurenceau.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown: Miami, FL
 university: University of Florida

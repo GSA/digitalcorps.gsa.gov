@@ -3,7 +3,7 @@ id: dhan-gurung
 title: Dhan Gurung
 image: Dhan Gurung.png
 fellow_year: 2022
-project: ["na"]
+project: ["epa"]
 agency: ["EPA"]
 hometown: North Bergen, New Jersey
 university: Fordham University

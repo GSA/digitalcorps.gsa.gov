@@ -3,7 +3,7 @@ id: thomas-sittmann
 title: Thomas Sittmann
 image: Thomas Sittmann.png
 fellow_year: 2022
-project: ["na"]
+project: ["acf"]
 agency: ["ACF"]
 hometown: Aberdeen, NC
 university: Norwich University

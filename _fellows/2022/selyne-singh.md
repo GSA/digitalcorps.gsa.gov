@@ -3,7 +3,7 @@ id: selyne-singh
 title: Selyne Singh
 image: Selyne Singh.png
 fellow_year: 2022
-project: ["na"]
+project: ["uscb"]
 agency: ["USCB"]
 hometown: Wesley Chapel, FL
 university: University of Florida

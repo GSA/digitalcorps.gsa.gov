@@ -3,7 +3,7 @@ id: lacy-kelly-ramos
 title: Lacy Kelly Ramos
 image: Lacy Kelly Ramos.png
 fellow_year: 2022
-project: ["na"]
+project: ["uscb"]
 agency: ["USCB"]
 hometown:
 university: University of California, Berkeley

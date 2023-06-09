@@ -203,3 +203,10 @@
 .usa-nav .usa-search {
   margin-left: 0;
 }
+.usa-search--small [type="submit"], .usa-search--small .usa-search__submit{
+  background-image: url(../img/usa-icons-bg/search--white.svg),linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1.5rem;
+    width: 3rem;
+}

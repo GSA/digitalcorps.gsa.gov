@@ -71,6 +71,29 @@
   url: http://www.va.gov
   description:
 
+- name: USDA
+  fullname: U.S. Department of Agriculture
+  url: https://www.usda.gov/our-agency/about-usda
+  description:
 
+- name: CDC
+  fullname: Centers for Disease Control and Prevention
+  url: https://www.cdc.gov/about/
+  description:  
+
+- name: HRSA
+  fullname: Health Resources and Services Administration
+  url: https://www.hrsa.gov/about 
+  description:  
+
+- name: NIH
+  fullname: National Institutes of Health
+  url: https://www.nih.gov/about-nih
+  description: 
+
+- name: DTIC
+  fullname: Defense Technical Information Center
+  url: https://discover.dtic.mil/
+  description: 
 
   

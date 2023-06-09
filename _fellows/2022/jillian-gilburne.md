@@ -3,7 +3,7 @@ id: jillian-gilburne
 title: Jillian Gilburne
 image: Jillian Gilburne.png
 fellow_year: 2022
-project: ["na"]
+project: ["acf"]
 agency: ["ACF"]
 hometown: Washington, D.C.
 university: Northwestern University

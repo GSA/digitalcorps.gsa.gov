@@ -3,7 +3,7 @@ id: christy-tong
 title: Christy Tong
 image: Christy Tong.png
 fellow_year: 2022
-project: ["na"]
+project: ["va"]
 agency: ["VA"]
 hometown: Hong Kong
 university: University of San Francisco

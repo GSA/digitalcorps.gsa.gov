@@ -3,7 +3,7 @@ id: victoria-newman
 title: Victoria Newman
 image: Victoria Newman.png
 fellow_year: 2022
-project: ["na"]
+project: ["cisa"]
 agency: ["CISA"]
 hometown: Tuscaloosa, AL
 university: Florida Institute of Technology
