@@ -13,7 +13,7 @@
   <div class="grid-container">
     <div class="project-team">
       {% if include.agency_logo %}
-        {% asset "{{ include.agency_logo }}" class="width-10" alt="{{ include.agency }}" %} 
+        {% asset "{{ include.agency_logo }}" class="project-item__logo width-10" alt="{{ page.agency_abbrev }}" %} 
       {% endif %}
 
       {% capture project_id %}{{page.id | remove: "/projects/"}}{% endcapture %}
