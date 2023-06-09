@@ -1,6 +1,6 @@
 ---
 id: nikki-ramos
-title: Anjenica "Nikki" Ramos
+title: Anjenica Nikki Ramos
 image: Nikki Ramos.png
 fellow_year: 2022
 project: ["uscis"]
