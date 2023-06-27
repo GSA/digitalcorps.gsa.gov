@@ -8,7 +8,7 @@ layout: default
     <div class="usa-hero__callout">
       <div class="grid-container">
         <div class="grid-row">
-          <div class="grid-col-7">
+          <div class="desktop:grid-col-7">
             <h1 class="usa-hero__heading display display--inverted">
               {{ page.project_name }}
             </h1>
@@ -18,12 +18,12 @@ layout: default
 
             
           </div>
-          <div class="grid-col-5">
+          <div class="desktop:grid-col-5">
             {% include project-team.html agency_logo=page.agency_logo fellows=page.fellows %}
           </div>
         </div>
         <div class="grid-row">
-          <div class="grid-col-7">
+          <div class="tablet:grid-col-7">
             <div class="impact-skills">
               <div class="project-specialty">
                 {% assign agency_impact = site.data.agency-impact | where_exp:'impact', "page.impact_area contains impact.display_name" %}
@@ -54,7 +54,7 @@ layout: default
               </div>
             </div>
           </div>
-          <div class="grid-col-5">
+          <div class="tablet:grid-col-5">
             <div class="project-banner-links">
               <p class="project-skill-impact">Learn More: </p>
               <div class="learn-more">

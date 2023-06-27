@@ -55,7 +55,10 @@
         }
 
         .impact-skills{
-            @include u-padding-top(10);
+          //@include u-padding-top(1);
+            @include at-media("desktop") {
+              @include u-padding-top(10);
+            }
         }
         .project-specialty{
             color: #ffffff;
@@ -115,7 +118,11 @@
   }
 
   .project-team {
-    @include at-media("tablet") {
+    float: left;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    @include at-media("desktop") {
       text-align: left;
       display: flex;
       align-items: center;
@@ -159,9 +166,17 @@
   
   }
   .project-banner-links{
-    @include u-padding-top(15);
+    float: left;
+    @include at-media("tablet") {
+      @include u-padding-top(7);
     @include u-padding-right(10);
     float: right;
+    }
+    @include at-media("desktop") {
+      @include u-padding-top(15);
+      @include u-padding-right(10);
+      float: right;
+    }
   }
 
   .project-nav{
@@ -206,5 +221,20 @@
 .usa-summary-box{
   background-color: #ffffff;
   border-color: #ffffff;
+}
+
+@media screen and (min-width:480px) and (max-width:490px) {
+  .project-banner {
+    .usa-hero {
+      min-height: 730px;
+    }
+  }
+}
+@media screen and (min-width:491px) and (max-width:715px){
+  .project-banner {
+    .usa-hero {
+      min-height: 701px;
+    }
+  }
 }
   
