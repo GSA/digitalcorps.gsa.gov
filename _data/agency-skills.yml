@@ -1,10 +1,15 @@
 - display_name: Cybersecurity
   url_name: Cybersecurity
-- display_name: Data Science
+  val: cyb
+- display_name: Data science
   url_name: Data_Science
+  val: datasci
 - display_name: Design
   url_name: Design
-- display_name: Product Management
+  val: dsgn
+- display_name: Product management
   url_name: Product_Management
-- display_name: Software Engineering
+  val: prodmngmt
+- display_name: Software engineering
   url_name: Software_Engineering
+  val: softeng

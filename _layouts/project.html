@@ -44,9 +44,7 @@ layout: default
                     {% if forloop.first %}
                     <div>
                     {% endif %}
-                      <span class="skill-styling">{{ skill.display_name}}
-                        {% unless forloop.last %},{% endunless %}
-                      </span>
+                      <span class="skill-styling">{{skill.display_name}}{% unless forloop.last %},{% endunless %}</span>
                     {% if forloop.last %}
                     </div>
                     {% endif %}

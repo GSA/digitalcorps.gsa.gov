@@ -8,13 +8,13 @@ project_name: "Answering the Call: Managing A Crisis with Data and Empathy"
 summary: "Leveraging data and technology in innovative ways to implement the Department’s Enterprise Data Strategy (EDS) and data informed diplomacy. The EDS helps to advance America’s foreign policy priorities, solve the Department's management challenges, and protect its people, facilities, and information."
 partner_description: "The Department of State works to protect and promote U.S. security, prosperity, and democratic values, and shape an international environment in which all Americans can thrive.  Within the Department of State, we work for the Center for Analytics (CfA). CfA is the Department’s official provider of enterprise data management and analytics capability. We work to enable and deliver data and analytics across the Department to assist in solving foreign policy and management challenges. The goal of CfA is data-informed diplomacy and building a data-driven culture at State. CfA is where the science of analytics meets the art of diplomacy."
 project_url: https://www.state.gov/about/
-skill_set: ['Product Management', 'Data Science', 'Cybersecurity']
+skill_set: ['Product management', 'Data science', 'Cybersecurity']
 tags: ['Product_Management','Data_Science', 'Cybersecurity','Capacity_Building']
 impact_area: ["Capacity Building"]
 status: ["current"]
 ---
 
-## The Challenge
+## The challenge
 Amid years of massive political suppression and imprisonment of hundreds of political rivals, activists, students, journalists, business, religious leaders, and members of civil society at large, on February 9, 2023, Nicaraguan president Daniel Ortega suddenly announced the release of 222 political prisoners into U.S. custody.  At the time of release, Nicaragua stripped the parolees of their citizenship, rendering them stateless.  The State Department quickly mobilized a task force – Operation Welcome Nica – to accomplish three primary goals in response to this humanitarian crisis: 
 
 <ol>
@@ -23,7 +23,7 @@ Amid years of massive political suppression and imprisonment of hundreds of poli
 <li>Secure their futures beyond the parolees’ 4-day stay with us here in the capitol area.</li>
 </ol>
 
-## The Solution 
+## The solution 
 Working at the Center for Analytics, the U.S. Digital Corps fellows joined the task force in setting up and executing the data analytics component of the operation.  CfA had three main responsibilities: data intake, reporting, and active family reunification/non-governmental organization (NGO) matching:  
 <ul>
     <li><strong>Data intake</strong> included creating an in-flight passenger intake form to help identify accessibility needs and contacts in the U.S. and collecting critical hotel and status reporting data. These datasets prioritized hotel team activities and ensured that parolees connected with family or received needed support.  We worked with the Crisis Management Strategy (CMS) office to automate data flow between Operations Center call activity and on-site parolee status information. 
