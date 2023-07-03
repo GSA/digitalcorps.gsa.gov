@@ -8,7 +8,7 @@ agency: ["ACF"]
 hometown:  Bay Area, CA
 university: Georgetown University
 region: west
-bio_short: Product manager with a passion for politics, technology, and security. 
+bio_short: Product manager with a passion for politics, technology, and security 
 why: "I joined USDC for an opportunity to give back to my country, community, and peers."
 fun_fact: 'Eduardo is somewhat of a cereal connoisseur.'
 tags: ['west', '2023','Product_Management', 'ACF']
