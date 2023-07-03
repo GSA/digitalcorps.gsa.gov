@@ -9,7 +9,7 @@ hometown:  Sheboygan, WI
 university: University of Illinois - Urbana-Champaign
 region: west
 bio_short: Data scientist with a cognitive science and research background
-why: "As I witnessed the profound impact of the events of 2020, especially the COVID-19 pandemic and the disparities it exposed, I felt a strong sense of urgency to do my part to create a more fair and inclusive society. In our increasingly technological world, I believe that responsible data science is critical to implement effective solutions to the challenges we face today. I am excited about the mission of the U.S. Digital Corps to develop innovative solutions to make government work better for all Americans, and as a fellow, I aim to become an advocate for equitable outcomes and a catalyst for inclusive progress."
+why: "As I witnessed the profound impact of the events of 2020, especially the COVID-19 pandemic and the disparities it exposed, I felt a strong sense of urgency to do my part to create a more fair and inclusive society. In our increasingly technological world, I believe that responsible data science is critical to implement effective solutions to the challenges we face today. I am excited about the mission of the U.S. Digital Corps to develop innovative solutions to make government work better for all Americans, and as a Fellow, I aim to become an advocate for equitable outcomes and a catalyst for inclusive progress."
 fun_fact: 'Emily loves adventure sports and has been skydiving, bungee jumping, canyoning, and white water rafting!'
 tags: ['west', '2023','Data_Science_And_Analytics', 'VA']
 track: ['Data Science and Analytics']
