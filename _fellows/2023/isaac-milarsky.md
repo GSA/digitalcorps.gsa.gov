@@ -8,11 +8,11 @@ agency: ["CMS"]
 hometown:  Columbia, MO
 university: University of Missouri-Columbia
 region: west
-bio_short: Software engineer ready to work on increasing access to healthcare in the United States.
-why: "The potential to help people with my skills and experience and the potential to increase access to healthcare in the United States."
+bio_short: Software engineer ready to work on increasing access to healthcare
+why: "I joined the Digital Corps because I was drawn to the potential to help people with my skills and experience and to the potential to increase access to healthcare for people across the United States."
 fun_fact: 'Isaac plays the trumpet.'
 tags: ['west', '2023','Software_Engineering', 'CMS']
 track: ['Software Engineering']
 ---
 
-Isaac lives in Columbia Missouri and enjoys the many public parks in the area. 
+Isaac lives in Columbia, MO and enjoys the many public parks in the area. 
