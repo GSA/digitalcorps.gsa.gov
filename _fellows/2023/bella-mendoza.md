@@ -1,7 +1,7 @@
 ---
 id: bella-mendoza
 title: Bella Mendoza
-image: 
+image: bella-mendoza.png
 fellow_year: 2023
 project: ["na"]
 agency: [""]
@@ -11,7 +11,7 @@ region: west
 bio_short: Data scientist passionate about ethical uses of technology as a means to navigate and embrace a diverse and ever-changing world 
 why: "I firmly believe that the power of technology to improve the welfare of society as a whole lies in our deliberate commitment to promoting diversity and inclusivity throughout its development and deployment. Joining the U.S. Digital Corps grants me the necessary resources and support to utilize my skills in a manner that actively contributes to this envisioned advancement."
 fun_fact: Bella tends to connect with people over music. Every year, they clear their music library, forcing themselves to listen to new music and allowing their true favorites to naturally find their way back to them.
-tags: ['west', '2023','Data_Science_And_Analytics']
+tags: ['west', '2023','Data_Science_And_Analytics', 'active']
 track: ['Data Science and Analytics']
 ---
 

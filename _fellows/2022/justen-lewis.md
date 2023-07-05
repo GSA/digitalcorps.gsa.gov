@@ -11,7 +11,7 @@ region: west
 bio_short: Product manager passionate about equity and positive social change 
 why: "I wanted to leverage my skillset in engineering, technology, and policy through public service to make a difference at scale."
 fun_fact: Justen is a Flintstone (native of Flint, Michigan).
-tags: ['west', '2022','Product_Management', 'OPM']
+tags: ['west', '2022','Product_Management', 'OPM', 'active']
 track: ['Product Management']
 ---
  

@@ -1,7 +1,7 @@
 ---
 id: marina-defrates
 title: Marina DeFrates
-image: 
+image: marina-defrates.png
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]
@@ -11,7 +11,7 @@ region: northeast
 bio_short: Designer passionate about leveraging the power of design for social impact
 why: "I grew up wanting to be a doctor so I could help my mom, who suffered from a severe chronic illness during my childhood. While I eventually decided that my skills and interests were more suited to the world of design, the desire to be of service and do what I can to make a positive impact has been a constant throughout my life. I am so grateful that the U.S. Digital Corps has given me the opportunity to combine both!"
 fun_fact: 'In an alternate reality, Marina would be either an acrobat or a nature photographer. She is currently learning how to do handstands and hopes to visit every major desert in the world.'
-tags: ['northeast', '2023','Design', 'GSA']
+tags: ['northeast', '2023','Design', 'GSA', 'active']
 track: ['Design']
 ---
 

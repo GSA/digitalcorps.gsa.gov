@@ -1,7 +1,7 @@
 ---
 id: chirag-kumar
 title: Chirag Kumar
-image: 
+image: chirag-kumar.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]
@@ -11,7 +11,7 @@ region: northeast
 bio_short: Data scientist with a passion for using science to address the world’s greatest inequities
 why: "Government plays such a central role in all of our lives, so it must work for all people. I am drawn to USDC because it presents an opportunity to simultaneously learn from deep technical and policy expertise of government leaders while working on critical and impactful problems and government programs. I am excited to begin my career by ensuring that technology is advancing the lives of all Americans!"
 fun_fact: 'Chirag collects playing cards from around the world and is trying to complete a set of cards from every national park in the US! He also loves card games (bridge!), so please feel free to knock on his door (or ring a virtual doorbell) for a card game session!'
-tags: ['northeast', '2023','Data_Science_And_Analytics', 'CDC']
+tags: ['northeast', '2023','Data_Science_And_Analytics', 'CDC', 'active']
 track: ['Data Science and Analytics']
 ---
 

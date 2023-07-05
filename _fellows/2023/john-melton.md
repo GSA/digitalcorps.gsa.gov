@@ -11,7 +11,7 @@ region: east
 bio_short: Software engineer with a background in neuroscience
 why: "The individuals that led the USDC information sessions did a great job at showing me that USDC would be a great program to be a part of. The program is set up in a way that gives Fellows a real chance to give back to and serve the country while also setting them up for individual growth and improvement."
 fun_fact: 
-tags: ['east', '2023','Software_Engineering', 'DTIC']
+tags: ['east', '2023','Software_Engineering', 'DTIC', 'active']
 track: ['Software Engineering']
 ---
 

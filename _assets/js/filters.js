@@ -5,6 +5,7 @@ var inFellowSearch = false;
 var defaultList = document.getElementById("fellow-search-default");
 var agencySelect = document.getElementById("fellows-select-agency");
 var trackSelect = document.getElementById("fellows-select-track");
+var yearSelect = document.getElementById("fellows-select-year");
 /* In order to filter the JSON blob correctly later and have both the search
 and the filters work as expected, we need to not bind the filters' SJS instance
 to the actual search input. */
@@ -35,6 +36,11 @@ const parseURL = () => {
       json = json.filter(fellow => fellow.track === item);
       break;
     }
+    if (validYears.includes(item)) {
+      yearSelect.value = item;
+      json = json.filter(fellow => fellow.fellow_year === item);
+      break;
+    }
   }
   return json; // used in filters.tests.js
 }
@@ -44,6 +50,7 @@ parseURL();
 const resetFilters = () => {
   agencySelect.value="";
   trackSelect.value="";
+  yearSelect.value="";
   window.history.replaceState({}, '', `${siteBaseurl}/fellows`); 
   defaultList.style.display = "flex";
 };
@@ -87,7 +94,7 @@ searchbox.addEventListener('keyup', () => {
 // we need to track both the filters by way of the URL so that if someone shares the path, we can render the right results
 const buildPath = () => {
   const base = `${siteBaseurl}/fellows`;
-  return trackSelect.value ? base + `/${trackSelect.value}` : (agencySelect.value ? base + `/${agencySelect.value}` : base)
+  return trackSelect.value ? base + `/${trackSelect.value}` : yearSelect.value ? base + `/${yearSelect.value}` : (agencySelect.value ? base + `/${agencySelect.value}` : base)
 };
 
 const doSJS = (json, searchterm) => {
@@ -111,6 +118,7 @@ try {
       defaultList,
       agencySelect,
       trackSelect,
+      yearSelect,
       searchInputDummy,
       parseURL,
       buildPath,

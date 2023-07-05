@@ -1,7 +1,7 @@
 ---
 id: alex-adams
 title: Alex Adams
-image: 
+image: alex-adams.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]
@@ -11,7 +11,7 @@ region: south
 bio_short: Data scientist passionate about data-driven, human-centered public policy and governance
 why: "I value data-driven, human-centered public policy and governance, and USDC seems like a perfect way for me to use my data skills to help make the federal government more effective, more efficient, and better able to serve the American people."
 fun_fact: 'Alex collects cookbooks. One of his favorites is "La Mere Brazier: The Mother of Modern French Cooking" by Eugénie Brazier, the first chef to be awarded six Michelin stars for her restaurants.'
-tags: ['south', '2023','Data_Science_And_Analytics', 'ACF']
+tags: ['south', '2023','Data_Science_And_Analytics', 'ACF', 'active']
 track: ['Data Science and Analytics']
 ---
 

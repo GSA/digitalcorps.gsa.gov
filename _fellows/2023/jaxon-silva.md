@@ -1,7 +1,7 @@
 ---
 id: jaxon-silva
 title: Jaxon Silva
-image: 
+image: jaxon-silva.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Designer ready to work in the service of helping people
 why: "I've always been extremely passionate about making sure that whatever I was doing, it was in the service of helping people and trying to make the world a better place. After a prior fellowship with Coding it Forward, I realized that federal service represented a quite excellent opportunity to achieve that outcome. From there, the U.S. Digital Corps seemed to me to be an absolutely great entry-level pathway to do the work of helping others while developing into a professional designer at the same time."
 fun_fact: 'Jaxon was a radio DJ during college and will go on for hours about indie music if you let him. He currently keeps that fire alive by trying to learn the live mixing board as one of his fun side projects.'
-tags: ['west', '2023','Design', 'CISA']
+tags: ['west', '2023','Design', 'CISA', 'active']
 track: ['Design']
 ---
 

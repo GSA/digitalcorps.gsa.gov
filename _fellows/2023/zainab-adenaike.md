@@ -11,7 +11,7 @@ region: east
 bio_short: Product manager
 why: ""
 fun_fact: ''
-tags: ['east', '2023','Product_Management', 'NIH']
+tags: ['east', '2023','Product_Management', 'NIH', 'active']
 track: ['Product Management']
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: jess-spayd
 title: Jess Spayd
-image: 
+image: jess-spayd.png
 fellow_year: 2023
 project: ["na"]
 agency: ["HSA"]
@@ -11,7 +11,7 @@ region: east
 bio_short: Data scientist and career changer with experience in childcare, education, and healthcare
 why: "I made the transition into technology because I wanted my work to have an impact on public policy. When I learned about USDC during the recruitment of the first cohort, it immediately became my goal to join the following year. USDC is a perfect fit for my newly acquired skills and my passion for public service."
 fun_fact: 'Jess is a published lyricist and was the lead singer of a few bands in her twenties. She still frequents karaoke nights.'
-tags: ['east', '2023','Data_Science_And_Analytics', 'HSA']
+tags: ['east', '2023','Data_Science_And_Analytics', 'HSA', 'active']
 track: ['Data Science and Analytics']
 ---
 

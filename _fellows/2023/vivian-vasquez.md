@@ -1,7 +1,7 @@
 ---
 id: vivian-vasquez
 title: Vivian Vasquez
-image: 
+image: vivian-vasquez.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Data scientist ready to  leverage the power of data analytics to address disparities and drive innovative decisionmaking
 why: "From a young age, my parents instilled in me an appreciation for America's innovative spirit and a desire to make this country a more comfortable and equitable place for all to enjoy. Having the opportunity to participate in this mission, specifically in contributing to making the federal government's technological processes more agile and its services more accessible, is truly a dream come true. I am grateful for the chance to gain insights from a cohort of individuals who share the same aspiration of utilizing technology to foster positive change."
 fun_fact: 'Vivian hopes to one day open an 80s indie rock-themed cafe and bookstore.'
-tags: ['west', '2023','Data_Science_And_Analytics', 'CMS']
+tags: ['west', '2023','Data_Science_And_Analytics', 'CMS', 'active']
 track: ['Data Science and Analytics']
 ---
 

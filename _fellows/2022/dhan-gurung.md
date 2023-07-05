@@ -11,7 +11,7 @@ region: northeast
 bio_short: Cybersecurity specialist passionate about technology and information security
 why: "As a veteran, I am glad to have this wonderful opportunity to continue to serve my country." 
 fun_fact: "Dhan can speak four languages: English, Hindi, Nepali, and Manangi (Native language)!"
-tags: ['northeast', '2022','Cybersecurity', 'EPA']
+tags: ['northeast', '2022','Cybersecurity', 'EPA', 'active']
 track: ['Cybersecurity']
 ---
 

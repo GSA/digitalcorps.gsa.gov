@@ -1,7 +1,7 @@
 ---
 id: ethan-li
 title: Ethan Li
-image: 
+image: ethan-li.png
 fellow_year: 2023
 project: ["na"]
 agency: ["NIH"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Cybersecurity specialist with a healthcare background
 why: "I joined the U.S. Digital Corps to maximize the impact I can make for my country, leveraging my unique background in healthcare and cybersecurity."
 fun_fact: "Ethan bypassed and removed the login software from one of his high school computer lab's computers and ended up on the school administrator's Wall of Shame."
-tags: ['west', '2023','Cybersecurity', 'NIH']
+tags: ['west', '2023','Cybersecurity', 'NIH', 'active']
 track: ['Cybersecurity']
 ---
 

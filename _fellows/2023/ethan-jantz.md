@@ -11,7 +11,7 @@ region: west
 bio_short: Data scientist passionate about using data to improve government services
 why: "I joined  USDC so I can leverage my technical skills for social good!"
 fun_fact: 'Ethan can play the banjo!'
-tags: ['west', '2023','Data_Science_And_Analytics', 'ACF']
+tags: ['west', '2023','Data_Science_And_Analytics', 'ACF', 'active']
 track: ['Data Science and Analytics']
 ---
 

@@ -11,7 +11,7 @@ region: northeast
 bio_short: Designer ready to promote health equity and community resilience 
 why: "I was interested in joining the U.S. Digital Corps as an opportunity to do impactful work with other civic technologists, and furthermore to bring empathy and human-centered design to this work."
 fun_fact: Kathleen has visited over thirty art museums around the world and is always looking for recommendations for her next trip. 
-tags: ['northeast', '2022','Design', 'HHS']
+tags: ['northeast', '2022','Design', 'HHS', 'active']
 track: ['Design']
 ---
 

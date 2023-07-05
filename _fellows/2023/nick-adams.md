@@ -1,7 +1,7 @@
 ---
 id: nick-adams
 title: Nick Adams
-image: 
+image: nick-adams.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]
@@ -11,7 +11,7 @@ region: northwest
 bio_short: Software engineer passionate about the wonders of science
 why: "The USDC listing instantly piqued my interest when my significant other, aware of my aspiration for a career in public service, shared it with me. The idea of utilizing my skills to make a meaningful difference in the lives of citizens resonated deeply with me and served as a driving force behind my decision to apply. Moreover, the program's focus on recruiting individuals at the early stages of their careers aligned seamlessly with my goals and aspirtaions as a recent graduate."
 fun_fact: 'Nick had a brief foray in the game industry and played a part in the creation of a game launched on just about every platform.'
-tags: ['northwest', '2023','Software_Engineering', 'CDC']
+tags: ['northwest', '2023','Software_Engineering', 'CDC', 'active']
 track: ['Software Engineering']
 ---
 

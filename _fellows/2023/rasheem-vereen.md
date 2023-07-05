@@ -11,6 +11,6 @@ region: southeast
 bio_short: Cybersecurity specialist
 why: "The motivation to be a part of a team that is inspired by making a difference."
 fun_fact: 'Rasheem loves carpentry.'
-tags: ['southeast', '2023','Cybersecurity', 'CISA']
+tags: ['southeast', '2023','Cybersecurity', 'CISA', 'active']
 track: ['Cybersecurity']
 ---

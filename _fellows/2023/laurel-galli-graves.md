@@ -1,7 +1,7 @@
 ---
 id: laurel-galli-graves
 title: Laurel Galli-Graves
-image: 
+image: laurel-galli-graves.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DTIC"]
@@ -11,7 +11,7 @@ region: south
 bio_short: Data scientist ready to explore the intersection of equity, social justice, and machine learning
 why: "I always knew I wanted to help vulnerable people in my community and when I went on a career trip to Washington, D.C., I knew I wanted to do that in the federal government. USDC is the most incredible combination of my love for data science and government."
 fun_fact: 'Growing up, Laurel had a pet pink snake named Rosy.'
-tags: ['south', '2023','Data_Science_And_Analytics', 'DTIC']
+tags: ['south', '2023','Data_Science_And_Analytics', 'DTIC', 'active']
 track: ['Data Science and Analytics']
 ---
 

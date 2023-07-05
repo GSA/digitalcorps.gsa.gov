@@ -1,7 +1,7 @@
 ---
 id: alex-chen
 title: Alex Chen
-image: 
+image: alex-chen.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]
@@ -11,7 +11,7 @@ region: northeast
 bio_short: Product manager excited about driving impact in the federal government
 why: "I wanted the opportunity to accomplish fulfilling work with passionate people."
 fun_fact: During his first year of high school, Tom Holland went undercover pretending to be a student at Alex's school. 
-tags: ['northeast', '2023','Product_Management', 'CDC']
+tags: ['northeast', '2023','Product_Management', 'CDC', 'active']
 track: ['Product Management']
 ---
 

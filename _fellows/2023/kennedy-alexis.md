@@ -1,7 +1,7 @@
 ---
 id: kennedy-alexis
 title: Kennedy Alexis
-image: 
+image: kennedy-alexis.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]
@@ -11,7 +11,7 @@ region: east
 bio_short: Product manager passionate about promoting the social, human, and economic development of low-income communities
 why: "I saw the U.S. Digital Corps as a great opportunity to leverage my skills and experience in government to increase and expand my skills as a technologist. Also, I was drawn to the opportunity to work on high-impact projects that would affect the lives of millions of Americans."
 fun_fact: 'I went skydiving with my dad for his birthday in 2022.'
-tags: ['east', '2023','Product_Management', 'ACF']
+tags: ['east', '2023','Product_Management', 'ACF', 'active']
 track: ['Product Management']
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: samantha-noor
 title: Samantha Noor
-image: 
+image: samantha-noor.png
 fellow_year: 2023
 project: ["na"]
 agency: ["HRSA"]
@@ -11,7 +11,7 @@ region: midwest
 bio_short: Designer with experience in public health
 why: "I joined the U.S. Digital Corps because it resonated with my passion for utilizing technology to promote social good and provided me an opportunity to enact meaningful change in government and policymaking. This unique opportunity allows me to work in a role where I can contribute to fostering trust in government, enhancing equity of service delivery, and making a substantial impact on those in need. Moreover, I am thrilled to be part of a cohort that offers unparalleled mentorship, training, and a supportive community that values public service."
 fun_fact: 'Samantha once performed an aria inside South Africa’s Cango Caves.'
-tags: ['midwest', '2023','Design', 'HRSA']
+tags: ['midwest', '2023','Design', 'HRSA', 'active']
 track: ['Design']
 ---
 

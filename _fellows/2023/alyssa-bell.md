@@ -1,7 +1,7 @@
 ---
 id: alyssa-bell
 title: Alyssa Bell
-image: 
+image: alyssa-bell.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]
@@ -11,7 +11,7 @@ region: northeast
 bio_short: Product manager with a passion for healthcare and improving products and services for the American public
 why: "I truly love solving problems, making things more efficient, and just generally looking for better ways to do things. As a product manager with the U.S. Digital Corps, I'll be able to utilize my passion and skills in those areas to improve products and services for the American public."
 fun_fact: Alyssa played rugby for over a decade. 
-tags: ['northeast', '2023','Product_Management', 'CMS']
+tags: ['northeast', '2023','Product_Management', 'CMS', 'active']
 track: ['Product Management']
 ---
 

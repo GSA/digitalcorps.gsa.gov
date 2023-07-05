@@ -1,7 +1,7 @@
 ---
 id: veronica-swanson
 title: Veronica Swanson
-image: 
+image: veronica-swanson.png
 fellow_year: 2023
 project: ["na"]
 agency: ["USDA"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Data scientist with a passion for STEM education
 why: "I enjoy problem-solving, and I am inspired by USDC's mission statement of working towards a more effective and equitable government. I want to do things that will have a positive impact on peoples' lives."
 fun_fact: 'Veronica attended a performing arts high school where she played multiple instruments and sang in the choir. This education was foundational to developing her communication and public speaking skills.'
-tags: ['west', '2023','Data_Science_And_Analytics', 'USDA']
+tags: ['west', '2023','Data_Science_And_Analytics', 'USDA', 'active']
 track: ['Data Science and Analytics']
 ---
 

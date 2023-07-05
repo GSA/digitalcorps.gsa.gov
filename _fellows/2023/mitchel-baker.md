@@ -1,7 +1,7 @@
 ---
 id: mitchel-baker
 title: Mitchel Baker
-image: 
+image: mitchel-baker.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Software engineer with experience developing complex web applications and database systems
 why: "I have always been driven to push technology forward while making a positive impact on the lives of others. When I discovered the Digital Corps, I realized it was an opportunity to contribute towards high-impact areas in government while building upon critical infrastructure to benefit the American people."
 fun_fact: 'Mitchel grew up on a five-acre farm where he and his family took care of free-range hens, sheep, and cattle.'
-tags: ['west', '2023','Software_Engineering', 'CISA']
+tags: ['west', '2023','Software_Engineering', 'CISA', 'active']
 track: ['Software Engineering']
 ---
 

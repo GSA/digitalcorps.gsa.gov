@@ -1,7 +1,7 @@
 ---
 id: brittney-wright
 title: Brittney Wright
-image: 
+image: brittney-wright.png
 fellow_year: 2023
 project: ["na"]
 agency: ["NIH"]
@@ -11,7 +11,7 @@ region: south
 bio_short: Cybersecurity specialist with experience as a U.S. Air Force Veteran
 why: "In my efforts to transition out of the military, I was truly looking for an opportunity that would allow me to use my education, love for helping people in healthcare, and passion for technology in the same space. The Digital Corps gives me an opportunity to have those worlds collide while doing high-impact work in the federal government as a new technologist in cybersecurity."
 fun_fact: Brittney loves completing cool complex Lego sets and displaying them as art in her home. 
-tags: ['south', '2023','Cybersecurity', 'NIH']
+tags: ['south', '2023','Cybersecurity', 'NIH', 'active']
 track: ['Cybersecurity']
 ---
 

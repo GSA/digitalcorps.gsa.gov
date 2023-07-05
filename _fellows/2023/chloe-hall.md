@@ -1,7 +1,7 @@
 ---
 id: chloe-hall
 title: Chloe Hall
-image: 
+image: chloe-hall.png
 fellow_year: 2023
 project: ["na"]
 agency: ["USDA"]
@@ -11,7 +11,7 @@ region: northeast
 bio_short: Data scientist with a background in affordable housing policy
 why: "I wanted to enter public service because it is very important to me that the work I do each day contributes to bettering the world. Especially with data work, it can be easy to feel disconnected from the impact of your work. USDC gives me a chance to use my passion for data for long-lasting public good."
 fun_fact: 'Chloe is a lifetime member of the Girl Scouts and has backpacked over 150 miles of the Appalachian Trail!'
-tags: ['northeast', '2023','Data_Science_And_Analytics', 'USDA']
+tags: ['northeast', '2023','Data_Science_And_Analytics', 'USDA', 'active']
 track: ['Data Science and Analytics']
 ---
 

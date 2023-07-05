@@ -1,7 +1,7 @@
 ---
 id: jina-ryu
 title: Jina Ryu
-image: 
+image: jina-ryu.png
 fellow_year: 2023
 project: ["na"]
 agency: ["VA"]
@@ -11,7 +11,7 @@ region: east
 bio_short: Designer with a passion for patient advocacy and civic design
 why: "USDC provides me with the exciting opportunity to work on high-impact projects that will help millions of people while joining a supportive community of like-minded peers and mentors."
 fun_fact:
-tags: ['east', '2023','Design', 'VA']
+tags: ['east', '2023','Design', 'VA', 'active']
 track: ['Design']
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: yaritza-garcía-chaparro
 title: Yaritza M. García Chaparro
-image: 
+image: yaritza-garcía-chaparro.png
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]
@@ -11,7 +11,7 @@ region: south
 bio_short: Software engineer passionate about seeking solutions to everyday problems faced by people
 why: "From a young age, my love for technology and its tremendous impact on society has been a driving force in my life. When I discovered the opportunity to serve my country through the U.S. Digital Corps, I instantly knew it was the perfect fit for me. This incredible opportunity not only allows me to contribute to making our government better but it also provides a platform for growth and the chance to be part of a dedicated group of individuals working towards a common goal."
 fun_fact: 'Yaritza and her friends have a collection of board games and get together every Friday for exciting game nights filled with laughter and friendly competition.'
-tags: ['south', '2023','Software_Engineering', 'GSA']
+tags: ['south', '2023','Software_Engineering', 'GSA', 'active']
 track: ['Software Engineering']
 ---
 

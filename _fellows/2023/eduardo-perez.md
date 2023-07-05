@@ -1,7 +1,7 @@
 ---
 id: eduardo-perez
 title: Eduardo Perez
-image: 
+image: eduardo-perez.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Product manager with a passion for politics, technology, and security 
 why: "I joined USDC for an opportunity to give back to my country, community, and peers."
 fun_fact: 'Eduardo is somewhat of a cereal connoisseur.'
-tags: ['west', '2023','Product_Management', 'ACF']
+tags: ['west', '2023','Product_Management', 'ACF', 'active']
 track: ['Product Management']
 ---
 

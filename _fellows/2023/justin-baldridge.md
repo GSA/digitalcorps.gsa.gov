@@ -11,7 +11,7 @@ region: west
 bio_short: Software engineer with a background in game design
 why: "I joined the Digital Corps to learn how to use my experience in design and development to make the world a better place."
 fun_fact: 'Justin programmed his first game at 13 years old.'
-tags: ['west', '2023','Software_Engineering', 'DTIC']
+tags: ['west', '2023','Software_Engineering', 'DTIC', 'active']
 track: ['Software Engineering']
 ---
 

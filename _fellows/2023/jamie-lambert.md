@@ -1,7 +1,7 @@
 ---
 id: jamie-lambert
 title: Jamie Lambert
-image: 
+image: jamie-lambert.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]
@@ -11,7 +11,7 @@ region: south
 bio_short: Product manager dedicated to equity with a passion for innovation and public service
 why: "I joined the U.S. Digital Corps because the opportunity to collaborate with a diverse and talented team dedicated to leveraging technology for public service is a dream come true. I enjoy helping make systems and services better for my community. The mentorship, impact and ability to be a part of the solution is something I’m looking forward to being a part of."
 fun_fact: 'Jamie enjoys writing poetry.'
-tags: ['south', '2023','Product_Management', 'ACF']
+tags: ['south', '2023','Product_Management', 'ACF', 'active']
 track: ['Product Management']
 ---
 

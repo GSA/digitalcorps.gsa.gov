@@ -1,7 +1,7 @@
 ---
 id: brandtly-jones
 title: Brandtly Jones
-image: 
+image: brandtly-jones.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DOS"]
@@ -11,7 +11,7 @@ region: east
 bio_short: Data scientist ready to  apply data skills to real-world problems
 why: "I was attracted to the USDC by the opportunity to have a big impact while using data science for good. I am launching a new career after years in education, so the opportunity for mentorship while applying data skills to real-world problems at scale offers an ideal combination for me."
 fun_fact: Brandtly and his wife climbed Mt. Kilimanjaro on their honeymoon. 
-tags: ['east', '2023','Data_Science_And_Analytics', 'DOS']
+tags: ['east', '2023','Data_Science_And_Analytics', 'DOS', 'active']
 track: ['Data Science and Analytics']
 ---
 

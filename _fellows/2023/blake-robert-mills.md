@@ -1,7 +1,7 @@
 ---
 id: blake-robert-mills
 title: Blake Robert Mills
-image: 
+image: blake-robert-mills.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DTIC"]
@@ -11,7 +11,7 @@ region: northeast
 bio_short: Data scientist ready to work on projects involving the intersections of data, tech, cities, public service, and the arts
 why: "I chose to join USDC because technology and data for social good is the way for government to be more transparent, equitable, and innovative. Having tech working in government for social good is the best way to effect change to policy and programs at the federal level."
 fun_fact: Blake loves combining art and data, most notably with his R package MetBrewer, which provides color schemes based on artwork at the Metropolitan Museum of Art in New York.
-tags: ['northeast', '2023','Data_Science_And_Analytics', 'DTIC']
+tags: ['northeast', '2023','Data_Science_And_Analytics', 'DTIC', 'active']
 track: ['Data Science and Analytics']
 ---
 

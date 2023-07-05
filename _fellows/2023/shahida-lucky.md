@@ -1,17 +1,17 @@
 ---
-id: samantha-noor
-title: Samantha Noor
-image: 
+id: shahida-lucky
+title: Shahida Lucky
+image: shahida-lucky.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]
 hometown: New York, NY
 university: NYU Tandon School of Engineering
-region: midwest
+region: east
 bio_short: Cybersecurity specialist with a passion for family.
 why: "The USDC is a blessing to those who are beginning their careers in the federal government."
 fun_fact: ''
-tags: ['midwest', '2023','Cybersecurity', 'CDC']
+tags: ['east', '2023','Cybersecurity', 'CDC', 'active']
 track: ['Cybersecurity']
 ---
 

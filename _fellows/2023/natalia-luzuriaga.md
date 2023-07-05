@@ -1,7 +1,7 @@
 ---
 id: natalia-luzuriaga
 title: Natalia Luzuriaga
-image: 
+image: natalia-luzuriaga.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Software engineer passionate about contributing to technologies that empower others
 why: ""
 fun_fact: 'In my free time, I crochet plushies! I’ve made bumblebees, whales, jellyfish, and many more.'
-tags: ['west', '2023','Software_Engineering', 'CMS']
+tags: ['west', '2023','Software_Engineering', 'CMS', 'active']
 track: ['Software Engineering']
 ---
 

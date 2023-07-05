@@ -1,5 +1,17 @@
 <div class="filters">
     <div class="filters__left display-flex">
+      <!-- <div class="filter__col">
+        <select class="usa-select" aria-label="year-select" name="fellows-select-year" id="fellows-select-year">
+          <option value="" selected disabled hidden>Filter by year </option>
+          <option value="">All Fellows</option>
+          {% assign years = site.data.years | reverse %}
+          {% for year in years %}
+            <option value="{{ year }}">
+              {{ year }} Fellows
+            </option>
+          {% endfor %}
+        </select>
+      </div> -->
       <div class='filter__col'>
         <select class="usa-select" aria-label="agency-select" name="fellows-select-agency" id="fellows-select-agency">
           <option value="" selected disabled hidden>Filter by agency </option>
@@ -39,6 +51,7 @@
   
     const validAgencies = [{% for agency in site.data.agencies %} "{{ agency.name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
     const validTracks = [{% for track in site.data.fellow-tracks %} "{{ track.url_name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
+    const validYears = [{% for year in site.data.years %} "{{ year }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
   
     // Agency Select
     var agencySelect = document.getElementById("fellows-select-agency");
@@ -51,11 +64,22 @@
     trackSelect.addEventListener('change', (event) => {
       window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-track";
     });
+
+     // Year Select
+  var yearSelect = document.getElementById("fellows-select-year");
+  yearSelect.addEventListener('change', (event) => {
+    window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-year";
+  });
   
     // get match from pathname
     var splitPath = window.location.pathname.split('/')
     for (i in splitPath) {
       item = splitPath[i]
+      if (validYears.includes(item) ) {
+      yearSelect.value = item;
+      console.log(yearSelect.value);
+      break;
+      }
       if (validAgencies.includes(item) ) {
         agencySelect.value = item;
         break;

@@ -1,7 +1,7 @@
 ---
 id: luke-neureiter
 title: Luke Neureiter
-image: 
+image: luke-neureiter.png
 fellow_year: 2023
 project: ["na"]
 agency: ["HRSA"]
@@ -11,7 +11,7 @@ region: southeast
 bio_short: Product manager ready to improve public health through technology
 why: "The Digital Corps presents a unique opportunity to combine my interests in technology and policy in a way that serves the public. I can think of no better way to use my skills as a technologist and am looking forward to improving public health through technology."
 fun_fact: 'Luke is an accomplished unicyclist.'
-tags: ['southeast', '2023','Product_Management', 'HRSA']
+tags: ['southeast', '2023','Product_Management', 'HRSA', 'active']
 track: ['Product Management']
 ---
 

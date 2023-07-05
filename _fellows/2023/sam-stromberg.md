@@ -1,7 +1,7 @@
 ---
 id: sam-stromberg
 title: Sam Stromberg
-image: 
+image: sam-stromberg.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Product manager with experience in healthcare policy
 why: "I think it's crucial to bring these types of technical roles in-house to ensure that efforts to modernize and improve usability of public services are ongoing and iterative. I feel privileged to be part of the second cohort of USDC Fellows operationalizing that goal."
 fun_fact: "Although Sam writes with his left hand, he didn't recognize until adulthood that he's not really left-handed — in elementary school, he was allowed to choose a preferred hand, and he was stubborn enough to stick with his choice. Softball, golf, and racquet sports went from impossible to enjoyable once Sam let his guard down and did what came more naturally."
-tags: ['west', '2023','Product_Management', 'CDC']
+tags: ['west', '2023','Product_Management', 'CDC', 'active']
 track: ['Product Management']
 ---
 

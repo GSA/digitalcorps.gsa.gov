@@ -1,7 +1,7 @@
 ---
 id: erin-song
 title: Erin Song
-image: 
+image: erin-song.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Software engineer ready to work on strengthening communities and increasing equitable access to public resources
 why: "I want my work to strengthen communities and increase equitable access to public resources. As someone who cares about community learning, I also resonated with the Digital Corps' mission to help new technologists learn the skills and knowledge to better understand the impact we want to make in the public sector."
 fun_fact: 'Erin tries to collect postcards from any place she visits. She enjoys sending them to friends, but also likes to keep one that she can write a small diary entry in and store inside her personal journal.'
-tags: ['west', '2023','Software_Engineering', 'CISA']
+tags: ['west', '2023','Software_Engineering', 'CISA', 'active']
 track: ['Software Engineering']
 ---
 

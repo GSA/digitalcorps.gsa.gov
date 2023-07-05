@@ -1,7 +1,7 @@
 ---
 id: kai-cobb
 title: Kai Cobb
-image: 
+image: kai-cobb.png
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]
@@ -11,7 +11,7 @@ region: south
 bio_short: Data scientist with a background in epidemiology
 why: "My love of learning and USDC's emphasis on education and growth of technical skills inspired me to join the program."
 fun_fact: "Lizards are Kai's favorite animals."
-tags: ['south', '2023','Data_Science_And_Analytics', 'GSA']
+tags: ['south', '2023','Data_Science_And_Analytics', 'GSA', 'active']
 track: ['Data Science and Analytics']
 ---
 

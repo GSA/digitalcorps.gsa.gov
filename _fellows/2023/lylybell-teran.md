@@ -1,7 +1,7 @@
 ---
 id: lylybell-teran
 title: Lylybell Teran
-image: 
+image: lylybell-teran.png
 fellow_year: 2023
 project: ["na"]
 agency: ["VA"]
@@ -11,7 +11,7 @@ region: east
 bio_short: Data scientist with a passion for AI and machine learning
 why: "I was motivated by the collaborative nature of the USDC program, which brings together a diverse group of talented individuals from various backgrounds. The chance to work alongside like-minded professionals and contribute to projects with real-world impact fueled my enthusiasm to join the Digital Corps and be a part of a collective effort to drive positive govermental change through technology."
 fun_fact: 'Lylybell loves dancing.'
-tags: ['east', '2023','Data_Science_And_Analytics', 'VA']
+tags: ['east', '2023','Data_Science_And_Analytics', 'VA', 'active']
 track: ['Data Science and Analytics']
 ---
 

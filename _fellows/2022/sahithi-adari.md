@@ -11,7 +11,7 @@ region: east
 bio_short: Data scientist passionate about racial equity
 why: I chose to join the USDC as I wanted to leverage the technical knowledge I gained in my master's degree, and apply them to the public sector problems of today.
 fun_fact: She has travelled to and hiked in over 10 national parks, and plans to visit all 63 parks in her lifetime.
-tags: ['east', '2022','Data_Science_And_Analytics', 'OPM']
+tags: ['east', '2022','Data_Science_And_Analytics', 'OPM', 'active']
 track: ['Data Science and Analytics']
 ---
 

@@ -1,7 +1,7 @@
 ---
 id: nolan-harrington
 title: Nolan Harrington
-image: 
+image: nolan-harrington.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]
@@ -11,7 +11,7 @@ region: northwest
 bio_short: Designer passionate about designing technologies for social good
 why: "I am passionate about designing technologies for social good. This fellowship provides incomparable opportunities for working in service of the American people while also developing myself as a design professional."
 fun_fact: 'I have been an active member of my local music communities since high school. Currently, I help set up and produce shows for local bands in Ithaca, NY and abroad.'
-tags: ['northwest', '2023','Design', 'CISA']
+tags: ['northwest', '2023','Design', 'CISA', 'active']
 track: ['Design']
 ---
 

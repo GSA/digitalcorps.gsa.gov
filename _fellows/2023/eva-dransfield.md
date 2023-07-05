@@ -1,7 +1,7 @@
 ---
 id: eva-dransfield
 title: Eva Dransfield
-image: 
+image: eva-dransfield.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]
@@ -11,7 +11,7 @@ region: east
 bio_short: Designer passionate about creating seamless and intuitive experiences that are accessible and inclusive.
 why: "USDC's dedication to driving digital transformation in government services caught my interest, and I am eager to contribute my skills and expertise to be a part of this transformative change."
 fun_fact: 'Eva is fluent in three languages: English, French, and Malagasy.'
-tags: ['east', '2023','Design', 'CISA']
+tags: ['east', '2023','Design', 'CISA', 'active']
 track: ['Design']
 ---
 

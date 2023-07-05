@@ -1,7 +1,7 @@
 ---
 id: ryan-powers
 title: Ryan Powers
-image: 
+image: ryan-powers.png
 fellow_year: 2023
 project: ["na"]
 agency: ["VA"]
@@ -11,7 +11,7 @@ region: northeast
 bio_short: Product manager with experience using technology, data, and design to improve and innovate public services
 why: "One of my professors in graduate school worked with the U.S. Digital Service. Hearing about her experience doing work that combined technology, public policy, and public service was a lightbulb moment for me. I jumped at the unique opportunity to serve the American people, learn from the diverse life experiences of other fellows, and grow as a civic technologist."
 fun_fact: 'Ryan has played the piano since he was five years old.'
-tags: ['northeast', '2023','Product_Management', 'VA']
+tags: ['northeast', '2023','Product_Management', 'VA', 'active']
 track: ['Product Management']
 ---
 

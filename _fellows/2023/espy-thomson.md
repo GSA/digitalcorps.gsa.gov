@@ -1,7 +1,7 @@
 ---
 id: espy-thomson
 title: Espy Thomson
-image: 
+image: espy-thomson.png
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]
@@ -11,7 +11,7 @@ region: west
 bio_short: Designer passionate about helping elevate unheard voices through her skills redesigning systems, services, and products
 why: "After working with local residents to help a city government hear and understand their housing needs, I became interested in civic tech. I was excited to discover the U.S. Digital Corps because it provides a gateway to do the work I want to do with the potential for large-scale impact. There is also an amazing community of designers, with support for early-career professionals."
 fun_fact: 'Espy crewed on a marine science and education tall ship that sailed from San Diego to Tahiti.'
-tags: ['west', '2023','Design', 'GSA']
+tags: ['west', '2023','Design', 'GSA', 'active']
 track: ['Design']
 ---
 

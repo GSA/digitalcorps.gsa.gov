@@ -1,7 +1,7 @@
 ---
 id: thomas-phung
 title: Thomas Phung
-image: 
+image: thomas-phung.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]
@@ -11,7 +11,7 @@ region: northwest
 bio_short: Software engineer passionate about delivering accurate, relevant, and timely information to educate the public.
 why: "There is a camaraderie and shared purpose that I dearly miss from academia. During my transformative years, I had the honor to learn, study, and work alongside a close-knit cohort of motivated individuals from diverse backgrounds who shared a vision of excellence and growth. Fast forward to the present, the U.S. Digital Corps offers a unique opportunity to grow professionally and personally in a similar positive environment that fosters future leaders who will serve the public and empower them through technology. I am ecstatic to see where this journey takes me and other like-minded USDC Fellows. Let’s build an equitable future together!"
 fun_fact: 'Thomas has a strong nostalgia for the first generation of Bionicle. He misses the intricate lore, worldbuilding, and storylines that accompanied our hero Toa who embodies these Three Virtues: Unity, Duty, and Destiny.'
-tags: ['northwest', '2023','Software_Engineering', 'CDC']
+tags: ['northwest', '2023','Software_Engineering', 'CDC', 'active']
 track: ['Software Engineering']
 ---
 
