@@ -22,44 +22,11 @@ sitemap: false -->
             </h2>
           </div>
         </div>
-        <div class="iframe-container">
-          <iframe 
-            width="560" 
-            height="315" 
-            src="https://www.youtube.com/embed/4bu96Khty20" 
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
-        </div>
       </div>
       
     </div>
   </div>
 </section>
-
-<!-- What Agencies Do -->
-<!-- <section class="usa-section padding-top-8 project-section-two">
-  <div class="grid-container no-gutter">
-      <div class="grid-row">
-        <div >
-          <div class="host-paragraph">
-            <p>
-              Host agencies have strong technical teams and public-facing and/or high-impact projects to ensure Fellows have the guidance and support they need to be successful as they improve the government experience. Fellows collaborate with host agency employees to advance governmentwide priorities outlined in the President’s Management Agenda as well as executive orders on customer experience and cybersecurity.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <p class="projects-details">
-          More details about the first cohort of U.S. Digital Corps Fellows will be announced in June 2022. If you are a federal employee interested in learning
-          about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
-        </p>
-    </div>
-  </div>
-</section>-->
-
 <!-- Projects -->
   <section>  
     <div class="grid-container">
@@ -68,12 +35,42 @@ sitemap: false -->
       <p>Fellows work alongside career civil servants to advance priorities in critical impact areas, including health, equity, immigration, cybersecurity, and public experience.
          If you are a federal employee interested in learning about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
       </p>
-      <br>
-      {% include project-filters.html %}
-    </div>
-      <div >
-        {% include agency-list.html %}
       </div>
+    </div>
+</section>
+<section class="usa-section bg-base-lighter padding-y-8">
+  <div class="grid-container highlight tablet:padding-x-2">
+    <div class="grid-col">
+      <div class="project-agency-logos padding-y-0">
+        {% asset "ACF.webp" alt="ACF" class="width-10 height-10"%}
+        {% asset "CDC.png" alt="CDC" class="width-10 height-10" %}
+        {% asset "census.webp" alt="Census" class="width-10 height-10" %}
+        {% asset "cfpb.webp" alt="CFBP" class="width-10 height-10" %}
+        {% asset "CISA.webp" alt="CISA" class="width-10 height-10" %}
+        {% asset "CMS.webp" alt="CMS" class="width-10 height-10" %}
+        {% asset "DHS.webp" alt="DHS" class="width-10 height-10" %}
+        {% asset "DOS.webp" alt="DOS" class="width-10 height-10" %}
+        {% asset "DTIC.png" alt="DTIC" class="width-10 height-10" %}
+        {% asset "EOP.webp" alt="EOP" class="width-10 height-10"%}
+        {% asset "EPA.png" alt="EPA" class="width-10 height-10" %}
+        {% asset "GSA.webp" alt="GSA" class="width-10 height-10" %}
+        {% asset "HHS.webp" alt="HHS" class="width-10 height-10" %}
+        {% asset "HRSA.png" alt="HRSA" class="width-10 height-10" %}
+        {% asset "NIH.png" alt="NIH" class="width-10 height-10" %}
+        {% asset "OPM.webp" alt="OPM" class="width-10 height-10" %}
+        {% asset "USDA.png" alt="USDA" class="width-10 height-10" %}
+        {% asset "VA.webp" alt="VA" class="width-10 height-10" %}
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="projects-main grid-container">
+    <div class="tablet:grid-col-3">
+      {% include side-projects-filters.html %}
+    </div>
+    <div class="tablet:grid-col-9">
+      {% include agency-list.html %}
     </div>
   </div>
 </section>

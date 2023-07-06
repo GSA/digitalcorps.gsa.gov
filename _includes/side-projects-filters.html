@@ -1,0 +1,67 @@
+{% comment %}
+The sidenav is not loaded by default on the main pages. To include this navigation you can either use the
+_layouts/page.html layout template, or you can add "sidenav: true" in the front-matter of your pages
+{% endcomment %}
+
+{% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
+.
+<aside class="usa-layout-docs-sidenav margin-right-5 padding-bottom-4">
+  <nav>
+    <h3>Filters</h3>
+    <h4>Impact Area</h4>
+    {% assign impactFilter = site.data.agency-impact | sort: 'display_name' %}
+    {% for impact in impactFilter %}
+    <div class="filter-checkbox"><input type="checkbox" data-impact="{{impact.url_name}}" name="impactArea" value="{{impact.val}}" id="{{impact.val}}"><label for="{{impact.val}}">{{impact.display_name}}</label></div>
+    {% endfor %}
+   
+    <h4>Skill Set</h4>
+    {% assign skillFilter = site.data.agency-skills | sort: 'display_name' %}
+    {% for skill in skillFilter %}
+    <div class="filter-checkbox"><input type="checkbox" data-skill="{{skill.url_name}}" name="skillSet" value="{{skill.val}}" id="{{skill.val}}"><label for="{{skill.val}}">{{skill.display_name}}</label></div>
+    {% endfor %}
+
+    <h4>Partner Agency</h4>
+    {% assign agencyFilter = site.data.agencies | sort: 'fullname' %}
+    {% for agency in agencyFilter %}
+    <div class="filter-checkbox"><input type="checkbox" data-agency="{{agency.name}}" name="partnerAgency" value="{{agency.name}}" id="{{agency.name}}"><label for="{{agency.name}}">{{agency.fullname}}</label></div>
+    {% endfor %}
+  </nav>
+</aside>
+
+<script>
+  var allCheckboxes = document.querySelectorAll('input[type=checkbox]');
+  var allProjects = Array.from(document.querySelectorAll('.projects'));
+  var checked = {};
+
+  getChecked('impactArea');
+  getChecked('skillSet');
+  getChecked('partnerAgency');
+
+  Array.prototype.forEach.call(allCheckboxes, function (el) {
+    el.addEventListener('change', toggleCheckbox);
+  });
+
+  function toggleCheckbox(e) {
+    getChecked(e.target.name);
+    setVisibility();
+  }
+
+  function getChecked(name) {
+    checked[name] = Array.from(document.querySelectorAll('input[name=' + name + ']:checked')).map(function (el) {
+      return el.value;
+    });
+  }
+
+  function setVisibility() {
+    allProjects.map(function (el) {
+      var impactArea = checked.impactArea.length ? _.intersection(Array.from(el.classList), checked.impactArea).length : true;
+      var skillSet = checked.skillSet.length ? _.intersection(Array.from(el.classList), checked.skillSet).length : true;
+      var partnerAgency = checked.partnerAgency.length ? _.intersection(Array.from(el.classList), checked.partnerAgency).length : true;
+      if (impactArea && skillSet && partnerAgency) {
+        el.style.display = 'block';
+      } else {
+        el.style.display = 'none';
+      }
+    });
+  }
+</script>
