@@ -10,7 +10,7 @@ university: Johns Hopkins University
 region: east
 bio_short: Designer with a passion for patient advocacy and civic design
 why: "USDC provides me with the exciting opportunity to work on high-impact projects that will help millions of people while joining a supportive community of like-minded peers and mentors."
-fun_fact:
+fun_fact: "Jina loves to cook and eat Korean food and is always looking for new recipes to try out!"
 tags: ['east', '2023','Design', 'VA', 'active']
 track: ['Design']
 ---

@@ -1,7 +1,7 @@
 ---
 id: justin-baldridge
 title: Justin Baldridge
-image: 
+image: justin-baldridge.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DTIC"]
