@@ -4,27 +4,29 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
 {% endcomment %}
 
 {% assign navurl = page.url | remove: 'index.html' | remove: '.html' %}
-.
+
 <aside class="usa-layout-docs-sidenav margin-right-5 padding-bottom-4">
   <nav>
+    <div id="projectFilters">
     <h3>Filters</h3>
     <h4>Impact Area</h4>
     {% assign impactFilter = site.data.agency-impact | sort: 'display_name' %}
     {% for impact in impactFilter %}
-    <div class="filter-checkbox"><input type="checkbox" data-impact="{{impact.url_name}}" name="impactArea" value="{{impact.val}}" id="{{impact.val}}"><label for="{{impact.val}}">{{impact.display_name}}</label></div>
+    <div class="filter-checkbox"><input type="checkbox" data-impact="{{impact.url_name}}" name="impactArea" value="{{impact.val}}"><label for="{{impact.val}}">{{impact.display_name}}</label></div>
     {% endfor %}
    
     <h4>Skill Set</h4>
     {% assign skillFilter = site.data.agency-skills | sort: 'display_name' %}
     {% for skill in skillFilter %}
-    <div class="filter-checkbox"><input type="checkbox" data-skill="{{skill.url_name}}" name="skillSet" value="{{skill.val}}" id="{{skill.val}}"><label for="{{skill.val}}">{{skill.display_name}}</label></div>
+    <div class="filter-checkbox"><input type="checkbox" data-skill="{{skill.url_name}}" name="skillSet" value="{{skill.val}}"><label for="{{skill.val}}">{{skill.display_name}}</label></div>
     {% endfor %}
 
     <h4>Partner Agency</h4>
     {% assign agencyFilter = site.data.agencies | sort: 'fullname' %}
     {% for agency in agencyFilter %}
-    <div class="filter-checkbox"><input type="checkbox" data-agency="{{agency.name}}" name="partnerAgency" value="{{agency.name}}" id="{{agency.name}}"><label for="{{agency.name}}">{{agency.fullname}}</label></div>
+    <div class="filter-checkbox"><input type="checkbox" checked data-filter="{{agency.name}}"  name="partnerAgency" value="{{agency.name}}"><label for="{{agency.name}}">{{agency.fullname}}</label></div>
     {% endfor %}
+  </div>
   </nav>
 </aside>
 

@@ -28,38 +28,32 @@ sitemap: false -->
   </div>
 </section>
 <!-- Projects -->
-  <section>  
-    <div class="grid-container">
-      <div class="inaugural-styling">
-      <h2> Inaugural Host Agencies</h2>
-      <p>Fellows work alongside career civil servants to advance priorities in critical impact areas, including health, equity, immigration, cybersecurity, and public experience.
-         If you are a federal employee interested in learning about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
-      </p>
-      </div>
-    </div>
-</section>
 <section class="usa-section bg-base-lighter padding-y-8">
   <div class="grid-container highlight tablet:padding-x-2">
     <div class="grid-col">
+      <div class="inaugural-styling"><h2> Agencies We Partner With</h2></div>
       <div class="project-agency-logos padding-y-0">
-        {% asset "ACF.webp" alt="ACF" class="width-10 height-10"%}
-        {% asset "CDC.png" alt="CDC" class="width-10 height-10" %}
-        {% asset "census.webp" alt="Census" class="width-10 height-10" %}
-        {% asset "cfpb.webp" alt="CFBP" class="width-10 height-10" %}
-        {% asset "CISA.webp" alt="CISA" class="width-10 height-10" %}
-        {% asset "CMS.webp" alt="CMS" class="width-10 height-10" %}
-        {% asset "DHS.webp" alt="DHS" class="width-10 height-10" %}
-        {% asset "DOS.webp" alt="DOS" class="width-10 height-10" %}
-        {% asset "DTIC.png" alt="DTIC" class="width-10 height-10" %}
-        {% asset "EOP.webp" alt="EOP" class="width-10 height-10"%}
-        {% asset "EPA.png" alt="EPA" class="width-10 height-10" %}
-        {% asset "GSA.webp" alt="GSA" class="width-10 height-10" %}
-        {% asset "HHS.webp" alt="HHS" class="width-10 height-10" %}
-        {% asset "HRSA.png" alt="HRSA" class="width-10 height-10" %}
-        {% asset "NIH.png" alt="NIH" class="width-10 height-10" %}
-        {% asset "OPM.webp" alt="OPM" class="width-10 height-10" %}
-        {% asset "USDA.png" alt="USDA" class="width-10 height-10" %}
-        {% asset "VA.webp" alt="VA" class="width-10 height-10" %}
+        {% asset "ACF.webp" alt="ACF" class="width-10 height-10 tablet:margin-right-2"%}
+        {% asset "CDC.png" alt="CDC" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "census.webp" alt="Census" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "cfpb.webp" alt="CFBP" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "CISA.webp" alt="CISA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "CMS.webp" alt="CMS" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "DHS.webp" alt="DHS" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "DOS.webp" alt="DOS" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "DTIC.png" alt="DTIC" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "EOP.webp" alt="EOP" class="width-10 height-10 tablet:margin-right-2"%}
+        {% asset "EPA.png" alt="EPA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "GSA.webp" alt="GSA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "HHS.webp" alt="HHS" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "HRSA.png" alt="HRSA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "NIH.png" alt="NIH" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "OPM.webp" alt="OPM" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "USDA.png" alt="USDA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "VA.webp" alt="VA" class="width-10 height-10 tablet:margin-right-2" %}
+      </div>
+      <div class="inaugural-styling">
+        <p>If you are a federal employee interested in learning about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.</p>
       </div>
     </div>
   </div>
@@ -88,53 +82,53 @@ var impact = document.getElementsByClassName("impact-list");
 
 
 //Filter by Agency Name
-agencyOption.addEventListener("change", function(e){
-    var optionDataFilter = agencyOption.options[agencyOption.selectedIndex].getAttribute("data-filter");
-    if(optionDataFilter == "all"){
-        var elements = document.getElementsByClassName("cards_item");
+// agencyOption.addEventListener("change", function(e){
+//     var optionDataFilter = agencyOption.options[agencyOption.selectedIndex].getAttribute("data-filter");
+//     if(optionDataFilter == "all"){
+//         var elements = document.getElementsByClassName("cards_item");
         
-        for(var i = 0; i < agency.length; i++) {
-          removeClass(agency[i], "hide");
-        }
-      }else{
-        for(var i = 0; i < agency.length; i++) {  
-          if(agency[i].getAttribute("data-filter") == optionDataFilter){
-          addClass(agency[i], "show");
-            removeClass(agency[i], "hide");
-          }else if(!(agency[i].getAttribute("data-filter") == optionDataFilter)){
-            removeClass(agency[i], "show");
-            addClass(agency[i], "hide");
-          };
-        }
-      }
+//         for(var i = 0; i < agency.length; i++) {
+//           removeClass(agency[i], "hide");
+//         }
+//       }else{
+//         for(var i = 0; i < agency.length; i++) {  
+//           if(agency[i].getAttribute("data-filter") == optionDataFilter){
+//           addClass(agency[i], "show");
+//             removeClass(agency[i], "hide");
+//           }else if(!(agency[i].getAttribute("data-filter") == optionDataFilter)){
+//             removeClass(agency[i], "show");
+//             addClass(agency[i], "hide");
+//           };
+//         }
+//       }
     
-});
+// });
 
 //Filter By Impact Area
-impactOption.addEventListener("change", function(e){
-    var listDataFilter = impactOption.options[impactOption.selectedIndex].getAttribute("data-impact");
-    //var element = document.querySelectorAll('[data-skill]');
-    //console.log(impact[i].firstElementChild.getAttribute("data-skill"));
-     if(listDataFilter == "all"){
-        var elements = document.getElementsByClassName("cards_item");
-        for(var i = 0; i < agency.length; i++) {
-          removeClass(agency[i], "hide");
-        }
-      }else{
-        for(var i = 0; i < agency.length; i++) {
-          if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
-            addClass(agency[i], "show");
-            removeClass(agency[i], "hide");
-          }else if((impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter)){
-          addClass(agency[i], "show");
-          removeClass(agency[i], "hide");
-          }else {
-            removeClass(agency[i], "show");
-            addClass(agency[i], "hide");
-          };
-        }
-      }
-});
+// impactOption.addEventListener("change", function(e){
+//     var listDataFilter = impactOption.options[impactOption.selectedIndex].getAttribute("data-impact");
+//     //var element = document.querySelectorAll('[data-skill]');
+//     //console.log(impact[i].firstElementChild.getAttribute("data-skill"));
+//      if(listDataFilter == "all"){
+//         var elements = document.getElementsByClassName("cards_item");
+//         for(var i = 0; i < agency.length; i++) {
+//           removeClass(agency[i], "hide");
+//         }
+//       }else{
+//         for(var i = 0; i < agency.length; i++) {
+//           if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
+//             addClass(agency[i], "show");
+//             removeClass(agency[i], "hide");
+//           }else if((impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter)){
+//           addClass(agency[i], "show");
+//           removeClass(agency[i], "hide");
+//           }else {
+//             removeClass(agency[i], "show");
+//             addClass(agency[i], "hide");
+//           };
+//         }
+//       }
+// });
 
 function addClass(element, name) {
   var i, arr1, arr2;
@@ -157,4 +151,55 @@ function removeClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+//
+//Variables 
+//
+var app = document.querySelector("#projectFilters");
+var projects = Array.from(document.querySelectorAll('.projects'));
+
+//
+//Methods
+//
+var getAgencies = function(){
+  var agencies = projects.map(function(project){
+    return project.getAttribute('data-agency');
+  });
+
+  return agencies.filter(function(agency, index){
+    return agencies.indexOf(agency) === index;
+  });
+}
+
+var clickHandler = function(event){
+  var filter = event.target.getAttribute('data-filter');
+  if(!filter)return;
+
+  //Get all projects that match the agency
+  var projectsByAgency = Array.from(document.querySelectorAll('#projectList [data-agency="'+ filter +'"]'));
+  
+
+  //If checkbox is checked, show projects
+  //Otherwise, hide them
+  if(!event.target.checked){
+    projectsByAgency.forEach(function(project){
+      project.removeAttribute('hidden');
+      project.style.display = "none";
+      console.log(project);
+    });
+
+  }else{
+    projectsByAgency.forEach(function(project){
+      project.setAttribute('hidden', 'true');
+      project.style.display = "flex";
+      addClass(project, 'hide')
+    });
+   
+  }
+};
+
+//console.log(getAgencies());
+
+//Listen for checklist toggles
+document.documentElement.addEventListener('click', clickHandler, false);
 </script> 

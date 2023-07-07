@@ -1,13 +1,21 @@
-<div class="grid-row">
+<div class="grid-row" id="projectList">
 {% assign sorted = site.projects | sort: 'agency' %}
           {% assign aria_id = press.title | url_encode | truncate: 15, "" %}
           {% for project in sorted %}
+          {% assign agency_impact = site.data.agency-impact | where_exp:'impact', "project.impact_area contains impact.display_name" %}
+          {% assign agency_skill = site.data.agency-skills | where_exp:'skill', "project.tags contains skill.url_name" %}
         <div class="tablet:grid-col-5 project-item__outer project-items projects {{ project.agency | slugify }}" 
-          data-agency="{{project.agency_abbrev}}">
+          data-agency="{{project.agency_abbrev}}" 
+          {% for impact in agency_impact%}
+            data-{{impact.url_name}}="yes"
+          {% endfor %}
+          {% for skill in agency_skill%}
+            data-{{skill.url_name}}="yes"
+          {% endfor %}
+           >
           <div class="project-item">
               <div class="project-item__header">
                 <div class="agency-card--specialty">
-                  {% assign agency_impact = site.data.agency-impact | where_exp:'impact', "project.impact_area contains impact.display_name" %}
                   {% for impact in agency_impact%}
                   {% if forloop.first %}
                   <ul class="impact-list">
@@ -21,7 +29,7 @@
               </div>
               <div class="project-item__agency">
                 <span >
-                  {{ project.title }}
+                  <strong> {{ project.title }} </strong>
                 </span>
               </div>
               <div class="project-item__content">
@@ -33,14 +41,11 @@
 
                 <div class="skill-sets">
                   <p class="project-skill-impact">Skill Set: </p>
-                {% assign agency_skill = site.data.agency-skills | where_exp:'skill', "project.tags contains skill.url_name" %}
                     {% for skill in agency_skill%}
                     {% if forloop.first %}
                     <div>
                     {% endif %}
-                     <span data-skill="{{skill.url_name}}" class="skill-styling">{{ skill.display_name}}
-                        {% unless forloop.last %},{% endunless %}
-                     </span>
+                     <span data-skill="{{skill.url_name}}" class="skill-styling">{{ skill.display_name}}{% unless forloop.last %},{% endunless %}</span>
                     {% if forloop.last %}
                     </div>
                     {% endif %}

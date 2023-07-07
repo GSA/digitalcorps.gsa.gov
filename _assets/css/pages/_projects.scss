@@ -8,13 +8,13 @@
         background-position: center center;
         position: relative;
         min-height: 600px;
-        @include u-margin-bottom(4);
+        //@include u-margin-bottom(4);
         max-width: 100%;
 
         // screen size adjustments
         @include at-media-max("desktop-lg") {
            // background-position: 30% top;
-           margin-bottom: 15%;
+          // margin-bottom: 15%;
         }
 
         @include at-media-max("desktop") {
@@ -120,8 +120,15 @@
   display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    @include u-padding-x(6);
+    @include u-margin-x(2);
+    padding: 0 12rem;
+    @include at-media-max("desktop") {
+      //margin: 0 7rem;
+      @include u-margin-x(2);
+    @include u-padding-x(8);
+    }
 }
+
 .projects-details{
   @include u-bg('gray-5');
 }
@@ -177,7 +184,9 @@
             background-color: #C7C7C7;
             color: #000000;
           }
-        
+          &.Open_science {
+            background-color: #70747B;
+          }
         }
       }
     }
@@ -279,7 +288,7 @@
 }
 
 .show{
-  display: block;
+  display: flex;
 }
 
 
@@ -312,7 +321,8 @@
 
  .projects-main{
    //max-width: 1200px;
-   margin-bottom: 50px;
+   margin: 50px 0;
+
    
    @include at-media('tablet') {
     display: flex;
@@ -405,7 +415,6 @@
 .skill-styling{
   //display: flex;
   //flex-wrap: wrap;
-  font-weight: bold;
   font-size: 16x;
   //@include u-font('sans', 'sm');
   color: #000000;
@@ -420,9 +429,21 @@
   margin-right: 10px;
 }
 
+//Filters
 .filter-checkbox{
   width: auto;
   font-size: small;
   line-height: 25px;
+
+  label {
+    //display: block;
+    width: 100%;
+    margin-bottom: 0.25em;
+  }
+  input {
+    @include u-margin-right(1);
+  }
+
+  [hidden] { display: none !important; }
 }
 
