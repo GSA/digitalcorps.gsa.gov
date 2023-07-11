@@ -6,15 +6,13 @@ fellow_year: 2023
 project: ["na"]
 agency: ["VA"]
 hometown: Long Island, NY
-university: Adelphi University
+university: Columbia University
 region: east
 bio_short: Data scientist with a passion for AI and machine learning
-why: "I was motivated by the collaborative nature of the USDC program, which brings together a diverse group of talented individuals from various backgrounds. The chance to work alongside like-minded professionals and contribute to projects with real-world impact fueled my enthusiasm to join the Digital Corps and be a part of a collective effort to drive positive govermental change through technology."
-fun_fact: 'Lylybell loves dancing.'
+why: "My motivation to join USDC stems from a deep desire to contribute to projects with real-world impact. The opportunity to be part of a collective effort that drives positive governmental change through technology, specifically for the benefit of the American public, has fueled my enthusiasm to join the Digital Corps. I am excited to collaborate with like-minded professionals and utilize my skills in data science to make a meaningful difference in society."
+fun_fact: 'Lylybell loves pursuing dance in various styles including hip hop, street jazz, and jazz funk.'
 tags: ['east', '2023','Data_Science_And_Analytics', 'VA', 'active']
 track: ['Data Science and Analytics']
 ---
 
-Lylybell is a first-generation Hispanic college graduate deeply committed to promoting diversity in data science and contributing to minority-serving institutions. She has a passion for artificial intelligence and machine learning.
-
-Lylybell's journey in data science is driven by a desire to make a meaningful impact in society. She aims to harness the power of AI and machine learning to enhance healthcare outcomes and provide better services for Veterans. She envisions a future where marginalized communities are empowered through data-driven innovation.
+Lylybell, a first-generation Hispanic college graduate, is deeply committed to promoting diversity in data science and making meaningful contributions to government organizations. With prior experience in such institutions, her journey in data science is fueled by a strong desire to create a positive impact on society. Guided by her career mantra of using data for good, she passionately harnesses the power of artificial intelligence and machine learning to foster inclusivity and drive positive change in the field.
