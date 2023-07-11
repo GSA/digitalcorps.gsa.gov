@@ -10,7 +10,7 @@ university: University of Chicago
 region: west
 bio_short: Data scientist passionate about supporting policymaking through the appropriate use of statistical and computational tools
 why: "USDC provides an incredible opportunity to learn from policy and data experts while making a positive impact on our government."
-fun_fact: 'Drew does not see conversations about weather as simply small talk — he has a strong amateur interest in meteorology and love discussing clouds!'
+fun_fact: 'Drew does not see conversations about weather as simply small talk — he has a strong amateur interest in meteorology and loves discussing clouds!'
 tags: ['west', '2023','Data_Science_And_Analytics', 'OSTP', 'active']
 track: ['Data Science and Analytics']
 ---
