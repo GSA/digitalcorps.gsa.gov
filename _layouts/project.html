@@ -56,9 +56,11 @@ layout: default
             <div class="project-banner-links">
               <p class="project-skill-impact">Learn More: </p>
               <div class="learn-more">
+                {% if project.project_url %}
                   <span>
                       <a href={{page.project_url}} target="_blank" rel="noopener">{% asset "Website.png" alt="{{project.agency}} website" class="project-item-links" %}</a>
                   </span>
+                  {% endif %}
                  {% if project.youtube_url %}
                   <span> 
                       <a href="{{page.youtube_url}}" target="_blank" rel="noopener">{% asset "Youtube.png" alt="{{project.agency}} video" class="project-item-links" %}</a>
