@@ -14,7 +14,6 @@ fun_fact: Bella tends to connect with people over music. Every year, they clear 
 tags: ['west', '2023','Data_Science_And_Analytics', 'active']
 track: ['Data Science and Analytics']
 ---
+Bella Mendoza graduated from the University of California, Berkeley, where they studied Data Science and Legal Studies. Prior to the U.S. Digital Corps, Bella served as a research assistant at the UC Berkeley EPIC Lab centering work around creating accessible data tools. Furthermore, as a coding instructor, Bella has fostered the development of aspiring technologists by sharing the potential of technology and emphasizing the significance of inclusivity in its implementation. 
 
-Bella Mendoza graduated from the University of California, Berkeley, where they studied Data Science and Legal Studies. Prior to the U.S. Digital Corps, they served as a research assistant at the UC Berkeley EPIC Lab, where their work centered around creating accessible data tools. Furthermore, as a coding instructor, Bella has fostered the development of aspiring technologists by sharing the potential of technology and emphasizing the significance of inclusivity in its implementation.
-
-Throughout their professional development, they have consistently emphasized ethical uses of technology as a means to navigate and embrace a diverse and ever-changing world. With the moments in between, Bella enjoys jamming out with friends, chatting with their sisters, passing time with the people they love, and playing baseball.
+Throughout her professional development, Bella has consistently emphasized ethical technology use as a means to navigate and embrace a diverse and ever-changing world. With the moments in between, Bella enjoys jamming out with friends, going to concerts, and discovering new hobbies. 
