@@ -5,7 +5,7 @@ image: blake-robert-mills.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DTIC"]
-hometown: Kearney, NY
+hometown: Kearney, NE
 university: Columbia University
 region: northeast
 bio_short: Data scientist ready to work on projects involving the intersections of data, tech, cities, public service, and the arts
