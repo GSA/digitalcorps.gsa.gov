@@ -41,10 +41,10 @@
   url: 
   description:
 
-# - name: OSTP
-#   fullname: White House Office of Science and Technology, Policy
-#   url: http://www.whitehouse.gov/administration/eop/ostp
-#   description:
+- name: OSTP
+  fullname: White House Office of Science and Technology, Policy
+  url: http://www.whitehouse.gov/administration/eop/ostp
+  description:
 
 # - name: SBA
 #   fullname: Small Business Administration
