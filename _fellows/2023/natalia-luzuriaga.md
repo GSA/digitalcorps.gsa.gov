@@ -9,7 +9,7 @@ hometown: Parsippany, NJ
 university: University of California, Los Angeles (UCLA)
 region: west
 bio_short: Software engineer passionate about contributing to technologies that empower others
-why: ""
+why: "I want to establish a career centered around mission-driven work and developing tech for social good. With so much digital innovation currently happening within government, it is an exciting time to join the public sector and be a part of the U.S. Digital Corps, which offers me the opportunity to work on projects that improve access and the user experience of government services while challenging me to grow professionally along the way."
 fun_fact: 'In my free time, I crochet plushies! I’ve made bumblebees, whales, jellyfish, and many more.'
 tags: ['west', '2023','Software_Engineering', 'CMS', 'active']
 track: ['Software Engineering']
