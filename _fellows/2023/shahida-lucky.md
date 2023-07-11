@@ -9,7 +9,7 @@ hometown: New York, NY
 university: NYU Tandon School of Engineering
 region: east
 bio_short: Cybersecurity specialist with a passion for family
-why: "What could be a bigger inspiration for a mother of two, a housewife, an immigrant, a student starting her master’s degree after 13 years out of school, or a someone returning to the workforce after 11 years——or someone like me who is all of the above? For me, the promise of returning to the workforce and setting an example that anybody can achieve their life goals by taking small, consistent steps has been my inspiration. The U.S. Digital Corps enables me to take a "learning by doing" approach while serving the public in the federal government."
+why: 'What could be a bigger inspiration for a mother of two, a housewife, an immigrant, a student starting her master’s degree after 13 years out of school, or a someone returning to the workforce after 11 years——or someone like me who is all of the above? For me, the promise of returning to the workforce and setting an example that anybody can achieve their life goals by taking small, consistent steps has been my inspiration. The U.S. Digital Corps enables me to take a "learning by doing" approach while serving the public in the federal government.'
 fun_fact: "Shahida is passionate about traveling and loves to travel as much as she can. Additionally, she enjoys listening to music while cooking and doing household chores."
 tags: ['east', '2023','Cybersecurity', 'CDC', 'active']
 track: ['Cybersecurity']
