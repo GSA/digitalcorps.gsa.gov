@@ -255,6 +255,10 @@
     // }
 
     .skill-sets{
+      @include u-font('sans', 'sm');
+      @include u-text('normal');
+      //line-height: 1.45;
+      font-size: 14px;
       width: 50%;
     }
   }
@@ -299,7 +303,7 @@
 //Skill & Impact Area Description Section
 .project-skill-impact{
   color: #0076D6;
-  font-weight: bold;
+  //font-weight: bold;
   margin-block-end: auto;
 }
 
@@ -329,89 +333,6 @@
    }
  }
 
-
-
-.cards {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.cards_item {
-  //display: flex;
-  padding: 1rem;
-  flex:  1 0 50%;
-  margin-bottom: 2rem;
-  margin-right: 2rem;
-  max-width: 600px;
-  max-height: 350px;
-  @include at-media('tablet') {
-    max-height: none;
-  }
-  @include at-media-max("mobile-lg") {
-    max-height: none;
-  }
-}
-
-@media (min-width: 40rem) {
-  .cards_item {
-    width: 50%;
-    max-height: none;
-  }
-}
-@media (max-width: 639px) {
-  .cards_item {
-    width: 33.3333%;
-    max-height: none;
-    //flex: none;
-  }
-}
-
-.card {
-  background-color: white;
-  border-radius: $project-item-border-radius;
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.18);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  //height: 380px;
-  @include at-media('tablet') {
-    flex-direction: row;
-  }
-}
-
-.card_content {
-  padding: 2.5rem;
-  height: 430px;
-  @include at-media('tablet') {
-    flex-direction: row;
-  }
-}
-
-.card_title {
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: capitalize;
-  margin: 0px;
-}
-
-.card_text {
-  //font-size: 0.875rem;
-  line-height: 1.5;
-  //margin-bottom: 1.25rem;    
-  //font-weight: 400;
-  @include u-font('sans', 'sm');
-  @include u-text('normal');
-  //line-height: 1.45;
-  font-size: 14px;
-  margin: 0;
-}
 .skill-styling{
   //display: flex;
   //flex-wrap: wrap;
@@ -443,7 +364,5 @@
   input {
     @include u-margin-right(1);
   }
-
-  [hidden] { display: none !important; }
 }
 
