@@ -71,96 +71,269 @@ sitemap: false -->
 
 
 <script type="text/javascript">
-// Based on W3 How to Filter Elements:
-// https://www.w3schools.com/howto/howto_js_filter_elements.asp
-var agencyOption = document.getElementById("project-agencies-select");
-var agency = document.getElementsByClassName("cards_item");
-
-var impactOption = document.getElementById("project-impact-select");
-var impact = document.getElementsByClassName("impact-list");
-
-
-
-//Filter by Agency Name
-// agencyOption.addEventListener("change", function(e){
-//     var optionDataFilter = agencyOption.options[agencyOption.selectedIndex].getAttribute("data-filter");
-//     if(optionDataFilter == "all"){
-//         var elements = document.getElementsByClassName("cards_item");
-        
-//         for(var i = 0; i < agency.length; i++) {
-//           removeClass(agency[i], "hide");
-//         }
-//       }else{
-//         for(var i = 0; i < agency.length; i++) {  
-//           if(agency[i].getAttribute("data-filter") == optionDataFilter){
-//           addClass(agency[i], "show");
-//             removeClass(agency[i], "hide");
-//           }else if(!(agency[i].getAttribute("data-filter") == optionDataFilter)){
-//             removeClass(agency[i], "show");
-//             addClass(agency[i], "hide");
-//           };
-//         }
-//       }
-    
-// });
-
-//Filter By Impact Area
-// impactOption.addEventListener("change", function(e){
-//     var listDataFilter = impactOption.options[impactOption.selectedIndex].getAttribute("data-impact");
-//     //var element = document.querySelectorAll('[data-skill]');
-//     //console.log(impact[i].firstElementChild.getAttribute("data-skill"));
-//      if(listDataFilter == "all"){
-//         var elements = document.getElementsByClassName("cards_item");
-//         for(var i = 0; i < agency.length; i++) {
-//           removeClass(agency[i], "hide");
-//         }
-//       }else{
-//         for(var i = 0; i < agency.length; i++) {
-//           if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
-//             addClass(agency[i], "show");
-//             removeClass(agency[i], "hide");
-//           }else if((impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter)){
-//           addClass(agency[i], "show");
-//           removeClass(agency[i], "hide");
-//           }else {
-//             removeClass(agency[i], "show");
-//             addClass(agency[i], "hide");
-//           };
-//         }
-//       }
-// });
-
-function addClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
-  }
-}
-function removeClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
 //
 //Variables 
 //
-var app = document.querySelector("#projectFilters");
-var projects = Array.from(document.querySelectorAll('.projects'));
+var allFilters = Array.from(document.querySelectorAll("input[type='checkbox']"));
+var projects = Array.from(document.getElementsByClassName('project-item__outer'));
+var agencyFilterChecklist = Array.from(document.querySelectorAll('[data-filter]'));
 
+
+//
+//Skills checkbox variables
+//
+var cybersecuritySkillsCheckbox = document.querySelector('[data-skill="Cybersecurity"]');
+var dataScienceCheckbox = document.querySelector('[data-skill="Data_Science"]');
+var designCheckbox = document.querySelector('[data-skill="Design"]');
+var projectManagementCheckbox = document.querySelector('[data-skill="Product_Management"]');
+var softwareEngineeringCheckbox = document.querySelector('[data-skill="Software_Engineering"]');
+//
+//Impact checkbox variables 
+//
+var capacityBuildingCheckbox = document.querySelector('[data-impact="Capacity_Building"]');
+var cybersecurityImpactCheckbox = document.querySelector('[data-impact="Cybersecurity"]');
+var equityCheckbox = document.querySelector('[data-impact="Equity"]');
+var healthCheckbox = document.querySelector('[data-impact="Health"]');
+var immigrationCheckbox = document.querySelector('[data-impact="Immigration"]');
+var publicExperienceCheckbox = document.querySelector('[data-impact="Public_experience"]');
+var openScienceCheckbox = document.querySelector('[data-impact="Open_science"]');
 //
 //Methods
 //
+  //Remove project if checkbox is not checked.
+var noFilter = function(){
+  //Impact Checks
+  if(!capacityBuildingCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Capacity_Building')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!cybersecurityImpactCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Cybersecurity')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!equityCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Equity')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!healthCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Health')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!immigrationCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Immigration')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!publicExperienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Public_Experience')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!openScienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Open_science')){
+        project.style.display = "none";
+      }
+    })
+  }
+
+  //Skill Checks
+  if(!cybersecuritySkillsCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_cybersecurity')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!dataScienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_data_science')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!designCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_design')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!projectManagementCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_product_management')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!softwareEngineeringCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_software_engineering')){
+        project.style.display = "none";
+      }
+    })
+  }
+}
+//
+//Show All Cards If No Filter Is Checked
+//
+  //Convert Filter Checklist to Boolean Array 
+  var arr = [];
+  var convertFilterCheckToBoolean = function(){
+    arr =[];
+    allFilters.forEach(function (filter){
+          arr.push(filter.checked);
+        });
+  }
+  //Check Boolean Array and if all return checkboxes return false, display cards
+  var allCards = function(){
+    convertFilterCheckToBoolean();
+    var checkAllCheckboxes = (filter) => filter === false;
+
+    if(arr.every(checkAllCheckboxes)){
+      projects.forEach(function (project){
+        project.style.display ="flex";
+      });
+    } 
+  };
+
+//
+//Filters By Impact Functions
+//
+var filterByCapacityBuilding = function(){
+  if(capacityBuildingCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Capacity_Building')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+
+var filterbyImpactCybersecurity = function(){
+  if(cybersecurityImpactCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Cybersecurity')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+
+var filterByEquity = function(){
+  if(equityCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Equity')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterByHealth = function(){
+  if(healthCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Health')){
+        project.style.display = "flex";
+      }
+    })
+  }
+    
+};
+
+var filterByImmigration = function(){
+  if(immigrationCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Immigration')){
+        project.style.display = "flex";
+      }
+    })
+  }  
+};
+
+var filterByPublicExperience = function(){
+  if(publicExperienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Public_Experience')){
+        project.style.display = "flex";
+      }
+    })
+  } 
+};
+
+var filterByOpenScience = function(){
+  if(openScienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Open_science')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+
+//
+//Filters By Skill Functions
+//
+var filterBySkillCybersecurity = function(){
+  if(cybersecuritySkillsCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_cybersecurity')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterByDataScience = function(){
+  if(dataScienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_data_science')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterByDesign = function(){
+  if(designCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_design')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterByProjectManagement = function(){
+  if(projectManagementCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_product_management')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterBySoftwareEngineering = function(){
+  if(softwareEngineeringCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_software_engineering')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
 var getAgencies = function(){
   var agencies = projects.map(function(project){
     return project.getAttribute('data-agency');
@@ -171,34 +344,44 @@ var getAgencies = function(){
   });
 }
 
-var clickHandler = function(event){
-  var filter = event.target.getAttribute('data-filter');
-  if(!filter)return;
-
-  //Get all projects that match the agency
-  var projectsByAgency = Array.from(document.querySelectorAll('#projectList [data-agency="'+ filter +'"]'));
-  
-
-  //If checkbox is checked, show projects
-  //Otherwise, hide them
-  if(!event.target.checked){
-    projectsByAgency.forEach(function(project){
-      project.removeAttribute('hidden');
-      project.style.display = "none";
-      console.log(project);
-    });
-
-  }else{
-    projectsByAgency.forEach(function(project){
-      project.setAttribute('hidden', 'true');
-      project.style.display = "flex";
-      addClass(project, 'hide')
-    });
-   
-  }
+var filterByAgency = function(){
+   //Get all projects that match the agency
+ agencyFilterChecklist.forEach(function (filter){
+    if(filter.checked){
+      var agencyFilter = filter.getAttribute('data-filter');
+      projectsByAgency = Array.from(document.querySelectorAll('#projectList [data-agency="'+ agencyFilter +'"]'));
+      projectsByAgency.forEach(function(project){
+      project.style.display = 'flex';
+    })
+      console.log(projectsByAgency);
+    }
+  })
 };
 
-//console.log(getAgencies());
+var clickHandler = function(event){
+  noFilter();
+  //Impact Filters
+  filterByCapacityBuilding();
+  filterbyImpactCybersecurity();
+  filterByEquity();
+  filterByHealth();
+  filterByImmigration();
+  filterByPublicExperience();
+  filterByOpenScience();
+
+  // //Skill Filters
+  filterBySkillCybersecurity();
+  filterByDataScience();
+  filterByDesign();
+  filterByProjectManagement();
+  filterBySoftwareEngineering();
+
+  //AgencyFilter
+  filterByAgency();
+
+  //Show All Cards if all checkboxes are deselected
+  allCards();
+};
 
 //Listen for checklist toggles
 document.documentElement.addEventListener('click', clickHandler, false);

@@ -7,10 +7,10 @@
         <div class="tablet:grid-col-5 project-item__outer project-items projects {{ project.agency | slugify }}" 
           data-agency="{{project.agency_abbrev}}" 
           {% for impact in agency_impact%}
-            data-{{impact.url_name}}="yes"
+            data-impact_{{impact.url_name}}="yes"
           {% endfor %}
           {% for skill in agency_skill%}
-            data-{{skill.url_name}}="yes"
+            data-skill_{{skill.url_name}}="yes"
           {% endfor %}
            >
           <div class="project-item">
@@ -20,7 +20,7 @@
                   {% if forloop.first %}
                   <ul class="impact-list">
                   {% endif %}
-                  <li data-impact="{{impact.url_name}}"> <span class="{{ impact.url_name }}">{{ impact.display_name }}</span></li>
+                  <li> <span class="{{ impact.url_name }}">{{ impact.display_name }}</span></li>
                   {% if forloop.last %}
                   </ul>
                   {% endif %}
@@ -45,7 +45,7 @@
                     {% if forloop.first %}
                     <div>
                     {% endif %}
-                     <span data-skill="{{skill.url_name}}" class="skill-styling">{{ skill.display_name}}{% unless forloop.last %},{% endunless %}</span>
+                     <span class="skill-styling">{{ skill.display_name}}{% unless forloop.last %},{% endunless %}</span>
                     {% if forloop.last %}
                     </div>
                     {% endif %}
