@@ -374,5 +374,8 @@
   }
   input {
     @include u-margin-right(1);
+    @include at-media('tablet'){
+      margin-left: -22px;
+    }
   }
 }
