@@ -9,19 +9,19 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
   <nav>
     <div id="projectFilters">
     <h3>Filters</h3>
-    <h4>Impact Area</h4>
+    <p>Impact Area</p>
     {% assign impactFilter = site.data.agency-impact | sort: 'display_name' %}
     {% for impact in impactFilter %}
     <div class="filter-checkbox"><input type="checkbox"  data-impact="{{impact.url_name}}" name="impactArea" id="{{impact.val}}"><label for="{{impact.val}}">{{impact.display_name}}</label></div>
     {% endfor %}
    
-    <h4>Skill Set</h4>
+    <p>Skill Set</p>
     {% assign skillFilter = site.data.agency-skills | sort: 'display_name' %}
     {% for skill in skillFilter %}
     <div class="filter-checkbox"><input type="checkbox" data-skill="{{skill.url_name}}" name="skillSet" id="{{skill.val}}"><label for="{{skill.val}}">{{skill.display_name}}</label></div>
     {% endfor %}
 
-    <h4>Partner Agency</h4>
+    <p>Partner Agency</p>
     {% assign agencyFilter = site.data.agencies | sort: 'fullname' %}
     {% for agency in agencyFilter %}
     <div class="filter-checkbox"><input type="checkbox" data-filter="{{agency.name}}"  name="partnerAgency" id="{{agency.val}}"><label for="{{agency.val}}">{{agency.fullname}}</label></div>

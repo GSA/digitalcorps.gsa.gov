@@ -351,6 +351,17 @@
 }
 
 //Filters
+#projectFilters {
+  p{
+    font-weight: bold;
+    margin-block-end: 0.5em;
+  }
+  p:not(:first-of-type){
+    border-top: 2px solid #bbb;
+    @include u-padding-top(2);
+    }
+}
+  
 .filter-checkbox{
   width: auto;
   font-size: small;
@@ -365,4 +376,3 @@
     @include u-margin-right(1);
   }
 }
-
