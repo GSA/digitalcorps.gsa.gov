@@ -17,6 +17,6 @@ track: ['Design']
 
 Espy is a creative problem solver who has strode with purpose down her non-linear path. She is passionate about helping elevate unheard voices through her skills redesigning systems, services, and products. Espy previously worked as Dartmouth College’s Human-Centered Design Fellow, where she supported human-centered design classes and co-developed and managed the college’s first service design program.
 
-Her approach to design and research has been informed by her work on the built environment with local government, her sociological research jobs, and her digital community activism work. Her personal upbringing in a queer, cross-cultural family and in rural and small town communities with no digital access affects her approach to the world. She holds a B.A. in Environmental Science and Policy with a focus on Urban Design from Smith College. 
+Her approach to design and research has been informed by her civic work on the built environment, sociological research jobs, and digital community activism work. It has also been informed by her personal upbringing in a queer, cross-cultural family and in rural and small town communities with no digital access. She holds a B.A. in Environmental Science and Policy with a focus on Urban Design from Smith College.
 
 Alongside her work, Espy can be found writing, learning how to sail, and playing ultimate.
