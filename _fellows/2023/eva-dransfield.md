@@ -6,7 +6,7 @@ fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]
 hometown:  Madagascar
-university: Brigham Young University
+university: Brigham Young University–Idaho
 region: east
 bio_short: Designer passionate about creating seamless and intuitive experiences that are accessible and inclusive.
 why: "USDC's dedication to driving digital transformation in government services caught my interest, and I am eager to contribute my skills and expertise to be a part of this transformative change."
