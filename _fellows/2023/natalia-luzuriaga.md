@@ -1,4 +1,4 @@
----
+<!-- ---
 id: natalia-luzuriaga
 title: Natalia Luzuriaga
 image: natalia-luzuriaga.png
@@ -15,4 +15,4 @@ tags: ['west', '2023','Software_Engineering', 'CMS', 'active']
 track: ['Software Engineering']
 ---
 
-Natalia is a recent graduate of the University of California, Los Angeles, where she studied Computer Science. At UCLA, she gained experience and a strong passion for software engineering through building software applications. She co-founded a freelance marketplace for student small businesses, where she and her team developed and launched an app to their college campus. Natalia was also involved in student organizations building high-impact technologies for nonprofits and teaching educational workshops on various technical and non-technical topics. Since graduating, she has been committed to contributing to technologies that empower others and make a difference, leveraging her skills and knowledge to create innovative and meaningful solutions.
+Natalia is a recent graduate of the University of California, Los Angeles, where she studied Computer Science. At UCLA, she gained experience and a strong passion for software engineering through building software applications. She co-founded a freelance marketplace for student small businesses, where she and her team developed and launched an app to their college campus. Natalia was also involved in student organizations building high-impact technologies for nonprofits and teaching educational workshops on various technical and non-technical topics. Since graduating, she has been committed to contributing to technologies that empower others and make a difference, leveraging her skills and knowledge to create innovative and meaningful solutions. -->
