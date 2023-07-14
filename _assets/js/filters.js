@@ -36,6 +36,7 @@ const parseURL = () => {
       json = json.filter(fellow => fellow.track === item);
       break;
     }
+    
     if (validYears.includes(item)) {
       yearSelect.value = item;
       json = json.filter(fellow => fellow.fellow_year === item);
