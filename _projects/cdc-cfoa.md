@@ -3,9 +3,9 @@ id: cdc-cfoa
 agency: "Centers for Disease Control and Prevention"
 agency_abbrev: "CDC"
 agency_logo: "CDC.png"
-title: "Centers for Disease Control and Prevention - Center for Forecasting and Outbreak Analytics"
-project_name: "Centers for Disease Control and Prevention - Center for Forecasting and Outbreak Analytics"
-summary: "Utilizing data, modeling, and analytics to respond to outbreaks in real-time to drive effective decision-making."
+title: "Using data to better respond to disease outbreaks"
+project_name: "Using data to better respond to disease outbreaks"
+summary: "Utilizing data, modeling, and analytics to respond to outbreaks in real-time to drive effective decision-making at the Centers for Disease Control and Prevention's Center for Forecasting and Outbreak Analytics."
 partner_description:  
 project_url: https://www.cdc.gov/about/
 youtube_url: 
