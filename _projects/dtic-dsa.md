@@ -3,9 +3,9 @@ id: dtic-dsa
 agency: "Defense Technical Information Center"
 agency_abbrev: "DTIC"
 agency_logo: "DTIC.png"
-title: "Defense Technical Information Center - Data Science and Analytics"
-project_name: "Defense Technical Information Center - Data Science and Analytics"
-summary: "Improving access to the department's science and technology data and analytics to rapidly, accurately, and reliably deliver the knowledge needed to create technology developments that will protect and enhance U.S. competitive advantage."
+title: "Improving access to DoD science and technology data and research"
+project_name: "Improving access to DoD science and technology data and research"
+summary: "Improving access to the Department of Defense's science and technology data and analytics at the Defense Technical Information Center to rapidly, accurately, and reliably deliver the knowledge needed to create technology developments that will protect and enhance U.S. competitive advantage."
 partner_description: 
 project_url: 
 skill_set: ['Software Engineering', 'Data Science']
