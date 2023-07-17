@@ -11,7 +11,7 @@ region: northeast
 bio_short: Software engineer ready to help redefine national security and make government more equitable 
 why: "I was seeking an opportunity that would enable me to use my skills to effect change in and help improve government services. The Digital Corps seemed like a perfect springboard to break into federal government as an early-career technologist."
 fun_fact: Meenu was inspired to join public service while studying abroad in Jordan in 2016 through a State Department-funded scholarship to learn Arabic. Connecting with others through food was an experience she’ll never forget—her host mom cooked unforgettable Jordanian food, and Meenu made pancakes and tandoori chicken for her in return!
-tags: ['northeast', '2022','Software_Engineering', 'GSA']
+tags: ['northeast', '2022','Software_Engineering', 'GSA', 'active']
 track: ['Software Engineering']
 ---
 

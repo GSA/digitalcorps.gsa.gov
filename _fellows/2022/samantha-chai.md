@@ -11,7 +11,7 @@ region: east
 bio_short: Designer passionate about leveraging technology for social impact
 why: "I’ve always been interested in leveraging technology for social impact. I chose civic tech over other private sector opportunities because of its influence over so many people. Civic tech works to serve everyone—it has the widest range of users."
 fun_fact: 
-tags: ['east', '2022','Design', 'CFPB']
+tags: ['east', '2022','Design', 'CFPB', 'active']
 track: ['Design']
 ---
 

@@ -11,7 +11,7 @@ region: northwest
 bio_short: Designer with a passion for a more accessible and equitable government
 why: "As an immigrant and a veteran, I experienced government services firsthand and understand how difficult they can be to navigate. I want to use my skills and experiences to make government services more accessible and equitable, and the U.S. Digital Corps is the perfect pathway for a new civic technologist like me." 
 fun_fact: Jenny was born and raised in Beijing, China, and moved to the United States when she was 16.
-tags: ['northwest', '2022','Design', 'VA']
+tags: ['northwest', '2022','Design', 'VA', 'active']
 track: ['Design']
 ---
 

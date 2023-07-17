@@ -11,7 +11,7 @@ region: northeast
 bio_short: Cybersecurity specialist with a background in community building and support
 why: "I chose to join the U.S. Digital Corps for a few key reasons. First, the program offers a chance to apply my skills and experiences to engaging, meaningful, and challenging work at the intersection of people, technology, and the public interest. Second, the program intentionally assembles a diverse cohort of fellows with various professional backgrounds and life experiences, united by a passion for civic tech. Third, the program strategically invests in the professional development and personal growth of its fellows. Ultimately, the U.S. Digital Corps presents a unique opportunity to support the U.S. Government, serve the American people, and protect our way of life."
 fun_fact: Jay has biked the Great Allegheny Passage and C&O Canal twice—that's 300+ miles from Pittsburgh, PA to Washington, D.C. At the time of writing, Jay is currently in the middle of completing his third trip.
-tags: ['northeast', '2022','Cybersecurity', 'CMS']
+tags: ['northeast', '2022','Cybersecurity', 'CMS', 'active']
 track: ['Cybersecurity']
 ---
 
