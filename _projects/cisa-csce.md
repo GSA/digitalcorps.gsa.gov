@@ -10,7 +10,7 @@ partner_description:
 project_url: https://www.cisa.gov/about-cisa
 youtube_url: https://youtu.be/lSAcIPoC224
 skill_set: ['Design']
-tags: ['Design', 'Cybersecurity', 'Capacity_Building']
+tags: ['Design', 'Cybersecurity', 'Capacity_building']
 impact_area: ["Cybersecurity", "Capacity building"]
 status: ["current"]
 ---

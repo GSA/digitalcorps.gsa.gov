@@ -10,8 +10,8 @@ partner_description:
 project_url: https://www.acf.hhs.gov/about/acf-vision-mission-values
 youtube_url: https://youtu.be/1aPNfOxbQyc
 skill_set: ['Product management']
-tags: ['Product_Management', 'Capacity_Building', 'Equity']
-impact_area: ['Capacity_Building', 'Equity']
+tags: ['Product_Management', 'Capacity_building', 'Equity']
+impact_area: ['Capacity building', 'Equity']
 status: ["current"]
 ---
 

@@ -10,8 +10,8 @@ partner_description:
 project_url: http://www.whitehouse.gov/administration/eop/ostp
 youtube_url: 
 skill_set: ['Data Science']
-tags: ['Data Science','Capacity_Building', 'Open_science']
-impact_area: ["Capacity Building", "Open science"]
+tags: ['Data Science','Capacity_building', 'Open_science']
+impact_area: ["Capacity building", "Open science"]
 status: ["current"]
 ---
 

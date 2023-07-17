@@ -10,7 +10,7 @@ partner_description:
 project_url: https://www.acf.hhs.gov/about/acf-vision-mission-values
 youtube_url: https://youtu.be/1aPNfOxbQyc
 skill_set: ['Data science']
-tags: ['Data_Science', 'Capacity_Building', 'Equity']
+tags: ['Data_Science', 'Capacity_building', 'Equity']
 impact_area: ["Capacity building", "Equity"]
 status: ["current"]
 ---

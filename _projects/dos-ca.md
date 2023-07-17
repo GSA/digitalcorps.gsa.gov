@@ -10,8 +10,8 @@ partner_description:
 project_url: https://www.state.gov/about/
 youtube_url: https://youtu.be/vpej2adw_nc
 skill_set: ['Product Management', 'Data Science', 'Cybersecurity']
-tags: ['Product_Management','Data_Science', 'Cybersecurity','Capacity_Building']
-impact_area: ["Capacity Building"]
+tags: ['Product_Management','Data_Science', 'Cybersecurity','Capacity_building']
+impact_area: ["Capacity building"]
 status: ["current"]
 ---
 

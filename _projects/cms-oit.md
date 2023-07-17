@@ -10,7 +10,7 @@ partner_description:
 project_url: https://www.cms.gov/about-cms/agency-information/history
 youtube_url: https://youtu.be/1aPNfOxbQyc
 skill_set: ['Cybersecurity']
-tags: ['Cybersecurity', 'Capacity_Building']
+tags: ['Cybersecurity', 'Capacity_building']
 impact_area: ["Cybersecurity", "Capacity building"]
 status: ["current"]
 ---

@@ -10,8 +10,8 @@ partner_description:
 project_url: https://www.census.gov/about/what.html
 youtube_url: 
 skill_set: ['Product Management', 'Design']
-tags: ['Product_Management', 'Design','Capacity_Building', 'Public_experience']
-impact_area: ["Capacity Building", "Public experience"]
+tags: ['Product_Management', 'Design','Capacity_building', 'Public_experience']
+impact_area: ["Capacity building", "Public experience"]
 status: ["current"]
 ---
 

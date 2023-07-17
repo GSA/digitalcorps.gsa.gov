@@ -10,7 +10,7 @@ partner_description:
 project_url: https://www.cms.gov/about-cms/agency-information/history
 youtube_url: https://youtu.be/1aPNfOxbQyc
 skill_set: ['Product management','Design' ]
-tags: ['Product_Management','Design', 'Health', 'Capacity_Building']
+tags: ['Product_Management','Design', 'Health', 'Capacity_building']
 impact_area: ["Health", "Capacity building"]
 status: ["current"]
 ---

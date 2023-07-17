@@ -10,8 +10,8 @@ partner_description:
 project_url: https://www.cdc.gov/about/
 youtube_url: 
 skill_set: ['Product management','Cybersecurity' ,'Software engineering']
-tags: ['Product_Management','Software_Engineering', 'Cybersecurity', 'Health', 'Capacity_Building']
-impact_area: ["Health", "Capacity Building"]
+tags: ['Product_Management','Software_Engineering', 'Cybersecurity', 'Health', 'Capacity_building']
+impact_area: ["Health", "Capacity building"]
 status: ["current"]
 ---
 

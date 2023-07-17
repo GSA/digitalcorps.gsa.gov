@@ -10,8 +10,8 @@ partner_description:
 project_url: https://www.opm.gov/about-us/
 youtube_url: https://youtu.be/woWPItv1iDs
 skill_set: ['Product Management', 'Data Science']
-tags: ['Product_Management','Data_Science','Capacity_Building']
-impact_area: ["Capacity Building"]
+tags: ['Product_Management','Data_Science','Capacity_building']
+impact_area: ["Capacity building"]
 status: ["current"]
 ---
 
