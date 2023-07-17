@@ -3,9 +3,9 @@ id: gsa-oce
 agency: "General Services Administration"
 agency_abbrev: "GSA"
 agency_logo: "GSA.webp"
-title: "General Services Administration - Office of Customer Experience "
-project_name: "General Services Administration - Office of Customer Experience "
-summary: "Collecting, managing, and analyzing customer sentiment data so GSA has the customer insights it needs for fully-realized mission delivery."
+title: "Enabling excellent, data-driven customer experiences at GSA "
+project_name: "Enabling excellent, data-driven customer experiences at GSA"
+summary: "Supporting the General Services Administration's Office of Customer Experience in collecting, managing, and analyzing customer sentiment data so GSA has the customer insights it needs for fully-realized mission delivery."
 partner_description: 
 project_url: https://www.gsa.gov/about-us/mission-and-background
 youtube_url: https://youtu.be/CLFiHE7j5p4
