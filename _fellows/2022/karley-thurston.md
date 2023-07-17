@@ -11,7 +11,7 @@ region: west
 bio_short: Product manager with a background in public policy 
 why: "While studying tech policy and interning at a large nonprofit, I realized how important it was to have more hands-on experience with the development process. I was so excited when the Digital Corps posting came up—it is a wonderful opportunity to strengthen what I had learned while remaining in the public sector and working towards goals I am passionate about."
 fun_fact: At least once a year, Karley likes to make a meal that is entirely home-grown and/or foraged!
-tags: ['west', '2022','Product_Management', 'CMS']
+tags: ['west', '2022','Product_Management', 'CMS', 'active']
 track: ['Product Management']
 ---
 

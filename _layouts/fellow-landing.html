@@ -92,7 +92,7 @@ layout: default
 
 <!-- search -->
 <script type="text/javascript">
-  var fellowsJson = [{% for fellow in site.fellows %}
+      var fellowsJson = [{% for fellow in site.fellows %}
         {
           "title"    : "{{ fellow.title | escape }}",
           "category" : "{{ fellow.category }}",

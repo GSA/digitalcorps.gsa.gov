@@ -11,7 +11,7 @@ region: west
 bio_short: Product manager with a passion for artificial intelligence and urban planning
 why: "As a software product manager, I am motivated by solving meaningful problems for many people. In the public sector I can streamline access to vital services for millions."
 fun_fact: Trey was an Army kid and changed schools every year until the 8th grade.
-tags: ['west', '2022','Product_Management', 'HHS']
+tags: ['west', '2022','Product_Management', 'HHS', 'active']
 track: ['Product Management']
 ---
 

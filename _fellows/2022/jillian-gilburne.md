@@ -11,7 +11,7 @@ region: east
 bio_short: Designer ready to help governments better understand and respond to the needs of those they are meant to serve 
 why: "I believe in a model of government service delivery that requires listening to the needs and challenges of those we serve and making sure our offerings meet them where they are. I wanted to join this community of people who are working to make government services easier to access and apply to."
 fun_fact: Jillian worked and lived for three weeks on a permaculture farm just outside of Baltimore where she tended to sheep and chickens, weeded and raked to ensure that baby trees are able grow big and strong, and picked more strawberries than you could possibly imagine.
-tags: ['east', '2022','Design', 'ACF']
+tags: ['east', '2022','Design', 'ACF', 'active']
 track: ['Design']
 ---
 
