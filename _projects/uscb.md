@@ -3,9 +3,9 @@ id: uscb
 agency: "U.S. Census Bureau"
 agency_abbrev: "USCB"
 agency_logo: "census.webp"
-title: "U.S. Census Bureau"
-project_name: "U.S. Census Bureau"
-summary: "Enabling data users to easily access the Census data they need so they can spend less time searching for data and more time using it."
+title: "Allowing Census Bureau data users to more easily access and use agency data"
+project_name: "Allowing Census Bureau data users to more easily access and use agency data"
+summary: "Enabling data users to easily access the Census data they need so they can spend less time searching for data and more time using it through best practices in product management and design."
 partner_description: 
 project_url: https://www.census.gov/about/what.html
 youtube_url: 
