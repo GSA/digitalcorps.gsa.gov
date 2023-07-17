@@ -3,9 +3,9 @@ id: cisa-cdcp
 agency: "Cybersecurity & Infrastructure Security Agency"
 agency_abbrev: "CISA"
 agency_logo: "CISA.webp"
-title: "Cybersecurity and Infrastructure Security Agency -  Cybersecurity Division Capacity Building"
-project_name: "Cybersecurity and Infrastructure Security Agency -  Cybersecurity Division Capacity Building"
-summary: "Supporting government entities with technical expertise and assistance in implementing the President’s cybersecurity executive order, the DOTGOV Act, and related guidance memos."
+title: "Supporting government cybersecurity best practices with technical assistance and capacity buildimg"
+project_name: "Supporting government cybersecurity best practices with technical assistance and capacity buildimg"
+summary: "Supporting government entities with technical expertise and assistance in implementing the President’s cybersecurity executive order, the DOTGOV Act, and related guidance memos at the Cybersecurity and Infrastructure Security Agency."
 partner_description: 
 project_url: https://www.cisa.gov/about-cisa
 youtube_url: https://youtu.be/lSAcIPoC224
