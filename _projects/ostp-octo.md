@@ -9,8 +9,8 @@ summary: "Assisting the White House Office of Science and Technology Policy's Of
 partner_description: 
 project_url: http://www.whitehouse.gov/administration/eop/ostp
 youtube_url: 
-skill_set: ['Data Science']
-tags: ['Data Science','Capacity_building', 'Open_science']
+skill_set: ['Data science']
+tags: ['Data_Science','Capacity_building', 'Open_science']
 impact_area: ["Capacity building", "Open science"]
 status: ["current"]
 ---
