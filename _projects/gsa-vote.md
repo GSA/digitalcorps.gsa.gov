@@ -3,9 +3,9 @@ id: gsa-vote
 agency: "General Services Administration"
 agency_abbrev: "GSA"
 agency_logo: "GSA.webp"
-title: "General Services Administration - Vote.gov"
-project_name: "General Services Administration - Vote.gov"
-summary: "Expanding voting access in underserved communities through Vote.gov."
+title: "Expanding voting access in underserved communities"
+project_name: "Expanding voting access in underserved communities"
+summary: "Supporting the General Services Administration's Vote.gov program in expanding voting access in underserved communities."
 partner_description: 
 project_url: https://www.gsa.gov/about-us/mission-and-background
 youtube_url: https://youtu.be/CLFiHE7j5p4
