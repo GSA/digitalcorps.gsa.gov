@@ -3,7 +3,7 @@ id: tiffany-feng
 title: Tiffany Feng
 image: Tiffany Feng.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown: San Gabriel Valley, CA
 university: University of California, Los Angeles

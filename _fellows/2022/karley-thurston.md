@@ -3,7 +3,7 @@ id: karley-thurston
 title: Karley Thurston
 image: Karley Thurston.png
 fellow_year: 2022
-project: ["na"]
+project: ["cms"]
 agency: ["CMS"]
 hometown: Auburn, WA
 university: University of Michigan

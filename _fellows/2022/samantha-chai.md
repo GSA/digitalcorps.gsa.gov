@@ -3,7 +3,7 @@ id: samantha-chai
 title: Samantha Chai
 image: Samantha Chai.png
 fellow_year: 2022
-project: ["na"]
+project: ["cfpb"]
 agency: ["CFPB"]
 hometown: Los Angeles, CA
 university: University of California, Los Angeles

@@ -3,7 +3,7 @@ id: michelle-polyak
 title: Michelle Polyak
 image: Michelle Polyak.png
 fellow_year: 2022
-project: ["na"]
+project: ["cms"]
 agency: ["CMS"]
 hometown: Croton-on-Hudson, NY
 university: Johns Hopkins University and Maryland Institute College of Art

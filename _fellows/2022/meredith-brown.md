@@ -3,7 +3,7 @@ id: meredith-brown
 title: Meredith Brown
 image: Meredith Brown.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown: Raleigh, NC
 university: Duke University

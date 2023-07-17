@@ -3,7 +3,7 @@ id: trey-gordner
 title: Trey Gordner
 image: Trey Gordner.png
 fellow_year: 2022
-project: ["na"]
+project: ["hhs"]
 agency: ["HHS"]
 hometown: Columbia, SC
 university: Virginia Polytechnic Institute and State University

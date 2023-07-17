@@ -1,9 +1,9 @@
 ---
 id: nikki-ramos
-title: Anjenica "Nikki" Ramos
+title: Anjenica Nikki Ramos
 image: Nikki Ramos.png
 fellow_year: 2022
-project: ["na"]
+project: ["uscis"]
 agency: ["USCIS"]
 hometown: Pittsburg, CA
 university: University of California, Los Angeles

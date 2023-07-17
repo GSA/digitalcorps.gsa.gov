@@ -3,7 +3,7 @@ id: anastasia-gradova
 title: Anastasia Gradova
 image: Anastasia Gradova.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown: Columbus, OH
 university: Columbia University

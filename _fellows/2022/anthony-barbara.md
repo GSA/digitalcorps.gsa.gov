@@ -3,7 +3,7 @@ id: anthony-barbara
 title: Anthony Barbara
 image: Anthony Barbara.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown: Pompano Beach, Florida
 university: Keiser University

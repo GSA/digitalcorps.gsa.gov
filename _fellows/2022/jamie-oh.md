@@ -3,7 +3,7 @@ id: jamie-oh
 title: Jamie Oh
 image: Jamie Oh.png
 fellow_year: 2022
-project: ["na"]
+project: ["dos"]
 agency: ["DOS"]
 hometown: Irvine, CA
 university: Johns Hopkins University

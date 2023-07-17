@@ -48,6 +48,9 @@ collections:
   fellows:
     output: true
     permalink: /:collection/:name/
+  projects:
+    output: true
+    permalink: /:collection/:name/
   pages:
     output: true
     permalink: /:path/
@@ -61,6 +64,10 @@ defaults:
       type: "fellows"
     values:
       layout: "fellow"
+  - scope:
+      type: "projects"
+    values:
+      layout: "project"
   
 # formatting
 permalink: pretty
@@ -167,6 +174,7 @@ assets:
     - _assets/images/home
     - _assets/images/about
     - _assets/images/opportunity
+    - _assets/images/projects
     - _assets/images/apply
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js

@@ -3,7 +3,7 @@ id: samira-sadat
 title: Samira Sadat
 image: Samira Sadat.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown:
 university: North Dakota State University

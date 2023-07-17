@@ -3,7 +3,7 @@ id: meenu-bhooshanan
 title: Meenu Bhooshanan
 image: Meenu Bhooshanan.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown: Madison, AL
 university: Washington University in St. Louis

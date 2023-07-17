@@ -3,7 +3,7 @@ id: chizobam-nwagwu
 title: Chizobam Nwagwu
 image: Chizobam Nwagwu.png
 fellow_year: 2022
-project: ["na"]
+project: ["cms"]
 agency: ["CMS"]
 hometown: Rockville, MD
 university: Carnegie Mellon University

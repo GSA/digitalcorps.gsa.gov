@@ -3,7 +3,7 @@ id: pierce-lowary
 title: Pierce Lowary
 image: Pierce Lowary.png
 fellow_year: 2022
-project: ["na"]
+project: ["dos"]
 agency: ["DOS"]
 hometown: Dallas, TX
 university: Stanford University

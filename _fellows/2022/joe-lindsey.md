@@ -3,7 +3,7 @@ id: joe-lindsey
 title: Joe Lindsey
 image: Joe Lindsey.png
 fellow_year: 2022
-project: ["na"]
+project: ["dos"]
 agency: ["DOS"]
 hometown: Suffolk, Virginia
 university: Excelsior College Albany

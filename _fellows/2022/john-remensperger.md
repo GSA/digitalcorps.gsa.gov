@@ -3,7 +3,7 @@ id: john-remensperger
 title: John Remensperger
 image: John Remensperger.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown: Washington, DC
 university: University of Pennsylvania

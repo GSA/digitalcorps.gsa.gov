@@ -3,7 +3,7 @@ id: jasmine-yohannan
 title: Jasmine Yohannan
 image: Jasmine Yohannan.png
 fellow_year: 2022
-project: ["na"]
+project: ["va"]
 agency: ["VA"]
 hometown: Rockland County, NY
 university: SUNY Stony Brook University

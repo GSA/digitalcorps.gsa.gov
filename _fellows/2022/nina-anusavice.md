@@ -3,7 +3,7 @@ id: nina-anusavice
 title: Nina Anusavice
 image: Nina Anusavice.png
 fellow_year: 2022
-project: ["na"]
+project: ["va"]
 agency: ["VA"]
 hometown: 
 university: Bentley University
