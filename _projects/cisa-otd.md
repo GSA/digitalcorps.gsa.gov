@@ -3,9 +3,9 @@ id: cisa-otd
 agency: "Cybersecurity & Infrastructure Security Agency"
 agency_abbrev: "CISA"
 agency_logo: "CISA.webp"
-title: "Cybersecurity and Infrastructure Security Agency - Office of the Technical Director"
-project_name: "Cybersecurity and Infrastructure Security Agency - Office of the Technical Director"
-summary: "Contributing to the digital transformation of CISA’s cybersecurity operations, helping CISA better defend the U.S. government, critical infrastructure, elections, and the American people."
+title: "Contributing to the digital transformation of CISA's cybersecurity operations"
+project_name: "Contributing to the digital transformation of CISA's cybersecurity operations"
+summary: "Helping the Cybersecurity and Infrastructure Security Agency better defend the U.S. government, critical infrastructure, elections, and the American people."
 partner_description: 
 project_url: https://www.cisa.gov/about-cisa
 youtube_url: https://youtu.be/lSAcIPoC224
