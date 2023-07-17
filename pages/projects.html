@@ -90,7 +90,7 @@ var softwareEngineeringCheckbox = document.querySelector('[data-skill="Software_
 //
 //Impact checkbox variables 
 //
-var capacityBuildingCheckbox = document.querySelector('[data-impact="Capacity_Building"]');
+var capacityBuildingCheckbox = document.querySelector('[data-impact="Capacity_building"]');
 var cybersecurityImpactCheckbox = document.querySelector('[data-impact="Cybersecurity"]');
 var equityCheckbox = document.querySelector('[data-impact="Equity"]');
 var healthCheckbox = document.querySelector('[data-impact="Health"]');
@@ -105,7 +105,7 @@ var noFilter = function(){
   //Impact Checks
   if(!capacityBuildingCheckbox.checked){
     projects.forEach(function (project){
-      if(project.hasAttribute('data-impact_Capacity_Building')){
+      if(project.hasAttribute('data-impact_Capacity_building')){
         project.style.display = "none";
       }
     })
@@ -219,7 +219,7 @@ var noFilter = function(){
 var filterByCapacityBuilding = function(){
   if(capacityBuildingCheckbox.checked){
     projects.forEach(function (project){
-      if(project.hasAttribute('data-impact_Capacity_Building')){
+      if(project.hasAttribute('data-impact_Capacity_building')){
         project.style.display = "flex";
       }
     })
