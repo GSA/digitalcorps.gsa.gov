@@ -3,9 +3,9 @@ id: hrsa-birth5
 agency: "Health Resources and Services Administration"
 agency_abbrev: "HRSA"
 agency_logo: "HRSA.png"
-title: "Health Resources and Services Administration - Birth-5 "
-project_name: "Health Resources and Services Administration - Birth-5 "
-summary: 'Supporting the "Having a child and early childhood" life experience project and enhacing the ability of Healthy Start sites to successfully prevent infant mortality and eliminate disparities in perinatal outcomes.'
+title: "Preventing infant mortaility and eliminating disparities in perinatal outcomes"
+project_name: "Preventing infant mortaility and eliminating disparities in perinatal outcomes"
+summary: 'Supporting the "Having a child and early childhood" cross-agency life experience project at the Health Resources and Services Administration.'
 partner_description: 
 project_url: https://www.hrsa.gov/about
 skill_set: ['Product Management', 'Design']
