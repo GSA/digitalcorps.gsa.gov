@@ -3,9 +3,9 @@ id: cms-ds
 agency: "Centers for Medicare and Medicaid Services"
 agency_abbrev: "CMS"
 agency_logo: "CMS.png"
-title: "Centers for Medicare and Medicaid Services - Digital Service"
-project_name: "Centers for Medicare and Medicaid Services - Digital Service"
-summary: "Understanding how people move around the U.S. health insurance system and taking action to support the most vulnerable Americans."
+title: "Improving how people interact with healthcare in America"
+project_name: "Improving how people interact with healthcare in America"
+summary: "Supporting the Digital Service at CMS in understanding how people move around the U.S. health insurance system and taking action to support the most vulnerable Americans."
 partner_description:  
 project_url: https://www.cms.gov/about-cms/agency-information/history
 youtube_url: https://youtu.be/1aPNfOxbQyc
