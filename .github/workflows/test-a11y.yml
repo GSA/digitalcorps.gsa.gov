@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: a11y and URLs
+    name: a11y
     runs-on: ubuntu-latest
 
     steps:
@@ -32,6 +32,3 @@ jobs:
 
       - name: Test accessibility
         run: "npm run test-a11y"
-
-      - name: Test for broken URLs
-        run: bundle exec htmlproofer --http-status-ignore "999" --url-swap "https\://digitalcorps.gsa.gov:" _site

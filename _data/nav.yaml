@@ -10,11 +10,16 @@ primary:
     url: /fellows/
   - name: Projects
     url: /projects/
-  - name: Application Process
-    url: /process/
-  - name: FAQ
-    url: /faq/
-
+  
+  - name: Apply
+    url: ../
+    children:
+      - name: Apply
+        url: /apply/
+      - name: Application Process
+        url: /process/
+      - name: FAQ
+        url: /faq/
 # job description
 job-description:
   - text: Overview

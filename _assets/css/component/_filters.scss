@@ -68,9 +68,7 @@
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      @include at-media('tablet') {
-       flex-wrap: nowrap;
-      }
+      
     }
   
     .filter__col {
