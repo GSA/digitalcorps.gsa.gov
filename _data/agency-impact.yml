@@ -1,0 +1,22 @@
+
+- display_name: Capacity building
+  url_name: Capacity_building
+  val: cpcbuild
+- display_name: Cybersecurity
+  url_name: Cybersecurity
+  val: cybscrty
+- display_name: Equity
+  url_name : Equity
+  val: eqty
+- display_name: Health
+  url_name: Health
+  val: hlth
+- display_name: Immigration
+  url_name: Immigration
+  val: immgrtn
+- display_name: Public experience
+  url_name: Public_experience
+  val: pblcexp
+- display_name: Open science
+  url_name: Open_science
+  val: opnsci

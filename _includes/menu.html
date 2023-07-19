@@ -19,6 +19,7 @@ where we provide an easy way to manage your navigation system
     <nav class="usa-nav usa-nav site-nav" role="navigation" aria-label="Primary navigation">
 
       <button class="usa-nav__close">{% asset usa-icons/close.svg alt="close" %}</button>
+      
       <ul class="usa-nav__primary usa-accordion">
         {% for nav_item in site.data.nav.primary %}
         {% unless nav_item.children %}
@@ -40,18 +41,11 @@ where we provide an easy way to manage your navigation system
             </li>
             {% endfor %}
           </ul>
-
         </li>
         {% endunless %}
         {% endfor %}
       </ul>
-      <a href="{{site.baseurl}}/apply/" class="usa-button usa-button--primary usa-button--small"
-        style="margin-left:8px;margin-right:0;">
-        Apply
-      </a>
-      {% comment %}
       {% include searchgov/form.html searchgov=site.searchgov %}
-      {% endcomment %}
     </nav>
   </div>
 </header>

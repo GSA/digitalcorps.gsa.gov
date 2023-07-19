@@ -3,7 +3,7 @@ id: anthony-barbara
 title: Anthony Barbara
 image: Anthony Barbara.png
 fellow_year: 2022
-project: ["na"]
+project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]
 hometown: Pompano Beach, Florida
 university: Keiser University
@@ -11,7 +11,7 @@ region: southeast
 bio_short: Cybersecurity specialist with a private security and criminal justice background
 why: I have always felt the desire to return to work in government, and with the dynamics of everything converting to digital, I want to do my part to help improve processes and ensure safeguards for all users.
 fun_fact: Anthony believes in facing one's fears. He's been skydiving and diving despite a fear of heights and drowning, and he even got back on a motorcycle after a bad accident. 
-tags: ['southeast', '2022','Cybersecurity', 'GSA']
+tags: ['southeast', '2022','Cybersecurity', 'GSA', 'active']
 track: ['Cybersecurity']
 ---
 

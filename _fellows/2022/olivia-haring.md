@@ -4,14 +4,14 @@ title: Olivia Haring
 image:  Olivia Haring.png
 fellow_year: 2022
 project: ["na"]
-agency: ["EPA"]
+agency: ["GSA"]
 hometown: Cincinnati, OH
 university: University of Cincinnati
 region: west
 bio_short: Cybersecurity specialist ready to help develop solutions that better serve all Americans 
 why: "I pursued an advanced degree as part of a career change, but I didn't want just any job once I graduated. I wanted a job that would allow me to help make a difference and provide opportunities to advance my career—exactly why the U.S. Digital Corps appealed to me. USDC allows me to put my newfound technical skills to work and help develop solutions that better serve all Americans."
 fun_fact: Like a lot of people, she took up gardening during the pandemic. She believes there's something really cool about seeing the process of a tiny seedling growing into a delicious vegetable!
-tags: ['west', '2022','Cybersecurity', 'EPA']
+tags: ['west', '2022','Cybersecurity', 'EPA', 'active']
 track: ['Cybersecurity']
 ---
 
