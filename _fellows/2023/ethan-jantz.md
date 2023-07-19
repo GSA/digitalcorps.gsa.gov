@@ -1,7 +1,7 @@
 ---
 id: ethan-jantz
 title: Ethan Jantz
-image: 
+image: ethan-jantz.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]
