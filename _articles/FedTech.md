@@ -2,7 +2,7 @@
 layout: default
 pageOrderID: 93
 title: 30 Federal IT Influencers Worth a Follow in 2022
-image: 2022-FT-Influencer List-Hero.jpg
+image: 2022-FT-Influencer List-Hero.webp
 external_url: "https://fedtechmagazine.com/article/2022/09/30-federal-it-influencers-worth-follow-2022"
 type: Press
 ---

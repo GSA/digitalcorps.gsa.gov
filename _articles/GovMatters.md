@@ -2,7 +2,7 @@
 layout: default
 pageOrderID: 
 title: US Digital Corps fellows tackle major projects across government
-image: GovMatters-USDC7_22.jpeg
+image: GovMatters-USDC7_22.webp
 external_url: "https://govmatters.tv/tech-federal-government-digital-technology-employees-code-data-cyber-computer-gsa-us-digital-corps-general-services-administration-david-zvenyach/"
 type: Press
 ---

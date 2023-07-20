@@ -2,7 +2,7 @@
 layout: default
 pageOrderID: 
 title: GSA Announces First Cohort of 40 U.S. Digital Corps Fellows
-image: Default_Press_Image.png
+image: Default_Press_Image.webp
 external_url: "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-announces-first-cohort-of-40-us-digital-corps-fellows-06212022"
 type: Press
 ---

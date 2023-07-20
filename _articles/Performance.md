@@ -2,7 +2,7 @@
 layout: default
 pageOrderID: 101
 title: 'U.S. Digital Corps in Action: Building a Federal Tech Workforce'
-image: Build_a_Brighter_Future.png
+image: Build_a_Brighter_Future.webp
 external_url: "https://www.performance.gov/blog/digital-corps-update/"
 type: Press
 ---
