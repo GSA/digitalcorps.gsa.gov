@@ -2,7 +2,7 @@
 layout: default
 pageOrderID: 95
 title: The U.S. Just Launched A ‘Digital Corps’ To Attract More [Early-Career] People Into Government Tech
-image: Forbes.jpg
+image: Forbes.webp
 external_url: "https://www.forbes.com/sites/martingiles/2021/08/31/us-launches-digital-corps-for-government-tech/?sh=5c5f45304c01"
 type: Press
 ---

@@ -2,7 +2,7 @@
 layout: default
 pageOrderID: 100
 title: U.S. Digital Corps Fellows Start Their Journeys in Federal Government
-image: Default_Press_Image.png
+image: Default_Press_Image.webp
 external_url: "https://pitcases.org/portfolio/us-digital-corps-fellows-start-their-journeys-in-federal-government/"
 type: Press
 ---

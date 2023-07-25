@@ -2,7 +2,7 @@
 layout: default
 pageOrderID: 98
 title: "Serving the Public: Five Veterans' Journeys to Public Interest Tech"
-image: us-digital-corps-veterans-title-card.png
+image: us-digital-corps-veterans-title-card.webp
 external_url: "https://digital.gov/2022/09/09/serving-the-public-five-veterans-journeys-to-public-interest-tech/"
 type: Blog
 ---
