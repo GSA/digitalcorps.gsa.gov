@@ -1,7 +1,7 @@
 ---
 id: zainab-adenaike
 title: Zainab Adenaike
-image: 
+image: zainab-adenaike.png
 fellow_year: 2023
 project: ["na"]
 agency: ["NIH"]
