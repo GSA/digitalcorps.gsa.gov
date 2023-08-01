@@ -4,7 +4,7 @@ title: Rasheem Vereen
 image: 
 fellow_year: 2023
 project: ["na"]
-agency: []
+agency: 
 hometown: Conyers, GA 
 university: Strayer University
 region: southeast
