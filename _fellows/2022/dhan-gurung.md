@@ -3,7 +3,7 @@ id: dhan-gurung
 title: Dhan Gurung
 image: Dhan Gurung.png
 fellow_year: 2022
-project: ["na"]
+project: ["epa"]
 agency: ["EPA"]
 hometown: North Bergen, New Jersey
 university: Fordham University
@@ -11,7 +11,7 @@ region: northeast
 bio_short: Cybersecurity specialist passionate about technology and information security
 why: "As a veteran, I am glad to have this wonderful opportunity to continue to serve my country and protect our digital assets as a Cyber fellow." 
 fun_fact: "Dhan is originally from Manang, Nepal which is located in the Annapurna mountain range - famous for the Annapurna Circuit Trek."
-tags: ['northeast', '2022','Cybersecurity', 'EPA']
+tags: ['northeast', '2022','Cybersecurity', 'EPA', 'active']
 track: ['Cybersecurity']
 ---
 
