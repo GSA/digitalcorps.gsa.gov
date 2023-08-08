@@ -1,4 +1,4 @@
-<!-- ---
+---
 id: shahida-lucky
 title: Shahida Lucky
 image: shahida-lucky.png
@@ -19,4 +19,4 @@ Shahida obtained her Master’s degree in Cybersecurity from NYU in May 2023, wh
 
 Shahida completed her bachelor’s degree in computer science and engineering in Bangladesh. She holds certifications in CompTIA Security+ and Splunk Core and has completed training on Aqua Security. She excels at monitoring and analyzing cybersecurity incidents and responding to endpoint security issues such as phishing and malware attacks in a SOC environment with some exposure to the NOC environment. She has a strong understanding of Azure DevSecOps, CSAM, ENBUILD, CDOT, Nessus, WebInspect and Federal Zero Trust Architecture. She is a strong believer of the "learning by doing" approach and has gained considerable experience in business impact analysis, application contingency plan, role-based access control, and security impact analysis.
 
-Shahida is a mother of two children and loves spending time with her family.  -->
+Shahida is a mother of two children and loves spending time with her family. 
