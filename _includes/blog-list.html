@@ -11,7 +11,7 @@
                 {% if blog.image %}
                 {% asset "{{ blog.image }}" alt="{{ blog.title }}" %}
                 {% else %}
-                {% asset "Default_Press_Image.png" alt="{{ fellow.title  }}" %}
+                {% asset "Default_Press_Image.png" alt="{{ blog.title  }}" %}
                 {% endif %}
               </div>
             </div>
@@ -20,9 +20,6 @@
                 {{blog.content}}
               </p>
               <p>By {{blog.author}}</p>
-            </div>
-            <div class="usa-card__footer">
-              <a href="#" class="usa-button">Visit Florida Keys</a>
             </div>
           </div>
     </li>
