@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+
+
+<!-- BANNER -->
+<section class="blogs-banner">
+    <div class="usa-hero">
+      <div class="usa-hero__callout">
+        <div class="grid-container">
+          <div class="grid-row">
+            <div class="grid-col">
+              <h1 class="usa-hero__heading">U.S. Digital Corps Blog</h1>
+            </div>
+          </div>
+          <div class="grid-row display-flex flex-row flex-align-end height-full">
+            <div class="grid-col-12">
+              <p>U.S. Digital Corps Fellows work at agencies across the government on projects that make a
+                difference for the American public.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="padding-top-4 padding-bottom-1 bg--lightest usa-layout-docs usa-section">
+    <div class="grid-container">
+      <div class="grid-row margin-top-4 fellow-filters">
+        {% include_cached blog-filters.html %}
+      </div>
+    </div>
+  </section>
+
+  <!-- Blogs -->
+  <section class="grid-container usa-layout-docs usa-section">
+    <div id='blog-search-default' class="list-blogs">
+      {{content}}
+    </div>
+    {% include pagination.html %}
+  </section>
+
+  <!-- SIGN-UP -->
+{% include_cached sign-up.html customstyles="bg-base-lighter padding-y-8" %}
+
+
+
+{% asset filters.js %}

@@ -57,6 +57,9 @@ collections:
   articles:
     output: false
     permalink: /:collection/:name/
+  blogs:
+    output: false
+    permalink: /:collection/:name/
 
 
 defaults:
@@ -68,6 +71,10 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      type: "blogs"
+    values:
+      layout: "blog"
   
 # formatting
 permalink: pretty

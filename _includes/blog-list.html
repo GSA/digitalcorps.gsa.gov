@@ -1,0 +1,30 @@
+{% assign aria_id = blog.title | url_encode | truncate: 15, "" %}
+<ul class="usa-card-group">
+{% for blog in paginator.posts %}
+    <li class="usa-card tablet:grid-col-4">
+        <div class="usa-card__container">
+            <div class="usa-card__header">
+              <h2 class="usa-card__heading">{{blog.title}}</h2>
+            </div>
+            <div class="usa-card__media">
+              <div class="usa-card__img">
+                {% if blog.image %}
+                {% asset "{{ blog.image }}" alt="{{ blog.title }}" %}
+                {% else %}
+                {% asset "Default_Press_Image.png" alt="{{ fellow.title  }}" %}
+                {% endif %}
+              </div>
+            </div>
+            <div class="usa-card__body">
+              <p>
+                {{blog.content}}
+              </p>
+              <p>By {{blog.author}}</p>
+            </div>
+            <div class="usa-card__footer">
+              <a href="#" class="usa-button">Visit Florida Keys</a>
+            </div>
+          </div>
+    </li>
+{% endfor %}
+</ul>
