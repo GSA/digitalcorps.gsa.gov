@@ -4,7 +4,7 @@ title: Bella Mendoza
 image: bella-mendoza.png
 fellow_year: 2023
 project: ["na"]
-agency: [""]
+agency: ["OSTP"]
 hometown: Whittier, CA
 university: University of California, Berkeley
 region: west
