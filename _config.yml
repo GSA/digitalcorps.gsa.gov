@@ -58,7 +58,7 @@ collections:
     output: false
     permalink: /:collection/:name/
   blogs:
-    output: false
+    output: true
     permalink: /:collection/:name/
 
 

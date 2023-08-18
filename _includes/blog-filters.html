@@ -1,10 +1,11 @@
 <div class="filters">
     <div class="filters__left display-flex">
+
       <div class="filter__col">
         <select class="usa-select" aria-label="type-select" name="blogs-select-type" id="blogs-select-type">
-          <option value="" selected disabled hidden>Filter by Type </option>
+          <option value="" selected disabled hidden>Filter by Tag </option>
           <option value="">All Types</option>
-          {% assign types = site.data.blog-type | sort:"display_name" %}
+          {% assign types = site.data.blog-type  %}
           {% for type in types %}
             <option value="{{ type.display_name }}">
               {{ type.display_name }}

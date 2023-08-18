@@ -1,0 +1,86 @@
+// BLOG customization
+
+// banner
+.blogs-banner {
+    .usa-hero {
+      @include u-margin-bottom(4);
+      @include u-margin-x(6);
+      @include u-padding-x(10);
+     // @include u-text("white");
+        position: relative;
+        min-height: 300px;
+  
+      // < tablet
+      @include at-media-max("mobile-lg") {
+        min-height: unset;
+        @include u-padding-y(0);
+        padding-top: 60%;
+      }
+  
+      // callout container
+      .usa-hero__callout {
+        color: inherit;
+        width: 100%;
+        text-align: left;
+        bottom: 0;
+        position: absolute;
+        top: 50%;
+        border-bottom: 2px solid #bab8b8;
+
+        // < tablet
+        @include at-media-max("mobile-lg") {
+          @include u-padding-x(2);
+          @include u-padding-top(15);
+          position: relative;
+        }
+
+        //<small mobile device
+        @media screen and (max-width: 320px) {
+          transform: translate(-50%, -35%);
+        }
+  
+        .grid-container {
+          @include u-padding-x(0);
+        }
+  
+        .usa-button {
+          float: left;
+          @include u-margin-top(3);
+  
+          // < tablet
+          @include at-media("tablet") {
+            float: right;
+          }
+        }
+  
+        // subtext
+        h2 {
+          @include u-margin-top(3);
+          @include u-margin-bottom(0);
+          color: inherit;
+          padding-right: 13rem;
+          padding-left: 13rem;
+
+          @media screen and (max-width: 990px) {
+            padding-right: 0;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  //Filter
+.blog-filter{
+    @include at-media ('desktop'){
+     margin: 0 10%;
+    }
+     //@include u-margin-right(2);
+   }
+
+
+   .list-blogs{
+    a {
+        text-decoration: none;
+    }
+   }

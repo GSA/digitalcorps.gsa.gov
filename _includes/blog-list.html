@@ -2,6 +2,7 @@
 <ul class="usa-card-group">
 {% for blog in paginator.posts %}
     <li class="usa-card tablet:grid-col-4">
+        <a href="{{ site.baseurl }}{{ blog.url }}" aria-labelledby="{{ aria_id }}">
         <div class="usa-card__container">
             <div class="usa-card__header">
               <h2 class="usa-card__heading">{{blog.title}}</h2>
@@ -17,11 +18,15 @@
             </div>
             <div class="usa-card__body">
               <p>
-                {{blog.content}}
+                {{blog.summary}}
               </p>
-              <p>By {{blog.author}}</p>
+              <p>
+                <span>By {{blog.author}}</span><br>
+                <span>{{blog.date | date: "%b %d, %Y"}}</span>
+              </p>
             </div>
           </div>
     </li>
+    </a>
 {% endfor %}
 </ul>

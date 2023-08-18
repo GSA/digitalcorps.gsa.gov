@@ -1,3 +1,69 @@
-- display_name: News
-- display_name: Media
-- display_name: Press
+## Announcement
+- display_name: Announcement
+  url_name: Announcement
+
+## Tracks 
+- display_name: Cybersecurity
+  url_name: Cybersecurity
+- display_name: Data Science and Analytics
+  url_name: Data_Science_And_Analytics
+- display_name: Design
+  url_name: Design
+- display_name: Product Management
+  url_name: Product_Management
+- display_name: Software Engineering
+  url_name: Software_Engineering
+
+##Impacts
+- display_name: Capacity building
+  url_name: Capacity_building
+- display_name: Cybersecurity
+  url_name: Cybersecurity
+- display_name: Equity
+  url_name : Equity
+- display_name: Health
+  url_name: Health
+- display_name: Immigration
+  url_name: Immigration
+- display_name: Public experience
+  url_name: Public_experience
+- display_name: Open science
+  url_name: Open_science
+
+##Agencies
+- display_name: Administration for Children and Families
+  url_name: ACF
+- display_name: Centers for Medicare & Medicaid Services
+  url_name: CMS
+- display_name: Cybersecurity & Infrastructure Security Agency
+  url_name: CISA
+- display_name: Consumer Financial Protection Bureau
+  url_name: CFPB
+- display_name: Environmental Protection Agency
+  url_name: EPA
+- display_name: General Services Administration
+  url_name: GSA
+- display_name: Department of Health and Human Services
+  url_name: HHS
+- display_name: Office of Personnel Management
+  url_name: OPM
+- display_name: White House Office of Science and Technology Policy
+  url_name: OSTP
+- display_name: Department of State
+  url_name: DOS
+- display_name: U.S. Census Bureau
+  url_name: USCB
+- display_name: U.S. Citizenship and Immigration Services
+  url_name: USCIS
+- display_name: Department of Veterans Affairs
+  url_name: VA
+- display_name: U.S. Department of Agriculture
+  url_name: USDA
+- display_name: Centers for Disease Control and Prevention
+  url_name: CDC
+- display_name: Health Resources and Services Administration
+  url_name: HRSA
+- display_name: National Institutes of Health
+  url_name: NIH
+- display_name: Defense Technical Information Center
+  url_name: DTIC

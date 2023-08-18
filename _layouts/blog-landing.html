@@ -28,14 +28,14 @@ layout: default
   <!-- Filters -->
   <section class="padding-top-4 padding-bottom-1 bg--lightest usa-layout-docs usa-section">
     <div class="grid-container">
-      <div class="grid-row margin-top-4 fellow-filters">
+      <div class="grid-row margin-top-4 blog-filter">
         {% include_cached blog-filters.html %}
       </div>
     </div>
   </section>
 
   <!-- Blogs -->
-  <section class="grid-container usa-layout-docs usa-section">
+  <section class="grid-container desktop:padding-x-15 usa-layout-docs usa-section">
     <div id='blog-search-default' class="list-blogs">
       {{content}}
     </div>
