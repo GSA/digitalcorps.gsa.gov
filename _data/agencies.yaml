@@ -114,4 +114,9 @@
   url: https://discover.dtic.mil/
   description: 
 
+- name: DOC
+  fullname: Department of Commerce
+  val: deptCommrce
+  url: 
+  description: 
   
