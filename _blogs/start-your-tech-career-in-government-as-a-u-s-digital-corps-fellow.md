@@ -1,12 +1,11 @@
 ---
-layout: default
-pageOrderID: 98
-title: "Serving the Public: Five Veterans' Journeys to Public Interest Tech"
-image: us-digital-corps-veterans-title-card.png
-author: Dahianna Salazar Foreman
-date: September 9, 2022
-summary: "After serving in the military and working in the federal government, I was looking for new challenges. When I finished my master’s degree in Cybersecurity, the U.S. Digital Corps fellowship was the perfect opportunity and program for me to advance my career in the cyber field while continuing to serve the general public."
-external_url: "https://digital.gov/2022/09/09/serving-the-public-five-veterans-journeys-to-public-interest-tech/"
+id: start-your-tech-career-in-government-as-a-us-digital-corps-fellow
+title: "Start Your Tech Career in Government as a U.S. Digital Corps Fellow"
+image: 
+author: Masha Danilova
+published_at: "2021-11-01"
+summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
+external_url: "https://digital.gov/2021/11/01/start-your-tech-career-in-government-as-a-u-s-digital-corps-fellow/"
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---

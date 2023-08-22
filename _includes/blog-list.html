@@ -1,6 +1,6 @@
 {% assign aria_id = blog.title | url_encode | truncate: 15, "" %}
 <ul class="usa-card-group">
-{% for blog in paginator.posts %}
+{% for blog in paginator.posts | sort: published_at %}
     <li class="usa-card tablet:grid-col-4">
         <a href="{{ site.baseurl }}{{ blog.url }}" aria-labelledby="{{ aria_id }}">
         <div class="usa-card__container">
@@ -21,8 +21,10 @@
                 {{blog.summary}}
               </p>
               <p>
+                {%if blog.author %}
                 <span>By {{blog.author}}</span><br>
-                <span>{{blog.date | date: "%b %d, %Y"}}</span>
+                {% endif %}
+                <span>{{blog.published_at | date: '%B %d, %Y'}}</span>
               </p>
             </div>
           </div>

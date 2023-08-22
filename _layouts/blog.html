@@ -13,17 +13,10 @@ This template is for a single page that does not have a date associated with it.
         <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
          <h2>{{page.title}}</h2>
          <h3>{{page.author}}</h3>
-         <div class="blog-quote">
-            <div class="grid-container">
-              <div class="quote">
-                <p class="quote-subtitle">Making Impact at Scale: Software Engineering at Scale</p>
-                <div class="text-center padding-bottom-4">
-                </div>
-              </div>
-            </div>
-          </div>
+         
           <div class="blog-content"> {{ page.content }} </div>
         </div>
+        {% include blog-aside.html %}
       </div>
     </div>
   </div>

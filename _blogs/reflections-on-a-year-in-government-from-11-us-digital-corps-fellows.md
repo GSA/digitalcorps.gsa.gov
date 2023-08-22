@@ -1,14 +1,13 @@
 ---
-layout: default
-pageOrderID: 101
-title: 'U.S. Digital Corps in Action: Building a Federal Tech Workforce'
-image: Build_a_Brighter_Future.png
-author: Performance.gov team
-date: August 30, 2022
-summary: "Here we share about the work done by the newly founded U.S. Digital Corps, at the General Services Administration’s Technology Transformation Services. Learn about their work to improve the Federal hiring process, which supports Priority One of the President's Management Agenda—strengthening and empowering the Federal workforce."
-external_url: "https://www.performance.gov/blog/digital-corps-update/"
+id: reflections-on-a-year-in-government-from-11-us-digital-corps-fellows
+title: 'Reflections on a year in government from 11 U.S. Digital Corps fellows'
+image: 
+author: Fellows
+published_at: "2022-07-18"
+summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
+external_url: "https://digital.gov/2023/07/18/reflections-on-a-year-in-government-from-11-u-s-digital-corps-fellows/"
 tags: ['Tag1', 'Tag2', 'Tag3']
-type: Press
+type: Blog
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum. Interdum consectetur libero id faucibus nisl tincidunt. Ultricies leo integer malesuada nunc vel risus. Mi in nulla posuere sollicitudin aliquam ultrices. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
