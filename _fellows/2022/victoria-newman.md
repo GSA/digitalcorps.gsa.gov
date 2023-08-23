@@ -3,7 +3,7 @@ id: victoria-newman
 title: Victoria Newman
 image: Victoria Newman.png
 fellow_year: 2022
-project: ["na"]
+project: ["cisa"]
 agency: ["CISA"]
 hometown: Tuscaloosa, AL
 university: Florida Institute of Technology
@@ -11,7 +11,7 @@ region: south
 bio_short: Cybersecurity specialist ready to use her skills to contribute to our nation 
 why: "As a former employee of the Department of Veterans Affairs, I wanted to find another way to use my skills to contribute to our nation."
 fun_fact: Some might consider Victoria introverted, but many times she's the life of the party.
-tags: ['south', '2022','Cybersecurity', 'CISA']
+tags: ['south', '2022','Cybersecurity', 'CISA', 'active']
 track: ['Cybersecurity']
 ---
 

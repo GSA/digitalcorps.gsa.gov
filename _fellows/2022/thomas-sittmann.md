@@ -3,7 +3,7 @@ id: thomas-sittmann
 title: Thomas Sittmann
 image: Thomas Sittmann.png
 fellow_year: 2022
-project: ["na"]
+project: ["acf"]
 agency: ["ACF"]
 hometown: Aberdeen, NC
 university: Norwich University
@@ -11,7 +11,7 @@ region: south
 bio_short: Cybersecurity specialist ready to continue serving the country with his technology skills 
 why: "I was very fortunate that I was able to complete a Pathways internship with CISA. Having worked in the technology sector and also being in the military, I saw the critical need for technology specialists. I also wanted work as a civil servant again and the Digital Corps helped fill that desire while providing a great opportunity. It pairs my passion to continue serving with filling the technology gap we have in the United States."
 fun_fact: Thomas is a huge Tottenham Hotspur fan.
-tags: ['south', '2022','Cybersecurity', 'ACF']
+tags: ['south', '2022','Cybersecurity', 'ACF', 'active']
 track: ['Cybersecurity']
 ---
 
