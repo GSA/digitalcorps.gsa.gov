@@ -9,6 +9,7 @@ external_url: "https://digital.gov/2022/03/07/from-fellowship-to-full-time-how-a
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---
+*This post was originally published on the [Digital.gov blog](https://digital.gov/2022/03/07/from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech/).*
 
 When thinking about a technology career, not many people envision themselves working in government, but you’ll be surprised by how many opportunities are available for technologists to make an impact in public service. The [U.S. Digital Corps](https://digitalcorps.gsa.gov/) is a new two-year fellowship for recent graduates and other early-career technologists to serve in the federal government with skills ranging from software engineering and cybersecurity, to product management, design, and data science & analytics.
 
