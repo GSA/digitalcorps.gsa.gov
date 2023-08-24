@@ -9,6 +9,7 @@ external_url: "https://digital.gov/2021/10/07/building-a-tech-career-in-governme
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---
+<p><i>This post was originally published on the [Digital.gov blog](https://digital.gov/2021/10/07/building-a-tech-career-in-government/).</i></p>
 
 When thinking about a career in government, not many people envision themselves working in tech, but you’ll be surprised at how many opportunities are available for technologists to make an impact in public service. We talked to colleagues at the [General Services Administration (GSA)](https://www.gsa.gov/) about their experience building tech careers within government.
 
