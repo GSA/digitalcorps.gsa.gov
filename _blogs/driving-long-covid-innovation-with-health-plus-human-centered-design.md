@@ -9,7 +9,7 @@ external_url: "https://www.hhs.gov/blog/2022/11/21/driving-long-covid-innovation
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---
-<p><i>This post was originally published on the [U.S. Department of Health and Human Services blog](https://www.hhs.gov/blog/2022/11/21/driving-long-covid-innovation-with-health-plus-human-centered-design.html).  Kristen Honey is the Chief Data Scientist and Executive Director of InnovationX at the Office of the Assistant Secretary for Health (OASH), Kathleen Carroll is a U.S. Digital Corps Fellow at OASH, and Michael Iademarco is the Rear Admiral and Assistant Surgeon General at the United States Public Health Service Commissioned Corps and the Deputy Assistant Secretary for Science and Medicine at OASH.</i></p>
+*This post was originally published on the [U.S. Department of Health and Human Services blog](https://www.hhs.gov/blog/2022/11/21/driving-long-covid-innovation-with-health-plus-human-centered-design.html).  Kristen Honey is the Chief Data Scientist and Executive Director of InnovationX at the Office of the Assistant Secretary for Health (OASH), Kathleen Carroll is a U.S. Digital Corps Fellow at OASH, and Michael Iademarco is the Rear Admiral and Assistant Surgeon General at the United States Public Health Service Commissioned Corps and the Deputy Assistant Secretary for Science and Medicine at OASH.*
 
 **Summary**: Long COVID is real. We’re using the Health+ Human-Centered Design approach to learn from those experiencing it firsthand and find solutions.
 

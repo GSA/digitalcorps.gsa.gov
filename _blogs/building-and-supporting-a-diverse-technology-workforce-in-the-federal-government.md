@@ -9,7 +9,7 @@ external_url: "https://digital.gov/2022/03/22/building-and-supporting-a-diverse-
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---
-<p><i>This post was originally published on the [Digital.gov blog](https://digital.gov/2022/03/22/building-and-supporting-a-diverse-technology-workforce-in-the-federal-government/). Brian Whittaker is currently the Chief Innovation Officer at the Federal Deposit Insurance Commission.</i></p>
+*This post was originally published on the [Digital.gov blog](https://digital.gov/2022/03/22/building-and-supporting-a-diverse-technology-workforce-in-the-federal-government/). Brian Whittaker is currently the Chief Innovation Officer at the Federal Deposit Insurance Commission.*
 
 <div class="blog-quote-box"> 
 <p>Brian Whittaker has long been a champion for representation in government, first as the Deputy Executive Director at the <a href="https://coe.gsa.gov/">Centers of Excellence</a>, where he managed the recruitment and selection of technologists, and then as Acting Director for <a href="https://18f.gsa.gov/">18F</a>, where he managed a diverse workforce and worked on improving equity.</p>
