@@ -9,7 +9,7 @@ external_url: "https://digital.gov/2022/11/16/implementing-equitable-data-to-ens
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---
-
+*This post was originally published on the [Digital.gov blog](https://digital.gov/2022/11/16/implementing-equitable-data-to-ensure-government-works-for-the-public/).*
 
 Data science and analytics has frequently been named one of the hottest jobs in recent years, with its own set of popular buzzwords, including [artificial intelligence](https://coe.gsa.gov/coe/artificial-intelligence.html), big data, and machine learning. The U.S. government has long been a [leading source of data](https://data.gov/) on the country’s people and economy, but what does working in data science in government actually look like?
 
