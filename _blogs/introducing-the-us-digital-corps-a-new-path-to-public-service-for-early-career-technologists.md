@@ -5,11 +5,11 @@ image:
 author: Chris Kuang
 published_at: "2021-08-31"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
-external_url: "https://www.gsa.gov/blog/2021/08/30/introducing-the-us-digital-corps-a-new-path-to-public-service-for-early-career-technologists"
+external_url: "https://www.gsa.gov/blog/2021/08/30/introducing-the-us-digital-corps-a-new-path-to-public-service-for-earlycareer-technologists"
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---
-
+*This post was originally published on the [GSA blog](https://www.gsa.gov/blog/2021/08/30/introducing-the-us-digital-corps-a-new-path-to-public-service-for-earlycareer-technologists).*
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum. Interdum consectetur libero id faucibus nisl tincidunt. Ultricies leo integer malesuada nunc vel risus. Mi in nulla posuere sollicitudin aliquam ultrices. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
