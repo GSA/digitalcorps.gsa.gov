@@ -1,12 +1,10 @@
 {% assign aria_id = blog.title | url_encode | truncate: 15, "" %}
 <ul class="usa-card-group">
 {% for blog in paginator.posts | sort: published_at %}
-    <li class="usa-card tablet:grid-col-4">
-        <a href="{{ site.baseurl }}{{ blog.url }}" aria-labelledby="{{ aria_id }}">
+    <li class="usa-card tablet:grid-col-4 blog-card">
+        
         <div class="usa-card__container">
-            <div class="usa-card__header">
-              <h2 class="usa-card__heading">{{blog.title}}</h2>
-            </div>
+          <a href="{{ site.baseurl }}{{ blog.url }}" aria-labelledby="{{ aria_id }}">
             <div class="usa-card__media">
               <div class="usa-card__img">
                 {% if blog.image %}
@@ -15,6 +13,21 @@
                 {% asset "Default_Press_Image.png" alt="{{ blog.title  }}" %}
                 {% endif %}
               </div>
+            </div>
+            <div class="usa-card__header">
+              <h2 class="usa-card__heading">{{blog.title}}</h2>
+            </div>
+            <div class="blog-card--tag">
+              {% assign blog_types = site.data.blog-type | where_exp:'type', "blog.tags contains type.url_name" %}
+              {% for type in blog_types%}
+              {% if forloop.first %}
+              <ul>
+                {% endif %}
+                <li><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li>
+                {% if forloop.last %}
+              </ul>
+              {% endif %}
+              {% endfor %}
             </div>
             <div class="usa-card__body">
               <p>
@@ -27,8 +40,9 @@
                 <span>{{blog.published_at | date: '%B %d, %Y'}}</span>
               </p>
             </div>
+          </a>
           </div>
     </li>
-    </a>
+    
 {% endfor %}
 </ul>

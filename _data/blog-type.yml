@@ -67,3 +67,10 @@
   url_name: NIH
 - display_name: Defense Technical Information Center
   url_name: DTIC
+
+- display_name: Tag1
+  url_name: Tag1
+- display_name: Tag2
+  url_name: Tag2
+- display_name: Tag3
+  url_name: Tag3

@@ -10,13 +10,24 @@ This template is for a single page that does not have a date associated with it.
   <div class="usa-layout-docs usa-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+        <div class="usa-layout-docs__main desktop:grid-col-7 usa-prose">
          <h2>{{page.title}}</h2>
          <h3>{{page.author}}</h3>
-         
+         <div class="blog-card--tag">
+          {% assign blog_types = site.data.blog-type | where_exp:'type', "page.tags contains type.url_name" %}
+          {% for type in blog_types%}
+          {% if forloop.first %}
+          <ul>
+            {% endif %}
+            <li><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li>
+            {% if forloop.last %}
+          </ul>
+          {% endif %}
+          {% endfor %}
+        </div>
           <div class="blog-content"> {{ page.content }} </div>
         </div>
-        {% include blog-aside.html %}
+        <!-- {% include blog-aside.html %} -->
       </div>
     </div>
   </div>

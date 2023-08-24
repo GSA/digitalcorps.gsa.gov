@@ -77,10 +77,35 @@
     }
      //@include u-margin-right(2);
    }
+   
 
-
-   .list-blogs{
+//Blog Card
+.blog-card{
     a {
         text-decoration: none;
     }
-   }
+   
+}
+.blog-card--tag {
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: nowrap;
+
+        li{
+            padding: 2px;
+        }
+    }
+}
+
+
+//Individual Blog Page
+.usa-image-block{
+    float: right;
+    margin: 5px;
+    img{
+        position: absolute;
+        width: 20%;
+        max-height: 200px;
+    }
+}

@@ -1,0 +1,13 @@
+---
+layout: blog-landing
+title: Tag 1
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: blogs
+  sort_field: 'published_at'
+  tag: 'Tag1'
+---
+
+{% include_cached blog-list.html  blogs=paginator.posts %}
