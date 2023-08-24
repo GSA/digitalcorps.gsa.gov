@@ -9,6 +9,7 @@ external_url: "https://www.performance.gov/blog/digital-corps-update/"
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Press
 ---
+*This post was originally published on the [Performance.gov blog](https://www.performance.gov/blog/digital-corps-update/).*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum. Interdum consectetur libero id faucibus nisl tincidunt. Ultricies leo integer malesuada nunc vel risus. Mi in nulla posuere sollicitudin aliquam ultrices. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
 
