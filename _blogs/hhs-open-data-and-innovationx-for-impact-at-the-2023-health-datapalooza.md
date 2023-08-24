@@ -2,13 +2,14 @@
 id: hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza
 title: 'HHS Open Data and InnovationX for Impact at the 2023 Health Datapalooza'
 image: 
-author: Kathleen Carroll, U.S. Digital Corps Fellow, Trey Gordner, U.S. Digital Corps Fellow, and Kristen Honey PhD, HHS
+author: Kathleen Carroll, Trey Gordner, and Kristen Honey
 published_at: "2023-02-23"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
 external_url: "https://www.hhs.gov/blog/2023/02/23/hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza.html"
 tags: ['Tag1', 'Tag3']
 type: Blog
 ---
+*This post was originally published on the [U.S. Department of Health and Human Services blog](https://www.hhs.gov/blog/2023/02/23/hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza.html). Kristen Honey is the Chief Data Scientist and Executive Director of InnovationX at the Office of the Assistant Secretary for Health (OASH), Kathleen Carroll is a U.S. Digital Corps Fellow at OASH, and Trey Gordner is a U.S. Digital Corps Fellow at the Office of the Chief Data Officer (OCDO) at HHS.*
 
 **Summary**: 2023 Health Datapalooza accelerates momentum for HHS CancerX, Startup Days & the launch of Health Equity DataJam to transform HHS open data into tools & action.
 
