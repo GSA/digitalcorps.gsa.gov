@@ -9,7 +9,7 @@ external_url: "https://digital.gov/2022/11/25/making-impact-at-scale-software-en
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---
-
+*This post was originally published on the [Digital.gov blog](https://digital.gov/2022/11/25/making-impact-at-scale-software-engineering-in-the-federal-government/).*
 
 
 Launched in August 2021, the [U.S. Digital Corps](https://digitalcorps.gsa.gov/) is the newest technology fellowship in the federal government. The Digital Corps has a specific focus on recruiting, hiring, and supporting early-career technologists across various skill tracks—software engineering, data science and analytics, product management, design, and cybersecurity.
