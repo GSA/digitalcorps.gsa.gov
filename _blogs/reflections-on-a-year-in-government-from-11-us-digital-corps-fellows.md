@@ -9,6 +9,7 @@ external_url: "https://digital.gov/2023/07/18/reflections-on-a-year-in-governmen
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
 ---
+*This post was originally published on the [Digital.gov blog](https://digital.gov/2023/07/18/reflections-on-a-year-in-government-from-11-u-s-digital-corps-fellows/).*
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum. Interdum consectetur libero id faucibus nisl tincidunt. Ultricies leo integer malesuada nunc vel risus. Mi in nulla posuere sollicitudin aliquam ultrices. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat.
 
