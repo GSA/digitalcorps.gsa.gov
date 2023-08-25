@@ -1,7 +1,6 @@
 {% assign aria_id = blog.title | url_encode | truncate: 15, "" %}
 <ul class="usa-card-group">
-  {% assign sorted = paginator.posts | sort: 'published_at' | reverse  %}
-{% for blog in  sorted %}
+{% for blog in  paginator.posts  %}
     <li class="usa-card tablet:grid-col-4 blog-card">
         
         <div class="usa-card__container">
