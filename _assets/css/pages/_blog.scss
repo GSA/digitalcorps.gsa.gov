@@ -101,6 +101,9 @@
 
         li{
             padding: 2px;
+            span{
+                border-radius: 10px;
+            }
         }
     }
 }
@@ -113,10 +116,10 @@
     }
 }
 .usa-image-block{
-    float: right;
     margin: 5px;
     img{
-        position: absolute;
+        float: left;
+        margin: 12px;
         width: 20%;
         max-height: 200px;
     }
