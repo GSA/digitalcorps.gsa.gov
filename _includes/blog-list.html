@@ -24,7 +24,7 @@
               {% if forloop.first %}
               <ul>
                 {% endif %}
-                <li><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li>
+                <li><a href="{{ site.url }}/blog/{{ type.display_name }}" aria-labelledby="{{ type.url_name }}"><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li></a></li>
                 {% if forloop.last %}
               </ul>
               {% endif %}

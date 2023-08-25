@@ -1,0 +1,13 @@
+---
+layout: blog-landing
+title: Announcment Blogs
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: blogs
+  sort_field: 'published_at'
+  tag: 'Announcment'
+---
+
+{% include_cached blog-list.html  blogs=paginator.posts %}
