@@ -1,7 +1,7 @@
 ---
 id: cybersecurity-transition
 title: 'Transitioning from law enforcement to cybersecurity: A U.S. Digital Corps Fellow’s journey'
-image: 
+image: cybersecurity-transition.png
 author: 
 published_at: "2022-10-24"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

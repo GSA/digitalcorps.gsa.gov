@@ -1,7 +1,7 @@
 ---
 id: building-and-supporting-a-diverse-technology-workforce-in-the-federal-government
 title: 'Building and Supporting a Diverse Technology Workforce in the Federal Government'
-image: 
+image: building-and-supporting-a-diverse-technology-workforce-in-the-federal-government.png
 author: Brian Whittaker
 published_at: "2022-03-22"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

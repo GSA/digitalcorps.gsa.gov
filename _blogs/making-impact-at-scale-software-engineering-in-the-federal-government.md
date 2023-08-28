@@ -1,7 +1,7 @@
 ---
 id: making-impact-at-scale-software-engineering-in-the-federal-government
 title: 'Making Impact at Scale: Software Engineering in the Federal Government'
-image: 
+image: making-impact-at-scale-software-engineering-in-the-federal-government.png
 author: SE Fellows
 published_at: "2022-11-25"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

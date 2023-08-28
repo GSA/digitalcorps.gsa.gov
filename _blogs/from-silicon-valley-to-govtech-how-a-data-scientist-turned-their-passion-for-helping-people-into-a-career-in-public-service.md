@@ -1,7 +1,7 @@
 ---
 id: from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service
 title: 'From Silicon Valley to GovTech: How a Data Scientist Turned Their Passion for Helping People Into a Career in Public Service'
-image: 
+image: from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service.png
 author: Dahianna Salazar Foreman
 published_at: "2021-10-25"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

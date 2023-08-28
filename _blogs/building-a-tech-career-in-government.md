@@ -1,7 +1,7 @@
 ---
 id: building-a-tech-career-in-government
 title: 'Building a Tech Career in Government'
-image: 
+image: building-a-tech-career-in-government.png
 author: Dahianna Salazar Foreman
 published_at: "2021-10-07"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

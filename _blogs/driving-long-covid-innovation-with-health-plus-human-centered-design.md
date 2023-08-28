@@ -1,7 +1,7 @@
 ---
 id: driving-long-covid-innovation-with-health-plus-human-centered-design
 title: 'Driving Long COVID Innovation with Health+ Human-Centered Design'
-image: 
+image: driving-long-covid-innovation-with-health-plus-human-centered-design.png
 author: Kristen Honey, Kathleen Carroll, Michael Iademarco
 published_at: "2022-11-21"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

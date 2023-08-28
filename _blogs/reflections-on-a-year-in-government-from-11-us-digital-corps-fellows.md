@@ -1,7 +1,7 @@
 ---
 id: reflections-on-a-year-in-government-from-11-us-digital-corps-fellows
 title: 'Reflections on a year in government from 11 U.S. Digital Corps fellows'
-image: 
+image: reflections-on-a-year-in-government-from-11-us-digital-corps-fellows.png
 author: Fellows
 published_at: "2023-07-18"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

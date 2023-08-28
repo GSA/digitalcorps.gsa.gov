@@ -1,7 +1,7 @@
 ---
 id: from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech
 title: 'From Fellowship To Full-time: How a CFPB Software Engineer Helped Protect Consumers and Built a Career in Civic Tech'
-image: 
+image: from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech.png
 author: Chris Kuang
 published_at: "2022-03-07"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

@@ -1,7 +1,7 @@
 ---
 id: implementing-equitable-data-to-ensure-government-works-for-the-public
 title: Implementing Equitable Data To Ensure Government Works for the Public
-image: 
+image: implementing-equitable-data-to-ensure-government-works-for-the-public.png
 author: Meredith Brown (Fellow)
 published_at: "2022-11-16"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

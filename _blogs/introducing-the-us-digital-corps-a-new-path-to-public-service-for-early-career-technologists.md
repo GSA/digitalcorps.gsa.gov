@@ -1,7 +1,7 @@
 ---
 id: introducing-the-us-digital-corps-a-new-path-to-public-service-for-early-career-technologists
 title: 'Introducing the U.S. Digital Corps: A new path to public service for early-career technologists'
-image: 
+image: introducing-the-us-digital-corps-a-new-path-to-public-service-for-early-career-technologists.png
 author: Chris Kuang
 published_at: "2021-08-31"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."

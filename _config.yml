@@ -171,6 +171,7 @@ assets:
     - _assets/images
     - _assets/images/banners
     - _assets/images/blogs
+    - _assets/images/blogs/headers
     - _assets/images/icons
     - _assets/images/logo
     - _assets/images/social

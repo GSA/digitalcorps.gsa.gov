@@ -1,7 +1,7 @@
 ---
 id: hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza
 title: 'HHS Open Data and InnovationX for Impact at the 2023 Health Datapalooza'
-image: 
+image: hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza.png
 author: Kathleen Carroll, Trey Gordner, and Kristen Honey
 published_at: "2023-02-23"
 summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
