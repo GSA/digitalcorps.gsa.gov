@@ -92,13 +92,12 @@
     }
    
 }
-.blog-card--tag {
+.tag {
     margin: 0;
     ul {
         list-style-type: none;
         display: flex;
         flex-wrap: nowrap;
-
         li{
             padding: 2px;
             span{
@@ -106,6 +105,16 @@
             }
         }
     }
+}
+.blog-card--tag {
+  ul{
+    padding-inline-start: 20px;
+  }
+}
+.blog-page--tag {
+  ul{
+    padding-inline-start: 0px;
+  }
 }
 
 

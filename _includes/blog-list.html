@@ -17,7 +17,7 @@
             <div class="usa-card__header">
               <h2 class="usa-card__heading">{{blog.title}}</h2>
             </div>
-            <div class="blog-card--tag">
+            <div class="blog-card--tag tag">
               {% assign blog_types = site.data.blog-type | where_exp:'type', "blog.tags contains type.url_name" %}
               {% for type in blog_types%}
               {% if forloop.first %}
