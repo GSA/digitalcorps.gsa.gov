@@ -2,11 +2,11 @@
 id: making-impact-at-scale-software-engineering-in-the-federal-government
 title: 'Making Impact at Scale: Software Engineering in the Federal Government'
 image: making-impact-at-scale-software-engineering-in-the-federal-government.png
-author: SE Fellows
+author: Anastasia Gradova, Isabel Laurenceau, Meenu Bhooshanan, Samira Sadat
 published_at: "2022-11-25"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
+summary: "Four U.S. Digital Corps sofware engineering fellows share their paths to becoming software engineers and why they decided to use their skills to improve government services."
 external_url: "https://digital.gov/2022/11/25/making-impact-at-scale-software-engineering-in-the-federal-government/"
-tags: ['Tag1', 'Tag2', 'Tag3']
+tags: ['GSA', 'Software_Engineering','Public_experience']
 type: Blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2022/11/25/making-impact-at-scale-software-engineering-in-the-federal-government/).*
