@@ -4,9 +4,9 @@ title: 'Building a Tech Career in Government'
 image: building-a-tech-career-in-government.png
 author: Dahianna Salazar Foreman
 published_at: "2021-10-07"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
+summary: "Five GSA colleagues who started their tech careers in public service share their backgrounds, experiences, and reflections to showcase the variety of opportunities available for technologists to make an impact in government."
 external_url: "https://digital.gov/2021/10/07/building-a-tech-career-in-government/"
-tags: ['Tag1', 'Tag2', 'Tag3']
+tags: ['GSA', 'Design', 'Product_Management']
 type: Blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2021/10/07/building-a-tech-career-in-government/).*
