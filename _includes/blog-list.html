@@ -23,7 +23,7 @@
               {% if forloop.first %}
               <ul>
                 {% endif %}
-                <li><a href="{{ site.url }}/blog/{{ type.display_name }}" aria-labelledby="{{ type.url_name }}"><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li></a></li>
+                <li><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li></li>
                 {% if forloop.last %}
               </ul>
               {% endif %}
@@ -40,6 +40,11 @@
                 <span>{{blog.published_at | date: '%B %e, %Y'}}</span>
               </p>
             </div>
+            {% if blog.case_study_link %}
+            <div class="usa-card__footer">
+              <a href="{{ site.baseurl }}/projects/{{ blog.case_study_link }}" class="usa-button">More on Case Study</a>
+            </div>
+            {% endif%}
           </a>
           </div>
     </li>
