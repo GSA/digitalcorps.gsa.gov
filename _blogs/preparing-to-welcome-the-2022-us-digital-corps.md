@@ -10,6 +10,12 @@ tags: ['GSA']
 type: Blog
 pin: true
 ---
+" 
+external_url: "https://www.whitehouse.gov/omb/briefing-room/2022/06/10/preparing-to-welcome-the-2022-u-s-digital-corps/"
+tags: ['GSA']
+type: Blog
+pin: true
+---
 *This post was originally published on [The White House Office of Management and Budget blog](https://www.whitehouse.gov/omb/briefing-room/2022/06/10/preparing-to-welcome-the-2022-u-s-digital-corps/). Clare Martorana is the Federal Chief Information Officer at The White House.*
 
 Last year, the Biden-Harris Administration—in a collaboration between the General Services Administration (GSA), the White House Office of Management and Budget, the Office of Personnel Management, the Cybersecurity and Infrastructure Security Agency, and the White House Office of Science and Technology Policy—[announced](https://www.gsa.gov/about-us/newsroom/news-releases/biden-administration-launches-us-digital-corps-to-recruit-the-next-generation-of-technology-talent-to-federal-service-08302021) the launch of the [U.S. Digital Corps](https://digitalcorps.gsa.gov/), a new cross-government fellowship operated by the GSA’s [Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services) to recruit early-career technologists to serve in the Federal Government and help support and improve critical services for the American people. At the time, we planned to hire an initial class of 30 Fellows. After receiving more than 1,000 applications from candidates across the country in just one week, we’re excited to announce that later this month, GSA and Federal agencies will welcome more than 40 Fellows as part of the inaugural cohort of the U.S. Digital Corps.
