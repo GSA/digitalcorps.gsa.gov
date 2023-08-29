@@ -2,14 +2,14 @@
 id: cybersecurity-transition
 title: 'Transitioning from law enforcement to cybersecurity: A U.S. Digital Corps Fellow’s journey'
 image: cybersecurity-transition.png
-author: 
+author: Jamila Crawford
 published_at: "2022-10-24"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
+summary: "For National Cybersecurity Awareness Month in October 2022, U.S. Digital Corps Fellow Jamila Crawford reflected on her public service career path from working as a probation and parole office in Georgia to working in cybersecurity at the Cybersecurity and Infrastructure Security Agency (CISA)."
 external_url: "https://www.cio.gov/cybersecurity-transition/"
-tags: ['Tag1', 'Tag2', 'Tag3']
+tags: ['CISA', 'Cybersecurity']
 type: Blog
 ---
-*This post was originally published on the [CIO.gov news page](https://www.cio.gov/cybersecurity-transition/).*
+*This post was originally published by the [U.S. Chief Information Officers Council](https://www.cio.gov/cybersecurity-transition/).*
 
 October is National Cybersecurity Awareness Month. In May 2021, President Biden signed Executive Order 14028, “[Improving the Nation’s Cybersecurity](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/05/12/executive-order-on-improving-the-nations-cybersecurity/),” making cybersecurity a government-wide priority.
 
