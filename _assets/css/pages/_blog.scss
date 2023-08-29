@@ -6,16 +6,24 @@
       @include u-margin-bottom(4);
       @include u-margin-x(6);
       @include u-padding-x(10);
-     // @include u-text("white");
-        position: relative;
-        min-height: 300px;
+      background-image: url(asset_path("projects/Project_Banner.png"));
+      background-position: 90% 56%;
+      position: relative;
+      overflow: hidden;
+      position: relative;
+      min-height: 300px;
   
+      //tablet
+      @include at-media("tablet") {
+        @include u-padding-x(0);
+      }
       // < tablet
       @include at-media-max("mobile-lg") {
         min-height: unset;
-        @include u-padding-y(0);
-        padding-top: 60%;
+        @include u-margin-x(0);
+        @include u-padding-x(0);
       }
+
   
       // callout container
       .usa-hero__callout {
@@ -23,20 +31,17 @@
         width: 100%;
         text-align: left;
         bottom: 0;
-        position: absolute;
-        top: 50%;
+        position: relative;
 
         // < tablet
         @include at-media-max("mobile-lg") {
-          @include u-padding-x(2);
-          @include u-padding-top(15);
+          //@include u-padding-x(2);
+          //@include u-padding-top(15);
           position: relative;
+          text-align: center;
         }
 
-        //<small mobile device
-        @media screen and (max-width: 320px) {
-          transform: translate(-50%, -35%);
-        }
+  
   
         .grid-container {
           @include u-padding-x(0);
@@ -73,6 +78,11 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 65px;
+
+        @include at-media-max("mobile-lg") {
+          width: 90%;
+          margin-top: unset;
+        }
     }
   }
 

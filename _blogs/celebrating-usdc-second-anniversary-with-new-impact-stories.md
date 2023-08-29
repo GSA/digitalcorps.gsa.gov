@@ -6,7 +6,7 @@ author: Caitlin Gandhi
 published_at: "2023-08-30"
 summary: "U.S. Digital Corps Director Caitlin Gandhi introduces USDC's new blog and the publication of our first Fellow impact story in celebration of USDC's second anniversary."
 external_url:
-case_study_link: ['acf-iprc']
+impact_story_link: ['acf-iprc']
 tags: ['GSA']
 type: Blog
 ---

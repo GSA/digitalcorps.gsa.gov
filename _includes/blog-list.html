@@ -40,9 +40,9 @@
                 <span>{{blog.published_at | date: '%B %e, %Y'}}</span>
               </p>
             </div>
-            {% if blog.case_study_link %}
+            {% if blog.impact_story_link %}
             <div class="usa-card__footer">
-              <a href="{{ site.baseurl }}/projects/{{ blog.case_study_link }}" class="usa-button">Case Study</a>
+              <a href="{{ site.baseurl }}/projects/{{ blog.impact_story_link }}" class="usa-button">View Impact Story</a>
             </div>
             {% endif%}
           </a>
