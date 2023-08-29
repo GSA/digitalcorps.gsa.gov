@@ -4,7 +4,7 @@ title: 'Introducing the U.S. Digital Corps: A new path to public service for ear
 image: introducing-the-us-digital-corps-a-new-path-to-public-service-for-early-career-technologists.png
 author: Chris Kuang
 published_at: "2021-08-31"
-summary: 'U.S. Digital Corps co-lead Chris Kuang shares a more personal reflection on the program's launch and what the Digital Corps represents as a 21st century call to public service echoing President Kennedy's famous "ask not what your country can do for you" speech.'
+summary: U.S. Digital Corps co-lead Chris Kuang shares a more personal reflection on the program's launch and what the Digital Corps represents as a 21st century call to public service echoing President Kennedy's famous "ask not what your country can do for you" speech.
 external_url: "https://www.gsa.gov/blog/2021/08/30/introducing-the-us-digital-corps-a-new-path-to-public-service-for-earlycareer-technologists"
 tags: ['GSA', 'VA']
 type: Blog
