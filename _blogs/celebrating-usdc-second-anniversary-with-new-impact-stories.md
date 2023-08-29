@@ -4,9 +4,9 @@ title: 'Celebrating USDC’s second anniversary with new impact stories'
 image: all-fellows-2023.png
 author: Caitlin Gandhi
 published_at: "2023-08-30"
-summary: "Today, to mark our second anniversary, we are publishing the first impact story highlighting Fellows’ early contributions."
+summary: "TBD TK"
 external_url: "https://digital.gov/2021/10/07/second-anniversary-impact"
-tags: ['Tag1', 'Tag2', 'Tag3']
+tags: ['GSA']
 type: Blog
 ---
 
