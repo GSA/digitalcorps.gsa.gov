@@ -1,10 +1,10 @@
 ---
 id: second-anniversary-impact
 title: 'Celebrating USDC’s second anniversary with new impact stories'
-image: 
+image: all-fellows-2023.png
 author: Caitlin Gandhi
 published_at: "2023-08-30"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dictum non consectetur a erat nam. Tempor commodo ullamcorper a lacus vestibulum sed arcu non odio. Facilisis magna etiam tempor orci eu. Consectetur purus ut faucibus pulvinar elementum."
+summary: "Today, to mark our second anniversary, we are publishing the first impact story highlighting Fellows’ early contributions."
 external_url: "https://digital.gov/2021/10/07/second-anniversary-impact"
 tags: ['Tag1', 'Tag2', 'Tag3']
 type: Blog
