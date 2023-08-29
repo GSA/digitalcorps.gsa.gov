@@ -4,9 +4,9 @@ title: "Serving the Public: Five Veterans' Journeys to Public Interest Tech"
 image: serving-the-public-five-veterans-journeys-to-public-interest-tech.png
 author: Dahianna Salazar Foreman
 published_at: "2022-09-09"
-summary: "After serving in the military and working in the federal government, I was looking for new challenges. When I finished my master’s degree in Cybersecurity, the U.S. Digital Corps fellowship was the perfect opportunity and program for me to advance my career in the cyber field while continuing to serve the general public."
+summary: "Five Veterans in our inaugural 2022 cohort share their public service journeys from various military branches and positions to working in civic tech with the U.S. Digital Corps."
 external_url: "https://digital.gov/2022/09/09/serving-the-public-five-veterans-journeys-to-public-interest-tech/"
-tags: ['Tag1', 'Tag2', 'Tag3']
+tags: ['GSA', 'Cybersecurity', 'Design']
 type: Blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2022/09/09/serving-the-public-five-veterans-journeys-to-public-interest-tech/).*
