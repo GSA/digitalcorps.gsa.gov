@@ -4,9 +4,9 @@ title: 'U.S. Digital Corps in Action: Building a Federal Tech Workforce'
 image: Build_a_Brighter_Future.png
 author: Performance.gov team
 published_at: "2022-08-30"
-summary: "Here we share about the work done by the newly founded U.S. Digital Corps, at the General Services Administration’s Technology Transformation Services. Learn about their work to improve the Federal hiring process, which supports Priority One of the President's Management Agenda—strengthening and empowering the Federal workforce."
+summary: "The President's Management Agenda team shares a case study on the U.S. Digital Corps, highlighting how USDC supports two pillars of the PMA — strengthening and empowering the federal workforce and delivering excellent, equitable, and secure customer experiences for the American people."
 external_url: "https://www.performance.gov/blog/digital-corps-update/"
-tags: ['Tag1', 'Tag2', 'Tag3']
+tags: ['GSA', 'Customer_Experience']
 type: Press
 ---
 *This post was originally published on the [Performance.gov blog](https://www.performance.gov/blog/digital-corps-update/).*
