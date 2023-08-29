@@ -21,7 +21,7 @@ This template is for a single page that does not have a date associated with it.
               {% if forloop.first %}
               <ul>
                 {% endif %}
-                <li><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span></li>
+                <li><span class="{{ type.url_name }} usa-tag">{{ type.url_name }}</span></li>
                 {% if forloop.last %}
               </ul>
               {% endif %}
