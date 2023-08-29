@@ -4,8 +4,8 @@ title: 'Celebrating USDC’s second anniversary with new impact stories'
 image: all-fellows-2023.png
 author: Caitlin Gandhi
 published_at: "2023-08-30"
-summary: "TBD TK"
-external_url: "https://digital.gov/2021/10/07/second-anniversary-impact"
+summary: "U.S. Digital Corps Director Caitlin Gandhi introduces USDC's new blog and the publication of our first Fellow impact story in celebration of USDC's second anniversary."
+external_url:
 tags: ['GSA']
 type: Blog
 ---
