@@ -159,3 +159,23 @@
     background-color: #edeff0;
     border-radius: 2px;
 }
+
+
+
+
+// ID Custom Styling
+#2022-2023-photo {
+  max-height: 200px;
+}
+
+#celebrating-fellows-present {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5px;
+
+  img{
+    margin: 12px;
+    max-height: 200px;
+  }
+}
