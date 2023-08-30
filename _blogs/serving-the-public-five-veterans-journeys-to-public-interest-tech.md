@@ -147,6 +147,6 @@ You are not alone! Let me explain, there are moments where it feels like you are
 
 <hr/>
 
-Having a career as a technologist in government is a rewarding experience! If you’re interested in joining us, check out the U.S. Digital Corps for early-career opportunities (applications open soon!). For more mid-senior technologists, visit Join TTS.
+Having a career as a technologist in government is a rewarding experience! If you’re interested in joining us, check out the [U.S. Digital Corps](https://digital.gov/2022/09/09/serving-the-public-five-veterans-journeys-to-public-interest-tech/) for early-career opportunities (applications open soon!). For more mid-senior technologists, visit [Join TTS](https://join.tts.gsa.gov/).
 
 <hr/>
