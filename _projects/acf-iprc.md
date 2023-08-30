@@ -3,7 +3,7 @@ id: acf-iprc
 agency: "Administration for Children and Families"
 agency_abbrev: "ACF"
 agency_logo: "ACF.webp"
-title: "Improving post-release care to migrant children and sponsors: Standardizing the Safety and Wellbeing Follow Up Calls"
+title: "Improving post-release care to migrant children and sponsors"
 project_name: "Improving post-release care to migrant children and sponsors: Standardizing the Safety and Wellbeing Follow Up Calls"
 summary: "Helping the Office of Refugee Resettlement at the Administration of Children and Families ensure that the thousands of unaccompanied children that enter HHS care each month are safe, thriving, and swiftly united with a sponsor through technology delivery and design."
 partner_description: "The Office of Refugee Resettlement (ORR), within the Administration for Children and Families (ACF), helps new populations maximize their potential in the United States by linking them to critical resources that assist them in becoming integrated members of American society. In addition to resettlement services, ORR runs the Unaccompanied Children (UC) program. ORR has provided care for and found suitable sponsors for over 410,000 unaccompanied children.
