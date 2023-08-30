@@ -2,7 +2,7 @@
 id: us-digital-corps-in-action-building-a-federal-tech-workforce
 title: 'U.S. Digital Corps in Action: Building a Federal Tech Workforce'
 image: Build_a_Brighter_Future.png
-author: Performance.gov team
+author: 
 published_at: "2022-08-30"
 summary: "The President's Management Agenda team shares a case study on the U.S. Digital Corps, highlighting how USDC supports two pillars of the PMA — strengthening and empowering the federal workforce and delivering excellent, equitable, and secure customer experiences for the American people."
 external_url: "https://www.performance.gov/blog/digital-corps-update/"
