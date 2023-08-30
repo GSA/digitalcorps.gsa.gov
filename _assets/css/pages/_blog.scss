@@ -99,6 +99,10 @@
 .blog-card{
     a {
         text-decoration: none;
+
+    }
+    .usa-card__body{
+      @include u-text("black");
     }
    
 }
