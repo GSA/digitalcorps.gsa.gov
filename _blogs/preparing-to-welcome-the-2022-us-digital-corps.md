@@ -9,12 +9,7 @@ external_url: "https://www.whitehouse.gov/omb/briefing-room/2022/06/10/preparing
 tags: ['GSA']
 type: Blog
 pin: true
----
-" 
-external_url: "https://www.whitehouse.gov/omb/briefing-room/2022/06/10/preparing-to-welcome-the-2022-u-s-digital-corps/"
-tags: ['GSA']
-type: Blog
-pin: true
+
 ---
 *This post was originally published on [The White House Office of Management and Budget blog](https://www.whitehouse.gov/omb/briefing-room/2022/06/10/preparing-to-welcome-the-2022-u-s-digital-corps/). Clare Martorana is the Federal Chief Information Officer at The White House.*
 
