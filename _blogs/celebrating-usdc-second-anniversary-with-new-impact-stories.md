@@ -15,7 +15,7 @@ Two years ago, on August 30, 2021, in partnership with the White House and other
 
 In the last two years, USDC has hired close to 90 early-career technologists across two cohorts. Their skill sets range from data science and analytics and cybersecurity to software engineering, product management, and design. Our Fellows have played important roles on teams across 19 federal agencies contributing to high-priority projects including improving the customer experience of government and modernizing our nation’s public health system.
 
-<div id="2022-2023-photo">
+<div id="photo-of-fellows">
   {% asset "2022-2023-fellows.jpg" class="" alt="2022 and 2023 USDC Fellows and staff together with GSA Administrator Robin Carnahan" %}
 </div>
 

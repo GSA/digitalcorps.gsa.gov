@@ -164,15 +164,23 @@
 
 
 // ID Custom Styling
-#2022-2023-photo {
-  max-height: 200px;
+#photo-of-fellows {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img{
+      margin: 12px;
+      max-height: 420px;
+    }
 }
 
 #celebrating-fellows-present {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
 
   img{
     margin: 12px;
