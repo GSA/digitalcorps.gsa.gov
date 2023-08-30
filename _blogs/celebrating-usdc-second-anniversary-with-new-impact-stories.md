@@ -24,7 +24,6 @@ Earlier this month, both cohorts came together for the first time in Washington,
 <div id="celebrating-fellows-present">
   {% asset "jonathan-usdc-22fellow-at-23irl.jpg" class="" alt="Jonathan Hart 2022 Data Science Fellow at Department of State presenting to 2023 cohort" %}
 
-  {% asset "julie-and-ashwini-usdc-22fellow-at-23irl.jpg" class="" alt="Julie Winston 2022 Product Fellow and Ashwini Shankar Data science Fellow both at the Department of State presenting to 2023 cohort" %}
 </div>
 
 Today, to mark our second anniversary, we are publishing our first agency impact story highlighting Fellows’ early contributions at the Administration for Children and Families, within the Office of Refugee Resettlement:
