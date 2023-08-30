@@ -33,10 +33,10 @@ While Digital Corps Fellows will initially work across offices and units at GSA,
 
 I asked Charles Worthington, a 2013 Presidential Innovation Fellow and current Chief Technology Officer for the VA, what the U.S. Digital Corps represents to him:
 
-<blockquote> “Junior and early-career talent is critical to VA’s long-term commitment to serving Veterans effectively in the digital age. A program like Digital Corps will simultaneously meet our talent needs while helping mitigate workforce risks related to retirements and loss of institutional knowledge. VA is excited to participate as a founding host agency for this innovative program. We are looking forward to growing the next generation of digital leaders to serve our nation’s Veterans.”</blockquote>
+>“Junior and early-career talent is critical to VA’s long-term commitment to serving Veterans effectively in the digital age. A program like Digital Corps will simultaneously meet our talent needs while helping mitigate workforce risks related to retirements and loss of institutional knowledge. VA is excited to participate as a founding host agency for this innovative program. We are looking forward to growing the next generation of digital leaders to serve our nation’s Veterans.”
 
 With the Digital Corps, I hope that fewer people will have the same experience I had when searching USAJOBS as a recent graduate, and instead see a clear path to get involved.
 
 Sixty years ago, President John F. Kennedy called Americans to serve in his inaugural address: “And so, my fellow Americans: ask not what your country can do for you—ask what you can do for your country.” The U.S. Digital Corps represents this same call to public service—though re-cast in the 21st century to include Americans with innovative technology and data skills.
 
-
+Applications for the first two cohorts of U.S. Digital Corps fellows will open this fall for fellowships beginning in 2022.
