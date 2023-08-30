@@ -4,7 +4,7 @@ title: 'U.S. Digital Corps Marks First Year, Driving Impact in Federal Technolog
 image: build-a-brighter-future.png
 author: 
 published_at: "2022-07-07"
-summary: "Program advances key pillars of President’s Management Agenda; 2023 cohort applications open in October"
+summary: "GSA Administrator Robin Carnahan, OPM Director Kiran Ahuja, and USDS Administrator Mina Hsiang comment on the occasion of U.S. Digital Corps Fellows reaching their first full year in government."
 external_url: "https://www.gsa.gov/about-us/newsroom/news-releases/us-digital-corps-marks-first-year-driving-impact-in-federal-technology-09072022"
 tags: ['GSA']
 type: Blog
