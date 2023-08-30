@@ -22,9 +22,9 @@ In the last two years, USDC has hired close to 90 early-career technologists acr
 Earlier this month, both cohorts came together for the first time in Washington, D.C. for a day of community-building and discussion. New 2023 Fellows heard stories of impact from Fellows in our first cohort, including Fellows at the  at the State Department’s Center for Analytics. 
 
 <div id="celebrating-fellows-present">
-  {% asset "jonathan-USDC-22Fellow-at-IRL23.jpg" class="" alt="Jonathan Hart 2022 Data Science Fellow at Department of State presenting to 2023 cohort" %}
+  {% asset "jonathan-usdc-22fellow-at-23irl.jpg" class="" alt="Jonathan Hart 2022 Data Science Fellow at Department of State presenting to 2023 cohort" %}
 
-  {% asset "julie-and-Ashwini-USDC-22Fellows-at-23IRL.jpg" class="" alt="Julie Winston 2022 Product Fellow and Ashwini Shankar Data science Fellow both at the Department of State presenting to 2023 cohort" %}
+  {% asset "julie-and-ashwini-usdc-22fellow-at-23irl.jpg" class="" alt="Julie Winston 2022 Product Fellow and Ashwini Shankar Data science Fellow both at the Department of State presenting to 2023 cohort" %}
 </div>
 
 Today, to mark our second anniversary, we are publishing the first impact story highlighting Fellows’ early contributions at select agencies:
