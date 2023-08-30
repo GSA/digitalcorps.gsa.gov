@@ -51,7 +51,11 @@ The majority of my work happens on a [public GitHub repo](https://github.com/cfp
 
 I like being part of the mission to bring excellent government services to the public. Government services can get a bad reputation as being clunky, inefficient, and not user-focused. The digital services of government are only as good as the people willing to put in the work to make them better. For me, that means making [consumerfinance.gov](https://www.consumerfinance.gov/) the best it can be across browsers and devices in terms of appearance, performance, and accessibility. Seeing that work end up in public brings satisfaction in feeling like my skills contributed to improving government services for the public.
 
+---
+
 *Having a career as a technologist in government is a rewarding experience! If you’re interested in joining us, check out the [U.S. Digital Corps](https://digitalcorps.gsa.gov/) for early-career opportunities and visit [Join TTS](https://join.tts.gsa.gov/) for mid-career and senior-level opportunities.*
+
+---
 
 **Editor’s note**: Learn more about the requirements for modernizing your agency’s public-facing federal websites.
 
