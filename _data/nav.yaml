@@ -10,6 +10,8 @@ primary:
     url: /fellows/
   - name: Projects
     url: /projects/
+  - name: Blog
+    url: /blog/
   
   - name: Apply
     url: ../
