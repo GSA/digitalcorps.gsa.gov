@@ -1,0 +1,140 @@
+---
+layout: default
+---
+
+<!-- BANNER -->
+<section class="project-banner">
+  <div class="usa-hero">
+    <div class="usa-hero__callout">
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="desktop:grid-col-7">
+            <h1 class="usa-hero__heading display display--inverted">
+              {{ page.project_name }}
+            </h1>
+            <p class="font-serif-lg text-italic flex-1">
+                {{ page.agency }}
+            </p>
+
+            
+          </div>
+          <div class="desktop:grid-col-5">
+            {% include project-team.html agency_logo=page.agency_logo fellows=page.fellows %}
+          </div>
+        </div>
+        <div class="grid-row">
+          <div class="desktop:grid-col-7">
+            <div class="impact-skills">
+              <div class="project-specialty">
+                {% assign agency_impact = site.data.agency-impact | where_exp:'impact', "page.impact_area contains impact.display_name" %}
+                {% for impact in agency_impact%}
+                {% if forloop.first %}
+                <ul>
+                {% endif %}
+                <li> <span class="{{ impact.url_name }}">{{ impact.display_name }}</span></li>
+                {% if forloop.last %}
+                </ul>
+                {% endif %}
+                {% endfor %}
+              </div>
+              <div>
+                <p class="project-skill-impact">Skill Set: </p>
+                  {% assign agency_skill = site.data.agency-skills | where_exp:'skill', "page.tags contains skill.url_name" %}
+                  {% for skill in agency_skill%}
+                    {% if forloop.first %}
+                    <div>
+                    {% endif %}
+                      <span class="skill-styling">{{skill.display_name}}{% unless forloop.last %},{% endunless %}</span>
+                    {% if forloop.last %}
+                    </div>
+                    {% endif %}
+                  {% endfor %}
+              </div>
+            </div>
+          </div>
+          <div class="desktop:grid-col-5">
+            <div class="project-banner-links">
+              <p class="project-skill-impact">Learn More: </p>
+              <div class="learn-more">
+                {% if page.project_url %}
+                  <span>
+                      <a href={{page.project_url}} target="_blank" rel="noopener">{% asset "Website.png" alt="{{project.agency}} website" class="project-item-links" %}</a>
+                  </span>
+                  {% endif %}
+                 {% if page.youtube_url %}
+                  <span> 
+                      <a href="{{page.youtube_url}}" target="_blank" rel="noopener">{% asset "Youtube.png" alt="{{page.agency}} video" class="project-item-links" %}</a>
+                  </span>
+                  {% endif %}
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- <section class="usa-section bg--lightest">
+  <div class="grid-container">
+    <div class="flex-column-reverse-tablet flex-align-center flex-justify">
+      <div class="display-flex flex-wrap">
+        <a href="/projects" class="usa-button usa-button--small usa-button--outline  usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
+          {% asset 'icons/arrow--back.png' width=20 aria-hidden="true" %} Back to all
+        </a>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+<div class="usa-layout-docs padding-y-8 bg--lightest">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <div class="tablet:grid-col-3 margin-bottom-6 project-nav">
+        {% include sidenav-dynamic.html %}
+      </div>
+      <div class="tablet:grid-col-8 tablet:grid-offset-1 usa-layout-docs__main usa-prose">
+        <h2 class="text-primary text-no-italic" id="the-about">
+          About <em>{% if page.agency_abbrev %}{{page.agency_abbrev}}{% else %}the project{% endif %}</em>
+        </h2>
+        <p>{{ page.partner_description }}</p>
+
+        {% if page.project_challenge %}
+        <h2 class="text-primary text-no-italic">
+          The <em>challenge</em>
+        </h2>
+        <p class="body-intro">
+          {{ page.project_challenge  }}
+        </p>
+        {% endif %}
+
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var sidenav = document.getElementById('sidenav-dynamic');
+  var headers = document.querySelectorAll(".usa-prose h2, .usa-prose h3");
+
+  if (sidenav) {
+    headers.forEach(function(header, index) {
+      var headerText = header.innerHTML.replace( /(<([^>]+)>)/ig, '');
+      var headerId = headerText.trim().toLowerCase().replace(/ /gi, "-");
+      if (!header.id || !header.id.length) {
+        header.setAttribute("id", headerId);
+      }
+      var li = document.createElement("li");
+      li.classList.add('usa-sidenav__item');
+      var link = document.createElement("a");
+      index === 0 && link.classList.add('usa-current');
+      link.href = "#".concat(headerId);
+      var linkText = document.createTextNode(headerText);
+      link.appendChild(linkText);
+      li.appendChild(link);
+      sidenav.appendChild(li);
+    });
+  }
+</script>

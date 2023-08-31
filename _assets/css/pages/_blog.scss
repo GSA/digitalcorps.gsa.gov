@@ -1,0 +1,193 @@
+// BLOG customization
+
+// banner
+.blogs-banner {
+    .usa-hero {
+      @include u-margin-bottom(4);
+      @include u-margin-x(6);
+      @include u-padding-x(10);
+      background-image: url(asset_path("projects/Project_Banner.png"));
+      background-position: 90% 56%;
+      position: relative;
+      overflow: hidden;
+      position: relative;
+      min-height: 300px;
+  
+      //tablet
+      @include at-media("tablet") {
+        @include u-padding-x(0);
+      }
+      // < tablet
+      @include at-media-max("mobile-lg") {
+        min-height: unset;
+        @include u-margin-x(0);
+        @include u-padding-x(0);
+      }
+
+  
+      // callout container
+      .usa-hero__callout {
+        color: inherit;
+        width: 100%;
+        text-align: left;
+        bottom: 0;
+        position: relative;
+
+        // < tablet
+        @include at-media-max("mobile-lg") {
+          //@include u-padding-x(2);
+          //@include u-padding-top(15);
+          position: relative;
+          text-align: center;
+        }
+
+  
+  
+        .grid-container {
+          @include u-padding-x(0);
+        }
+  
+        .usa-button {
+          float: left;
+          @include u-margin-top(3);
+  
+          // < tablet
+          @include at-media("tablet") {
+            float: right;
+          }
+        }
+  
+        // subtext
+        h2 {
+          @include u-margin-top(3);
+          @include u-margin-bottom(0);
+          color: inherit;
+          padding-right: 13rem;
+          padding-left: 13rem;
+
+          @media screen and (max-width: 990px) {
+            padding-right: 0;
+            padding-left: 0;
+          }
+        }
+      }
+    }
+
+    hr{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 65px;
+
+        @include at-media-max("mobile-lg") {
+          width: 90%;
+          margin-top: unset;
+        }
+    }
+  }
+
+  //Filter
+.blog-filter{
+    @include at-media ('desktop'){
+     margin: 0 10%;
+    }
+     //@include u-margin-right(2);
+   }
+
+
+//Blog Card
+.blog-card{
+    a {
+        text-decoration: none;
+
+    }
+    .usa-card__body{
+      @include u-text("black");
+    }
+   
+}
+.tag {
+    margin: 0;
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            padding: 2px;
+            span{
+                border-radius: 10px;
+            }
+        }
+    }
+}
+.blog-card--tag {
+  ul{
+    padding-inline-start: 20px;
+  }
+}
+.blog-page--tag {
+  ul{
+    padding-inline-start: 0px;
+  }
+}
+
+.usa-card__footer {
+  .usa-button{
+    display: flex;
+  justify-content: center;
+  }
+  
+}
+
+
+//Individual Blog Page
+.blog-header{
+    p{
+        @include u-text("primary");
+    }
+}
+.usa-image-block{
+    margin: 5px;
+    img{
+        float: left;
+        margin: 12px;
+        width: 20%;
+        max-height: 200px;
+    }
+}
+
+.blog-quote-box{
+    margin-bottom: 0.5rem;
+    max-width: 88ex;
+    padding: 1rem;
+    background-color: #edeff0;
+    border-radius: 2px;
+}
+
+
+
+
+// ID Custom Styling
+#photo-of-fellows {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    img{
+      margin: 12px;
+      max-height: 420px;
+    }
+}
+
+#celebrating-fellows-present {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+
+    img{
+      margin: 12px;
+      max-height: 420px;
+    }
+}
