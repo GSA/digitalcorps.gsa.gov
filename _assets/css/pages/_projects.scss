@@ -120,12 +120,10 @@
   display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    @include u-margin-x(2);
-    padding: 0 12rem;
+    padding: 0 10rem;
     @include at-media-max("desktop") {
       //margin: 0 7rem;
-      @include u-margin-x(2);
-    @include u-padding-x(8);
+    @include u-padding-x(4);
     }
 }
 
