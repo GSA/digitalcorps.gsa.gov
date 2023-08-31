@@ -5,46 +5,55 @@
 
 - name: ACF
   fullname: Administration for Children and Families
+  val: adminCF
   url: 
 
 - name: CMS
   fullname: Centers for Medicare & Medicaid Services
+  val: cmedsrvcs
   url: http://www.cms.gov
   description: The Centers for Medicare & Medicaid Services (CMS) is the agency within the U.S. Department of Health and Human Services (HHS) that administers the nation’s major healthcare programs. The CMS oversees programs including Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and the state and federal health insurance marketplaces.
 
 - name: CISA
   fullname: Cybersecurity & Infrastructure Security Agency
+  val: cybinfr
   url: 
   description:
 
 - name: CFPB
   fullname: Consumer Financial Protection Bureau
+  val: cfpbureau
   url: 
   description:
 
 - name: EPA
   fullname: Environmental Protection Agency
+  val: envProtAgncy
   url: 
   description:
 
 - name: GSA
   fullname: General Services Administration
+  val: genSrvcsAdmin
   url: https://gsa.gov
   description: The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks.
 
 - name: HHS
   fullname: Department of Health and Human Services
+  val: deptHHS
   url: http://www.hhs.gov
 
 - name: OPM
   fullname: Office of Personnel Management
+  val: officePM
   url: 
   description:
 
-# - name: OSTP
-#   fullname: White House Office of Science and Technology, Policy
-#   url: http://www.whitehouse.gov/administration/eop/ostp
-#   description:
+- name: OSTP
+  fullname: White House Office of Science and Technology Policy
+  val: whteHouseOSTP
+  url: http://www.whitehouse.gov/administration/eop/ostp
+  description:
 
 # - name: SBA
 #   fullname: Small Business Administration
@@ -53,24 +62,61 @@
 
 - name: DOS
   fullname: Department of State
+  val: deptState
   url: http://www.state.gov
   description:
 
 - name: USCB
   fullname: U.S. Census Bureau
+  val: usCensus
   url: http://www.census.gov
   description:
 
 - name: USCIS
   fullname: U.S. Citizenship and Immigration Services
+  val: usCitzImmigSrvcs
   url: 
   description:
 
 - name: VA
   fullname: Department of Veterans Affairs
+  val: deptVA
   url: http://www.va.gov
   description:
 
+- name: USDA
+  fullname: U.S. Department of Agriculture
+  val: usDeptAgr
+  url: https://www.usda.gov/our-agency/about-usda
+  description:
 
+- name: CDC
+  fullname: Centers for Disease Control and Prevention
+  val: cntrDiseaseCntrl
+  url: https://www.cdc.gov/about/
+  description:  
 
+- name: HRSA
+  fullname: Health Resources and Services Administration
+  val: hlthRsrcsSrvcsAdmin
+  url: https://www.hrsa.gov/about 
+  description:  
+
+- name: NIH
+  fullname: National Institutes of Health
+  val: ntnlInstituteHlth
+  url: https://www.nih.gov/about-nih
+  description: 
+
+- name: DTIC
+  fullname: Defense Technical Information Center
+  val: dfnseTechInfoCntr
+  url: https://discover.dtic.mil/
+  description: 
+
+- name: DOC
+  fullname: Department of Commerce
+  val: deptCommrce
+  url: 
+  description: 
   

@@ -19,18 +19,6 @@
   <p>
     <span class="fellow-card--fellow-year">{{ fellow.fellow_year }} Fellow</span>
   </p>
-  <!-- <div class="fellow-card--specialty">
-    {% assign fellow_tracks = site.data.fellow-tracks| where_exp:'track', "fellow.tags contains track.url_name" %}
-    {% for track in fellow_tracks%}
-    {% if forloop.first %}
-    <ul>
-      {% endif %}
-      <li><span class="{{ track.url_name }}">{{ track.display_name }}</span></li>
-      {% if forloop.last %}
-    </ul>
-    {% endif %}
-    {% endfor %}
-  </div> -->
 </div>
 
 {% endfor %}

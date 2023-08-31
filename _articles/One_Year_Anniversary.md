@@ -4,7 +4,7 @@ pageOrderID: 96
 title: U.S. Digital Corps Marks First Year, Driving Impact in Federal Technology
 image: Default_Press_Image.png
 external_url: "https://www.gsa.gov/about-us/newsroom/news-releases/us-digital-corps-marks-first-year-driving-impact-in-federal-technology-09072022"
-type: News
+type: Press
 ---
 
 

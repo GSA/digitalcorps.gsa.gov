@@ -3,7 +3,7 @@ id: chizobam-nwagwu
 title: Chizobam Nwagwu
 image: Chizobam Nwagwu.png
 fellow_year: 2022
-project: ["na"]
+project: ["cms"]
 agency: ["CMS"]
 hometown: Rockville, MD
 university: Carnegie Mellon University
@@ -11,7 +11,7 @@ region: east
 bio_short: Product manager passionate about people-centered policy
 why: "I saw the US Digital Corps as an incredible opportunity to launch my career in public service and impact my community. As an early career civic technologist excited by mission-driven work, I appreciate that the USDC program provides mentorship, training, and resources for fellows to navigate bureaucratic establishments and positively impact the public." 
 fun_fact: Chizobam's learning to grow okra this year.  
-tags: ['east', '2022','Product_Management', 'CMS']
+tags: ['east', '2022','Product_Management', 'CMS', 'active']
 track: ['Product Management']
 ---
 
