@@ -36,6 +36,6 @@ Today, all of these stories (and future stories) are accessible at [digitalcorps
 - [HHS Open Data and InnovationX for Impact at the 2023 Health Datapalooza](https://digitalcorps.gsa.gov/blogs/hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza/)
 - [Making Impact at Scale: Software Engineering in the Federal Government](https://digitalcorps.gsa.gov/blogs/making-impact-at-scale-software-engineering-in-the-federal-government/)
 
-As we mark the end of our second year and the beginning of year three, the USDC team continues to grow! We recently closed applications for data science and product management supervisors. We’ll soon begin hiring for our next cohort of Fellows to start in the summer of 2024, along with a few other program office positions. 
+As we mark the end of our second year and the beginning of year three, the USDC team continues to grow! We have active hiring processes for data science and product management supervisors and we’ll soon begin hiring for our next cohort of Fellows to start in the summer of 2024, along with a few other program office positions. 
 
 To keep in touch with our team for the latest Digital Corps announcements, news, and updates, [subscribe to our newsletter](https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_108) and follow us on [social](https://www.linkedin.com/company/74725557/admin/feed/posts/) [media](https://twitter.com/usdigitalcorps). 
