@@ -3,15 +3,15 @@ id: meredith-brown
 title: Meredith Brown
 image: Meredith Brown.png
 fellow_year: 2022
-project: ["na"]
-agency: ["GSA"]
+project: ["doc-prd"]
+agency: ["DOC"]
 hometown: Raleigh, NC
 university: Duke University
 region: east
 bio_short: Data scientist ready to leverage data to improve the lives of all citizens 
 why: "U.S. Digital Corps provided me a path to pursue both my passions for public policy and data science while focusing on projects that will have a real-world impact. I'm excited to start my career putting tech to use for the American public!"
 fun_fact: Meredith loves going to concerts!
-tags: ['east', '2022','Data_Science_And_Analytics', 'GSA']
+tags: ['east', '2022','Data_Science_And_Analytics', 'DOC', 'active']
 track: ['Data Science and Analytics']
 ---
 

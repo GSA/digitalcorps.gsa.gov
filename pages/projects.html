@@ -2,157 +2,387 @@
 layout: default
 title: Projects
 permalink: /projects/
+
 <!-- noindex: true
 sitemap: false -->
 ---
-<!-- BANNER -->
-  <section class="projects-banner">
-    <div class="usa-hero">
-      <div class="grid-container">
-        <div class="usa-hero__callout">
-          <div class="content">
-            <div>
-              <h1 class="usa-hero__heading">
-                Agencies and Projects
-              </h1>
-              <h2>
-                <strong> Digital Corps Fellows work at agencies across the government on projects that make a difference for the American public. </strong>
-              </h2>
-            </div>
-          </div>
-          <div class="iframe-container">
-            <iframe 
-              width="560" 
-              height="315" 
-              src="https://www.youtube.com/embed/4bu96Khty20" 
-              title="YouTube video player" 
-              frameborder="0" 
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-              allowfullscreen>
-            </iframe>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
 
-  <!-- What Agencies Do -->
-  <!-- <section class="usa-section padding-top-8 project-section-two">
-    <div class="grid-container no-gutter">
-        <div class="grid-row">
-          <div >
-            <div class="host-paragraph">
-              <p>
-                Host agencies have strong technical teams and public-facing and/or high-impact projects to ensure Fellows have the guidance and support they need to be successful as they improve the government experience. Fellows collaborate with host agency employees to advance governmentwide priorities outlined in the President’s Management Agenda as well as executive orders on customer experience and cybersecurity.
-              </p>
-            </div>
+<!-- BANNER -->
+<section class="projects-banner">
+  <div class="usa-hero">
+    <div class="grid-container">
+      <div class="usa-hero__callout">
+        <div class="content">
+          <div>
+            <h1 class="usa-hero__heading">
+              Agencies and Projects
+            </h1>
+            <h2>
+              <strong> Digital Corps Fellows work at agencies across the government on projects that make a difference for the American public. </strong>
+            </h2>
           </div>
         </div>
-        <div>
-          <p class="projects-details">
-            More details about the first cohort of U.S. Digital Corps Fellows will be announced in June 2022. If you are a federal employee interested in learning
-            about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
-          </p>
       </div>
+      
     </div>
-  </section>-->
-  <section>  
-    <div class="grid-container">
+  </div>
+</section>
+<!-- Projects -->
+<section class="usa-section bg-base-lighter padding-y-8 margin-bottom-4">
+  <div class="grid-container highlight tablet:padding-x-2">
+    <div class="grid-col">
+      <div class="inaugural-styling"><h2> Agencies We Partner With</h2></div>
+      <div class="project-agency-logos padding-y-0">
+        {% asset "ACF.webp" alt="ACF" class="width-10 height-10 tablet:margin-right-2"%}
+        {% asset "CDC.png" alt="CDC" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "census.webp" alt="Census" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "cfpb.webp" alt="CFBP" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "CISA.webp" alt="CISA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "CMS.webp" alt="CMS" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "DHS.webp" alt="DHS" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "DOC.png" alt="DOC" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "DOS.webp" alt="DOS" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "DTIC.png" alt="DTIC" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "EOP.webp" alt="EOP" class="width-10 height-10 tablet:margin-right-2"%}
+        {% asset "EPA.png" alt="EPA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "GSA.webp" alt="GSA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "HHS.webp" alt="HHS" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "HRSA.png" alt="HRSA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "NIH.png" alt="NIH" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "OPM.webp" alt="OPM" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "USDA.png" alt="USDA" class="width-10 height-10 tablet:margin-right-2" %}
+        {% asset "VA.webp" alt="VA" class="width-10 height-10 tablet:margin-right-2" %}
+      </div>
       <div class="inaugural-styling">
-      <h2> Inaugural Host Agencies</h2>
-      <p>Fellows will work alongside career civil servants to advance priorities in critical impact areas, including health, equity, immigration, cybersecurity, and public experience.
-         If you are a federal employee interested in learning about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.
-      </p>
-      <br>
-      {% include project-filters.html %}
-    </div>
-      <div >
-        {% include agency-list.html %}
+        <p>If you are a federal employee interested in learning about how to participate in future cohorts of the U.S. Digital Corps, please reach out to us at <a href="mailto:{{site.email}}">{{site.email}}</a>.</p>
       </div>
     </div>
+  </div>
+</section>
+<section>
+  <div class="projects-main grid-container">
+    <div class="tablet:grid-col-3">
+      {% include side-projects-filters.html %}
+    </div>
+    <div class="tablet:grid-col-9">
+      {% include agency-list.html %}
+    </div>
+  </div>
 </section>
 
 
 <script type="text/javascript">
-  // Based on W3 How to Filter Elements:
-  // https://www.w3schools.com/howto/howto_js_filter_elements.asp
-  var agencyOption = document.getElementById("project-agencies-select");
-  var agency = document.getElementsByClassName("cards_item");
-
-  var impactOption = document.getElementById("project-impact-select");
-  var impact = document.getElementsByClassName("impact-list");
-
+//
+//Variables 
+//
+var allFilters = Array.from(document.querySelectorAll("input[type='checkbox']"));
+var projects = Array.from(document.getElementsByClassName('project-item__outer'));
+var agencyFilterChecklist = Array.from(document.querySelectorAll('[data-filter]'));
 
 
-//Filter by Agency Name
-  agencyOption.addEventListener("change", function(e){
-      var optionDataFilter = agencyOption.options[agencyOption.selectedIndex].getAttribute("data-filter");
-      if(optionDataFilter == "all"){
-          var elements = document.getElementsByClassName("cards_item");
-          
-          for(var i = 0; i < agency.length; i++) {
-            removeClass(agency[i], "hide");
-          }
-        }else{
-          for(var i = 0; i < agency.length; i++) {  
-            if(agency[i].getAttribute("data-filter") == optionDataFilter){
-            addClass(agency[i], "show");
-              removeClass(agency[i], "hide");
-            }else if(!(agency[i].getAttribute("data-filter") == optionDataFilter)){
-              removeClass(agency[i], "show");
-              addClass(agency[i], "hide");
-            };
-          }
-        }
-      
+//
+//Skills checkbox variables
+//
+var cybersecuritySkillsCheckbox = document.querySelector('[data-skill="Cybersecurity"]');
+var dataScienceCheckbox = document.querySelector('[data-skill="Data_Science"]');
+var designCheckbox = document.querySelector('[data-skill="Design"]');
+var projectManagementCheckbox = document.querySelector('[data-skill="Product_Management"]');
+var softwareEngineeringCheckbox = document.querySelector('[data-skill="Software_Engineering"]');
+//
+//Impact checkbox variables 
+//
+var capacityBuildingCheckbox = document.querySelector('[data-impact="Capacity_building"]');
+var cybersecurityImpactCheckbox = document.querySelector('[data-impact="Cybersecurity"]');
+var equityCheckbox = document.querySelector('[data-impact="Equity"]');
+var healthCheckbox = document.querySelector('[data-impact="Health"]');
+var immigrationCheckbox = document.querySelector('[data-impact="Immigration"]');
+var publicExperienceCheckbox = document.querySelector('[data-impact="Public_experience"]');
+var openScienceCheckbox = document.querySelector('[data-impact="Open_science"]');
+//
+//Methods
+//
+  //Remove project if checkbox is not checked.
+var noFilter = function(){
+  //Impact Checks
+  if(!capacityBuildingCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Capacity_building')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!cybersecurityImpactCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Cybersecurity')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!equityCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Equity')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!healthCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Health')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!immigrationCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Immigration')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!publicExperienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Public_Experience')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!openScienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Open_science')){
+        project.style.display = "none";
+      }
+    })
+  }
+
+  //Skill Checks
+  if(!cybersecuritySkillsCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_cybersecurity')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!dataScienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_data_science')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!designCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_design')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!projectManagementCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_product_management')){
+        project.style.display = "none";
+      }
+    })
+  }
+  if(!softwareEngineeringCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_software_engineering')){
+        project.style.display = "none";
+      }
+    })
+  }
+}
+//
+//Show All Cards If No Filter Is Checked
+//
+  //Convert Filter Checklist to Boolean Array 
+  var arr = [];
+  var convertFilterCheckToBoolean = function(){
+    arr =[];
+    allFilters.forEach(function (filter){
+          arr.push(filter.checked);
+        });
+  }
+  //Check Boolean Array and if all return checkboxes return false, display cards
+  var allCards = function(){
+    convertFilterCheckToBoolean();
+    var checkAllCheckboxes = (filter) => filter === false;
+
+    if(arr.every(checkAllCheckboxes)){
+      projects.forEach(function (project){
+        project.style.display ="flex";
+      });
+    } 
+  };
+
+//
+//Filters By Impact Functions
+//
+var filterByCapacityBuilding = function(){
+  if(capacityBuildingCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Capacity_building')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+
+var filterbyImpactCybersecurity = function(){
+  if(cybersecurityImpactCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Cybersecurity')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+
+var filterByEquity = function(){
+  if(equityCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Equity')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterByHealth = function(){
+  if(healthCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Health')){
+        project.style.display = "flex";
+      }
+    })
+  }
+    
+};
+
+var filterByImmigration = function(){
+  if(immigrationCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Immigration')){
+        project.style.display = "flex";
+      }
+    })
+  }  
+};
+
+var filterByPublicExperience = function(){
+  if(publicExperienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Public_Experience')){
+        project.style.display = "flex";
+      }
+    })
+  } 
+};
+
+var filterByOpenScience = function(){
+  if(openScienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-impact_Open_science')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+
+//
+//Filters By Skill Functions
+//
+var filterBySkillCybersecurity = function(){
+  if(cybersecuritySkillsCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_cybersecurity')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterByDataScience = function(){
+  if(dataScienceCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_data_science')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterByDesign = function(){
+  if(designCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_design')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterByProjectManagement = function(){
+  if(projectManagementCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_product_management')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var filterBySoftwareEngineering = function(){
+  if(softwareEngineeringCheckbox.checked){
+    projects.forEach(function (project){
+      if(project.hasAttribute('data-skill_software_engineering')){
+        project.style.display = "flex";
+      }
+    })
+  }
+};
+var getAgencies = function(){
+  var agencies = projects.map(function(project){
+    return project.getAttribute('data-agency');
   });
 
-  //Filter By Impact Area
-  impactOption.addEventListener("change", function(e){
-      var listDataFilter = impactOption.options[impactOption.selectedIndex].getAttribute("data-impact");
-      //var element = document.querySelectorAll('[data-skill]');
-      //console.log(impact[i].firstElementChild.getAttribute("data-skill"));
-       if(listDataFilter == "all"){
-          var elements = document.getElementsByClassName("cards_item");
-          for(var i = 0; i < agency.length; i++) {
-            removeClass(agency[i], "hide");
-          }
-        }else{
-          for(var i = 0; i < agency.length; i++) {
-            if(impact[i].firstElementChild.getAttribute("data-skill") == listDataFilter){
-              addClass(agency[i], "show");
-              removeClass(agency[i], "hide");
-            }else if((impact[i].lastElementChild.getAttribute("data-skill")== listDataFilter)){
-            addClass(agency[i], "show");
-            removeClass(agency[i], "hide");
-            }else {
-              removeClass(agency[i], "show");
-              addClass(agency[i], "hide");
-            };
-          }
-        }
+  return agencies.filter(function(agency, index){
+    return agencies.indexOf(agency) === index;
   });
+}
 
-  function addClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      if (arr1.indexOf(arr2[i]) == -1) {
-        element.className += " " + arr2[i];
-      }
+var filterByAgency = function(){
+   //Get all projects that match the agency
+ agencyFilterChecklist.forEach(function (filter){
+    if(filter.checked){
+      var agencyFilter = filter.getAttribute('data-filter');
+      projectsByAgency = Array.from(document.querySelectorAll('#projectList [data-agency="'+ agencyFilter +'"]'));
+      projectsByAgency.forEach(function(project){
+      project.style.display = 'flex';
+    })
     }
-  }
-  function removeClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      while (arr1.indexOf(arr2[i]) > -1) {
-        arr1.splice(arr1.indexOf(arr2[i]), 1);
-      }
-    }
-    element.className = arr1.join(" ");
-  }
+  })
+};
+
+var clickHandler = function(event){
+  noFilter();
+  //Impact Filters
+  filterByCapacityBuilding();
+  filterbyImpactCybersecurity();
+  filterByEquity();
+  filterByHealth();
+  filterByImmigration();
+  filterByPublicExperience();
+  filterByOpenScience();
+
+  // //Skill Filters
+  filterBySkillCybersecurity();
+  filterByDataScience();
+  filterByDesign();
+  filterByProjectManagement();
+  filterBySoftwareEngineering();
+
+  //AgencyFilter
+  filterByAgency();
+
+  //Show All Cards if all checkboxes are deselected
+  allCards();
+};
+
+//Listen for checklist toggles
+document.documentElement.addEventListener('click', clickHandler);
 </script> 
