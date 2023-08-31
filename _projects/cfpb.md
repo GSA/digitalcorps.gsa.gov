@@ -15,3 +15,8 @@ impact_area: ["Equity"]
 status: ["current"]
 ---
 
+## The challenge
+
+## The approach
+
+## The solution 

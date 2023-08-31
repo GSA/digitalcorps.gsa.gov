@@ -9,6 +9,20 @@
       position: relative;
       overflow: hidden;
       min-height: 600px;
+
+      //tablet
+      @include at-media-max("tablet") {
+        min-height: 760px;
+      }
+
+      //desktops
+      @include at-media("desktop") {
+        min-height: 670px;
+      }
+      @include at-media("desktop-lg") {
+        min-height: 600px;
+        max-height: 100%;
+      }
   
       // < tablet
       @include at-media-max("mobile-lg") {
@@ -22,7 +36,7 @@
         color: inherit;
         //background-color: rgba(28, 29, 31, 0.55); // base-darkest #1c1d1f
         width: 100%;
-        position: absolute;
+        position: relative;
   
         // < tablet
         @include at-media-max("mobile-lg") {
@@ -56,7 +70,7 @@
 
         .impact-skills{
           //@include u-padding-top(1);
-            @include at-media("desktop") {
+            @include at-media("desktop-lg") {
               @include u-padding-top(10);
             }
         }
@@ -154,10 +168,6 @@
       // display: flex;
       display: inline-block;
       margin: 1rem 0;
-      @include at-media("tablet") {
-        // padding-left: 1rem;
-        padding-right: 1rem;
-      }
     }
   
     .project-team__member-text {
@@ -168,11 +178,15 @@
   .project-banner-links{
     float: left;
     @include at-media("tablet") {
-      @include u-padding-top(7);
-    @include u-padding-right(10);
-    float: right;
+     // @include u-padding-top(7);
+      @include u-padding-right(10);
+      float: left;
     }
     @include at-media("desktop") {
+      @include u-padding-top(6);
+      float: right;
+    }
+    @include at-media("desktop-lg") {
       @include u-padding-top(15);
       @include u-padding-right(10);
       float: right;
@@ -230,11 +244,25 @@
     }
   }
 }
-@media screen and (min-width:491px) and (max-width:715px){
+@media screen and (min-width:491px) and (max-width:557px){
   .project-banner {
     .usa-hero {
-      min-height: 701px;
+      min-height: 800px;
     }
   }
 }
-  
+@media screen and (min-width:558) and (max-width:1000px){
+  .project-banner {
+    .usa-hero {
+      min-height: 750px;
+    }
+  }
+}
+ //min-height between 650 and 686 needs to be 750px
+//  @media only screen and (min-width: 650px) and (max-width: 700px) {
+//   .project-banner {
+//     .usa-hero {
+//     min-height: 750px;
+//   }
+// }
+// }

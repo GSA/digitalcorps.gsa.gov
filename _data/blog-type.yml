@@ -1,0 +1,67 @@
+## Announcement
+- display_name: Announcement
+  url_name: Announcement
+
+## Tracks 
+- display_name: Data Science and Analytics
+  url_name: Data_Science_And_Analytics
+- display_name: Design
+  url_name: Design
+- display_name: Product Management
+  url_name: Product_Management
+- display_name: Software Engineering
+  url_name: Software_Engineering
+
+##Impacts
+- display_name: Capacity building
+  url_name: Capacity_building
+- display_name: Cybersecurity
+  url_name: Cybersecurity
+- display_name: Equity
+  url_name : Equity
+- display_name: Health
+  url_name: Health
+- display_name: Immigration
+  url_name: Immigration
+- display_name: Public experience
+  url_name: Public_experience
+- display_name: Open science
+  url_name: Open_science
+
+##Agencies
+- display_name: ACF
+  url_name: ACF
+- display_name: CMS
+  url_name: CMS
+- display_name: CISA
+  url_name: CISA
+- display_name: CFPB
+  url_name: CFPB
+- display_name: EPA
+  url_name: EPA
+- display_name: GSA
+  url_name: GSA
+- display_name: HHS
+  url_name: HHS
+- display_name: OPM
+  url_name: OPM
+- display_name: OSTP
+  url_name: OSTP
+- display_name: DOS
+  url_name: DOS
+- display_name: USCB
+  url_name: USCB
+- display_name: USCIS
+  url_name: USCIS
+- display_name: VA
+  url_name: VA
+- display_name: USDA
+  url_name: USDA
+- display_name: CDC
+  url_name: CDC
+- display_name: HRSA
+  url_name: HRSA
+- display_name: NIH
+  url_name: NIH
+- display_name: DTIC
+  url_name: DTIC
