@@ -1,9 +1,9 @@
 ---
 id: nikki-ramos
-title: Anjenica "Nikki" Ramos
+title: Anjenica Nikki Ramos
 image: Nikki Ramos.png
 fellow_year: 2022
-project: ["na"]
+project: ["uscis"]
 agency: ["USCIS"]
 hometown: Pittsburg, CA
 university: University of California, Los Angeles
@@ -11,7 +11,7 @@ region: west
 bio_short: Designer ready to build intuitive, efficient, and enjoyable products with impact 
 why: Spending my formative years in such a juxtaposing era of technological innovation and ongoing chaos, I feel inclined to contribute constructively and pay it forward. In asking myself "What kind of impact do I want to leave?" and "How can I help?," Digital Corps was a clear answer. Beyond serving constituents nationwide, the program's avid community support and holistic growth opportunity also checked off the boxes.
 fun_fact: Nikki has been volcano-sledding in Nicaragua!
-tags: ['west', '2022','Design', 'USCIS']
+tags: ['west', '2022','Design', 'USCIS', 'active']
 track: ['Design']
 ---
 

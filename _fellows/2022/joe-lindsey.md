@@ -3,7 +3,7 @@ id: joe-lindsey
 title: Joe Lindsey
 image: Joe Lindsey.png
 fellow_year: 2022
-project: ["na"]
+project: ["dos"]
 agency: ["DOS"]
 hometown: Suffolk, Virginia
 university: Excelsior College Albany
@@ -11,7 +11,7 @@ region: east
 bio_short: Cybersecurity specialist ready to contribute to the protecting the government and its people
 why: "I joined the U.S. Digital Corps because I liked the opportunity to immediately contribute to the the government and the people, while still being able to learn and receive feedback, guidance, and training." 
 fun_fact: Joe loves to make people laugh and enjoys making people happy or smile as a result. 
-tags: ['east', '2022','Cybersecurity', 'DOS']
+tags: ['east', '2022','Cybersecurity', 'DOS', 'active']
 track: ['Cybersecurity']
 ---
 
