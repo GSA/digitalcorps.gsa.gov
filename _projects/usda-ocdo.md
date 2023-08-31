@@ -16,7 +16,7 @@ status: ["current"]
 
 ## The challenge
 
-
+## The approach
 
 ## The solution 
 
