@@ -57,6 +57,9 @@ collections:
   articles:
     output: false
     permalink: /:collection/:name/
+  blogs:
+    output: true
+    permalink: /:collection/:name/
 
 
 defaults:
@@ -68,6 +71,10 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      type: "blogs"
+    values:
+      layout: "blog"
   
 # formatting
 permalink: pretty
@@ -163,6 +170,8 @@ assets:
     - _assets/favicons
     - _assets/images
     - _assets/images/banners
+    - _assets/images/blogs
+    - _assets/images/blogs/headers
     - _assets/images/icons
     - _assets/images/logo
     - _assets/images/social

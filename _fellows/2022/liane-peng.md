@@ -3,7 +3,7 @@ id: liane-peng
 title: Liane Peng
 image: Liane Peng.png
 fellow_year: 2022
-project: ["acf"]
+project: ["acf-iprc"]
 agency: ["ACF"]
 hometown: Carmel, IN
 university: Massachusetts Institute of Technology
