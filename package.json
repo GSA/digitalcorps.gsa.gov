@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "simple-jekyll-search": "^1.10.0",
-    "uswds": "~2.12.2"
+    "uswds": "~2.13.3"
   },
   "devDependencies": {
     "pa11y-ci": "^3.0.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^5.0.1"
   }
 }
