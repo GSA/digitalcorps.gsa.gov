@@ -92,7 +92,7 @@ layout: default
 
 <!-- search -->
 <script type="text/javascript">
-  var fellowsJson = [{% for fellow in site.fellows %}
+      var fellowsJson = [{% for fellow in site.fellows %}
         {
           "title"    : "{{ fellow.title | escape }}",
           "category" : "{{ fellow.category }}",
@@ -100,7 +100,7 @@ layout: default
           "url"      : "{{ site.baseurl }}{{ fellow.url }}",
           "date"     : "{{ fellow.date }}",
           "content"  : "{{ fellow.bio_short | strip_html | strip_newlines | remove_chars | escape }}",
-          "image_path" : "{% asset '{{ fellow.image }}' @path %}",
+          "image_path" : "{% if fellow.image %}{% asset '{{ fellow.image }}' @path %}{% else%} {% asset 'Placeholder.png' @path %} {% endif %}",
           "agency" : "{% assign fellow_agencies = site.data.agencies | where_exp:'agency', 'fellow.tags contains agency.name' %}{% for agency in fellow_agencies %}{% if forloop.first %}<ul>{% endif %}<li><span class='{{ agency.name }}'>{{ agency.fullname }}</span>{% if forloop.last %}</ul>{% endif %}{% endfor %}",
           "track" : "{% assign fellow_tracks = site.data.fellow-tracks | where_exp:'track', 'fellow.tags contains track.url_name' %}{% for track in fellow_tracks %}{% if forloop.first %}<ul>{% endif %}<li><span class='{{ track.url_name }}'>{{ track.display_name }}</span>{% if forloop.last %}</ul>{% endif %}{% endfor %}",
           "linkedin": "{% if fellow.linkedin %}<span class='fellow-card--linkedin'><a href={{ fellow.linkedin }}><img src={% asset 'icons/linkedin-blue.svg' @path %} alt='{{ fellow.title}} on LinkedIn'/></a>{% else %}</span>{% endif %}",
