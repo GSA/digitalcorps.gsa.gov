@@ -2,6 +2,8 @@
 id: sahithi-adari
 title: Sahithi Adari
 image: Sahithi Adari.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["opm"]
 agency: ["OPM"]

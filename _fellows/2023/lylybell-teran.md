@@ -2,6 +2,8 @@
 id: lylybell-teran
 title: Lylybell Teran
 image: lylybell-teran.png
+social: fellow
+social_image:
 fellow_year: 2023
 project: ["na"]
 agency: ["VA"]

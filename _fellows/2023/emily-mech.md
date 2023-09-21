@@ -2,6 +2,8 @@
 id: emily-mech
 title: Emily Mech
 image: emily-mech.png
+social: fellow
+social_image:
 fellow_year: 2023
 project: ["na"]
 agency: ["VA"]

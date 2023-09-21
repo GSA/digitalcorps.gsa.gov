@@ -2,6 +2,8 @@
 id: michelle-polyak
 title: Michelle Polyak
 image: Michelle Polyak.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["cms"]
 agency: ["CMS"]

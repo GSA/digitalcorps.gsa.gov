@@ -2,6 +2,8 @@
 id: samira-sadat
 title: Samira Sadat
 image: Samira Sadat.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]

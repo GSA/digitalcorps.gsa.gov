@@ -64,6 +64,8 @@
   <!-- alternate page image -->
   {% if page.social=="apply" %}
   <meta property="og:image" content="{{site.url}}{% asset digitalcorps-apply.png @path %}">
+  {% elsif page.social=="fellow" %}
+  <meta property="og:image" content="{{site.url}}{% asset {{page.image}} @path %}">
   {% else %}
   <meta property="og:image" content="{{site.url}}{% asset digitalcorps-social.png @path %}">
   {% endif %}

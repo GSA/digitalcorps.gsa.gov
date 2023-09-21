@@ -2,6 +2,8 @@
 id: selyne-singh
 title: Selyne Singh
 image: Selyne Singh.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["uscb"]
 agency: ["USCB"]

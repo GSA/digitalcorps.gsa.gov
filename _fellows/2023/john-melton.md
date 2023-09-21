@@ -2,6 +2,8 @@
 id: john-melton
 title: John Melton
 image: 
+social: fellow
+social_image:
 fellow_year: 2023
 project: ["na"]
 agency: ["DTIC"]

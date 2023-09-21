@@ -2,6 +2,8 @@
 id: thomas-sittmann
 title: Thomas Sittmann
 image: Thomas Sittmann.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["acf"]
 agency: ["ACF"]

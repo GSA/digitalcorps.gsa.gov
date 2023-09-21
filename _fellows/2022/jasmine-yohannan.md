@@ -2,6 +2,8 @@
 id: jasmine-yohannan
 title: Jasmine Yohannan
 image: Jasmine Yohannan.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["va"]
 agency: ["VA"]

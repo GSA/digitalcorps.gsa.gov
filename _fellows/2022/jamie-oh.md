@@ -2,6 +2,8 @@
 id: jamie-oh
 title: Jamie Oh
 image: Jamie Oh.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["dos"]
 agency: ["DOS"]

@@ -2,6 +2,8 @@
 id: jay-shao
 title: Jay Shao
 image: Jay Shao.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["cms"]
 agency: ["CMS"]

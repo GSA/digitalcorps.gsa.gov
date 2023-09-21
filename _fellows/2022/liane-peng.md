@@ -2,6 +2,8 @@
 id: liane-peng
 title: Liane Peng
 image: Liane Peng.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["acf-iprc"]
 agency: ["ACF"]

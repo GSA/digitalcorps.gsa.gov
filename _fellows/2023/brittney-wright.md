@@ -2,6 +2,8 @@
 id: brittney-wright
 title: Brittney Wright
 image: brittney-wright.png
+social: fellow
+social_image:
 fellow_year: 2023
 project: ["na"]
 agency: ["NIH"]

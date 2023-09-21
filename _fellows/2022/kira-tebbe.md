@@ -2,6 +2,8 @@
 id: kira-tebbe
 title: Kira Tebbe
 image: Kira Tebbe.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["acf-iprc"]
 agency: ["ACF"]

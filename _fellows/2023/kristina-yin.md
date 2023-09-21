@@ -2,6 +2,8 @@
 id: kristina-yin
 title: Kristina Yin
 image: kristina-yin.png
+social: fellow
+social_image:
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]

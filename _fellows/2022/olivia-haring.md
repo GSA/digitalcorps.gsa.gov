@@ -2,6 +2,8 @@
 id: olivia-haring
 title: Olivia Haring
 image:  Olivia Haring.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["na"]
 agency: ["GSA"]

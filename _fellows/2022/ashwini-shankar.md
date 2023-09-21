@@ -2,6 +2,8 @@
 id: ashwini-shankar
 title: Ashwini Shankar
 image: Ashwini Shankar.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["dos-managing-a-crisis-with-data-and-empathy"]
 agency: ["DOS"]

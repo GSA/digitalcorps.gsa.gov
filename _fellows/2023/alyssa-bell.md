@@ -2,6 +2,8 @@
 id: alyssa-bell
 title: Alyssa Bell
 image: alyssa-bell.png
+social: fellow
+social_image:
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]

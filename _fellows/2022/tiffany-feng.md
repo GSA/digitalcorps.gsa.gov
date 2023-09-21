@@ -2,6 +2,8 @@
 id: tiffany-feng
 title: Tiffany Feng
 image: Tiffany Feng.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]

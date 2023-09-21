@@ -2,6 +2,8 @@
 id: justen-lewis
 title: Justen Lewis
 image: Justen Lewis.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["opm"]
 agency: ["OPM"]

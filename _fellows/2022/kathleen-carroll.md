@@ -2,6 +2,8 @@
 id: kathleen-carroll
 title: Kathleen Carroll
 image: Kathleen Carroll.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["hhs"]
 agency: ["HHS"]

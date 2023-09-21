@@ -2,6 +2,8 @@
 id: chizobam-nwagwu
 title: Chizobam Nwagwu
 image: Chizobam Nwagwu.png
+social: fellow
+social_image:
 fellow_year: 2022
 project: ["cms"]
 agency: ["CMS"]
