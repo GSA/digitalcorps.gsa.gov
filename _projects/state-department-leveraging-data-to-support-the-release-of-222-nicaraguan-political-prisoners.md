@@ -47,7 +47,9 @@ Some additional metrics:
 * Over 650 calls were fielded or placed through the Operations Center for family reunification and support.
 * Parolees’ place of initial settlement included 25 states and Costa Rica.
 
-
-> *“[T]here are not that many moments when you can really say and see directly that something you have done has actually changed someone’s life and changed it for the better.  There are usually too many points of connection along the way to really see it and really feel it, but the experience that each of you has had – in this instance, I hope really makes that connection, makes it powerful, and is something that you’ll take with you throughout your careers and throughout your lives no matter what you do going forward.  It’s simply the most powerful thing that we occasionally have an opportunity to do, and it really is worth reflecting on.”*
->
-> ***- Secretary of State Antony J. Blinken thanking State Department employees ([link](https://www.state.gov/secretary-of-state-antony-j-blinken-at-an-event-thanking-members-of-the-state-department-workforce-who-helped-welcome-222-political-prisoners-from-nicaragua/))***
+<div class="blog-quote-box">
+ <em>“[T]here are not that many moments when you can really say and see directly that something you have done has actually changed someone’s life and changed it for the better.  There are usually too many points of connection along the way to really see it and really feel it, but the experience that each of you has had – in this instance, I hope really makes that connection, makes it powerful, and is something that you’ll take with you throughout your careers and throughout your lives no matter what you do going forward.  It’s simply the most powerful thing that we occasionally have an opportunity to do, and it really is worth reflecting on.”</em>
+<br>
+<br>
+<strong><em>- Secretary of State Antony J. Blinken thanking State Department employees (<a href="https://www.state.gov/secretary-of-state-antony-j-blinken-at-an-event-thanking-members-of-the-state-department-workforce-who-helped-welcome-222-political-prisoners-from-nicaragua/">link</a>)</em></strong>
+</div>
