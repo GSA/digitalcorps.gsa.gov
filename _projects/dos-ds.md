@@ -1,7 +1,7 @@
 ---
 id: dos-ds
 agency: "Department of State"
-agency_abbrev: "DOS"
+agency_abbrev: "State"
 agency_logo: "DOS.webp"
 title: "Developing and evaluating countermeasures to protect the State Department's networks worldwide"
 project_name: "Developing and evaluating countermeasures to protect the State Department's networks worldwide"

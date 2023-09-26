@@ -1,7 +1,7 @@
 ---
 id: dos-ca
 agency: "Department of State"
-agency_abbrev: "DOS"
+agency_abbrev: "State"
 agency_logo: "DOS.webp"
 title: "Leveraging data for diplomacy at the State Department"
 project_name: "Leveraging data for diplomacy at the State Department"
