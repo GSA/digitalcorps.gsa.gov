@@ -5,7 +5,7 @@ agency_abbrev: "DOS"
 agency_logo: "DOS.webp"
 title: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
 project_name: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
-summary: "TK"
+summary: "Using a human-centered, empathy-based approach as part of an emergency interagency task force welcoming and supporting 222 political prisoners arriving in the United States."
 partner_description: "The Department of State works to protect and promote U.S. security, prosperity, and democratic values, and shape an international environment in which all Americans can thrive. By promoting data and analytics, the Office of Management Strategy and Solutions Center for Analytics (M/SS/CfA) provides enterprise data management and analytics capabilities to enable data-driven diplomacy within the Department. U.S. Digital Corps Fellows have been supporting M/SS/CfA since 2022. The Nicaragua Operation exemplifies how the science of analytics meets the art of diplomacy."
 project_url: https://www.state.gov/about/
 youtube_url: https://youtu.be/vpej2adw_nc
