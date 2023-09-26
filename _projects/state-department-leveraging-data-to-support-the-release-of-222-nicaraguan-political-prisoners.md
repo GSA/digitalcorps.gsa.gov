@@ -1,7 +1,7 @@
 ---
 id: dos-nica
 agency: "Department of State"
-agency_abbrev: "DOS"
+agency_abbrev: "State"
 agency_logo: "DOS.webp"
 title: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
 project_name: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
@@ -10,6 +10,8 @@ partner_description: "The Department of State works to protect and promote U.S. 
 project_url: https://www.state.gov/about/
 youtube_url: https://youtu.be/vpej2adw_nc
 impact_story_link: state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners
+the_impact: true
+the_solution: false
 skill_set: ["Product management","Data science"]
 tags: ["Data_Science", "Product_Management", "Immigration"]
 impact_area: ["Immigration"]
