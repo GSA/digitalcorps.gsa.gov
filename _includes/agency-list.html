@@ -1,5 +1,5 @@
 <div class="grid-row" id="projectList">
-{% assign sorted = site.projects | sort: 'agency' %}
+{% assign sorted = site.projects | sort: 'impact_story_link' | reverse %}
           {% assign aria_id = press.title | url_encode | truncate: 15, "" %}
           {% for project in sorted %}
           {% assign agency_impact = site.data.agency-impact | where_exp:'impact', "project.impact_area contains impact.display_name" %}
