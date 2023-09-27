@@ -9,7 +9,7 @@ external_url: "https://digital.va.gov/general/wrestling-with-tech-career-fomo-a-
 tags: ['VA']
 type: Blog
 ---
-*This post was originally published in the [DigitalVA blog](https://digital.va.gov/general/wrestling-with-tech-career-fomo-a-new-digital-corps-offers-a-solution/).*
+*This post was originally published on the [DigitalVA blog](https://digital.va.gov/general/wrestling-with-tech-career-fomo-a-new-digital-corps-offers-a-solution/).*
 
 For applicants seeking IT work in mission-driven organizations, the coronavirus pandemic in March 2020 also spurred some serious FOMO (that’s, “Fear of Missing Out,” in case you missed it). Traditional job-hunting challenges faced by early-career IT specialists were suddenly further complicated by a paradoxical new wrinkle: How to sort through the exploding number of remote-based IT jobs that emerged during the pandemic and find a role that has a strong public service focus?
 
