@@ -27,7 +27,7 @@ Earlier this month, both cohorts came together for the first time in Washington,
 </div>
 
 Today, to mark our second anniversary, we are publishing our first agency impact story highlighting Fellows’ early contributions at the Administration for Children and Families, within the Office of Refugee Resettlement:
-- [Improving post-release care to migrant children and sponsors: Standardizing the Safety and Wellbeing Follow Up Calls](https://digitalcorps.gsa.gov/projects/acf-iprc/)
+- [Improving post-release care to migrant children and sponsors: Standardizing the Safety and Wellbeing Follow Up Calls](https://digitalcorps.gsa.gov/projects/acf-improving-post-release-care-to-migrant-children-and-sponsors/)
 
 Additionally, we have seen in the last two years the [importance of storytelling](https://www.performance.gov/blog/digital-corps-update/) and humanizing the work of public servants—both to recruit talent and share best practices across agencies. USDC has shared these reflections and learnings in many locations including Digital.gov, GSA.gov, and agency blogs. 
 
