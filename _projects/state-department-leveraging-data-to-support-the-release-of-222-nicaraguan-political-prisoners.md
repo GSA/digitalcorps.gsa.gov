@@ -1,5 +1,5 @@
 ---
-id: dos-nica
+id: state-nica
 agency: "Department of State"
 agency_abbrev: "State"
 agency_logo: "DOS.webp"
