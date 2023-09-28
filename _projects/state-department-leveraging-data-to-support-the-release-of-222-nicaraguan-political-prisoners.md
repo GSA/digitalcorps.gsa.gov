@@ -1,7 +1,7 @@
 ---
 id: dos-nica
 agency: "Department of State"
-agency_abbrev: "State"
+agency_abbrev: "Department of State"
 agency_logo: "DOS.webp"
 title: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
 project_name: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
