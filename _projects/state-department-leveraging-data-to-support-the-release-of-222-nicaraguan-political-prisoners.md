@@ -1,5 +1,5 @@
 ---
-id: dos-nica
+id: state-nica
 agency: "Department of State"
 agency_abbrev: "Department of State"
 agency_logo: "DOS.webp"
@@ -17,6 +17,10 @@ tags: ["Data_Science", "Product_Management", "Immigration"]
 impact_area: ["Immigration"]
 status: ["current"]
 ---
+
+<div>
+  {% asset "state_nica_image.jpeg" class="" alt="Department of State workers standing outside building." %}
+</div>
 
 ## The challenge
 Amid almost 5 years of massive political suppression and imprisonment of hundreds of political rivals, activists, students, journalists, business and religious leaders, and members of civil society at large, on February 9, 2023, Nicaraguan president Daniel Ortega suddenly announced the release of 222 political prisoners into U.S. custody. At the time of their release, the Nicaraguan government stripped the parolees of their citizenship, rendering them stateless. The State Department in partnership with Department of Homeland Security Customs and Border Protection, U.S. Agency for International Development, Department of Health and Human Services, Executive Office of the President, non-governmental organizations (NGOs), and Virginia state and local agencies, quickly mobilized a task force to accomplish three primary goals in response to this humanitarian crisis: 
