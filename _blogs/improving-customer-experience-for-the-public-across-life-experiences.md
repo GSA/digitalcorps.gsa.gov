@@ -1,12 +1,12 @@
 ---
-id: no-id
+id: cx-life-experience-2023-10
 title: 'USDC Fellow Perspectives: Improving customer experience for the public across life experiences'
 image: 
-author: Samantha Noshin Noor, Kennedy Alexis, Louisa Sholar
+author: Chris Kuang
 published_at: "2023-10-03"
-summary: ""
+summary: "Three USDC Fellows share their work supporting two inaugural life experience projects at the Department of Health and Human Services: Having a Child and Early Childhood, and Facing a Financial Shock."
 external_url: ""
-tags: ['Design', 'Product_Management']
+tags: ['Design', 'Product_Management','HHS','Public_experience']
 type: Blog
 ---
 
