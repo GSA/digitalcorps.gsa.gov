@@ -1,16 +1,14 @@
 ---
 id: no-id
-title: 'Title TBD'
+title: 'USDC Fellow Perspectives: Improving customer experience for the public across life experiences'
 image: 
-author: Samantha Noshin Noor, Kennedy Alexis
-published_at: "2023-09-29"
+author: Samantha Noshin Noor, Kennedy Alexis, Louisa Sholar
+published_at: "2023-10-03"
 summary: ""
 external_url: ""
 tags: ['Design', 'Product_Management']
 type: Blog
 ---
-
-*This post was originally published as a press release on [TBA]().*
 
 In December 2021, President Joe Biden signed the [Executive Order](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/) on Transforming Federal Customer Experience and Service Delivery to Rebuild Trust in Government. The Executive Order laid out a new vision for customer experience (CX), defined as the public perception and overall satisfaction with interactions with any government agency, product, or service, to be prioritized under the [President’s Management Agenda](https://www.performance.gov/pma/cx/). As part of the Executive Order’s mandate, federal agencies have been asked to focus on significant events or transitions that members of the public encounter in their lives (“life experiences”) that often require interactions and touchpoints with multiple federal agencies. These [inaugural “Life Experience” projects](https://www.performance.gov/cx/projects/) aim to improve government CX across the lifespan from birth through retirement and to build a new, human-centered approach to government. 
 
@@ -36,5 +34,4 @@ As a designer, I draw on a variety of disciplines and subdisciplines in my work,
 
 In my role, I help ensure the resources we develop for states reflect key design and service design best practices and help guide our working groups through the design and discovery sprints we use to gather feedback. I’m also helping design a new federal benefits evaluation framework that will encourage states to focus on program outcomes and CX metrics rather than fraud detection and program integrity alone. By leveraging that approach, we hope to drive culture at the local, state, and national levels to redefine what success should look like within benefits delivery and make metrics consistent across programs. That’s part of what makes working on a Life Experience project unique within government: when we explicitly center members of the public and their needs in terms of policy or program outcomes, we often end up with different strategies to better meet those goals.
 
-*U.S. Digital Corps Fellows work on high-impact projects across government. … stay tuned to our blog etc etc subscribe and follow. Read more about all projects below. 
-Applications for our 2024 Fellow cohort will open sometime this fall…*
+*U.S. Digital Corps Fellows work on [high-impact projects](https://digitalcorps.gsa.gov/projects/) across government. Applications for our 2024 Fellow cohort will open this fall. Subscribe to [our newsletter](https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_108) and follow us on [Twitter](https://twitter.com/usdigitalcorps) and [LinkedIn](https://www.linkedin.com/company/74725557/admin/feed/posts/) to stay updated on upcoming events and opportunities to apply.
