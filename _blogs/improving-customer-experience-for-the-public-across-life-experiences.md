@@ -39,5 +39,4 @@ In my role, I help ensure the resources we develop for states reflect key design
 
 ---
 
-_U.S. Digital Corps Fellows work on [high-impact projects](https://digitalcorps.gsa.gov/projects/) across government. Applications for our 2024 Fellow cohort will open this fall. Subscribe to [our newsletter](https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_108) and follow us on [Twitter](https://twitter.com/usdigitalcorps) and [LinkedIn](https://www.linkedin.com/company/74725557/admin/feed/posts/) to stay updated on upcoming events and opportunities to apply.
-_
+_U.S. Digital Corps Fellows work on [high-impact projects](https://digitalcorps.gsa.gov/projects/) across government. Applications for our 2024 Fellow cohort will open this fall. Subscribe to [our newsletter](https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_108) and follow us on [Twitter](https://twitter.com/usdigitalcorps) and [LinkedIn](https://www.linkedin.com/company/74725557/admin/feed/posts/) to stay updated on upcoming events and opportunities to apply._
