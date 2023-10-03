@@ -1,7 +1,7 @@
 ---
 id: cx-life-experience-2023-10
 title: 'Fellow Perspectives: Improving customer experience for the public across life experiences'
-image: 10-3_Blog_v2.png
+image: 10-3_Blog_v3.png
 author: Chris Kuang
 published_at: "2023-10-03"
 summary: "Three USDC Fellows share their work supporting two inaugural life experience projects at the Department of Health and Human Services: Having a Child and Early Childhood, and Facing a Financial Shock."
