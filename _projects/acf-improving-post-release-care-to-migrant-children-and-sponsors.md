@@ -1,5 +1,5 @@
 ---
-id: acf-iprc
+id: acf-improving-post-release-care-to-migrant-children-and-sponsors
 agency: "Administration for Children and Families"
 agency_abbrev: "ACF"
 agency_logo: "ACF.webp"
@@ -20,6 +20,8 @@ skill_set: ['Product management', 'Design', 'Cybersecurity']
 tags: ['Product_Management', 'Design', 'Cybersecurity', 'Immigration']
 impact_area: ["Immigration"]
 status: ["current"]
+redirect_from:
+  - /projects/acf-iprc/
 ---
 
 ## The challenge
