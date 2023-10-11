@@ -14,6 +14,8 @@ impact_area: ["Health"]
 status: ["current"]
 ---
 
+## *About HHS* {#the-about}
+
 ## The challenge
 
 ## The approach

@@ -12,6 +12,7 @@ tags: ['Data_Science', 'Equity', 'Public_experience']
 impact_area: ['Equity', 'Public experience']
 status: ["current"]
 ---
+## *About USDA* {#the-about}
 
 ## The challenge
 

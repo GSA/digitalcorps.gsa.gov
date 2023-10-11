@@ -13,6 +13,8 @@ impact_area: ['Health', 'Open science', 'Cybersecurity']
 status: ["current"]
 ---
 
+## *About NIH* {#the-about}
+
 ## The challenge
 
 ## The approach

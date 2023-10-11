@@ -13,6 +13,8 @@ impact_area: ["Open science"]
 status: ["current"]
 ---
 
+## *About DTIC* {#the-about}
+
 ## The challenge
 
 ## The approach

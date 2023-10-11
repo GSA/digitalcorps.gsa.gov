@@ -13,6 +13,8 @@ impact_area: ["Cybersecurity"]
 status: ["current"]
 ---
 
+## *About State* {#the-about}
+
 ## The challenge
 
 ## The approach

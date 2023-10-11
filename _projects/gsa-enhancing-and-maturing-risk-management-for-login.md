@@ -14,7 +14,7 @@ impact_area: ["Cybersecurity"]
 status: ["current"]
 ---
 
-
+## *About GSA* {#the-about}
 
 ## The challenge
 

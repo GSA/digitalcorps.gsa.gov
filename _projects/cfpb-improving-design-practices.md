@@ -13,6 +13,7 @@ tags: ['Data_Science','Design', 'Equity']
 impact_area: ["Equity"]
 status: ["current"]
 ---
+## *About CFPB* {#the-about}
 
 ## The challenge
 

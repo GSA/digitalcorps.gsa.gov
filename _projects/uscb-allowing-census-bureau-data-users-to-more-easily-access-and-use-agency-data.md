@@ -14,6 +14,8 @@ impact_area: ["Capacity building", "Public experience"]
 status: ["current"]
 ---
 
+## *About USCB* {#the-about}
+
 ## The challenge
 
 ## The approach

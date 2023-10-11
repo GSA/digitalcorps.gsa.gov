@@ -14,6 +14,8 @@ impact_area: ["Health", "Public experience"]
 status: ["current"]
 ---
 
+## *About VA* {#the-about}
+
 ## The challenge
 
 ## The approach

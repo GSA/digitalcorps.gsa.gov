@@ -14,7 +14,7 @@ impact_area: ["Public experience"]
 status: ["current"]
 ---
 
-
+## *About GSA* {#the-about}
 
 ## The challenge
 
