@@ -12,7 +12,7 @@ impact_story_link: hhs-enhancing-health-equity-by-bringing-the-experiences-of-pe
 the_impact: true
 the_solution: false
 skill_set: ['Design']
-tags: ['Health','Design']
+tags: ['Health','Design', 'HHS']
 impact_area: ["Health"]
 status: ["current"]
 ---
