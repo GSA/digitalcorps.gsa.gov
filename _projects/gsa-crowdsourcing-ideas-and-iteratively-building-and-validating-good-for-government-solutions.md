@@ -6,7 +6,6 @@ agency_logo: "GSA.webp"
 title: "Crowdsourcing ideas and iteratively building and validating good-for-government solutions"
 project_name: "Crowdsourcing ideas and iteratively building and validating good-for-government solutions"
 summary: "Supporting ideas from federal employees about how technology can improve customer experience as part of the General Services Administration's 10x program."
-partner_description: 
 project_url: https://www.gsa.gov/about-us/mission-and-background
 youtube_url: https://youtu.be/CLFiHE7j5p4
 skill_set: ['Software Engineering', 'Design']
@@ -15,7 +14,7 @@ impact_area: ["Public experience"]
 status: ["current"]
 ---
 
-
+## *About GSA* {#the-about}
 
 ## The challenge
 
