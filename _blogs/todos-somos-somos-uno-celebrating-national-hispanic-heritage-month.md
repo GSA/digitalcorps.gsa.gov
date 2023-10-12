@@ -4,13 +4,13 @@ title: 'Todos Somos, Somos Uno: Celebrating National Hispanic Heritage Month'
 image: 2023-hhm.jpeg
 author: Chris Kuang
 published_at: "2023-10-13"
-summary: "TK"
+summary: "Six U.S. Digital Corps Fellows share their Latinx heritage and reflect on how they show up as their full selves to serve the public through technology."
 external_url: ""
 tags: ['GSA','CMS','ACF','OSTP','VA',]
 type: Blog
 ---
 
-(TKTKTKTKTK) This [National Hispanic Heritage Month](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/09/14/a-proclamation-on-national-hispanic-heritage-month-2023/), we asked some of our Fellows to share their journeys into public service and how their Latin/Hispanic heritage and identity inspire and empower them to create a more effective and equitable government. This year’s Hispanic Heritage Month theme is “​​Todos Somos, Somos Uno – We Are All, We Are One,” which celebrates the diverse voices and points of view within the Hispanic community.
+This [National Hispanic Heritage Month](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/09/14/a-proclamation-on-national-hispanic-heritage-month-2023/), we asked several of our Fellows to reflect and share how they bring their Latin/Hispanic heritage and identities to their work as civic technologists across the federal government. This year’s Hispanic Heritage Month theme is “​​Todos Somos, Somos Uno – We Are All, We Are One,” which celebrates the diverse voices and points of view within the Hispanic community. The U.S. Digital Corps is [proud to have Fellows](https://digitalcorps.gsa.gov/fellows/) who represent the diversity of the American public that we serve, and we are also proud that our Fellows support work that serves the Hispanic community through programs such as [USAGov en Español](https://www.usa.gov/es/).  
 
 ## Melissa Guzman
 
@@ -169,3 +169,6 @@ By working in public service, I aim to leverage my skills in data science and te
 I am currently immersed in a project at the National AI Institute within the Department of  Veterans Affairs that combines computer vision and natural language processing to automate the early detection of critical diseases. Our project’s primary aim is to revolutionize healthcare for veterans by providing a powerful tool for identifying harmful diseases at their earliest stages. 
 
 My passion for working for the public and underrepresented people in society is at the core of this project’s mission. By developing AI algorithms, we not only aim to enhance the efficiency of disease detection but also increase accessibility to quality healthcare. Our work has the potential to break down barriers that underserved communities often face when it comes to timely and accurate medical diagnosis. Through this project, I aspire to help improve healthcare outcomes for veterans and, by extension, for all individuals who may have limited access to healthcare resources.
+
+---
+_U.S. Digital Corps Fellows work on [high-impact projects](https://digitalcorps.gsa.gov/projects/) across government. Applications for our 2024 Fellow cohort will open this fall. Subscribe to [our newsletter](our newsletter) and follow us on [Twitter](https://twitter.com/usdigitalcorps) and [LinkedIn](https://www.linkedin.com/company/74725557/admin/feed/posts/) to stay updated on upcoming events and opportunities to apply._
