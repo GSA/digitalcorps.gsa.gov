@@ -6,7 +6,6 @@ agency_logo: "GSA.webp"
 title: "Enhancing and maturing risk management for Login.gov"
 project_name: "Enhancing and maturing risk management for Login.gov"
 summary: "Helping secure the General Services Administration's Login.gov from cybersecurity threats."
-partner_description: 
 project_url: https://www.gsa.gov/about-us/mission-and-background
 youtube_url: https://youtu.be/CLFiHE7j5p4
 skill_set: ['Cybersecurity']
@@ -15,7 +14,7 @@ impact_area: ["Cybersecurity"]
 status: ["current"]
 ---
 
-
+## *About GSA* {#the-about}
 
 ## The challenge
 
