@@ -6,11 +6,6 @@ agency_logo: "ACF.webp"
 title: "Improving post-release care to migrant children and sponsors"
 project_name: "Improving post-release care to migrant children and sponsors: Standardizing the Safety and Wellbeing Follow Up Calls"
 summary: "Helping the Office of Refugee Resettlement at the Administration of Children and Families ensure that the thousands of unaccompanied children that enter HHS care each month are safe, thriving, and swiftly united with a sponsor through technology delivery and design."
-partner_description: "The Office of Refugee Resettlement (ORR), within the Administration for Children and Families (ACF), helps new populations maximize their potential in the United States by linking them to critical resources that assist them in becoming integrated members of American society. In addition to resettlement services, ORR runs the Unaccompanied Children (UC) program. ORR has provided care for and found suitable sponsors for over 410,000 unaccompanied children.
-
-Unaccompanied children apprehended by Department of Homeland Security immigration officials are transferred to the care and custody of ORR. ORR promptly places unaccompanied children in the least restrictive setting that is in the best interests of each child, who is provided age-appropriate care and wraparound services in one of the approximately 200 state-licensed facilities and programs funded by ORR in 22 states. As soon as children enter ORR care, they are put in contact with their parents, guardians, or relatives, if known, and the process of finding a suitable sponsor begins. ORR evaluates potential sponsors’ ability to provide for the child’s physical and mental well-being, as required by law. Once ORR approves an unaccompanied child for release, the care provider collaborates with the sponsor to ensure physical discharge happens as quickly as possible.
-
-ACF Tech, a division within ACF, seeks to deliver reliable, purposeful, and secure technology, data, and innovation to advance the ACF mission. ACF Tech’s U.S. Digital Corps Fellows are working to improve the technology within the UC program by modernizing its core technology platform and building supplemental applications."
 project_url: https://www.acf.hhs.gov/about/acf-vision-mission-values
 youtube_url: https://youtu.be/1aPNfOxbQyc
 impact_story_link: acf-improving-post-release-care-to-migrant-children-and-sponsors
@@ -23,6 +18,14 @@ status: ["current"]
 redirect_from:
   - /projects/acf-iprc/
 ---
+
+## *About ACF* {#the-about}
+
+The Office of Refugee Resettlement (ORR), within the Administration for Children and Families (ACF), helps new populations maximize their potential in the United States by linking them to critical resources that assist them in becoming integrated members of American society. In addition to resettlement services, ORR runs the Unaccompanied Children (UC) program. ORR has provided care for and found suitable sponsors for over 410,000 unaccompanied children.
+
+Unaccompanied children apprehended by Department of Homeland Security immigration officials are transferred to the care and custody of ORR. ORR promptly places unaccompanied children in the least restrictive setting that is in the best interests of each child, who is provided age-appropriate care and wraparound services in one of the approximately 200 state-licensed facilities and programs funded by ORR in 22 states. As soon as children enter ORR care, they are put in contact with their parents, guardians, or relatives, if known, and the process of finding a suitable sponsor begins. ORR evaluates potential sponsors’ ability to provide for the child’s physical and mental well-being, as required by law. Once ORR approves an unaccompanied child for release, the care provider collaborates with the sponsor to ensure physical discharge happens as quickly as possible.
+
+ACF Tech, a division within ACF, seeks to deliver reliable, purposeful, and secure technology, data, and innovation to advance the ACF mission. ACF Tech’s U.S. Digital Corps Fellows are working to improve the technology within the UC program by modernizing its core technology platform and building supplemental applications.
 
 ## The challenge
 ORR’s care providers must conduct a Safety and Well Being (SWB) Follow-Up Call with an unaccompanied child and their sponsor 30 days after the child’s release. The purpose of the follow-up call is to determine whether the child is still residing with the sponsor, is enrolled in or attending school, is aware of upcoming court dates, and is safe.
