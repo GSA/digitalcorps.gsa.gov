@@ -41,6 +41,13 @@ I’m working as a software engineer at the Centers for Medicare and Medicaid Se
 
 Celebrating diversity to me means acknowledging our differences, being open to learning more about our differences, and appreciating those differences. When you engage in learning about a different culture, you are affirming the identity of your co-workers, your student peers, and others around you. In turn, doing so facilitates a space in which people feel they can be their authentic selves which is vital to a thriving, collaborative environment. Celebrating diversity means respect. It means uplifting the voices of people of different identities. They are the ones who share their experiences, identities, and cultures. You do not assume or tell their stories. Instead, you make space to listen and learn from what they share. 
 
+<figure style="display: flex; flex-flow: column; padding: 5px; margin: auto;">
+  {% asset "gsa_8223_-23.jpg" class="" alt="temporary alt text" %}
+  <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
+    TYPE CAPTION HERE
+  </figcaption>
+</figure>
+
 ## Vivian Vasquez
 
 ### How do you identify?
@@ -68,6 +75,13 @@ My main hesitancy was being unsure if the federal government was a place where I
 Celebrating diversity to me is synonymous with gratitude. Celebrating diversity means that when someone brings an unfamiliar perspective to the table, we welcome it with open arms because it provides us with an opportunity to expand our mindset and consider the world as much more textured than we had previously imagined. Diversity should not be considered a problem to tackle, a quota to meet, or a barrier to overcome. Instead, diversity should be understood as a way to more accurately understand the world that we live in. During Hispanic Heritage Month, I’m reminded to not only cherish the perspective I bring as a Mexican-American, but also to feel thankful whenever I get the chance to hear the perspective of a Latinx person with a vastly different life experience than me, whether that be because we differ in ethnic background, socioeconomic circumstances, or age.
 
 ## Yaritza M. García Chaparro
+
+<figure style="display: flex; flex-flow: column; padding: 5px; margin: auto;">
+  {% asset "gsa_8223_-275.jpg" class="" alt="temporary alt text" %}
+  <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
+    TYPE CAPTION HERE
+  </figcaption>
+</figure>
 
 ### How do you identify?
 
@@ -158,6 +172,13 @@ I was given the opportunity to help organize a convening of federal women data l
 To me, celebrating diversity means cherishing the color that people’s experiences give to the world. Like a big hug, celebrating diversity is about embracing each other's stories and holding them close.  
 
 ## Lylybell Teran
+
+<figure style="display: flex; flex-flow: column; padding: 5px; margin: auto;">
+  {% asset "gsa_8223_-237.jpg" class="" alt="temporary alt text" %}
+  <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
+    TYPE CAPTION HERE
+  </figcaption>
+</figure>
 
 ### How do you identify?
 
