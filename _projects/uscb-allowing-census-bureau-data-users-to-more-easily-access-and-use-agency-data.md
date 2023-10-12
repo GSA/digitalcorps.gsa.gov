@@ -14,7 +14,7 @@ impact_area: ["Capacity building", "Public experience"]
 status: ["current"]
 ---
 
-## *About USCB* {#the-about}
+## *About the Census Bureau* {#the-about}
 
 ## The challenge
 
