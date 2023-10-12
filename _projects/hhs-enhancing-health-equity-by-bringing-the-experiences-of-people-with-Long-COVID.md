@@ -30,6 +30,10 @@ As of May 2022, one million American lives were lost to COVID-19. [Roughly 6% of
 ## The approach
 A U.S. Digital Corps design fellow supported the creation of the [Health+ Long COVID Report](https://www.hhs.gov/sites/default/files/healthplus-long-covid-report.pdf), highlighting the experiences of people with Long COVID and defining solutions. The Fellow helped lead a research team that completed over 1,000 hours of interviews and four workshops, all designed to listen and learn from people who are or were affected by Long COVID, caregivers, and practitioners. 
 
+<div style="width=80%;">
+  {% asset "healthplus-long-covid-report-p14.jpg" class="" alt="The introduction page (page 14) from the Health+ Long COVID report with a quote and illustration of a mother and her child in the bottom right." %}
+</div>
+
 The report includes patient archetypes, journey maps, and opportunity areas for action. The insights from this report will focus attention and interventions in areas that matter the most to the community, as determined by patients and those with first-hand, lived experience with Long COVID.
 
 The Health+ Long COVID work enhances interagency efforts on Long COVID, partly in response to [the President’s Memorandum on the Long-Term Effects of COVID-19](https://www.whitehouse.gov/briefing-room/presidential-actions/2022/04/05/memorandum-on-addressing-the-long-term-effects-of-covid-19/).
