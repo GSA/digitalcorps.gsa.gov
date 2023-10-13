@@ -1,7 +1,7 @@
 ---
 id: hispanic-heritage-month-2023
 title: 'Todos Somos, Somos Uno: Celebrating National Hispanic Heritage Month'
-image: 2023-hhm.jpeg
+image: 2023-hhm.webp
 author: Chris Kuang
 published_at: "2023-10-13"
 summary: "Six U.S. Digital Corps Fellows share their Latinx heritage and reflect on how they show up as their full selves to serve the public through technology."
@@ -13,7 +13,7 @@ type: Blog
 This [National Hispanic Heritage Month](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/09/14/a-proclamation-on-national-hispanic-heritage-month-2023/), we asked several of our Fellows to reflect and share how they bring their Latinx/Hispanic heritage and identities to their work as civic technologists across the federal government. This year’s Hispanic Heritage Month theme is “​​Todos Somos, Somos Uno – We Are All, We Are One,” which celebrates the diverse voices and points of view within the Hispanic community. The U.S. Digital Corps (USDC) is [proud to have Fellows](https://digitalcorps.gsa.gov/fellows/) who represent the diversity of the American public that we serve, and we are also proud that our Fellows support work that serves the Hispanic community through programs such as [USAGov en Español](https://www.usa.gov/es/).  
 
 <figure style="width: 80%; display: flex; flex-flow: column; padding: 5px; margin: auto;">
-  {% asset "2023-hhm.jpeg" class="" alt="A collage of six U.S. Digital Corps Fellow headshots on a blue patterned background with orange flowers superimposed." %}
+  {% asset "2023-hhm.webp" class="" alt="A collage of six U.S. Digital Corps Fellow headshots on a blue patterned background with orange flowers superimposed." %}
   <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
     U.S. Digital Corps Fellows (clockwise from top left): Eduardo Perez, Lylybell Teran, Vivian Vasquez, Yaritza M. García Chaparro, Melissa Guzman, and Bella Mendoza.
   </figcaption>
@@ -42,7 +42,7 @@ I’m working as a software engineer at the Centers for Medicare and Medicaid Se
 Celebrating diversity to me means acknowledging our differences, being open to learning more about our differences, and appreciating those differences. When you engage in learning about a different culture, you are affirming the identity of your co-workers, your student peers, and others around you. In turn, doing so facilitates a space in which people feel they can be their authentic selves which is vital to a thriving, collaborative environment. Celebrating diversity means respect. It means uplifting the voices of people of different identities. They are the ones who share their experiences, identities, and cultures. You do not assume or tell their stories. Instead, you make space to listen and learn from what they share. 
 
 <figure style="width: 80%; display: flex; flex-flow: column; padding: 5px; margin: auto;">
-  {% asset "gsa_8223_-23.jpg" class="" alt="Two seated women speaking with each other with a cluttered tabletop in the foreground and other people in the background." %}
+  {% asset "gsa_8223_-23.webp" class="" alt="Two seated women speaking with each other with a cluttered tabletop in the foreground and other people in the background." %}
   <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
     U.S. Digital Corps Fellows Yaritza M. García Chaparro (left) and Melissa Guzman (right) at their USDC orientation in Washington, D.C.
   </figcaption>
@@ -77,7 +77,7 @@ Celebrating diversity to me is synonymous with gratitude. Celebrating diversity 
 ## Yaritza M. García Chaparro
 
 <figure style="width: 80%; display: flex; flex-flow: column; padding: 5px; margin: auto;">
-  {% asset "gsa_8223_-275.jpg" class="" alt="Two seated women smiling looking to the right off screen. There are water bottles, notebooks, and cell phones on the table in front of them and people in the background." %}
+  {% asset "gsa_8223_-275.webp" class="" alt="Two seated women smiling looking to the right off screen. There are water bottles, notebooks, and cell phones on the table in front of them and people in the background." %}
   <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
     USDC Fellows Bella Mendoza (left) and Yaritza M. García Chaparro at their onsite orientation in Washington, D.C.
   </figcaption>
@@ -174,7 +174,7 @@ To me, celebrating diversity means cherishing the color that people’s experien
 ## Lylybell Teran
 
 <figure style="width: 80%; display: flex; flex-flow: column; padding: 5px; margin: auto;">
-  {% asset "gsa_8223_-237.jpg" class="" alt="Four women seated in a row smiling to the right off screen." %}
+  {% asset "gsa_8223_-237.webp" class="" alt="Four women seated in a row smiling to the right off screen." %}
   <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
     USDC Fellows (left to right) Vivian Vasquez, Chloe Hall, Lylybell Teran, and Jamie Lambert at the White House during their orientation.
   </figcaption>
