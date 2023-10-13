@@ -6,7 +6,7 @@ author: Chris Kuang
 published_at: "2023-10-13"
 summary: "Six U.S. Digital Corps Fellows share their Latinx heritage and reflect on how they show up as their full selves to serve the public through technology."
 external_url: ""
-tags: ['GSA','CMS','ACF','OSTP','VA',]
+tags: ['GSA','CMS','ACF','OSTP','VA']
 type: Blog
 ---
 
