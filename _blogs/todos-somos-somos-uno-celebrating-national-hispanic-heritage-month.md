@@ -10,7 +10,7 @@ tags: ['GSA','CMS','ACF','OSTP','VA',]
 type: Blog
 ---
 
-This [National Hispanic Heritage Month](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/09/14/a-proclamation-on-national-hispanic-heritage-month-2023/), we asked several of our Fellows to reflect and share how they bring their Latinx/Hispanic heritage and identities to their work as civic technologists across the federal government. This year’s Hispanic Heritage Month theme is “​​Todos Somos, Somos Uno – We Are All, We Are One,” which celebrates the diverse voices and points of view within the Hispanic community. The U.S. Digital Corps (USDC) is [proud to have Fellows](https://digitalcorps.gsa.gov/fellows/) who represent the diversity of the American public that we serve, and we are also proud that our Fellows support work that serves the Hispanic community through programs such as [USAGov en Español](https://www.usa.gov/es/).  
+This [National Hispanic Heritage Month](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/09/14/a-proclamation-on-national-hispanic-heritage-month-2023/), we asked several of our Fellows to reflect and share how they bring their Latinx/Hispanic heritage and identities to their work as civic technologists across the federal government. This year’s Hispanic Heritage Month theme is “​​Todos Somos, Somos Uno – We Are All, We Are One,” which celebrates the diverse voices and points of view within the Hispanic community. The U.S. Digital Corps (USDC) is [proud to have Fellows](https://digitalcorps.gsa.gov/fellows/) who represent the diversity of the American public that we serve, and we are also proud that our Fellows support work that serves the Hispanic community through programs such as [USAGov en Español](https://www.usa.gov/es/). 
 
 <figure style="width: 80%; display: flex; flex-flow: column; padding: 5px; margin: auto;">
   {% asset "2023-hhm.webp" class="" alt="A collage of six U.S. Digital Corps Fellow headshots on a blue patterned background with orange flowers superimposed." %}
@@ -56,7 +56,7 @@ I identify as Mexican-American. I’m a proud Chicana from Los Angeles, Californ
 
 ### How do you show up as Latinx? Why is that important to you?
 
-Showing up as Latinx to me means building community whenever possible, whether it be attending Latinx in tech affinity spaces when I can, patronizing Latinx owned businesses, bantering in Spanish with my Latinx friends who are also trying to improve their Spanish, or simply making time to visit my family. Showing up as a Latina in every space I inhabit is important to me because I firmly believe that when we show up as our truest selves, it’s much easier to find common ground with others and to generate trust with one another.  
+Showing up as Latinx to me means building community whenever possible, whether it be attending Latinx in tech affinity spaces when I can, patronizing Latinx owned businesses, bantering in Spanish with my Latinx friends who are also trying to improve their Spanish, or simply making time to visit my family. Showing up as a Latina in every space I inhabit is important to me because I firmly believe that when we show up as our truest selves, it’s much easier to find common ground with others and to generate trust with one another. 
 
 ### What drove you to join the U.S. Digital Corps and work in public service?
 
@@ -68,7 +68,7 @@ I’m working as a data scientist for the Centers for Medicare and Medicaid Serv
 
 ### What were some hesitancies you had before considering a role in the federal government?
 
-My main hesitancy was being unsure if the federal government was a place where I could show up as my full self to work. Being a lesbian and a Latina,  I often fear that being casually open about my identities will seem unprofessional, even if mentioned in passing. However, working in the federal government these last few months, I’ve felt nothing but unwavering support from my coworkers and managers. Everyone is concerned first and foremost with providing the most efficient and equitable services to our constituents, irrespective of, but also attending to the diverse needs of the American public in such a way that I know that my identities will never be anything I feel compelled to shy away from mentioning. 
+My main hesitancy was being unsure if the federal government was a place where I could show up as my full self to work. Being a lesbian and a Latina, I often fear that being casually open about my identities will seem unprofessional, even if mentioned in passing. However, working in the federal government these last few months, I’ve felt nothing but unwavering support from my coworkers and managers. Everyone is concerned first and foremost with providing the most efficient and equitable services to our constituents, irrespective of, but also attending to the diverse needs of the American public in such a way that I know that my identities will never be anything I feel compelled to shy away from mentioning. 
 
 ### What does celebrating diversity mean to you?
 
@@ -149,7 +149,7 @@ I identify as Mexican-Ecuadorian-American. My family is from Guayaquil, Ecuador;
 
 ### How do you show up as Latinx? Why is that important to you?
 
-My voyage through the tech field has been sprinkled with moments of realizing that seeing a lack of people who reflect my identities has affected me more than I ever thought it would. Carrying my Latinx identity with me in all of the spaces I occupy is very important to me, because I hope that by doing so, people will look out and notice that we are occupying and do belong in these spaces. 
+My voyage through the tech field has been sprinkled with moments of realizing that seeing a lack of people who reflect my identities has affected me more than I ever thought it would. Carrying my Latinx identity with me in all of the spaces I am in is very important to me, because I hope that by doing so, people will look out and notice that we are present in and do belong in these spaces. 
 
 Occupying space in the data science world as a Mexican-Ecuadorian-American is particularly meaningful to me because the beauty of data is found in the diversity and stories of the people it represents. Being able to interact with data as a person from a colorful Latinx background brings me joy.
 
@@ -161,15 +161,15 @@ One trait that I’ve proudly inherited from my Latinx family is that we like to
 
 ### Can you tell us a bit about the project you are currently working on? What is the impact you hope to have for the public?
 
-I work for the data team at the White House Office of Science and Technology Policy. A major component of our work is to use data science methods to measure equity across various federal programs. 
+I work for the tech team at the White House Office of Science and Technology Policy. A major component of our work is to leverage data to advance equity. 
 
 ### What is your proudest moment so far in government?
 
-I was given the opportunity to help organize a convening of federal women data leaders. One of my proudest moments in government so far was looking out into that room and feeling empowered by all of the diverse voices present.  
+I was given the opportunity to help organize a convening of federal women data leaders. One of my proudest moments in government so far was looking out into that room and feeling empowered by all of the diverse voices present. 
 
 ### What does celebrating diversity mean to you?
 
-To me, celebrating diversity means cherishing the color that people’s experiences give to the world. Like a big hug, celebrating diversity is about embracing each other's stories and holding them close.  
+To me, celebrating diversity means cherishing the color that people’s experiences give to the world. Like a big hug, celebrating diversity is about embracing each other's stories and holding them close. 
 
 ## Lylybell Teran
 
@@ -194,7 +194,7 @@ My passion for advocating for my community through technology drove me to join t
 By working in public service, I aim to leverage my skills in data science and technology to advocate for initiatives that address these disparities and promote equitable opportunities for all. My personal experiences of being the only Hispanic woman in many machine learning and artificial intelligence (AI) environments have fueled my determination to be a trailblazer for others who aspire to make a difference in the field. I firmly believe that diverse voices and perspectives are essential in shaping the future of technology and government, and I want to be part of that transformation. 
 
 ### Can you tell us a bit about the project you are currently working on? What is the impact you hope to have for the public?
-I am currently immersed in a project at the National AI Institute within the Department of  Veterans Affairs that combines computer vision and natural language processing to automate the early detection of critical diseases. Our project’s primary aim is to revolutionize healthcare for veterans by providing a powerful tool for identifying harmful diseases at their earliest stages. 
+I am currently immersed in a project at the National AI Institute within the Department of Veterans Affairs that combines computer vision and natural language processing to automate the early detection of critical diseases. Our project’s primary aim is to revolutionize healthcare for veterans by providing a powerful tool for identifying harmful diseases at their earliest stages. 
 
 My passion for working for the public and underrepresented people in society is at the core of this project’s mission. By developing AI algorithms, we not only aim to enhance the efficiency of disease detection but also increase accessibility to quality healthcare. Our work has the potential to break down barriers that underserved communities often face when it comes to timely and accurate medical diagnosis. Through this project, I aspire to help improve healthcare outcomes for veterans and, by extension, for all individuals who may have limited access to healthcare resources.
 
