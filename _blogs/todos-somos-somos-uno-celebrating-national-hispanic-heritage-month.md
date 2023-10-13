@@ -10,7 +10,7 @@ tags: ['GSA','CMS','ACF','OSTP','VA',]
 type: Blog
 ---
 
-This [National Hispanic Heritage Month](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/09/14/a-proclamation-on-national-hispanic-heritage-month-2023/), we asked several of our Fellows to reflect and share how they bring their Latin/Hispanic heritage and identities to their work as civic technologists across the federal government. This year’s Hispanic Heritage Month theme is “​​Todos Somos, Somos Uno – We Are All, We Are One,” which celebrates the diverse voices and points of view within the Hispanic community. The U.S. Digital Corps (USDC) is [proud to have Fellows](https://digitalcorps.gsa.gov/fellows/) who represent the diversity of the American public that we serve, and we are also proud that our Fellows support work that serves the Hispanic community through programs such as [USAGov en Español](https://www.usa.gov/es/).  
+This [National Hispanic Heritage Month](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/09/14/a-proclamation-on-national-hispanic-heritage-month-2023/), we asked several of our Fellows to reflect and share how they bring their Latinx/Hispanic heritage and identities to their work as civic technologists across the federal government. This year’s Hispanic Heritage Month theme is “​​Todos Somos, Somos Uno – We Are All, We Are One,” which celebrates the diverse voices and points of view within the Hispanic community. The U.S. Digital Corps (USDC) is [proud to have Fellows](https://digitalcorps.gsa.gov/fellows/) who represent the diversity of the American public that we serve, and we are also proud that our Fellows support work that serves the Hispanic community through programs such as [USAGov en Español](https://www.usa.gov/es/).  
 
 <figure style="display: flex; flex-flow: column; padding: 5px; margin: auto;">
   {% asset "2023-hhm.jpeg" class="" alt="A collage of six U.S. Digital Corps Fellow headshots on a blue patterned background with orange flowers superimposed." %}
@@ -27,7 +27,7 @@ I identify as Mexican-American.
 
 ### How do you show up as Latinx? Why is that important to you?
 
-This is a very important topic for me! In white-collar spaces, there’s a culture of “white professionalism” where the way people typically conduct themselves is under this white blanket where their culture and other parts of their identities can be erased. I rebel against this standard by standing firmly in my roots which means wearing my Mexican Huichol jewelry, not masking my accent, and otherwise showing up as my whole self. When we mask our identities, we can’t be our authentic selves. We can’t make the genuine connections we want and need to thrive.
+This is a very important topic for me! In workplaces, there can sometimes be a culture of “white professionalism” where the way people are expected to conduct themselves can erase the specific cultures and identities that make us unique individuals. I rebel against this standard by standing firmly in my roots which means wearing my Mexican Huichol jewelry, not masking my accent, and otherwise showing up as my whole self. When we mask our identities, we can’t be our authentic selves. We can’t make the genuine connections we want and need to thrive.
 
 ### What drove you to join the U.S. Digital Corps and work in public service?
 
@@ -127,11 +127,11 @@ What drove me to the U.S. Digital Corps is my commitment to public service. Havi
 
 ### Can you tell us a bit about the project you are currently working on? What is the impact you hope to have for the public?
 
-I am a product manager at the Office on Trafficking in Persons at the Administration for Children and Families. Statistically, a larger majority of the individuals being trafficked originate from the Southern Hemisphere and for those individuals to receive their benefits, they must go through a Case Management System (CMS). I have been tasked with ensuring that the CMS remains operable and in good standing with all our partners.
+I am a product manager at the Office on Trafficking in Persons (OTIP) at the Administration for Children and Families. OTIP maintains a case management system (CMS) to track individuals who have experienced trafficking and ensure they receive the services, support, and benefits they are entitled to. My role is to ensure that the CMS remains operable and in good standing with all our partners.
 
 ### What were some hesitancies you had before considering a role in the federal government?
 
-Unfortunately, when you begin to move up the professional ladder, there are fewer and fewer Latinos and you realize that you can feel detached from what makes you you. Joining the government, you not only see this issue every day, but you begin to worry if it will ever change. However, simply being here is not enough! We must speak up and be willing to be placed in uncomfortable situations to enact change.
+Unfortunately, when you begin to move up the professional ladder, there are fewer and fewer Latinos and you realize that you can feel detached from what makes you you. I didn’t want this to stop me and I know that simply being in government is not enough! We must speak up and be willing to be placed in uncomfortable situations to enact change.
 
 ### What is your proudest moment so far in government?
 
