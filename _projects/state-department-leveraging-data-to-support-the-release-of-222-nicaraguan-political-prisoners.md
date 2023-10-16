@@ -1,12 +1,11 @@
 ---
-id: state-nica
+id: state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners
 agency: "Department of State"
 agency_abbrev: "Department of State"
 agency_logo: "DOS.webp"
 title: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
 project_name: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
 summary: "Using a human-centered, empathy-based approach as part of an emergency interagency task force welcoming and supporting 222 political prisoners arriving in the United States."
-partner_description: "The Department of State works to protect and promote U.S. security, prosperity, and democratic values, and shape an international environment in which all Americans can thrive. By promoting data and analytics, the Office of Management Strategy and Solutions Center for Analytics (M/SS/CfA) provides enterprise data management and analytics capabilities to enable data-driven diplomacy within the Department. U.S. Digital Corps Fellows have been supporting M/SS/CfA since 2022. The Nicaragua 222 Operation exemplifies how the science of analytics meets the art of diplomacy."
 project_url: https://www.state.gov/about/
 youtube_url: https://youtu.be/vpej2adw_nc
 impact_story_link: state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners
@@ -17,6 +16,9 @@ tags: ["Data_Science", "Product_Management", "Immigration"]
 impact_area: ["Immigration"]
 status: ["current"]
 ---
+
+## *About Department of State* {#the-about}
+The Department of State works to protect and promote U.S. security, prosperity, and democratic values, and shape an international environment in which all Americans can thrive. By promoting data and analytics, the Office of Management Strategy and Solutions Center for Analytics (M/SS/CfA) provides enterprise data management and analytics capabilities to enable data-driven diplomacy within the Department. U.S. Digital Corps Fellows have been supporting M/SS/CfA since 2022. The Nicaragua Operation exemplifies how the science of analytics meets the art of diplomacy.
 
 <div>
   {% asset "state_nica_image.jpeg" class="" alt="Department of State workers standing outside building." %}
