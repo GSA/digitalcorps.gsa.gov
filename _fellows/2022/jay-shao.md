@@ -3,7 +3,7 @@ id: jay-shao
 title: Jay Shao
 image: Jay Shao.png
 fellow_year: 2022
-project: ["cms"]
+project: ["cms-developing-a-security-data-lake"]
 agency: ["CMS"]
 hometown: 
 university: California University of Pennsylvania
