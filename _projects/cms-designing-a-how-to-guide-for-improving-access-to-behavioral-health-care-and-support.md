@@ -27,7 +27,7 @@ By hosting early-career technologists through the U.S. Digital Corps (USDC), DSA
 <div class="blog-quote-box">
     <p>“Finding the right care or provider can be a frustrating experience. We need to make it easier for Americans to both find help, and receive it.”
     <br/>
-    — <a href="https://www.whitehouse.gov/briefing-room/statements-releases/2022/03/01/fact-sheet-president-biden-to-announce-strategy-to-address-our-national-mental-health-crisis-as-part-of-unity-agenda-in-his-first-state-of-the-union/">Fact Sheet</a>: President Biden to Announce Strategy to Address Our National Mental Health
+    — <a style="text-decoration: none;" href="https://www.whitehouse.gov/briefing-room/statements-releases/2022/03/01/fact-sheet-president-biden-to-announce-strategy-to-address-our-national-mental-health-crisis-as-part-of-unity-agenda-in-his-first-state-of-the-union/">Fact Sheet</a>: President Biden to Announce Strategy to Address Our National Mental Health
     </p>
 </div>
 
@@ -62,8 +62,9 @@ FindSupport.gov launched in May 2023 in conjunction with Mental Health Awareness
 In the first 4 months post-launch, the site received over 111,000 views with over one-third of all visitors engaging with the content by continuing to another page. One of the core pages of FindSupport.gov is resources for people in crisis. This page is now linked to from every page on SAMHSA.gov and received over 15,000 views. 
 
 
-
-“CMS is committed to ensuring everyone can take care of their mental health just as easily as they get treated for a broken bone,” said CMS Administrator Chiquita Brooks-LaSure. “[FindSupport.gov](https://www.samhsa.gov/find-support) will help us achieve that goal so that every American can find the right provider. A problem this significant requires everyone to get involved, and I’m proud to join with my colleagues from across HHS in support of the millions of people who need our support.”
-[https://www.samhsa.gov/newsroom/press-announcements/20230504/hhs-launches-new-website-help-people-find-support-issues-mental-health-drugs-alcohol](https://www.samhsa.gov/newsroom/press-announcements/20230504/hhs-launches-new-website-help-people-find-support-issues-mental-health-drugs-alcohol) 
-
+<div class="blog-quote-box">
+    <p>“CMS is committed to ensuring everyone can take care of their mental health just as easily as they get treated for a broken bone,” said CMS Administrator Chiquita Brooks-LaSure. <a style="text-decoration: none;" href="https://www.samhsa.gov/find-support">"FindSupport.gov</a> will help us achieve that goal so that every American can find the right provider. A problem this significant requires everyone to get involved, and I’m proud to join with my colleagues from across HHS in support of the millions of people who need our support.”
+    </p>
+    <a href="https://www.samhsa.gov/newsroom/press-announcements/20230504/hhs-launches-new-website-help-people-find-support-issues-mental-health-drugs-alcohol">https://www.samhsa.gov/newsroom/press-announcements/20230504/hhs-launches-new-website-help-people-find-support-issues-mental-health-drugs-alcohol</a>
+</div>
 
