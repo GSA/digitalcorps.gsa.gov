@@ -64,6 +64,18 @@
   <!-- alternate page image -->
   {% if page.social=="apply" %}
   <meta property="og:image" content="{{site.url}}{% asset digitalcorps-apply.png @path %}">
+  {% elsif page.social=="about" %}
+  <meta property="og:image" content="{{site.url}}{% asset digitalcorps-about.png @path %}">
+  {% elsif page.social=="opportunity" %}
+  <meta property="og:image" content="{{site.url}}{% asset digitalcorps-opportunity.png @path %}">
+  {% elsif page.social=="fellows" %}
+  <meta property="og:image" content="{{site.url}}{% asset digitalcorps-fellows.png @path %}">
+  {% elsif page.social=="projects" %}
+  <meta property="og:image" content="{{site.url}}{% asset digitalcorps-projects.png @path %}">
+  {% elsif page.social=="process" %}
+  <meta property="og:image" content="{{site.url}}{% asset digitalcorps-process.png @path %}">
+  {% elsif page.social=="faq" %}
+  <meta property="og:image" content="{{site.url}}{% asset digitalcorps-faq.png @path %}">
   {% else %}
   <meta property="og:image" content="{{site.url}}{% asset digitalcorps-social.png @path %}">
   {% endif %}
