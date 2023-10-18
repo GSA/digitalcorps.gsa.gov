@@ -3,7 +3,7 @@ id: nick-adams
 title: Nick Adams
 image: nick-adams.png
 social: fellow
-social_image:
+social_image: social-nick-adams.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]

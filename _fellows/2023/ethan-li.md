@@ -3,7 +3,7 @@ id: ethan-li
 title: Ethan Li
 image: ethan-li.png
 social: fellow
-social_image:
+social_image: social-ethan-li.png
 fellow_year: 2023
 project: ["na"]
 agency: ["NIH"]

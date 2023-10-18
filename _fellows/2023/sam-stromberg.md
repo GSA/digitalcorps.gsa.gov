@@ -3,7 +3,7 @@ id: sam-stromberg
 title: Sam Stromberg
 image: sam-stromberg.png
 social: fellow
-social_image:
+social_image: social-sam-stromberg.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]

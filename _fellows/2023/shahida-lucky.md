@@ -3,7 +3,7 @@ id: shahida-lucky
 title: Shahida Lucky
 image: shahida-lucky.png
 social: fellow
-social_image:
+social_image: social-shahida-lucky.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]

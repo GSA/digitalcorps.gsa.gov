@@ -3,7 +3,7 @@ id: mitchel-baker
 title: Mitchel Baker
 image: mitchel-baker.png
 social: fellow
-social_image:
+social_image: social-mitchel-baker.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]

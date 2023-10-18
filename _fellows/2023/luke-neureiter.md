@@ -3,7 +3,7 @@ id: luke-neureiter
 title: Luke Neureiter
 image: luke-neureiter.png
 social: fellow
-social_image:
+social_image: social-luke-neureiter.png
 fellow_year: 2023
 project: ["na"]
 agency: ["HRSA"]

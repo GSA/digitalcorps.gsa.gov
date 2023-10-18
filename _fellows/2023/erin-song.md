@@ -3,7 +3,7 @@ id: erin-song
 title: Erin Song
 image: erin-song.png
 social: fellow
-social_image:
+social_image: social-erin-song.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]

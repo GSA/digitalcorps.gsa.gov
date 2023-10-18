@@ -3,7 +3,7 @@ id: ethan-jantz
 title: Ethan Jantz
 image: ethan-jantz.png
 social: fellow
-social_image:
+social_image: social-ethan-jantz.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]

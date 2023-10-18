@@ -3,7 +3,7 @@ id: jina-ryu
 title: Jina Ryu
 image: jina-ryu.png
 social: fellow
-social_image:
+social_image: social-jina-ryu.png
 fellow_year: 2023
 project: ["na"]
 agency: ["VA"]

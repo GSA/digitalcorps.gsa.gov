@@ -3,7 +3,7 @@ id: jaxon-silva
 title: Jaxon Silva
 image: jaxon-silva.png
 social: fellow
-social_image:
+social_image: social-jaxon-silva.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]

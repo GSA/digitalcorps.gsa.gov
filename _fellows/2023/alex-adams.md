@@ -3,7 +3,7 @@ id: alex-adams
 title: Alex Adams
 image: alex-adams.png
 social: fellow
-social_image:
+social_image: social-alex-adams.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]

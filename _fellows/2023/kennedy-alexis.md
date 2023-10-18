@@ -3,7 +3,7 @@ id: kennedy-alexis
 title: Kennedy Alexis
 image: kennedy-alexis.png
 social: fellow
-social_image:
+social_image: social-kennedy-alexis.png
 fellow_year: 2023
 project: ["na"]
 agency: ["HHS"]

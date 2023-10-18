@@ -3,7 +3,7 @@ id: marina-defrates
 title: Marina DeFrates
 image: marina-defrates.png
 social: fellow
-social_image:
+social_image: social-marina-defrates.png
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]
