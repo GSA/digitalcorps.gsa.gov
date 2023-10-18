@@ -5,7 +5,7 @@ image: Liane Peng.png
 social: fellow
 social_image:
 fellow_year: 2022
-project: ["acf-iprc"]
+project: ["acf-improving-post-release-care-to-migrant-children-and-sponsors"]
 agency: ["ACF"]
 hometown: Carmel, IN
 university: Massachusetts Institute of Technology

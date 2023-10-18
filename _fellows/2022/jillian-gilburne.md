@@ -7,7 +7,7 @@ social_image:
 fellow_year: 2022
 project: ["acf"]
 agency: ["ACF"]
-hometown: Washington, D.C.
+hometown: Phoenix, AZ
 university: Northwestern University
 region: east
 bio_short: Designer ready to help governments better understand and respond to the needs of those they are meant to serve 

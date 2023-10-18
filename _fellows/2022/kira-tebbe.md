@@ -5,7 +5,7 @@ image: Kira Tebbe.png
 social: fellow
 social_image:
 fellow_year: 2022
-project: ["acf-iprc"]
+project: ["acf-improving-post-release-care-to-migrant-children-and-sponsors"]
 agency: ["ACF"]
 hometown: Chicago, IL
 university: University of Chicago

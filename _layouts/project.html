@@ -95,20 +95,6 @@ layout: default
         {% include sidenav-dynamic.html %}
       </div>
       <div class="tablet:grid-col-8 tablet:grid-offset-1 usa-layout-docs__main usa-prose">
-        <h2 class="text-primary text-no-italic" id="the-about">
-          About <em>{% if page.agency_abbrev %}{{page.agency_abbrev}}{% else %}the project{% endif %}</em>
-        </h2>
-        <p>{{ page.partner_description }}</p>
-
-        {% if page.project_challenge %}
-        <h2 class="text-primary text-no-italic">
-          The <em>challenge</em>
-        </h2>
-        <p class="body-intro">
-          {{ page.project_challenge  }}
-        </p>
-        {% endif %}
-
         {{ content }}
       </div>
     </div>

@@ -1,7 +1,7 @@
 ---
 id: rasheem-vereen
 title: Rasheem Vereen
-image: 
+image: rasheem-vereen.png
 social: fellow
 social_image: social-rasheem-vereen.png
 fellow_year: 2023

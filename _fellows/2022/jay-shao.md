@@ -5,7 +5,7 @@ image: Jay Shao.png
 social: fellow
 social_image:
 fellow_year: 2022
-project: ["cms"]
+project: ["cms-developing-a-security-data-lake"]
 agency: ["CMS"]
 hometown: 
 university: California University of Pennsylvania

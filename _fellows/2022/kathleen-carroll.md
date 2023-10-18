@@ -5,7 +5,7 @@ image: Kathleen Carroll.png
 social: fellow
 social_image:
 fellow_year: 2022
-project: ["hhs"]
+project: ["hhs-enhancing-health-equity-by-bringing-the-experiences-of-people-with-Long-COVID"]
 agency: ["HHS"]
 hometown: Boston, MA
 university: Emerson College
