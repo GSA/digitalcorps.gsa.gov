@@ -59,11 +59,11 @@ Throughout the process, both USDC Fellows managed product development coordinati
 ## The impact 
 FindSupport.gov launched in May 2023 in conjunction with Mental Health Awareness Month. Feedback collected during user research indicates that this tool addresses a gap in available resources. 
 
-  {% asset "cms_digital_service_image_2.png" class="" alt="A screenshot of the homepage of the redesigned FindSupport.gov" %}
+  {% asset "cms_digital_service_image_1.png" class="" alt="A screenshot of the homepage of the redesigned FindSupport.gov" %}
 
 In the first 4 months post-launch, the site received over 111,000 views with over one-third of all visitors engaging with the content by continuing to another page. One of the core pages of FindSupport.gov is resources for people in crisis. This page is now linked to from every page on SAMHSA.gov and received over 15,000 views. 
 
-  {% asset "cms_digital_service_image_3.png" class="" alt="A screenshot of the resources section of the redesigned FindSupport.gov" %}
+  {% asset "cms_digital_service_image_2.png" class="" alt="A screenshot of the resources section of the redesigned FindSupport.gov" %}
 
 <div class="blog-quote-box">
     <p>“CMS is committed to ensuring everyone can take care of their mental health just as easily as they get treated for a broken bone. FindSupport.gov will help us achieve that goal so that every American can find the right provider. A problem this significant requires everyone to get involved, and I’m proud to join with my colleagues from across HHS in support of the millions of people who need our support.”
