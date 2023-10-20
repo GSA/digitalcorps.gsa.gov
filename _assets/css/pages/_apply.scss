@@ -71,6 +71,15 @@
             a {
                 @include white-url();
             }
+
+            .usa-button {
+                @include u-text ("primary"); 
+                @include u-bg ("white");
+                &:hover{
+                        @include u-text("white");
+                        @include u-bg("primary-vivid");
+                  }
+            }
         }
     }
 }
