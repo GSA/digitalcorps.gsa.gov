@@ -3,7 +3,7 @@ id: michelle-polyak
 title: Michelle Polyak
 image: Michelle Polyak.png
 fellow_year: 2022
-project: ["cms"]
+project: ["cms-designing-a-how-to-guide-for-improving-access-to-behavioral-health-care-and-support"]
 agency: ["CMS"]
 hometown: Croton-on-Hudson, NY
 university: Johns Hopkins University and Maryland Institute College of Art
