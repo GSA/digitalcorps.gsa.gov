@@ -14,3 +14,7 @@ redirect_from:
 ---
 
 TK
+
+Some text [here is an example of a software engineer resume] [1]
+
+[1]:{{ site.url }}/download/Software_Engineering_1.pdf
