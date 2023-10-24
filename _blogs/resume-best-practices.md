@@ -9,6 +9,8 @@ external_url:
 impact_story_link: []
 tags: ['GSA']
 type: Blog
+redirect_from:
+  - /process/resume
 ---
 
 TK
