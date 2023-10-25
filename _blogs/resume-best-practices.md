@@ -17,4 +17,7 @@ TK
 
 Some text [here is an example of a software engineer resume] [1]
 
-[1]:{{ site.url }}/download/Software_Engineering_1.pdf
+[1]:{{ site.baseurl }}/download/Software_Engineering_1.pdf
+
+
+<a href="/Software_Engineering_1.pdf" >here is an example of a software engineer resume</a>
