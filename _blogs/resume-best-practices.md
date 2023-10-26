@@ -13,7 +13,8 @@ redirect_from:
   - /process/resume
 ---
 
-### Before opening applications for our 2024 cohort of U.S. Digital Corps Fellows (stay tuned for an exact date!), we wanted to share some USDC-specific resume best practices and samples. 
+**Before opening applications for our 2024 cohort of U.S. Digital Corps Fellows (stay tuned for an exact date!), we wanted to share some USDC-specific resume best practices and samples. 
+**
 
 Our selection process is [designed](https://www.performance.gov/blog/digital-corps-update/) to be transparent, skills-based, and equitable. We often describe it as an “open book test” where we tell candidates exactly what we are looking for so they can put their best foot forward.
 
