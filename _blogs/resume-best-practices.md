@@ -13,7 +13,7 @@ redirect_from:
   - /process/resume
 ---
 
-## Before opening applications for our 2024 cohort of U.S. Digital Corps Fellows (stay tuned for an exact date!), we wanted to share some USDC-specific resume best practices and samples. 
+### Before opening applications for our 2024 cohort of U.S. Digital Corps Fellows (stay tuned for an exact date!), we wanted to share some USDC-specific resume best practices and samples. 
 
 Our selection process is [designed](https://www.performance.gov/blog/digital-corps-update/) to be transparent, skills-based, and equitable. We often describe it as an “open book test” where we tell candidates exactly what we are looking for so they can put their best foot forward.
 
@@ -25,14 +25,15 @@ Now that we have completed two successful rounds of hiring, we have seen many st
   {% asset "Samira_info_session_quote.jpg" class="" alt="Samira quote about the info session" %}
 </div>
 
-**USDC resume best practices**
+#### USDC resume best practices
+
 You can have confidence that all USDC applications are hand-reviewed by subject matter experts in the track that you apply to—software engineering, data science & analytics, product management, design, or cybersecurity. No screening algorithms here!
 
 There is not one specific format or template that you must use, and while there is no length limit, **only up to three pages** of your resume will be reviewed: 
 * up to one page describing your education 
 * and up to two pages describing your experience. 
 
-**Describing your experience**
+#### Describing your experience
 
 * Your experience will be assessed against the competencies and specialized experience statement listed in the Qualifications section of the posting. **Be as descriptive and detailed as possible** in showing how your various experiences reflect those requirements.
 * When describing your experience, **don’t just include paid positions or expressly technical positions**. We’re interested in your ability to work with different groups, stakeholders, and contexts. Volunteer experiences, unpaid internships, and student organization contributions can all be listed as experience in addition to jobs and paid internships as long as they reflect at least one required competency.
@@ -40,9 +41,9 @@ There is not one specific format or template that you must use, and while there 
 * **Include the month and year for the start and end of each experience**, as well as the number of hours per week if it was less than full-time. 
 * When describing your education, in addition to information about your degree or certificate program(s), include relevant coursework, projects, presentations, and any research projects and publications you may have.
 
-**Sample resumes**
+#### Sample resumes
 
-**These are just examples…**
+**TKTKTKTKTKTK These are just examples…**
 
 Sample Resume 1 - [Data Science and Analytics] [1]{:target="_blank"}
 
