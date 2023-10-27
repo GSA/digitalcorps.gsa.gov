@@ -31,14 +31,16 @@ You can have confidence that all USDC applications are hand-reviewed by subject 
 
 There is not one specific format or template that you must use, and while there is no length limit, **only up to three pages** of your resume will be reviewed: 
 * up to one page describing your education 
-* and up to two pages describing your experience. 
+* and up to two pages describing your experience.
+
+We encourage you to use the entirety of the three pages that will be reviewed.
 
 #### Describing your experience
 
 * Your experience will be assessed against the competencies and specialized experience statement listed in the Qualifications section of the posting. **Be as descriptive and detailed as possible** in showing how your various experiences reflect those requirements.
 * When describing your experience, **don’t just include paid positions or expressly technical positions**. We’re interested in your ability to work with different groups, stakeholders, and contexts. Volunteer experiences, unpaid internships, and student organization contributions can all be listed as experience in addition to jobs and paid internships as long as they reflect at least one required competency.
-* **Tie skills, programming languages, technologies, and tools to specific experiences** and contexts, instead of solely listing them in a standalone “skills” section.
-* **Include the month and year for the start and end of each experience**, as well as the number of hours per week if it was less than full-time. 
+* **Tie skills, programming languages, technologies, and tools to specific experiences** and contexts, instead of solely listing them in a standalone “skills” section. Explain why and how those skills were used in each experience.
+* **Include the month and year for the start and end of each experience**, as well as the number of hours per week if it was less than full-time (e.g. 10 hours/week). 
 * When describing your education, in addition to information about your degree or certificate program(s), include relevant coursework, projects, presentations, and any research projects and publications you may have.
 
 #### Sample resumes
