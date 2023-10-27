@@ -13,12 +13,11 @@ redirect_from:
   - /process/resume
 ---
 
-**Before opening applications for our 2024 cohort of U.S. Digital Corps Fellows (stay tuned for an exact date!), we wanted to share some USDC-specific resume best practices and samples. 
-**
+**Before opening applications for our 2024 cohort of U.S. Digital Corps Fellows ([stay tuned](https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_108) for an exact date!), we wanted to share some USDC-specific resume best practices and samples.**
 
 Our selection process is [designed](https://www.performance.gov/blog/digital-corps-update/) to be transparent, skills-based, and equitable. We often describe it as an “open book test” where we tell candidates exactly what we are looking for so they can put their best foot forward.
 
-In past application cycles, knowing that people were curious about so-called government resumes, we shared general resources like [TTS’s resume guidance](https://join.tts.gsa.gov/resume/) and the [USAJOBS Resume Builder](https://www.usajobs.gov/help/how-to/account/documents/resume/build/), but we recognized that these resources  may not be targeted for the early-career candidates that USDC recruits. 
+In past application cycles, knowing that people were curious about so-called government resumes, we shared general resources like [TTS’s resume guidance](https://join.tts.gsa.gov/resume/) and the [USAJOBS Resume Builder](https://www.usajobs.gov/help/how-to/account/documents/resume/build/), but we recognized that these resources may not be targeted to the early-career candidates that USDC recruits. 
 
 Now that we have completed two successful rounds of hiring, we have seen many strong resumes and hope that sharing some of them to model resume best practices will be a helpful guide for interested candidates. In addition to the resume resources in this blog post, we strongly encourage people to register for an [upcoming virtual info session](https://digitalcorps.gsa.gov/apply/) and read more about the [overall selection process](https://digitalcorps.gsa.gov/process/).
 
@@ -44,7 +43,7 @@ There is not one specific format or template that you must use, and while there 
 
 #### Sample resumes
 
-**TKTKTKTKTKTK These are just examples…**
+In case it's helpful, we've included a few sample resumes below from current USDC Fellows. Please note that these are just examples, and that there is no one specific format that is required for your resume.
 
 Sample Resume 1 - [Data Science and Analytics] [1]{:target="_blank"}
 
