@@ -3,8 +3,8 @@ id: resume-best-practices
 title: 'Sharing U.S. Digital Corps resume best practices'
 image: 
 author: Chris Kuang
-published_at: "2023-10-25"
-summary: "TK"
+published_at: "2023-10-27"
+summary: "Resume tips and samples for candidiates preparing to apply to the U.S. Digital Corps."
 external_url:
 impact_story_link: []
 tags: ['GSA']
