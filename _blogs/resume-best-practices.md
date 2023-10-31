@@ -53,6 +53,12 @@ Sample Resume 1 - [Data Science and Analytics] [1]{:target="_blank"}
 Sample Resume 2 - [Software Engineering] [2]{:target="_blank"}
 
 [2]:{{ site.baseurl }}/pdfs/Software_Engineering_2.pdf
+Sample Resume 3 - [Design ] [3]{:target="_blank"}
+
+[3]:{{ site.baseurl }}/pdfs/Design_1.pdf
+Sample Resume 4 - [Product Management] [4]{:target="_blank"}
+
+[4]:{{ site.baseurl }}/pdfs/Product_Management_1.pdf
 
 ---
 
