@@ -5,8 +5,9 @@
   .usa-hero {
     @include u-margin-bottom(4);
     @include u-text("white");
-    background-image: url(asset_path("home/Home_Page_Banner.png"));
-    background-position: 60% 56%;
+    background-image: url(asset_path("home/Home_Page_Banner.jpg"));
+
+    background-position: 60% 30%;
     background-color: color("base-darkest");
     position: relative;
     overflow: hidden;
