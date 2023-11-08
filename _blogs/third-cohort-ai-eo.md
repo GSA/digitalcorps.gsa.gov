@@ -17,7 +17,7 @@ To date, [close to 90 USDC fellows](https://digitalcorps.gsa.gov/fellows/) have 
 
 USDC was recently included as a key part of the [National Artificial Intelligence (AI) Talent Surge](https://ai.gov/apply/) in President Biden’s [executive order on AI](https://www.whitehouse.gov/briefing-room/statements-releases/2023/10/30/fact-sheet-president-biden-issues-executive-order-on-safe-secure-and-trustworthy-artificial-intelligence/) and will recruit for AI and AI-enabling fellows as part of its data science track this year.  
 
-##Making a difference one fellow at a time
+## Making a difference one fellow at a time
 
 **Standardizing safety and wellbeing follow-up calls for migrant children**:
 Two USDC fellows—a product manager and a designer—conducted a [five-week research and design sprint](https://digitalcorps.gsa.gov/projects/acf-improving-post-release-care-to-migrant-children-and-sponsors/) for the Administration for Children and Families (ACF) in the Office of Refugee Resettlement (ORR). Their goal was to standardize the follow-up survey asked to unaccompanied children and their sponsors after a child leaves ORR care.
@@ -40,7 +40,7 @@ A USDC design fellow [supported the creation](https://digitalcorps.gsa.gov/proje
 
 The Health+ Long COVID Report is part of a broader effort to improve patient outcomes by bringing together those with Long COVID and U.S. Department of Health and Human Services to co-create solutions as equal partners. The goal is for clinicians, policymakers, government agencies, public health practitioners, and support services to better understand how to help this important and growing community across the U.S.
 
-##How do I become a fellow?
+## How do I become a fellow?
 USDC applications will open on Monday, Nov. 6. To prepare, review USDC’s [resume best practices resources](https://digitalcorps.gsa.gov/blogs/resume-best-practices/), [application process](https://digitalcorps.gsa.gov/process/), and register for an [upcoming info session](https://digitalcorps.gsa.gov/apply/).
 
 Applications can be submitted through the [USDC website](https://digitalcorps.gsa.gov/apply/). 
