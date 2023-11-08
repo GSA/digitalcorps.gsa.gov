@@ -11,6 +11,11 @@
                         href="{{page.apply_url}}" target="_blank" rel="noopener">
                         Apply on USAJOBS
                     </a>
+                    {% else %}
+                    <a class="usa-button usa-button--primaryvivid usa-link--alt usa-link--external"
+                        href="{{page.usa_jobs_url}}" target="_blank" rel="noopener">
+                        Apply on USAJOBS
+                    </a>
                     {% endif %}
                 </div>
             </div>
@@ -54,11 +59,24 @@
                 </div>
             </div>
         </div>
+        <h2 class="margin-top-0">Before applying:</h2>
 
-        <p>Thank you for your interest in the {{page.title}}. This track is closed to new applicants because we have
+        <div class="as-p">
+            We strongly encourage reviewing our <a class="usa-link" href="{{site.baseurl}}/process/">Application
+                Process</a> page for complete eligibility criteria and application tips.
+
+            To qualify at the GS-9 level, candidates must either have one cumulative year of specialized experience
+            (this can include paid and unpaid internships, volunteer experiences, student organizations, and jobs)
+            <strong>or</strong> an advanced degree (e.g. masters, PhD) in a
+            {% include_cached modal-technology-field.html words="technology field" %}.
+        </div>
+
+        {% include {{page.track_file}} %}
+
+        <p><em>Thank you for your interest in the {{page.title}}. This track is closed to new applicants because we have
             received our maximum limit of 300 candidates for the current year. If you are qualified for the remaining
             open tracks, we encourage you to apply to those instead, or subscribe to our newsletter to stay informed
-            about future application opportunities.</p>
+            about future application opportunities.</em></p>
         {% endif %}
     </div>
 </section>
