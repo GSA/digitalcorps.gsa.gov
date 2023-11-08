@@ -160,7 +160,6 @@ exclude:
   - package-lock.json
   - README.md
   - vendor
-  - pages/track-cybersecurity.html
   #- pages/track-*  # toggled off
   
   # exclude until search is implemented
