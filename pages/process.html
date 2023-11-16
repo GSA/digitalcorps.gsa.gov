@@ -101,7 +101,9 @@ social: process
                                     <li>An advanced degree (e.g. Master’s, PhD) in a {% include_cached modal-technology-field.html words="technology field" %}</li>
                                 </ul>
                             </li>
+                            {% if site.apply_now %}
                             <li><strong>Applicants to the data science & analytics track</strong> <a target="_blank" href="{{site.baseurl}}/apply/data-science/" rel="noopener">have additional education criteria.</a></li>
+                            {% endif %}
                         </ul>
                     </li>
                     <li class="usa-process-list__item" id="preparing">
