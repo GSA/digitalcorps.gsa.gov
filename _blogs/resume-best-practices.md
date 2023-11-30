@@ -22,7 +22,7 @@ In past application cycles, knowing that people were curious about so-called gov
 Now that we have completed two successful rounds of hiring, we have seen many strong resumes and hope that sharing some of them to model resume best practices will be a helpful guide for interested candidates. In addition to the resume resources in this blog post, we strongly encourage people to register for an [upcoming virtual info session](https://digitalcorps.gsa.gov/apply/) and read more about the [overall selection process](https://digitalcorps.gsa.gov/process/).
 
 <div>
-  {% asset "Samira_info_session_quote.jpg" class="" alt="Samira quote about the info session" %}
+  <img src="{{site.baseurl}}/assets/images/blogs/Samira_info_session_quote.jpg" alt="Samira quote about the info session" />
 </div>
 
 #### USDC resume best practices

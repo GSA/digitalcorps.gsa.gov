@@ -1,7 +1,7 @@
 ---
 id: introducing-the-us-digital-corps-a-new-path-to-public-service-for-early-career-technologists
 title: 'Introducing the U.S. Digital Corps: A new path to public service for early-career technologists'
-image: introducing-the-us-digital-corps-a-new-path-to-public-service-for-early-career-technologists.png
+image: /assets/images/blogs/introducing-the-us-digital-corps-a-new-path-to-public-service-for-early-career-technologists.png
 author: Chris Kuang
 published_at: "2021-08-31"
 summary: U.S. Digital Corps co-lead Chris Kuang shares a more personal reflection on the program's launch and what the Digital Corps represents as a 21st century call to public service echoing President Kennedy's famous "ask not what your country can do for you" speech.

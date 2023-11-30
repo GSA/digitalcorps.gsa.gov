@@ -49,10 +49,7 @@ layout: default
     <div class="grid-container">
       <div class="quote">
         <div class="text-center padding-bottom-4">
-          {%
-          asset "icons/quote2.png"
-          alt="quote symbol" height=50
-          %}
+          <img src="{{site.baseurl}}/assets/images/icons/quote2.png" alt="quote symbol" height=50/>
         </div>
         <div class="verbiage">
           The Digital Corps gives me an opportunity to use my technical skills to reach a wide range of people. I appreciate the fact that the program is designed to allow Fellows to grow in their careers and to provide a community where everyone values public service and meaningful work.
@@ -87,8 +84,8 @@ layout: default
   </section>
 
 
-  <!-- vendor search script -->
-{% asset simple_jekyll_search.js %}
+<!-- vendor search script -->
+  <script src="simple_jekyll_search.js"></script>
 
 <!-- search -->
 <script type="text/javascript">
@@ -120,4 +117,4 @@ layout: default
   const siteBaseurl = "{{ site.baseurl }}";
 </script>
 
-{% asset filters.js %}
+<script src="filters.js"></script>

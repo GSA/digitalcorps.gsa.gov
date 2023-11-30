@@ -1,7 +1,7 @@
 ---
 id: espy-thomson
 title: Espy Thomson
-image: espy-thomson.png
+image: /assets/images/fellows/2023/espy-thomson.png
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]

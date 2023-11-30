@@ -2,7 +2,7 @@
 id: hrsa-birth5
 agency: "Health Resources and Services Administration"
 agency_abbrev: "HRSA"
-agency_logo: "HRSA.png"
+agency_logo: "/assets/images/agencies/HRSA.png"
 title: "Preventing infant mortaility and eliminating disparities in perinatal outcomes"
 project_name: "Preventing infant mortaility and eliminating disparities in perinatal outcomes"
 summary: 'Supporting the "Having a child and early childhood" cross-agency life experience project at the Health Resources and Services Administration.'

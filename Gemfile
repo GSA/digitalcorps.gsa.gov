@@ -1,4 +1,4 @@
-ruby ">= 2.7.4"
+ruby ">= 3.1"
 
 source "https://rubygems.org"
 
@@ -14,7 +14,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
   gem "jekyll-autoprefixer"
-  gem "jekyll-assets", "~> 3.0"
   gem "jekyll-include-cache"
   gem 'jekyll-redirect-from'
   gem 'jekyll-paginate-v2', "3.0.0"

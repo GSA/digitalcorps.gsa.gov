@@ -1,7 +1,7 @@
 ---
 id: serving-the-public-five-veterans-journeys-to-public-interest-tech
 title: "Serving the Public: Five Veterans' Journeys to Public Interest Tech"
-image: serving-the-public-five-veterans-journeys-to-public-interest-tech.png
+image: /assets/images/blogs/serving-the-public-five-veterans-journeys-to-public-interest-tech.png
 author: Dahianna Salazar Foreman
 published_at: "2022-09-09"
 summary: "Five Veterans in our inaugural 2022 cohort share their public service journeys from various military branches and positions to working in civic tech with the U.S. Digital Corps."
@@ -16,8 +16,7 @@ There are many paths to a career in government technology, including transitioni
 ## Joe Lindsey
 
 <div class="usa-image-block">
-  {% asset "us-digital-corps-veterans-joe-lindsey.png" class="" alt="
-Joe Lindsey stands outside near trees. He is wearing a gray vest, light blue shirt, and striped tie." %}
+  <img src="{{site.baseurl}}/assets/images/blogs/us-digital-corps-veterans-joe-lindsey.png" alt="Joe Lindsey stands outside near trees. He is wearing a gray vest, light blue shirt, and striped tie." />
 </div>
 
 **What was your military branch and position?**
@@ -43,8 +42,7 @@ One thing that I have learned so far as a fellow is that you are never alone. It
 ## Jenny Wang
 
 <div class="usa-image-block">
-  {% asset "us-digital-corps-veterans-jenny-wang.png" class="" alt="
-Jenny Wang stands in front of a large black and white piece of art. She is smiling, and is wearing glasses, a white shirt and light blue denim jacket." %}
+  <img src="{{site.baseurl}}/assets/images/blogs/us-digital-corps-veterans-jenny-wang.png" alt="Jenny Wang stands in front of a large black and white piece of art. She is smiling, and is wearing glasses, a white shirt and light blue denim jacket." />
 </div>
 
 **What was your military branch and position?**
@@ -70,7 +68,7 @@ Everyone is willing to help; you just have to ask questionsIt’s easy to get ov
 ## Thomas Sittmann
 
 <div class="usa-image-block">
-  {% asset "us-digital-corps-veterans-thomas-sittmann.png" class="" alt="A tight close-up of Thomas Sittmann's face. He is wearing a dark colored wool coat and plaid scarf." %}
+  <img src="{{site.baseurl}}/assets/images/blogs/us-digital-corps-veterans-thomas-sittmann.png" alt="A tight close-up of Thomas Sittmann's face. He is wearing a dark colored wool coat and plaid scarf." />
 </div>
 
 **What was your military branch and position?**
@@ -96,7 +94,7 @@ What I have learned so far is everyone brings something unique to the team. It h
 ## Dhan Gurung
 
 <div class="usa-image-block">
-  {% asset "us-digital-corps-veterans-dhan-gurung.png" class="" alt="Dhan Gurung stands in front of a light colored wall. He is wearing a dark blue suit and tie, and a white shirt." %}
+  <img src="{{site.baseurl}}/assets/images/blogs/us-digital-corps-veterans-dhan-gurung.png" alt="Dhan Gurung stands in front of a light colored wall. He is wearing a dark blue suit and tie, and a white shirt." />
 </div>
 
 **What was your military branch and position?**
@@ -122,7 +120,7 @@ I am very proud and happy to be part of this fellowship program. The Digital Cor
 ## Anthony Barbara
 
 <div class="usa-image-block">
-  {% asset "us-digital-corps-veterans-anthony-barbara.png" class="" alt="A tight close-up of Anthony Barbara smiling." %}
+  <img src="{{site.baseurl}}/assets/images/blogs/us-digital-corps-veterans-anthony-barbara.png" alt="A tight close-up of Anthony Barbara smiling." />
 </div>
 
 **What was your military branch and position?**

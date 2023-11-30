@@ -1,7 +1,7 @@
 ---
 id: from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service
 title: 'From Silicon Valley to GovTech: How a Data Scientist Turned Their Passion for Helping People Into a Career in Public Service'
-image: from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service.png
+image: /assets/images/blogs/from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service.png
 author: Dahianna Salazar Foreman
 published_at: "2021-10-25"
 summary: "Data scientist Avena Cheng at the Centers for Medicare and Medicaid Services shares her path to public service and her work supporting modernizing data processes for data.cms.gov as part of USDC's series of profiles on public interest technologists in the federal government."
@@ -16,7 +16,7 @@ When thinking about a career in government, not many people envision themselves 
 ## What was your path to a career in government tech? What made you consider public service in the first place?
 
 <div class="usa-image-block">
-  {% asset "avena-cheng.png" class="" alt="Photo of Avena Cheng" %}
+  <img src="{{site.baseurl}}/assets/images/blogs/avena-cheng.png" alt="Photo of Avena Cheng" />
 </div>
 
 I had known for a while that I wanted to work on something meaningful and impactful, and that public service is one way to do that. This was motivated by the fact that I lived in Silicon Valley long enough to see a lot of people with a ton of technical talent chasing after money and prestige in the private sector and big name companies, and not really thinking about the ethical implications of the work they do.

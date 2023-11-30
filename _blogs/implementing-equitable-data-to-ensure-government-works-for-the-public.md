@@ -1,7 +1,7 @@
 ---
 id: implementing-equitable-data-to-ensure-government-works-for-the-public
 title: Implementing Equitable Data To Ensure Government Works for the Public
-image: implementing-equitable-data-to-ensure-government-works-for-the-public-new.png
+image: /assets/images/blogs/implementing-equitable-data-to-ensure-government-works-for-the-public-new.png
 author: Meredith Brown
 published_at: "2022-11-16"
 summary: "U.S. Digital Corps Fellow Meredith Brown reflects on her journey to civic tech and her impactful work supporting the White House Office of Science and Technology Policy and the Equitable Federal Funding Interagency Working Group in ensuring that the implementation of key legislation is done equitably."
@@ -32,7 +32,7 @@ To that end, I’m currently applying data science to the equitable implementati
 Every month, I coordinate data efforts between the White House Infrastructure Implementation Team, federal agencies, state leaders, and other stakeholders to establish transparency into infrastructure spending and to promote access to federal funding for historically under-resourced communities. This involves overseeing reporting calls with agencies, producing internal dashboards, and constructing data products for public use.
 
 <div >
-  {% asset "us-digital-corps-accelerating-infrastructure-team-2022.png" class="" alt="U.S. Digital Corps Fellow Meredith Brown, right, poses on stage with 11 members of the White House Infrastructure Implementation team. Attendees are smiling in business clothing and are standing between two American flags." %}
+  <img src="{{site.baseurl}}/assets/images/blogs/us-digital-corps-accelerating-infrastructure-team-2022.png" alt="U.S. Digital Corps Fellow Meredith Brown, right, poses on stage with 11 members of the White House Infrastructure Implementation team. Attendees are smiling in business clothing and are standing between two American flags."/>
   <div class="usa-image-text-block">
     <p class="usa-image-text">White House Infrastructure Implementation Team</p>
   </div>

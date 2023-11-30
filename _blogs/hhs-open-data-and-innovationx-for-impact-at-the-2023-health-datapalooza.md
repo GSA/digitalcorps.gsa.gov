@@ -1,7 +1,7 @@
 ---
 id: hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza
 title: 'HHS Open Data and InnovationX for Impact at the 2023 Health Datapalooza'
-image: hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza.png
+image: /assets/images/blogs/hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza.png
 author: Kathleen Carroll, Trey Gordner, and Kristen Honey
 published_at: "2023-02-23"
 summary: "U.S. Digital Corps Fellows Kathleen Carroll and Trey Gordner share digital innovation efforts launched by the Department of Health and Human Services at the 2023 Health Datapalooza, including the Health Equity DataJam, a public call to transform HHS data into actionable insights and digital tools to help bridge health disparities."

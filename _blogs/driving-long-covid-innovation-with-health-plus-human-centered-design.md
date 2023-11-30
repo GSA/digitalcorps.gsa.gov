@@ -1,7 +1,7 @@
 ---
 id: driving-long-covid-innovation-with-health-plus-human-centered-design
 title: 'Driving Long COVID Innovation with Health+ Human-Centered Design'
-image: driving-long-covid-innovation-with-health-plus-human-centered-design.png
+image: /assets/images/blogs/driving-long-covid-innovation-with-health-plus-human-centered-design.png
 author: Kristen Honey, Kathleen Carroll, Michael Iademarco
 published_at: "2022-11-21"
 summary: "U.S. Digital Corps Fellow Kathleen Carroll and her team introduce the Health+ Long COVID Report, which  centers the voices of people living with Long COVID and was written with over 1,000 hours of interviews, workshops, and research. The report provides an opportunities framework and recommendations for advancing equitable change."
@@ -24,7 +24,7 @@ Throughout the pandemic, some people with COVID-19 have experienced new or lasti
 For people like Tara, a participant in the Human-Centered Design approach and a recent graduate and theater producer living with Long COVID, these symptoms can have a serious impact on day-to-day life.  “[Long COVID] is a change in how I have to live my life,” Tara said. “I can’t conform to the traditional nine-to-five in the same way anymore, because my body is prioritizing healing over everything else.”
 
 <div>
-  {% asset "blog-graphic.webp" class="" alt="Image woman resting on the couch with a book and cat, with medication and an inhaler close by." %}
+  <img src="{{site.baseurl}}/assets/images/blogs/blog-graphic.webp" alt="Image woman resting on the couch with a book and cat, with medication and an inhaler close by."/>
 </div>
 
 **Listening, Learning, and Researching**

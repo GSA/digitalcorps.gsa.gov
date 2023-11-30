@@ -1,7 +1,7 @@
 ---
 id: preparing-to-welcome-the-2022-us-digital-corps
 title: Preparing to Welcome the 2022 U.S. Digital Corps
-image: wh_social-share.webp
+image: /assets/images/blogs/wh_social-share.webp
 author: Clare Martorana
 published_at: "2022-06-10"
 summary: 'Federal Chief Information Officer Clare Martorana highlights several projects that the inaugural cohort of USDC Fellows will support and offers her support: "Creating new ways to bring technology talent into the Federal Government is crucial to our efforts to protect, serve, and inspire the American people in today’s digital age."'

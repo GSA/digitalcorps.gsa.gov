@@ -1,7 +1,7 @@
 ---
 id: jess-spayd
 title: Jess Spayd
-image: jess-spayd.png
+image: /assets/images/fellows/2023/jess-spayd.png
 fellow_year: 2023
 project: ["na"]
 agency: ["HRSA"]
