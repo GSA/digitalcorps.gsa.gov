@@ -23,7 +23,7 @@ GEM
     ethon (0.16.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
-    execjs (2.9.1)
+    execjs (2.7.0)
     ffi (1.16.3)
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
@@ -55,8 +55,6 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-autoprefixer (1.0.2)
-      autoprefixer-rails (~> 9.3)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
@@ -129,9 +127,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
+  execjs (= 2.7.0)
   html-proofer
   jekyll (~> 3.9)
-  jekyll-autoprefixer
   jekyll-feed (~> 0.17)
   jekyll-include-cache
   jekyll-last-modified-at

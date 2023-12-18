@@ -3,6 +3,8 @@ ruby ">= 3.1"
 source "https://rubygems.org"
 
 gem "jekyll", "~> 3.9"
+gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
+gem "autoprefixer-rails"
 gem "sprockets", "~> 3.7"
 gem "kramdown-parser-gfm", "~> 1.1.0"
 
@@ -12,7 +14,6 @@ group :jekyll_plugins do
   gem "jekyll-last-modified-at" # used in sitemap
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jekyll-autoprefixer"
   gem "jekyll-include-cache"
   gem 'jekyll-redirect-from'
   gem 'jekyll-paginate-v2', "3.0.0"

@@ -195,10 +195,38 @@ exclude:
 #     - "> 2%"
 #     - IE 11
 #     - not dead
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
 sass:
   source_dir: _sass
   load_paths:
+    - assets/favicons
+    - assets/images
+    - assets/images/banners
+    - assets/images/blogs
+    - assets/images/blogs/headers
+    - assets/images/icons
+    - assets/images/logo
+    - assets/images/social
+    - assets/images/stock
+    - assets/images/articles
+    - assets/images/agencies
+    - assets/images/fellows/2022
+    - assets/images/fellows/2023
+    - assets/images/home
+    - assets/images/about
+    - assets/images/opportunity
+    - assets/images/projects
+    - assets/images/apply
     - node_modules/uswds/dist/
+    - node_modules/uswds/dist/img
+    - node_modules/uswds/dist/js
+    - node_modules/uswds/dist/scss
   sourcemap: development
   quiet_deps: true
   style: compressed

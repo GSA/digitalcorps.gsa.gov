@@ -1,0 +1,38 @@
+// GENERAL LAYOUT OVERRIDES
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    // always show vertical scrollbar
+    // to prevent page jerk
+    overflow-y: scroll;
+}
+
+.usa-section,
+.usa-banner,
+.usa-header,
+.usa-hero,
+.usa-footer,
+.usa-identifier {
+    // global minimum width
+    min-width: 320px;
+}
+
+.no-gutter {
+    @include u-padding-x(0);
+}
+
+// hidden
+.for-desktop {
+    @include at-media-max("desktop") {
+        display: none;
+    }
+}
+
+.for-mobile {
+    @include at-media("desktop") {
+        display: none;
+    }
+}

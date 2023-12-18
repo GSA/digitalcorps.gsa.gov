@@ -1,0 +1,158 @@
+// OPPORTUNITY customization
+
+.opportunity-banner {
+    .usa-hero {
+        background-image: url(asset_path("opportunity/USDC_Opportunity_Banner.png"));
+        background-position: 20%;
+        position: relative;
+        min-height: 600px;
+        
+        // screen size adjustments
+        @include at-media-max("desktop-lg") {
+            background-position: 30% top;
+        }
+
+        @include at-media-max("desktop") {
+            .grid-container {
+                @include u-padding-x(0);
+            }
+        }
+
+        @include at-media-max("mobile-lg") {
+            @include u-padding-y(0);
+            background-position: 40% top;
+            min-height: unset;
+        }
+
+        // callout container
+        .usa-hero__callout {
+            @include grid-col(5);
+            @include grid-offset(7);
+            @include u-margin-top(15);
+            background-color: rgba(255, 255, 255, 0.6);
+            // screen size adjustments
+            @include at-media-max("desktop") {
+                @include grid-col(auto);
+                @include grid-offset(none);
+                @include u-margin-top(0);
+                background-color: rgba(255, 255, 255, 0.6);
+                position: absolute;
+                bottom: 0;
+            }
+
+            @include at-media-max("mobile-lg") {
+                position: relative;
+                min-height: 500px;
+
+                .content {
+                    @include u-padding-x(2);
+                    @include u-padding-bottom(3);
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                }
+            }
+
+            // subtext
+            h2 {
+                @include u-margin-top(3);
+                @include u-margin-bottom(0);
+            }
+        }
+    }
+}
+
+.opportunity-deliver-image {
+    background-image: url(asset_path("opportunity/Deliver.png"));
+    background-size: cover;
+    background-position: 60% top;
+}
+
+.opportunity-grow-image {
+    background-image: url(asset_path("opportunity/Grow_Professionally.png"));
+    background-position: 55% top;
+
+    @include at-media-max("tablet") {
+        background-size: cover;
+        background-position: 50% top;
+    }
+}
+
+.opportunity-support-image {
+    background-image: url(asset_path("opportunity/Support.png"));
+    background-size: cover;
+    background-position: 50% 40%;
+}
+
+// accent underline
+.accent-underline {
+    &:after {
+        @include u-bg("primary-vivid");
+        content: "";
+        left: 20%;
+        width: 60%;
+        height: 3px;
+        position: relative;
+        display: block;
+        bottom: -26px;
+    }
+}
+
+// partner logos
+.partner {
+    @include grid-col(3);
+    @include u-text("center");
+    @include u-padding-top(2);
+
+    // < desktop
+    @include at-media-max("tablet") {
+        @include grid-col(6);
+    }
+
+    // < tablet
+    @include at-media-max("mobile") {
+        @include grid-col(12);
+    }
+
+    img {
+        max-height: 120px;
+    }
+}
+
+.opportunity-tracks {
+    @include u-bg("base-lightest");
+
+    .usa-accordion {
+        @include u-padding-x(8);
+        @include u-padding-y(2);
+
+        // tablet
+        @include at-media-max("tablet") {
+            @include u-padding-x(0);
+        }
+
+        .usa-accordion__heading {
+            @include u-font("sans", "md");
+
+            .usa-accordion__button {
+                @include u-bg("base-lighter");
+
+                &:hover {
+                    @include u-bg("base-light");
+                }
+            }
+        }
+
+        .usa-accordion__content {
+            background-color: inherit;
+        }
+
+        p {
+            @include u-font("sans", "sm");
+        }
+
+        ul {
+            @include u-margin-top(1);
+        }
+    }
+}

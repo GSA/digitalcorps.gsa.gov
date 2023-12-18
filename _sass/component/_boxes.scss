@@ -1,0 +1,188 @@
+// full box styles
+
+.box {
+    @include grid-col(6);
+    @include grid-gap(0);
+    @include u-padding(7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+
+    // < desktop
+    @include at-media-max("desktop") {
+        @include grid-col(12);
+    }
+    // < tablet
+    @include at-media-max("tablet") {
+        height: 500px;
+    }
+
+    // common text box styles
+    &--primary-dark,
+    &--primary-vivid,
+    &--base-lighter {
+        // < desktop
+        @include at-media-max("desktop") {
+            @include u-padding(5);
+            height: initial;
+            min-height: 400px;
+        }
+        // < tablet
+        @include at-media-max("tablet") {
+            @include u-padding-x(2);
+            height: initial;
+            min-height: 300px;
+        }
+    }
+
+    // custom colors
+    &--primary-dark {
+        background-color: color("primary-dark");
+        .box-content {
+            @include u-text("white");
+
+            a {
+                @include white-url();
+            }
+        }
+    }
+
+    &--primary-vivid {
+        background-color: color("primary-vivid");
+        .box-content {
+            @include u-text("white");
+
+            a {
+                @include white-url();
+            }
+        }
+    }
+
+    &--base-lighter {
+        background-color: color("base-lighter");
+        .box-content {
+            @include u-text("primary-dark");
+        }
+    }
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+
+    h2 {
+        @include u-margin-y(0);
+        @include u-font("sans", "xl");
+        @include u-text("bold");
+        line-height: 1.1em;
+        color: inherit;
+    }
+
+    p,
+    ul {
+        @include body-font-larger();
+        @include u-margin-bottom(0);
+    }
+}
+
+
+// MINI BOXES
+// used on home page
+.box-pane-button {
+    @include u-margin-y(0);
+    @include u-text("white");
+
+    overflow: hidden;
+
+    height: 292px;
+
+    // desktop
+    @include at-media-max("desktop") {
+        height: 224px;
+    }
+
+    // tablet
+    @include at-media-max("tablet") {
+        height: 200px;
+    }
+
+    &:hover {
+        @include u-bg("transparent");
+        outline-style: solid;
+        outline-color: color("primary-vivid");
+        outline-width: 8px;
+    }
+
+    a {
+        @include u-margin(0);
+        @include u-padding(0);
+        @include u-font("sans", "md");
+        @include white-url-undecorated();
+        @include u-bg("transparent");
+        text-transform: uppercase;
+
+        &:hover {
+            @include u-bg("transparent");
+            text-decoration: none;
+        }
+    }
+
+    .usa-button {
+        @include u-margin(0);
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        display: block;
+        height: 100%;
+        width: 100%;
+
+        border-radius: 0;
+
+        line-height: 1em;
+        top: 0;
+        overflow: hidden;
+
+        .box-pane {
+            @include u-bg("primary");
+            @include u-padding-x(3);
+            @include u-padding-top(15);
+            height: 100%;
+            width: 42%;
+
+            position: absolute;
+            right:0;
+
+            text-align: left;
+
+            // desktop
+            @include at-media-max("desktop") {
+                @include u-padding-x(2);
+                @include u-padding-top(10);
+                width: 70%;
+            }
+
+            // typography
+            h2 {
+                @include u-font("sans", "lg");
+                @include u-text("semibold");
+                text-transform: uppercase;
+                color: inherit;
+                cursor: inherit;
+                margin: 0;
+                position: relative;
+            }
+
+            p {
+                @include body-font-medium();
+                @include u-margin-top(1);
+                font-weight: normal;
+                line-height: 1.2em;
+                text-transform: initial;
+            }
+        }
+    }
+}

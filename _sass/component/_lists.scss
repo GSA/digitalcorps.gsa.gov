@@ -1,0 +1,14 @@
+// slash style lists (used in footer)
+
+.slash-list {
+    padding-top:0 !important;
+    line-height:1.2em;
+
+    li {
+        display: inline;
+
+        &:not(:last-child):after {
+            content: " / ";
+        }
+    }
+}

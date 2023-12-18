@@ -1,0 +1,146 @@
+// banner
+.process-banner {
+    .usa-hero {
+        @include u-text("white");
+        @include u-padding-x(4);
+        @include u-padding-y(0);
+
+        background-color: color("base-dark");
+        background-image: url(asset_path("stock/how-to-apply.webp"));
+        background-position: 0% 50%; // h/v
+        background-size: 125%;
+        display: flex;
+
+        // adjust for screen size
+        @include at-media-max("widescreen") {
+            .grid-container {
+                @include u-padding-x(0);
+            }
+        }
+
+        @include at-media-max("desktop-lg") {
+            background-position: 30% 50%;
+            background-size: cover;
+        }
+
+        @include at-media-max("tablet-lg") {
+            @include u-padding-x(0);
+            background-position: 50% 50%;
+            height: auto;
+            min-height: unset;
+        }
+
+        @include at-media-max("mobile-lg") {
+            @include u-padding-x(0);
+            background-position: 60% 50%;
+        }
+
+        // callout container
+        .usa-hero__callout {
+            color: inherit;
+            background-color: rgba(28, 29, 31, 0.55); // base-darkest #1c1d1f
+            min-height: 600px;
+            max-width: 60%;
+
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+
+            @include at-media-max("desktop-lg") {
+                min-height: 600px;
+                max-width: 50%;
+            }
+
+            // tablet
+            @include at-media-max("tablet-lg") {
+                @include u-padding-x(4);
+                max-width: unset;
+            }
+
+            // mobile
+            @include at-media-max("mobile-lg") {
+                @include u-padding-x(2);
+
+                .usa-button {
+                    width: 100%;
+                }
+            }
+
+            .content {
+                @include u-padding-y(4);
+                display: block;
+                margin: auto;
+            }
+
+            // typography
+            h1 {
+                @include u-font("sans", "2xl");
+                @include u-margin-bottom(3);
+            }
+
+            p {
+                @include body-font-larger();
+            }
+
+            a {
+                @include white-url();
+            }
+        }
+    }
+}
+
+// unique tweaks to process list
+.apply-process {
+    .usa-process-list {
+        // keep
+    }
+
+    .usa-sidenav {
+        counter-reset: usa-numbered-list;
+
+        .usa-sidenav__item {
+            border-top: none;
+            a {
+                &:hover{
+                  @include u-text("primary-light");
+                }
+              }
+        }
+
+        .usa-sidenav__item::before {
+            display: flex;
+            flex-direction: row;
+
+            position: absolute;
+            left: -1.5rem;
+            height: 1.5rem;
+            width: 1.5rem;
+
+            margin-top: 0.45rem;
+            align-items: center;
+            justify-content: center;
+
+            font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: color("base-dark");
+
+            border: 0.15rem solid color("base-dark");
+            border-radius: 50%;
+            background-color: white;
+
+            content: counter(usa-numbered-list, decimal);
+            counter-increment: usa-numbered-list;
+        }
+
+        // custom bullets
+        .bullet-question::before {
+            content: "?";
+        }
+    }
+    //subtext paragraph
+    .usa-process-subtext{
+        color: color("primary");
+    }
+}
+

@@ -1,0 +1,21 @@
+// banner for "official website of ..." banner
+.usa-banner__inner {
+    padding: 0;
+}
+
+.usa-banner__header{
+    min-height: auto;
+}
+
+.usa-banner__header-text {
+    cursor: default;
+}
+
+.usa-banner__header-action{
+    padding-left: 4px;
+    white-space: nowrap;
+}
+
+.usa-banner__guidance {
+    max-width: unset;
+}

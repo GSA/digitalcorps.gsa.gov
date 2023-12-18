@@ -5,5 +5,6 @@ node_modules
 .bundle
 .jekyll-cache/
 .DS_Store
-assets/uswds/
+assets/uswds/*
+!assets/uswds/.gitkeep
 assets/js/uswds*

@@ -1,0 +1,65 @@
+// ABOUT customization
+
+.about-banner {
+    .usa-hero {
+        // background image
+        background-image: url(asset_path("stock/shutterstock_512812102.webp"));
+        background-position: right 100%;
+        background-color: color("primary");
+        min-height: 600px;
+
+        // adjust for screen sizes
+        @include at-media-max("mobile") {
+            min-height: unset;
+        }
+
+        // callout container
+        .usa-hero__callout {
+            @include grid-col(6);
+            @include grid-offset(6);
+            @include u-padding-x(0);
+            @include u-padding-top(8);
+            @include u-text("white");
+
+            // < desktop
+            @include at-media-max("desktop") {
+                @include grid-col(7);
+                @include grid-offset(5);
+            }
+
+            // < tablet-lg
+            @include at-media-max("tablet-lg") {
+                @include grid-col(9);
+                @include grid-offset(3);
+            }
+
+            // < tablet
+            @include at-media-max("tablet") {
+                @include grid-col(12);
+                @include grid-offset(none);
+                @include u-padding-x(2);
+            }
+
+            // typography
+            h1,
+            h2 {
+                color: inherit;
+            }
+        }
+    }
+}
+
+.about-whoweare-image {
+    background-image: url(asset_path("about/who_we_are.png"));
+    background-position: 50% top;
+}
+
+.about-whatwedo-image {
+    background-image: url(asset_path("about/what_we_do.png"));
+    background-position: 40% top;
+}
+
+.about-diversity-image {
+    background-image: url(asset_path("about/DEIA_Statement.png"));
+    background-position: 50% 50%;
+}

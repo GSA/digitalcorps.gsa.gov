@@ -1,0 +1,101 @@
+// USWDS OVERRIDES for BUTTON
+
+.usa-button {
+  width: initial;
+  height: 48px;
+  border-radius: 24px;
+  line-height: 48px;
+  padding-top: 0;
+  margin-right: 0;
+
+  text-transform: uppercase;
+  letter-spacing: letter-spacing(1);
+
+  &:hover {
+    @include u-bg("primary-vivid");
+  }
+
+  // VARIANTS
+  &--secondary {
+    &:hover {
+      @include u-bg("secondary-dark");
+    }
+  }
+
+  &--primaryvivid {
+    @include u-bg("primary-vivid");
+    &:hover {
+      @include u-bg("primary");
+    }
+  }
+
+  &--accentwarm {
+    @include u-bg("accent-warm");
+    &:hover {
+      @include u-bg("accent-warm-dark");
+      &:visited,
+      &:link {
+        @include u-text("ink");
+      }
+    }
+
+    &:visited,
+    &:link {
+      @include u-text("primary");
+    }
+  }
+
+  &--baselighter {
+    @include u-bg("base-lighter");
+    &:hover {
+      @include u-bg("primary-vivid");
+      &:visited,
+      &:link {
+        @include u-text("white");
+      }
+    }
+
+    &:visited,
+    &:link {
+      @include u-text("primary-dark");
+    }
+  }
+
+  // SIZES
+  &--small {
+    height: 32px;
+    border-radius: 16px;
+    line-height: 32px;
+  }
+
+  // SKEWED BUTTON
+  &.button-skewed {
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    transform: skewX(-20deg);
+    margin-left: 9px;
+    border-radius: 0.25rem;
+  }
+
+  .unskewed-content {
+    -ms-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    display: inline-block;
+  }
+}
+
+// MENU HANDLER
+.usa-menu-btn {
+  background-color: transparent;
+
+  &:hover {
+    background-color: color("primary-vivid");
+  }
+}
+
+.usa-nav__close {
+  &:hover {
+    background-color: color("primary-vivid");
+  }
+}

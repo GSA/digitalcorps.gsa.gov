@@ -1,0 +1,58 @@
+// PAGE INTERNAL SECTION BREAKS
+
+.highlight {
+    @include u-margin-y(0);
+    @include u-padding-y(0);
+
+    h2 {
+        @include u-text("center");
+        @include u-font("sans", "2xl");
+        @include u-text("bold");
+        @include u-margin-top(0);
+    }
+
+    h3 {
+        @include u-text("center");
+        @include u-font("sans", "xl");
+        @include u-text("semibold");
+        @include u-text("primary");
+    }
+
+    p {
+        @include body-font-larger();
+    }
+
+    .lead{
+        @include u-text("center");
+        @include u-font("sans", "lg");
+    }
+
+    // for internal content divs WITHOUT color
+    &--basic {
+        @include u-padding(7);
+
+        // < desktop
+        @include at-media-max("desktop") {
+            @include u-padding(5);
+        }
+        // < tablet
+        @include at-media-max("tablet") {
+            @include u-padding(2);
+        }
+    }
+    
+    // for internal content divs WITH color
+    &--base-lighter {
+        @include u-bg("base-lighter");
+        @include u-padding(7);
+
+        // < desktop
+        @include at-media-max("desktop") {
+            @include u-padding(5);
+        }
+        // < tablet
+        @include at-media-max("tablet") {
+            @include u-padding(2);
+        }
+    }
+}

@@ -1,0 +1,65 @@
+// USWDS OVERRIDES for HERO
+// used as topper for main pages
+
+.usa-hero {
+  @include u-text("primary");
+  min-height: 600px;
+
+  // Background image defaults
+  // image should be added in unique style
+  background-image: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  // below desktop
+  @include at-media-max("desktop") {
+    min-height: unset;
+  }
+  
+  // typography
+  h1 {
+    @include u-font("sans", 16);
+    @include u-text("bold");
+    line-height: 0.9em;
+    color: inherit;
+  }
+
+  h2 {
+    @include u-font("sans", "xl");
+    @include u-text("light");
+    @include u-margin-top(4);
+    color: color("ink");
+    line-height: 1.05em;
+  }
+
+  h3 {
+    @include u-font("sans", 11);
+    @include u-text("normal");
+    @include u-margin-top(2);
+    color: color("ink");
+  }
+
+  .usa-hero__callout {
+    max-width: unset;
+    background-color: transparent;
+  }
+
+  .usa-hero__heading {
+    text-transform: unset;
+    line-height: 0.9em;
+    color: inherit;
+
+    @include at-media-max("tablet") {
+      @include u-font("sans", "3xl");
+    }
+
+    .usa-hero__text {
+      @include u-text("bold");
+    }
+  }
+
+  .usa-hero__text {
+    color: inherit;
+  }
+}

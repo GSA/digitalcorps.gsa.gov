@@ -1,0 +1,87 @@
+.tracks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    // individual tracks
+    .track {
+        @include u-margin-top(2);
+        @include u-margin-x(2);
+
+        // <tablet
+        @include at-media-max("tablet") {
+            @include u-margin-top(1);
+            @include u-margin-x(1);
+        }
+
+        // image button
+        a {
+            @include u-margin-x(0);
+            &:hover {
+                outline-style: solid;
+                outline-color: color("primary-vivid");
+                outline-width: 8px;
+
+                .track-label {
+                    color: color("primary-light");
+                }
+            }
+        }
+
+        .usa-button {
+            @include u-bg("base-darker");
+            @include u-font("sans", "xs");
+            @include u-padding(0);
+            // font-weight: normal;
+
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+
+            // overlay
+            .track-overlay {
+                display: flex;
+                flex-direction: column;
+
+                background-color: rgba(0, 0, 0, 0.5);
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+
+                // label
+                .track-label {
+                    display: block;
+                    margin-top: auto;
+                    margin-bottom: auto;
+
+                    text-align: center;
+                    line-height: 1em;
+                    width: 100%;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        // unique images
+        .track-engineering {
+            background-image: url(asset_path("stock/software-engineering-bubble.jpeg"));
+            background-size: cover;
+        }
+        .track-data-science {
+            background-image: url(asset_path("stock/data-science-bubble.jpeg"));
+            background-size: cover;
+        }
+        .track-product-management {
+            background-image: url(asset_path("stock/product-management-bubble.jpeg"));
+            background-size: cover;
+        }
+        .track-design {
+            background-image: url(asset_path("stock/design-bubble.jpeg"));
+            background-size: cover;
+        }
+        .track-cybersecurity {
+            background-image: url(asset_path("stock/cybersecurity-bubble.jpeg"));
+            background-size: cover;
+        }
+    }
+}

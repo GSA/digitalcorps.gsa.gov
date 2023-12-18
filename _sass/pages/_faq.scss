@@ -1,0 +1,56 @@
+// banner
+.faq-banner {
+    .usa-hero {
+        @include u-text("white");
+        background-image: url(asset_path("stock/capitol-blue.webp"));
+        background-position: center;
+        background-color: color("primary");
+
+        position: relative;
+        min-height: 250px;
+
+        // callout container
+        .usa-hero__callout {
+            @include u-padding-x(0);
+            position: absolute;
+            bottom: 0;
+
+            // < tablet
+            @include at-media-max("tablet") {
+                @include u-padding-x(0);
+            }
+
+            // typography
+            h1 {
+                @include u-padding-bottom(2);
+                @include u-margin-y(2);
+            }
+        }
+    }
+}
+
+.faq {
+    @include u-padding-y(8);
+
+    .grid-container {
+        @include u-padding-x(15);
+
+        // adjustments for screen size
+        @include at-media-max("desktop") {
+            @include u-padding-x(8);
+        }
+
+        @include at-media-max("tablet-lg") {
+            @include u-padding-x(4);
+        }
+
+        @include at-media-max("tablet") {
+            @include u-padding-x(2);
+        }
+    }
+
+    p {
+        @include body-font-larger();
+        @include u-font("sans", "sm");
+    }
+}
