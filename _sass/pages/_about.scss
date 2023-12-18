@@ -3,7 +3,7 @@
 .about-banner {
     .usa-hero {
         // background image
-        background-image: url(asset_path("stock/shutterstock_512812102.webp"));
+        background-image: url("/assets/images/stock/shutterstock_512812102.webp");
         background-position: right 100%;
         background-color: color("primary");
         min-height: 600px;
@@ -50,16 +50,16 @@
 }
 
 .about-whoweare-image {
-    background-image: url(asset_path("about/who_we_are.png"));
+    background-image: url("/assets/images/about/who_we_are.png");
     background-position: 50% top;
 }
 
 .about-whatwedo-image {
-    background-image: url(asset_path("about/what_we_do.png"));
+    background-image: url("/assets/images/about/what_we_do.png");
     background-position: 40% top;
 }
 
 .about-diversity-image {
-    background-image: url(asset_path("about/DEIA_Statement.png"));
+    background-image: url("/assets/images/about/DEIA_Statement.png");
     background-position: 50% 50%;
 }

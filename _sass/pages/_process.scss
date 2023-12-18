@@ -6,7 +6,7 @@
         @include u-padding-y(0);
 
         background-color: color("base-dark");
-        background-image: url(asset_path("stock/how-to-apply.webp"));
+        background-image: url("/assets/images/stock/how-to-apply.webp");
         background-position: 0% 50%; // h/v
         background-size: 125%;
         display: flex;

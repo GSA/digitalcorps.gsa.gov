@@ -2,7 +2,7 @@
 
 .projects-banner {
     .usa-hero {
-      background-image: url(asset_path("stock/USDC_AgencyBanner.png"));
+      background-image: url("/assets/images/stock/USDC_AgencyBanner.png");
        //@include u-bg("primary-dark");
        @include u-text("primary-dark");
         background-position: center center;
