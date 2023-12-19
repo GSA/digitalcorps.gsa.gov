@@ -65,7 +65,7 @@
   @include u-padding(0);
   @include u-margin-top(8);
   @include u-bg("primary");
-  background-image: url(asset_path("stock/capitol-blue.webp"));
+  background-image: url("/assets/images/stock/capitol-blue.webp");
   background-position: 50% 82%; // left top
   background-size: cover;
 
@@ -82,7 +82,7 @@
   @include u-padding(4);
   @include column-overlay-vertical("center", 100%, "primary", 0.75);
   background-color: color("primary");
-  background-image: url(asset_path("home/TheUSgovernment.png"));
+  background-image: url("/assets/images/home/TheUSgovernment.png");
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@
 // see boxes.scss for styling and sizes
 .home-opportunity {
   @include u-margin-bottom(2);
-  background-image: url(asset_path("home/Opportunity.png"));
+  background-image: url("/assets/images/home/Opportunity.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: left;
@@ -136,7 +136,7 @@
 }
 
 .home-about {
-  background-image: url(asset_path("home/Who_we_are_image.png"));
+  background-image: url("/assets/images/home/Who_we_are_image.png");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: left;
