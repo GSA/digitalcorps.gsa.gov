@@ -1,7 +1,7 @@
 # Site settings
 title: U.S. Digital Corps
 email: usdigitalcorps@gsa.gov
-email_hr: vivian.carrasco@gsa.gov
+email_hr: marjorie.louis@gsa.gov
 description: "The United States Digital Corps.  Empowering early-career technologists to build a more effective, equitable government."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
