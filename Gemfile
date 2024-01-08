@@ -7,6 +7,7 @@ gem "execjs", "2.7.0" # https://github.com/rails/execjs/issues/99
 gem "autoprefixer-rails"
 gem "sprockets", "~> 3.7"
 gem "kramdown-parser-gfm", "~> 1.1.0"
+gem 'nokogiri', '~> 1.15', '>= 1.15.5'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -25,6 +26,6 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
-gem "html-proofer"
+gem "html-proofer", '~> 5.0', '>= 5.0.8'
 
 gem "webrick", "~> 1.8"
