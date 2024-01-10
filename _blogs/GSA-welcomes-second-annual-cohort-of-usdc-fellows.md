@@ -1,7 +1,7 @@
 ---
 id: welcome-second-cohort
 title: 'GSA welcomes second annual cohort of U.S. Digital Corps Fellows'
-image: 2023-usdc-fellows.jpeg
+image: /assets/images/blogs/2023-usdc-fellows.jpeg
 author: 
 published_at: "2023-07-18"
 summary: "Nearly 50 new fellows will support 13 federal agencies to advance key Biden-Harris Administration priorities."

@@ -2,7 +2,7 @@
 id: acf-improving-post-release-care-to-migrant-children-and-sponsors
 agency: "Administration for Children and Families"
 agency_abbrev: "ACF"
-agency_logo: "ACF.webp"
+agency_logo: "/assets/images/agencies/ACF.webp"
 title: "Improving post-release care to migrant children and sponsors"
 project_name: "Improving post-release care to migrant children and sponsors: Standardizing the Safety and Wellbeing Follow Up Calls"
 summary: "Helping the Office of Refugee Resettlement at the Administration of Children and Families ensure that the thousands of unaccompanied children that enter HHS care each month are safe, thriving, and swiftly united with a sponsor through technology delivery and design."

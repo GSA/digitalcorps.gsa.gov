@@ -1,7 +1,7 @@
 ---
 id: yaritza-garcía-chaparro
 title: Yaritza M. García Chaparro
-image: yaritza-garcía-chaparro.png
+image: /assets/images/fellows/2023/yaritza-garcía-chaparro.png
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]
