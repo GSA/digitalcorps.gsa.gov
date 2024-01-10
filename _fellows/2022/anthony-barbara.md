@@ -1,7 +1,7 @@
 ---
 id: anthony-barbara
 title: Anthony Barbara
-image: Anthony Barbara.png
+image: /assets/images/fellows/2022/Anthony Barbara.png
 fellow_year: 2022
 project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]

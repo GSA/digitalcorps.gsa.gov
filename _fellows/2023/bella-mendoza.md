@@ -1,7 +1,7 @@
 ---
 id: bella-mendoza
 title: Bella Mendoza
-image: bella-mendoza.png
+image: /assets/images/fellows/2023/bella-mendoza.png
 fellow_year: 2023
 project: ["na"]
 agency: ["OSTP"]

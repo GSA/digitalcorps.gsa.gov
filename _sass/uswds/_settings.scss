@@ -1,0 +1,172 @@
+
+// USWDS SETTINGS
+
+// General
+$theme-show-notifications: false;
+/*
+----------------------------------------
+Layout and Grid sizing
+----------------------------------------
+*/
+$theme-banner-max-width: "none";
+
+$theme-site-margins-breakpoint: "tablet";
+$theme-site-margins-width: 4;
+$theme-site-margins-mobile-width: 2;
+
+$custom-max-width: "widescreen";
+$theme-banner-max-width: $custom-max-width;
+$theme-header-max-width: $custom-max-width;
+$theme-grid-container-max-width: $custom-max-width;
+$theme-footer-max-width: $custom-max-width;
+$theme-identifier-max-width: $custom-max-width;
+$theme-site-alert-max-width: $custom-max-width;
+
+/*
+----------------------------------------
+Typography
+----------------------------------------
+*/
+$theme-font-type-cond: false;
+$theme-font-type-icon: false;
+$theme-font-type-lang: false;
+$theme-font-type-mono: "roboto-mono";
+$theme-font-type-sans: "public-sans";
+$theme-font-type-serif: $theme-font-type-sans;
+
+$theme-font-weight-thin: 100;
+$theme-font-weight-light: 300;
+$theme-font-weight-normal: 400;
+$theme-font-weight-medium: 500;
+$theme-font-weight-semibold: 700;
+$theme-font-weight-bold: 800;
+$theme-font-weight-heavy: 900;
+
+/*
+----------------------------------------
+Theme palette colors
+----------------------------------------
+*/
+
+// Base colors
+$theme-color-base-family: "gray";
+$theme-color-base-lightest: "gray-5";
+$theme-color-base-lighter: "gray-10";          // palette pick
+$theme-color-base-light: "gray-20";
+$theme-color-base: "gray-50";
+$theme-color-base-dark: "gray-60";
+$theme-color-base-darker: "gray-cool-80";
+$theme-color-base-darkest: "gray-cool-90";     // palette pick
+$theme-color-base-ink: "gray-90";
+
+// Primary colors
+$theme-color-primary-family: "indigo-cool";
+$theme-color-primary-lightest: false;
+$theme-color-primary-lighter: "blue-10";
+$theme-color-primary-light: "blue-30v";        // palette pick
+$theme-color-primary: "indigo-cool-80v";       // palette pick
+$theme-color-primary-vivid: "blue-50v";        // palette pick
+$theme-color-primary-dark: "indigo-80v";       // palette pick
+$theme-color-primary-darker: "indigo-80v";
+$theme-color-primary-darkest: false;
+
+// Secondary colors
+$theme-color-secondary-family: "red-cool";
+$theme-color-secondary-lightest: false;
+$theme-color-secondary-lighter: "red-cool-5v";
+$theme-color-secondary-light: "red-cool-10v";
+$theme-color-secondary: "red-cool-50v";        // palette pick
+$theme-color-secondary-vivid: "red-cool-50v";
+$theme-color-secondary-dark: "red-cool-60v";   // palette pick
+$theme-color-secondary-darker: "red-cool-70v";
+$theme-color-secondary-darkest: false;
+
+// Accent warm colors
+$theme-color-accent-warm-family: "yellow";
+$theme-color-accent-warm-lightest: false;
+$theme-color-accent-warm-lighter: "yellow-5v";
+$theme-color-accent-warm-light: "yellow-10v";
+$theme-color-accent-warm: "yellow-20v";        // palette pick
+$theme-color-accent-warm-dark: "yellow-30v";   // palette pick
+$theme-color-accent-warm-darker: "yellow-40v";
+$theme-color-accent-warm-darkest: false;
+
+// Accent cool colors
+$theme-color-accent-cool-family: "blue-cool";
+$theme-color-accent-cool-lightest: false;
+$theme-color-accent-cool-lighter: "blue-cool-5v";
+$theme-color-accent-cool-light: "blue-cool-20v";
+$theme-color-accent-cool: "cyan-30v";
+$theme-color-accent-cool-dark: "blue-cool-40v";
+$theme-color-accent-cool-darker: "blue-cool-60v";
+$theme-color-accent-cool-darkest: false;
+
+/*
+----------------------------------------
+State palette colors
+----------------------------------------
+*/
+
+// Error colors
+$theme-color-error-family: "red-warm";
+$theme-color-error-lighter: "red-warm-10";
+$theme-color-error-light: "red-warm-30v";
+$theme-color-error: "red-warm-50v";
+$theme-color-error-dark: "red-60v";
+$theme-color-error-darker: "red-70";
+
+// Warning colors
+$theme-color-warning-family: "gold";
+$theme-color-warning-lighter: "yellow-5";
+$theme-color-warning-light: "yellow-10v";
+$theme-color-warning: "gold-20v";
+$theme-color-warning-dark: "gold-30v";
+$theme-color-warning-darker: "gold-50v";
+
+// Success colors
+$theme-color-success-family: "green-cool";
+$theme-color-success-lighter: "green-cool-5";
+$theme-color-success-light: "green-cool-20v";
+$theme-color-success: "green-cool-40v";
+$theme-color-success-dark: "green-cool-50";
+$theme-color-success-darker: "green-cool-60";
+
+// Info colors
+$theme-color-info-family: "cyan";
+$theme-color-info-lighter: "cyan-5";
+$theme-color-info-light: "cyan-20";
+$theme-color-info: "cyan-30v";
+$theme-color-info-dark: "cyan-40v";
+$theme-color-info-darker: "blue-cool-60";
+
+// Disabled colors
+$theme-color-disabled-family: "gray";
+$theme-color-disabled-light: "gray-10";
+$theme-color-disabled: "gray-20";
+$theme-color-disabled-dark: "gray-30";
+
+// Emergency colors
+$theme-color-emergency: "red-warm-60v";
+$theme-color-emergency-dark: "red-warm-80";
+
+/*
+----------------------------------------
+General colors
+----------------------------------------
+*/
+
+// Body
+$theme-body-background-color: "white";
+
+// Text
+$theme-text-color: "ink";
+$theme-text-reverse-color: "white";
+
+// Links
+$theme-link-color: "primary";
+$theme-link-visited-color: "violet-70v";
+$theme-link-hover-color: "primary-dark";
+$theme-link-active-color: "primary-darker";
+$theme-link-reverse-color: "base-lighter";
+$theme-link-reverse-hover-color: "base-lightest";
+$theme-link-reverse-active-color: "white";

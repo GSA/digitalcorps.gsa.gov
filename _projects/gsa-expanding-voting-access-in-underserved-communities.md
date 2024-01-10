@@ -2,7 +2,7 @@
 id: gsa-vote
 agency: "General Services Administration"
 agency_abbrev: "GSA"
-agency_logo: "GSA.webp"
+agency_logo: "/assets/images/agencies/GSA.webp"
 title: "Expanding voting access in underserved communities"
 project_name: "Expanding voting access in underserved communities"
 summary: "Supporting the General Services Administration's Vote.gov program in expanding voting access in underserved communities."
