@@ -2,7 +2,7 @@
 id: gsa-10x
 agency: "General Services Administration"
 agency_abbrev: "GSA"
-agency_logo: "GSA.webp"
+agency_logo: "/assets/images/agencies/GSA.webp"
 title: "Crowdsourcing ideas and iteratively building and validating good-for-government solutions"
 project_name: "Crowdsourcing ideas and iteratively building and validating good-for-government solutions"
 summary: "Supporting ideas from federal employees about how technology can improve customer experience as part of the General Services Administration's 10x program."

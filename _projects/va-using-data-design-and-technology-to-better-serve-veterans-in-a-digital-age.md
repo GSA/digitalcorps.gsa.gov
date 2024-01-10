@@ -2,7 +2,7 @@
 id: va-octo
 agency: "Department of Veterans Affairs"
 agency_abbrev: "VA"
-agency_logo: "VA.webp"
+agency_logo: "/assets/images/agencies/VA.webp"
 title: "Using data, design, and technology to better serve Veterans in a digital age"
 project_name: "Using data, design, and technology to better serve Veterans in a digital age"
 summary: "Creating a better customer experience for Veterans and their families to receive the benefits they've earned in the Department of Veterans Affairs' Office of the Chief Technology Officer."

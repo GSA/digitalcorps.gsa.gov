@@ -1,7 +1,7 @@
 ---
 id: jamie-lambert
 title: Jamie Lambert
-image: jamie-lambert.png
+image: /assets/images/fellows/2023/jamie-lambert.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]

@@ -1,7 +1,7 @@
 ---
 id: lacy-kelly-ramos
 title: Lacy Kelly Ramos
-image: Lacy Kelly Ramos.png
+image: /assets/images/fellows/2022/Lacy Kelly Ramos.png
 fellow_year: 2022
 project: ["uscb"]
 agency: ["USCB"]
