@@ -1,7 +1,7 @@
 <!-- ---
 id: us-digital-corps-marks-first-year-driving-impact-in-federal-technology
 title: U.S. Digital Corps Marks First Year, Driving Impact in Federal Technology
-image: Default_Press_Image.png
+image: /assets/images/blogs/Default_Press_Image.png
 author: GSA
 published_at: "2022-09-07"
 summary: "From the Administration for Children and Families to the Department of State, we’re already hearing about how our first group is asking good questions and bringing new approaches to the table. We look forward to getting applications for our second cohort this fall so we can bring on even more early-career technologists who want to help government deliver for the American people."

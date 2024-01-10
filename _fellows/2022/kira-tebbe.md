@@ -1,7 +1,7 @@
 ---
 id: kira-tebbe
 title: Kira Tebbe
-image: Kira Tebbe.png
+image: /assets/images/fellows/2022/Kira Tebbe.png
 fellow_year: 2022
 project: ["acf-improving-post-release-care-to-migrant-children-and-sponsors"]
 agency: ["ACF"]

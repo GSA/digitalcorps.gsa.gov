@@ -1,7 +1,7 @@
 ---
 id: usdc-launch
 title: 'Biden Administration Launches U.S. Digital Corps to Recruit the Next Generation of Technology Talent to Federal Service'
-image: u-s-digital-corps-logo.png
+image: /assets/images/blogs/u-s-digital-corps-logo.png
 author: 
 published_at: "2021-08-30"
 summary: "GSA announces the U.S. Digital Corps as a new talent program that will recruit software engineers, data scientists, and other technologists to improve citizen-facing services in partnership with OPM and the White House."

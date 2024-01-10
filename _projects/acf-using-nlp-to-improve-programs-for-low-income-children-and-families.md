@@ -2,7 +2,7 @@
 id: acf-ddi
 agency: "Administration for Children and Families"
 agency_abbrev: "ACF"
-agency_logo: "ACF.webp"
+agency_logo: "/assets/images/agencies/ACF.webp"
 title: "Using NLP to improve programs for low-income children and families"
 project_name: "Using NLP to improve programs for low-income children and families"
 summary: "Working within the Administration for Children and Families' Division of Data and Improvement to improve programs that serve millions of vulnerable and low-income children and families by using natural language processing and rigorous qualitative data analysis to answer critical policy and operational questions."

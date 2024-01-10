@@ -1,7 +1,7 @@
 ---
 id: jay-shao
 title: Jay Shao
-image: Jay Shao.png
+image: /assets/images/fellows/2022/Jay Shao.png
 fellow_year: 2022
 project: ["cms-developing-a-security-data-lake"]
 agency: ["CMS"]
