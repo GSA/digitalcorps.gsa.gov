@@ -1,0 +1,98 @@
+---
+---
+// https://jekyllrb.com/docs/assets/
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+*/
+
+// -------------------------------------
+// Import individual theme settings
+@import "theme/uswds-theme-general";
+@import "theme/uswds-theme-typography";
+@import "theme/uswds-theme-spacing";
+@import "theme/uswds-theme-color";
+@import "theme/uswds-theme-utilities";
+@import "theme/uswds-theme-components";
+
+// Set correct paths for use with asset pipeline
+$theme-font-path: "../uswds/fonts";
+$theme-image-path: "../uswds/img";
+
+// -------------------------------------
+// Import individual USWDS packages...
+@import "scss/packages/required";
+@import "scss/packages/global";
+
+@import "scss/packages/uswds-components";
+@import "scss/packages/uswds-utilities";
+
+/*
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+// US Web Design System (base)
+
+//set baseurl for image paths in imported scss files
+$baseurl:"{{ site.baseurl }}";
+
+@import "uswds/settings";
+@import "uswds";
+
+@import "uswds/button";
+@import "uswds/menu";
+@import "uswds/hero";
+@import "uswds/banner";
+@import "uswds/footer";
+@import "uswds/form";
+@import "uswds/identifier";
+@import "uswds/logo";
+@import "uswds/process-list";
+@import "uswds/sidenav";
+
+// Search.gov
+@import "search.gov/form";
+
+// Base Overrides and Styles
+@import "base/layout";
+@import "base/overlays";
+@import "base/typography";
+
+// Component Styles
+@import "component/boxes";
+@import "component/benefits";
+@import "component/highlight";
+@import "component/lists";
+@import "component/media";
+@import "component/quotes";
+@import "component/track-bubbles";
+@import "component/filters";
+
+// Page Styles
+@import "pages/about";
+@import "pages/apply";
+@import "pages/faq";
+@import "pages/process";
+@import "pages/home";
+@import "pages/opportunity";
+@import "pages/tracks";
+@import "pages/projects";
+@import "pages/project";
+@import "pages/fellows";
+@import "pages/blog";
+

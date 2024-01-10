@@ -1,7 +1,7 @@
 ---
 id: kira-tebbe
 title: Kira Tebbe
-image: Kira Tebbe.png
+image: /assets/images/fellows/2022/Kira Tebbe.png
 social: fellow
 social_image:
 fellow_year: 2022

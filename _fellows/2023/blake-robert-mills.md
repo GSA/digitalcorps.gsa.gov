@@ -1,9 +1,9 @@
 ---
 id: blake-robert-mills
 title: Blake Robert Mills
-image: blake-robert-mills.png
+image: /assets/images/fellows/2023/blake-robert-mills.png
 social: fellow
-social_image: social-blake-mills.png
+social_image: /assets/images/social/fellows/social-blake-mills.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DTIC"]

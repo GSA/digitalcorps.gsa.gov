@@ -2,7 +2,7 @@
 id: state-ca
 agency: "Department of State"
 agency_abbrev: "State"
-agency_logo: "DOS.webp"
+agency_logo: "/assets/images/agencies/DOS.webp"
 title: "Leveraging data for diplomacy at the State Department"
 project_name: "Leveraging data for diplomacy at the State Department"
 summary: "Using data and technology in innovative ways to implement the State Department’s Enterprise Data Strategy (EDS) and data-informed diplomacy. The EDS helps to advance America’s foreign policy priorities, solve the Department's management challenges, and protect its people, facilities, and information."

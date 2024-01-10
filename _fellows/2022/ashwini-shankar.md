@@ -1,7 +1,7 @@
 ---
 id: ashwini-shankar
 title: Ashwini Shankar
-image: Ashwini Shankar.png
+image: /assets/images/fellows/2022/Ashwini Shankar.png
 social: fellow
 social_image:
 fellow_year: 2022

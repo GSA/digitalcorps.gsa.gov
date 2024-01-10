@@ -1,7 +1,7 @@
 ---
 id: pierce-lowary
 title: Pierce Lowary
-image: Pierce Lowary.png
+image: /assets/images/fellows/2022/Pierce Lowary.png
 social: fellow
 social_image:
 fellow_year: 2022

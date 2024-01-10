@@ -1,7 +1,7 @@
 ---
 id: jenny-wang
 title: Jenny Wang
-image: Jenny Wang.png
+image: /assets/images/fellows/2022/Jenny Wang.png
 social: fellow
 social_image:
 fellow_year: 2022

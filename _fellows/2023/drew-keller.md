@@ -1,7 +1,7 @@
 ---
 id: drew-keller
 title: Drew Keller
-image: drew-keller.png
+image: /assets/images/fellows/2023/drew-keller.png
 social: fellow
 social_image:
 fellow_year: 2023

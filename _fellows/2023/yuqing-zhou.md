@@ -1,7 +1,7 @@
 ---
 id: yuqing-zhou
 title: Yuqing Zhou
-image: yuqing-zhou.png
+image: /assets/images/fellows/2023/yuqing-zhou.png
 social: fellow
 social_image:
 fellow_year: 2023

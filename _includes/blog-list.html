@@ -8,9 +8,9 @@
             <div class="usa-card__media">
               <div class="usa-card__img">
                 {% if blog.image %}
-                {% asset "{{ blog.image }}" alt="{{ blog.title }}" %}
+                <img src="{{ site.baseurl }}{{ blog.image }}" alt="{{ blog.title }}" />
                 {% else %}
-                {% asset "Default_Press_Image.png" alt="{{ blog.title  }}" %}
+                <img src="{{ site.baseurl }}/assets/images/articles/Default_Press_Image.png" alt="{{ blog.title }}" />
                 {% endif %}
               </div>
             </div>

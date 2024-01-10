@@ -1,7 +1,7 @@
 ---
 id: samira-sadat
 title: Samira Sadat
-image: Samira Sadat.png
+image: /assets/images/fellows/2022/Samira Sadat.png
 social: fellow
 social_image:
 fellow_year: 2022

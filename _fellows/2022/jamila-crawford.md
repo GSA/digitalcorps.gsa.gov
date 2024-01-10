@@ -1,7 +1,7 @@
 ---
 id: jamila-crawford
 title: Jamila Crawford
-image: Jamila Crawford.png
+image: /assets/images/fellows/2022/Jamila Crawford.png
 social: fellow
 social_image:
 fellow_year: 2022

@@ -1,7 +1,7 @@
 ---
 id: kathleen-carroll
 title: Kathleen Carroll
-image: Kathleen Carroll.png
+image: /assets/images/fellows/2022/Kathleen Carroll.png
 social: fellow
 social_image:
 fellow_year: 2022

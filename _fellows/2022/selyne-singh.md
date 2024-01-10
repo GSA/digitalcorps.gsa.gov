@@ -1,7 +1,7 @@
 ---
 id: selyne-singh
 title: Selyne Singh
-image: Selyne Singh.png
+image: /assets/images/fellows/2022/Selyne Singh.png
 social: fellow
 social_image:
 fellow_year: 2022

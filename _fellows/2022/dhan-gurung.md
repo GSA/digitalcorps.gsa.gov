@@ -1,7 +1,7 @@
 ---
 id: dhan-gurung
 title: Dhan Gurung
-image: Dhan Gurung.png
+image: /assets/images/fellows/2022/Dhan Gurung.png
 social: fellow
 social_image:
 fellow_year: 2022

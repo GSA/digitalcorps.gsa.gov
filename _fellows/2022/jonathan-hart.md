@@ -1,7 +1,7 @@
 ---
 id: jonathan-hart
 title: Jonathan Hart
-image: Jonathan Hart.png
+image: /assets/images/fellows/2022/Jonathan Hart.png
 social: fellow
 social_image:
 fellow_year: 2022

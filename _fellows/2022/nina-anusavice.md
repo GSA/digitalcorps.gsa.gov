@@ -1,7 +1,7 @@
 ---
 id: nina-anusavice
 title: Nina Anusavice
-image: Nina Anusavice.png
+image: /assets/images/fellows/2022/Nina Anusavice.png
 social: fellow
 social_image:
 fellow_year: 2022

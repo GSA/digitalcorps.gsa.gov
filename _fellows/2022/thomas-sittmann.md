@@ -1,7 +1,7 @@
 ---
 id: thomas-sittmann
 title: Thomas Sittmann
-image: Thomas Sittmann.png
+image: /assets/images/fellows/2022/Thomas Sittmann.png
 social: fellow
 social_image:
 fellow_year: 2022

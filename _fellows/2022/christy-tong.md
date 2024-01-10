@@ -1,7 +1,7 @@
 ---
 id: christy-tong
 title: Christy Tong
-image: Christy Tong.png
+image: /assets/images/fellows/2022/Christy Tong.png
 social: fellow
 social_image:
 fellow_year: 2022

@@ -1,7 +1,7 @@
 ---
 id: sahithi-adari
 title: Sahithi Adari
-image: Sahithi Adari.png
+image: /assets/images/fellows/2022/Sahithi Adari.png
 social: fellow
 social_image:
 fellow_year: 2022

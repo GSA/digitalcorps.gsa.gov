@@ -1,9 +1,9 @@
 ---
 id: louisa-sholar
 title: Louisa Sholar
-image: louisa-sholar.png
+image: /assets/images/fellows/2023/louisa-sholar.png
 social: fellow
-social_image: social-louisa-sholar.png
+social_image: /assets/images/social/fellows/social-louisa-sholar.png
 fellow_year: 2023
 project: ["na"]
 agency: ["HHS"]

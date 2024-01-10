@@ -1,7 +1,7 @@
 ---
 id: julie-winston
 title: Julie Winston
-image: julie-winston.png
+image: /assets/images/fellows/2022/julie-winston.png
 social: fellow
 social_image:
 fellow_year: 2022

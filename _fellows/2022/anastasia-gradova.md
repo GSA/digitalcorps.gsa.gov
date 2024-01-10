@@ -1,7 +1,7 @@
 ---
 id: anastasia-gradova
 title: Anastasia Gradova
-image: Anastasia Gradova.png
+image: /assets/images/fellows/2022/Anastasia Gradova.png
 social: fellow
 social_image:
 fellow_year: 2022

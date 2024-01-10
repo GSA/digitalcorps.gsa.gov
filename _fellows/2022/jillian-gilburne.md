@@ -1,7 +1,7 @@
 ---
 id: jillian-gilburne
 title: Jillian Gilburne
-image: jillian-gilburne.png
+image: /assets/images/fellows/2022/Jillian Gilburne.png
 social: fellow
 social_image: 
 fellow_year: 2022

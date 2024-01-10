@@ -1,7 +1,7 @@
 ---
 id: tiffany-feng
 title: Tiffany Feng
-image: Tiffany Feng.png
+image: /assets/images/fellows/2022/Tiffany Feng.png
 social: fellow
 social_image:
 fellow_year: 2022
