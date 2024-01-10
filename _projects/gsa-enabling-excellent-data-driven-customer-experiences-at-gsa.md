@@ -2,7 +2,7 @@
 id: gsa-oce
 agency: "General Services Administration"
 agency_abbrev: "GSA"
-agency_logo: "GSA.webp"
+agency_logo: "/assets/images/agencies/GSA.webp"
 title: "Enabling excellent, data-driven customer experiences at GSA "
 project_name: "Enabling excellent, data-driven customer experiences at GSA"
 summary: "Supporting the General Services Administration's Office of Customer Experience in collecting, managing, and analyzing customer sentiment data so GSA has the customer insights it needs for fully-realized mission delivery."

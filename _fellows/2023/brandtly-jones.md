@@ -1,7 +1,7 @@
 ---
 id: brandtly-jones
 title: Brandtly Jones
-image: brandtly-jones.png
+image: /assets/images/fellows/2023/brandtly-jones.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DOS"]

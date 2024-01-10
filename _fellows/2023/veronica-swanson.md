@@ -1,7 +1,7 @@
 ---
 id: veronica-swanson
 title: Veronica Swanson
-image: veronica-swanson.png
+image: /assets/images/fellows/2023/veronica-swanson.png
 fellow_year: 2023
 project: ["na"]
 agency: ["USDA"]

@@ -2,7 +2,7 @@
 id: gsa-usagov
 agency: "General Services Administration"
 agency_abbrev: "GSA"
-agency_logo: "GSA.webp"
+agency_logo: "/assets/images/agencies/GSA.webp"
 title: "Simplifying access to life-saving benefits and services on USAGov"
 project_name: "Simplifying access to life-saving benefits and services on USAGov"
 summary: "Making government services easier to find on USAGov and USAGov en español at the General Services Administration."

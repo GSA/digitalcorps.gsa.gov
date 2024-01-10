@@ -2,7 +2,7 @@
 id: cdc-cfoa
 agency: "Centers for Disease Control and Prevention"
 agency_abbrev: "CDC"
-agency_logo: "CDC.png"
+agency_logo: "/assets/images/agencies/CDC.png"
 title: "Using data to better respond to disease outbreaks"
 project_name: "Using data to better respond to disease outbreaks"
 summary: "Utilizing data, modeling, and analytics to respond to outbreaks in real-time to drive effective decision-making at the Centers for Disease Control and Prevention's Center for Forecasting and Outbreak Analytics."

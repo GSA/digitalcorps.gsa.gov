@@ -2,7 +2,7 @@
 id: state-ds
 agency: "Department of State"
 agency_abbrev: "State"
-agency_logo: "DOS.webp"
+agency_logo: "/assets/images/agencies/DOS.webp"
 title: "Developing and evaluating countermeasures to protect the State Department's networks worldwide"
 project_name: "Developing and evaluating countermeasures to protect the State Department's networks worldwide"
 summary: "Embedding cybersecurity expertise and best practices to ensure that U.S. diplomats can conduct official business securely and effectively at U.S. Missions around the world."
