@@ -1,7 +1,7 @@
 ---
 id: from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service
 title: 'From Silicon Valley to GovTech: How a Data Scientist Turned Their Passion for Helping People Into a Career in Public Service'
-image: /assets/images/blogs/from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service.png
+image: /assets/images/blogs/headers/from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service.png
 author: Dahianna Salazar Foreman
 published_at: "2021-10-25"
 summary: "Data scientist Avena Cheng at the Centers for Medicare and Medicaid Services shares her path to public service and her work supporting modernizing data processes for data.cms.gov as part of USDC's series of profiles on public interest technologists in the federal government."

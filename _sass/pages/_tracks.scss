@@ -50,23 +50,23 @@
 
     // custom images
     .software-engineering {
-        background-image: url("/assets/images/stock/software-engineering-banner.jpeg");
+        background-image: url($baseurl + "/assets/images/stock/software-engineering-banner.jpeg");
         background-position: center;
     }
     .data-science {
-        background-image: url("/assets/images/stock/data-science-banner.jpeg");
+        background-image: url($baseurl + "/assets/images/stock/data-science-banner.jpeg");
         background-position: center;
     }
     .product-management {
-        background-image: url("/assets/images/stock/product-management-banner.jpeg");
+        background-image: url($baseurl + "/assets/images/stock/product-management-banner.jpeg");
         background-position: 50% 30%;
     }
     .design {
-        background-image: url("/assets/images/stock/design-banner.jpeg");
+        background-image: url($baseurl + "/assets/images/stock/design-banner.jpeg");
         background-position: center;
     }
     .cybersecurity {
-        background-image: url("/assets/images/stock/cybersecurity-banner.jpeg");
+        background-image: url($baseurl + "/assets/images/stock/cybersecurity-banner.jpeg");
         background-position: center;
     }
 }

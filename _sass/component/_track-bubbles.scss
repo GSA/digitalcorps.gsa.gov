@@ -64,23 +64,23 @@
 
         // unique images
         .track-engineering {
-            background-image: url("/assets/images/stock/software-engineering-bubble.jpeg");
+            background-image: url($baseurl + "/assets/images/stock/software-engineering-bubble.jpeg");
             background-size: cover;
         }
         .track-data-science {
-            background-image: url("/assets/images/stock/data-science-bubble.jpeg");
+            background-image: url($baseurl + "/assets/images/stock/data-science-bubble.jpeg");
             background-size: cover;
         }
         .track-product-management {
-            background-image: url("/assets/images/stock/product-management-bubble.jpeg");
+            background-image: url($baseurl + "/assets/images/stock/product-management-bubble.jpeg");
             background-size: cover;
         }
         .track-design {
-            background-image: url("/assets/images/stock/design-bubble.jpeg");
+            background-image: url($baseurl + "/assets/images/stock/design-bubble.jpeg");
             background-size: cover;
         }
         .track-cybersecurity {
-            background-image: url("/assets/images/stock/cybersecurity-bubble.jpeg");
+            background-image: url($baseurl + "/assets/images/stock/cybersecurity-bubble.jpeg");
             background-size: cover;
         }
     }

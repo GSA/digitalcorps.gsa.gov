@@ -1,7 +1,7 @@
 ---
 id: start-your-tech-career-in-government-as-a-us-digital-corps-fellow
 title: "Start Your Tech Career in Government as a U.S. Digital Corps Fellow"
-image: /assets/images/blogs/start-your-tech-career-in-government-as-a-us-digital-corps-fellow.png
+image: /assets/images/blogs/headers/start-your-tech-career-in-government-as-a-us-digital-corps-fellow.png
 author: Masha Danilova
 published_at: "2021-11-01"
 summary: "U.S. Digital Corps co-lead Masha Danilova shares a personal reflection on her path to public service and announces the application opening date for the first cohort of USDC Fellows."

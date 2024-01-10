@@ -1,7 +1,7 @@
 ---
 id: driving-long-covid-innovation-with-health-plus-human-centered-design
 title: 'Driving Long COVID Innovation with Health+ Human-Centered Design'
-image: /assets/images/blogs/driving-long-covid-innovation-with-health-plus-human-centered-design.png
+image: /assets/images/blogs/headers/driving-long-covid-innovation-with-health-plus-human-centered-design.png
 author: Kristen Honey, Kathleen Carroll, Michael Iademarco
 published_at: "2022-11-21"
 summary: "U.S. Digital Corps Fellow Kathleen Carroll and her team introduce the Health+ Long COVID Report, which  centers the voices of people living with Long COVID and was written with over 1,000 hours of interviews, workshops, and research. The report provides an opportunities framework and recommendations for advancing equitable change."

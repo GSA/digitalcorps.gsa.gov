@@ -1,7 +1,7 @@
 ---
 id: implementing-equitable-data-to-ensure-government-works-for-the-public
 title: Implementing Equitable Data To Ensure Government Works for the Public
-image: /assets/images/blogs/implementing-equitable-data-to-ensure-government-works-for-the-public-new.png
+image: /assets/images/blogs/headers/implementing-equitable-data-to-ensure-government-works-for-the-public-new.png
 author: Meredith Brown
 published_at: "2022-11-16"
 summary: "U.S. Digital Corps Fellow Meredith Brown reflects on her journey to civic tech and her impactful work supporting the White House Office of Science and Technology Policy and the Equitable Federal Funding Interagency Working Group in ensuring that the implementation of key legislation is done equitably."

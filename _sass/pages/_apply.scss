@@ -5,7 +5,7 @@
         @include u-padding-x(4);
         @include u-padding-y(0);
 
-        background-image: url("/assets/images/apply/apply.png");
+        background-image: url($baseurl + "/assets/images/apply/apply.png");
         background-position: center;
         background-color: color("primary-dark");
         min-height: 500px;
@@ -241,19 +241,19 @@
                 // custom images
                 .step1 {
                     &::before {
-                        background-image: url("/assets/images/icons/step1.svg");
+                        background-image: url($baseurl + "/assets/images/icons/step1.svg");
                     }
                 }
 
                 .step2 {
                     &::before {
-                        background-image: url("/assets/images/icons/step2.svg");
+                        background-image: url($baseurl + "/assets/images/icons/step2.svg");
                     }
                 }
 
                 .step3 {
                     &::before {
-                        background-image: url("/assets/images/icons/step3.svg");
+                        background-image: url($baseurl + "/assets/images/icons/step3.svg");
                     }
                 }
             }

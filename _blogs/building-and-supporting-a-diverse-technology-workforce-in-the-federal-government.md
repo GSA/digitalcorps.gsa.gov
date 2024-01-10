@@ -1,7 +1,7 @@
 ---
 id: building-and-supporting-a-diverse-technology-workforce-in-the-federal-government
 title: 'Building and Supporting a Diverse Technology Workforce in the Federal Government'
-image: /assets/images/blogs/building-and-supporting-a-diverse-technology-workforce-in-the-federal-government.png
+image: /assets/images/blogs/headers/building-and-supporting-a-diverse-technology-workforce-in-the-federal-government.png
 author: Brian Whittaker
 published_at: "2022-03-22"
 summary: "We asked 18F and Centers of Excellence alum Brian Whittaker, who is now at the Federal Deposit Insurance Corporation, to share his thoughts on why it is so important to focus on diversity and representation when building the technology workforce in government, and his advice for managers and early-career employees alike."

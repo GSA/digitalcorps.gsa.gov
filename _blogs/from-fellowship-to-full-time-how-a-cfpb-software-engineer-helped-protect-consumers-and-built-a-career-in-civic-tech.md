@@ -1,7 +1,7 @@
 ---
 id: from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech
 title: 'From Fellowship To Full-time: How a CFPB Software Engineer Helped Protect Consumers and Built a Career in Civic Tech'
-image: /assets/images/blogs/from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech.png
+image: /assets/images/blogs/headers/from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech.png
 author: Chris Kuang
 published_at: "2022-03-07"
 summary: "Ans Bradford, a front-end web developer at the Consumer Financial Protection Bureau, shares his journey to civic tech and public service via several fellowship programs and his work supporting CFPB's internal design system as part of USDC's series of profiles on public interest technologists in the federal government."

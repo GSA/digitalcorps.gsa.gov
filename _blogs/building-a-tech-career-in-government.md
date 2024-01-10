@@ -1,7 +1,7 @@
 ---
 id: building-a-tech-career-in-government
 title: 'Building a Tech Career in Government'
-image: /assets/images/blogs/building-a-tech-career-in-government.png
+image: /assets/images/blogs/headers/building-a-tech-career-in-government.png
 author: Dahianna Salazar Foreman
 published_at: "2021-10-07"
 summary: "Five GSA colleagues who started their tech careers in public service share their backgrounds, experiences, and reflections to showcase the variety of opportunities available for technologists to make an impact in government."

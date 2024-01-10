@@ -1,7 +1,7 @@
 ---
 id: serving-the-public-five-veterans-journeys-to-public-interest-tech
 title: "Serving the Public: Five Veterans' Journeys to Public Interest Tech"
-image: /assets/images/blogs/serving-the-public-five-veterans-journeys-to-public-interest-tech.png
+image: /assets/images/blogs/headers/serving-the-public-five-veterans-journeys-to-public-interest-tech.png
 author: Dahianna Salazar Foreman
 published_at: "2022-09-09"
 summary: "Five Veterans in our inaugural 2022 cohort share their public service journeys from various military branches and positions to working in civic tech with the U.S. Digital Corps."

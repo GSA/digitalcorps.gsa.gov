@@ -3,7 +3,7 @@
     .usa-hero {
       @include u-margin-bottom(4);
       //@include u-text("white");
-      background-image: url("/assets/images/projects/Project_Banner.png");
+      background-image: url($baseurl + "/assets/images/projects/Project_Banner.png");
       background-position: 90% 56%;
       //background-color: color("base-lightest");
       position: relative;

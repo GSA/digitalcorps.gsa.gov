@@ -1,7 +1,7 @@
 ---
 id: reflections-on-a-year-in-government-from-11-us-digital-corps-fellows
 title: 'Reflections on a year in government from 11 U.S. Digital Corps fellows'
-image: /assets/images/blogs/reflections-on-a-year-in-government-from-11-us-digital-corps-fellows.png
+image: /assets/images/blogs/headers/reflections-on-a-year-in-government-from-11-us-digital-corps-fellows.png
 author: 
 published_at: "2023-07-18"
 summary: "Eleven U.S. Digital Corps Fellows from our inaugural 2022 cohort reflect on what they've learned about serving as technologists in the federal government at the end of their first year."
