@@ -1,9 +1,9 @@
 <aside class="usa-layout-docs-sidenav desktop:grid-col-3 padding-bottom-4{% if include.order %} order-{{ include.order }}{% endif %}">
   <div>
     {% if page.image %}
-      {% asset "{{ page.image }}" class="circle-card float-left margin-right-10" alt="{{ page.title }}" %}
-      {% else %}
-      {% asset "Placeholder.png" class="circle-card float-left margin-right-10" alt="{{ page.title }}" %}
+      <img src="{{site.baseurl}}{{ page.image }}" class="circle-card float-left margin-right-10" alt="{{page.title}}"/>
+    {% else %}
+      <img src="{{site.baseurl}}/assets/images/icons/Placeholder.png" class="circle-card float-left margin-right-10" alt="{{ page.title }}" />
     {% endif %}
   </div>
   <div class="fellow-side-info">

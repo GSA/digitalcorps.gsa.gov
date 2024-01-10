@@ -1,7 +1,7 @@
 ---
 id: justen-lewis
 title: Justen Lewis
-image: Justen Lewis.png
+image: /assets/images/fellows/2022/Justen Lewis.png
 fellow_year: 2022
 project: ["opm"]
 agency: ["OPM"]

@@ -1,7 +1,7 @@
 ---
 id: yuqing-zhou
 title: Yuqing Zhou
-image: yuqing-zhou.png
+image: /assets/images/fellows/2023/yuqing-zhou.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DOS"]

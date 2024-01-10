@@ -2,7 +2,7 @@
 id: hhs-ocdo
 agency: "Department of Health and Human Services"
 agency_abbrev: "HHS"
-agency_logo: "HHS.webp"
+agency_logo: "/assets/images/agencies/HHS.webp"
 title: "Tackling health equity, integrated care, and digital service delivery with data"
 project_name: "Tackling health equity, integrated care, and digital service delivery with data"
 summary: "Supporting the Office of the Chief Data Officer at the Department of Health and Human Services in using data science & analytics best practices to address complex issues."

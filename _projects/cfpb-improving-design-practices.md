@@ -2,7 +2,7 @@
 id: cfpb
 agency: "Consumer Financial Protection Bureau"
 agency_abbrev: "CFPB"
-agency_logo: "cfpb.webp"
+agency_logo: "/assets/images/agencies/cfpb.webp"
 title: "Improving design practices at CFPB"
 project_name: "Improving design practices at CFPB"
 summary: "Working at the Consumer Financial Protection Bureau in utilizing data, technology, and design to safeguard everyday financial stability and build a more inclusive economy."

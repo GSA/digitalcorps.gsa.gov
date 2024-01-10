@@ -1,7 +1,7 @@
 ---
 id: cybersecurity-transition
 title: 'Transitioning from law enforcement to cybersecurity: A U.S. Digital Corps Fellow’s journey'
-image: cybersecurity-transition.png
+image: /assets/images/blogs/headers/cybersecurity-transition.png
 author: Jamila Crawford
 published_at: "2022-10-24"
 summary: "For National Cybersecurity Awareness Month in October 2022, U.S. Digital Corps Fellow Jamila Crawford reflected on her public service career path from working as a probation and parole office in Georgia to working in cybersecurity at the Cybersecurity and Infrastructure Security Agency (CISA)."

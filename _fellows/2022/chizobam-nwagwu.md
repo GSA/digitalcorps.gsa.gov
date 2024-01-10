@@ -1,7 +1,7 @@
 ---
 id: chizobam-nwagwu
 title: Chizobam Nwagwu
-image: Chizobam Nwagwu.png
+image: /assets/images/fellows/2022/Chizobam Nwagwu.png
 fellow_year: 2022
 project: ["cms-designing-a-how-to-guide-for-improving-access-to-behavioral-health-care-and-support"]
 agency: ["CMS"]

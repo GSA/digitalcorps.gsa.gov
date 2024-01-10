@@ -1,0 +1,38 @@
+
+// USWDS OVERRIDES for LOGO
+// note: mobile menu breaks at desktop threshold
+
+.usa-logo {
+  margin: 0;
+  font-size: 1rem;
+
+  // < desktop
+  @include at-media-max("desktop") {
+    @include u-margin-x(4);
+  }
+
+  // < tablet
+  @include at-media-max("tablet") {
+    @include u-margin-x(2);
+  }
+
+  img {
+    display: inline-block;
+    vertical-align: middle;
+    image-rendering: crisp-edges;
+
+    height: 60px;
+    width: auto;
+    max-width: unset;
+
+    // < desktop-lg
+    @include at-media-max("desktop-lg") {
+      // need TBD
+    }
+
+    // < desktop
+    @include at-media-max("desktop") {
+      height: 40px;
+    }
+  }
+}
