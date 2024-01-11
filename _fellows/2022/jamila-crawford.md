@@ -3,7 +3,7 @@ id: jamila-crawford
 title: Jamila Crawford
 image: /assets/images/fellows/2022/Jamila Crawford.png
 social: fellow
-social_image:
+social_image: /assets/images/social/fellows/social-jamila-crawford.png
 fellow_year: 2022
 project: ["cisa"]
 agency: ["CISA"]

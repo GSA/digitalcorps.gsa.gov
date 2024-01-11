@@ -3,7 +3,7 @@ id: anastasia-gradova
 title: Anastasia Gradova
 image: /assets/images/fellows/2022/Anastasia Gradova.png
 social: fellow
-social_image:
+social_image: /assets/images/social/fellows/social-anastasia-gradova.png
 fellow_year: 2022
 project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]

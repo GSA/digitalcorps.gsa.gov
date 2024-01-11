@@ -3,7 +3,7 @@ id: joe-lindsey
 title: Joe Lindsey
 image: /assets/images/fellows/2022/Joe Lindsey.png
 social: fellow
-social_image:
+social_image: /assets/images/social/fellows/social-joe-lindsey.png
 fellow_year: 2022
 project: ["dos"]
 agency: ["DOS"]
