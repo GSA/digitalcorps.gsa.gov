@@ -1,0 +1,213 @@
+
+// // USWDS OVERRIDES for HEADER/NAV
+
+// // remove top and bottom section borders
+// .usa-header + main,
+// .usa-header + .usa-section {
+//   border-top: none;
+// }
+// .usa-navbar {
+//   border-bottom: none;
+// }
+
+// // remove 33% width, fixed height for logo area
+// .usa-header--extended .usa-navbar {
+//   width: unset;
+// }
+
+// // remove bottom padding for desktop menu
+// .usa-header--extended .usa-nav {
+//   border-top: none;
+//   @include at-media("desktop") {
+//     padding: 0 0 0 0.5rem;
+//   }
+// }
+
+// // menu item layout, centered vertically
+// .usa-header--extended .usa-nav-container {
+//   @include at-media("desktop") {
+//     height: 75px;
+//     align-items: center;
+//   }
+// }
+
+// //primary menu spacing
+// .usa-nav__primary {
+//   justify-content: space-between;
+// }
+
+// // menu font
+// .usa-nav__primary > .usa-nav__primary-item {
+
+//   // desktop view, font size/decoration
+//   @include at-media("desktop") {
+//     @include u-font("sans", "xs");
+//     text-transform: uppercase;
+//   }
+
+//   & > a {
+//     @include u-text("black");
+//     @include u-text("normal");
+
+//     // desktop view, spacing between
+//     @include at-media("desktop") {
+//       @include u-padding-x(1);
+//     }
+
+//     &:active {
+//       @include u-text("base");
+//     }
+//     &:hover {
+//       @include u-text("base-dark");
+//     }
+//   }
+// }
+
+// // menu font, mobile
+// .usa-header--extended .usa-nav__primary-item > .usa-current,
+// .usa-header--extended .usa-nav__link {
+//   @include u-text("bold");
+// }
+
+// // indicator
+// .usa-header--extended .usa-nav__primary-item > .usa-current::after,
+// .usa-header--extended .usa-nav__link:hover::after {
+//   @include u-bg("primary-vivid");
+
+//   // desktop view, resize
+//   @include at-media("desktop") {
+//     height: 3px;
+//     bottom: 7px;
+//     left: 0.5rem;
+//     right: 0.5rem;
+//   }
+// }
+// // desktop view for search and apply button
+// .usa-nav__secondary {
+//   @include at-media("desktop") {
+//     flex-direction: row;
+//     margin-bottom: 10px;
+//   }
+// }
+
+// search bar
+// .usa-nav .usa-search {
+//   margin-left: 0;
+// }
+
+
+// remove top and bottom section borders
+.usa-header + main,
+.usa-header + .usa-section {
+  border-top: none;
+}
+.usa-navbar {
+  border-bottom: none;
+}
+
+// remove 33% width, fixed height for logo area
+.usa-header--basic .usa-navbar {
+  width: unset;
+}
+
+// remove bottom padding for desktop menu
+.usa-header--basic .usa-nav {
+  @include at-media("desktop") {
+    padding: 0 0 0 0.5rem;
+  }
+}
+
+// menu item layout, centered vertically
+.usa-header--basic .usa-nav-container {
+  @include at-media("desktop") {
+    height: 75px;
+    align-items: center;
+  }
+}
+
+// menu font
+.usa-nav__primary > .usa-nav__primary-item {
+
+  // desktop view, font size/decoration
+  @include at-media("desktop") {
+    @include u-font("sans", "xs");
+    text-transform: uppercase;
+  }
+
+  & > a {
+    @include u-text("black");
+    @include u-text("normal");
+
+    // desktop view, spacing between
+    @include at-media("desktop") {
+      @include u-padding-x(1);
+    }
+
+    &:active {
+      @include u-text("base");
+    }
+    &:hover {
+      @include u-text("base-dark");
+    }
+  }
+
+  & > button {
+    @include u-text("normal");
+    @include u-font("sans", "xs");
+
+    // desktop view, spacing between
+    @include at-media("desktop") {
+      @include u-padding-x(1);
+      @include u-text("black");
+      text-transform: uppercase;
+      background-position: right 0.5rem top 53%;
+    }
+  }
+
+  & > button[aria-expanded="true"] {
+    @include at-media("desktop") {
+      @include u-text("white");
+      &:active {
+        @include u-text("white");
+      }
+      &:hover {
+        @include u-text("base-lighter");
+      }
+    }
+  }
+
+}
+
+
+
+// menu font, mobile
+.usa-header--basic .usa-nav__primary-item > .usa-current,
+.usa-header--basic .usa-nav__link {
+  @include u-text("bold");
+}
+
+// indicator
+.usa-header--basic .usa-nav__primary-item > .usa-current::after,
+.usa-header--basic .usa-nav__link:hover::after {
+  @include u-bg("primary-vivid");
+
+  // desktop view, resize
+  @include at-media("desktop") {
+    height: 3px;
+    bottom: 7px;
+    left: 0.5rem;
+    right: 0.5rem;
+  }
+}
+
+// search bar
+.usa-nav .usa-search {
+  margin-left: 0;
+}
+.usa-search--small [type="submit"], .usa-search--small .usa-search__submit{
+  background-image: url($baseurl + "/assets/uswds/usa-icons-bg/search--white.svg"),linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 1.5rem;
+    width: 3rem;
+}

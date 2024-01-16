@@ -1,7 +1,7 @@
 ---
 id: meredith-brown
 title: Meredith Brown
-image: Meredith Brown.png
+image: /assets/images/fellows/2022/Meredith Brown.png
 fellow_year: 2022
 project: ["doc-prd"]
 agency: ["DOC"]

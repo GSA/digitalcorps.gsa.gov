@@ -1,7 +1,7 @@
 ---
 id: shahida-lucky
 title: Shahida Lucky
-image: shahida-lucky.png
+image: /assets/images/fellows/2023/shahida-lucky.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]

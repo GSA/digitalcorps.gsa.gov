@@ -3,7 +3,7 @@
                 <ul class="usa-sidenav usa-sticky-sidenav">
                     <li class="usa-sidenav__item">
                         <a href="#the-about">
-                           About the agency
+                           About {{page.agency_abbrev}}
                         </a>
                     </li>
                     <li class="usa-sidenav__item">
@@ -16,11 +16,20 @@
                             The approach
                         </a>
                     </li>
+                    {% if page.the_impact %}
+                    <li class="usa-sidenav__item">
+                        <a href="#the-impact">
+                            The impact
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% if page.the_solution %}
                     <li class="usa-sidenav__item">
                         <a href="#the-solution">
                             The solution
                         </a>
                     </li>
+                    {% endif %}
                 </ul>
             </nav>
 

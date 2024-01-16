@@ -1,11 +1,11 @@
 ---
 id: jillian-gilburne
 title: Jillian Gilburne
-image: Jillian Gilburne.png
+image: /assets/images/fellows/2022/Jillian Gilburne.png
 fellow_year: 2022
 project: ["acf"]
 agency: ["ACF"]
-hometown: Washington, D.C.
+hometown: Phoenix, AZ
 university: Northwestern University
 region: east
 bio_short: Designer ready to help governments better understand and respond to the needs of those they are meant to serve 

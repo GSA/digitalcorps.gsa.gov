@@ -1,12 +1,12 @@
 ---
 id: second-anniversary-impact
 title: 'Celebrating USDC’s second anniversary with a new blog and our first agency impact story'
-image: 2023-all-fellows.png
+image: /assets/images/blogs/2023-all-fellows.png
 author: Caitlin Gandhi
 published_at: "2023-08-30"
 summary: "U.S. Digital Corps Director Caitlin Gandhi introduces USDC's new blog and the publication of our first agency impact story in celebration of USDC's second anniversary."
 external_url:
-impact_story_link: ['acf-iprc']
+impact_story_link: ['acf-improving-post-release-care-to-migrant-children-and-sponsors']
 tags: ['GSA']
 type: Blog
 ---
@@ -16,18 +16,18 @@ Two years ago, on August 30, 2021, in partnership with the White House and other
 In the last two years, USDC has hired close to [90 early-career technologists](https://digitalcorps.gsa.gov/fellows/) across two cohorts. Their skill sets range from data science and analytics and cybersecurity to software engineering, product management, and design. Our Fellows have played important roles on teams across [19 federal agencies](https://digitalcorps.gsa.gov/projects/) contributing to high-priority projects including improving the customer experience of government and modernizing our nation’s public health system.
 
 <div id="photo-of-fellows">
-  {% asset "2022-2023-fellows.jpg" class="" alt="2022 and 2023 USDC Fellows and staff together with GSA Administrator Robin Carnahan" %}
+  <img src="{{site.baseurl}}//assets/images/blogs/2022-2023-fellows.jpg" alt="2022 and 2023 USDC Fellows and staff together with GSA Administrator Robin Carnahan" />
 </div>
 
 Earlier this month, both cohorts came together for the first time in Washington, D.C. for a day of community-building and discussion. New 2023 Fellows heard stories of impact from Fellows in our first cohort, including Fellows at the  at the State Department’s Center for Analytics (pictured below). 
 
 <div id="celebrating-fellows-present">
-  {% asset "jonathan-usdc-22fellow-at-23irl.jpg" class="" alt="Jonathan Hart 2022 Data Science Fellow at Department of State presenting to 2023 cohort" %}
+  <img src="{{site.baseurl}}//assets/images/blogs/jonathan-usdc-22fellow-at-23irl.jpg" alt="Jonathan Hart 2022 Data Science Fellow at Department of State presenting to 2023 cohort" />
 
 </div>
 
 Today, to mark our second anniversary, we are publishing our first agency impact story highlighting Fellows’ early contributions at the Administration for Children and Families, within the Office of Refugee Resettlement:
-- [Improving post-release care to migrant children and sponsors: Standardizing the Safety and Wellbeing Follow Up Calls](https://digitalcorps.gsa.gov/projects/acf-iprc/)
+- [Improving post-release care to migrant children and sponsors: Standardizing the Safety and Wellbeing Follow Up Calls](https://digitalcorps.gsa.gov/projects/acf-improving-post-release-care-to-migrant-children-and-sponsors/)
 
 Additionally, we have seen in the last two years the [importance of storytelling](https://www.performance.gov/blog/digital-corps-update/) and humanizing the work of public servants—both to recruit talent and share best practices across agencies. USDC has shared these reflections and learnings in many locations including Digital.gov, GSA.gov, and agency blogs. 
 

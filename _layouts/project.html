@@ -58,12 +58,12 @@ layout: default
               <div class="learn-more">
                 {% if page.project_url %}
                   <span>
-                      <a href={{page.project_url}} target="_blank" rel="noopener">{% asset "Website.png" alt="{{project.agency}} website" class="project-item-links" %}</a>
+                      <a href={{page.project_url}} target="_blank" rel="noopener"><img src="{{site.baseurl}}/assets/images/icons/Website.png" alt="{{project.agency}} website" class="project-item-links"/></a>
                   </span>
                   {% endif %}
                  {% if page.youtube_url %}
                   <span> 
-                      <a href="{{page.youtube_url}}" target="_blank" rel="noopener">{% asset "Youtube.png" alt="{{page.agency}} video" class="project-item-links" %}</a>
+                      <a href="{{page.youtube_url}}" target="_blank" rel="noopener"><img src="{{site.baseurl}}/assets/images/icons/Youtube.png" alt="{{page.agency}} video" class="project-item-links" /></a>
                   </span>
                   {% endif %}
               </div>
@@ -74,17 +74,6 @@ layout: default
     </div>
   </div>
 </section>
-<!-- <section class="usa-section bg--lightest">
-  <div class="grid-container">
-    <div class="flex-column-reverse-tablet flex-align-center flex-justify">
-      <div class="display-flex flex-wrap">
-        <a href="/projects" class="usa-button usa-button--small usa-button--outline  usa-button--w-icon margin-bottom-1 tablet:margin-bottom-0">
-          {% asset 'icons/arrow--back.png' width=20 aria-hidden="true" %} Back to all
-        </a>
-      </div>
-    </div>
-  </div>
-</section> -->
 
 
 
@@ -95,20 +84,6 @@ layout: default
         {% include sidenav-dynamic.html %}
       </div>
       <div class="tablet:grid-col-8 tablet:grid-offset-1 usa-layout-docs__main usa-prose">
-        <h2 class="text-primary text-no-italic" id="the-about">
-          About <em>{% if page.agency_abbrev %}{{page.agency_abbrev}}{% else %}the project{% endif %}</em>
-        </h2>
-        <p>{{ page.partner_description }}</p>
-
-        {% if page.project_challenge %}
-        <h2 class="text-primary text-no-italic">
-          The <em>challenge</em>
-        </h2>
-        <p class="body-intro">
-          {{ page.project_challenge  }}
-        </p>
-        {% endif %}
-
         {{ content }}
       </div>
     </div>

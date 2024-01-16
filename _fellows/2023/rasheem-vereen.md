@@ -1,7 +1,7 @@
 ---
 id: rasheem-vereen
 title: Rasheem Vereen
-image: 
+image: /assets/images/fellows/2023/rasheem-vereen.png
 fellow_year: 2023
 project: ["na"]
 agency: 

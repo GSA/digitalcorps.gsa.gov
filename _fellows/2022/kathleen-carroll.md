@@ -1,9 +1,9 @@
 ---
 id: kathleen-carroll
 title: Kathleen Carroll
-image: Kathleen Carroll.png
+image: /assets/images/fellows/2022/Kathleen Carroll.png
 fellow_year: 2022
-project: ["hhs"]
+project: ["hhs-enhancing-health-equity-by-bringing-the-experiences-of-people-with-Long-COVID"]
 agency: ["HHS"]
 hometown: Boston, MA
 university: Emerson College
