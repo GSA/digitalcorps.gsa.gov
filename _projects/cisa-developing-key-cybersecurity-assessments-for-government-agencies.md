@@ -2,7 +2,7 @@
 id: cisa-cdvm
 agency: "Cybersecurity & Infrastructure Security Agency"
 agency_abbrev: "CISA"
-agency_logo: "CISA.webp"
+agency_logo: "/assets/images/agencies/CISA.webp"
 title: "Developing key cybersecurity assessments for government agencies"
 project_name: "Developing key cybersecurity assessments for government agencies"
 summary: "Assisting in the development of vulnerability, risk, and resilience assessments and supporting government entities with technical expertise and assistance in implementing the President’s cybersecurity executive order and related guidance memos at the Cybersecurity and Infrastructure Security Agency."

@@ -1,7 +1,7 @@
 # Site settings
 title: U.S. Digital Corps
 email: usdigitalcorps@gsa.gov
-email_hr: vivian.carrasco@gsa.gov
+email_hr: marjorie.louis@gsa.gov
 description: "The United States Digital Corps.  Empowering early-career technologists to build a more effective, equitable government."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site, e.g. http://example.com
@@ -165,33 +165,69 @@ exclude:
   # exclude until search is implemented
  # - pages/search
 
-assets:
-  sources:
-    - _assets/favicons
-    - _assets/images
-    - _assets/images/banners
-    - _assets/images/blogs
-    - _assets/images/blogs/headers
-    - _assets/images/icons
-    - _assets/images/logo
-    - _assets/images/social
-    - _assets/images/stock
-    - _assets/images/articles
-    - _assets/images/agencies
-    - _assets/images/fellows/2022
-    - _assets/images/fellows/2023
-    - _assets/images/home
-    - _assets/images/about
-    - _assets/images/opportunity
-    - _assets/images/projects
-    - _assets/images/apply
+# assets:
+#   sources:
+#     - _assets/favicons
+#     - _assets/images
+#     - _assets/images/banners
+#     - _assets/images/blogs
+#     - _assets/images/blogs/headers
+#     - _assets/images/icons
+#     - _assets/images/logo
+#     - _assets/images/social
+#     - _assets/images/stock
+#     - _assets/images/articles
+#     - _assets/images/agencies
+#     - _assets/images/fellows/2022
+#     - _assets/images/fellows/2023
+#     - _assets/images/home
+#     - _assets/images/about
+#     - _assets/images/opportunity
+#     - _assets/images/projects
+#     - _assets/images/apply
+#     - node_modules/uswds/dist/img
+#     - node_modules/uswds/dist/js
+#     - node_modules/uswds/dist/scss
+
+# autoprefixer:
+#   browsers:
+#     - last 2 versions
+#     - "> 2%"
+#     - IE 11
+#     - not dead
+autoprefixer:
+  browsers:
+    - "> 2%"
+    - "last 2 versions"
+    - "IE 11"
+    - "not dead"
+
+sass:
+  source_dir: _sass
+  load_paths:
+    - assets/favicons
+    - assets/images
+    - assets/images/banners
+    - assets/images/blogs
+    - assets/images/blogs/headers
+    - assets/images/icons
+    - assets/images/logo
+    - assets/images/social
+    - assets/images/stock
+    - assets/images/articles
+    - assets/images/agencies
+    - assets/images/fellows/2022
+    - assets/images/fellows/2023
+    - assets/images/home
+    - assets/images/about
+    - assets/images/opportunity
+    - assets/images/projects
+    - assets/images/apply
+    - node_modules/uswds/dist/
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
-
-autoprefixer:
-  browsers:
-    - last 2 versions
-    - "> 2%"
-    - IE 11
-    - not dead
+  sourcemap: development
+  quiet_deps: true
+  style: compressed
+  verbose: true

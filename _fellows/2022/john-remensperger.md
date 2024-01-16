@@ -1,7 +1,7 @@
 ---
 id: john-remensperger
 title: John Remensperger
-image: John Remensperger.png
+image: /assets/images/fellows/2022/John Remensperger.png
 fellow_year: 2022
 project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]

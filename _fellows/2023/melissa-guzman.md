@@ -1,7 +1,7 @@
 ---
 id: melissa-guzman
 title: Melissa Guzman
-image: melissa-guzman.png
+image: /assets/images/fellows/2023/melissa-guzman.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]
