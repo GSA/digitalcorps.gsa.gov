@@ -2,6 +2,8 @@
 id: thomas-phung
 title: Thomas Phung
 image: /assets/images/fellows/2023/thomas-phung.png
+social: fellow
+social_image: /assets/images/social/fellows/social-thomas-phung.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]

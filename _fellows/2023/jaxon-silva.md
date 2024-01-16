@@ -2,6 +2,8 @@
 id: jaxon-silva
 title: Jaxon Silva
 image: /assets/images/fellows/2023/jaxon-silva.png
+social: fellow
+social_image: /assets/images/social/fellows/social-jaxon-silva.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]

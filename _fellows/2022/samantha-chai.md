@@ -2,6 +2,8 @@
 id: samantha-chai
 title: Samantha Chai
 image: /assets/images/fellows/2022/Samantha Chai.png
+social: fellow
+social_image: /assets/images/social/fellows/social-samantha-chai.png
 fellow_year: 2022
 project: ["cfpb"]
 agency: ["CFPB"]

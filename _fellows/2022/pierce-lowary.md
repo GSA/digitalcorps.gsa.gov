@@ -2,6 +2,8 @@
 id: pierce-lowary
 title: Pierce Lowary
 image: /assets/images/fellows/2022/Pierce Lowary.png
+social: fellow
+social_image: /assets/images/social/fellows/social-pierce-lowary.png
 fellow_year: 2022
 project: ["dos"]
 agency: ["DOS"]

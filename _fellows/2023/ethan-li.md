@@ -2,6 +2,8 @@
 id: ethan-li
 title: Ethan Li
 image: /assets/images/fellows/2023/ethan-li.png
+social: fellow
+social_image: /assets/images/social/fellows/social-ethan-li.png
 fellow_year: 2023
 project: ["na"]
 agency: ["NIH"]

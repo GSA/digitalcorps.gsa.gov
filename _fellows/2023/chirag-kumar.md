@@ -2,6 +2,8 @@
 id: chirag-kumar
 title: Chirag Kumar
 image: /assets/images/fellows/2023/chirag-kumar.png
+social: fellow
+social_image: /assets/images/social/fellows/social-chirag-kumar.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]

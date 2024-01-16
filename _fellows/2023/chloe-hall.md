@@ -2,6 +2,8 @@
 id: chloe-hall
 title: Chloe Hall
 image: /assets/images/fellows/2023/chloe-hall.png
+social: fellow
+social_image: /assets/images/social/fellows/social-chloe-hall.png
 fellow_year: 2023
 project: ["na"]
 agency: ["USDA"]
