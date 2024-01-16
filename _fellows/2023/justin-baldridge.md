@@ -2,6 +2,8 @@
 id: justin-baldridge
 title: Justin Baldridge
 image: /assets/images/fellows/2023/justin-baldridge.png
+social: fellow
+social_image: /assets/images/social/fellows/social-justin-baldridge.png
 fellow_year: 2023
 project: ["na"]
 agency: ["DTIC"]

@@ -2,6 +2,8 @@
 id: kai-cobb
 title: Kai Cobb
 image: /assets/images/fellows/2023/kai-cobb.png
+social: fellow
+social_image: /assets/images/social/fellows/social-kai-cobb.png
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]

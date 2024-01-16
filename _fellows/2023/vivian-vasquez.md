@@ -2,6 +2,8 @@
 id: vivian-vasquez
 title: Vivian Vasquez
 image: /assets/images/fellows/2023/vivian-vasquez.png
+social: fellow
+social_image: /assets/images/social/fellows/social-vivian-vasquez.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]

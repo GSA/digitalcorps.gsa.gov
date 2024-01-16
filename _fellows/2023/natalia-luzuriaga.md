@@ -2,6 +2,8 @@
 id: natalia-luzuriaga
 title: Natalia Luzuriaga
 image: /assets/images/fellows/2023/natalia-luzuriaga.png
+social: fellow
+social_image: /assets/images/social/fellows/social-natalia-luzuriaga.png
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]

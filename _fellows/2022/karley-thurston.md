@@ -2,6 +2,8 @@
 id: karley-thurston
 title: Karley Thurston
 image: /assets/images/fellows/2022/Karley Thurston.png
+social: fellow
+social_image: /assets/images/social/fellows/social-karley-thurston.png
 fellow_year: 2022
 project: ["cms"]
 agency: ["CMS"]

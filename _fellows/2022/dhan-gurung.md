@@ -2,6 +2,8 @@
 id: dhan-gurung
 title: Dhan Gurung
 image: /assets/images/fellows/2022/Dhan Gurung.png
+social: fellow
+social_image: /assets/images/social/fellows/social-dhan-gurung.png
 fellow_year: 2022
 project: ["epa"]
 agency: ["EPA"]

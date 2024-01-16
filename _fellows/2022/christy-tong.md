@@ -2,6 +2,8 @@
 id: christy-tong
 title: Christy Tong
 image: /assets/images/fellows/2022/Christy Tong.png
+social: fellow
+social_image: /assets/images/social/fellows/social-christy-tong.png
 fellow_year: 2022
 project: ["va"]
 agency: ["VA"]
