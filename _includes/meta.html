@@ -70,6 +70,8 @@
   <meta property="og:image" content="{{site.baseurl}}/assets/images/social/digitalcorps-opportunity.png">
   {% elsif page.social=="fellows" %}
   <meta property="og:image" content="{{site.baseurl}}/assets/images/social/digitalcorps-fellows.png">
+  {% elsif page.social=="blogs" %}
+  <meta property="og:image" content="{{site.baseurl}}/assets/images/social/digitalcorps-blogs.png">
   {% elsif page.social=="projects" %}
   <meta property="og:image" content="{{site.baseurl}}/assets/images/social/digitalcorps-projects.png">
   {% elsif page.social=="process" %}
@@ -78,6 +80,8 @@
   <meta property="og:image" content="{{site.baseurl}}/assets/images/social/digitalcorps-faq.png">
   {% elsif page.social=="fellow" %}
   <meta property="og:image" content="{{site.baseurl}}{{page.social_image}} ">
+  {% elsif page.social=="blog" %}
+  <meta property="og:image" content="{{site.baseurl}}{{page.image}} ">
   {% else %}
   <meta property="og:image" content="{{site.baseurl}}/assets/images/social/digitalcorps-social.png">
   {% endif %}
