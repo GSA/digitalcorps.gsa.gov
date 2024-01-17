@@ -8,6 +8,7 @@ summary: "Data scientist Avena Cheng at the Centers for Medicare and Medicaid Se
 external_url: "https://digital.gov/2021/10/25/from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service/"
 tags: ['CMS','Data_Science_And_Analytics','Health']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2021/10/25/from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service/).*
 

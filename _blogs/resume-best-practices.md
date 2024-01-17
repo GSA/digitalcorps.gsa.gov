@@ -9,6 +9,7 @@ external_url:
 impact_story_link: []
 tags: ['GSA']
 type: Blog
+social: blog
 redirect_from:
   - /process/resume
 ---

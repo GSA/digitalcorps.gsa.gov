@@ -8,6 +8,7 @@ summary: "We asked 18F and Centers of Excellence alum Brian Whittaker, who is no
 external_url: "https://digital.gov/2022/03/22/building-and-supporting-a-diverse-technology-workforce-in-the-federal-government/"
 tags: ['GSA']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2022/03/22/building-and-supporting-a-diverse-technology-workforce-in-the-federal-government/). Brian Whittaker is currently the Chief Innovation Officer at the Federal Deposit Insurance Commission.*
 

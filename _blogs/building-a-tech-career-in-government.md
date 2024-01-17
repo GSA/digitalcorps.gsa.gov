@@ -8,6 +8,7 @@ summary: "Five GSA colleagues who started their tech careers in public service s
 external_url: "https://digital.gov/2021/10/07/building-a-tech-career-in-government/"
 tags: ['GSA', 'Design', 'Product_Management']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2021/10/07/building-a-tech-career-in-government/).*
 

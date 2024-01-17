@@ -8,6 +8,7 @@ summary: "U.S. Digital Corps Fellows Kathleen Carroll and Trey Gordner share dig
 external_url: "https://www.hhs.gov/blog/2023/02/23/hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza.html"
 tags: ['HHS', 'Health', 'Design','Data_Science_And_Analytics']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [U.S. Department of Health and Human Services blog](https://www.hhs.gov/blog/2023/02/23/hhs-open-data-and-innovationx-for-impact-at-the-2023-health-datapalooza.html).* 
 

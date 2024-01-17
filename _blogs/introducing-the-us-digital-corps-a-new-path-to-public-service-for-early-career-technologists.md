@@ -8,6 +8,7 @@ summary: U.S. Digital Corps co-lead Chris Kuang shares a more personal reflectio
 external_url: "https://www.gsa.gov/blog/2021/08/30/introducing-the-us-digital-corps-a-new-path-to-public-service-for-earlycareer-technologists"
 tags: ['GSA', 'VA']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [GSA blog](https://www.gsa.gov/blog/2021/08/30/introducing-the-us-digital-corps-a-new-path-to-public-service-for-earlycareer-technologists).*
 

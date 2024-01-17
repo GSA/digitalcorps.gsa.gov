@@ -8,6 +8,7 @@ summary: "Eleven U.S. Digital Corps Fellows from our inaugural 2022 cohort refle
 external_url: "https://digital.gov/2023/07/18/reflections-on-a-year-in-government-from-11-u-s-digital-corps-fellows/"
 tags: ['GSA']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2023/07/18/reflections-on-a-year-in-government-from-11-u-s-digital-corps-fellows/).*
 

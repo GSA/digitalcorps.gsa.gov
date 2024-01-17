@@ -8,6 +8,7 @@ summary: "Nearly 50 new fellows will support 13 federal agencies to advance key 
 external_url: "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-welcomes-second-annual-cohort-of-us-digital-07182023"
 tags: ['GSA']
 type: Blog
+social: blog
 ---
 *This post was originally published as a press release on [GSA.gov](https://www.gsa.gov/about-us/newsroom/news-releases/gsa-welcomes-second-annual-cohort-of-us-digital-07182023).*
 

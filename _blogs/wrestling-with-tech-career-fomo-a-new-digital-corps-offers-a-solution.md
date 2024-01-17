@@ -8,6 +8,7 @@ summary: "Look no further, mission-oriented IT jobseekers! A new Federal governm
 external_url: "https://digital.va.gov/general/wrestling-with-tech-career-fomo-a-new-digital-corps-offers-a-solution/"
 tags: ['VA']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [DigitalVA blog](https://digital.va.gov/general/wrestling-with-tech-career-fomo-a-new-digital-corps-offers-a-solution/).*
 

@@ -8,6 +8,7 @@ summary: 'Federal Chief Information Officer Clare Martorana highlights several p
 external_url: "https://www.whitehouse.gov/omb/briefing-room/2022/06/10/preparing-to-welcome-the-2022-u-s-digital-corps/"
 tags: ['GSA']
 type: Blog
+social: blog
 pin: true
 
 ---

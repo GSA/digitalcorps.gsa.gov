@@ -9,6 +9,7 @@ external_url:
 impact_story_link: ['acf-improving-post-release-care-to-migrant-children-and-sponsors']
 tags: ['GSA']
 type: Blog
+social: blog
 ---
 
 Two years ago, on August 30, 2021, in partnership with the White House and other federal agencies, GSA [announced](https://www.gsa.gov/about-us/newsroom/news-releases/biden-administration-launches-us-digital-corps-to-recruit-the-next-generation-of-technology-talent-to-federal-service-08302021) the U.S. Digital Corps (USDC)—the first early-career technology fellowship in the federal government.

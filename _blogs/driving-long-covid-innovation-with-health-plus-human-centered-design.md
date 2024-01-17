@@ -8,6 +8,7 @@ summary: "U.S. Digital Corps Fellow Kathleen Carroll and her team introduce the 
 external_url: "https://www.hhs.gov/blog/2022/11/21/driving-long-covid-innovation-with-health-plus-human-centered-design.html"
 tags: ['HHS', 'Design', 'Health']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [U.S. Department of Health and Human Services blog](https://www.hhs.gov/blog/2022/11/21/driving-long-covid-innovation-with-health-plus-human-centered-design.html).*  
 

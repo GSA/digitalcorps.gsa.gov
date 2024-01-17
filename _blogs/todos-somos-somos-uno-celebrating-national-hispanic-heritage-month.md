@@ -8,6 +8,7 @@ summary: "Six U.S. Digital Corps Fellows share their Latinx heritage and reflect
 external_url: ""
 tags: ['GSA','CMS','ACF','OSTP','VA']
 type: Blog
+social: blog
 ---
 
 This [National Hispanic Heritage Month](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/09/14/a-proclamation-on-national-hispanic-heritage-month-2023/), we asked several of our Fellows to reflect and share how they bring their Latinx/Hispanic heritage and identities to their work as civic technologists across the federal government. This year’s Hispanic Heritage Month theme is “​​Todos Somos, Somos Uno – We Are All, We Are One,” which celebrates the diverse voices and points of view within the Hispanic community. The U.S. Digital Corps (USDC) is [proud to have Fellows](https://digitalcorps.gsa.gov/fellows/) who represent the diversity of the American public that we serve, and we are also proud that our Fellows support work that serves the Hispanic community through programs such as [USAGov en Español](https://www.usa.gov/es/). 

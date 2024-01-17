@@ -8,6 +8,7 @@ summary: "U.S. Digital Corps co-lead Masha Danilova shares a personal reflection
 external_url: "https://digital.gov/2021/11/01/start-your-tech-career-in-government-as-a-u-s-digital-corps-fellow/"
 tags: ['GSA']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2021/11/01/start-your-tech-career-in-government-as-a-u-s-digital-corps-fellow/).*
 

@@ -8,6 +8,7 @@ summary: "Five Veterans in our inaugural 2022 cohort share their public service 
 external_url: "https://digital.gov/2022/09/09/serving-the-public-five-veterans-journeys-to-public-interest-tech/"
 tags: ['GSA', 'Cybersecurity', 'Design']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2022/09/09/serving-the-public-five-veterans-journeys-to-public-interest-tech/).*
 

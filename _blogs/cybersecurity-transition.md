@@ -8,6 +8,7 @@ summary: "For National Cybersecurity Awareness Month in October 2022, U.S. Digit
 external_url: "https://www.cio.gov/cybersecurity-transition/"
 tags: ['CISA', 'Cybersecurity']
 type: Blog
+social: blog
 ---
 *This post was originally published by the [U.S. Chief Information Officers Council](https://www.cio.gov/cybersecurity-transition/).*
 
