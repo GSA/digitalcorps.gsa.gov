@@ -8,6 +8,7 @@ summary: "Four U.S. Digital Corps sofware engineering fellows share their paths 
 external_url: "https://digital.gov/2022/11/25/making-impact-at-scale-software-engineering-in-the-federal-government/"
 tags: ['GSA', 'Software_Engineering','Public_experience']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2022/11/25/making-impact-at-scale-software-engineering-in-the-federal-government/).*
 

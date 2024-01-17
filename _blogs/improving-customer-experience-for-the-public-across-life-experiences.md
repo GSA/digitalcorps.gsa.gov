@@ -8,6 +8,7 @@ summary: "Three USDC Fellows share their work supporting two inaugural life expe
 external_url: ""
 tags: ['Design', 'Product_Management','HHS','HRSA','Public_experience']
 type: Blog
+social: blog
 ---
 
 In December 2021, President Joe Biden signed the [Executive Order](https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/) on Transforming Federal Customer Experience and Service Delivery to Rebuild Trust in Government. The Executive Order laid out a new vision for customer experience (CX), defined as the public perception and overall satisfaction with interactions with any government agency, product, or service, to be prioritized under the [President’s Management Agenda](https://www.performance.gov/pma/cx/). As part of the Executive Order’s mandate, federal agencies have been asked to focus on significant events or transitions that members of the public encounter in their lives (“life experiences”) that often require interactions and touchpoints with multiple federal agencies. These [inaugural “Life Experience” projects](https://www.performance.gov/cx/projects/) aim to improve government CX across the lifespan from birth through retirement and to build a new, human-centered approach to government. 

@@ -8,6 +8,7 @@ summary: "GSA Administrator Robin Carnahan, OPM Director Kiran Ahuja, and USDS A
 external_url: "https://www.gsa.gov/about-us/newsroom/news-releases/us-digital-corps-marks-first-year-driving-impact-in-federal-technology-09072022"
 tags: ['GSA']
 type: Blog
+social: blog
 ---
 *This post was originally published as a press relase on [GSA.gov](https://www.gsa.gov/about-us/newsroom/news-releases/us-digital-corps-marks-first-year-driving-impact-in-federal-technology-09072022).*
 

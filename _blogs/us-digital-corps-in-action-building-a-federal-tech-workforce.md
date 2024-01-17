@@ -8,6 +8,7 @@ summary: "The President's Management Agenda team shares a case study on the U.S.
 external_url: "https://www.performance.gov/blog/digital-corps-update/"
 tags: ['GSA', 'Customer_Experience']
 type: Press
+social: blog
 ---
 *This post was originally published on the [Performance.gov blog](https://www.performance.gov/blog/digital-corps-update/).*
 

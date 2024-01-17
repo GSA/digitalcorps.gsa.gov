@@ -8,6 +8,7 @@ summary: "USDC was included as a key part of the National Artificial Intelligenc
 external_url: "https://www.gsa.gov/blog/2023/10/31/after-two-years-of-impact-the-us-digital-corps-is-ready-to-hire-its-third-cohort"
 tags: ['GSA']
 type: Blog
+social: blog
 ---
 *This post was originally published as a blog post on [GSA.gov](https://www.gsa.gov/blog/2023/10/31/after-two-years-of-impact-the-us-digital-corps-is-ready-to-hire-its-third-cohort).*
 

@@ -8,6 +8,7 @@ summary: "GSA Administrator Robin Carnahan comments of the announcement of the i
 external_url: "https://www.gsa.gov/about-us/newsroom/news-releases/gsa-announces-first-cohort-of-40-us-digital-corps-fellows-06212022"
 tags: ['GSA','OSTP']
 type: Blog
+social: blog
 ---
 *This post was originally published as a press relase on [GSA.gov](https://www.gsa.gov/about-us/newsroom/news-releases/gsa-announces-first-cohort-of-40-us-digital-corps-fellows-06212022).*
 

@@ -8,6 +8,7 @@ summary: "U.S. Digital Corps Fellow Meredith Brown reflects on her journey to ci
 external_url: "https://digital.gov/2022/11/16/implementing-equitable-data-to-ensure-government-works-for-the-public/"
 tags: ['OSTP', 'Data_Science_And_Analytics', 'Equity']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2022/11/16/implementing-equitable-data-to-ensure-government-works-for-the-public/).*
 

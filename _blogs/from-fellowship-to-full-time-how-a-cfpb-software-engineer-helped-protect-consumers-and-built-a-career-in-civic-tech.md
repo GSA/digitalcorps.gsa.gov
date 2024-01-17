@@ -8,6 +8,7 @@ summary: "Ans Bradford, a front-end web developer at the Consumer Financial Prot
 external_url: "https://digital.gov/2022/03/07/from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech/"
 tags: ['CFPB', 'Software_Engineering', 'Design']
 type: Blog
+social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2022/03/07/from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech/).*
 
