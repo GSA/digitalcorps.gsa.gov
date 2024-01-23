@@ -1,7 +1,7 @@
 ---
 id: state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state
 agency: "Department of State"
-agency_abbrev: "Department of State"
+agency_abbrev: "State"
 agency_logo: "/assets/images/agencies/DOS.webp"
 title: "Evaluating Emerging Technologies and Global Cyber Posture at the Department of State"
 project_name: "Evaluating Emerging Technologies and Global Cyber Posture at the Department of State"
