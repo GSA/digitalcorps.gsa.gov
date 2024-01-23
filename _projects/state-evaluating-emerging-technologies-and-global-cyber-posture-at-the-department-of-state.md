@@ -8,7 +8,7 @@ project_name: "Evaluating Emerging Technologies and Global Cyber Posture at the 
 summary: "Embedding cybersecurity expertise and best practices to ensure that U.S. diplomats can conduct official business securely and effectively at U.S. Missions around the world."
 project_url: https://www.state.gov/about/
 impact_story_link: state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state
-the_impact: true
+the_impact: false
 the_solution: false
 skill_set: ['Cybersecurity']
 tags: ['Cybersecurity']
