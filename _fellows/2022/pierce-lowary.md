@@ -5,7 +5,7 @@ image: /assets/images/fellows/2022/Pierce Lowary.png
 social: fellow
 social_image: /assets/images/social/fellows/social-pierce-lowary.png
 fellow_year: 2022
-project: ["evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state"]
+project: ["state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state"]
 agency: ["DOS"]
 hometown: Dallas, TX
 university: Stanford University
