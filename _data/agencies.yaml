@@ -60,7 +60,7 @@
 #   url: http://www.sba.gov
 #   description:
 
-- name: DOS
+- name: State
   fullname: Department of State
   val: deptState
   url: http://www.state.gov

@@ -1,7 +1,7 @@
 ---
 id: state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners
 agency: "Department of State"
-agency_abbrev: "Department of State"
+agency_abbrev: "State"
 agency_logo: "/assets/images/agencies/DOS.webp"
 title: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
 project_name: "Leveraging data to support the emergency release of 222 Nicaraguan political prisoners"
