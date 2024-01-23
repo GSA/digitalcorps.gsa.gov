@@ -31,4 +31,3 @@ U.S. Digital Corps (USDC) Fellows assigned to TIE’s Emerging Technologies and 
 
 With support from USDC Fellows, TIE and the Department of State are also exploring additional means of communication for overseas facilities, where we face challenges ranging from austere environments to [bat guano](https://statemag.state.gov/2023/08/0823feat03/). By leveraging emerging technologies like satellite internet, Li-Fi, and edge computing, USDC Fellows are helping the Department of State protect its personnel, facilities, and data from ever-evolving threats. They are facilitating secure, responsive, and connected diplomacy so the Department’s star resource—its people—can continue to solve the globalized challenges of our time.
 
-## The impact 
