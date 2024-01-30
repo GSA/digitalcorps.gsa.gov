@@ -75,5 +75,7 @@ Espy: If there are any established mentorship opportunities in your work, take a
 
 Marina: Navigating work in the federal government can be complicated enough as it is, and that’s before layering on the challenges of being an early-career technologist—but mentorship can often help ease these overwhelming feelings of confusion. Just a huge amount of gratitude to Matt for consistently and wholeheartedly showing up every week no matter how busy he is!
 
+---
+
 *U.S. Digital Corps Fellows work on [high-impact projects](https://digitalcorps.gsa.gov/projects/) across government. Applications for our 2025 Fellow cohort will open this fall. Subscribe to our [newsletter](https://public.govdelivery.com/accounts/USGSATTS/subscriber/new?topic_id=USGSATTS_108) and follow us on [Twitter](https://twitter.com/usdigitalcorps) and [LinkedIn](https://www.linkedin.com/company/74725557/admin/feed/posts/) to stay updated on upcoming events and opportunities to apply.*
 
