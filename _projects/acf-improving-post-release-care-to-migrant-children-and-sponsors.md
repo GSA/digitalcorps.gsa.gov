@@ -36,9 +36,11 @@ Furthermore, care providers must document the outcome of the follow-up call in t
 
 The goal was to standardize the questions asked to unaccompanied children and their sponsors after the child leaves ORR care to ensure all children receive consistent levels of support. To address this problem, two USDC Fellows conducted a five-week research and design sprint that concluded in April 2023. 
 
-> *“I would like an official list of questions. I wish everyone was on the same page.”*
->
-> ***- Case Aide at an ORR-funded shelter, during a research interview***
+<div class="blog-quote-box"> 
+  <p><em>“I would like an official list of questions. I wish everyone was on the same page.”</em></p>
+
+  <p><strong><em>- Case Aide at an ORR-funded shelter, during a research interview</em></strong></p>
+</div> 
 
 ## The approach
 USDC product management and design fellows at ACF Tech partnered with ORR project officers to introduce design thinking to the policymaking process, following a process of iterative research and synthesis to define the problem statement and turn unstructured interview findings into more clear and actionable insights.
