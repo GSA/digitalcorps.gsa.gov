@@ -7,7 +7,7 @@ gem "execjs", "2.9.1" # https://github.com/rails/execjs/issues/99
 gem "autoprefixer-rails"
 gem "sprockets", "~> 4.2"
 gem "kramdown-parser-gfm", "~> 1.1.0"
-gem 'nokogiri', '~> 1.15', '>= 1.15.5'
+gem 'nokogiri', '~> 1.16'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
