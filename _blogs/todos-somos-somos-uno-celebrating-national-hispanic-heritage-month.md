@@ -2,7 +2,7 @@
 id: hispanic-heritage-month-2023
 title: 'Todos Somos, Somos Uno: Celebrating National Hispanic Heritage Month'
 image: /assets/images/blogs/2023-hhm.webp
-author: Chris Kuang
+author: Melissa Guzman, Vivian Vasquez, Yaritza M. García Chaparro, Eduardo Perez, Bella Mendoza, Lylybell Teran
 published_at: "2023-10-13"
 summary: "Six U.S. Digital Corps Fellows share their Latinx heritage and reflect on how they show up as their full selves to serve the public through technology."
 external_url: ""
