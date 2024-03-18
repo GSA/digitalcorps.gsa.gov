@@ -5,8 +5,8 @@ image: /assets/images/fellows/2022/Selyne Singh.png
 social: fellow
 social_image: /assets/images/social/fellows/social-selyne-singh.png
 fellow_year: 2022
-project: ["uscb"]
-agency: ["USCB"]
+project: ["gsa"]
+agency: ["GSA"]
 hometown: Wesley Chapel, FL
 university: University of Florida
 region: south
