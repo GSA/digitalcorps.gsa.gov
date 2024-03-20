@@ -6,7 +6,7 @@ social: fellow
 social_image: /assets/images/social/fellows/social-joe-lindsey.png
 fellow_year: 2022
 project: ["state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state"]
-agency: ["DOS"]
+agency: 
 hometown: Suffolk, Virginia
 university: Excelsior College Albany
 region: east
