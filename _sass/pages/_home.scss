@@ -81,7 +81,7 @@
   @include u-padding(4);
   @include column-overlay-vertical("center", 100%, "primary", 0.75);
   background-color: color("primary");
-  background-image: url($baseurl + "/assets/images/home/TheUSgovernment.png");
+  background-image: url($baseurl + "/assets/images/home/TheUSgovernment.webp");
   background-position: center;
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@
 // see boxes.scss for styling and sizes
 .home-opportunity {
   @include u-margin-bottom(2);
-  background-image: url($baseurl + "/assets/images/home/Opportunity.png");
+  background-image: url($baseurl + "/assets/images/home/Opportunity.webp");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: left;
@@ -135,7 +135,7 @@
 }
 
 .home-about {
-  background-image: url($baseurl + "/assets/images/home/Who_we_are_image.png");
+  background-image: url($baseurl + "/assets/images/home/Who_we_are_image.webp");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: left;

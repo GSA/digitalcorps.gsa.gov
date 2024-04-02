@@ -1,9 +1,9 @@
 ---
 id: meenu-bhooshanan
 title: Meenu Bhooshanan
-image: /assets/images/fellows/2022/Meenu Bhooshanan.png
+image: /assets/images/fellows/2022/Meenu Bhooshanan.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-meenu-bhooshanan.png
+social_image: /assets/images/social/fellows/social-meenu-bhooshanan.webp
 fellow_year: 2022
 project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]

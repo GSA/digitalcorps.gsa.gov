@@ -1,9 +1,9 @@
 ---
 id: jillian-gilburne
 title: Jillian Gilburne
-image: /assets/images/fellows/2022/Jillian Gilburne.png
+image: /assets/images/fellows/2022/Jillian Gilburne.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-jillian-gilburne.png
+social_image: /assets/images/social/fellows/social-jillian-gilburne.webp
 fellow_year: 2022
 project: ["acf"]
 agency: ["ACF"]

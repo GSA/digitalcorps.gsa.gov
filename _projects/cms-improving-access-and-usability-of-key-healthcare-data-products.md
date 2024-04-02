@@ -2,7 +2,7 @@
 id: cms-oeda
 agency: "Centers for Medicare and Medicaid Services"
 agency_abbrev: "CMS"
-agency_logo: "/assets/images/agencies/CMS.png"
+agency_logo: "/assets/images/agencies/CMS.webp"
 title: "Improving access and usability of key healthcare data products"
 project_name: "Improving access and usability of key healthcare data products"
 summary: "Working to develop data products to ensure beneficiaries and other stakeholders can make informed decisions at the Centers for Medicare and Medicaid Services' Office of Enterprise Data & Analytics."

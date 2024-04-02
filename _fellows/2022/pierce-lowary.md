@@ -1,9 +1,9 @@
 ---
 id: pierce-lowary
 title: Pierce Lowary
-image: /assets/images/fellows/2022/Pierce Lowary.png
+image: /assets/images/fellows/2022/Pierce Lowary.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-pierce-lowary.png
+social_image: /assets/images/social/fellows/social-pierce-lowary.webp
 fellow_year: 2022
 project: ["state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state"]
 agency: ["DOS"]

@@ -1,7 +1,7 @@
 ---
 id: building-a-tech-career-in-government
 title: 'Building a Tech Career in Government'
-image: /assets/images/blogs/headers/building-a-tech-career-in-government.png
+image: /assets/images/blogs/headers/building-a-tech-career-in-government.webp
 author: Dahianna Salazar Foreman
 published_at: "2021-10-07"
 summary: "Five GSA colleagues who started their tech careers in public service share their backgrounds, experiences, and reflections to showcase the variety of opportunities available for technologists to make an impact in government."
@@ -16,7 +16,7 @@ When thinking about a career in government, not many people envision themselves 
 
 ## Qituwra Anderson, UX Designer, 18F
 <div class="usa-image-block">
-  <img src="{{site.baseurl}}/assets/images/blogs/qituwra-anderson.png" alt="Photo of Qituwra Anderson"/>
+  <img src="{{site.baseurl}}/assets/images/blogs/qituwra-anderson.webp" alt="Photo of Qituwra Anderson"/>
 </div>
 **What were you doing before applying to GSA?**
 
@@ -40,7 +40,7 @@ Problem-solving and the potential impact of the products we help create which to
 
 ## Sheev Davé, Design Strategist, GSA Office of Customer Experience
 <div class="usa-image-block">
-  <img src="{{site.baseurl}}/assets/images/blogs/sheev-dave.png" alt="Photo of Sheev Davé"/>
+  <img src="{{site.baseurl}}/assets/images/blogs/sheev-dave.webp" alt="Photo of Sheev Davé"/>
 </div>
 
 **What were you doing before applying to GSA?**
@@ -59,7 +59,7 @@ It is the notion that you can build/design something and immediately see the eff
 
 ## Shawnique Morrison, Product Manager, 18F
 <div class="usa-image-block">
-  <img src="{{site.baseurl}}/assets/images/blogs/shawnique-morrison.png" alt="Photo of Shawnique Morrison"/>
+  <img src="{{site.baseurl}}/assets/images/blogs/shawnique-morrison.webp" alt="Photo of Shawnique Morrison"/>
 </div>
 
 **What were you doing before applying to GSA?**
@@ -80,7 +80,7 @@ The mission. We’re trying to remove barriers for people who rely on the govern
 
 ## Kelley Confer, Account Manager, Cloud.gov
 <div class="usa-image-block">
-  <img src="{{site.baseurl}}/assets/images/blogs/kelley-confer.png" alt="Photo of Kelley Confer"/>
+  <img src="{{site.baseurl}}/assets/images/blogs/kelley-confer.webp" alt="Photo of Kelley Confer"/>
 </div>
 
 **What were you doing before applying to GSA?**
@@ -103,7 +103,7 @@ I don’t think I can choose one favorite thing about working in gov tech! First
 
 ## Tim Lowden, Program Manager, Digital Analytics Program
 <div class="usa-image-block">
-  <img src="{{site.baseurl}}/assets/images/blogs/tim-lowden.png" alt="Photo of Tim Lowden"/>
+  <img src="{{site.baseurl}}/assets/images/blogs/tim-lowden.webp" alt="Photo of Tim Lowden"/>
 </div>
 **What were you doing before applying to GSA?**
 

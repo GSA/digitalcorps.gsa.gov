@@ -1,9 +1,9 @@
 ---
 id: isaac-milarsky
 title: Isaac Milarsky
-image: /assets/images/fellows/2023/isaac-milarsky.png
+image: /assets/images/fellows/2023/isaac-milarsky.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-isaac-milarsky.png
+social_image: /assets/images/social/fellows/social-isaac-milarsky.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]

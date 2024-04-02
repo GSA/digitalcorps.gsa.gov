@@ -1,9 +1,9 @@
 ---
 id: kathleen-carroll
 title: Kathleen Carroll
-image: /assets/images/fellows/2022/Kathleen Carroll.png
+image: /assets/images/fellows/2022/Kathleen Carroll.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-kathleen-carroll.png
+social_image: /assets/images/social/fellows/social-kathleen-carroll.webp
 fellow_year: 2022
 project: ["hhs-enhancing-health-equity-by-bringing-the-experiences-of-people-with-Long-COVID"]
 agency: ["HHS"]

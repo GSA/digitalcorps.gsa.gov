@@ -5,7 +5,7 @@
         @include u-padding-x(4);
         @include u-padding-y(0);
 
-        background-image: url($baseurl + "/assets/images/apply/apply.png");
+        background-image: url($baseurl + "/assets/images/apply/apply.webp");
         background-position: center;
         background-color: color("primary-dark");
         min-height: 500px;

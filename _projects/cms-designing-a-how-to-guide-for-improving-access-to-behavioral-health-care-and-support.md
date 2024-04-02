@@ -2,7 +2,7 @@
 id: cms-designing-a-how-to-guide-for-improving-access-to-behavioral-health-care-and-support
 agency: "Centers for Medicare and Medicaid Services"
 agency_abbrev: "CMS"
-agency_logo: "/assets/images/agencies/CMS.png"
+agency_logo: "/assets/images/agencies/CMS.webp"
 title: "Designing a how-to guide for improving access to behavioral health care and support through FindSupport.gov"
 project_name: "Designing a how-to guide for improving access to behavioral health care and support through FindSupport.gov"
 summary: "Supporting the Digital Service at the Centers for Medicare and Medicaid Services in understanding how people move around the U.S. health insurance system and taking action to support the most vulnerable Americans."
@@ -58,11 +58,11 @@ Throughout the process, both USDC Fellows managed product development coordinati
 
 ## The impact 
 FindSupport.gov launched in May 2023 in conjunction with Mental Health Awareness Month. Feedback collected during user research indicates that this tool addresses a gap in available resources. 
-  <img src="{{site.baseurl}}/assets/images/projects/cms_digital_service_image_1.png" alt="A screenshot of the homepage of the redesigned FindSupport.gov"/>
+  <img src="{{site.baseurl}}/assets/images/projects/cms_digital_service_image_1.webp" alt="A screenshot of the homepage of the redesigned FindSupport.gov"/>
 
 In the first 4 months post-launch, the site received over 111,000 views with over one-third of all visitors engaging with the content by continuing to another page. One of the core pages of FindSupport.gov is resources for people in crisis. This page is now linked to from every page on SAMHSA.gov and received over 15,000 views. 
 
-  <img src="{{site.baseurl}}/assets/images/projects/cms_digital_service_image_2.png" alt="A screenshot of the resources section of the redesigned FindSupport.gov"/>
+  <img src="{{site.baseurl}}/assets/images/projects/cms_digital_service_image_2.webp" alt="A screenshot of the resources section of the redesigned FindSupport.gov"/>
 
 <div class="blog-quote-box">
     <p>“CMS is committed to ensuring everyone can take care of their mental health just as easily as they get treated for a broken bone. FindSupport.gov will help us achieve that goal so that every American can find the right provider. A problem this significant requires everyone to get involved, and I’m proud to join with my colleagues from across HHS in support of the millions of people who need our support.”

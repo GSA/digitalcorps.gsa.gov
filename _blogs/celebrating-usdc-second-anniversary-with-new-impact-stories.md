@@ -1,7 +1,7 @@
 ---
 id: second-anniversary-impact
 title: 'Celebrating USDC’s second anniversary with a new blog and our first agency impact story'
-image: /assets/images/blogs/2023-all-fellows.png
+image: /assets/images/blogs/2023-all-fellows.webp
 author: Caitlin Gandhi
 published_at: "2023-08-30"
 summary: "U.S. Digital Corps Director Caitlin Gandhi introduces USDC's new blog and the publication of our first agency impact story in celebration of USDC's second anniversary."

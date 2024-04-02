@@ -1,9 +1,9 @@
 ---
 id: erin-song
 title: Erin Song
-image: /assets/images/fellows/2023/erin-song.png
+image: /assets/images/fellows/2023/erin-song.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-erin-song.png
+social_image: /assets/images/social/fellows/social-erin-song.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]

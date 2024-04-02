@@ -1,7 +1,7 @@
 ---
 id: announces-first-cohort
 title: 'GSA Announces First Cohort of 40 U.S. Digital Corps Fellows'
-image: /assets/images/blogs/build-a-brighter-future.png
+image: /assets/images/blogs/build-a-brighter-future.webp
 author: 
 published_at: "2022-06-21"
 summary: "GSA Administrator Robin Carnahan comments of the announcement of the inaugural class of U.S. Digital Corps Fellows."

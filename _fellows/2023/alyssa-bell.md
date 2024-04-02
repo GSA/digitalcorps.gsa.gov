@@ -1,9 +1,9 @@
 ---
 id: alyssa-bell
 title: Alyssa Bell
-image: /assets/images/fellows/2023/alyssa-bell.png
+image: /assets/images/fellows/2023/alyssa-bell.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-alyssa-bell.png
+social_image: /assets/images/social/fellows/social-alyssa-bell.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["CMS"]

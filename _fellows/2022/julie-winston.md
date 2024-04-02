@@ -1,9 +1,9 @@
 ---
 id: julie-winston
 title: Julie Winston
-image: /assets/images/fellows/2022/julie-winston.png
+image: /assets/images/fellows/2022/julie-winston.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-julie-winston.png
+social_image: /assets/images/social/fellows/social-julie-winston.webp
 fellow_year: 2022
 project: ["dos-managing-a-crisis-with-data-and-empathy", "state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners"]
 agency: ["DOS"]
