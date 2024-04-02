@@ -23,7 +23,7 @@ social: blog
 
 ## Why Civic Tech and Government Leaders Should Care About Diversity and Representation
 <div class="usa-image-block">
-  <img src="{{site.baseurl}}/assets/images/blogs/brian-whittaker.jpg" alt="In the foreground, Brian Whittaker smiles, wearing dark glasses, a dark gray suit, white shirt, and maroon tie. He has a beard and moustache. In the background is a light colored wall and the American flag stands behind him on his right." />
+  <img src="{{site.baseurl}}/assets/images/blogs/brian-whittaker.webp" alt="In the foreground, Brian Whittaker smiles, wearing dark glasses, a dark gray suit, white shirt, and maroon tie. He has a beard and moustache. In the background is a light colored wall and the American flag stands behind him on his right." />
 </div>
 Diversity and representation is critical in civic tech and government, especially now that digital service delivery is becoming essential for government services to reach the American public. These products and services need to account for the diverse perspectives, backgrounds, and ability of the people using the service; otherwise, it will not have the greatest reach and inequity is bound to occur.
 
