@@ -1,9 +1,11 @@
 ---
 id: jonathan-hart
 title: Jonathan Hart
-image: Jonathan Hart.png
+image: /assets/images/fellows/2022/Jonathan Hart.png
+social: fellow
+social_image: /assets/images/social/fellows/social-jonathan-hart.png
 fellow_year: 2022
-project: ["dos-managing-a-crisis-with-data-and-empathy"]
+project: ["dos-managing-a-crisis-with-data-and-empathy", "state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners"]
 agency: ["DOS"]
 hometown: Los Angeles, CA
 university: San Diego Mesa College

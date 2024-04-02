@@ -1,7 +1,9 @@
 ---
 id: alex-adams
 title: Alex Adams
-image: alex-adams.png
+image: /assets/images/fellows/2023/alex-adams.png
+social: fellow
+social_image: /assets/images/social/fellows/social-alex-adams.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]

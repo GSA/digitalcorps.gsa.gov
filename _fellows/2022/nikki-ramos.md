@@ -1,7 +1,9 @@
 ---
 id: nikki-ramos
 title: Anjenica Nikki Ramos
-image: Nikki Ramos.png
+image: /assets/images/fellows/2022/Nikki Ramos.png
+social: fellow
+social_image: /assets/images/social/fellows/social-nikki-ramos.png
 fellow_year: 2022
 project: ["uscis"]
 agency: ["USCIS"]

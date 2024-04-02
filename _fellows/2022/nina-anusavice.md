@@ -1,7 +1,9 @@
 ---
 id: nina-anusavice
 title: Nina Anusavice
-image: Nina Anusavice.png
+image: /assets/images/fellows/2022/Nina Anusavice.png
+social: fellow
+social_image: /assets/images/social/fellows/social-nina-anusavice.png
 fellow_year: 2022
 project: ["va"]
 agency: ["VA"]

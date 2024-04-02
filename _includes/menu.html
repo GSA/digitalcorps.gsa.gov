@@ -10,15 +10,15 @@ where we provide an easy way to manage your navigation system
       <!-- logo -->
       <div class="usa-logo" id="extended-logo">
         <a href="{{site.baseurl}}/" >
-          {% asset "digitalcorps_logo-alt.svg" alt="U.S. Digital Corps" %}
+          <img src="{{site.baseurl}}/assets/images/logo/digitalcorps_logo-alt.svg" alt="U.S. Digital Corps" />
         </a>
       </div>
 
-      <button class="usa-menu-btn">{% asset usa-icons/menu.svg alt="menu" %}</button>
+      <button class="usa-menu-btn"><img src="{{site.baseurl}}/assets/uswds/usa-icons/menu.svg" alt="menu" /></button>
     </div>
     <nav class="usa-nav usa-nav site-nav" role="navigation" aria-label="Primary navigation">
 
-      <button class="usa-nav__close">{% asset usa-icons/close.svg alt="close" %}</button>
+      <button class="usa-nav__close"> <img src="{{site.baseurl}}/assets/uswds/close.svg" alt="close" /> </button>
       
       <ul class="usa-nav__primary usa-accordion">
         {% for nav_item in site.data.nav.primary %}

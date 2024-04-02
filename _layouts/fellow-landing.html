@@ -49,10 +49,7 @@ layout: default
     <div class="grid-container">
       <div class="quote">
         <div class="text-center padding-bottom-4">
-          {%
-          asset "icons/quote2.png"
-          alt="quote symbol" height=50
-          %}
+          <img src="{{site.baseurl}}/assets/images/icons/quote2.png" alt="quote symbol" height=50/>
         </div>
         <div class="verbiage">
           The Digital Corps gives me an opportunity to use my technical skills to reach a wide range of people. I appreciate the fact that the program is designed to allow Fellows to grow in their careers and to provide a community where everyone values public service and meaningful work.
@@ -87,8 +84,8 @@ layout: default
   </section>
 
 
-  <!-- vendor search script -->
-{% asset simple_jekyll_search.js %}
+<!-- vendor search script -->
+  <script src="{{site.baseurl}}/assets/js/simple_jekyll_search.js"></script>
 
 <!-- search -->
 <script type="text/javascript">
@@ -100,11 +97,11 @@ layout: default
           "url"      : "{{ site.baseurl }}{{ fellow.url }}",
           "date"     : "{{ fellow.date }}",
           "content"  : "{{ fellow.bio_short | strip_html | strip_newlines | remove_chars | escape }}",
-          "image_path" : "{% asset '{{ fellow.image }}' @path %}",
+          "image_path" : "{% if fellow.image %} {{site.baseurl}}{{ fellow.image }}{% else%} {{site.baseurl}}/assets/images/icons/Placeholder.png {% endif %}",
           "agency" : "{% assign fellow_agencies = site.data.agencies | where_exp:'agency', 'fellow.tags contains agency.name' %}{% for agency in fellow_agencies %}{% if forloop.first %}<ul>{% endif %}<li><span class='{{ agency.name }}'>{{ agency.fullname }}</span>{% if forloop.last %}</ul>{% endif %}{% endfor %}",
           "track" : "{% assign fellow_tracks = site.data.fellow-tracks | where_exp:'track', 'fellow.tags contains track.url_name' %}{% for track in fellow_tracks %}{% if forloop.first %}<ul>{% endif %}<li><span class='{{ track.url_name }}'>{{ track.display_name }}</span>{% if forloop.last %}</ul>{% endif %}{% endfor %}",
-          "linkedin": "{% if fellow.linkedin %}<span class='fellow-card--linkedin'><a href={{ fellow.linkedin }}><img src={% asset 'icons/linkedin-blue.svg' @path %} alt='{{ fellow.title}} on LinkedIn'/></a>{% else %}</span>{% endif %}",
-          "twitter": "{% if fellow.twitter %}<span class='fellow-card--twitter'><a href={{ fellow.twitter }}><img src={% asset 'icons/twitter.svg' @path %} alt='{{ fellow.title }} on Twitter' /></a>{% else %}</span>{% endif %}",
+          "linkedin": "{% if fellow.linkedin %}<span class='fellow-card--linkedin'><a href={{ fellow.linkedin }}><img src='{{site.baseurl}}/assets/images/icons/linkedin-blue.svg' alt='{{ fellow.title}} on LinkedIn'/></a>{% else %}</span>{% endif %}",
+          "twitter": "{% if fellow.twitter %}<span class='fellow-card--twitter'><a href={{ fellow.twitter }}><img src='{{site.baseurl}}/assets/images/icons/twitter.svg' alt='{{ fellow.title }} on Twitter' /></a>{% else %}</span>{% endif %}",
           "fellow_year": "{{ fellow.fellow_year }}"
         } {% unless forloop.last %},{% endunless %}
       {% endfor %}]
@@ -120,4 +117,4 @@ layout: default
   const siteBaseurl = "{{ site.baseurl }}";
 </script>
 
-{% asset filters.js %}
+<script src="{{site.baseurl}}/assets/js/filters.js"></script>

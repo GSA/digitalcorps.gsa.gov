@@ -1,7 +1,9 @@
 ---
 id: eduardo-perez
 title: Eduardo Perez
-image: eduardo-perez.png
+image: /assets/images/fellows/2023/eduardo-perez.png
+social: fellow
+social_image: /assets/images/social/fellows/social-eduardo-perez.png
 fellow_year: 2023
 project: ["na"]
 agency: ["ACF"]

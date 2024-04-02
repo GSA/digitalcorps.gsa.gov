@@ -1,9 +1,11 @@
 ---
 id: kira-tebbe
 title: Kira Tebbe
-image: Kira Tebbe.png
+image: /assets/images/fellows/2022/Kira Tebbe.png
+social: fellow
+social_image: /assets/images/social/fellows/social-kira-tebbe.png
 fellow_year: 2022
-project: ["acf"]
+project: ["acf-improving-post-release-care-to-migrant-children-and-sponsors"]
 agency: ["ACF"]
 hometown: Chicago, IL
 university: University of Chicago

@@ -1,9 +1,11 @@
 ---
 id: ashwini-shankar
 title: Ashwini Shankar
-image: Ashwini Shankar.png
+image: /assets/images/fellows/2022/Ashwini Shankar.png
+social: fellow
+social_image: /assets/images/social/fellows/social-ashwini-shankar.png
 fellow_year: 2022
-project: ["dos-managing-a-crisis-with-data-and-empathy"]
+project: ["dos-managing-a-crisis-with-data-and-empathy", "state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners"]
 agency: ["DOS"]
 hometown: Atherton, CA
 university: Tufts University

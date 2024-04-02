@@ -1,9 +1,11 @@
 ---
 id: julie-winston
 title: Julie Winston
-image: Julie Winston.png
+image: /assets/images/fellows/2022/julie-winston.png
+social: fellow
+social_image: /assets/images/social/fellows/social-julie-winston.png
 fellow_year: 2022
-project: ["dos-managing-a-crisis-with-data-and-empathy"]
+project: ["dos-managing-a-crisis-with-data-and-empathy", "state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners"]
 agency: ["DOS"]
 hometown: New York, NY
 university: The University of Texas at Austin

@@ -1,7 +1,9 @@
 ---
 id: samantha-noor
 title: Samantha Noor
-image: samantha-noor.png
+image: /assets/images/fellows/2023/samantha-noor.png
+social: fellow
+social_image: /assets/images/social/fellows/social-samantha-noor.png
 fellow_year: 2023
 project: ["na"]
 agency: ["HRSA"]

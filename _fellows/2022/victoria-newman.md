@@ -1,7 +1,9 @@
 ---
 id: victoria-newman
 title: Victoria Newman
-image: Victoria Newman.png
+image: /assets/images/fellows/2022/Victoria Newman.png
+social: fellow
+social_image: /assets/images/social/fellows/social-victoria-newman.png
 fellow_year: 2022
 project: ["cisa"]
 agency: ["CISA"]

@@ -1,7 +1,9 @@
 ---
 id: jenny-wang
 title: Jenny Wang
-image: Jenny Wang.png
+image: /assets/images/fellows/2022/Jenny Wang.png
+social: fellow
+social_image: /assets/images/social/fellows/social-jenny-wang.png
 fellow_year: 2022
 project: ["va"]
 agency: ["VA"]

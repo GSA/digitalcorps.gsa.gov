@@ -1,10 +1,12 @@
 ---
 id: joe-lindsey
 title: Joe Lindsey
-image: Joe Lindsey.png
+image: /assets/images/fellows/2022/Joe Lindsey.png
+social: fellow
+social_image: /assets/images/social/fellows/social-joe-lindsey.png
 fellow_year: 2022
-project: ["dos"]
-agency: ["DOS"]
+project: ["state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state"]
+agency: 
 hometown: Suffolk, Virginia
 university: Excelsior College Albany
 region: east

@@ -11,6 +11,11 @@
                         href="{{page.apply_url}}" target="_blank" rel="noopener">
                         Apply on USAJOBS
                     </a>
+                    {% else %}
+                    <a class="usa-button usa-button--primaryvivid usa-link--alt usa-link--external"
+                        href="{{page.usa_jobs_url}}" target="_blank" rel="noopener">
+                        Apply on USAJOBS
+                    </a>
                     {% endif %}
                 </div>
             </div>
@@ -50,15 +55,24 @@
         <div class="usa-alert usa-alert--error usa-alert--no-icon margin-bottom-4">
             <div class="usa-alert__body">
                 <div class="usa-alert__text">
-                    Applications are CLOSED for this track
+                    <strong>Applications are now CLOSED</strong> in this track as we have received the maximum number of applications as listed on USAJOBS. We encourage you to subscribe to our newsletter below to stay informed about future application opportunities.
                 </div>
             </div>
         </div>
+        <h2 class="margin-top-0">Before applying:</h2>
 
-        <p>Thank you for your interest in the {{page.title}}. This track is closed to new applicants because we have
-            received our maximum limit of 300 candidates for the current year. If you are qualified for the remaining
-            open tracks, we encourage you to apply to those instead, or subscribe to our newsletter to stay informed
-            about future application opportunities.</p>
+        <div class="as-p">
+            We strongly encourage reviewing our <a class="usa-link" href="{{site.baseurl}}/process/">Application
+                Process</a> page for complete eligibility criteria and application tips.
+
+            To qualify at the GS-9 level, candidates must either have one cumulative year of specialized experience
+            (this can include paid and unpaid internships, volunteer experiences, student organizations, and jobs)
+            <strong>or</strong> an advanced degree (e.g. masters, PhD) in a
+            {% include_cached modal-technology-field.html words="technology field" %}.
+        </div>
+
+        {% include {{page.track_file}} %}
+
         {% endif %}
     </div>
 </section>
