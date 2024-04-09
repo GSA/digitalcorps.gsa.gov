@@ -1,9 +1,9 @@
 ---
 id: liane-peng
 title: Liane Peng
-image: /assets/images/fellows/2022/Liane Peng.png
+image: /assets/images/fellows/2022/Liane Peng.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-liane-peng.png
+social_image: /assets/images/social/fellows/social-liane-peng.webp
 fellow_year: 2022
 project: ["acf-improving-post-release-care-to-migrant-children-and-sponsors"]
 agency: ["ACF"]

@@ -1,9 +1,9 @@
 ---
 id: marina-defrates
 title: Marina DeFrates
-image: /assets/images/fellows/2023/marina-defrates.png
+image: /assets/images/fellows/2023/marina-defrates.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-marina-defrates.png
+social_image: /assets/images/social/fellows/social-marina-defrates.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["GSA"]

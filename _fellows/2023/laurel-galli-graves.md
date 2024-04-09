@@ -1,9 +1,9 @@
 ---
 id: laurel-galli-graves
 title: Laurel Galli-Graves
-image: /assets/images/fellows/2023/laurel-galli-graves.png
+image: /assets/images/fellows/2023/laurel-galli-graves.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-laurel-galli-graves.png
+social_image: /assets/images/social/fellows/social-laurel-galli-graves.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["DTIC"]

@@ -1,9 +1,9 @@
 ---
 id: selyne-singh
 title: Selyne Singh
-image: /assets/images/fellows/2022/Selyne Singh.png
+image: /assets/images/fellows/2022/Selyne Singh.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-selyne-singh.png
+social_image: /assets/images/social/fellows/social-selyne-singh.webp
 fellow_year: 2022
 project: ["na"]
 agency: ["GSA"]

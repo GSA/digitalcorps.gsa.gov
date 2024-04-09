@@ -1,7 +1,7 @@
 ---
 id: start-your-tech-career-in-government-as-a-us-digital-corps-fellow
 title: "Start Your Tech Career in Government as a U.S. Digital Corps Fellow"
-image: /assets/images/blogs/headers/start-your-tech-career-in-government-as-a-us-digital-corps-fellow.png
+image: /assets/images/blogs/headers/start-your-tech-career-in-government-as-a-us-digital-corps-fellow.webp
 author: Masha Danilova
 published_at: "2021-11-01"
 summary: "U.S. Digital Corps co-lead Masha Danilova shares a personal reflection on her path to public service and announces the application opening date for the first cohort of USDC Fellows."
@@ -15,7 +15,7 @@ social: blog
 I am thrilled to announce that, on **Monday, November 8**, GSA’s Technology Transformation Services is opening applications for the inaugural cohort of the [U.S. Digital Corps](https://digitalcorps.gsa.gov/) (USDC). The Digital Corps is a great opportunity for early-career technologists to come and join us in creating a more effective, equitable government.
 
 <div>
-  <img src="{{site.baseurl}}/assets/images/blogs/u-s-digital-corps-logo.png" alt="The red-white-and-blue themed logo for the U.S. Digital Corps."/>
+  <img src="{{site.baseurl}}/assets/images/blogs/u-s-digital-corps-logo.webp" alt="The red-white-and-blue themed logo for the U.S. Digital Corps."/>
 </div>
 
 I came into the federal government as a student engineering intern for the Department of Energy at the Oak Ridge National Labs, working for the Spallation Neutron Source. As someone who always felt a pull towards high-impact work, I was thrilled to be contributing to projects that could drive big change. However, without a clear, direct path to full-time employment, I pivoted into private industry after my undergraduate studies to continue my career as a technologist. It was only after many years of experience and a slew of different roles that I came back into the federal government as a [White House Presidential Innovation Fellow](https://presidentialinnovationfellows.gov/) (PIF).
@@ -49,5 +49,5 @@ Applications for the U.S. Digital Corps will **open on Monday, November 8** and 
 *Visit our website to learn more about the [opportunity](https://digitalcorps.gsa.gov/opportunity/) and the [application process](https://digitalcorps.gsa.gov/process/#preparing), and if you have any questions, reach out to us at [usdc-application@gsa.gov](mailto:usdc-application@gsa.gov)*.
 
 <div>
-  <img src="{{site.baseurl}}/assets/images/blogs/apply-now-u-s-digital-corps-1200_w1200.png" alt="In a blue-tined image, a woman stands centered in front of many servers. On the left, large white capitalized text reads, Apply Now. Below that is the sentence, Accelerate your career while serving the nation. At the bottom is the United States Digital Corps logo in white."/>
+  <img src="{{site.baseurl}}/assets/images/blogs/apply-now-u-s-digital-corps-1200_w1200.webp" alt="In a blue-tined image, a woman stands centered in front of many servers. On the left, large white capitalized text reads, Apply Now. Below that is the sentence, Accelerate your career while serving the nation. At the bottom is the United States Digital Corps logo in white."/>
 </div>

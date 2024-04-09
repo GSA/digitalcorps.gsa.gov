@@ -1,9 +1,9 @@
 ---
 id: justen-lewis
 title: Justen Lewis
-image: /assets/images/fellows/2022/Justen Lewis.png
+image: /assets/images/fellows/2022/Justen Lewis.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-justen-lewis.png
+social_image: /assets/images/social/fellows/social-justen-lewis.webp
 fellow_year: 2022
 project: ["opm"]
 agency: ["OPM"]

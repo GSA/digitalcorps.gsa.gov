@@ -1,9 +1,9 @@
 ---
 id: jamie-oh
 title: Jamie Oh
-image: /assets/images/fellows/2022/Jamie Oh.png
+image: /assets/images/fellows/2022/Jamie Oh.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-jamie-oh.png
+social_image: /assets/images/social/fellows/social-jamie-oh.webp
 fellow_year: 2022
 project: ["dos"]
 agency: ["DOS"]
