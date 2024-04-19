@@ -82,7 +82,7 @@
 
 .home-fellows {
   @include u-margin-bottom(2);
-  background-image: url($baseurl + "/assets/images/home/Opportunity.webp");
+  background-image: url($baseurl + "/assets/images/home/Meet_The_Fellows.webp");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: left;
@@ -135,10 +135,11 @@
 
 .home-projects {
   @include u-margin-bottom(2);
-  background-image: url($baseurl + "/assets/images/home/Who_we_are_image.webp");
+  background-image: url($baseurl + "/assets/images/home/Home_Page_Projects_image.webp");
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: left;
+  object-fit: contain;
 
   // desktop
   @include at-media-max("desktop") {
