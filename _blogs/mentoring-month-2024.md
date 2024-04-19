@@ -1,7 +1,7 @@
 ---
 id: mentoring-month-2024
 title: 'Celebrating National Mentoring Month'
-image: /assets/images/blogs/headers/mentoring-month-2024-header.png
+image: /assets/images/blogs/headers/mentoring-month-2024-header.webp
 author: Izzie Zahorian, Louisa Sholar, Matt Dobson, Espy Thomson, Marina DeFrates
 published_at: "2024-01-31"
 summary: "Mentorship is a key element of the U.S. Digital Corps Fellow experience. This National Mentoring Month we are sharing reflections from several Fellows and their mentors on the importance of mentoring and the value it has in helping launch a career in public service."

@@ -1,9 +1,9 @@
 ---
 id: joe-lindsey
 title: Joe Lindsey
-image: /assets/images/fellows/2022/Joe Lindsey.png
+image: /assets/images/fellows/2022/Joe Lindsey.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-joe-lindsey.png
+social_image: /assets/images/social/fellows/social-joe-lindsey.webp
 fellow_year: 2022
 project: ["state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state"]
 agency: 

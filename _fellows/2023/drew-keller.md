@@ -1,9 +1,9 @@
 ---
 id: drew-keller
 title: Drew Keller
-image: /assets/images/fellows/2023/drew-keller.png
+image: /assets/images/fellows/2023/drew-keller.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-drew-keller.png
+social_image: /assets/images/social/fellows/social-drew-keller.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["OSTP"]

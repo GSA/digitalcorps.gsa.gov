@@ -1,9 +1,9 @@
 ---
 id: brandtly-jones
 title: Brandtly Jones
-image: /assets/images/fellows/2023/brandtly-jones.png
+image: /assets/images/fellows/2023/brandtly-jones.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-brandtly-jones.png
+social_image: /assets/images/social/fellows/social-brandtly-jones.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["DOS"]

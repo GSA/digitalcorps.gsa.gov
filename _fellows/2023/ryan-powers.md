@@ -1,9 +1,9 @@
 ---
 id: ryan-powers
 title: Ryan Powers
-image: /assets/images/fellows/2023/ryan-powers.png
+image: /assets/images/fellows/2023/ryan-powers.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-ryan-powers.png
+social_image: /assets/images/social/fellows/social-ryan-powers.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["VA"]

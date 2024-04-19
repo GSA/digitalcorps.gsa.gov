@@ -1,9 +1,9 @@
 ---
 id: trey-gordner
 title: Trey Gordner
-image: /assets/images/fellows/2022/Trey Gordner.png
+image: /assets/images/fellows/2022/Trey Gordner.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-trey-gordner.png
+social_image: /assets/images/social/fellows/social-trey-gordner.webp
 fellow_year: 2022
 project: ["hhs"]
 agency: ["HHS"]

@@ -1,7 +1,7 @@
 ---
 id: speed-of-government
 title: 'Balancing priorities and values: A U.S. Digital Corps Fellow’s perspective on speed of government'
-image: /assets/images/blogs/headers/speed-of-government.jpg
+image: /assets/images/blogs/headers/speed-of-government.webp
 author: Kira Tebbe
 published_at: "2024-02-08"
 summary: "U.S. Digital Corps Fellow Kira Tebbe summarizes four priorities and values that simply take time: consideration of the public's time, privacy, accessibility and equity, and scope."

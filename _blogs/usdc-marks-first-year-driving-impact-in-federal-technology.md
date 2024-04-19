@@ -1,7 +1,7 @@
 ---
 id: one-year-anniversary
 title: 'U.S. Digital Corps Marks First Year, Driving Impact in Federal Technology'
-image: /assets/images/blogs/build-a-brighter-future.png
+image: /assets/images/blogs/build-a-brighter-future.webp
 author: 
 published_at: "2022-09-07"
 summary: "GSA Administrator Robin Carnahan, OPM Director Kiran Ahuja, and USDS Administrator Mina Hsiang comment on the occasion of the U.S. Digital Corps' first anniversary."

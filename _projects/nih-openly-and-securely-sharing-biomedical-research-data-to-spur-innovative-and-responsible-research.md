@@ -2,7 +2,7 @@
 id: nih-nichhd
 agency: "National Institutes of Health"
 agency_abbrev: "NIH"
-agency_logo: "/assets/images/agencies/NIH.png"
+agency_logo: "/assets/images/agencies/NIH.webp"
 title: "Openly and securely sharing biomedical research data to spur innovative and reponsible research"
 project_name: "Openly and securely sharing biomedical research data to spur innovative and reponsible research"
 summary: "Helping the Eunice Kennedy Shriver National Institute of Child Health and Human Development securely and broadly share biomedical research data to support innovative and responsible research to understand human development, improve reproductive health, enhance the lives of children and adolescents, and optimize abilities for all."

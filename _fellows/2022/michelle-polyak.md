@@ -1,9 +1,9 @@
 ---
 id: michelle-polyak
 title: Michelle Polyak
-image: /assets/images/fellows/2022/Michelle Polyak.png
+image: /assets/images/fellows/2022/Michelle Polyak.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-michelle-polyak.png
+social_image: /assets/images/social/fellows/social-michelle-polyak.webp
 fellow_year: 2022
 project: ["cms-designing-a-how-to-guide-for-improving-access-to-behavioral-health-care-and-support"]
 agency: ["CMS"]

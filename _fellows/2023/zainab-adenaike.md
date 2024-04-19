@@ -1,9 +1,9 @@
 ---
 id: zainab-adenaike
 title: Zainab Adenaike
-image: /assets/images/fellows/2023/zainab-adenaike.png
+image: /assets/images/fellows/2023/zainab-adenaike.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-zainab-adenaike.png
+social_image: /assets/images/social/fellows/social-zainab-adenaike.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["NIH"]

@@ -2,7 +2,7 @@
 
 .opportunity-banner {
     .usa-hero {
-        background-image: url($baseurl + "/assets/images/opportunity/USDC_Opportunity_Banner.png");
+        background-image: url($baseurl + "/assets/images/opportunity/USDC_Opportunity_Banner.webp");
         background-position: 20%;
         position: relative;
         min-height: 600px;
@@ -63,13 +63,13 @@
 }
 
 .opportunity-deliver-image {
-    background-image: url($baseurl + "/assets/images/opportunity/Deliver.png");
+    background-image: url($baseurl + "/assets/images/opportunity/Deliver.webp");
     background-size: cover;
     background-position: 60% top;
 }
 
 .opportunity-grow-image {
-    background-image: url($baseurl + "/assets/images/opportunity/Grow_Professionally.png");
+    background-image: url($baseurl + "/assets/images/opportunity/Grow_Professionally.webp");
     background-position: 55% top;
 
     @include at-media-max("tablet") {
@@ -79,7 +79,7 @@
 }
 
 .opportunity-support-image {
-    background-image: url($baseurl + "/assets/images/opportunity/Support.png");
+    background-image: url($baseurl + "/assets/images/opportunity/Support.webp");
     background-size: cover;
     background-position: 50% 40%;
 }

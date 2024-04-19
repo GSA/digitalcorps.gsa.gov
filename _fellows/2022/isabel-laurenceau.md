@@ -1,9 +1,9 @@
 ---
 id: isabel-laurenceau
 title: Isabel Laurenceau
-image: /assets/images/fellows/2022/Isabel Laurenceau.png
+image: /assets/images/fellows/2022/Isabel Laurenceau.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-isabel-laurenceau.png
+social_image: /assets/images/social/fellows/social-isabel-laurenceau.webp
 fellow_year: 2022
 project: ["gsa-expanding-voting-access"]
 agency: ["GSA"]

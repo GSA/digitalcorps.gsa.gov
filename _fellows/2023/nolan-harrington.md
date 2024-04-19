@@ -1,9 +1,9 @@
 ---
 id: nolan-harrington
 title: Nolan Harrington
-image: /assets/images/fellows/2023/nolan-harrington.png
+image: /assets/images/fellows/2023/nolan-harrington.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-nolan-harrington.png
+social_image: /assets/images/social/fellows/social-nolan-harrington.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]

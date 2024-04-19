@@ -21,7 +21,7 @@ status: ["current"]
 The Department of State works to protect and promote U.S. security, prosperity, and democratic values, and shape an international environment in which all Americans can thrive. By promoting data and analytics, the Office of Management Strategy and Solutions Center for Analytics (M/SS/CfA) provides enterprise data management and analytics capabilities to enable data-driven diplomacy within the Department. U.S. Digital Corps Fellows have been supporting M/SS/CfA since 2022. The Nicaragua Operation exemplifies how the science of analytics meets the art of diplomacy.
 
 <div>
-   <img src="{{site.baseurl}}/assets/images/projects/state_nica_image.jpeg" alt="Department of State workers standing outside building."/>
+   <img src="{{site.baseurl}}/assets/images/projects/state_nica_image.webp" alt="Department of State workers standing outside building."/>
 </div>
 
 ## The challenge
