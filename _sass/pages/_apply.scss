@@ -92,6 +92,24 @@
     list-style: inside;
 }
 
+//Events Section
+.apply-events {
+    @include grid-col(10);
+    @include grid-offset(1);
+
+    @include at-media-max("desktop"){
+        @include grid-col(12);
+        @include grid-offset(none);
+        @include u-padding(4);
+    }
+    p, ul {
+        @include u-font("sans", "lg");
+    }
+
+    ul{
+        list-style-type: none;
+    }
+}
 
 // USA Jobs steps
 .usajobs-process {
