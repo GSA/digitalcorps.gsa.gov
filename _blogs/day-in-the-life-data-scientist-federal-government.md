@@ -1,7 +1,7 @@
 ---
 id: day-in-the-life-data-scientist-federal-government
 title: 'Fellow perspectives: A day in the life of a data scientist in the federal government'
-image: 
+image: /assets/images/blogs/USDC _ Day in the life of-01.webp
 author: Vivian Vasquez, Ethan Jantz
 published_at: "2024-06-11"
 summary: "Two U.S. Digital Corps data science Fellows share their paths and experiences as data scientists in the federal government."
