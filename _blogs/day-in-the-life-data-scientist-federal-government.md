@@ -79,10 +79,10 @@ Then, the final hours of my day are spent alternating between finalizing the scr
 **Vivian:**
 
 Contrary to stereotypes, I've learned that the government is composed of an eclectic and diverse mix of individuals who, regardless of age and tenure in government, are undeterred by the bureaucratic challenges that can be inherent in serving such a vast population. 
-As a fellow, it's been exhilarating to build a cross-generational community, connecting with individuals of various ages within both the U.S. Digital Corps (USDC) cohort and my CMS team. 
+As a fellow, it's been exhilarating to build a cross-generational community, connecting with individuals of various ages within both the USDC cohort and my CMS team. 
 This experience has strengthened my trust in the individuals responsible for running our government services. 
 
-## What would you tell data scientists who were contemplating applying to the Digital Corps?
+## What would you tell data scientists who are contemplating applying to the Digital Corps?
 
 **Ethan:**
 
