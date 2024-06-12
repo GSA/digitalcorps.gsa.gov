@@ -6,7 +6,7 @@ author: Vivian Vasquez, Ethan Jantz
 published_at: "2024-06-11"
 summary: "Two U.S. Digital Corps data science Fellows share their paths and experiences as data scientists in the federal government."
 external_url: ""
-tags: ['Data Science And Analytics', 'ACF','CMS']
+tags: ['Data_Science_And_Analytics', 'ACF','CMS']
 type: Blog
 social: blog
 ---
