@@ -1,7 +1,7 @@
 ---
 id: parting-words-from-ten-usdc-graduates
 title: 'Navigating the civic tech terrain: Lessons, reflections, and parting words from 10 U.S. Digital Corps graduates'
-image: assets/images/blogs/navigating_the_civic_tech_terrain.webp
+image: /assets/images/blogs/navigating_the_civic_tech_terrain.webp
 author:
 published_at: "2024-06-21"
 summary: "As our first cohort prepares for graduation this month, they reflected on their experience as USDC Fellows."
