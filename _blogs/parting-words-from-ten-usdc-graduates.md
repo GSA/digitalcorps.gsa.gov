@@ -11,7 +11,7 @@ type: Blog
 social: blog
 ---
 
-In June 2022, 38 technologists joined the inaugural cohort of U.S. Digital Corps Fellows. In the last two years, they’ve contributed to high-impact efforts across more than 15 agencies in the federal government while developing professional skills and growing a supportive community of peers. As this first cohort prepares for graduation this month, they reflected on their experiences as USDC Fellows.
+In June 2022, 38 early-career technologists joined the inaugural cohort of U.S. Digital Corps Fellows. In the last two years, they’ve contributed to high-impact efforts across more than 15 agencies in the federal government while developing professional skills and growing a supportive community of peers. As this first cohort prepares for graduation this month, they reflected on their experiences as USDC Fellows.
 
 ## Jillian Gilburne, Design Fellow
 I think what has surprised me the most is the sheer diversity of work being done across the federal government, even for Fellows within the same track. Designers in this cohort have been tasked with everything from launching websites to managing innovation challenges to wrangling legacy systems to doing research that drives product strategy. It has been incredible to see such varied opportunities for designers to contribute across the federal government. 
@@ -20,7 +20,7 @@ Of course it hasn’t been easy—oftentimes design education and the complexiti
 <hr/>
 
 ## Kathleen Carroll, Design Fellow
-Something that surprised me about my fellowship experience is the speed with which I transformed from a new hire, absorbing all of the information available to me quickly and jumping to leading design projects and initiatives, speaking to public audiences about my projects, and offering guidance about design to offices across HHS. Many people, including my U.S. Digital Corps community and mentor, have empowered me to achieve those milestones. My experience of learning rapidly and leading multiple public-facing initiatives demonstrates the need and opportunity for design work in the federal government. Being the designer in the Office of the Assistant Secretary for Health at HHS is challenging, but I’ve found my work extremely rewarding. My role allows me to pave the path for future designers and technologists, advance my agency’s technical maturity, and work on impactful projects, which aligns with my initial goals for joining federal service.
+Something that surprised me about my fellowship experience is the speed with which I transformed from a new hire—absorbing all of the information available to me—to leading design projects and initiatives, speaking to public audiences about my projects, and offering guidance about design to offices across HHS. Many people, including my U.S. Digital Corps community and mentor, have empowered me to achieve those milestones. My experience of learning rapidly and leading multiple public-facing initiatives demonstrates the need and opportunity for design work in the federal government. Being the designer in the Office of the Assistant Secretary for Health at HHS is challenging, but I’ve found my work extremely rewarding. My role allows me to pave the path for future designers and technologists, advance my agency’s technical maturity, and work on impactful projects, which aligns with my initial goals for joining federal service.
 
 <hr/>
 
