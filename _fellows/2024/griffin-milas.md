@@ -10,7 +10,7 @@ agency: ["CISA"]
 hometown: Mansfield, MA
 university: Northeastern University
 region: northeast
-bio_short: 
+bio_short: Data scientist who uses data storytelling and machine learning to make a positive impact on the world
 why: Being able to develop my skills as a data scientist while doing work that has a big impact.
 fun_fact: 'Griffin is an avid board and card gamer, but he also loves backpacking and playing disc golf!'
 tags: ['northeast', '2024','Data_Science_And_Analytics', 'CISA', 'active']

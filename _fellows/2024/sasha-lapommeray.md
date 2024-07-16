@@ -10,7 +10,7 @@ agency: ["HHS"]
 hometown: Malverne, NY
 university: New York University
 region: east
-bio_short: 
+bio_short: Cybersecurity specialist dedicated to preventing cybersecurity attacks on a national scale
 why: My interest in the cybersecurity industry stemmed from a desire to help prevent cybersecurity attacks on a national scale. USDC is instrumental in helping me to fulfill my dreams of utilizing my cybersecurity skills in a public service context.
 fun_fact: "Sasha is interested in cubing and can solve a 4x4 Rubik's Cube."
 tags: ['east', '2024','Cybersecurity', 'HHS', 'active']

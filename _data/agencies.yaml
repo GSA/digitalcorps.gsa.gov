@@ -43,6 +43,11 @@
   val: deptHHS
   url: http://www.hhs.gov
 
+- name: NIST
+  fullname: National Institute of Standards & Technology
+  val: nationalInstituteST
+  url: https://www.nist.gov/
+
 - name: OPM
   fullname: Office of Personnel Management
   val: officePM
@@ -88,6 +93,12 @@
   fullname: U.S. Department of Agriculture
   val: usDeptAgr
   url: https://www.usda.gov/our-agency/about-usda
+  description:
+
+- name: USFS
+  fullname: U.S. Forest Service
+  val: usForestSrvce
+  url: https://www.fs.usda.gov/
   description:
 
 - name: CDC

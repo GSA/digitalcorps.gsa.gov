@@ -10,7 +10,7 @@ agency: ["NIH"]
 hometown: Jersey City, NJ
 university: Northeastern University
 region: east
-bio_short: 
+bio_short: Product manager committed to advancing the capabilities of health technology
 why: I have always been driven by the idea of using technology to make a tangible difference in public health. My background in biomedical science and AI has shown me how powerful these tools can be in solving complex health challenges, but I also recognize the need to make these innovations accessible to all. USDC offers a unique platform to apply my skills in a way that directly impacts the health and well-being of communities across the country.
 fun_fact: 'Monideep is a lifelong learner who loves exploring diverse fields to see how they interconnect.'
 tags: ['east', '2024','Product_Management', 'NIH', 'active']

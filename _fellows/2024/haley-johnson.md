@@ -10,7 +10,7 @@ agency: ["HHS"]
 hometown: Manistee, MI
 university: University of Michigan
 region: midwest
-bio_short: 
+bio_short: "Data scientist passionate about using data for policymaking that improves people's lives"
 why: Policymaking and improving people’s lives. At USDC, I have the unique opportunity to work on high-impact projects that directly impact Americans and foster positive change. 
 fun_fact: 'Haley is an avid Wikipedia editor. She mainly contributes to articles about pop culture, geography, and Northern Michigan.'
 tags: ['midwest', '2024','Data_Science_And_Analytics', 'HHS', 'active']

@@ -10,7 +10,7 @@ agency: ["CISA"]
 hometown: Flint, MI
 university: Western Governors University
 region: midwest
-bio_short: 
+bio_short: Cybersecurity specialist passionate about improving cybsersecurity and equity for all
 why: I am extremely passionate about cybersecurity and was looking for ways I could help as many people as possible with the knowledge and skills that I have. I think serving in the federal government, with the support system in place through the USDC, is one of the best ways I can achieve that dream.
 fun_fact: "CJ loves zip lining despite their crippling fear of heights!"
 tags: ['midwest', '2024','Cybersecurity', 'CISA', 'active']

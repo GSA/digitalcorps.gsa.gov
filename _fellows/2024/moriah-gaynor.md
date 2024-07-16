@@ -10,7 +10,7 @@ agency: ["State"]
 hometown: Boca Raton, FL
 university: San Diego State University
 region: south
-bio_short: 
+bio_short: Product manager with a passion for digital transformation in government
 why: Joining the U.S. Digital Corps stemmed from my passion to incite meaningful change through technology. As a USDC Fellow, I will have the opportunity to leverage my product management skills while collaborating with fellow innovators and working on impactful projects.
 fun_fact: 'Moriah competed on season 46 of Survivor (yes that show is still on!).'
 tags: ['south', '2024','Product_Management', 'State', 'active']

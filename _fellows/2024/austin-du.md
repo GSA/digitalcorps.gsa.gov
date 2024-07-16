@@ -10,7 +10,7 @@ agency: ["USDA"]
 hometown: Corona, CA
 university: Columbia University
 region: west
-bio_short: 
+bio_short: Data scientist with a passion for implementing Large Language Models in everyday tasks. 
 why: I want to support in creating the standards for a safe, responsible AI legislation and integration in our government services. 
 fun_fact: 'After learning for a year, the only song Austin knows on the piano is Clair de Lune.'
 tags: ['west', '2024','Data_Science_And_Analytics', 'USDA', 'active']

@@ -10,7 +10,7 @@ agency: ["CDC"]
 hometown: Memphis, TN
 university: Vanderbilt University
 region: south
-bio_short: 
+bio_short: Data scientist with a passion for transforming big data to realize responsible social impact
 why: I am drawn to USDC’s steadfast sense of purpose, community, and optimism, which align with my personal values and set it apart from other professional opportunities.
 fun_fact: "Rachel enjoys sending and receiving postcards and other snail mail."
 tags: ['south', '2024','Data_Science_And_Analytics', 'CDC', 'active']
