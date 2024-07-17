@@ -1,7 +1,7 @@
 ---
 id: the-first-usdc-graduates
 title: 'GSA celebrates the first U.S. Digital Corps graduates'
-image: /assets/images/blogs/
+image: /assets/images/blogs/2024-USDC-Graduating-Cohort.webp
 author: 
 published_at: "2024-06-26"
 summary: "2022 cohort of U.S. Digital Corps fellows marks major milestone."
