@@ -1,9 +1,9 @@
 ---
 id: josey-benandi
 title: Josey Benandi
-image: /assets/images/fellows/2024/josey-benandi-headshot.jpg
+image: /assets/images/fellows/2024/josey-benandi-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-josey-benandi.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CISA"]

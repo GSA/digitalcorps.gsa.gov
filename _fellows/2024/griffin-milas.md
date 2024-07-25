@@ -1,9 +1,9 @@
 ---
 id: griffin-milas
 title: Griffin Milas
-image: /assets/images/fellows/2024/griffin-milas-headshot.jpg
+image: /assets/images/fellows/2024/griffin-milas-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-griffin-milas.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CISA"]

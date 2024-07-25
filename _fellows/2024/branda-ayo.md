@@ -1,9 +1,9 @@
 ---
 id: branda-ayo
 title: Branda Ayo
-image: /assets/images/fellows/2024/branda-ayo-headshot.png
+image: /assets/images/fellows/2024/branda-ayo-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-branda-ayo.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["DOD"]

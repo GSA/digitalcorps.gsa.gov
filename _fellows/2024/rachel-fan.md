@@ -1,9 +1,9 @@
 ---
 id: rachel-fan
 title: Sasha LaPommeray
-image: /assets/images/fellows/2024/rachel-fan-headshot.jpg
+image: /assets/images/fellows/2024/rachel-fan-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-rachel-fan.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CDC"]

@@ -1,9 +1,9 @@
 ---
 id: jacob-depinet
 title: Jacob Depinet
-image: /assets/images/fellows/2024/jacob-depinet-headshot.jpg
+image: /assets/images/fellows/2024/jacob-depinet-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-jacob-depinet.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["USCIS"]

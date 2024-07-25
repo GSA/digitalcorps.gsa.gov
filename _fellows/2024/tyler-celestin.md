@@ -1,9 +1,9 @@
 ---
 id: tyler-celestin
 title: Tyler Celestin
-image: /assets/images/fellows/2024/tyler-celestin-headshot.jpg
+image: /assets/images/fellows/2024/tyler-celestin-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-tyler-celestin.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["USGS"]

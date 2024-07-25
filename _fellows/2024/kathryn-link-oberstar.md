@@ -1,9 +1,9 @@
 ---
 id: kathryn-link-oberstar
 title: Kathryn Link-Oberstar
-image: /assets/images/fellows/2024/kathryn-link-oberstar-headshot.jpg
+image: /assets/images/fellows/2024/kathryn-link-oberstar-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-kathryn-link-oberstar.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["ACF"]

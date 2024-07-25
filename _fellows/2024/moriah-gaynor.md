@@ -1,9 +1,9 @@
 ---
 id: moriah-gaynor
 title: Moriah Gaynor
-image: /assets/images/fellows/2024/moriah-gaynor-headshot.jpeg
+image: /assets/images/fellows/2024/moriah-gaynor-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-moriah-gaynor.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["State"]

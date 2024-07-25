@@ -1,9 +1,9 @@
 ---
 id: jock-croft
 title: Jock Croft
-image: /assets/images/fellows/2024/jock-croft-headshot.jpg
+image: /assets/images/fellows/2024/jock-croft-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-jock-croft.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CISA"]

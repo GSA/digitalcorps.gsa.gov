@@ -1,9 +1,9 @@
 ---
 id: brianna-carnagie 
 title: Brianna Carnagie 
-image: /assets/images/fellows/2024/brianna-carnagie-headshot.png
+image: /assets/images/fellows/2024/brianna-carnagie-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-brianna-carnagie.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CMS"]

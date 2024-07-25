@@ -1,9 +1,9 @@
 ---
 id: zobair-wali
 title: Zobair Wali
-image: /assets/images/fellows/2024/zobair-wali-headshot.jpg
+image: /assets/images/fellows/2024/zobair-wali-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-zobair-wali.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["DOC"]

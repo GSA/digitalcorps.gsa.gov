@@ -1,9 +1,9 @@
 ---
 id: brian-xi
 title: Brian Xi 
-image: /assets/images/fellows/2024/brian-xi-headshot.png
+image: /assets/images/fellows/2024/brian-xi-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-brian-xi.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CDC"]

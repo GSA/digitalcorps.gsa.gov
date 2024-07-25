@@ -1,9 +1,9 @@
 ---
 id: emma-gray
 title: Emma Gray
-image: /assets/images/fellows/2024/emma-gray-headshot.jpg
+image: /assets/images/fellows/2024/emma-gray-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-emma-gray.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CDC"]

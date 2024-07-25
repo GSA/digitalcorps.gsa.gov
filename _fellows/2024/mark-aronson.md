@@ -1,9 +1,9 @@
 ---
 id: mark-aronson
 title: Mark Aronson
-image: /assets/images/fellows/2024/mark-aronson-headshot.jpg
+image: /assets/images/fellows/2024/mark-aronson-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-mark-aronson.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["NIH"]

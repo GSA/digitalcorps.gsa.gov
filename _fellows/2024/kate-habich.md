@@ -1,9 +1,9 @@
 ---
 id: kate-habich
 title: Kate Habich
-image: /assets/images/fellows/2024/kate-habich-headshot.jpg
+image: /assets/images/fellows/2024/kate-habich-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-kate-habich.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["USDA"]

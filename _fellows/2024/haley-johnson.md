@@ -1,9 +1,9 @@
 ---
 id: haley-johnson
 title: Haley Johnson
-image: /assets/images/fellows/2024/haley-johnson-headshot.heic
+image: /assets/images/fellows/2024/haley-johnson-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-haley-johnson.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["HHS"]

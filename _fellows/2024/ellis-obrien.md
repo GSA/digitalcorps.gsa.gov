@@ -1,9 +1,9 @@
 ---
 id: ellis-obrien
 title: Ellis Obrien
-image: /assets/images/fellows/2024/ellis-obrien-headshot.jpg
+image: /assets/images/fellows/2024/ellis-obrien-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-ellis-obrien.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["State"]

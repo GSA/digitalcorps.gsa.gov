@@ -1,9 +1,9 @@
 ---
 id: austin-du
 title: Austin Du
-image: /assets/images/fellows/2024/austin-du-headshot.png
+image: /assets/images/fellows/2024/austin-du-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-austin-du.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["USDA"]

@@ -1,9 +1,9 @@
 ---
 id: christina-andrade
 title: Christina Andrade
-image: /assets/images/fellows/2024/christina-andrade-headshot.jpg
+image: /assets/images/fellows/2024/christina-andrade-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-christina-andrade.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["FEMA"]

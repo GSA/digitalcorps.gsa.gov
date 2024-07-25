@@ -1,9 +1,9 @@
 ---
 id: anusha-prasad
 title: Anusha Prasad 
-image: /assets/images/fellows/2024/anusha-prasad-headshot.png
+image: /assets/images/fellows/2024/anusha-prasad-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-anusha-prasad.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["State"]

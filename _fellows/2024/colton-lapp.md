@@ -1,9 +1,9 @@
 ---
 id: colton-lapp
 title: Colton Lapp
-image: /assets/images/fellows/2024/colton-lapp-headshot.jpg
+image: /assets/images/fellows/2024/colton-lapp-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-colton-lapp.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["NIST"]

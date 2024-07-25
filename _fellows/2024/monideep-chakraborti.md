@@ -1,9 +1,9 @@
 ---
 id: monideep-chakraborti
 title: Monideep Chakraborti
-image: /assets/images/fellows/2024/monideep-chakraborti-headshot.jpg
+image: /assets/images/fellows/2024/monideep-chakraborti-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-monideep-chakraborti.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["NIH"]

@@ -1,9 +1,9 @@
 ---
 id: prakash-krishnan
 title: Sasha LaPommeray
-image: /assets/images/fellows/2024/prakash-krishnan-headshot.jpg
+image: /assets/images/fellows/2024/prakash-krishnan-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-prakash-krishnan.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["DHS"]

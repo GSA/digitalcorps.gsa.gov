@@ -1,9 +1,9 @@
 ---
 id: candice-butts
 title: Candice Butts
-image: /assets/images/fellows/2024/candice-butts-headshot.jpg
+image: /assets/images/fellows/2024/candice-butts-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-candice-butts.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["DOD"]

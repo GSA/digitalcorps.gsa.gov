@@ -1,9 +1,9 @@
 ---
 id: elise-lambkin
 title: Elise Lambkin
-image: /assets/images/fellows/2024/elise-lambkin-headshot.jpg
+image: /assets/images/fellows/2024/elise-lambkin-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-elise-lambkin.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["DOD"]

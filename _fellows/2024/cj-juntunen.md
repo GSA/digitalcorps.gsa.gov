@@ -1,9 +1,9 @@
 ---
 id: cj-juntunen
 title: CJ Juntunen
-image: /assets/images/fellows/2024/cj-juntunen-headshot.jpeg
+image: /assets/images/fellows/2024/cj-juntunen-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-cj-juntunen.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CISA"]

@@ -1,9 +1,9 @@
 ---
 id: claira-kauffmann
 title: Claira Kauffmann
-image: /assets/images/fellows/2024/claira-kauffmann-headshot.jpg
+image: /assets/images/fellows/2024/claira-kauffmann-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-claira-kauffmann.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["USFS"]

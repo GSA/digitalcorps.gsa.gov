@@ -1,9 +1,9 @@
 ---
 id: sachin-panayil
 title: Sachin Panayil
-image: /assets/images/fellows/2024/sachin-panayil-headshot.jpg
+image: /assets/images/fellows/2024/sachin-panayil-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-sachin-panayil.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CMS"]

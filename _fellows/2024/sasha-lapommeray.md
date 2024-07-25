@@ -1,9 +1,9 @@
 ---
 id: sasha-lapommeray
 title: Sasha LaPommeray
-image: /assets/images/fellows/2024/sasha-lapommeray-headshot.jpg
+image: /assets/images/fellows/2024/sasha-lapommeray-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-sasha-lapommeray.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["HHS"]

@@ -1,9 +1,9 @@
 ---
 id: zach-palmer
 title: Zach Palmer
-image: /assets/images/fellows/2024/zach-palmer-headshot.jpg
+image: /assets/images/fellows/2024/zach-palmer-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-zach-palmer.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["DOC"]

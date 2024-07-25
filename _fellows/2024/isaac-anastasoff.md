@@ -1,9 +1,9 @@
 ---
 id: isaac-anastasoff
 title: Isaac Anastasoff
-image: /assets/images/fellows/2024/isaac-anastasoff-headshot.jpg
+image: /assets/images/fellows/2024/isaac-anastasoff-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-isaac-anastasoff.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["DOD"]

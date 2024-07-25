@@ -1,9 +1,9 @@
 ---
 id: dinne-kopelevich
 title: Dinne Kopelevich
-image: /assets/images/fellows/2024/dinne-kopelevich-headshot.jpg
+image: /assets/images/fellows/2024/dinne-kopelevich-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/
+social_image: /assets/images/social/fellows/social-dinne-kopelevich.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CMS"]
