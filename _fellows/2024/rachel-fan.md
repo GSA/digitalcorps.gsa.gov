@@ -1,6 +1,6 @@
 ---
 id: rachel-fan
-title: Sasha LaPommeray
+title: Rachel Fan
 image: /assets/images/fellows/2024/rachel-fan-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-rachel-fan.webp
