@@ -8,7 +8,7 @@ fellow_year: 2024
 project: ["na"]
 agency: ["DOD"]
 hometown: Fort Lauderdale, FL 
-university: Pierpont Community and Technical College
+university: University of Maine at Presque Isle
 region: south
 bio_short: Project manager dedicated to making a positive impact through technology
 why: Reading about a USDC fellow's journey on LinkedIn ignited a desire for similar growth and impact. I'm thrilled to be part of the program now.
