@@ -1,6 +1,6 @@
 ---
 id: prakash-krishnan
-title: Sasha LaPommeray
+title: Prakash Krishnan
 image: /assets/images/fellows/2024/prakash-krishnan-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-prakash-krishnan.webp
