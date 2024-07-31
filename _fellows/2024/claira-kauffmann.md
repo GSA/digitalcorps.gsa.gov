@@ -14,7 +14,7 @@ bio_short: Data scientist passionate about developing solutions that enhance pub
 why: "With my background in communication and storytelling, I understand the importance of making complex information accessible and engaging for diverse audiences. Joining the U.S. Digital Corps is a unique opportunity for me to use these skills to serve the public. I am eager to contribute to evidence-based solutions and advocate for the responsible use of artificial intelligence."
 fun_fact: "Claira loves a good pun. She's even o-pun to the bad ones."
 tags: ['midwest', '2024','Data_Science_And_Analytics', 'USFS', 'active']
-track: ['Data Science And Analytics']
+track: ['Data Science and Analytics']
 ---
 
 Claira holds a Master's degree in Data Science from the University of California, Berkeley, where her capstone project utilized machine learning to address pressing air quality issues in the Salt Lake Valley by filling in data gaps in low-income areas.

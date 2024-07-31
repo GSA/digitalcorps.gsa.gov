@@ -14,7 +14,7 @@ bio_short: Data scientist passionate about the ways that actionable data can imp
 why: The U.S. Digital Corps presents an opportunity to positively impact my community while continuing to build a strong tech skillset alongside others who want to make a difference. 
 fun_fact: 'Kate once met Meghan Markle, and the photo can still be found on her Wikipedia page. '
 tags: ['west', '2024','Data_Science_And_Analytics', 'USDA', 'active']
-track: ['Data Science And Analytics']
+track: ['Data Science and Analytics']
 ---
 
 Kate is a data scientist who recently graduated with a Master's degree in Computational Analysis and Public Policy from the University of Chicago. They also hold a B.A. in astrophysics and English from Wellesley College. 

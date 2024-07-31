@@ -14,7 +14,7 @@ bio_short: Data scientist who uses data storytelling and machine learning to mak
 why: Being able to develop my skills as a data scientist while doing work that has a big impact.
 fun_fact: 'Griffin is an avid board and card gamer, but he also loves backpacking and playing disc golf!'
 tags: ['northeast', '2024','Data_Science_And_Analytics', 'CISA', 'active']
-track: ['Data Science And Analytics']
+track: ['Data Science and Analytics']
 ---
 
 Griffin is a data scientist that loves being able to use data storytelling, data analysis, and machine learning / artificial intelligence to make a positive impact on the world. He attended Northeastern University, where he studied Data Science. As a student, Griffin worked in various full-time ‘co-op’ positions in pharmaceuticals, engineering software, and insurance, gaining a variety of experience across different industries and aspects of the data science field.

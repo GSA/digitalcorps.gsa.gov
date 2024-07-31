@@ -14,7 +14,7 @@ bio_short: Data scientist with a background in statistics, econometrics, and dat
 why: I was drawn to the idea of using the transformative power of data to help improve the efficiency and effectiveness of government. I love problem solving and analysis, and the USDC will give me the perfect opportunity to use my skills and background to help support important initiatives bringing a positive impact, while challenging me and allowing me to grow professionally.
 fun_fact: 'Gregg speaks three languages fluently: English, Spanish, and Guarani'
 tags: ['east', '2024','Data_Science_And_Analytics', 'CISA', 'active']
-track: ['Data Science And Analytics']
+track: ['Data Science and Analytics']
 ---
 
 Gregg graduated from George Mason University with a Master's degree in Data Analytics Engineering, completing a capstone project for the US Fish and Wildlife Service. He received his undergraduate degree from the College of William and Mary, with a major in International Relations - Political Economy, where he developed an initial foundation in statistics, econometrics, and data analysis.

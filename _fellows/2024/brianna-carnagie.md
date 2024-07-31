@@ -14,7 +14,7 @@ bio_short: Data scientist with specialized experience in epidemiology and public
 why: I was inspired by a desire to leverage my public health expertise on a broader scale to address health disparities and improve health outcomes. Working with a federal government agency like the Center for Medicaid and Medicare Services will allow me to apply my skills in data science and analytics directly towards achieving positive health outcomes through civic tech initiatives. 
 fun_fact: 'Brianna enjoys the art of fermenting foods, experimenting with everything from kimchi to kombucha.'
 tags: ['east', '2024','Data_Science_And_Analytics', 'CMS', 'active']
-track: ['Data Science And Analytics']
+track: ['Data Science and Analytics']
 ---
 
 Brianna is a data scientist who specializes in epidemiology and public health analytics. With a Master's degree in Public Health from Columbia University and a background in Health Science from Stony Brook University, she leverages her expertise in applied biostatistics and public health data science to address pressing health issues. Brianna's professional journey began as a contact tracer in New York City during the COVID-19 pandemic, during which she gained firsthand experience with healthcare disparities, fueling her commitment to using data-driven solutions to improve health outcomes.

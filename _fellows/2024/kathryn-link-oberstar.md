@@ -14,7 +14,7 @@ bio_short: Data scientist aspiring to make data accessible, understandable, and 
 why: "The public sector is filled with passionate, experienced, and dedicated professionals committed to serving the public. The right technological tools have the potential to profoundly amplify this work: reducing structural inefficiencies, minimizing friction between the public and the government in accessing services, and helping to identify where limited resources can have the biggest impact. I am excited to join the U.S. Digital Corps to help identify solutions that make it easier for people to access the services they need in an easy, intuitive, and dignified way."
 fun_fact: "Kathryn has visited every single foreign embassy to the United States in Washington D.C."
 tags: ['west', '2024','Data_Science_And_Analytics', 'ACF', 'active']
-track: ['Data Science And Analytics']
+track: ['Data Science and Analytics']
 ---
 
 Kathryn holds an M.S. in Computational Analysis and Public Policy from the University of Chicago and a Bachelor's degree in Political Science & Public Policy from the University of California, San Diego. Her professional experience spans various sectors, including government, technology, non-profit, and urban planning. In addition to her professional work, Kathryn has been involved in political organizing, focusing on climate and other social issues.

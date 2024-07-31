@@ -14,7 +14,7 @@ bio_short: Data scientist passionate about the intersection of statistical analy
 why: In a rapidly evolving technological environment, the government must have the human resources it needs to use machine learning and artificial intelligence for good. Joining the USDC allows me to dedicate my career to supporting data-driven policy that improves people's lives.
 fun_fact: 'Ellis danced ballet for over a decade. He will still break out the occasional pirouette on the dance floor.'
 tags: ['west', '2024','Data_Science_And_Analytics', 'State', 'active']
-track: ['Data Science And Analytics']
+track: ['Data Science and Analytics']
 ---
 
 Ellis graduated from the Georgetown McCourt School with a Master's in Data Science for Public Policy. At Georgetown, he was a scholar at the Massive Data Institute, leveraging big data to address critical climate and environmental issues. Since graduating, Ellis has continued in this field, focusing on technology and sustainability with The Green Grid.
