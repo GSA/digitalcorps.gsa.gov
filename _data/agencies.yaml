@@ -32,6 +32,12 @@
   url: https://www.dhs.gov
   description: 
 
+- name: DOD
+  fullname: Department of Defense
+  val: deptOfDefense
+  url: https://www.defense.gov/
+  description:
+
 - name: EEOC
   fullname: Equal Employment Opportunity Commission
   val: eeoc
@@ -67,7 +73,7 @@
   url: https://www.irs.gov/
 
 - name: NIST
-  fullname: National Institute of Standards & Technology
+  fullname: National Institute of Standards and Technology
   val: nationalInstituteST
   url: https://www.nist.gov/
 
@@ -141,12 +147,6 @@
   val: ntnlInstituteHlth
   url: https://www.nih.gov/about-nih
   description: 
-
-- name: NIST
-  fullname: National Institute of Standards and Technology
-  val: ntnlInstituteST
-  url: http://www.nist.gov
-  description:
 
 - name: DTIC
   fullname: Defense Technical Information Center
