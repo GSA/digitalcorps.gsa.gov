@@ -6,9 +6,9 @@ social: fellow
 social_image: /assets/images/social/fellows/social-alyson-lam.webp
 fellow_year: 2024
 project: ["na"]
-agency: ["State"]
+agency: ["IRS"]
 hometown: Mason, OH
-university: Georgia Tech
+university: Georgia Institute of Technology
 region: midwest
 bio_short: Designer with a belief that government should function in the best interest of the people
 why: Like many people, I wanted to do something meaningful with my work and found Civic Tech. Despite the apparent need to improve digital service delivery, opportunities to start a career in this field were quite rare. When considering the complexity and sensitivity of the problems that a government must address, it's clear why they simply cannot afford to get it wrong. The U.S. Digital Corps is that unique opportunity that offers a chance to learn how to get it right.
