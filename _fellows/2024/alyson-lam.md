@@ -3,7 +3,7 @@ id: alyson-lam
 title: Alyson Lam
 image: 
 social: fellow
-social_image: /assets/images/social/fellows/social-alyson-lam.webp
+social_image: /assets/images/fellows/2024/alyson-lam-headshot.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["IRS"]
