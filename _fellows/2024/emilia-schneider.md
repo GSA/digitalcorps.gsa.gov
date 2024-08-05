@@ -1,7 +1,7 @@
 ---
 id: emilia-schneider
 title: Emilia Schneider
-image: assets/images/fellows/2024/emilia-schneider-headshot.webp
+image: /assets/images/fellows/2024/emilia-schneider-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-emilia-schneider.webp
 fellow_year: 2024
