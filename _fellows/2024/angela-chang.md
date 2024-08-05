@@ -1,7 +1,7 @@
 ---
 id: angela-chang
 title: Angela Chang
-image: 
+image: assets/images/fellows/2024/angela-chang-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-angela-chang.webp
 fellow_year: 2024
