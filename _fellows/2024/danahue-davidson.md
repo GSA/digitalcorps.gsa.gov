@@ -10,7 +10,7 @@ agency: []
 hometown: Atlanta GA
 university: Strayer University
 region: southeast
-bio_short: 
+bio_short: Cybersecurity specialist with a passion for securing data and security infrastructure
 why: Opportunity, Collaboration, and Growth 
 fun_fact: "Danahue is always smiling. You just can't see it."
 tags: ['southeast', '2024','Cybersecurity', 'active']
