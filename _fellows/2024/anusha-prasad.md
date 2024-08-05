@@ -10,7 +10,7 @@ agency: ["State"]
 hometown: Ashburn, VA
 university: Georgia Institute of Technology
 region: east
-bio_short: Software engineer with a background in the private sector passionate about public policy and volunteering
+bio_short: Software engineer passionate about public policy and using technology for social good.
 why: Having worked in the private sector, I was not able to see the direct impact of my contributions. Thus, I began looking to transition into the public sector. I think the U.S. Digital Corps provides a great pathway into engaging with technology development more meaningfully. Getting to work with government agencies that are using advanced software for more effective policy/decision making is where I can make the most impact. 
 fun_fact: 'Anusha collects magnets from countries and cities she/friends/family have traveled to. She currently has over 50 magnets and an overcrowded fridge.'
 tags: ['east', '2024','Software_Engineering', 'State', 'active']
