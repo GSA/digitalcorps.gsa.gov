@@ -1,7 +1,7 @@
 ---
 id: keri-alford
 title: Keri Alford
-image: /assets/images/fellows/2024/keri-alford-headshot.webp
+image: /assets/images/fellows/2024/keri-alford-headshot-update.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-keri-alford.webp
 fellow_year: 2024
