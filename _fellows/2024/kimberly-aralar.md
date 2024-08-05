@@ -1,7 +1,7 @@
 ---
 id: kimberly-aralar
 title: Kimberly Aralar
-image: assets/images/fellows/2024/kimberley-aralar-headshot.webp
+image: /assets/images/fellows/2024/kimberley-aralar-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-kimberly-aralar.webp
 fellow_year: 2024
