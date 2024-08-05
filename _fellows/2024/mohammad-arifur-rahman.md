@@ -1,7 +1,7 @@
 ---
 id: mohammad-arifur-rahman
 title: Mohammad Arifur Rahman
-image: 
+image: assets/images/fellows/2024/mohammad-arifur-rahman-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-mohammad-arifur-rahman.webp
 fellow_year: 2024
