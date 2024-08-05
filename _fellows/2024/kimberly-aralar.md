@@ -7,11 +7,11 @@ social_image: /assets/images/social/fellows/social-kimberly-aralar.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["CISA"]
-hometown: San Francisco, CA
+hometown: San Francisco Bay Area, CA
 university: University of Washington
 region: west
-bio_short: Designer with a background in public health passionate about human-centered design that improves equitable access to information and resources
-why: Having worked with diverse communities through healthcare, research, and design, I view a career in civic tech as a great opportunity to apply a human-centered approach to design and research to make positive impacts on large scale projects that improve equitable access to information and resources.
+bio_short: Designer passionate about improving equitable access to information and resources through a human-centered lens
+why: Having worked with diverse communities, I view a career in civic tech as an opportunity to take a human-centered approach to designing projects that can improve equitable access to information and resources.
 fun_fact: "Kimberly loves playing the piano, guitar, ukulele, and singing to her dog Peanut."
 tags: ['west', '2024','Design', 'CISA', 'active']
 track: ['Design']
