@@ -8,7 +8,7 @@ fellow_year: 2024
 project: ["na"]
 agency: ["DHS"]
 hometown: San Diego, CA
-university: University of Central Florida
+university: University of San Diego
 region: west
 bio_short: Data scientist passionate about leveraging data to address real-world challenges
 why: I was inspired to join USDC by their mission to provide new graduates with valuable job opportunities. USDC's commitment to empowering emerging professionals aligns with my passion for fostering the next generation of data scientists.
