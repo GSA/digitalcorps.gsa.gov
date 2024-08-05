@@ -1,7 +1,7 @@
 ---
 id: annie-tor
 title: Annie Tor
-image: 
+image: assets/images/fellows/2024/annie-tor-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-annie-tor.webp
 fellow_year: 2024
