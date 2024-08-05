@@ -17,4 +17,8 @@ tags: ['east', '2024','Software_Engineering', 'CMS', 'active']
 track: ['Software Engineering']
 ---
 
-Sachin is a recent graduate from Hunter College, where he earned his Bachelor's degree in Computer Science. He developed a strong passion and aptitude for software engineering through his experiences working with various organizations, ranging from the entertainment industry to start ups. Sachin feels it is his duty to help others and has been a Teaching Assistant for multiple semesters at a coding program, where he mentored and guided students in the beginning stages of their coding journeys. He recently launched an app that attempts to solve a real-world problem that he and his peers commonly run into. In his free time, Sachin enjoys connecting with others, sharing knowledge, and weightlifting to stay active and healthy.
+Sachin is a recent graduate from Hunter College, where he earned his Bachelor’s degree in Computer Science. He developed a strong passion and aptitude for software engineering through his experiences working with various organizations, ranging from the entertainment industry to start ups. 
+
+Sachin feels it is his duty to help others and has been a Teaching Assistant for multiple semesters at a coding program, where he mentored and guided students in the beginning stages of their coding journeys. 
+
+He recently launched an app that attempts to solve a real-world problem that he and his peers commonly run into. In his free time, Sachin enjoys connecting with others, sharing knowledge, and weightlifting to stay active and healthy.
