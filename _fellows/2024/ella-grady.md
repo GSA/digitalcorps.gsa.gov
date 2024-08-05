@@ -1,7 +1,7 @@
 ---
 id: ella-grady
 title: Ella Grady
-image: assets/images/fellows/2024/ella-grady-headshot.webp
+image: /assets/images/fellows/2024/ella-grady-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-ella-grady.webp
 fellow_year: 2024
