@@ -1,7 +1,7 @@
 ---
 id: johan-ortega-rios
 title: Johan Ortega-Rios
-image: assets/images/fellows/2024/johan-ortega-headshot.webp
+image: /assets/images/fellows/2024/johan-ortega-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-johan-ortega-rios.webp
 fellow_year: 2024
