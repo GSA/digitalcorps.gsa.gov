@@ -12,13 +12,13 @@ university: Binghamton University
 region: east
 bio_short: Software enginneer committed to driving innovation within AI and giving back to the community
 why: My desire to work at USDC stems from the ability to give back to my country. Currently, software in combination with AI presents an unparalleled opportunity to drive innovation. I would cherish the opportunity to be a part of America's unrelenting push into making its frameworks faster and unburdened by archaic processes.
-fun_fact: "Tyler is always diving into the wikis of why, who, what, when. The evolution of societies and civilizations from naught to modern day is forever fascinating."
+fun_fact: "Tyler is currently pursuing fluency in Spanish and French"
 tags: ['east', '2024','Software_Engineering', 'USGS', 'active']
 track: ['Software Engineering']
 ---
 
-Tyler graduated from Binghamton University with a B.S. in Chemistry. While at Binghamton, he worked as a Business and Platform Analyst at a digital demand management firm that tracks and eliminates on-premises energy waste. During his tenure there, he conducted A/B testing on their web and mobile interfaces and analyzed a number of data and demand response trends. Additionally, he authored reports and articles on energy optimization and future trends, such as the intersection of blockchain technology and energy trading. He parlayed his software experience to drive impact on his Capstone Design Team for a hydroelectric system. His use of open-source software provided targeted analytics.
+Tyler graduated from Binghamton University with a B.S. in Chemistry and a minor in Engineering. While seeming initially unrelated, he found various intersectionalities between the two such as the focus on complex systems, the incentive for experimentation, as well as the focus on analytics. As a result his academic journey involved a wide depth of subjects including programming, industrial systems and sustainable energy. His intersectional interests culminated in a Capstone Design project for a hydroelectric system where his focus was on design and integrated electronics.
 
-After graduation and study abroad trips, he ended up pivoting into software through internships, programs, and fellowships. Following his undergraduate, he interned at an AI-focused company and created an optimized data pipeline for financial analytics for their law firm partner. At the same time, he operated as a lead on full stack efforts for the NYC Code and Coffee organization for their event management platform. 
+Outside of academia, Tyler interned as a Business and Platform Analyst at a digital demand management firm dedicated to eliminating on-prem energy waste. He was able to work on his writing, platform testing, and analytics. Following his senior year, he went on a study abroad trip to Nepal where he installed a solar system in a local village in Pokhara.
 
-Tyler grew up in Brooklyn, New York. In his spare time, he enjoys cooking,  listening to a variety of podcasts and think pieces, exploring interests in graphic design as well as language learning, and diving into various musical genres.
+Tyler grew up in Brooklyn, New York. In his spare time, he enjoys cooking, listening to a variety of podcasts, exploring interests in graphic design as well as language learning, and diving into various musical genres.
