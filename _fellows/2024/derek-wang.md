@@ -10,7 +10,7 @@ agency: ["DHS"]
 hometown: Los Angeles, CA
 university: University of California Los Angeles
 region: west
-bio_short: Designer with experience on UI/UX.
+bio_short: Designer who aims to make government services more user-friendly and accessible to all.
 why: Having the opportunity to work on high-impact projects at the scale of the federal level is a reward on its own—it’s not every day that someone is presented with these opportunities. By joining the U.S. Digital Corps, I have the potential to positively impact the lives of millions of Americans while growing my skills as a civic technologist!
 fun_fact: 'Derek enjoys participating in water sports like swimming and rowing. He was previously the captain of a dragon boat race team that placed first at a local competition.'
 tags: ['west', '2024','Design', 'DHS', 'active']
