@@ -10,7 +10,7 @@ agency: ["CISA"]
 hometown: Fairfax, VA
 university: George Mason University
 region: east
-bio_short: Data scientist with a background in statistics, econometrics, and data analysis as well as a high school math teacher 
+bio_short: Data scientist with a background in international STEM education 
 why: I was drawn to the idea of using the transformative power of data to help improve the efficiency and effectiveness of government. I love problem solving and analysis, and the USDC will give me the perfect opportunity to use my skills and background to help support important initiatives bringing a positive impact, while challenging me and allowing me to grow professionally.
 fun_fact: 'Gregg speaks three languages fluently: English, Spanish, and Guarani'
 tags: ['east', '2024','Data_Science_And_Analytics', 'CISA', 'active']
