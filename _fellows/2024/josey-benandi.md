@@ -10,8 +10,8 @@ agency: ["CISA"]
 hometown: Chicago, IL
 university: Georgia Tech
 region: midwest
-bio_short: Product manager with a passion for initiatives that improve the experiences people have in the digital world
-why: Supporting initiatives to improve the experiences people have in the digital world is my primary professional goal, and I was excited by the opportunity to do so as a civic technologist knowing my efforts can have a widespread positive impact on the American public.
+bio_short: Product manager with a passion for initiatives that improve user experiences in the digital world
+why: Supporting initiatives to improve user experiences in the digital world is my passion, and I was excited by the opportunity to do so as a civic technologist, knowing my efforts can have a widespread positive impact on the American public.
 fun_fact: 'Josey won a student design contest at the Art Institute of Chicago when she was a junior in high school.'
 tags: ['midwest', '2024','Product_Management', 'CISA', 'active']
 track: ['Product Management']
