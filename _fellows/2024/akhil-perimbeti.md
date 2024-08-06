@@ -1,9 +1,9 @@
 ---
 id: akhil-perimbeti
 title: Akhil Perimbeti
-image: 
+image: /assets/images/fellows/2024/akhil-perimbeti-headshot.webp
 social: fellow
-social_image: 
+social_image: /assets/images/social/fellows/social-akhil-perimbeti.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["USCIS"]
