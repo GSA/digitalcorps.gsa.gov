@@ -9,11 +9,11 @@ project: ["na"]
 agency: ["ACF"]
 hometown: New York, NY
 university: Columbia University
-region: north
+region: east
 bio_short: Product manager passionate about leveraging technology and data to bring tangible improvements to everyday life
 why: The prospect of working on initiatives that promote digital inclusion, improve public services, and address critical societal challenges is both exciting and inspiring. Joining the U.S. Digital Corps allows me to merge my passion for technology with my commitment to public service and contribute to high-impact projects that will affect the lives of millions of Americans.
 fun_fact: 'Sunny is a PADI certified diver and an avid skier.'
-tags: ['north', '2024','Product_Management', 'ACF', 'active']
+tags: ['east', '2024','Product_Management', 'ACF', 'active']
 track: ['Product_Management']
 ---
 
