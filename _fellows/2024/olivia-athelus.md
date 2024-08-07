@@ -9,11 +9,11 @@ project: ["na"]
 agency: ["HHS"]
 hometown: Port Saint Lucie, FL
 university: Old Dominion University
-region: south
+region: southeast
 bio_short: Cybersecurity specialist passionate about helping others and advocating for mental health
 why: I joined the United States Digital Corps (USDC) because I am deeply committed to leveraging my skills in cybersecurity to enhance public service and protect critical digital infrastructure.
 fun_fact: 'Olivia is a mental health advocate. She is currently working on spreading more awareness for mental health and PTSD in veterans, driven by her own experiences in the military and a strong desire to support her fellow veterans. She believes that by raising awareness and providing resources, we can make a significant difference in the lives of those affected by these issues.'
-tags: ['south', '2024','Cybersecurity', 'HHS', 'active']
+tags: ['southeast', '2024','Cybersecurity', 'HHS', 'active']
 track: ['Cybersecurity']
 ---
 
