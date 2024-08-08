@@ -26,10 +26,34 @@
   url: 
   description:
 
+- name: DHS
+  fullname: Department of Homeland Security
+  val: deptHS
+  url: https://www.dhs.gov
+  description: 
+
+- name: DOD
+  fullname: Department of Defense
+  val: deptOfDefense
+  url: https://www.defense.gov/
+  description:
+
+- name: EEOC
+  fullname: Equal Employment Opportunity Commission
+  val: eeoc
+  url: https://www.eeoc.gov/
+  description:
+
 - name: EPA
   fullname: Environmental Protection Agency
   val: envProtAgncy
   url: 
+  description:
+
+- name: FEMA
+  fullname: Federal Emergency Management Agency
+  val: fema
+  url: http://www.fema.gov
   description:
 
 - name: GSA
@@ -42,6 +66,16 @@
   fullname: Department of Health and Human Services
   val: deptHHS
   url: http://www.hhs.gov
+
+- name: IRS
+  fullname: Internal Revenue Service
+  val: internalRevenueSrvc
+  url: https://www.irs.gov/
+
+- name: NIST
+  fullname: National Institute of Standards and Technology
+  val: nationalInstituteST
+  url: https://www.nist.gov/
 
 - name: OPM
   fullname: Office of Personnel Management
@@ -90,6 +124,12 @@
   url: https://www.usda.gov/our-agency/about-usda
   description:
 
+- name: USFS
+  fullname: U.S. Forest Service
+  val: usForestSrvce
+  url: https://www.fs.usda.gov/
+  description:
+
 - name: CDC
   fullname: Centers for Disease Control and Prevention
   val: cntrDiseaseCntrl
@@ -119,4 +159,10 @@
   val: deptCommrce
   url: 
   description: 
+
+- name: USGS
+  fullname: U.S. Geological Survey
+  val: usGeoSrvy
+  url: https://www.usgs.gov/
+  description:
   
