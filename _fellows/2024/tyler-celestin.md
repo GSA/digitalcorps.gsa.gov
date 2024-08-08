@@ -17,8 +17,10 @@ tags: ['east', '2024','Software_Engineering', 'USGS', 'active']
 track: ['Software Engineering']
 ---
 
-Tyler graduated from Binghamton University with a B.S. in Chemistry and a minor in Engineering. While seeming initially unrelated, he found various intersectionalities between the two, such as the focus on complex systems and analytics as well as the incentive for experimentation. As a result, his academic journey involved a wide range of subjects including programming, industrial systems, and sustainable energy. His intersectional interests culminated in a Capstone Design project for a hydroelectric system where his focus was on design and integrated electronics.
+Tyler graduated from Binghamton University with a B.S. in Chemistry and a minor in Engineering. While initially interested in medicine, having the opportunity to participate in his university’s Smart Energy incubator served as a turning point for his undergraduate studies. He was able to listen to various guest speeches, tour labs, engage in discussions, and even give presentations around the field of engineering. As a result, his academic journey involved a wide range of subjects including programming, industrial systems, and sustainable energy. His interests culminated in a Capstone Design project for a hydroelectric system where his focus was on design and integrated electronics.
 
-Outside of academia, Tyler interned as a business and platform analyst at a digital demand management firm dedicated to eliminating on-premise energy waste, working on writing, platform testing, and analytics. Following his senior year, he went on a study abroad trip to Nepal where he installed a solar system in a local village in Pokhara.
+During his senior year, Tyler also interned as a business and platform analyst at a digital demand management firm dedicated to eliminating on-premise energy waste. While his primary responsibilities involved user experience and data analysis, he also authored reports on energy optimization and trading in the power market.
 
-Tyler grew up in Brooklyn, New York. In his spare time, he enjoys cooking, listening to a variety of podcasts, exploring interests in graphic design and language learning, and diving into various musical genres.
+Following his senior year, Tyler participated in a study abroad program in Nepal, where he helped install a solar system in a local village in Pokhara.
+
+Tyler grew up in Brooklyn, New York. In his spare time, he enjoys cooking, listening to a variety of podcasts, exploring graphic design, language learning, and diving into various musical genres.
