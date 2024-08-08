@@ -12,7 +12,7 @@ university: San Diego State University
 region: west
 bio_short: Data scientist passionate about leveraging technology for social outreach and enhancing technological literacy
 why: By becoming an advocate within USDC, I aim to influence others and contribute to meaningful advancements in civic technology. USDC gives me the unique opportunity to give back to my country, my community, and my peers while pursuing an opportunity to learn from policy and data experts.
-fun_fact: 'Akhil loves basketball and enjoys playing pick up games any chance he can get.'
+fun_fact: 'Akhil is a basketball enthusiast.'
 tags: ['west', '2024','Data_Science_And_Analytics', 'USCIS', 'active']
 track: ['Data Science and Analytics']
 ---
