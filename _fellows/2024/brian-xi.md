@@ -8,7 +8,7 @@ fellow_year: 2024
 project: ["na"]
 agency: ["CDC"]
 hometown: Scottsdale, AZ
-university: University of California Berkeley
+university: University of California, Berkeley
 region: west
 bio_short: Software engineer with a passion for using technical skills to inform policymaking
 why: Having previously worked with the federal government, I really valued the opportunity to serve the public interest. I’m excited to continue doing this under the U.S. Digital Corps with its emphasis on equity, technological transformation, and community learning. 
