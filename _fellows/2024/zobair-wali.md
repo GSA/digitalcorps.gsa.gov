@@ -10,7 +10,7 @@ agency: ["CDC"]
 hometown: Hampton Roads, VA
 university: Old Dominion University
 region: north
-bio_short: Cybersecurity specialist passionate about AI, proactive cyber defense, and cybersecurity leadership. 
+bio_short: Cybersecurity specialist passionate about AI, proactive cyber defense, and cybersecurity leadership 
 why: The U.S. has invested so much in me and gave me and my family a safe home. Joining the U.S. Digital Corps is an opportunity to give back and make a positive impact.
 fun_fact: "Zobair is a massive Cristiano Ronaldo and soccer fan and will passionately argue that Ronaldo is miles ahead of Messi any day of the week!"
 tags: ['north', '2024','Cybersecurity', 'CDC', 'active']
