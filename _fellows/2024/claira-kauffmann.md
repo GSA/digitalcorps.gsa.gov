@@ -8,7 +8,7 @@ fellow_year: 2024
 project: ["na"]
 agency: ["USFS"]
 hometown: Goshen, IN
-university: University of California Berkeley
+university: University of California, Berkeley
 region: midwest
 bio_short: Data scientist passionate about developing solutions that enhance public well-being
 why: "With my background in communication and storytelling, I understand the importance of making complex information accessible and engaging for diverse audiences. Joining the U.S. Digital Corps is a unique opportunity for me to use these skills to serve the public. I am eager to contribute to evidence-based solutions and advocate for the responsible use of artificial intelligence."
