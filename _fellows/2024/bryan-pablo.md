@@ -17,6 +17,6 @@ tags: ['east', '2024','Software_Engineering', 'GSA', 'active']
 track: ['Software Engineering']
 ---
 
-Bryan graduated with a B.S. in Computer Science from Western Governors University, where he studied subjects such as artificial intelligence, cyber security, data structures and algorithms, and technology ethics. During his undergraduate years, he gained experience as an intern at a user-held data company and, most recently, with a film photography company. Additionally, he would regularly attend hackathons on weekends, where he could connect with other students and develop software as a team for non-profit organizations.
+Bryan graduated with a B.S. in Computer Science from Western Governors University, where he studied subjects such as artificial intelligence, cyber security, data structures and algorithms, and technology ethics. During his undergraduate years, he gained experience as an intern at a user-held data company and, most recently, with a film photography company. Additionally, he regularly attended hackathons on weekends, where he connected with other students and developed software as a team for non-profit organizations.
 
 He enjoys many hobbies in his free time, including discovering new music and attending concerts hosted by his favorite artists. Bryan also enjoys spending time with family, friends, and his cat, Quesito. His belief in constantly learning and staying sharp has driven him to achieve certifications and learn new technologies on his off-time.
