@@ -8,7 +8,7 @@ fellow_year: 2024
 project: ["na"]
 agency: ["State"]
 hometown: Torrance, CA
-university: University of California Berkeley
+university: University of California, Berkeley
 region: west
 bio_short: Data scientist keenly interested in leveraging data science for positive impact
 why: Data science and analytics has so much potential to improve processes that can shape human lives. USDC seemed like a great opportunity to both practice data science and analytics and have a positive impact on society on a large scale.
