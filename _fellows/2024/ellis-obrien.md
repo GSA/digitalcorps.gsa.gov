@@ -11,7 +11,7 @@ hometown: Palo Alto, CA
 university: Georgetown University
 region: west
 bio_short: Data scientist passionate about the intersection of statistical analysis and social issues
-why: In a rapidly evolving technological environment, the government must have the human resources it needs to use machine learning and artificial intelligence for good. Joining the USDC allows me to dedicate my career to supporting data-driven policy that improves people's lives.
+why: In a rapidly evolving technological environment, the government must have the human resources it needs to use machine learning and artificial intelligence for good. Joining USDC allows me to dedicate my career to supporting data-driven policy that improves people's lives.
 fun_fact: 'Ellis danced ballet for over a decade. He will still break out the occasional pirouette on the dance floor.'
 tags: ['west', '2024','Data_Science_And_Analytics', 'State', 'active']
 track: ['Data Science and Analytics']
