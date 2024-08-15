@@ -11,7 +11,7 @@ hometown: Berwyn, IL
 university: University of Chicago
 region: midwest
 bio_short: Data scientist with a background in international sales and manufacturing
-why: As someone who is making a career transition and new to data science, the opportunities for mentorship and strong mutually supporting network of public service oriented colleagues at the USDC is exactly the kind of environment that fosters a growth mindset. I'm incredibly excited to join my USDC cohort to tackle important problems together.
+why: As someone who is making a career transition and is new to data science, the opportunities for mentorship and strong mutually supporting network of public service oriented colleagues at USDC is exactly the kind of environment that fosters a growth mindset. I'm incredibly excited to join my USDC cohort to tackle important problems together.
 fun_fact: 'Joseph got addicted to Finnish sauna during a year he spent living there, and one of his bucket list goals in life is to someday be invited to the sauna in the basement of the Finnish embassy in DC.'
 tags: ['midwest', '2024','Data_Science_And_Analytics', 'EEOC', 'active']
 track: ['Data Science and Analytics']
