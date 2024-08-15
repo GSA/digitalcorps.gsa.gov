@@ -17,6 +17,6 @@ tags: ['west', '2024','Product_Management', 'DOD', 'active']
 track: ['Product Management']
 ---
 
-Lisette recently graduated from the University of Chicago with a Master’s in Computational Analysis and Public Policy. Prior to graduate school, she worked as a product manager and data analyst at a US trade non-profit and the New Zealand Law Society.  
+Lisette recently graduated from the University of Chicago with a Master’s in Computational Analysis and Public Policy. Prior to graduate school, she worked as a product manager and data analyst at a U.S. trade non-profit and the New Zealand Law Society.  
 
-Outside of work, Lisette enjoys biking, swimming, travelling, and cooking projects. She is based in New York and loves exploring the city in her free time.
+Outside of work, Lisette enjoys biking, swimming, traveling, and cooking projects. She is based in New York and loves exploring the city in her free time.
