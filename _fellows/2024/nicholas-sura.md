@@ -11,7 +11,7 @@ hometown: Lansing, MI
 university: Davenport University
 region: midwest
 bio_short: Cybersecurity specialist committed to strengthening our nations cybersecurity landscape for the future
-why: I was inspired to join the USDC because it provided me with an amazing opportunity to significantly impact our nations cybersecurity landscape for the future.
+why: I was inspired to join USDC because it provided me with an amazing opportunity to significantly impact our nation's cybersecurity landscape for the future.
 fun_fact: "In high school, Nicholas was fluent in Latin and won an award from the National Latin Association."
 tags: ['midwest', '2024','Cybersecurity', 'CISA', 'active']
 track: ['Cybersecurity']
