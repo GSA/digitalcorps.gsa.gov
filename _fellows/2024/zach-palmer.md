@@ -11,7 +11,7 @@ hometown: Buffalo, NY
 university: University of Pittsburgh
 region: north
 bio_short: Data scientist interested in the ethical use of data and software to improve the equity of outcomes and prevent exploitation of vulnerable populations
-why: I believe strongly in the contract between the American people and our government; that the federal government has a duty to provide adequate services, support, and aid to all, especially our most vulnerable. With these beliefs in mind, I felt that the USDC was the perfect place for me to leverage my technical skills to help the federal government effectively serve its constituents, while also giving me the opportunity to mentor under incredibly talented and knowledgeable public servants. 
+why: I believe strongly in the contract between the American people and our government; that the federal government has a duty to provide adequate services, support, and aid to all, especially our most vulnerable. With these beliefs in mind, I felt that USDC was the perfect place for me to leverage my technical skills to help the federal government effectively serve its constituents, while also giving me the opportunity to mentor under incredibly talented and knowledgeable public servants. 
 fun_fact: "Zach has hiked/scrambled in the Flatirons, hiked to the top of Crater Lake, and backpacked along the Tuolumne River in Yosemite."
 tags: ['north', '2024','Data_Science_And_Analytics', 'DOC', 'active']
 track: ['Data Science and Analytics']
