@@ -11,8 +11,8 @@ hometown: San Diego, CA
 university: Carnegie Mellon University
 region: west
 bio_short: Data scientist passionate about using data science tools to improve public services and better understand societal issues
-why: The federal government seems like a truly unique place to make an impact. They’re tasked with responsibilities that no other organization has the authority to tackle, and when they fail to deliver, people often have no alternative. I joined the Digital Corps to learn from and collaborate with like-minded individuals who are also passionate about leveraging technology to better deliver on the government’s mission.
-fun_fact: 'Colton likes exploring new places and has lived in 8 different cities in the US and 2 internationally'
+why: The federal government seems like a truly unique place to make an impact. It's tasked with responsibilities that no other organization has the authority to tackle, and when it fails to deliver, people often have no alternative. I joined the Digital Corps to learn from and collaborate with like-minded individuals who are also passionate about leveraging technology to better deliver on the government’s mission.
+fun_fact: 'Colton likes exploring new places and has lived in eight different cities in the U.S. and two internationally.'
 tags: ['west', '2024','Data_Science_And_Analytics', 'NIST', 'active']
 track: ['Data Science and Analytics']
 ---

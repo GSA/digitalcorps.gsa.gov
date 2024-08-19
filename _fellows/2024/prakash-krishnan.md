@@ -8,11 +8,11 @@ fellow_year: 2024
 project: ["na"]
 agency: ["DHS"]
 hometown: San Jose, CA
-university: University of California Berkeley
+university: University of California, Berkeley
 region: west
 bio_short: Data scientist dedicated to transforming innovative ideas into actionable strategies that enhance customer value
 why: The federal government has a crucial role in tackling challenges like climate change, providing affordable healthcare, addressing social inequities, and safeguarding the nation. Serving in the U.S. government represents the highest form of service and honor. The U.S. Digital Corps offers a unique opportunity to leverage cutting-edge technologies, including AI, to advance the welfare and security of our country.
-fun_fact: "Prakash is an avid sports fan in a variety of sports - Ohio State Football, World Cup Soccer, Cricket and 49er Football"
+fun_fact: "Prakash is an avid sports fan in a variety of sports - Ohio State Football, World Cup Soccer, Cricket and 49er Football."
 tags: ['west', '2024','Data_Science_And_Analytics', 'DHS', 'active']
 track: ['Data Science and Analytics']
 ---

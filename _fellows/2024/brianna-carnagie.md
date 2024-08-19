@@ -11,7 +11,7 @@ hometown: Queens, NY
 university: Columbia University
 region: east
 bio_short: Data scientist with specialized experience in epidemiology and public health analytics
-why: I was inspired by a desire to leverage my public health expertise on a broader scale to address health disparities and improve health outcomes. Working with a federal government agency like the Center for Medicaid and Medicare Services will allow me to apply my skills in data science and analytics directly towards achieving positive health outcomes through civic tech initiatives. 
+why: I was inspired by a desire to leverage my public health expertise on a broader scale to address health disparities and improve health outcomes. Working with a federal government agency like the Centers for Medicare and Medicaid Services will allow me to apply my skills in data science and analytics directly towards achieving positive health outcomes through civic tech initiatives. 
 fun_fact: 'Brianna enjoys the art of fermenting foods, experimenting with everything from kimchi to kombucha.'
 tags: ['east', '2024','Data_Science_And_Analytics', 'CMS', 'active']
 track: ['Data Science and Analytics']

@@ -11,7 +11,7 @@ hometown: Westborough, MA
 university: Boston University
 region: northeast
 bio_short: Data scientist passionate about using math to understand biological and human health systems
-why: After doing research in the basic sciences, I was looking for ways to apply the computational modeling skills I learned in graduate school to projects with more a direct application and in a way that serves the public interest. The opportunity with the Digital Corps met those criteria while also providing a vibrant community of other fellows to engage with and learn alongside. 
+why: After doing research in the basic sciences, I was looking for ways to apply the computational modeling skills I learned in graduate school to projects with more a direct application and in a way that serves the public interest. The opportunity with the Digital Corps met those criteria while also providing a vibrant community of other Fellows to engage with and learn alongside. 
 fun_fact: 'Mark loves hosting parties themed on obscure holidays. Past favorites include Area Code Day (November 10th) and Yell “Fudge” at the Cobras in North America Day (June 2nd).'
 tags: ['northeast', '2024','Data_Science_And_Analytics', 'NIH', 'active']
 track: ['Data Science and Analytics']

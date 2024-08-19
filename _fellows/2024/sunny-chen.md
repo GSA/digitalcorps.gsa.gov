@@ -14,7 +14,7 @@ bio_short: Product manager passionate about leveraging technology and data to br
 why: The prospect of working on initiatives that promote digital inclusion, improve public services, and address critical societal challenges is both exciting and inspiring. Joining the U.S. Digital Corps allows me to merge my passion for technology with my commitment to public service and contribute to high-impact projects that will affect the lives of millions of Americans.
 fun_fact: 'Sunny is a PADI certified diver and an avid skier.'
 tags: ['east', '2024','Product_Management', 'ACF', 'active']
-track: ['Product_Management']
+track: ['Product Management']
 ---
 
 Sunny received her MBA from Columbia Business School and holds a Bachelor's degree in Environmental Economics and Policy from the University of California, Berkeley. 

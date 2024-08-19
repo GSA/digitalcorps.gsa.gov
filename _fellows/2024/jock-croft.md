@@ -17,7 +17,7 @@ tags: ['south', '2024','Cybersecurity', 'CISA', 'active']
 track: ['Cybersecurity']
 ---
 
-Jock holds a Master’s degree in Cybersecurity and Information Assurance from Western Governors University. His interest in information and technology management were sparked by the rise of cyberthreats. Throughout his academic journey, he earned numerous IT security certifications, enhancing his expertise in the field. Jock previously served as a cybersecurity analyst for a global security operations center and as a security risk analyst for a top ranked university, gaining valuable insights into the dynamics of cybersecurity.
+Jock holds a Master’s degree in Cybersecurity and Information Assurance from Western Governors University. His interest in information and technology management was sparked by the rise of cyberthreats. Throughout his academic journey, he earned numerous IT security certifications, enhancing his expertise in the field. Jock previously served as a cybersecurity analyst for a global security operations center and as a security risk analyst for a top ranked university, gaining valuable insights into the dynamics of cybersecurity.
 
 Before transitioning to cybersecurity, Jock dedicated 15 years to serving as a medical professional. This experience cultivated his appreciation for teamwork and community service. Jock’s background in healthcare significantly influenced his approach to cybersecurity, emphasizing collaboration and protection.
 

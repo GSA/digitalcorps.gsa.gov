@@ -8,7 +8,7 @@ fellow_year: 2024
 project: ["na"]
 agency: ["IRS"]
 hometown: Chicago, IL
-university: University of Illinois
+university: University of Illinois Urbana-Champaign
 region: midwest
 bio_short: Software engineer passionate about helping communities in a way that has a tangible impact
 why: USDC presented an excellent opportunity to apply my skills and experience to the benefit of our communities in a way that has a tangible impact.

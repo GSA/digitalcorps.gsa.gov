@@ -11,8 +11,8 @@ hometown: Louisville, KY
 university: Georgetown University
 region: midwest
 bio_short: Data scientist passionate about the intersection of technology and government
-why: The USDC is the perfect opportunity to combine my dedication to public service with my data science skills. The USDC also provides a supportive space to help me grow personally and professionally as a data scientist. 
-fun_fact: "Maggie has worked in three countries and visited over 40 states. In her spare time, she enjoys playing volleyball and being an auntie"
+why: USDC is the perfect opportunity to combine my dedication to public service with my data science skills. USDC also provides a supportive space to help me grow personally and professionally as a data scientist. 
+fun_fact: "Maggie has worked in three countries and visited over 40 states. In her spare time, she enjoys playing volleyball and being an auntie."
 tags: ['midwest', '2024','Data_Science_And_Analytics', 'USCIS', 'active']
 track: ['Data Science and Analytics']
 ---

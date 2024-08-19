@@ -12,7 +12,7 @@ university: Binghamton University
 region: east
 bio_short: Software enginneer committed to driving innovation within AI and giving back to the community
 why: My desire to work at USDC stems from the ability to give back to my country. Currently, software in combination with AI presents an unparalleled opportunity to drive innovation. I would cherish the opportunity to be a part of America's unrelenting push into making its frameworks faster and unburdened by archaic processes.
-fun_fact: "Tyler is currently pursuing fluency in Spanish and French"
+fun_fact: "Tyler is currently pursuing fluency in Spanish and French."
 tags: ['east', '2024','Software_Engineering', 'USGS', 'active']
 track: ['Software Engineering']
 ---

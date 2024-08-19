@@ -12,7 +12,7 @@ university: Boston University
 region: northeast
 bio_short: Product manager passionate about fostering DEIA in tech
 why: I'm deeply motivated by the potential to create lasting, positive change in our society. The USDC program presented an unparalleled opportunity to combine my passion for product development and technology with a mission-driven initiative.
-fun_fact: "Something people will quickly learn about Zia is that she has an unwavering belief that everything is figure-out-able, changeable, or hackable (pun not intended). Even more quickly now that we have tools like search engines and ai at our finger tips."
+fun_fact: "Something people will quickly learn about Zïa is that she has an unwavering belief that everything is figure-out-able, changeable, or hackable (pun not intended). Even more quickly now that we have tools like search engines and AI at our fingertips."
 tags: ['northeast', '2024','Product_Management', 'CISA', 'active']
 track: ['Product Management']
 ---

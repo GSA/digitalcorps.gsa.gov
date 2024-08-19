@@ -11,7 +11,7 @@ hometown: Brooklyn, NY
 university: The City University of New York
 region: east
 bio_short: Product manager with a passion for leveraging technology to solve real-world problems and make a significant impact on a national scale
-why: I was inspired to join USDC because it aligns with my passion for leveraging technology to solve real-world problems and my desire to make a significant impact on a national scale. My background as a communications professional and program manager has shown me the transformative power of digital solutions in public services, and I am eager to deepen my expertise in this area through the U.S. Digital Corps fellowship 
+why: I was inspired to join USDC because it aligns with my passion for leveraging technology to solve real-world problems and my desire to make a significant impact on a national scale. My background as a communications professional and program manager has shown me the transformative power of digital solutions in public services, and I am eager to deepen my expertise in this area through the U.S. Digital Corps fellowship. 
 fun_fact: 'Branda went on her first solo trip to Ghana for a month.'
 tags: ['east', '2024','Product_Management', 'DOD', 'active']
 track: ['Product Management']

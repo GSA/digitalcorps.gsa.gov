@@ -11,7 +11,7 @@ hometown: Queens, NY
 university: George Washington University
 region: east
 bio_short: Product manager committed to improving the health and wellness of others
-why: I am inspired to join the U.S. Digital Corps Fellows program because it is a great opportunity to contribute to meaningful and impactful national projects. I am excited about using my public health education, healthcare experience, and product management skills. I also value the mentorship and community provided to fellows and look forward to collaborating with this cohort while leveraging technology to better serve others.
+why: I am inspired to join the U.S. Digital Corps because it is a great opportunity to contribute to meaningful and impactful national projects. I am excited about using my public health education, healthcare experience, and product management skills. I also value the mentorship and community provided to Fellows and look forward to collaborating with this cohort while leveraging technology to better serve others.
 fun_fact: 'Keri loves to travel and cook! She has visited more than 30 international destinations (and counting), which inspire her kitchen experiments with different cuisines.'
 tags: ['east', '2024','Product_Management', 'HHS', 'active']
 track: ['Product Management']

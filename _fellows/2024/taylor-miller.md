@@ -21,4 +21,4 @@ Taylor is a dedicated cybersecurity specialist with a strong background in both 
 
 After graduation, Taylor attained the CompTIA Security+ certification, further solidifying her expertise in the field. She is passionate about enhancing security measures and developing innovative solutions to protect information technology infrastructures.
 
-In addition to her professional pursuits, Taylor enjoys working out, hiking, reading, and traveling, always seeking new adventures and opportunities for personal growth.
+In addition to her professional pursuits, Taylor enjoys working out, hiking, reading, and traveling, and is always seeking new adventures and opportunities for personal growth.

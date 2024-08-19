@@ -11,7 +11,7 @@ hometown: South Lake Tahoe, CA
 university: Johns Hopkins University
 region: west
 bio_short: Data scientist committed to ensuring that emerging technologies are implemented ethically and in a manner that benefits society as a whole
-why: As my career transitions into data science and artificial intelligence, I am committed to ensuring that these emerging technologies are implemented ethically and in a manner that benefits society as a whole. I am particularly drawn to the USDC because of their dedication to developing innovative technological solutions that are equitable, trustworthy, and impactful for the American people. I cannot think of a more exciting program to learn from and contribute to.
+why: As my career transitions into data science and artificial intelligence, I am committed to ensuring that these emerging technologies are implemented ethically and in a manner that benefits society as a whole. I am particularly drawn to USDC because of its dedication to developing innovative technological solutions that are equitable, trustworthy, and impactful for the American people. I cannot think of a more exciting program to learn from and contribute to.
 fun_fact: "Kyle is an avid birder and has traveled all around the world just for the chance to see exciting birds in their natural habitat. He also loves the game Wingspan and will play any chance he gets."
 tags: ['west', '2024','Data_Science_And_Analytics', 'USDA', 'active']
 track: ['Data Science and Analytics']
