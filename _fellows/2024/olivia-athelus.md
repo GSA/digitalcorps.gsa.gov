@@ -17,7 +17,7 @@ tags: ['southeast', '2024','Cybersecurity', 'HHS', 'active']
 track: ['Cybersecurity']
 ---
 
-Olivia is currently pursuing her Master’s degree in Cybersecurity with a focus on Cybercrime and Conflict at Old Dominion University. 
+Olivia completed her Master’s degree in Cybersecurity with a focus on Cybercrime and Conflict at Old Dominion University. 
 
 After a distinguished career in the United States Navy, she is transitioning to the civilian workforce with a strong dedication to expanding her knowledge in cybersecurity. Passionate about helping others and advocating for mental health, Olivia is also committed to cloud computing and policymaking. 
 
