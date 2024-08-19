@@ -10,8 +10,8 @@ agency: ["DOD"]
 hometown: Fort Lauderdale, FL 
 university: University of Maine at Presque Isle
 region: south
-bio_short: Project manager dedicated to making a positive impact through technology
-why: Reading about a USDC fellow's journey on LinkedIn ignited a desire for similar growth and impact. I'm thrilled to be part of the program now.
+bio_short: Product manager dedicated to making a positive impact through technology
+why: Reading about a USDC Fellow's journey on LinkedIn ignited a desire for similar growth and impact. I'm thrilled to be part of the program now.
 fun_fact: 'Elise is an inventor. She even has a patented invention under her belt.'
 tags: ['south', '2024','Product_ Management', 'DOD', 'active']
 track: ['Product Management']
