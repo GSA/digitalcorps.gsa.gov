@@ -1,0 +1,68 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+!! Copy this file to your project's
+   sass root. Don't edit the version
+   in node_modules.
+----------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+
+@use "uswds-core" as *;
+
+@forward "uswds/settings";
+@forward "uswds";
+
+@forward "uswds/button";
+@forward "uswds/menu";
+@forward "uswds/hero";
+@forward "uswds/banner";
+@forward "uswds/footer";
+@forward "uswds/form";
+@forward "uswds/identifier";
+@forward "uswds/logo";
+@forward "uswds/process-list";
+@forward "uswds/sidenav";
+
+// Search.gov
+@forward "search.gov/form";
+
+// Base Overrides and Styles
+@forward "base/layout";
+@forward "base/overlays";
+@forward "base/typography";
+
+// Component Styles
+@forward "component/boxes";
+@forward "component/benefits";
+@forward "component/highlight";
+@forward "component/lists";
+@forward "component/media";
+@forward "component/quotes";
+@forward "component/track-bubbles";
+@forward "component/filters";
+
+// Page Styles
+@forward "pages/about";
+@forward "pages/apply";
+@forward "pages/faq";
+@forward "pages/process";
+@forward "pages/home";
+@forward "pages/opportunity";
+@forward "pages/tracks";
+@forward "pages/projects";
+@forward "pages/project";
+@forward "pages/fellows";
+@forward "pages/blog";
