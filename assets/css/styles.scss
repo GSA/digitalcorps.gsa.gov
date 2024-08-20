@@ -13,12 +13,12 @@
 
 // -------------------------------------
 // Import individual theme settings
-@import "theme/uswds-theme-general";
-@import "theme/uswds-theme-typography";
-@import "theme/uswds-theme-spacing";
-@import "theme/uswds-theme-color";
-@import "theme/uswds-theme-utilities";
-@import "theme/uswds-theme-components";
+@forward "theme/uswds-theme-general";
+@forward "theme/uswds-theme-typography";
+@forward "theme/uswds-theme-spacing";
+@forward "theme/uswds-theme-color";
+@forward "theme/uswds-theme-utilities";
+@forward "theme/uswds-theme-components";
 
 // Set correct paths for use with asset pipeline
 $theme-font-path: "../uswds/fonts";
@@ -26,11 +26,11 @@ $theme-image-path: "../uswds/img";
 
 // -------------------------------------
 // Import individual USWDS packages...
-@import "scss/packages/required";
-@import "scss/packages/global";
+@forward "scss/packages/required";
+@forward "scss/packages/global";
 
-@import "scss/packages/uswds-components";
-@import "scss/packages/uswds-utilities";
+@forward "scss/packages/uswds-components";
+@forward "scss/packages/uswds-utilities";
 
 /*
 ----------------------------------------
@@ -51,48 +51,48 @@ i.e.
 //set baseurl for image paths in imported scss files
 $baseurl:"{{ site.baseurl }}";
 
-@import "uswds/settings";
-@import "uswds";
+@forward "uswds/settings";
+@forward "uswds";
 
-@import "uswds/button";
-@import "uswds/menu";
-@import "uswds/hero";
-@import "uswds/banner";
-@import "uswds/footer";
-@import "uswds/form";
-@import "uswds/identifier";
-@import "uswds/logo";
-@import "uswds/process-list";
-@import "uswds/sidenav";
+@forward "uswds/button";
+@forward "uswds/menu";
+@forward "uswds/hero";
+@forward "uswds/banner";
+@forward "uswds/footer";
+@forward "uswds/form";
+@forward "uswds/identifier";
+@forward "uswds/logo";
+@forward "uswds/process-list";
+@forward "uswds/sidenav";
 
 // Search.gov
-@import "search.gov/form";
+@forward "search.gov/form";
 
 // Base Overrides and Styles
-@import "base/layout";
-@import "base/overlays";
-@import "base/typography";
+@forward "base/layout";
+@forward "base/overlays";
+@forward "base/typography";
 
 // Component Styles
-@import "component/boxes";
-@import "component/benefits";
-@import "component/highlight";
-@import "component/lists";
-@import "component/media";
-@import "component/quotes";
-@import "component/track-bubbles";
-@import "component/filters";
+@forward "component/boxes";
+@forward "component/benefits";
+@forward "component/highlight";
+@forward "component/lists";
+@forward "component/media";
+@forward "component/quotes";
+@forward "component/track-bubbles";
+@forward "component/filters";
 
 // Page Styles
-@import "pages/about";
-@import "pages/apply";
-@import "pages/faq";
-@import "pages/process";
-@import "pages/home";
-@import "pages/opportunity";
-@import "pages/tracks";
-@import "pages/projects";
-@import "pages/project";
-@import "pages/fellows";
-@import "pages/blog";
+@forward "pages/about";
+@forward "pages/apply";
+@forward "pages/faq";
+@forward "pages/process";
+@forward "pages/home";
+@forward "pages/opportunity";
+@forward "pages/tracks";
+@forward "pages/projects";
+@forward "pages/project";
+@forward "pages/fellows";
+@forward "pages/blog";
 
