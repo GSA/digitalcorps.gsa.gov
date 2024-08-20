@@ -22,8 +22,7 @@
   },
   "dependencies": {
     "@uswds/uswds": "3.8.2",
-    "simple-jekyll-search": "^1.10.0",
-    "uswds": "~2.14.0"
+    "simple-jekyll-search": "^1.10.0"
   },
   "devDependencies": {
     "@uswds/compile": "^1.1.0",

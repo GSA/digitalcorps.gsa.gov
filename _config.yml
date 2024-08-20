@@ -223,10 +223,10 @@ sass:
     - assets/images/opportunity
     - assets/images/projects
     - assets/images/apply
-    - node_modules/uswds/dist/
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
+    - node_modules/@uswds/uswds/dist/
+    - node_modules/@uswds/uswds/dist/img
+    - node_modules/@uswds/uswds/dist/js
+    - node_modules/@uswds/uswds/dist/scss
   sourcemap: development
   quiet_deps: true
   style: compressed
