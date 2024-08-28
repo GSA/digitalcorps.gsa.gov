@@ -6,14 +6,14 @@ social: fellow
 social_image: /assets/images/social/fellows/social-yuqing-zhou.webp
 fellow_year: 2023
 project: ["na"]
-agency: ["DOS"]
+agency: ["State"]
 hometown: Highland Park, NJ 
 university: Rutgers University
 region: south
 bio_short: Product manager passionate about promoting equity through tech
 why: "USDC presents an unique opportunity that enables me to be an advocate for the public and allows me to lead impactful projects for the present and the future."
 fun_fact: 'Yuqing loves Kirby, foggy weather, and picnics.'
-tags: ['south', '2023','Product_Management', 'DOS', 'active']
+tags: ['south', '2023','Product_Management', 'State', 'active']
 track: ['Product Management']
 ---
 

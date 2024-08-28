@@ -13,7 +13,7 @@ region: south
 bio_short: Designer and writer adept at humanizing user experiences through meaningful content design
 why: My dear friend, Soror, and fellow Claflin University alumna, Kai Cobb, shared the program online during HBCU Week 2023. After reading more about the fellowship and talking to her about her experience, I felt confident that the USDC was the right next step for my career.
 fun_fact: "Thalia's favorite social outing is a trivia night."
-tags: ['south', '2024','Design', 'DOC', 'active']
+tags: ['south', '2024','Design', 'IRS', 'active']
 track: ['Design']
 ---
 

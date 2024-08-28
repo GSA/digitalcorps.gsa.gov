@@ -6,14 +6,14 @@ social: fellow
 social_image: /assets/images/social/fellows/social-joe-lindsey.webp
 fellow_year: 2022
 project: ["state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state"]
-agency: 
+agency: ["State"]
 hometown: Suffolk, Virginia
 university: Excelsior College Albany
 region: east
 bio_short: Cybersecurity specialist ready to contribute to the protecting the government and its people
 why: "I joined the U.S. Digital Corps because I liked the opportunity to immediately contribute to the the government and the people, while still being able to learn and receive feedback, guidance, and training." 
 fun_fact: Joe loves to make people laugh and enjoys making people happy or smile as a result. 
-tags: ['east', '2022','Cybersecurity', 'DOS', 'active']
+tags: ['east', '2022','Cybersecurity', 'State', 'active']
 track: ['Cybersecurity']
 ---
 
