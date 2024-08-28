@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2023 Department of Veterans Affairs Product Management Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 2023,VA,Product_Management
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

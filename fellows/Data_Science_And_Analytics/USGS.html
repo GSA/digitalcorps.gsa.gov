@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: U.S. Geological Survey Data Science and Analytics Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: USGS,Data_Science_And_Analytics
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

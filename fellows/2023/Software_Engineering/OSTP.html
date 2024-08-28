@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2023 White House Office of Science and Technology Policy Software Engineering Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 2023,OSTP,Software_Engineering
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

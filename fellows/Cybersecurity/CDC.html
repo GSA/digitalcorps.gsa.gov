@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Centers for Disease Control and Prevention Cybersecurity Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: CDC,Cybersecurity
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
