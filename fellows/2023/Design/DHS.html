@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2023 Department of Homeland Security Design Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 2023,DHS,Design
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
