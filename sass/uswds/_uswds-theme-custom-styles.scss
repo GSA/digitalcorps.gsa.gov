@@ -1,6 +1,3 @@
----
----
-// https://jekyllrb.com/docs/assets/
 /*
 * * * * * ==============================
 * * * * * ==============================
@@ -9,30 +6,6 @@
 ========================================
 ========================================
 ========================================
-*/
-
-// -------------------------------------
-// Import individual theme settings
-@forward "theme/uswds-theme-general";
-@forward "theme/uswds-theme-typography";
-@forward "theme/uswds-theme-spacing";
-@forward "theme/uswds-theme-color";
-@forward "theme/uswds-theme-utilities";
-@forward "theme/uswds-theme-components";
-
-// Set correct paths for use with asset pipeline
-$theme-font-path: "../uswds/fonts";
-$theme-image-path: "../uswds/img";
-
-// -------------------------------------
-// Import individual USWDS packages...
-@forward "scss/packages/required";
-@forward "scss/packages/global";
-
-@forward "scss/packages/uswds-components";
-@forward "scss/packages/uswds-utilities";
-
-/*
 ----------------------------------------
 USWDS THEME CUSTOM STYLES
 ----------------------------------------
@@ -46,10 +19,8 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
-// US Web Design System (base)
 
-//set baseurl for image paths in imported scss files
-$baseurl:"{{ site.baseurl }}";
+@use "uswds-core" as *;
 
 @forward "uswds/settings";
 @forward "uswds";
@@ -95,4 +66,3 @@ $baseurl:"{{ site.baseurl }}";
 @forward "pages/project";
 @forward "pages/fellows";
 @forward "pages/blog";
-
