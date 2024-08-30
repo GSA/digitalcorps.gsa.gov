@@ -11,14 +11,14 @@ type: Blog
 social: blog
 ---
 
-Three years ago on August 30, 2021, U.S. Digital Corps officially launched as a two-year paid fellowship program aiming to provide a pathway for early-career technologists to apply their skills and expertise in the federal workplace.
+Three years ago, on August 30, 2021, GSA officially launched the U.S. Digital Corps as a two-year, paid fellowship program to provide a pathway for early-career technologists to apply their skills and expertise across the federal government.
 
-Since its launch, USDC has seen:
-- 150 early-career technologists joining the program
-- Three cohorts supporting national projects at 25 agencies
-- 95% of Fellows in our first cohort continuing their careers in government after two years
+Since our launch, USDC has:
+- Hired more than 150 early-career technologists accross three cohorts;
+- Supported high-impact projects at 25 agencies;
+- Had 95% of graduating Fellows in our first cohort continue their careers in government post-USDC.
 
-## [Jillian Gilburne]({{site.baseurl}}/fellows/jillian-gilburne/)– **2022 Cohort**
+## [Jillian Gilburne]({{site.baseurl}}/fellows/jillian-gilburne/) – 2022 Cohort
 *Supported the Administration for Children and Families as a Design Fellow   
 Currently a Design Researcher at the Office of Refugee Resettlement Unaccompanied Children Bureau, Administration of Children and Families.*
 
