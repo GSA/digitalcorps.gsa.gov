@@ -1,6 +1,6 @@
 ---
 id: third-year-anniversary
-title: 'On USDC's third anniversary, Fellows from all three cohorts reflect on their experiences'
+title: "On USDC's third anniversary, Fellows from all three cohorts reflect on their experiences"
 image: /assets/images/blogs/headers/usdc-third-anniversary.webp
 author: 
 published_at: "2024-08-30"
