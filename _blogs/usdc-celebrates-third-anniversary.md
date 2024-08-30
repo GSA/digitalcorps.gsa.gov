@@ -18,6 +18,8 @@ Since our launch, USDC has:
 - Supported high-impact projects at 25 agencies;
 - Seen a conversion rate of 95% of Fellows in our first cohort choosing to continue their careers in government post-USDC.
 
+To mark USDC's third anniversary, we asked Fellows from all three USDC cohorts to reflect on their experiences in the program and offer advice to others who may be interested in exploring the intersection of technology and public service.
+
 ## [Jillian Gilburne]({{site.baseurl}}/fellows/jillian-gilburne/) – 2022 Fellow
 *Design Researcher, Unaccompanied Children Bureau, Office of Refugee Resettlement, Administration of Children and Families*
 
