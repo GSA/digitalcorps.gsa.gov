@@ -16,7 +16,7 @@ Three years ago, on August 30, 2021, GSA officially launched the U.S. Digital Co
 Since our launch, USDC has:
 - Hired more than 150 early-career technologists accross three cohorts;
 - Supported high-impact projects at 25 agencies;
-- Had 95% of graduating Fellows in our first cohort continue their careers in government post-USDC.
+- Seen a conversion rate of 95% of Fellows in our first cohort choosing to continue their careers in government post-USDC.
 
 ## [Jillian Gilburne]({{site.baseurl}}/fellows/jillian-gilburne/) – 2022 Fellow
 *Design Researcher, Unaccompanied Children Bureau, Office of Refugee Resettlement, Administration of Children and Families*
@@ -68,4 +68,4 @@ From what I have experienced so far, working in civic tech is a fantastic opport
 
 --
 
-The 2024 USDC cohort kicked off earlier this month, with 70 new Fellows supporting projects at 19 federal agencies! Stay tuned to learn more about our current cohort of Fellows and their work over the next two years, and please visit [digitalcorps.gsa.gov](http://digitalcorps.gsa.gov) for more information about upcoming applications.
+The 2024 USDC cohort kicked off earlier this month with 70 new Fellows supporting projects at 18 federal agencies! Stay tuned to learn more about our current cohort of Fellows and their work over the next two years, and visit [digitalcorps.gsa.gov](http://digitalcorps.gsa.gov) for more information about upcoming applications.
