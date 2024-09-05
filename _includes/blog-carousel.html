@@ -1,0 +1,99 @@
+<section class="usa-section padding-top-0">
+    <div class="carousel-container snap-inline">
+        <div class="carousel-inner">
+            <div class="track">
+                {% assign sorted = site.blogs | sort: 'published_at' | reverse %}
+                {% for blog in sorted %}
+                <div class="card-container">
+                    <div class="blog-carousel-card">
+                      <a href="{{ site.baseurl }}{{ blog.url }}" target="_blank" rel="noopener noreferrer" aria-labelledby="{{ aria_id }}">
+                        <div class="usa-prose blog-carousel-img">
+                            {% if blog.image %}
+                            <img src="{{ site.baseurl }}{{ blog.image }}" alt="{{ blog.title }}" />
+                            {% else %}
+                            <img src="{{ site.baseurl }}/assets/images/blogs/Default_Press_Image.webp"
+                                alt="{{ blog.title }}" />
+                            {% endif %}
+                        </div>
+                        <div class="blog-carousel-card--tag tag">
+                            {% assign blog_types = site.data.blog-type | where_exp:'type', "blog.tags contains type.url_name" %}
+                            {% for type in blog_types%}
+                            {% if forloop.first %}
+                            <ul>
+                                {% endif %}
+                                <li><span class="{{ type.url_name }} usa-tag">{{ type.display_name }}</span>
+                                </li>
+                                </li>
+                                {% if forloop.last %}
+                            </ul>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="usa-card__body">
+                            <p class="blog-summary">
+                                {{blog.summary}}
+                            </p>
+                            <p>
+                                {%if blog.author %}
+                                <span>By {{blog.author}}</span><br>
+                                {% endif %}
+                                <span>{{blog.published_at | date: '%B %e, %Y'}}</span>
+                            </p>
+                        </div>
+                      </a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="blog-nav">
+            <div class="prev"></div>
+            <div class="next"></div>
+        </div>
+    </div>
+</section>
+
+<script> 
+  const nav = document.querySelector('.blog-nav');
+    let index = 0;
+    let viewportWidth = window.innerWidth;
+    let blogs = '{{sorted.size}}'
+    if (viewportWidth > 1024 && (blogs < 4)) {
+        nav.classList.add('hide');
+    } else {
+        nav.classList.add('show');
+    }
+    const prev = document.querySelector('.prev');
+    const next = document.querySelector('.next');
+
+    const track = document.querySelector('.track');
+
+    let carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+
+    window.addEventListener('resize', () => {
+        carouselWidth = document.querySelector('.carousel-container').offsetWidth;
+    })
+
+
+
+    next.addEventListener('click', () => {
+        index++;
+        prev.classList.add('show');
+        track.style.transform = `translateX(-${index * carouselWidth}px)`;
+
+        if (track.offsetWidth - (index * carouselWidth) < carouselWidth) {
+            next.classList.add('hide');
+        }
+    })
+
+    prev.addEventListener('click', () => {
+        index--;
+        next.classList.remove('hide');
+        if (index === 0) {
+            prev.classList.remove('show');
+        }
+        track.style.transform = `translateX(-${index * carouselWidth}px)`;
+    })
+
+  </script>
