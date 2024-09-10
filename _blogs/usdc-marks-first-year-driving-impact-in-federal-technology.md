@@ -10,7 +10,7 @@ tags: ['GSA']
 type: Blog
 social: blog
 ---
-*This post was originally published as a press relase on [GSA.gov](https://www.gsa.gov/about-us/newsroom/news-releases/us-digital-corps-marks-first-year-driving-impact-in-federal-technology-09072022).*
+*This post was originally published as a press release on [GSA.gov](https://www.gsa.gov/about-us/newsroom/news-releases/us-digital-corps-marks-first-year-driving-impact-in-federal-technology-09072022).*
 
 WASHINGTON— In recent weeks, the U.S. General Services Administration (GSA) marked the first anniversary of the launch of the U.S. Digital Corps (USDC), a program that hires early-career technologists into federal service to create a more effective, equitable government.
 
