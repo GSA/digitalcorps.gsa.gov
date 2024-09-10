@@ -12,7 +12,7 @@ social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2022/09/09/serving-the-public-five-veterans-journeys-to-public-interest-tech/).*
 
-There are many paths to a career in government technology, including transitioning from within public service. Five U.S. Digital Corps Fellows share their public service journey from military to [public interest tech](https://en.wikipedia.org/wiki/Public_Interest_Technology_University_Network#Public_Interest_Technology) as technologists in the federal government.
+There are many paths to a career in government technology, including transitioning from within public service. Five U.S. Digital Corps Fellows share their public service journey from military to [public interest tech](https://en.wikipedia.org/wiki/Public_Interest_Technology_University_Network#Public_Interest_Technology){:data-proofer-ignore} as technologists in the federal government.
 
 ## Joe Lindsey
 
