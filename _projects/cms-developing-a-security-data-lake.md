@@ -2,7 +2,7 @@
 id: cms-developing-a-security-data-lake
 agency: "Centers for Medicare and Medicaid Services"
 agency_abbrev: "CMS"
-agency_logo: "/assets/images/agencies/CMS.png"
+agency_logo: "/assets/images/agencies/CMS.webp"
 title: "Developing a Security Data Lake at CMS"
 project_name: "Developing a Security Data Lake at CMS"
 summary: "Supporting the Office of Information Technology at the Centers for Medicare and Medicaid Services in empowering CMS users and teams to use core security products and services to achieve their missions more securely."

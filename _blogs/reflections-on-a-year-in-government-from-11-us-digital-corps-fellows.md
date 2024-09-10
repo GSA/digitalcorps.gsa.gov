@@ -1,7 +1,7 @@
 ---
 id: reflections-on-a-year-in-government-from-11-us-digital-corps-fellows
 title: 'Reflections on a year in government from 11 U.S. Digital Corps fellows'
-image: /assets/images/blogs/headers/reflections-on-a-year-in-government-from-11-us-digital-corps-fellows.png
+image: /assets/images/blogs/headers/reflections-on-a-year-in-government-from-11-us-digital-corps-fellows.webp
 author: 
 published_at: "2023-07-18"
 summary: "Eleven U.S. Digital Corps Fellows from our inaugural 2022 cohort reflect on what they've learned about serving as technologists in the federal government at the end of their first year."
@@ -15,7 +15,7 @@ social: blog
 In June 2022, 38 technologists started as the inaugural cohort of the [U.S. Digital Corps](https://digitalcorps.gsa.gov/). Our two-year fellowship has given us an incredible introduction to civil service, opportunities for professional growth, and a supportive community of peers. As we crossed our one-year mark, we reflected on what we’ve learned about serving as a technologist in the federal government. Here’s what some of us had to say.
 
 <div>
-  <img src="{{site.baseurl}}/assets/images/blogs/u-s-digital-corps-logo.png" alt="The red-white-and-blue themed logo for the U.S. Digital Corps." />
+  <img src="{{site.baseurl}}/assets/images/blogs/u-s-digital-corps-logo.webp" alt="The red-white-and-blue themed logo for the U.S. Digital Corps." />
 </div>
 
 ## Kira Tebbe, Product Manager

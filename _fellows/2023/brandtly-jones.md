@@ -1,19 +1,19 @@
 ---
 id: brandtly-jones
 title: Brandtly Jones
-image: /assets/images/fellows/2023/brandtly-jones.png
+image: /assets/images/fellows/2023/brandtly-jones.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-brandtly-jones.png
+social_image: /assets/images/social/fellows/social-brandtly-jones.webp
 fellow_year: 2023
 project: ["na"]
-agency: ["DOS"]
+agency: ["State"]
 hometown: Charlottesville, VA
 university: University of Virginia
 region: east
 bio_short: Data scientist ready to  apply data skills to real-world problems
 why: "I was attracted to the USDC by the opportunity to have a big impact while using data science for good. I am launching a new career after years in education, so the opportunity for mentorship while applying data skills to real-world problems at scale offers an ideal combination for me."
 fun_fact: Brandtly and his wife climbed Mt. Kilimanjaro on their honeymoon. 
-tags: ['east', '2023','Data_Science_And_Analytics', 'DOS', 'active']
+tags: ['east', '2023','Data_Science_And_Analytics', 'State', 'active']
 track: ['Data Science and Analytics']
 ---
 

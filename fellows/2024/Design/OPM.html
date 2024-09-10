@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2024 Office of Personnel Management Design Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 2024,OPM,Design
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

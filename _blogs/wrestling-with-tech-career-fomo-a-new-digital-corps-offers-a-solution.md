@@ -1,7 +1,7 @@
 ---
 id: va-fomo-digital-corps
 title: 'Wrestling with tech career FOMO? A new Digital Corps offers a solution'
-image: /assets/images/blogs/2023-usdc-fellows.jpeg
+image: /assets/images/blogs/2023-usdc-fellows.webp
 author: 
 published_at: "2021-07-23"
 summary: "Look no further, mission-oriented IT jobseekers! A new Federal government initiative, the United States Digital Corps , is a two year-long paid fellowship opportunity for those wanting to direct their IT and digital skills and interests toward public service-oriented projects at scale."

@@ -1,9 +1,9 @@
 ---
 id: jina-ryu
 title: Jina Ryu
-image: /assets/images/fellows/2023/jina-ryu.png
+image: /assets/images/fellows/2023/jina-ryu.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-jina-ryu.png
+social_image: /assets/images/social/fellows/social-jina-ryu.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["VA"]

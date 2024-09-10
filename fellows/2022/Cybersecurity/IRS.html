@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2022 Internal Revenue Service Cybersecurity Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 2022,IRS,Cybersecurity
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

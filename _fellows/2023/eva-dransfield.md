@@ -1,9 +1,9 @@
 ---
 id: eva-dransfield
 title: Eva Dransfield
-image: /assets/images/fellows/2023/eva-dransfield.png
+image: /assets/images/fellows/2023/eva-dransfield.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-eva-dransfield.png
+social_image: /assets/images/social/fellows/social-eva-dransfield.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["CISA"]

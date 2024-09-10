@@ -1,7 +1,7 @@
 ---
 id: from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service
 title: 'From Silicon Valley to GovTech: How a Data Scientist Turned Their Passion for Helping People Into a Career in Public Service'
-image: /assets/images/blogs/headers/from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service.png
+image: /assets/images/blogs/headers/from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service.webp
 author: Dahianna Salazar Foreman
 published_at: "2021-10-25"
 summary: "Data scientist Avena Cheng at the Centers for Medicare and Medicaid Services shares her path to public service and her work supporting modernizing data processes for data.cms.gov as part of USDC's series of profiles on public interest technologists in the federal government."
@@ -12,12 +12,12 @@ social: blog
 ---
 *This post was originally published on the [Digital.gov blog](https://digital.gov/2021/10/25/from-silicon-valley-to-govtech-how-a-data-scientist-turned-their-passion-for-helping-people-into-a-career-in-public-service/).*
 
-When thinking about a career in government, not many people envision themselves working in tech, but you’ll be surprised at how many opportunities are available for technologists to make an impact in public service. I talked to Avena Cheng, a data scientist at the [Centers for Medicare and Medicaid Services](https://www.cms.gov/) (CMS), about her journey in government tech and her impactful work at CMS. She works in the [Office of Enterprise Data and Analytics](https://www.cms.gov/About-CMS/Agency-Information/CMSLeadership/Office-OEDA), and specifically the Information Products and Analytics Group.
+When thinking about a career in government, not many people envision themselves working in tech, but you’ll be surprised at how many opportunities are available for technologists to make an impact in public service. I talked to Avena Cheng, a data scientist at the [Centers for Medicare and Medicaid Services](https://www.cms.gov/) (CMS), about her journey in government tech and her impactful work at CMS. She works in the [Office of Enterprise Data and Analytics](https://www.cms.gov/about-cms/leadership/office-enterprise-data-analytics), and specifically the Information Products and Analytics Group.
 
 ## What was your path to a career in government tech? What made you consider public service in the first place?
 
 <div class="usa-image-block">
-  <img src="{{site.baseurl}}/assets/images/blogs/avena-cheng.png" alt="Photo of Avena Cheng" />
+  <img src="{{site.baseurl}}/assets/images/blogs/avena-cheng.webp" alt="Photo of Avena Cheng" />
 </div>
 
 I had known for a while that I wanted to work on something meaningful and impactful, and that public service is one way to do that. This was motivated by the fact that I lived in Silicon Valley long enough to see a lot of people with a ton of technical talent chasing after money and prestige in the private sector and big name companies, and not really thinking about the ethical implications of the work they do.

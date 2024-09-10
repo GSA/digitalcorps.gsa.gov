@@ -1,12 +1,12 @@
 ---
 id: rasheem-vereen
 title: Rasheem Vereen
-image: /assets/images/fellows/2023/rasheem-vereen.png
+image: /assets/images/fellows/2023/rasheem-vereen.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-rasheem-vereen.png
+social_image: /assets/images/social/fellows/social-rasheem-vereen.webp
 fellow_year: 2023
 project: ["na"]
-agency: 
+agency: ["ACF"]
 hometown: Conyers, GA 
 university: Strayer University
 region: southeast

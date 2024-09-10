@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2024 Department of Veterans Affairs Software Engineering Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 2024,VA,Software_Engineering
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

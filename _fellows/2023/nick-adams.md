@@ -1,9 +1,9 @@
 ---
 id: nick-adams
 title: Nick Adams
-image: /assets/images/fellows/2023/nick-adams.png
+image: /assets/images/fellows/2023/nick-adams.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-nick-adams.png
+social_image: /assets/images/social/fellows/social-nick-adams.webp
 fellow_year: 2023
 project: ["na"]
 agency: ["CDC"]

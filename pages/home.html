@@ -63,17 +63,17 @@ redirect_from:
   
   <div class="benefits">
     <div class="benefit">
-      <img src="{{site.baseurl}}/assets/images/home/Home_High_impact.png" alt="fellows visiting the white house" />
+      <img src="{{site.baseurl}}/assets/images/home/Home_High_impact.webp" alt="fellows visiting the white house" />
       <h3 class="twoline"> High-impact <br class="display-none tablet:display-inline" /> work </h3>
       <p>Work with federal employees to improve how government serves all Americans in a digital age.</p>
     </div>
     <div class="benefit">
-      <img src="{{site.baseurl}}/assets/images/home/learning_dev.png" alt="fellows huddled up by table" />
+      <img src="{{site.baseurl}}/assets/images/home/learning_dev.webp" alt="fellows huddled up by table" />
       <h3 class="twoline">Learning and <br class="display-none tablet:display-inline" /> development</h3>
       <p>Grow as a technologist through dedicated programming; learn how to leverage unique government resources and opportunities.</p>
     </div>
     <div class="benefit">
-      <img src="{{site.baseurl}}/assets/images/home/mentorship.png" alt="fellows having a friendly conversation" />
+      <img src="{{site.baseurl}}/assets/images/home/mentorship.webp" alt="fellows having a friendly conversation" />
       <h3 class="twoline">Mentorship and <br class="display-none tablet:display-inline" /> community</h3>
       <p>Join a diverse community of mission-driven technologists dedicated to the public interest.</p>
     </div>
@@ -88,15 +88,35 @@ redirect_from:
 
       <!-- tech talent -->
       <div class="tablet:grid-col">
-        <div class="home-apply">
-          <div class="box-content text-white">
-            <!-- <h2 class="padding-top-2">APPLY NOW</h2> -->
-            <p>The U.S. government is in the midst of a digital transformation. We need skilled junior technologists with experiences and identities that reflect the diversity of America to join the public servants already at work modernizing and simplifying government services—reaching and improving the lives of all Americans.</p>
-            {% if site.apply_now %}
-            <p><strong>Applications for the U.S. Digital Corps are now open.</strong> <a class="usa-link" href="{{site.baseurl}}/apply/">Apply today</a>.</p>
-            {% endif %}
+
+         <!-- fellows -->
+         <div class="grid-row">
+          <div class="grid-col box-pane-button home-fellows">
+            <a class="usa-button" href="{{site.baseurl}}/fellows/">
+              <div class="box-pane">
+                <h2>Our Fellows</h2>
+                <p class="usa-link--alt usa-link--external">
+                  Read more about our USDC Fellows
+                </p>
+              </div>
+            </a>
           </div>
         </div>
+
+        <!-- projects -->
+        <div class="grid-row">
+          <div class="grid-col box-pane-button home-projects">
+            <a class="usa-button" href="{{site.baseurl}}/projects/">
+              <div class="box-pane">
+                <h2>Agency Impact</h2>
+                <p class="usa-link--alt usa-link--external">
+                  Make a difference for the American public
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+
       </div>
 
       <div class="tablet:grid-col">

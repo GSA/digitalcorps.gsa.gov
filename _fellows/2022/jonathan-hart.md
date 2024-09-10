@@ -1,19 +1,19 @@
 ---
 id: jonathan-hart
 title: Jonathan Hart
-image: /assets/images/fellows/2022/Jonathan Hart.png
+image: /assets/images/fellows/2022/Jonathan Hart.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-jonathan-hart.png
+social_image: /assets/images/social/fellows/social-jonathan-hart.webp
 fellow_year: 2022
 project: ["dos-managing-a-crisis-with-data-and-empathy", "state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners"]
-agency: ["DOS"]
+agency: ["State"]
 hometown: Los Angeles, CA
 university: San Diego Mesa College
 region: west
 bio_short: Data scientist with a background in biochemistry
 why: "During the first few months of 2020, my research institute was closed, and I volunteered to do COVID-19 research in a laboratory. I felt like we were tackling big problems to benefit society. When the time came to look for a new position, I came across the U.S. Digital Corps. It was outside of my field, but I have experience in data science. USDC is open to those who have taken a nontraditional path, and I was excited to see how fellows' projects will impact society."
 fun_fact: Jonathan loves to hike and has climbed the highest mountain in the continental United States (Mt. Whitney in California). The last major mountain he's been up is Mt. Emei in China. Climbing all 5 of the Taoist sacred mountains in China is on his bucket list.
-tags: ['west', '2022','Data_Science_And_Analytics', 'DOS', 'active']
+tags: ['west', '2022','Data_Science_And_Analytics', 'State', 'active']
 track: ['Data Science and Analytics']
 ---
 

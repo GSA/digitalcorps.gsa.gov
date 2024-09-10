@@ -1,7 +1,7 @@
 ---
 id: from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech
 title: 'From Fellowship To Full-time: How a CFPB Software Engineer Helped Protect Consumers and Built a Career in Civic Tech'
-image: /assets/images/blogs/headers/from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech.png
+image: /assets/images/blogs/headers/from-fellowship-to-full-time-how-a-cfpb-software-engineer-helped-protect-consumers-and-built-a-career-in-civic-tech.webp
 author: Chris Kuang
 published_at: "2022-03-07"
 summary: "Ans Bradford, a front-end web developer at the Consumer Financial Protection Bureau, shares his journey to civic tech and public service via several fellowship programs and his work supporting CFPB's internal design system as part of USDC's series of profiles on public interest technologists in the federal government."
@@ -15,7 +15,7 @@ social: blog
 When thinking about a technology career, not many people envision themselves working in government, but you’ll be surprised by how many opportunities are available for technologists to make an impact in public service. The [U.S. Digital Corps](https://digitalcorps.gsa.gov/) is a new two-year fellowship for recent graduates and other early-career technologists to serve in the federal government with skills ranging from software engineering and cybersecurity, to product management, design, and data science & analytics.
 
 <div class="usa-image-block">
-  <img src="{{site.baseurl}}/assets/images/blogs/anselm-bradford.png" alt="Portrait headshot of Anselm Bradford, who is wearing wire glasses and a dark gray collared shirt." />
+  <img src="{{site.baseurl}}/assets/images/blogs/anselm-bradford.webp" alt="Portrait headshot of Anselm Bradford, who is wearing wire glasses and a dark gray collared shirt." />
 </div>
 
 In continuing our series of profiles of public interest technologists in government, I talked to Ans Bradford, a front-end web developer at the [Consumer Financial Protection Bureau](https://www.consumerfinance.gov/) (CFPB), about his journey in civic tech and his impactful work at CFPB.

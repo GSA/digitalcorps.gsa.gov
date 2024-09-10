@@ -1,19 +1,19 @@
 ---
 id: ashwini-shankar
 title: Ashwini Shankar
-image: /assets/images/fellows/2022/Ashwini Shankar.png
+image: /assets/images/fellows/2022/Ashwini Shankar.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-ashwini-shankar.png
+social_image: /assets/images/social/fellows/social-ashwini-shankar.webp
 fellow_year: 2022
 project: ["dos-managing-a-crisis-with-data-and-empathy", "state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners"]
-agency: ["DOS"]
+agency: ["State"]
 hometown: Atherton, CA
 university: Tufts University
 region: west
 bio_short: Data scientist passionate about technology with a social impact
 why: I have always been interested in technology for social good. The Digital Corps perfectly matches what I wanted to do with my degree and skillset, and it seemed like an incredible opportunity to make meaningful change because working in government provides a chance to have a broad impact and support policy-making through technology.
 fun_fact: Ashwini is a twin!
-tags: ['west', '2022','Data_Science_And_Analytics', 'DOS', 'active']
+tags: ['west', '2022','Data_Science_And_Analytics', 'State', 'active']
 track: ['Data Science and Analytics']
 ---
 

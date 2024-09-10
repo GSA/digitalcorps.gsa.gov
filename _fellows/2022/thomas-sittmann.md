@@ -1,9 +1,9 @@
 ---
 id: thomas-sittmann
 title: Thomas Sittmann
-image: /assets/images/fellows/2022/Thomas Sittmann.png
+image: /assets/images/fellows/2022/Thomas Sittmann.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-thomas-sittmann.png
+social_image: /assets/images/social/fellows/social-thomas-sittmann.webp
 fellow_year: 2022
 project: ["acf"]
 agency: ["ACF"]
