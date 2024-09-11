@@ -10,6 +10,7 @@ project_url: https://www.hhs.gov/about/strategic-plan/introduction/index.html
 youtube_url: https://youtu.be/1aPNfOxbQyc
 impact_story_link: hhs-enhancing-health-equity-by-bringing-the-experiences-of-people-with-Long-COVID
 the_impact: true
+the_approach: true
 the_solution: false
 skill_set: ['Design']
 tags: ['Health','Design', 'HHS']
