@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: U.S. Census Bureau Cybersecurity Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: USCB,Cybersecurity
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

@@ -5,7 +5,7 @@ image: /assets/images/fellows/2022/Samira Sadat.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-samira-sadat.webp
 fellow_year: 2022
-project: ["gsa-expanding-voting-access"]
+project: ["gsa-expanding-voting-access-in-underserved-communities"]
 agency: ["GSA"]
 hometown:
 university: North Dakota State University

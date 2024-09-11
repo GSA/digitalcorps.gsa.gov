@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Office of Personnel Management Data Science and Analytics Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: OPM,Data_Science_And_Analytics
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

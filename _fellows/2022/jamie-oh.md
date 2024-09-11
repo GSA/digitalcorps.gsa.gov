@@ -6,14 +6,14 @@ social: fellow
 social_image: /assets/images/social/fellows/social-jamie-oh.webp
 fellow_year: 2022
 project: ["dos"]
-agency: ["DOS"]
+agency: ["State"]
 hometown: Irvine, CA
 university: Johns Hopkins University
 region: west
 bio_short: Product manager ready to positively affect federal digital transformation and public needs
 why: "I joined USDC to contribute to impactful projects that will positively affect federal digital transformation and public needs!" 
 fun_fact: Jamie is a lifelong learner and will pick up anything in detail that seems interesting!
-tags: ['west', '2022','Product_Management', 'DOS', 'active']
+tags: ['west', '2022','Product_Management', 'State', 'active']
 track: ['Product Management']
 ---
 
