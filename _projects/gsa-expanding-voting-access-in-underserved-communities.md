@@ -10,6 +10,7 @@ project_url: https://www.gsa.gov/about-us/mission-and-background
 youtube_url: https://youtu.be/CLFiHE7j5p4
 impact_story_link: gsa-vote
 the_impact: false
+the_approach: true
 the_solution: true
 skill_set: ['Software Engineering']
 tags: ['Software_Engineering','Public_experience']
