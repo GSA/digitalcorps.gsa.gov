@@ -110,7 +110,7 @@
         height: 200px;
     }
 
-    &:hover {
+    &:hover, &:focus-within {
         @include u-bg("transparent");
         outline-style: solid;
         outline-color: color("primary-vivid");

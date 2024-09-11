@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2022 Department of Homeland Security Software Engineering Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 2022,DHS,Software_Engineering
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

@@ -28,19 +28,16 @@ const parseURL = () => {
     if (validAgencies.includes(item) ) {
       agencySelect.value = item;
       json = json.filter(fellow => fellow.agency === item);
-      break;
     }
 
     if (validTracks.includes(item)) {
       trackSelect.value = item;
       json = json.filter(fellow => fellow.track === item);
-      break;
     }
     
     if (validYears.includes(item)) {
       yearSelect.value = item;
       json = json.filter(fellow => fellow.fellow_year === item);
-      break;
     }
   }
   return json; // used in filters.tests.js
@@ -95,7 +92,16 @@ searchbox.addEventListener('keyup', () => {
 // we need to track both the filters by way of the URL so that if someone shares the path, we can render the right results
 const buildPath = () => {
   const base = `${siteBaseurl}/fellows`;
-  return trackSelect.value ? base + `/${trackSelect.value}` : yearSelect.value ? base + `/${yearSelect.value}` : (agencySelect.value ? base + `/${agencySelect.value}` : base)
+  if (yearSelect.value) {
+    base += `/${yearSelect.value}`;
+  }
+  if (trackSelect.value) {
+    base += `/${trackSelect.value}`;
+  } 
+  if (agencySelect.value) {
+    base += `/${agencySelect.value}`;
+  }
+  return base;
 };
 
 const doSJS = (json, searchterm) => {

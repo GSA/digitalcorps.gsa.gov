@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Defense Technical Information Center Cybersecurity Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: DTIC,Cybersecurity
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
