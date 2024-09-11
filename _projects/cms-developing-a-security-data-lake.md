@@ -10,6 +10,7 @@ project_url: https://www.cms.gov/about-cms/agency-information/history
 youtube_url: https://youtu.be/1aPNfOxbQyc
 impact_story_link: cms-developing-a-security-data-lake
 the_impact: true
+the_approach: false
 the_solution: false
 skill_set: ['Cybersecurity']
 tags: ['Cybersecurity', 'Capacity_building']

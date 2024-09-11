@@ -1,12 +1,22 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    Ascii85 (1.1.0)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    afm (0.2.2)
+    async (2.8.1)
+      console (~> 1.10)
+      fiber-annotation
+      io-event (~> 1.1)
+      timers (~> 4.1)
     autoprefixer-rails (10.4.16.0)
       execjs (~> 2)
     colorator (1.1.0)
     concurrent-ruby (1.2.3)
+    console (1.23.3)
+      fiber-annotation
+      fiber-local
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -15,18 +25,23 @@ GEM
     eventmachine (1.2.7)
     execjs (2.9.1)
     ffi (1.16.3)
+    fiber-annotation (0.2.0)
+    fiber-local (1.0.0)
     forwardable-extended (2.6.0)
-    html-proofer (3.19.4)
+    hashery (2.1.2)
+    html-proofer (5.0.8)
       addressable (~> 2.3)
-      mercenary (~> 0.3)
+      async (~> 2.1)
       nokogiri (~> 1.13)
-      parallel (~> 1.10)
+      pdf-reader (~> 2.11)
       rainbow (~> 3.0)
       typhoeus (~> 1.3)
       yell (~> 2.0)
+      zeitwerk (~> 2.5)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
+    io-event (1.4.2)
     jekyll (3.9.4)
       addressable (~> 2.4)
       colorator (~> 1.0)
@@ -72,9 +87,14 @@ GEM
     nokogiri (1.16.7)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    parallel (1.24.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
+    pdf-reader (2.12.0)
+      Ascii85 (~> 1.0)
+      afm (~> 0.2.1)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
     posix-spawn (0.3.15)
     public_suffix (5.0.4)
     racc (1.8.1)
@@ -85,6 +105,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.2.6)
     rouge (3.30.0)
+    ruby-rc4 (0.1.5)
     safe_yaml (1.0.5)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -94,10 +115,13 @@ GEM
     sprockets (4.2.1)
       concurrent-ruby (~> 1.0)
       rack (>= 2.2.4, < 4)
+    timers (4.3.5)
+    ttfunk (1.7.0)
     typhoeus (1.4.1)
       ethon (>= 0.9.0)
     webrick (1.8.1)
     yell (2.2.2)
+    zeitwerk (2.6.12)
 
 PLATFORMS
   ruby
@@ -105,7 +129,7 @@ PLATFORMS
 DEPENDENCIES
   autoprefixer-rails
   execjs (= 2.9.1)
-  html-proofer (~> 3.18)
+  html-proofer (~> 5.0)
   jekyll (~> 3.9)
   jekyll-feed (~> 0.17)
   jekyll-include-cache

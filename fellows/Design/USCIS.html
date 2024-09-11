@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: U.S. Citizenship and Immigration Services Design Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: USCIS,Design
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
