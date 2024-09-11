@@ -10,6 +10,7 @@ project_url: https://www.state.gov/about/
 youtube_url: https://youtu.be/vpej2adw_nc
 impact_story_link: state-department-leveraging-data-to-support-the-release-of-222-nicaraguan-political-prisoners
 the_impact: true
+the_approach: true
 the_solution: false
 skill_set: ["Product management","Data science"]
 tags: ["Data_Science", "Product_Management", "Immigration"]
