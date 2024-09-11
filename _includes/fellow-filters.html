@@ -48,46 +48,60 @@
   </div>
   
   <script type="text/javascript">
+
+    const buildFilterUrl = (year, track, agency) => {
+      let url = '';
+      if (year) {
+        url += `${year}/`;
+      }
+      if (track) {
+        url += `${track}/`;
+      }
+      if (agency) {
+        url += `${agency}/`;
+      }
+      return url;
+    }
   
     const validAgencies = [{% for agency in site.data.agencies %} "{{ agency.name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
     const validTracks = [{% for track in site.data.fellow-tracks %} "{{ track.url_name }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
     const validYears = [{% for year in site.data.years %} "{{ year }}" {% unless forloop.last %},{% endunless %} {% endfor %}]
     
-    // Agency Select
+    // Selectors 
     var agencySelect = document.getElementById("fellows-select-agency");
+    var trackSelect = document.getElementById("fellows-select-track");
+    var yearSelect = document.getElementById("fellows-select-year");
+
+    // Agency Select
     agencySelect.addEventListener('change', (event) => {
-      window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-agency";
+      window.location.href = "{{ site.baseurl }}/fellows/" + buildFilterUrl(yearSelect.value, trackSelect.value, event.target.value);
     });
   
     // Track Select
     var trackSelect = document.getElementById("fellows-select-track");
     trackSelect.addEventListener('change', (event) => {
-      window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-track";
+      window.location.href = "{{ site.baseurl }}/fellows/" + buildFilterUrl(yearSelect.value, event.target.value, agencySelect.value);
     });
 
-     // Year Select
-     var yearSelect = document.getElementById("fellows-select-year");
-  yearSelect.addEventListener('change', (event) => {
-    window.location.href = "{{ site.baseurl }}/fellows/" + event.target.value + "#fellows-select-year";
-  });
+    // Year Select
+    var yearSelect = document.getElementById("fellows-select-year");
+    yearSelect.addEventListener('change', (event) => {
+      window.location.href = "{{ site.baseurl }}/fellows/" + buildFilterUrl(event.target.value, trackSelect.value, agencySelect.value);
+    });
   
     // get match from pathname
     var splitPath = window.location.pathname.split('/')
     for (i in splitPath) {
       item = splitPath[i]
       if (validYears.includes(item) ) {
-      yearSelect.value = item;
-      console.log(yearSelect.value);
-      break;
+        yearSelect.value = item;
       }
       if (validAgencies.includes(item) ) {
         agencySelect.value = item;
-        break;
       }
   
       if (validTracks.includes(item)) {
         trackSelect.value = item;
-        break;
       }
     }
     

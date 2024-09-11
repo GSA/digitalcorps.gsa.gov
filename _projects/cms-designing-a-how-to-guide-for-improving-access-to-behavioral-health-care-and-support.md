@@ -10,6 +10,7 @@ project_url: https://www.cms.gov/about-cms/agency-information/history
 youtube_url: https://youtu.be/1aPNfOxbQyc
 impact_story_link: cms-designing-a-how-to-guide-for-improving-access-to-behavioral-health-care-and-support
 the_impact: true
+the_approach: true
 the_solution: false
 skill_set: ['Product management','Design' ]
 tags: ['Product_Management','Design', 'Health', 'Capacity_building']

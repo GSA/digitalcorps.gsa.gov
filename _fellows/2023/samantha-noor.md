@@ -6,14 +6,14 @@ social: fellow
 social_image: /assets/images/social/fellows/social-samantha-noor.webp
 fellow_year: 2023
 project: ["na"]
-agency: ["HRSA"]
+agency: ["GSA"]
 hometown: Corona, CA
 university: University of Southern California
 region: midwest
 bio_short: Designer passionate about using creativity and technology to create a more equitable government
 why: "I joined the U.S. Digital Corps because it resonated with my passion for utilizing technology to promote social good and provided me an opportunity to enact meaningful change in government and policymaking. This unique opportunity allows me to work in a role where I can contribute to fostering trust in government, enhancing equity of service delivery, and making a substantial impact on those in need. Moreover, I am thrilled to be part of a cohort that offers unparalleled mentorship, training, and a supportive community that values public service."
 fun_fact: 'Samantha once performed an aria inside South Africa’s Cango Caves.'
-tags: ['midwest', '2023','Design', 'HRSA', 'active']
+tags: ['midwest', '2023','Design', 'GSA', 'active']
 track: ['Design']
 ---
 

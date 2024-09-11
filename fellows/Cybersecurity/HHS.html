@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Department of Health and Human Services Cybersecurity Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: HHS,Cybersecurity
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

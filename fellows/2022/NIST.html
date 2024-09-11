@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: 2022 National Institute of Standards and Technology Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: 2022,NIST
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}
