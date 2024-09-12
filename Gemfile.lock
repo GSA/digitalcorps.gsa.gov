@@ -95,13 +95,8 @@ GEM
       ruby-rc4
       ttfunk
     posix-spawn (0.3.15)
-<<<<<<< dependabot/bundler/nokogiri-1.16.7
-    public_suffix (5.0.4)
-    racc (1.8.1)
-=======
     public_suffix (6.0.0)
-    racc (1.7.3)
->>>>>>> main
+    racc (1.8.1)
     rack (3.0.9.1)
     rainbow (3.1.1)
     rb-fsevent (0.11.2)
