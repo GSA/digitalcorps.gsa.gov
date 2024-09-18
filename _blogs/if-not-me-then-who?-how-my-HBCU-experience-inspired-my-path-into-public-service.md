@@ -26,7 +26,7 @@ Claflin University is the oldest HBCU in South Carolina, resting on a tranquil c
 I spent four beautiful years on that campus, interrupted only by a semester abroad in Japan and a global pandemic that sent us home for a semester. But I left, not simply with a degree in my hands and lifelong friends in my network, but with skill, tenacity, and the renowned “Claflin Confidence” that empowered me in every step I took after crossing that stage. I keep it with me even now, as I step into my role as a USDC Design Fellow.
 
 <div>
-  <img src="{{site.baseurl}}/assets/images/blogs/thalia-cu-pride.webp" alt="Thalia and classmates in a group smiling at the camera and making a C with their hands."/>
+  <img style="display: block; margin-left: auto; margin-right: auto; width: 100%;" src="{{site.baseurl}}/assets/images/blogs/thalia-cu-pride.webp" alt="Thalia and classmates in a group smiling at the camera and making a C with their hands."/>
 </div>
 
 I’m still very new to government, but what I do know about public service is that it is indeed about serving. When I think of the ways I can use my content design skills, experience, and expertise to palpably impact the lived experience of people in this country from Orange County to Orangeburg, I point to the heart for giving, serving, and caring for others that my HBCU instilled in me. It is in fact this very same heart for service and care that HBCUs as institutions were founded on. 
