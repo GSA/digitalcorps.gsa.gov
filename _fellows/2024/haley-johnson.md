@@ -5,7 +5,7 @@ image: /assets/images/fellows/2024/haley-johnson-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-haley-johnson.webp
 fellow_year: 2024
-project: ["na"]
+project: ["CMS"]
 agency: 
 hometown: Manistee, MI
 university: University of Michigan
@@ -13,7 +13,7 @@ region: midwest
 bio_short: "Data scientist passionate about using data for policymaking that improves people's lives"
 why: Policymaking and improving people’s lives. At USDC, I have the unique opportunity to work on high-impact projects that directly impact Americans and foster positive change. 
 fun_fact: 'Haley is an avid Wikipedia editor. She mainly contributes to articles about pop culture, geography, and Northern Michigan.'
-tags: ['midwest', '2024','Data_Science_And_Analytics', 'active']
+tags: ['midwest', '2024','Data_Science_And_Analytics','CMS', 'active']
 track: ['Data Science and Analytics']
 ---
 
