@@ -1,0 +1,13 @@
+---
+layout: fellow-landing
+title: Department of Defense Design Fellows
+sidenav: true
+banner: true
+pagination:
+  enabled: true
+  collection: fellows
+  sort_field: 'title'
+  tag: DOD,Design
+---
+
+{% include_cached fellows-list.html  fellows=paginator.posts %}

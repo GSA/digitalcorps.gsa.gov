@@ -111,3 +111,34 @@ li {
     @include u-text("primary-vivid");
   }
 }
+.usa-link--icon{
+  text-decoration: underline;
+}
+.usa-link--icon::after {
+  background-image: url($baseurl + "/assets/images/icons/launch.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #1b2b85;
+  width: 1.75ex;
+  /* background-position: center; */
+  content: "";
+  display: inline-block;
+  height: 1.75ex;
+  margin-left: 2px;
+  margin-top: 0.7ex;
+  position: relative;
+}
+
+.usa-link-icon-alt::after {
+  background-image: url($baseurl + "/assets/images/icons/launch-white.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1.75ex;
+  /* background-position: center; */
+  content: "";
+  display: inline-block;
+  height: 1.75ex;
+  margin-left: 2px;
+  margin-top: 0.7ex;
+  position: relative;
+}

@@ -9,6 +9,7 @@ summary: "Embedding cybersecurity expertise and best practices to ensure that U.
 project_url: https://www.state.gov/about/
 impact_story_link: state-evaluating-emerging-technologies-and-global-cyber-posture-at-the-department-of-state
 the_impact: false
+the_approach: true
 the_solution: false
 skill_set: ['Cybersecurity']
 tags: ['Cybersecurity']

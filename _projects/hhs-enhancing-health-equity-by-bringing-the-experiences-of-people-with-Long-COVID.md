@@ -10,6 +10,7 @@ project_url: https://www.hhs.gov/about/strategic-plan/introduction/index.html
 youtube_url: https://youtu.be/1aPNfOxbQyc
 impact_story_link: hhs-enhancing-health-equity-by-bringing-the-experiences-of-people-with-Long-COVID
 the_impact: true
+the_approach: true
 the_solution: false
 skill_set: ['Design']
 tags: ['Health','Design', 'HHS']
@@ -25,7 +26,7 @@ Within the Office of the Assistant Secretary for Health (OASH), [HHS InnovationX
 
 ## The challenge
 Early in the COVID-19 pandemic, people and communities reported new, persistent, or reoccurring symptoms or conditions for weeks, months, or even years after COVID-19 infection.
-As of May 2022, one million American lives were lost to COVID-19. [Roughly 6% of adults](https://www.cdc.gov/mmwr/volumes/72/wr/mm7232a3.htm)  infected with the virus that causes COVID-19 can experience long-term effects, known as [Long COVID](https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html), with nearly 25% reporting significant activity limitations. Research has shown that a Long COVID condition can last weeks, months, or years, and affect people of all ages, backgrounds, and demographics. Previously healthy individuals may become disabled while others heal. Researchers are working quickly to better understand this multi-systemic, multi-faceted disease.
+As of May 2022, one million American lives were lost to COVID-19. [Roughly 6% of adults](https://www.cdc.gov/mmwr/volumes/72/wr/mm7232a3.htm)  infected with the virus that causes COVID-19 can experience long-term effects, known as [Long COVID](https://www.cdc.gov/covid/long-term-effects/), with nearly 25% reporting significant activity limitations. Research has shown that a Long COVID condition can last weeks, months, or years, and affect people of all ages, backgrounds, and demographics. Previously healthy individuals may become disabled while others heal. Researchers are working quickly to better understand this multi-systemic, multi-faceted disease.
 
 ## The approach
 A U.S. Digital Corps design fellow supported the creation of the [Health+ Long COVID Report](https://www.hhs.gov/sites/default/files/healthplus-long-covid-report.pdf), highlighting the experiences of people with Long COVID and defining solutions. The Fellow helped lead a research team that completed over 1,000 hours of interviews and four workshops, all designed to listen and learn from people who are or were affected by Long COVID, caregivers, and practitioners. 
