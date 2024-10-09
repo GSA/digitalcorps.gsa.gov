@@ -60,6 +60,7 @@ Sample Resume 3 - [Design ] [3]{:target="_blank"}
 Sample Resume 4 - [Product Management] [4]{:target="_blank"}
 
 [4]:{{ site.baseurl }}/pdfs/Product_Management_1.pdf
+Sample Resume 5 - [Cybersecurity] [5]{:target="_blank"}
 
 [5]:{{ site.baseurl }}/pdfs/Cybersecurity_1.pdf
 
