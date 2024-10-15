@@ -7,87 +7,103 @@
   fullname: Administration for Children and Families
   val: adminCF
   url: 
+  description: 
+  project: true
 
 - name: CMS
   fullname: Centers for Medicare & Medicaid Services
   val: cmedsrvcs
   url: http://www.cms.gov
   description: The Centers for Medicare & Medicaid Services (CMS) is the agency within the U.S. Department of Health and Human Services (HHS) that administers the nation’s major healthcare programs. The CMS oversees programs including Medicare, Medicaid, the Children's Health Insurance Program (CHIP), and the state and federal health insurance marketplaces.
+  project: true
 
 - name: CISA
   fullname: Cybersecurity & Infrastructure Security Agency
   val: cybinfr
   url: 
   description:
+  project: true
 
 - name: CFPB
   fullname: Consumer Financial Protection Bureau
   val: cfpbureau
   url: 
   description:
+  project: true
 
 - name: DHS
   fullname: Department of Homeland Security
   val: deptHS
   url: https://www.dhs.gov
   description: 
+  project: false
 
 - name: DOD
   fullname: Department of Defense
   val: deptOfDefense
   url: https://www.defense.gov/
   description:
+  project: false
 
 - name: EEOC
   fullname: Equal Employment Opportunity Commission
   val: eeoc
   url: https://www.eeoc.gov/
   description:
+  project: false
 
 - name: EPA
   fullname: Environmental Protection Agency
   val: envProtAgncy
   url: 
   description:
+  project: true
 
 - name: FEMA
   fullname: Federal Emergency Management Agency
   val: fema
   url: http://www.fema.gov
   description:
+  project: false
 
 - name: GSA
   fullname: General Services Administration
   val: genSrvcsAdmin
   url: https://gsa.gov
   description: The General Services Administration (GSA) is an independent agency of the United States government established in 1949 to help manage and support the basic functioning of federal agencies. GSA supplies products and communications for U.S. government offices, provides transportation and office space to federal employees, and develops government-wide cost-minimizing policies and other management tasks.
+  project: true
 
 - name: HHS
   fullname: Department of Health and Human Services
   val: deptHHS
   url: http://www.hhs.gov
+  project: true
 
 - name: IRS
   fullname: Internal Revenue Service
   val: internalRevenueSrvc
   url: https://www.irs.gov/
+  project: false
 
 - name: NIST
   fullname: National Institute of Standards and Technology
   val: nationalInstituteST
   url: https://www.nist.gov/
+  project: false
 
 - name: OPM
   fullname: Office of Personnel Management
   val: officePM
   url: 
   description:
+  project: true
 
 - name: OSTP
   fullname: White House Office of Science and Technology Policy
   val: whteHouseOSTP
   url: http://www.whitehouse.gov/administration/eop/ostp
   description:
+  project: true
 
 # - name: SBA
 #   fullname: Small Business Administration
@@ -99,70 +115,81 @@
   val: deptState
   url: http://www.state.gov
   description:
+  project: true
 
 - name: USCB
   fullname: U.S. Census Bureau
   val: usCensus
   url: http://www.census.gov
   description:
+  project: true
 
 - name: USCIS
   fullname: U.S. Citizenship and Immigration Services
   val: usCitzImmigSrvcs
   url: 
   description:
+  project: true
 
 - name: VA
   fullname: Department of Veterans Affairs
   val: deptVA
   url: http://www.va.gov
   description:
+  project: true
 
 - name: USDA
   fullname: U.S. Department of Agriculture
   val: usDeptAgr
   url: https://www.usda.gov/our-agency/about-usda
   description:
+  project: true
 
 - name: USFS
   fullname: U.S. Forest Service
   val: usForestSrvce
   url: https://www.fs.usda.gov/
   description:
+  project: false
 
 - name: CDC
   fullname: Centers for Disease Control and Prevention
   val: cntrDiseaseCntrl
   url: https://www.cdc.gov/about/
   description:  
+  project: true
 
 - name: HRSA
   fullname: Health Resources and Services Administration
   val: hlthRsrcsSrvcsAdmin
   url: https://www.hrsa.gov/about 
   description:  
+  project: true
 
 - name: NIH
   fullname: National Institutes of Health
   val: ntnlInstituteHlth
   url: https://www.nih.gov/about-nih
   description: 
+  project: true
 
 - name: DTIC
   fullname: Defense Technical Information Center
   val: dfnseTechInfoCntr
   url: https://discover.dtic.mil/
   description: 
+  project: true
 
 - name: DOC
   fullname: Department of Commerce
   val: deptCommrce
   url: 
   description: 
+  project: true
 
 - name: USGS
   fullname: U.S. Geological Survey
   val: usGeoSrvy
   url: https://www.usgs.gov/
   description:
-  
+  project: false
