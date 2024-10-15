@@ -1,19 +1,5 @@
 #List of events for apply page
 
-- name: 2024 Grace Hopper Celebration
-  timestamp: 2024-10-8T12:00:00+01:00
-  month: OCT
-  day: 8-11
-  eventLink: https://ghc.anitab.org/
-  eventDescription: USDC leadership and Fellows are back at GHC this year! Stop by our booth to meet with Fellows and learn more about how you can kickstart your career in civic tech.
-
-- name: Stanford University's Public Interest Tech Summit & Career Fair
-  timestamp: 2024-10-11T12:00:00+01:00
-  month: OCT
-  day: 11
-  eventLink: https://alltechishuman.org/all-tech-is-human-blog/public-interest-tech-summit-amp-career-fair
-  eventDescription:  Our team will be at the Stanford University's public interest tech summit and career fair! Be sure to stop by to meet our team and learn more about how you can kickstart your career in civic tech.
-
 - name: EOP's STEM Diversity Career Expo
   timestamp: 2024-10-16T11:00:00+01:00
   month: OCT
