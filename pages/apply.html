@@ -155,126 +155,33 @@ social: apply
 
       <!-- EVENTS SECTION -->
     <div style="text-align: left; align-items: center;" class="apply-events">
+
       <h3 class="site-preview-heading">UPCOMING EVENTS</h3>
       <p>Please email <a href="mailto:{{site.email}}">{{site.email}}</a> if you'd like to invite USDC to speak or present at your event.</p>
+      {% assign events = site.data.events | sort:"timestamp" %}
       <ul class="usa-collection">
+        {% for event in events %}
         <li class="usa-collection__item">
           <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-8T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">8-11</span></time
+            <time datetime="{{event.timestamp}}"
+              ><span class="usa-collection__calendar-date-month">{{event.month}}</span>
+              <span class="usa-collection__calendar-date-day">{{event.day}}</span></time
             >
           </div>
           <div class="usa-collection__body">
             <h4 class="usa-collection__heading">
               <a
                 class="usa-link"
-                href="https://ghc.anitab.org/"
-                >2024 Grace Hopper Celebration</a
+                href="{{event.eventLink}}"
+                >{{event.name}}</a
               >
             </h4>
             <p class="usa-collection__description">
-              USDC leadership and Fellows are back at GHC this year! Stop by our booth to meet with Fellows and learn more about how you can kickstart your career in civic tech.
+              {{event.eventDescription}}
             </p>
           </div>
         </li>
-        <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-11T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">11</span></time>
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://alltechishuman.org/all-tech-is-human-blog/public-interest-tech-summit-amp-career-fair"
-                >Stanford University's Public Interest Tech Summit & Career Fair
-              </a>
-            </h4>
-            <p class="usa-collection__description">
-              Our team will be at the Stanford University's public interest tech summit and career fair! Be sure to stop by to meet our team and learn more about how you can kickstart your career in civic tech.
-            </p>
-          </div>
-        </li>
-        <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-16T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">16</span></time>
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://eop.com/career-expos/stem-diversity-exhibitor-intro/"
-                >EOP's STEM Diversity Career Expo
-              </a>
-            </h4>
-            <p class="usa-collection__description">
-             USDC will be attending EOP's STEM Diversity virtual career expo. Stop by our booth to learn more about the program and connect with our team and current Fellows ahead of our next application cycle opening later this Fall.
-            </p>
-          </div>
-        </li>
-         <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-22T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">22</span></time
-            >
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://gsa.zoomgov.com/webinar/register/WN_oBQZWLguTnK4593tjH1T3Q#/registration"
-                >U.S. Digital Corps Info Session</a
-              >
-            </h4>
-            <p class="usa-collection__description">
-              In anticipation of applications for our 2025 cohort opening later this Fall, join us for a general info session to learn more about the program and launching your civic tech career in government.
-            </p>
-          </div>
-        </li>
-        <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-27T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">27</span></time>
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://www.outforundergrad.org/digital"
-                >O4U Digital
-              </a>
-            </h4>
-            <p class="usa-collection__description">
-             Our team will be at the O4U Digital career fair! Be sure to stop by to meet our team and learn more about how you can kickstart your career in civic tech.
-            </p>
-          </div>
-        </li>
-         <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-11-01T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">NOV</span>
-              <span class="usa-collection__calendar-date-day">01</span></time
-            >
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://gsa.zoomgov.com/webinar/register/WN_ShrqTE7VTg6Z0cBQTMaoxg#/registration"
-                >U.S. Digital Corps Info Session</a
-              >
-            </h4>
-            <p class="usa-collection__description">
-              In anticipation of applications for our 2025 cohort opening later this Fall, join us for a general info session to learn more about the program and launching your civic tech career in government.
-            </p>
-          </div>
-        </li>
+        {% endfor %}
       </ul>
       </div>
       <!-- YOUTUBE VIDEO SECTION -->
