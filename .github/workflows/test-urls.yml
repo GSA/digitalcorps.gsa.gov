@@ -31,4 +31,4 @@ jobs:
         run: npm run build && npm run start-detached
 
       - name: Test for broken URLs
-        run: bundle exec htmlproofer --ignore-status-codes "0,403,405,406,429,503,999" --allow-hash-href --no-enforce-https --swap-urls "https\://digitalcorps.gsa.gov:" _site
+        run: bundle exec htmlproofer --ignore-status-codes "0,403,405,406,429,503,999" --no-enforce-https --swap-urls "https\://digitalcorps.gsa.gov:" _site
