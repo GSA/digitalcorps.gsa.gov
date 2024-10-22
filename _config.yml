@@ -226,6 +226,7 @@ sass:
     - assets/images/opportunity
     - assets/images/projects
     - assets/images/apply
+    - assets/images/press
     - node_modules/uswds/dist/
     - node_modules/uswds/dist/img
     - node_modules/uswds/dist/js
