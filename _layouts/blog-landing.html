@@ -36,11 +36,19 @@ layout: default
   </section> -->
 
   <!-- Blogs -->
-  <section class="grid-container desktop:padding-x-15 usa-layout-docs usa-section">
+  <section class="grid-container padding-bottom-0 desktop:padding-x-15 usa-layout-docs usa-section">
     <div id='blog-search-default' class="list-blogs">
       {{content}}
     </div>
     {% include pagination.html %}
+  </section>
+
+  <!-- Last Updated and Helpful Form  -->
+  <section class="usa-section padding-top-0">
+    <div class="grid-container">
+      {% include last-modified.html %}
+      {% include_cached touchpoint-survey-script.html %}
+    </div>
   </section>
 
   <!-- SIGN-UP -->
