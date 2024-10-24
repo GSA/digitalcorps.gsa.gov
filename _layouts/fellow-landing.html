@@ -34,18 +34,20 @@ layout: default
   </section>
 
   <!-- Fellows -->
-  <section class="grid-container usa-layout-docs usa-section">
+  <section class="grid-container padding-bottom-0 usa-layout-docs usa-section">
     <div id='fellow-search-default' class="list-fellows">
       {{content}}
     </div>
     <!-- search results container -->
     <div id='fellow-search-results' class="list-fellows">
     </div>
-    <section class="usa-section" style="width: 100%;">
-      {% include last-modified.html %}
-    </section>
     {% include pagination.html %}
-    {% include_cached touchpoint-survey-script.html %}
+  </section>
+  <section class="usa-section padding-top-0" style="width: 100%;">
+    <div class="grid-container">
+      {% include last-modified.html %}
+      {% include_cached touchpoint-survey-script.html %}
+    </div>
   </section>
 
   <!-- Quote -->
