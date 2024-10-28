@@ -1,4 +1,4 @@
-
+<div style="text-align: right; margin-top: 0.5rem;">
   <script src="https://touchpoints.app.cloud.gov/touchpoints/359fba10.js" async></script>
 
 
@@ -6,6 +6,34 @@
 {% assign tpText = "Was this page helpful?" %}
 {% assign tpClasses = "usa-button usa-button--outline" %}
 
-<div class="touchpoints__container" role="complementary" aria-label="Page feedback">
-    <button type="button" class="{{ tpClasses }}" id="touchpoints-modal-button" aria-label="{{ tpLabel }}" tabindex="0">{{ tpText }}</button>
+<button id="openModal" class="{{tpClasses}}" aria-label="Page feedback">{{tpText}}</button>
+<div id="touchpoint-modal" class="touchpoints__container feedback-modal" role="complementary">
+  <div class="modal-content">
+    <span style="font-weight: bold;
+    padding: 0 2%;
+    font-size: x-large;
+    cursor: pointer;" class="close">&times;</span>
+    <div id="touchpoints-yes-no-form"></div>
+  </div>
 </div>
+
+</div>
+
+<!-- JAVASCRIPT FOR MODAL -->
+<script>
+  var tpModal = document.getElementById("touchpoint-modal");
+  var tpBtn = document.getElementById("openModal"); 
+  var close = document.getElementsByClassName("close")[0];
+
+  tpBtn.onclick = function() {
+    tpModal.style.display = "block";
+  }
+  close.onclick = function() {
+    tpModal.style.display = "none";
+  }
+  window.onclick = function() {
+    if(event.target == tpModal){
+      tpModal.style.display = "none";
+    }
+  }
+</script>
