@@ -1,7 +1,7 @@
 ---
 id: zïa-maldonado
 title: Zïa Maldonado
-image: /assets/images/fellows/2024/zia-maldonado-headshot-update.webp
+image: /assets/images/fellows/2024/zïa-maldonado-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-zïa-maldonado.webp
 fellow_year: 2024
