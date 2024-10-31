@@ -1,7 +1,7 @@
 ---
 id: bryan-pablo
 title: Bryan Pablo
-image: 
+image: /assets/images/fellows/2024/bryan-pablo-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-bryan-pablo.webp
 fellow_year: 2024
