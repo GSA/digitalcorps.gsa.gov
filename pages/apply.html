@@ -28,7 +28,7 @@ social: apply
             <strong>Applications for the 2025 U.S. Digital Corps cohort will open this fall.</strong><br/>
           </p> 
           <p class="margin-bottom-0">
-            Subscribe to our newsletter below to stay informed about future opportunitites to apply to the Digital Corps as well as for upcoming news, updates, and events. 
+            Subscribe to our newsletter below to stay informed about future opportunities to apply to the Digital Corps as well as for upcoming news, updates, and events. 
           </p>
           <br/>
           <div class="text-left">
@@ -155,126 +155,34 @@ social: apply
 
       <!-- EVENTS SECTION -->
     <div style="text-align: left; align-items: center;" class="apply-events">
+
       <h3 class="site-preview-heading">UPCOMING EVENTS</h3>
       <p>Please email <a href="mailto:{{site.email}}">{{site.email}}</a> if you'd like to invite USDC to speak or present at your event.</p>
+      {% assign events = site.data.events | sort:"timestamp" %}
       <ul class="usa-collection">
+        {% for event in events %}
         <li class="usa-collection__item">
           <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-4T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">4</span></time
+            <time datetime="{{event.timestamp}}"
+              ><span class="usa-collection__calendar-date-month">{{event.month}}</span>
+              <span class="usa-collection__calendar-date-day">{{event.day}}</span></time
             >
           </div>
           <div class="usa-collection__body">
             <h4 class="usa-collection__heading">
               <a
                 class="usa-link"
-                href="https://conference.aises.org/"
-                >2024 AISES National Conference</a
+                href="{{event.eventLink}}"
+                data-proofer-ignore
+                >{{event.name}}</a
               >
             </h4>
             <p class="usa-collection__description">
-              Our team will be at the AISES National Conference college and career fair! We are looking forward to meeting Indigenous STEM professionals and students and sharing how you can use your tech skills to improve government services for all.
+              {{event.eventDescription}}
             </p>
           </div>
         </li>
-        <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-8T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">8-11</span></time
-            >
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://ghc.anitab.org/"
-                >2024 Grace Hopper Celebration</a
-              >
-            </h4>
-            <p class="usa-collection__description">
-              USDC leadership and Fellows are back at GHC this year! Stop by our booth to meet with Fellows and learn more about how you can kickstart your career in civic tech.
-            </p>
-          </div>
-        </li>
-        <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-10T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">10</span></time
-            >
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://gsa.zoomgov.com/webinar/register/WN_CAWntKLySsyXIOFbSr1lKQ"
-                >U.S. Digital Corps Info Session</a
-              >
-            </h4>
-            <p class="usa-collection__description">
-              In anticipation of applications for our 2025 cohort opening later this Fall, join us for a general info session to learn more about the program and launching your civic tech career in government.
-            </p>
-          </div>
-        </li>
-        <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-11T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">11</span></time>
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://alltechishuman.org/all-tech-is-human-blog/public-interest-tech-summit-amp-career-fair"
-                >Stanford University's Public Interest Tech Summit & Career Fair
-              </a>
-            </h4>
-            <p class="usa-collection__description">
-              Our team will be at the Stanford University's public interest tech summit and career fair! Be sure to stop by to meet our team and learn more about how you can kickstart your career in civic tech.
-            </p>
-          </div>
-        </li>
-        <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-16T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">16</span></time>
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://eop.com/career-expos/stem-diversity-exhibitor-intro/"
-                >EOP's STEM Diversity Career Expo
-              </a>
-            </h4>
-            <p class="usa-collection__description">
-             USDC will be attending EOP's STEM Diversity virtual career expo. Stop by our booth to learn more about the program and connect with our team and current Fellows ahead of our next application cycle opening later this Fall.
-            </p>
-          </div>
-        </li>
-        <li class="usa-collection__item">
-          <div class="usa-collection__calendar-date">
-            <time datetime="2024-10-27T12:00:00+01:00"
-              ><span class="usa-collection__calendar-date-month">OCT</span>
-              <span class="usa-collection__calendar-date-day">27</span></time>
-          </div>
-          <div class="usa-collection__body">
-            <h4 class="usa-collection__heading">
-              <a
-                class="usa-link"
-                href="https://www.outforundergrad.org/digital"
-                >O4U Digital
-              </a>
-            </h4>
-            <p class="usa-collection__description">
-             Our team will be at the O4U Digital career fair! Be sure to stop by to meet our team and learn more about how you can kickstart your career in civic tech.
-            </p>
-          </div>
-        </li>
+        {% endfor %}
       </ul>
       </div>
       <!-- YOUTUBE VIDEO SECTION -->
@@ -285,7 +193,10 @@ social: apply
   </div>
 </section>
 <section class="usa-section">
-  {% include last-modified.html %}
+  <div class="grid-container">
+    {% include last-modified.html %}
+    {% include_cached touchpoint-survey-script.html %}
+  </div>
 </section>
  
 

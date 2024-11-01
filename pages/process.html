@@ -135,7 +135,6 @@ social: process
                             <li><strong>Transcript or certificate of completion</strong> (official or unofficial). If you are currently enrolled, you can submit proof of enrollment.</li>
                             </ul>
                             </li>
-                            <li>If you require accommodations at any point of the application or hiring process, <a class="usa-link usa-link--external" href="mailto:{{site.email_hr}}">please contact GSA HR</a>.</li>
                         </ul>
                     </li>
                     <li class="usa-process-list__item" id="application">
@@ -151,7 +150,7 @@ social: process
                         <h3 class="usa-process-list__heading">Participate in the selection process and timeline </h3>
                         <p>We’ve included an overview and <strong>tentative timeline</strong> of our selection process to help in your planning.</p>
                         <p>During the application process, all applicants will have the opportunity to consent to sharing their name, application materials, and assessment results with other agencies to be considered for open positions beyond the U.S. Digital Corps. Your choice will not affect your application.</p>
-                        <p>If you require accommodations at any point of the application or hiring process, <a class="usa-link usa-link--external" href="mailto:{{site.email_hr}}">please contact GSA HR</a>.</p>
+                        <p>If you require reasonable accommodations at any point of the application or hiring process, <a class="usa-link usa-link--external" href="mailto:{{site.email_hr}}">please contact GSA HR</a>.</p>
 
                         <div class="usa-accordion" aria-multiselectable="true" aria-label="application process timeline">
 
@@ -189,11 +188,11 @@ social: process
 
                             <h2 class="usa-accordion__heading">
                                 <button class="usa-accordion__button" aria-expanded="false" aria-controls="a4">
-                                    March - May: Interview with host agencies
+                                    March - May: Interview with project agencies
                                 </button>
                             </h2>
                             <div id="a4" class="usa-accordion__content usa-prose">
-                                <p>Qualified candidates will have an opportunity to interview with Digital Corps host agencies and project teams based on mutual interest and alignment of skill sets. At this stage, qualified candidates will receive additional information about the specific agency projects.</p>
+                                <p>Qualified candidates will have an opportunity to interview with Digital Corps project agencies and project teams based on mutual interest and alignment of skill sets. At this stage, qualified candidates will receive additional information about the specific agency projects.</p>
                             </div>
 
                             <h2 class="usa-accordion__heading">
@@ -202,7 +201,7 @@ social: process
                                 </button>
                             </h2>
                             <div id="a5" class="usa-accordion__content usa-prose">
-                                <p>Upon consultation with host agencies, we will finalize agency placements and offers. As the Digital Corps operates within the U.S. General Services Administration (GSA), the GSA HR team will make tentative offers to selected candidates.</p>
+                                <p>Upon consultation with project agencies, we will finalize agency placements and offers. As the Digital Corps operates within the U.S. General Services Administration (GSA), the GSA HR team will make tentative offers to selected candidates.</p>
                                 <p>As your offer details will depend on your work location, we will work with you and your agency to determine your preferred work location subject to the position requirements and telework policies of your agency.</p>
                             </div>
 
@@ -266,7 +265,10 @@ social: process
 </section>
 
 <section class="usa-section">
-    {% include last-modified.html %}
+    <div class="grid-container">
+        {% include last-modified.html %}
+        {% include_cached touchpoint-survey-script.html %}
+    </div>
   </section>
    
   

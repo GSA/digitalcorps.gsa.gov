@@ -22,7 +22,7 @@ _layouts/page.html layout template, or you can add "sidenav: true" in the front-
     {% endfor %}
 
     <p>Partner Agency</p>
-    {% assign agencyFilter = site.data.agencies | sort: 'fullname' %}
+    {% assign agencyFilter = site.data.agencies | where: "project", "true" | sort: 'fullname' %}
     {% for agency in agencyFilter %}
     <div class="filter-checkbox"><input type="checkbox" data-filter="{{agency.name}}"  name="partnerAgency" id="{{agency.val}}"><label for="{{agency.val}}">{{agency.fullname}}</label></div>
     {% endfor %}
