@@ -1,29 +1,8 @@
 #List of events for apply page
 
-- name: EOP's STEM Diversity Career Expo
+- name: Tufts University design networking night
   timestamp: 2024-10-16T11:00:00+01:00
-  month: OCT
-  day: 16
-  eventLink: https://eop.com/career-expos/stem-diversity-exhibitor-intro/
-  eventDescription: USDC will be attending EOP's STEM Diversity virtual career expo. Stop by our booth to learn more about the program and connect with our team and current Fellows ahead of our next application cycle opening later this Fall.
-
-- name: U.S. Digital Corps Info Session
-  timestamp: 2024-10-22T15:00:00+01:00
-  month: OCT
-  day: 22
-  eventLink: https://gsa.zoomgov.com/webinar/register/WN_oBQZWLguTnK4593tjH1T3Q#/registration
-  eventDescription: In anticipation of applications for our 2025 cohort opening later this Fall, join us for a general info session to learn more about the program and launching your civic tech career in government.
-
-- name: O4U Digital
-  timestamp: 2024-10-27T12:00:00+01:00
-  month: OCT
-  day: 27
-  eventLink: https://www.outforundergrad.org/digital
-  eventDescription: Our team will be at the O4U Digital career fair! Be sure to stop by to meet our team and learn more about how you can kickstart your career in civic tech.
-
-- name: U.S. Digital Corps Info Session
-  timestamp: 2024-11-01T12:00:00+01:00
-  month: NOV
-  day: 1
-  eventLink: https://gsa.zoomgov.com/webinar/register/WN_ShrqTE7VTg6Z0cBQTMaoxg#/registration
-  eventDescription: In anticipation of applications for our 2025 cohort opening later this Fall, join us for a general info session to learn more about the program and launching your civic tech career in government.
+  month: Nov
+  day: 7
+  eventLink: https://careers.tufts.edu/blog/2024/08/29/design-networking-night/
+  eventDescription: USDC Fellows will be at Tufts design networking night. Stop by our table to learn more about the program ahead of our next application cycle opening in January.
