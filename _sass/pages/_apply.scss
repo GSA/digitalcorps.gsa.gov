@@ -260,6 +260,18 @@
         }
     }
 }
+// APPLY EVENTS SECTION
+.apply-events {
+    width: 100%;
+    flex: 0 1 auto;
+    @include u-margin-x(0);
+    @include u-padding-x(2);
+    @include at-media("tablet") {
+        width: 50%;
+        @include u-margin-x(0);
+        @include u-padding-y(1);
+    }
+}
 
 // TRACKS
 .apply-tracks {

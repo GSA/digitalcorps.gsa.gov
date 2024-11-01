@@ -1,6 +1,6 @@
 ---
 id: welcome-third-cohort
-title: 'GSA announces new cohort of U.S. Digital Corps fellowss'
+title: 'GSA announces new cohort of U.S. Digital Corps fellows'
 image: 
 author: 
 published_at: "2024-08-13"

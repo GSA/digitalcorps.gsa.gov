@@ -1,7 +1,7 @@
 ---
 id: third-cohort-ai-eo
 title: 'After two years of impact, the U.S. Digital Corps is ready to hire its third cohort'
-image: 
+image: /assets/images/blogs/headers/ready-to hire-its-third-cohort.webp
 author: 
 published_at: "2023-10-31"
 summary: "USDC was included as a key part of the National Artificial Intelligence (AI) Talent Surge in President Biden’s executive order on AI and will recruit for AI-enabling fellows as part of its data science track this year."
