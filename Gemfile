@@ -3,7 +3,7 @@ ruby ">= 3.1"
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "execjs", "2.9.1" # https://github.com/rails/execjs/issues/99
+gem "execjs", "2.10.0" # https://github.com/rails/execjs/issues/99
 gem "autoprefixer-rails"
 gem "sprockets", "~> 4.2"
 gem "kramdown-parser-gfm", "~> 1.1.0"
