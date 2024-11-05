@@ -28,7 +28,7 @@ Having a child is one of the most significant life experiences for any family, y
 The U.S. has seen increasing infant and maternal mortality rates in recent years, especially in Black, Brown, and Indigenous communities ([CDC, 2023](https://blogs.cdc.gov/nchs/2023/11/01/7479/)). Each year, billions of dollars allocated for existing public benefits never reach eligible households because the federal safety net is so difficult to navigate. Lack of awareness, missing or inaccurate information, and complex application processes prevent eligible applicants from receiving or even seeking benefits.
 
 <figure style="width=80%; border: thin #c0c0c0 solid;display: flex; flex-flow: column; padding: 5px; margin: auto;">
-  <img src="{{site.baseurl}}/assets/images/projects/" alt="A person holds a baby while a speech bubble next to them reads, When you call to try to talk to somebody, you never can get through. [...] I have to leave her six messages before she'll ever call me back." />
+  <img src="{{site.baseurl}}/assets/images/projects/birth-to-five-signatories-deep-dive.webp" alt="A person holds a baby while a speech bubble next to them reads, When you call to try to talk to somebody, you never can get through. [...] I have to leave her six messages before she'll ever call me back." />
   <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
     0-5 Discovery Research Phase: A participant shares feedback on the challenges of navigating the public benefits system.
   </figcaption>
