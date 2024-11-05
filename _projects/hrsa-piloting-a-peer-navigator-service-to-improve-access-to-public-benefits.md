@@ -5,16 +5,16 @@ agency_abbrev: "HRSA"
 agency_logo: "/assets/images/agencies/HRSA.webp"
 title: "Piloting a Peer Navigator Service to Improve Access to Public Benefits"
 project_name: "Piloting a Peer Navigator Service to Improve Access to Public Benefits"
-summary: ""
-project_url: 
+summary: "Supporting the "Having a child and early childhood" cross-agency life experience project at the Health Resources and Services Administration by designing the Alumni Peer Navigator (APN) that connected new mothers with social-emotional support, federal benefits programs, and community resources. "
+project_url: https://healthystart-tasc.org/alumni-peer-navigator-apn-services-playbook/ 
 youtube_url: 
 impact_story_link: hrsa-piloting-a-peer-navigator-service-to-improve-access-to-public-benefits
 the_impact: true
 the_approach: true
 the_solution: false
-skill_set: ['']
-tags: []
-impact_area: [""]
+skill_set: ['Design','Product Management']
+tags: ['Product_Management', 'Design', 'Health', 'Equity', 'Public_experience', 'HRSA']
+impact_area: ["Health", "Equity", "Public experience"]
 status: ["current"]
 ---
 
