@@ -8,7 +8,7 @@ project_name: "Piloting a Peer Navigator Service to Improve Access to Public Ben
 summary: ""
 project_url: 
 youtube_url: 
-impact_story_link: gsa-vote
+impact_story_link: hrsa-piloting-a-peer-navigator-service-to-improve-access-to-public-benefits
 the_impact: true
 the_approach: true
 the_solution: false
