@@ -5,7 +5,7 @@ agency_abbrev: "HRSA"
 agency_logo: "/assets/images/agencies/HRSA.webp"
 title: "Piloting a Peer Navigator Service to Improve Access to Public Benefits"
 project_name: "Piloting a Peer Navigator Service to Improve Access to Public Benefits"
-summary: 'Supporting the "Having a child and early childhood" cross-agency life experience project at the Health Resources and Services Administration by designing the Alumni Peer Navigator (APN) that connected new mothers with social-emotional support, federal benefits programs, and community resources. '
+summary: 'Implementing human-centered design to improve access to public benefits for expecting parents in support of the "Having a child and early childhood" cross-agency life experience project at the Health Resources and Services Administration.'
 project_url: https://healthystart-tasc.org/alumni-peer-navigator-apn-services-playbook/ 
 youtube_url: 
 impact_story_link: hrsa-piloting-a-peer-navigator-service-to-improve-access-to-public-benefits
@@ -26,7 +26,7 @@ Having a child is one of the most significant life experiences for any family, y
 
 ## The challenge
 The U.S. has seen increasing infant and maternal mortality rates in recent years, especially in Black, Brown, and Indigenous communities ([CDC, 2023](https://blogs.cdc.gov/nchs/2023/11/01/7479/)). Each year, billions of dollars allocated for existing public benefits never reach eligible households because the federal safety net is so difficult to navigate. Lack of awareness, missing or inaccurate information, and complex application processes prevent eligible applicants from receiving or even seeking benefits.
-
+<br>
 <figure style="width=80%; border: thin #c0c0c0 solid;display: flex; flex-flow: column; padding: 5px; margin: auto;">
   <img src="{{site.baseurl}}/assets/images/projects/birth-to-five-signatories-deep-dive.webp" alt="A person holds a baby while a speech bubble next to them reads, When you call to try to talk to somebody, you never can get through. [...] I have to leave her six messages before she'll ever call me back." />
   <figcaption style="background-color: #222; color: #fff; font: italic smaller sans-serif; padding: 3px; text-align: center;">
