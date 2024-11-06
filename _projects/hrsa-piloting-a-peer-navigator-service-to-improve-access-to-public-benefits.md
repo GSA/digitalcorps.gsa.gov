@@ -51,6 +51,7 @@ Common services included:
 
 Each site had flexibility in their specific implementation of the APN Services model, with general guidance provided by a federal design team from HRSA and USDS. Implementation activities ranged from finding creative ways to engage their communities such as a virtual self-care series to contributing to food pantries or organizing social media groups.The team conducted in-person design visits in Fall 2023 and Spring 2024, which included design sessions with families, alumni peer navigators, and Healthy Start staff to improve the pilot service offerings. 
 
+<br>
 <figure style="width=80%; border: thin #c0c0c0 solid;display: flex; flex-flow: column; padding: 5px; margin: auto;">
   <img src="{{site.baseurl}}/assets/images/projects/hrsa-peer-navigator-workshop-collage.webp" alt="A collage of four images showing a workshop setup: sticky notes on a wall, a group discussion in a classroom, children's books and toys on a table, and boxes with labeled cards and images." />
 </figure>
@@ -65,6 +66,7 @@ Families were incredibly appreciative of the pilot. **A mother in Atlanta commen
 
 Once the proof-of-concept was established, the next steps for HRSA include expanding the program to the more than 100 Healthy Start sites across the country. To support the program’s scaling and sustainability, the team published a [playbook of best practices](https://healthystart-tasc.org/alumni-peer-navigator-apn-services-playbook/) so that other Healthy Start programs can adopt APN Services with lessons learned from the pilot. For current updates on this work, see the project website on [Performance.gov](https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/).
 
+<br>
 <figure style="width=80%; border: thin #c0c0c0 solid;display: flex; flex-flow: column; padding: 5px; margin: auto;">
   <img src="{{site.baseurl}}/assets/images/projects/hrsa-apns-playbook.webp" alt="Image of alumni peer navigator services playbook cover and service model flow" />
 </figure>
