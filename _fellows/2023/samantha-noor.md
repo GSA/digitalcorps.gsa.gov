@@ -5,7 +5,7 @@ image: /assets/images/fellows/2023/samantha-noor.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-samantha-noor.webp
 fellow_year: 2023
-project: ["na"]
+project: ["hrsa-piloting-a-peer-navigator-service-to-improve-access-to-public-benefits"]
 agency: ["GSA"]
 hometown: Corona, CA
 university: University of Southern California
