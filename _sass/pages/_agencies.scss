@@ -1,7 +1,7 @@
 // AGENCY PAGE CUSTOMIZATION
 .agencies-banner {
     .usa-hero {
-      background-image: url($baseurl + "/assets/images/stock/shutterstock_512812102.webp");
+      background-image: url($baseurl + "/assets/images/stock/USDC_Agency_Hero.webp");
        //@include u-bg("primary-dark");
        @include u-text("primary-dark");
         background-position: center center;
@@ -32,30 +32,28 @@
 
         // callout container
         .usa-hero__callout {
-            @include grid-col(6);
-            //@include grid-offset(0);
+            @include grid-col(5);
+            @include grid-offset(7);
             @include u-margin-top(15);
-            text-align: center;
-
+            background-color: rgba(255, 255, 255, 0.6);
             // screen size adjustments
             @include at-media-max("desktop") {
                 @include grid-col(auto);
                 @include grid-offset(none);
                 @include u-margin-top(0);
                 background-color: rgba(255, 255, 255, 0.6);
-                position: relative;
+                position: absolute;
                 bottom: 0;
             }
 
             @include at-media-max("mobile-lg") {
                 position: relative;
-                min-height: 430px;
+                min-height: 500px;
 
                 .content {
                     @include u-padding-x(2);
                     @include u-padding-bottom(3);
-                    @include u-margin-bottom(2);
-                    position: relative;
+                    position: absolute;
                     left: 0;
                     bottom: 0;
                 }
@@ -63,7 +61,6 @@
 
             // subtext
             h2 {
-               // @include u-text("primary-dark");
                 @include u-margin-top(3);
                 @include u-margin-bottom(0);
             }
@@ -75,6 +72,7 @@
       }
       .usa-hero__heading{
         margin-top: 35px;
+        margin-bottom: 35px;
       }
     }
     
