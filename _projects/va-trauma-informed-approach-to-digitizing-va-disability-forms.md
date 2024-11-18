@@ -5,19 +5,20 @@ agency_abbrev: "VA"
 agency_logo: "/assets/images/agencies/VA.webp"
 title: "Designing with compassion: A trauma-informed approach to digitizing VA disability forms"
 project_name: "Designing with compassion: A trauma-informed approach to digitizing VA disability forms"
-summary: ""
+summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 project_url: 
 youtube_url: 
 impact_story_link: va-trauma-informed-approach-to-digitizing-va-disability-forms
 the_impact: true
 the_approach: true
 the_solution: false
-skill_set: [ ]
-tags: ['VA']
-impact_area: []
+skill_set: [ "Design"]
+tags: ['VA', 'Design', 'Health', 'Public_experience']
+impact_area: ["Health", "Public experience"]
 status: ["current"]
 ---
 ## *About VA OCTO* {#the-about}
+
 The Department of Veterans Affairs (VA) is focused on delivering benefits and healthcare services to Veterans, family members and caregivers. The VA’s Office of the Chief Technology Officer (OCTO) is a team of problem solvers in civic tech from diverse backgrounds. OCTO manages the Veteran digital experience, consisting of public-facing websites and native mobile applications as well as the technical and operational infrastructure that supports that experience, all of which have a huge impact on the lives of millions of Veterans, their families, and the people that serve them. VA OCTO’s goal in hosting U.S. Digital Corps Fellows is to bring in fresh talent to join this mission-driven team to help create a better customer experience for Veterans and their families so that they can receive the benefits they've earned. 
 
 ## The challenge
@@ -28,7 +29,7 @@ Some of the key constraints and challenges associated with making this update in
 
 - **“Form within a form” -** The team needed to build the new VA Form 21-0781 within the broader disability compensation application (VA Form 21-526EZ), which is an already lengthy form itself. There were also some areas where both forms were asking for the same information in slightly different ways, creating some areas of redundancy that needed to be addressed.
 
-- **Sensitive subject matter -**Filling out VA Form 21-0781 is a very emotionally burdensome experience as it asks Veterans about their traumatic experiences from the military and the behavioral changes they experienced as a result. 
+- **Sensitive subject matter -** Filling out VA Form 21-0781 is a very emotionally burdensome experience as it asks Veterans about their traumatic experiences from the military and the behavioral changes they experienced as a result. 
 
 
 ## The approach
