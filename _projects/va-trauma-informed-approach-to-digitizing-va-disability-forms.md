@@ -61,7 +61,7 @@ After many iterations of wireframes and prototypes and one round of concept test
         </div>
 
 ## The impact 
-Any Veteran with a mental health condition related to a traumatic event during their time of military service will benefit from this updated form, which is faster and easier to fill out. This is significant, given that almost a **quarter of Veterans** using VA healthcare have PTSD at some point in their lives, and about 1 in 3 female Veterans and 1 in 50 male Veterans report experiencing MST.  [(source)](https://www.ptsd.va.gov/understand/common/common_veterans.asp#:~:text=Veterans%20Who%20Use%20VA%20Health%20Care&text=Of%20the%206%20million%20Veterans,%25)
+Any Veteran with a mental health condition related to a traumatic event during their time of military service will benefit from this updated form, which is faster and easier to fill out. This is significant, given that almost a **quarter of Veterans** using VA healthcare have PTSD at some point in their lives, and about 1 in 3 female Veterans and 1 in 50 male Veterans report experiencing MST.  [(source)](https://www.ptsd.va.gov/understand/common/common_veterans.asp#:~:text=Veterans%20Who%20Use%20VA%20Health%20Care&text=Of%20the%206%20million%20Veterans,%25){: data-proofer-ignore}
 
 The OCTO design community will also benefit from this achievement by using the established design pattern for a “form within a form” for their own projects. This could save teams at least 3-6 months of work, as they can adapt this pattern instead of having to test, synthesize, and retest a new form pattern.
 
