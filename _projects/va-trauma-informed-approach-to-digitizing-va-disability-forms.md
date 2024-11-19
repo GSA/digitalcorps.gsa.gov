@@ -46,19 +46,19 @@ To address the “sensitive subject matter” consideration, the Fellow:
 
 After many iterations of wireframes and prototypes and one round of concept testing with twelve users, the Fellow successfully redesigned VA Form 21-0781. Some key highlights include: 
 - Emergency support alerts that are present on all pages of the 0781 to provide Veterans with mental health support all throughout the experience
-    - <div class="blog-quote-box">
+     <div class="blog-quote-box">
         <p>“When you talk about certain things, you’re back at the situation. And that’s a massive trigger. And to have the support at the bottom [of the page] reminds me, I can talk to a person to talk me off the edge” 
         </p>
         <p>-Veteran feedback</p>
-        </div>
+    </div>
 - Incorporating instructional content and exit paths into the 0781, so that the user can take a break at any time and know that their work is being saved.
 - An “additional forms” design pattern that can be used not only for the 0781, but also for the future implementation of other additional forms for the disability application.
 - Providing Veterans with example responses from VBA as they write the narrative of their traumatic events, which helps the Veteran by providing direction and helps VBA by giving them the details they need to process the claim.
-     - <div class="blog-quote-box">
+     <div class="blog-quote-box">
             <p>“I like that it gives the Veteran the option to share what they are comfortable with, before asking to put every single detail. Because that can be traumatic, reliving every detail.” 
             </p>
             <p>-VBA staff feedback</p>
-        </div>
+    </div>
 
 ## The impact 
 Any Veteran with a mental health condition related to a traumatic event during their time of military service will benefit from this updated form, which is faster and easier to fill out. This is significant, given that almost a **quarter of Veterans** using VA healthcare have PTSD at some point in their lives, and about 1 in 3 female Veterans and 1 in 50 male Veterans report experiencing MST.  [(source)](https://www.ptsd.va.gov/understand/common/common_veterans.asp#:~:text=Veterans%20Who%20Use%20VA%20Health%20Care&text=Of%20the%206%20million%20Veterans,%25){: data-proofer-ignore}
