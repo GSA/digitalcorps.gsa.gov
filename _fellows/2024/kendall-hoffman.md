@@ -1,7 +1,7 @@
 ---
 id: kendall-hoffman
 title: Kendall Hoffman
-image: /assets/images/fellows/2024/kendall-hoffman-headshot-updated.webp
+image: /assets/images/fellows/2024/kendall-hoffman-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-kendall-hoffman.webp
 fellow_year: 2024
