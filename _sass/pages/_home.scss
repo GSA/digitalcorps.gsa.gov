@@ -117,6 +117,7 @@
 }
 
 .home-about {
+  @include u-margin-bottom(2);
   background-image: url($baseurl + "/assets/images/home/Who_we_are_image.webp");
   background-repeat: no-repeat;
   background-size: auto 100%;
