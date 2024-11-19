@@ -108,5 +108,18 @@
         font-weight: normal;
         font-style: italic;
         line-height: 1.2;
+
+        a {
+            text-decoration: none; 
+            @include u-text("primary");
+        }
+
+        a:hover {
+            @include u-text("primary-vivid");
+        }
     }
 }
+
+.spacing{
+    line-height: 1.5;
+  }
