@@ -1,9 +1,15 @@
-<section class="usa-section padding-top-0">
+<section class="usa-section padding-top-0 ">
+   
     <div class="carousel-container snap-inline">
+        <div class="highlight">
+            <h2>
+                Latest News
+            </h2>
+        </div>
         <div class="carousel-inner">
             <div class="track">
                 {% assign sorted = site.blogs | sort: 'published_at' | reverse %}
-                {% for blog in sorted %}
+                {% for blog in sorted limit:6 %}
                 <div class="card-container">
                     <div class="blog-carousel-card">
                       <a href="{{ site.baseurl }}{{ blog.url }}" target="_blank" rel="noopener noreferrer" aria-labelledby="{{ aria_id }}">
