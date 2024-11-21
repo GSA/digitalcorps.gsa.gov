@@ -1,9 +1,9 @@
 ---
-id: leah-young
-title: Leah Young
-image: /assets/images/fellows/2024/leah-young-headshot.webp
+id: leah-forman
+title: Leah Forman
+image: /assets/images/fellows/2024/leah-forman-headshot.webp
 social: fellow
-social_image: /assets/images/social/fellows/social-leah-young.webp
+social_image: /assets/images/social/fellows/social-leah-forman.webp
 fellow_year: 2024
 project: ["na"]
 agency: ["USGS"]

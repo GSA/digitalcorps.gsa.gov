@@ -1,7 +1,7 @@
 ---
 id: valentine-ntobo
 title: Valentine Ntobo
-image: 
+image: /assets/images/fellows/2024/valentine-ntobo-headshot.webp
 social: fellow
 social_image: 
 fellow_year: 2024

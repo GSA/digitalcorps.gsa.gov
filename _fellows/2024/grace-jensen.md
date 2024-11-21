@@ -1,7 +1,7 @@
 ---
 id: grace-jensen
 title: Grace Jensen
-image: 
+image: /assets/images/fellows/2024/grace-jensen-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-grace-jensen.webp
 fellow_year: 2024
