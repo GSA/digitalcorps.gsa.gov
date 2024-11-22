@@ -9,6 +9,7 @@ GEM
       console (~> 1.26)
       fiber-annotation
       io-event (~> 1.6, >= 1.6.5)
+      timers (~> 4.1)
     autoprefixer-rails (10.4.19.0)
       execjs (~> 2)
     bigdecimal (3.1.8)
