@@ -11,7 +11,8 @@ url: "https://digitalcorps.gsa.gov" # the base hostname & protocol for your site
 # global application features on/off
 # remove individual track page.apply_url to disable individual tracks
 # add "- pages/track-*" to exclude section below when set to false to prevent track page indexing
-apply_now: false  
+apply_now: true  
+open_soon: true
 
 # Social media handles (not URL)
 social:
@@ -165,7 +166,7 @@ exclude:
   - package-lock.json
   - README.md
   - vendor
-  - pages/track-*  # toggled off
+  #- pages/track-*  # toggled off
   
   # exclude until search is implemented
  # - pages/search
