@@ -3,7 +3,7 @@ ruby ">= 3.1"
 source "https://rubygems.org"
 
 gem "jekyll", "~> 3.9"
-gem "execjs", "2.9.1" # https://github.com/rails/execjs/issues/99
+gem "execjs", "2.10.0" # https://github.com/rails/execjs/issues/99
 gem "autoprefixer-rails"
 gem "sprockets", "~> 4.2"
 gem "kramdown-parser-gfm", "~> 1.1.0"
@@ -28,4 +28,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 gem "html-proofer", "~> 5.0"
 
-gem "webrick", "~> 1.8"
+gem "webrick", "~> 1.9"

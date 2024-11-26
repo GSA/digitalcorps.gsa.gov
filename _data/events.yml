@@ -1,29 +1,29 @@
 #List of events for apply page
 
-- name: EOP's STEM Diversity Career Expo
-  timestamp: 2024-10-16T11:00:00+01:00
-  month: OCT
-  day: 16
-  eventLink: https://eop.com/career-expos/stem-diversity-exhibitor-intro/
-  eventDescription: USDC will be attending EOP's STEM Diversity virtual career expo. Stop by our booth to learn more about the program and connect with our team and current Fellows ahead of our next application cycle opening later this Fall.
+- name: "USDC Hiring Info Session"
+  timestamp: 2024-12-05T04:00:00+01:00
+  month: Dec
+  day: 5
+  eventLink: https://events.zoomgov.com/ev/AtXfIda6S326a7vctG78y0lR6YVKaO6w1pMSgc_76yX40zraLnBi~AnR4aO6GQJCWurE-bj8alEbIv3Xs9Pe2DMoXRhNJX2GYOUWhFcQkPSYLO9Jj-TtTFVvuqVCvITIrTWCSvfvC5A8DzA
+  eventDescription: Please join us for a general info session on December 5th from 4 - 5pm ET to learn more about the program.
 
-- name: U.S. Digital Corps Info Session
-  timestamp: 2024-10-22T15:00:00+01:00
-  month: OCT
-  day: 22
-  eventLink: https://gsa.zoomgov.com/webinar/register/WN_oBQZWLguTnK4593tjH1T3Q#/registration
-  eventDescription: In anticipation of applications for our 2025 cohort opening later this Fall, join us for a general info session to learn more about the program and launching your civic tech career in government.
+- name: "USDC Hiring Info Session"
+  timestamp: 2024-12-13T12:00:00+01:00
+  month: Dec
+  day: 13
+  eventLink: https://events.zoomgov.com/ev/AqUDHrGejDROwwmHkgroq0KOJDXF-vndAqD4L9dqXvaYpK5bR-6L~AgpJLBjoqlcv5Yqxlqipc-3Sc2oF1gHEaTTWum3GHp3e93W_doXHY2TsPskjMvLVIBul1Z75Qwv1lvep2fKQGX4W-w
+  eventDescription: Please join us for a general info session on December 13th from 12 - 1pm ET to learn more about the program.
 
-- name: O4U Digital
-  timestamp: 2024-10-27T12:00:00+01:00
-  month: OCT
-  day: 27
-  eventLink: https://www.outforundergrad.org/digital
-  eventDescription: Our team will be at the O4U Digital career fair! Be sure to stop by to meet our team and learn more about how you can kickstart your career in civic tech.
+- name: "USDC Hiring Info Session"
+  timestamp: 2024-12-17T04:00:00+01:00
+  month: Dec
+  day: 17
+  eventLink: https://events.zoomgov.com/ev/AuGA1mgSYwAyMLnam8Z7Nc0hO2dFlq9BlVjz5vPIQchakQRsZa45~AuLy8B_FwWNg0LtUCyrza8Ndv_JSxCcSsCGws4Ha91c2UXfTAjDepRSHF9RN21cUz1LcEm9Jh-b2GUI0Zn0JSk6nuA
+  eventDescription: Please join us for a general info session on December 17th from 4 - 5pm ET to learn more about the program.
 
-- name: U.S. Digital Corps Info Session
-  timestamp: 2024-11-01T12:00:00+01:00
-  month: NOV
-  day: 1
-  eventLink: https://gsa.zoomgov.com/webinar/register/WN_ShrqTE7VTg6Z0cBQTMaoxg#/registration
-  eventDescription: In anticipation of applications for our 2025 cohort opening later this Fall, join us for a general info session to learn more about the program and launching your civic tech career in government.
+- name: "USDC Hiring Info Session"
+  timestamp: 2025-01-06T02:00:00+01:00
+  month: Jan
+  day: 6
+  eventLink: https://events.zoomgov.com/ev/Aue3kla9V-yHIzOCyUmnwEaiEg1gQbn6NTH_HIqE148WqjpBvDMt~AnjDh_GVpKbwD4GqV8rYTohxWjB41qx9D3IlLKEmtplfpo1VyRjExIoU8V0_j3uPJEt_MPqKb4jE7Kfx8Wh_aRy5NQ
+  eventDescription: Please join us for a general info session on January 6th from 2 - 3pm ET to learn more about the program.

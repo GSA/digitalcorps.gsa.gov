@@ -1,7 +1,7 @@
 ---
 id: lena-phuong-tran
 title: Lena-Phuong Tran
-image: 
+image: /assets/images/fellows/2024/lena-phuong-tran-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-lena-phuong-tran.webp
 fellow_year: 2024

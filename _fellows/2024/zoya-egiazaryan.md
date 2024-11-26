@@ -1,7 +1,7 @@
 ---
 id: zoya-egiazaryan
 title: Zoya Egiazaryan
-image: /assets/images/fellows/2024/zoya-egiazaryan-headshot-update.webp
+image: /assets/images/fellows/2024/zoya-egiazaryan-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-zobair-wali.webp
 fellow_year: 2024
