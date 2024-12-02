@@ -165,7 +165,7 @@ exclude:
   - package-lock.json
   - README.md
   - vendor
-  - pages/track-*  # toggled off
+  #- pages/track-*  # toggled off
   
   # exclude until search is implemented
  # - pages/search
