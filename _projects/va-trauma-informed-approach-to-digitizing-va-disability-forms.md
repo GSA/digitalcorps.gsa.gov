@@ -5,7 +5,7 @@ agency_abbrev: "VA"
 agency_logo: "/assets/images/agencies/VA.webp"
 title: "Designing with compassion: A trauma-informed approach to digitizing VA disability forms"
 project_name: "Designing with compassion: A trauma-informed approach to digitizing VA disability forms"
-summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+summary: "Applying human-centered and trauma-informed approaches to the redesign of VA disability forms to create a better customer experience for Veterans and their families."
 project_url: 
 youtube_url: 
 impact_story_link: va-trauma-informed-approach-to-digitizing-va-disability-forms
