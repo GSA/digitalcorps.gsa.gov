@@ -1,7 +1,7 @@
 ---
 id: ankhi-afroz-howlader
 title: Ankhi Afroz Howlader
-image: 
+image: /assets/images/fellows/2024/ankhi-afroz-howlader-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-ankhi-afroz-howlader.webp
 fellow_year: 2024

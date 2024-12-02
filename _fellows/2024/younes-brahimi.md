@@ -1,7 +1,7 @@
 ---
 id: younes-brahimi
 title: Younes Brahimi
-image: 
+image: /assets/images/fellows/2024/younes-brahimi-headshot.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-younes-brahimi.webp
 fellow_year: 2024
