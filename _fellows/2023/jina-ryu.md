@@ -5,7 +5,7 @@ image: /assets/images/fellows/2023/jina-ryu.webp
 social: fellow
 social_image: /assets/images/social/fellows/social-jina-ryu.webp
 fellow_year: 2023
-project: ["na"]
+project: ["va-trauma-informed-approach-to-digitizing-va-disability-forms"]
 agency: ["VA"]
 hometown: San Jose, CA 
 university: Johns Hopkins University
