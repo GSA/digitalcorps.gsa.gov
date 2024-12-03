@@ -1,4 +1,6 @@
 {% assign aria_id = fellow.title | url_encode | truncate: 15, "" %}
+
+{% if paginator.posts.size > 0 %}
 {% for fellow in paginator.posts %}
 <div class="fellow-card">
   <a href="{{ site.baseurl }}{{ fellow.url }}" aria-labelledby="{{ aria_id }}">
@@ -22,5 +24,9 @@
 </div>
 
 {% endfor %}
-
+{% else %}
+<div class="no-results" style="padding-left:10px;">
+  <p> No results found. </p>
+</div>
+{% endif %}
 
