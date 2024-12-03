@@ -12,6 +12,27 @@ This template is for a single page that does not have a date associated with it.
       <div class="grid-row grid-gap">
         {% include fellow-aside.html fellow_project=page.project fellow_agency=page.agency fellow_year=page.fellow_year fellow_hometown=page.hometown fellow_track=page.track fellow_education=page.university %}
         <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
+          <!-- BREADCRUMB -->
+           <div>
+            <nav class="usa-breadcrumb usa-breadcrumb--wrap" aria-label="Breadcrumbs,,,">
+              <ol class="usa-breadcrumb__list">
+                <li class="usa-breadcrumb__list-item">
+                  <a href="{{site.baseurl}}" class="usa-breadcrumb__link"><span>Home</span></a>
+                </li>
+                <li class="usa-breadcrumb__list-item">
+                  <a href="{{site.baseurl}}/fellows" class="usa-breadcrumb__link"
+                    ><span>Fellows</span></a
+                  >
+                </li>
+                <li class="usa-breadcrumb__list-item usa-current" aria-current="page">
+                  <span
+                    >{{page.title}}</span
+                  >
+                </li>
+              </ol>
+            </nav>
+           </div>
+
          <h2>{{page.title}}</h2>
          <!-- <p class="usa-intro">
            {{ page.bio_short }}
