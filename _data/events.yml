@@ -1,11 +1,4 @@
 #List of events for apply page
-
-- name: "FormFest 2024"
-  timestamp: 2024-12-04T04:00:00+01:00
-  month: Dec
-  day: 4
-  eventLink: https://web.cvent.com/event/fe574662-e643-4235-bcf1-283399673591/websitePage:5d4e2f12-89fd-44f8-be42-621307c0f340
-  eventDescription: USDC Fellow Louisa Sholar will be speaking in a panel alongside her colleagues in the Low-Income Heat and Energy Assistance Program at the Administration for Children & Families.
   
 - name: "General info session"
   timestamp: 2024-12-05T04:00:00+01:00
@@ -14,7 +7,7 @@
   eventLink: https://events.zoomgov.com/ev/AtXfIda6S326a7vctG78y0lR6YVKaO6w1pMSgc_76yX40zraLnBi~AnR4aO6GQJCWurE-bj8alEbIv3Xs9Pe2DMoXRhNJX2GYOUWhFcQkPSYLO9Jj-TtTFVvuqVCvITIrTWCSvfvC5A8DzA
   eventDescription: Please join us for a general info session on December 5 from 4 - 5pm ET to learn more about the program.
 
-- name: "Techsgiving Summit"
+- name: "Techsgiving summit"
   timestamp: 2024-12-12T04:00:00+01:00
   month: Dec
   day: 12
