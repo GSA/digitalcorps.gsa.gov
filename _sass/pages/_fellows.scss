@@ -230,3 +230,7 @@
   .fellow-funFact{
     @include u-padding-top(4);
   }
+
+  .usa-breadcrumb__list-item:not(:last-child)::after {
+    mask: url(../images/icons/navigate_next.svg) no-repeat center / contain;
+  }
