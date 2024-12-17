@@ -54,9 +54,9 @@ layout: default
           </div>
           <div class="desktop:grid-col-5">
             <div class="project-banner-links">
+              {% if page.project_url %}
               <p class="project-skill-impact">Learn More: </p>
               <div class="learn-more">
-                {% if page.project_url %}
                   <span>
                       <a href={{page.project_url}} target="_blank" rel="noopener"><img src="{{site.baseurl}}/assets/images/icons/Website.webp" alt="{{project.agency}} website" class="project-item-links"/></a>
                   </span>
@@ -65,8 +65,8 @@ layout: default
                   <span> 
                       <a href="{{page.youtube_url}}" target="_blank" rel="noopener"><img src="{{site.baseurl}}/assets/images/icons/Youtube.webp" alt="{{page.agency}} video" class="project-item-links" /></a>
                   </span>
-                  {% endif %}
               </div>
+              {% endif %}
           </div>
           </div>
         </div>
