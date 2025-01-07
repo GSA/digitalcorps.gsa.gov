@@ -1,7 +1,7 @@
 #List of events for apply page
-- name: "General info session"
-  timestamp: 2025-01-06T02:00:00+01:00
+- name: "CyberCorps Scholarship for Service Career Fair"
+  timestamp: 2025-01-08T02:00:00+01:00
   month: Jan
-  day: 6
-  eventLink: https://events.zoomgov.com/ev/Aue3kla9V-yHIzOCyUmnwEaiEg1gQbn6NTH_HIqE148WqjpBvDMt~AnjDh_GVpKbwD4GqV8rYTohxWjB41qx9D3IlLKEmtplfpo1VyRjExIoU8V0_j3uPJEt_MPqKb4jE7Kfx8Wh_aRy5NQ
-  eventDescription: Please join us for a general info session on January 6 from 2 - 3pm ET to learn more about the program.
+  day: 8
+  eventLink: https://web.cvent.com/event/c452e42d-a579-4ed7-87d4-4b87c1bbdaad/summary
+  eventDescription: Come by our booth at the job fair to learn more about the program and how to kickstart your cybersecurity career in government.
