@@ -87,7 +87,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     mini_portile2 (2.8.8)
-    nokogiri (1.16.2)
+    nokogiri (1.18.1)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -141,7 +141,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   kramdown-parser-gfm (~> 1.1.0)
-  nokogiri (~> 1.16)
+  nokogiri (~> 1.18)
   sprockets (~> 4.2)
   tzinfo-data
   webrick (~> 1.9)
